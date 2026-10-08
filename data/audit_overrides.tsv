@@ -28,3 +28,40 @@ goodcase-seedance-arman-exact-same-identity-throughout-334c97a3dc2f	keep		"graph
 youmind-9484	keep		"graphic gore, dismemberment" only appear in the negative-prompt list
 youmind-6276	keep		prompt explicitly asks for no dismemberment / no exposed flesh
 youmind-7817	keep		myth scene (Perseus/Medusa) shown as an obscured silhouette, prompt says avoid gore
+# 2026-10-08 IP re-audit (copyrighted franchise characters named in the prompt; 孙悟空 / 哪吒 kept only when clearly the classical 《西游记》/ mythology version, ambiguous → link-only)
+youmind-193	link-only	copyrighted-character	韩立 (凡人修仙传) vs 王林 (仙逆) — web-novel / donghua characters
+youmind-7007	link-only	copyrighted-character	萧炎 (斗破苍穹) as the subject
+zerolu-5d04c737	link-only	copyrighted-character	哪吒 + 敖丙 ice-fire duel — the 《哪吒之魔童》 film pairing
+youmind-5443	link-only	copyrighted-character	孙悟空 vs 二郎神 explicitly modelled on 《黑神话：悟空》
+youmind-5444	link-only	copyrighted-character	孙悟空 vs 二郎神 "AAA" battle — ambiguous, reads as the 《黑神话：悟空》 version; downgraded to be safe
+youmind-2727	link-only	copyrighted-character	battle-worn 孙悟空 vs skeleton army — ambiguous modern game-like version; downgraded to be safe
+youmind-1815	link-only	copyrighted-character	哪吒 vs 孙悟空 from reference images — ambiguous which (modern film) version; downgraded to be safe
+youmind-291	link-only	copyrighted-character	孙悟空 vs 祖国人 / Homelander (The Boys)
+zerolu-f28470ad	link-only	copyrighted-character	Goku, Saitama, Hinata, Mikasa, Nami … (Dragon Ball / One Punch Man / Naruto / AoT / One Piece)
+youmind-1544	link-only	copyrighted-character	Saitama vs Garou (One Punch Man)
+youmind-4308	link-only	copyrighted-character	Super Saiyan transformation (Dragon Ball)
+youmind-3477	link-only	copyrighted-character	Sung Jinwoo, Igris, Beru (Solo Leveling)
+youmind-7153	link-only	copyrighted-character	cosplayer as Hinata Sakaguchi (That Time I Got Reincarnated as a Slime)
+youmind-3464	link-only	copyrighted-character	Phoebe (鸣潮 / Wuthering Waves)
+youmind-4324	link-only	copyrighted-character	Kuromi & My Melody (Sanrio) anthropomorphised
+youmind-2586	link-only	copyrighted-character	Rapunzel from Tangled (Disney)
+youmind-9343	link-only	copyrighted-character	Spider-Woman web-slinging (Marvel)
+youmind-7197	link-only	copyrighted-character	Street Fighter bathhouse fight: Spinning Bird Kick vs sumo wrestler (Chun-Li / E. Honda)
+youmind-882	link-only	copyrighted-character	recreates a classic Street Fighter match (Hadouken, Shoryuken, HUD)
+youmind-4423	link-only	copyrighted-character	Eddie Gordo vs Paul Phoenix (Tekken 3)
+youmind-664	link-only	copyrighted-character	The Witcher vs Leon / Karl Heisenberg (Resident Evil)
+youmind-433	link-only	copyrighted-character	Wolfwood & Hornfreak (Trigun)
+youmind-347	link-only	copyrighted-character	the Stranger Things party as the subject
+youmind-346	link-only	copyrighted-character	Frodo, Sam, Sauron (The Lord of the Rings)
+youmind-421	link-only	copyrighted-character	Solid Snake (Metal Gear Solid)
+youmind-407	link-only	copyrighted-character	South Park gang
+youmind-7143	link-only	copyrighted-character	Agent Smith clones (The Matrix)
+goodcase-seedance-things-got-out-of-control-the-moment-scooby-spotted-the-sandwich-cf23bc2cdfd4	link-only	copyrighted-character	Scooby-Doo and Shaggy on a desktop wallpaper
+goodcase-seedance-this-ai-is-just-cooking-it-755e0fc25962	link-only	copyrighted-character	Bleach bankai "Katen Kyōkotsu: Karamatsu Shinjū" as the scene
+goodcase-seedance-fusia-exact-same-identity-throughout-d0562ff4eacd	link-only	copyrighted-character	Bleach bankai "Hakka no Togame" as the scene
+youmind-474	link-only	real-person	actor Akshay Kumar as Neo (The Matrix)
+youmind-342	link-only	real-person	Bryan Cranston as Walter White (Breaking Bad)
+youmind-89	link-only	real-person	"famous world leaders" as Mortal Kombat fighters
+youmind-8194	keep		"street fighter" = a generic brawler vs a kung fu master; no game characters
+youmind-5368	keep		"street fighter girl named Nova" — generic word, original character
+youmind-3723	keep		"Stranger Things horror cinematic aesthetic" — style reference only, original characters

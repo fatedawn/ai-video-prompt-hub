@@ -47,7 +47,7 @@ REAL_EN = W(r"Elon\s+Musk", r"Donald\s+Trump", r"Trump", r"Joe\s+Biden", r"Biden
     r"Shah\s+Rukh\s+Khan", r"Salman\s+Khan", r"Greta\s+Thunberg", r"Hitler", r"Adolf\s+Hitler", r"Joseph\s+Stalin", r"Zohran\s+Mamdani", r"Elon(?=\s+(Musk|transform|vs|fight|as)\b)", r"Amitabh\s+Bachchan", r"Roger\s+Federer", r"Rafael\s+Nadal", r"BTS\s+(?:members?|band|Jungkook|V\b)", r"Charlie\s+Kirk",
     r"Zohran\s+Mamdani", r"Sydney\s+Sweeney", r"Millie\s+Bobby\s+Brown", r"Snoop\s+Dogg", r"Eminem", r"Ed\s+Sheeran", r"Bad\s+Bunny", r"Shakira", r"Dua\s+Lipa",
     r"Kendall\s+Jenner", r"Kylie\s+Jenner", r"Hailey\s+Bieber", r"Jenna\s+Ortega", r"Pedro\s+Pascal", r"Jason\s+Momoa", r"Chris\s+Evans",
-    r"Benedict\s+Cumberbatch", r"Tom\s+Hanks", r"Jim\s+Carrey", r"Nicolas\s+Cage", r"Mike\s+Tyson", r"Conor\s+McGregor", r"Jake\s+Paul")
+    r"Benedict\s+Cumberbatch", r"Tom\s+Hanks", r"Jim\s+Carrey", r"Nicolas\s+Cage", r"Mike\s+Tyson", r"Conor\s+McGregor", r"Jake\s+Paul", r"Akshay\s+Kumar", r"Bryan\s+Cranston")
 REAL_ZH = Z("马斯克", "米莉·(?:博比|芭比)·布朗", r"成龙(?=[式风般]|大哥|的电影|电影)", r"(?:和|与|跟|大战|对决|对阵|vs\.?\s*)成龙", "达赖喇嘛", "勒布朗", "迈克尔·乔丹", "斯蒂芬·库里", "科比·布莱恩特", "尤塞恩·博尔特", "蒂姆·库克", "特朗普", "川普", "拜登", "奥巴马", "普京", "泽连斯基", "习近平", "习主席", "总书记", "毛泽东", "毛主席", "邓小平", "江泽民", "胡锦涛",
     "温家宝", "李克强", "彭丽媛", "周恩来", "金正恩", "马克龙", "莫迪", "内塔尼亚胡", "戴安娜王妃", "泰勒·斯威夫特", "霉霉", "迈克尔·杰克逊",
     "梦露", "布拉德·皮特", "汤姆·克鲁斯", "阿汤哥", "威尔·史密斯", "基努·里维斯", "巨石强森", "李小龙", "李连杰", "甄子丹", "周星驰", "刘德华",
@@ -109,7 +109,13 @@ IP_EN = WC(r"Pikachu", r"Pok[eé]mon", r"Charizard", r"Mewtwo", r"Eevee", r"Spid
     r"Kratos", r"Lara\s+Croft", r"Geralt", r"Cyberpunk\s+2077", r"GTA\s*(?:V|5|6|VI|Online)", r"Grand\s+Theft\s+Auto", r"Vice\s+City", r"John\s+Wick", r"James\s+Bond", r"Indiana\s+Jones",
     r"Na'vi", r"Pandora\s+(Avatar|Na'vi)", r"Wall-?E", r"Finding\s+Nemo", r"Teenage\s+Mutant\s+Ninja\s+Turtles", r"Ninja\s+Turtles", r"Power\s+Rangers", r"Scooby-?Doo",
     r"Smurfs?", r"Pac-?Man", r"Angry\s+Birds", r"Among\s+Us", r"Roblox", r"Skibidi", r"Shin\s+Chan", r"Despicable\s+Me", r"Inside\s+Out", r"Zootopia",
-    r"Judy\s+Hopps", r"Nick\s+Wilde", r"Ratatouille", r"Monsters,?\s+Inc", r"Mike\s+Wazowski", r"Encanto", r"Coco\s+(movie|Pixar)", r"Pinocchio\s+(Disney)", r"Rapunzel\s+(Disney)")
+    r"Judy\s+Hopps", r"Nick\s+Wilde", r"Ratatouille", r"Monsters,?\s+Inc", r"Mike\s+Wazowski", r"Encanto", r"Coco\s+(movie|Pixar)", r"Pinocchio\s+(Disney)", r"Rapunzel\s+(Disney)",
+    # 2026-10-08 re-audit additions (distinctive character / franchise names only)
+    r"Spider[\s-]?Woman", r"Super\s+Saiyan", r"Street\s+Fighter", r"Chun[\s-]?Li", r"Spinning\s+Bird\s+Kick", r"Eddie\s+Gordo", r"Paul\s+Phoenix",
+    r"Solo\s+Leveling", r"Sung\s+Jin[\s-]?woo", r"Saitama(?!\s+(?:Prefecture|City|Station))", r"One[\s-]Punch\s+Man", r"Homelander", r"Kuromi", r"My\s+Melody", r"Cinnamoroll",
+    r"Walter\s+White", r"Breaking\s+Bad", r"Solid\s+Snake", r"Metal\s+Gear", r"South\s+Park", r"Scooby(?:-Doo)?", r"Stranger\s+Things", r"Lord\s+of\s+the\s+Rings",
+    r"Frodo", r"Gandalf", r"Sauron", r"Agent\s+Smith", r"Trigun", r"Wolfwood", r"Leon\s+(?:S\.\s+)?Kennedy", r"Resident\s+Evil", r"Rapunzel\s+from\s+Tangled",
+    r"Hinata\s+Sakaguchi", r"Bankai", r"Sun\s+Wukong(?=.{0,80}(?:Black\s+Myth|Homelander))", r"Ne\s?Zha(?=.{0,80}Ao\s?Bing)")
 IP_ZH = Z("皮卡丘", "宝可梦", "神奇宝贝", "喷火龙", "蜘蛛侠：平行宇宙", "蜘蛛侠", "蝙蝠侠", "超人克拉克", "钢铁侠", "美国队长", "绿巨人", "死侍", "金刚狼", "灭霸", "复仇者联盟",
     "哈利波特", "哈利·波特", "霍格沃茨", "鸣人", "佐助", "火影忍者", "卡卡西", "七龙珠", "龙珠Z", "龙珠超", "贝吉塔", "路飞", "索隆", "海贼王", "鬼灭之刃", "鬼灭", "堕姬", "妓夫太郎", "炭治郎", "祢豆子", "进击的巨人",
     "五条悟", "咒术回战", "两面宿傩", "美少女战士", "哆啦A梦", "哆啦a梦", "机器猫", "龙猫", "无脸男", "米老鼠", "米奇老鼠", "唐老鸭", "小熊维尼", "维尼熊", 
@@ -119,7 +125,10 @@ IP_ZH = Z("皮卡丘", "宝可梦", "神奇宝贝", "喷火龙", "蜘蛛侠：�
     "原神(?![殿像社态])", "崩坏：星穹铁道", "崩坏3", "星穹铁道", "鸣潮", "明日方舟", "王者荣耀", "英雄联盟", "金克丝", "堡垒之夜", "鱿鱼游戏", "(?<!·)芭比(?![粉色·])", "拉布布", "Labubu", "露比",
     "奶龙", "蜡笔小新", "名侦探柯南", "樱桃小丸子", "灌篮高手", "间谍过家家", "阿尼亚", "芙莉莲", "电锯人", "我的英雄学院", "初音未来", "约翰·威克", "疾速追杀",
     "詹姆斯·邦德", "夺宝奇兵", "疯狂动物城", "朱迪·霍普斯", "尼克狐", "忍者神龟", "蓝精灵", "愤怒的小鸟", "ポケモン", "ピカチュウ", "ドラえもん", "トトロ",
-    "鬼滅", "炭治郎", "ナルト", "ルフィ", "呪術廻戦", "五条悟", "初音ミク", "ハローキティ", "ウルトラマン", "ガンダム", "エヴァ", "スパイダーマン", "マリオ")
+    "鬼滅", "炭治郎", "ナルト", "ルフィ", "呪術廻戦", "五条悟", "初音ミク", "ハローキティ", "ウルトラマン", "ガンダム", "エヴァ", "スパイダーマン", "マリオ",
+    # 2026-10-08 re-audit additions: web-novel / donghua / game characters (孙悟空 / 哪吒 alone are public-domain myth figures — only their modern versions)
+    "韩立", "凡人修仙传", "仙逆", "斗破苍穹", "萧炎", "斗罗大陆", r"唐三(?![彩藏])", "吞噬星空", "魔童", "大圣归来", r"敖丙(?=.{0,40}哪吒)|哪吒(?=.{0,40}敖丙)", "祖国人",
+    "一拳超人", r"埼玉(?![县縣市])", "超级赛亚人", "我独自升级", "街头霸王", "春丽", "库洛米", "美乐蒂", "绝命毒师", "合金装备", "南方公园", "史酷比", "怪奇物语", "指环王", "弗罗多", "卍解")
 
 # ---- real brands as the advertised product (spec ads that could pass as the brand's official ad) ----
 BRAND = WC(r"Nike", r"Adidas", r"Coca[\s-]?Cola", r"Pepsi", r"Red\s+Bull", r"Monster\s+Energy", r"Mountain\s+Dew", r"Starbucks", r"McDonald'?s",

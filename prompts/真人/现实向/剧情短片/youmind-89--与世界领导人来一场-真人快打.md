@@ -23,36 +23,24 @@ also_in: []
 source_page: "https://youmind.com/en-US/seedance-2-0-prompts?id=89"
 classification: "auto"
 changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+access: "link-only"
+audit_reason: "real-person"
 ---
 
 # 与世界领导人来一场《真人快打》
 
 *Mortal Kombat with World Leaders*
 
-> 一个为 Seedance 2.0 设计的创意提示，要求游戏画面风格类似《真人快打》，但角色是世界各国著名领导人。
+## 仅收录标题与链接
 
-## 提示词（English）
+> 以真实可识别人物（名人、政要、企业家、运动员、主播等）为主体的提示词。为避免转载肖像操纵类指令，本仓库仅保留标题、署名与链接。
 
-```text
-"Mortal Kombat gameplay footage but the characters are famous world leaders"
-```
-
-## 其他语言版本（上游仓库提供，非本仓库翻译）
-
-### YouMind 提供的中文版本（README_zh.md）
-
-[位置](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/93cd7fdd84a16d05cbfb24c840e84ec240143d6b/README_zh.md#L2245)
-
-```text
-“真人快打”游戏画面，但角色是世界著名领导人
-```
+- 审核类别：真实人物（`real-person`），规则与流程见仓库根目录 `CONTRIBUTING.md`「内容审核」
+- 阅读原文：<https://x.com/thedorbrothers/status/2021203121024926171>
 
 ## 出处与许可
 
 - 原作者：[The Dor Brothers](https://x.com/thedorbrothers) · 原帖：<https://x.com/thedorbrothers/status/2021203121024926171>
-- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
 - 收录来源：[YouMind-OpenLab/awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts)，[原文位置](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/93cd7fdd84a16d05cbfb24c840e84ec240143d6b/README.md#L2238)
-- 说明：YouMind 的 README 每天自动轮换展示 100 条提示词；本条取自该仓库 README 的历史版本（commit `93cd7fdd84a1`），与当前版本同为 CC BY 4.0 发布
-- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
-- 效果预览（外部链接，本仓库不收录图片/视频）：<https://youmind.com/en-US/seedance-2-0-prompts?id=89>
-- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)）；本仓库未转载提示词正文
+- 效果预览（外部链接）：<https://youmind.com/en-US/seedance-2-0-prompts?id=89>

@@ -823,7 +823,7 @@ def main():
         held_back=[dict(id=r["id"], source_url=r["source_url"], title=r["title"], reason=r["_held_reason"], kind=r["kind"]) for r in held],
         after_holdback=len(recs), after_dedup=len(kept) + len(removed), taken_down=[r["id"] for r in removed], published=len(kept),
         audit=dict(rules="scripts/audit.py", overrides="data/audit_overrides.tsv",
-                   link_only=dict(Counter(decisions[i][1] for i in link_only)),
+                   link_only=dict(sorted(Counter(decisions[i][1] for i in link_only).items(), key=lambda kv: (-kv[1], kv[0]))),
                    excluded=[dict(id=r["id"], reason=decisions[r["id"]][1]) for r in excluded]),
         merged_groups=merges, near_duplicate_pairs=near_pairs,
         templates={k: sum(1 for t in templates if t["source_key"] == k) for k in ("learnprompt", "manju", "toonflow")},

@@ -3,7 +3,9 @@ import { SCENARIOS, GENERIC, MODIFIERS, MEDIUM_HINTS, DIRECTION_HINTS, ROUTES, B
 import { grams, overlap, norm, slug } from './text.mjs';
 
 // Well-known copyrighted characters/franchises: prompts naming them are pushed down (we recommend original characters).
-const IP_TERMS = ['韩立', '王林', '萧炎', '叶凡', '石昊', '哪吒', '孙悟空', '悟空', '奥特曼', '漫威', '火影', '鸣人', '海贼', '路飞', '龙珠', '皮卡丘', '宝可梦', '蜘蛛侠', '钢铁侠', '蝙蝠侠', '哈利', '迪士尼', '米老鼠', '柯南', '原神', '黑神话', 'naruto', 'marvel', 'pokemon', 'pikachu', 'disney', 'spider-man', 'batman', 'goku', 'harry potter', 'ultraman', 'one piece'];
+// Kept in step with the copyrighted-character rules in scripts/audit.py (those prompts are link-only anyway; this also
+// pushes down full-text prompts that merely mention a franchise, e.g. as a style reference).
+const IP_TERMS = ['韩立', '王林', '萧炎', '唐三', '叶凡', '石昊', '凡人修仙', '斗破', '斗罗', '魔童', '敖丙', '大圣归来', '哪吒', '孙悟空', '悟空', '黑神话', '奥特曼', '漫威', '火影', '鸣人', '海贼', '路飞', '龙珠', '赛亚人', '一拳超人', '埼玉', '祖国人', '我独自升级', '街头霸王', '春丽', '皮卡丘', '宝可梦', '蜘蛛侠', '蜘蛛女', '钢铁侠', '蝙蝠侠', '哈利波特', '哈利·波特', '迪士尼', '米老鼠', '柯南', '原神', '鸣潮', '库洛米', '美乐蒂', '绝命毒师', '指环王', '怪奇物语', '南方公园', 'naruto', 'marvel', 'pokemon', 'pikachu', 'disney', 'spider-man', 'spider-woman', 'batman', 'goku', 'saiyan', 'saitama', 'homelander', 'harry potter', 'ultraman', 'one piece', 'street fighter', 'solo leveling', 'kuromi', 'walter white', 'scooby', 'black myth'];
 const MEDIA = ['crayon', 'colored-pencil', 'pencil', 'ink', 'picture-book', 'marker'];
 const PROVIDER_BY_MEDIUM = { 漫剧: 'seedance', 真人: 'seedance', 其他: 'seedance' };
 

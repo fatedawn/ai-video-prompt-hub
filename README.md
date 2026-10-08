@@ -183,13 +183,13 @@ ai-video-prompt-hub/
 **提示词总数：7258 条**（跨来源去重后）；另有可复用模板 69 个（见 `templates/`）。
 其中 **7147 条** 的提示词版权属于第三方原作者（X/Twitter、微信公众号、博客等，已保留原作者与原帖链接），其中 1 条上游未给出可追溯的原帖链接（已在文件中标记 `no_traceable_original_post`）。
 
-**全文收录 7038 条；仅标题 + 署名 + 链接 220 条**（发布前内容审核降级，见下表与 `CONTRIBUTING.md`「内容审核」）；另有 2 条因涉及未成年人或年龄不明人物的性化内容未收录（只在 `data/extraction_report.json` 记 id 与原因）。
+**全文收录 7001 条；仅标题 + 署名 + 链接 257 条**（发布前内容审核降级，见下表与 `CONTRIBUTING.md`「内容审核」）；另有 2 条因涉及未成年人或年龄不明人物的性化内容未收录（只在 `data/extraction_report.json` 记 id 与原因）。
 
 | 降级原因 | 代码 | 条数 |
 |---|---|---|
-| 版权角色 / IP | `copyrighted-character` | 91 |
+| 版权角色 / IP | `copyrighted-character` | 125 |
 | 品牌官方广告冒用风险 | `brand-ad` | 58 |
-| 真实人物 | `real-person` | 48 |
+| 真实人物 | `real-person` | 51 |
 | 性内容 | `sexual` | 16 |
 | 极端血腥 | `gore` | 6 |
 | 仇恨 | `hate` | 1 |
@@ -198,9 +198,9 @@ ai-video-prompt-hub/
 
 | 来源仓库 | 收录条数（去重后归属） | 全文 | 仅链接 | 另作为重复项出现 | 上游许可 |
 |---|---|---|---|---|---|
-| [YouMind-OpenLab/awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts) | 6472 | 6267 | 205 | 15 | CC-BY-4.0 |
-| [LearnPrompt/awesome-seedance](https://github.com/LearnPrompt/awesome-seedance) | 631 | 618 | 13 | 164 | CC-BY-4.0 (curation) — prompt © original creator |
-| [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) | 44 | 42 | 2 | 26 | MIT |
+| [YouMind-OpenLab/awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts) | 6472 | 6235 | 237 | 15 | CC-BY-4.0 |
+| [LearnPrompt/awesome-seedance](https://github.com/LearnPrompt/awesome-seedance) | 631 | 615 | 16 | 164 | CC-BY-4.0 (curation) — prompt © original creator |
+| [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) | 44 | 40 | 4 | 26 | MIT |
 | [Emily2040/seedance-2.0](https://github.com/Emily2040/seedance-2.0) | 104 | 104 | 0 | 8 | MIT |
 | [lixiaoxiao9888-create/manju-laoli-skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) | 7 | 7 | 0 | 0 | MIT |
 
@@ -273,7 +273,7 @@ ai-video-prompt-hub/
 | Русский | 8 |
 | Español | 2 |
 
-另有 6280 条附带上游提供的其他语言版本（如 YouMind 的中/英版本）。
+另有 6246 条附带上游提供的其他语言版本（如 YouMind 的中/英版本）。
 
 ### 按模型（上游标注）
 

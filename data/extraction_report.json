@@ -229,9 +229,9 @@
   "rules": "scripts/audit.py",
   "overrides": "data/audit_overrides.tsv",
   "link_only": {
-   "copyrighted-character": 91,
-   "real-person": 48,
+   "copyrighted-character": 125,
    "brand-ad": 58,
+   "real-person": 51,
    "sexual": 16,
    "gore": 6,
    "hate": 1

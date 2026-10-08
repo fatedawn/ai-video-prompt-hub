@@ -1,136 +1,4 @@
 ﻿id,title,title_en,medium,direction,genre,art_style,language,model,access,audit_reason,source_repo,source_url,license,original_author,original_post_url,third_party_author,path,prompt
-youmind-7826,沙漠生存动作场面,Desert War Zone Action Sequence,真人,特效向,动作大片,,en,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/0e476b77caf1bca3f1b633119af187fa1b9fcde3/README.md#L2374,CC-BY-4.0,Yazdan,https://x.com/AIwithYazdan/status/2080885095234437505,True,prompts/真人/特效向/动作大片/youmind-7826--沙漠生存动作场面.md,"A hyper-realistic Hollywood survival action sequence in a brutal desert war zone featuring the SAME female warrior from the reference image with identical facial features, hairstyle, skin tone, facial proportions, eyes, lips, nose and expression consistency throughout every frame.
-
-00:00-00:02
-Extreme close-up of her dusty face. Heavy breathing. Tiny grains of sand strike her skin. Her determined eyes slowly lift toward an unseen enemy. Camera slowly pushes in. Cinematic silence except distant explosions.
-
-00:02-00:05
-Massive explosion erupts behind her. She instantly grabs the smoking revolver from the ground and rolls sideways as bullets rip through the sand where she was kneeling. High-speed debris. Dynamic handheld camera with intense motion blur.
-
-00:05-00:08
-She sprints through the sandstorm while firing three powerful revolver shots. Every muzzle flash briefly illuminates her face. Slow-motion shell ejection. Flying sand creates dramatic depth. Camera circles around her 270 degrees.
-
-00:08-00:11
-A military truck bursts through the dust. She jumps onto the side while running, slides across the hood, spins in mid-air, and lands behind cover as another explosion throws debris over the camera lens. Violent camera shake. Ultra realistic physics.
-
-00:11-00:15
-She rises from the smoke, revolver pointed toward camera. Wind violently blows her hair and torn scarf. Bright golden god rays pierce the storm behind her, revealing a battlefield of burning wreckage. She cocks the revolver with one hand, gives a fearless determined look directly into camera as the dust slowly settles. Epic cinematic ending.
-
-Ultra realistic, survival action, aggressive sandstorm, volumetric lighting, ray-traced shadows, realistic dust simulation, flying debris, practical explosions, cinematic anamorphic lens flares, desaturated war color grading, dirty yellows and burnt browns, realistic skin pores, sweat, scratches, battle damage, Octane Render quality, IMAX composition, Hollywood blockbuster, Unreal Engine 5 realism, RED V-Raptor, 85mm anamorphic lens, cinematic film grain, highest detail, masterpiece, 8K."
-youmind-7827,零重力黑白室内场景,Zero Gravity Apartment Cinematic,真人,现实向,剧情短片,,en,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/0e476b77caf1bca3f1b633119af187fa1b9fcde3/README.md#L2448,CC-BY-4.0,BMX,https://x.com/bmx_ai13/status/2080867889952022953,True,prompts/真人/现实向/剧情短片/youmind-7827--零重力黑白室内场景.md,"Create a 15 second photorealistic black and white cinematic film inside a modern high rise apartment on a soft cloudy afternoon. 16:9, 24 fps, natural window light, realistic film grain, deep shadows and calm indie film mood.
-
-0 to 1.3 sec: Macro close up of a relaxed gloved hand. Fingers move slightly.
-
-1.3 to 4.8 sec: Wide apartment shot. One adult calmly floats above the sofa, slowly drifting in zero gravity. Hair and clothes move naturally.
-4.8 to 7.2 sec: Seen through a doorway, the same person gently drifts and slowly turns.
-7.2 to 8.5 sec: Macro shot of a chrome faucet. One water drop forms and falls.
-8.5 to 10.8 sec: Side view. The person continues floating calmly.
-10.8 to 12 sec: Close up of a vintage flip clock showing 2:22.
-12 to 15 sec: Wide final shot. The person floats near the windows in a relaxed seated pose, slowly rotating.
-
-Keep the same person, clothes, room and lighting throughout. No fantasy effects, danger, distortion, text, logos or watermarks. Add soft ambient electronic music, city room tone, one clear water drop and a quiet clock click."
-youmind-7828,日本夏夜纪实影像,Japanese Summer Evening Candid,真人,现实向,年代怀旧,,en,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/26d3b56488dc78858534784d1a6124e544193a14/README.md#L2461,CC-BY-4.0,𝕄𝔸𝕋ℝ𝕀𝕏,https://x.com/matrixmurals/status/2080582977814192218,True,prompts/真人/现实向/年代怀旧/youmind-7828--日本夏夜纪实影像.md,"Main subject: young Japanese woman, early 20s, wearing a pale blue cotton yukata with a subtle hemp leaf pattern, a red obi sash tied at the back, wooden geta sandals, hair swept into a low twisted bun held with a simple kanzashi hairpin, a small paper fan tucked into her obi. Natural everyday appearance, minimal makeup, soft unposed smile, warm candid presence. Maintain consistent identity, clothing, hairstyle, and appearance throughout the entire video.
-
-Location: A quiet Japanese town beside a river during a warm summer evening as dusk settles in. A weathered wooden footbridge, stone steps leading down to the water, paper lanterns strung loosely between poles, a small shrine gate visible at the far end of the street, cicadas calling from nearby trees, fireflies beginning to drift near the water's surface, an old bicycle leaning against a wall, faded wooden signboards. No open shops, no festival stalls, no crowds, just the quiet stillness before an evening gathering.
-
-Visual Style: Unfiltered home movie realism. Tactile, unrehearsed, genuinely spontaneous movement. Imperfect blocking, natural pauses, a strong sense of a real place caught by accident rather than staged. Warm nostalgic texture throughout.
-
-Camera Style: Consumer camcorder from the same early 2000s era, but leaning into different specific quirks: a small onscreen date stamp flickering faintly in the corner, white balance struggling to adjust as she moves between lantern glow and open dusk sky, mild color bleeding around warm light sources, occasional overexposure flare when a lantern passes close to frame, zoom drift when the operator tries to zoom in and overshoots, handheld sway that syncs loosely with footsteps, built in microphone picking up wind noise across its casing, faint tape hiss under the audio. No stabilization. No modern grading. No deliberate cinematic composition.
-
-00:00–00:03 She sits on the stone steps by the river, feet dangling just above the water, adjusting her obi sash with both hands. Lantern light ripples faintly on the surface below.
-
-00:03–00:05 She stands, geta sandals clicking against the stone, and walks toward the wooden footbridge. A breeze lifts the hem of her yukata slightly as she moves.
-
-00:05–00:08 She pauses at the middle of the bridge, resting both arms on the rail, watching fireflies drift near the water. She reaches out gently, trying to catch one, missing on purpose with a small laugh.
-
-00:08–00:10 She opens her paper fan and waves it lazily near her face, distracted a moment later by the cicadas growing louder in the trees above.
-
-00:10–00:12 A gust knocks a loose paper lantern from its string. She crouches to catch it before it touches the water, fumbling slightly, amused at herself.
-
-00:12–00:15 She continues walking toward the shrine gate at the end of the street, lantern in hand, footsteps unhurried. The footage cuts out abruptly with a small flicker just as she passes beneath the gate, as"
-youmind-7829,保持角色一致性的 90 年代 DV 风格动画,Consistent Character DV Aesthetic Animation,漫剧,现实向,剧情短片,未注明,en,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/26d3b56488dc78858534784d1a6124e544193a14/README.md#L2158,CC-BY-4.0,𝐌,https://x.com/Strength04_X/status/2080635568434606436,True,prompts/漫剧/现实向/剧情短片/youmind-7829--保持角色一致性的-90-年代-DV-风格动画.md,"Main subject from <<<image_1>>> lock her completely. Face, skin tone, proportions, outfit identical throughout. Sage hoodie, black wide-leg trousers, tabi socks, slip-on sandals, low bun with wooden pins, jade earrings. Japanese woman, early-20s, late-90s DV"
-youmind-783,黑暗奇幻魔像与精灵电影序列,Dark Fantasy Golem and Fairy Cinematic Sequence,真人,特效向,奇幻怪兽,,en,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/8a4a1c09aa51892695b90372d7db4fc3478cbbcd/README.md#L2616,CC-BY-4.0,Freepik,https://x.com/freepik/status/2029202995637043420,True,prompts/真人/特效向/奇幻怪兽/youmind-783--黑暗奇幻魔像与精灵电影序列.md,"Cinematic sequence, 15 seconds, dark fantasy video game.
-
-[0:00–0:03] Wide shot of the stone golem with his red knitted scarf and glowing orange chest orb walking slowly toward a tranquil lake surrounded by ancient weeping willows, their long branches gently swaying and touching the water's surface, soft golden light filtering through the canopy.
-
-[0:03–0:05] The golem sits down heavily at the edge of the lake, his reflection visible in the still water alongside the glow of his chest orb, a moment of stillness.
-
-[0:05–0:08] Frontal shot facing the golem. Suddenly, the water begins to shimmer and ripple with ethereal light. A fairy emerges from the lake — a delicate, luminous, translucent figure made of soft white and pale blue light, with flowing features that dissolve into particles at the edges, small glowing sparks orbiting around her. She floats gracefully toward the golem, hovering just above the water. She leans close to him and whispers. Faint glowing text appears on screen: ""Humanity awaits you. Only you can save them.""
-
-[0:08–0:10] Cut to close-up of the golem's face — his black eyes widen, his head tilts back in a clear expression of shock and surprise. The orb in his chest flares brightly, pulsing with intense golden light.
-
-[0:10–0:12] The fairy dissolves into particles that scatter upward into the air and disappear. The golem stares at the empty space for a brief moment.
-
-[0:12–0:15] The golem stands up abruptly, his heavy stone body rising with sudden urgency. He turns and begins running away from the lake with determined thundering steps, his red scarf trailing and bouncing behind him. Cut to black.
-
-Atmospheric lighting with cool blue-greens around the lake transitioning to warm gold when the fairy appears, cinematic depth of field, volumetric light through willow branches.
-
-Sound design only, no music: heavy stone footsteps on soft earth approaching the lake, water lapping gently at the shore, a heavy stone thud when he sits, willow branches rustling, water shimmering and chiming when the fairy emerges, a soft ethereal whisper voice delivering the message, silence on the close-up of the golem's surprised face, a bright resonant pulse from the orb flaring, fairy dissolving with"
-youmind-7830,现代都市奇幻喜剧分镜脚本,Modern Urban Fantasy Comedy Storyboard,真人,特效向,古装仙侠玄幻,,zh,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/0e476b77caf1bca3f1b633119af187fa1b9fcde3/README_zh.md#L3122,CC-BY-4.0,John,https://x.com/johnAGI168/status/2080651997993185305,True,prompts/真人/特效向/古装仙侠玄幻/youmind-7830--现代都市奇幻喜剧分镜脚本.md,"[风格] 喜剧反转，写实电影级高清质感，病毒式短视频风格，奇幻与现代都市的荒诞融合，2 位角色。
-[时长] 15 秒
-[场景] 白天城市道路：双向车流，路边非机动车道，人行道旁有一堆废弃的纸箱。
-[角色] 剑仙姐姐 @Image1，骑行姐姐 @Image2
-
-[00:00-00:04] 镜头 1：史诗开场
-低角度追踪镜头：@Image1 站在一把银色飞剑上，平稳地滑行在离地两米的空中。她的裙摆和长发随风向后飘动，双手背在身后，下巴微微扬起，尽显大师风范。
-音频：仙侠风风声 + 剑鸣声。
-
-[00:04-00:08] 镜头 2：对话节奏
-中景追踪镜头：@Image2 在非机动车道骑行，抬头看向 @Image1，双眼圆睁，奋力蹬车试图追上。
-[台词/字幕] @Image2 大喊：“哇！姐姐，你太厉害了！！”
-特写：@Image1 的嘴角勾起一抹努力克制的骄傲微笑，矜持地整理了一下头发，脚下的飞剑俏皮地划出一道 S 型曲线。
-音频：傲娇的哼鸣音效。
-
-[00:08-00:11] 镜头 3：反转
-侧面广角镜头：正当 @Image1 沉浸在自我陶醉中时，一辆蓝色卡车从右侧呼啸而过。强风将她从剑上吹落；她的表情从骄傲瞬间变为惊恐，连人带剑撞进了路边的纸箱堆，纸箱散落一地。
-音频：卡车鸣笛声 + 纸箱撞击声 + 乌鸦叫声。
-
-[00:11-00:15] 镜头 4：笑点
-特写：@Image2 单脚刹车，愣住三秒，然后缓缓单手扶住车把。
-极特写：@Image1 从纸箱堆里坐起来，头上顶着个盖子，发型凌乱，一脸茫然。飞剑“当啷”一声掉在她身边。
-[台词/字幕] @Image2 憋着笑说：“姐姐……你确实很厉害，但骑车（飞行）还是得看路啊。”
-画面定格在 @Image1 在纸箱盖下翻白眼的表情，以一段滑稽的笑声音效结束。"
-youmind-7831,基于深度视频的 K-pop 舞蹈动作映射,K-POP MV Motion Transfer,真人,现实向,音乐MV,,zh,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/26d3b56488dc78858534784d1a6124e544193a14/README_zh.md#L2768,CC-BY-4.0,John,https://x.com/johnAGI168/status/2080543657837359391,True,prompts/真人/现实向/音乐MV/youmind-7831--基于深度视频的-K-pop-舞蹈动作映射.md,"韩流 KPOP MV 风格，背景替换为首尔夜晚的霓虹街道。女主角的外貌和服装严格参考 @Image 1，男主角的外貌和服装严格参考 @Image 2。男女主角的所有动作、站位、身体姿态、交互过程及节奏均严格参考 @Depth Video，进行完整复刻，不得擅自修改。
-视频开头，女主角首先出场并自然地说道：“I will tell him in Korean: 오빠, 정신 차려!” 前半句 “I will tell him in Korean” 使用中文，后半句 “오빠, 정신 차려” 使用自然的韩语发音，语调带有轻微的焦急和提醒感，且口型与两种语言精准同步。
-后续角色的出场顺序及所有动作继续严格遵循 @Depth Video。保持两位角色在整个过程中外貌一致，面部特征稳定，动作自然流畅。9:16 竖屏，一镜到底，无字幕，无文字，无水印，无角色错位、角色互换或肢体变形。"
-youmind-7832,动作电影打斗场景提示词,Action Movie Fight Sequence Prompt,真人,特效向,动作大片,,zh,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/0e476b77caf1bca3f1b633119af187fa1b9fcde3/README_zh.md#L3164,CC-BY-4.0,PixelAIGC,https://x.com/PixelAigc/status/2080648479622545698,True,prompts/真人/特效向/动作大片/youmind-7832--动作电影打斗场景提示词.md,一段具有残酷韩式特技编排的电影级动作场景。主角是一名 20 岁的亚裔女性刺客，身穿白色连衣裙，脚蹬细高跟鞋。她正在与 5 名身穿西装、肌肉发达的男性保镖进行搏斗。请保持角色一致性。
-youmind-7833,晨间瑜伽日常 Vlog 提示词,Morning Yoga Routine Vlog Prompt,真人,现实向,生活与vlog,,zh,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/26d3b56488dc78858534784d1a6124e544193a14/README_zh.md#L3081,CC-BY-4.0,newtonmark,https://x.com/newtonmark13/status/2080457696403226881,True,prompts/真人/现实向/生活与vlog/youmind-7833--晨间瑜伽日常-Vlog-提示词.md,"一位 20 多岁的东亚年轻女性，素颜（仅有薄薄的护肤光泽），扎着高马尾（几缕发丝自然垂落在脸颊和颈部），身穿白色紧身背心、粉色瑜伽裤，赤脚，几乎没有佩戴饰品（无耳环或项链）。写实的皮肤质感，在晨光下可见细致的毛孔和自然的肤色。神情平静、专注，带着一丝睡意。在整个视频中保持一致的身份、服装、发型和外貌。
-地点：清晨室内客厅的一角，木地板，柔和的晨光透过窗帘缝隙洒入，一张刚铺开的粉米色瑜伽垫，旁边有一株小绿植，远处是模糊的沙发边缘和墙角。具体元素：地板的木纹和接缝、窗帘布料的轻微晃动、瑜伽垫表面的细微褶皱和纹理、植物叶片、地板上缓慢移动的光斑、角落里的阴影、光束中漂浮的微尘。光影动态：透过窗帘缝隙的光线随时间缓慢变亮并轻微位移。无商店、广告、咖啡馆、人群或商业活动。
-视觉风格：超现实纪录片写实感，真实的即兴行为，自然的肢体语言，非剧本化的日常生活片段，强烈的环境真实感，高清摄像机呈现清晰自然的质感。
-摄像风格：由主体使用高清手持摄像机拍摄。高清分辨率，自然真实的色彩还原，良好的动态范围，轻微的数字锐化，低传感器噪点，高光与阴影之间的自然过渡。轻微的手持抖动和不完美的构图，偶尔的自动对焦微调和轻微的搜索感，随晨光变化的自然曝光，轻微的运动模糊，平滑但带有手动调整痕迹的变焦。无稳定器。无电影级运镜。无现代商业调色。
-时间轴：00:00–00:02（支撑中景）将摄像机放在架子上，铺开粉米色瑜伽垫。“开启新的一天前的晨间拉伸。”自动对焦在垫子边缘和地板纹理之间进行轻微微调。00:02–00:04（中景）用双手抚平垫子，只有展开和抚平的摩擦声。曝光随窗帘透出的光线自然轻微波动。00:04–00:06（特写）坐下，缓慢呼吸，双眼微闭。镜头有轻微的呼吸感对焦，构图略微偏离中心。00:06–00:08（手持镜头）进入简单的坐位体前屈拉伸，调整姿势。“慢慢进入状态。”轻微的手持晃动，手臂出现运动模糊。00:08–00:10（细节 + 中景）拉伸间隙喝水，然后缓慢进行轻柔的流瑜伽动作。“活动一下感觉真好。”对水瓶进行自然的推拉变焦。00:10–00:12（微距 + 支撑）赤脚踩在垫子上的细节，随后耸肩并深呼吸。对焦短暂微调后重新锁定。00:12–00:14.5（温暖结尾 + 最终）平静坐着，放松微笑。“准备好开始新的一天了。”伸手向摄像机，“回头见。”手遮住镜头，屏幕瞬间切黑，如同录制突然结束。
-音频：现场录音 + 自然氛围。垫子展开和抚平的摩擦声、水瓶盖的轻微咔哒声、赤脚踩在垫子上的声音、布料拉伸声、轻柔的呼气声和自然的呼吸声，安静的室内背景噪音。对话安静且随意。无音乐。无音效设计。无旁白。
-目标：捕捉真实的晨间日常，仿佛由本人在清晨的客厅里用高清手持摄像机录制的个人健康 Vlog，温暖、平静、具有 ASMR 感、真实且不完美。"
-youmind-7834,动漫 DJ 女孩俱乐部表演,Anime DJ Girl Club Performance,漫剧,现实向,剧情短片,2D日漫,ja,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/26d3b56488dc78858534784d1a6124e544193a14/README_ja-JP.md#L2716,CC-BY-4.0,結パパ,https://x.com/Yuupapa_free/status/2080550617043587535,True,prompts/漫剧/现实向/剧情短片/youmind-7834--动漫-DJ-女孩俱乐部表演.md,アニメスタイル、10 秒間、ワンテイク、カットなし。主人公の少女は、一貫したキャラクター性を厳密に維持する。長く淡いブロンドのツインテール、赤いリボン、少し暗めの瞳、白と紺のセーラー服、胸元に赤いリボン、首には黒いヘッドフォン。場所はクラブ内の DJ ブース。背後には巨大なウーファーと積み上げられたスピーカーがそびえ立ち、背景には観客のシルエットが見える。赤、青、紫、黄緑のスポットライトがスモークを切り裂き、明るいパーティーのエネルギーを演出する。完璧な視覚的統一感を持つ一貫したスタイルで描画。ベースカラーは光沢のないマット仕上げ、線にはわずかなフリッカー（ちらつき）やジッターがあり、影は揺れるハッチングを使用。ドライな画材の質感が漂うセミスケッチ風のスタイルで、伝統的なアートの雰囲気に統一されている。カメラは魚眼レンズを使用し、斜め上から見下ろす手持ち撮影。0.0 秒〜2.5 秒：左右に大きく揺れながらリズムに合わせて前後に弾み、ビートを感じさせるドリーイン。少女は右手でターンテーブルをスクラッチし、左手でフェーダーやノブを操作する。肩、腰、膝をリズムに合わせて動かし、しなやかに上半身を揺らす。2.5 秒〜5.5 秒：カメラが正面からやや右側へ、前後に回り込むような滑らかな半円状の動きを見せる。風に吹かれているかのようにツインテールとリボンが跳ね、彼女は両手を上げて、言葉を使わないハンドダンスで音を操る。5.5 秒〜7.5 秒：指が首、肩、腕をなぞる。カメラは手元をクローズアップし、強い魚眼パースで指の軌跡を強調する。7.5 秒〜10.0 秒：重低音に合わせてカメラが上下に動き、引きの画から再び押し出すような動きを見せる。少女は一瞬視聴者に向けて短いハンドサインを送り、カメラを見上げる。最後はスクラッチを決め、笑顔のような興奮とともに体を弾ませて終了。オーディオ：ボーカルなし。テックハウス寄りの EDM、重いキック、ディープベース、スクラッチ音、フロアの歓声のみ。全体的にダイナミックで不安定だが、動きは滑らかで優雅、かつ洗練された流れを維持する。
-youmind-7835,中国书法武术舞蹈,Chinese Ink Wash Martial Arts Dance,漫剧,现实向,剧情短片,水墨,ja,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/0e476b77caf1bca3f1b633119af187fa1b9fcde3/README_ja-JP.md#L2625,CC-BY-4.0,Kaito＠アプリアフィリ×AI,https://x.com/kaito_present_/status/2080876203129348181,True,prompts/漫剧/现实向/剧情短片/youmind-7835--中国书法武术舞蹈.md,現代風の伝統的な中国服をまとった若い女性が、霧のかかった水墨画のような山々を背景に、巨大な龍が彫られた筆を操り、力強い武術風の書道舞を披露する。彼女は裸足で黒い墨の溜まりの中を動き回り、ドラマチックな飛沫や渦巻く墨の帯、優雅な円を描く。武術の型と優雅な筆の動きが融合し、筆の金の龍の装飾が輝き始めると、墨は次第に巨大な伝説の中国の龍へと姿を変え、空へと舞い上がる。映画のような超高精細なスローモーション映像で、ドラマチックなライティングと流動的な墨の動きを表現したモノクロの山水画風の美学。
-youmind-7836,动漫女高中生 TikTok 舞蹈视频,Anime Duet High School Girls Dance,漫剧,现实向,都市校园,2D日漫,ja,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/0e476b77caf1bca3f1b633119af187fa1b9fcde3/README_ja-JP.md#L2830,CC-BY-4.0,なお｜AI動画・AI音楽,https://x.com/Naonekozamurai/status/2080789054069830076,True,prompts/漫剧/现实向/都市校园/youmind-7836--动漫女高中生-TikTok-舞蹈视频.md,日本の女子高生デュオによる TikTok ダンス動画生成プロンプト。参照画像に描かれた 2 人の女子高生を主人公として使用すること。15 秒、24fps、横長 16:9 のアスペクト比。フルカラーの日本のアニメスタイル。映画館品質のアニメーション。滑らかで自然な動きを実現するための高フレームレート。繊細でクリアな線画、美しいセルシェーディングスタイル、柔らかな陰影、鮮やかで自然な色彩、透明感のあるライティング。粒子、ノイズ、低解像度のアーティファクトは一切なし。髪、リボン、スカート、制服の生地が、2 人の動きに合わせて自然に揺れること。主人公は参照画像の特定の少女たちとし、顔、目、髪、体型、制服、アクセサリーを完璧に維持すること。キャラクターは親しみやすく、「クラスで一番かわいい女の子」という設定で、放課後の教室で TikTok を撮影している様子。左の少女は恥ずかしがり屋で、少し赤ら顔でぎこちなく笑い、時折カメラから視線を逸らす。右の少女は明るく活発で、自然に相手をリードし、安心させるように微笑む。背景は明るい放課後の日本の高校の教室で、木製の机、黒板、柔らかな夕日がある。背景の情報量は、少女たちに焦点が当たるよう適度に抑えること。音楽は、かわいい女性ボーカルによるオリジナルのアップテンポな J-POP（約 140 BPM）。ダンスはキャッチーな TikTok スタイルのペアダンスで、上半身の動き、ハンドサイン（ハートやピース）、リズミカルなバウンスに焦点を当てる。パフォーマンスが重要であり、自然な視線のやり取りや笑顔を通じて友情の絆を表現すること。カメラワークはダイナミックかつ制御されており、複数のアングル（全身、45 度、クローズアップ）を使用し、リズミカルな揺れを加える。中盤には重要なアイコンタクトのクローズアップシーンを含めること。ビートに合わせて同期する、クレヨンや手描き風のテクスチャを用いたかわいい 2D フラットアニメーションのエフェクトをオーバーレイすること。
-youmind-7837,赛博朋克赛博之刃战斗,Cyberpunk Cyber Blade Combat,真人,特效向,科幻,,en,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/26d3b56488dc78858534784d1a6124e544193a14/README.md#L2196,CC-BY-4.0,LUCY,https://x.com/luxaios/status/2080628740955218120,True,prompts/真人/特效向/科幻/youmind-7837--赛博朋克赛博之刃战斗.md,"Ultra cinematic dystopian cyberpunk combat sequence, 7 seconds.
-
-A platinum silver-haired young man wearing a long black futuristic coat with a white skeletal spine design fights inside a ruined industrial city at night. He wields a glowing black-and-red cyber blade. Faceless armored enemies surround him in smoke and flickering red emergency light.
-
-0.0–1.0s
-Low-angle close-up. He quickly draws the cyber blade from behind his coat. The blade activates with sharp red energy running along its edge. Wind moves his silver hair and long coat.
-
-1.0–2.3s
-He dashes forward with explosive speed and performs one clean horizontal slash through the first masked enemy. The enemy instantly dissolves into black digital particles, red sparks, and glitch fragments. No blood.
-
-2.3–3.7s
-Without stopping, he spins, ducks under an attack, and cuts diagonally through two approaching enemies. Both bodies break apart into ash-like pixels and luminous fragments before touching the ground.
-
-3.7–5.1s
-Tracking side shot. He runs along a broken concrete wall, pushes off, and performs an aerial rotating slash through another enemy. The enemy vanishes in a circular burst of digital dust.
-
-5.1–6.2s
-He lands in a low crouch. The long coat sweeps across the wet ground. Remaining particles drift behind him while the cyber blade leaves a fading red light trail.
-
-6.2–7.0s
-Hero close-up. He slowly rises and turns his face toward the camera, calm and emotionless. The cyber blade powers down as the final enemy disintegrates in the background. Red light flickers, then cut to black.
-
-Visual style: ultra realistic, dark sci-fi action film, post-apocalyptic cyberpunk, luxury fashion editorial, ruined concrete architecture, wet reflective ground, heavy smoke, floating ash, red emergency lights, black and cold gray palette, sharp red accents, 35mm anamorphic lens, dynamic tracking camera, controlled handheld motion, realistic cloth physics, fast precise combat, cinematic motion blur, volumetric lighting, film grain, high detail.
-
-Combat style: fluid sword choreography, efficient tactical movement, parkour-inspired footwork, precise controlled strikes, continuous momentum, no exaggerated superhero poses.
-
-Enemy destruction effect: enemies dissolve immediately into black particles, red sparks, digital glitch fragments, holographic dust, and fading geometric pixels, no corpses remaining."
 youmind-7838,电影级动漫魔法剑战,Cinematic Anime Magic Sword Battle,漫剧,特效向,武侠打斗,2D日漫,ja,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/26d3b56488dc78858534784d1a6124e544193a14/README_ja-JP.md#L2799,CC-BY-4.0,mayv@簡単プロ級プロンプト公開中！,https://x.com/haruuraeadss/status/2080539077603172597,True,prompts/漫剧/特效向/武侠打斗/youmind-7838--电影级动漫魔法剑战.md,"高品質なアニメ映像。高密度な 3D トゥーン／セルルックのシネマティック・アクション RPG による高速剣戟。劇場版クラスのキーアニメーション、高品質なコンポジット、透明感のあるライティング、そして緻密な背景美術。8 秒間の短い尺の中で、浮遊剣の猛攻、防御、回避、反動、包囲、そして最大級の衝突を凝縮して描画する。
 
 [参照画像と人物の固定]
@@ -8469,7 +8337,7 @@ Guardian's vines naturally hold ingredients and utensils.
 
 10–15s:
 Fox gi"
-youmind-882,街头霸王经典对战视频生成,Street Fighter Classic Battle Video Generation,漫剧,特效向,战斗大招,像素,zh,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/f832b6d8f415e2aaadb8069f4a226028ae6dfbb1/README_zh.md#L2566,CC-BY-4.0,John,https://x.com/johnAGI168/status/2030918723050062301,True,prompts/漫剧/特效向/战斗大招/youmind-882--街头霸王经典对战视频生成.md,@图片 1 @图片 2，真人视频，完美再现了经典《街头霸王》游戏中的激烈战斗。屏幕上方是两个动态减少的生命条，生命条下方是角色头像和“ROUND 1”“FIGHT!”字样，角落显示分数；0-1.5 秒：中景开场对峙，一人蹲下蓄力，双手发出红色火焰光芒，摆出战斗姿势，另一人双手系着锁链，手持一个巨大的圆形铁球；2-5 秒：快速剪辑，火焰方向前冲刺，使用带有火焰拖尾效果的火焰拳连击，铁球方后空翻躲避并扔回铁球，击中对手，火焰方使用火焰波动拳格挡，产生像素化爆炸效果，两人进行近距离快速拳脚格挡，每次击打都伴随着游戏音效，战斗中包含光效和轻微的屏幕抖动；6-9 秒：决定性时刻，火焰方蓄力，全身被蓝色斗气包裹，释放超级必杀技火焰升龙拳，地面爆发出火焰吞噬并燃烧铁球方，铁球方的生命条快速减少；10 秒：屏幕定格，火焰方交叉双臂摆出经典胜利姿势，铁球方被击倒，屏幕上弹出巨大的“K.O.!”，并播放经典胜利音乐；整个视频伴随着经典的《街头霸王 2》音效，包括背景 BGM、拳脚击打声、波动拳发射声、升龙拳喊声、防御声和击中效果音。
+youmind-882,街头霸王经典对战视频生成,Street Fighter Classic Battle Video Generation,漫剧,特效向,战斗大招,像素,zh,Seedance 2.0,link-only,copyrighted-character,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/f832b6d8f415e2aaadb8069f4a226028ae6dfbb1/README_zh.md#L2566,CC-BY-4.0,John,https://x.com/johnAGI168/status/2030918723050062301,True,prompts/漫剧/特效向/战斗大招/youmind-882--街头霸王经典对战视频生成.md,
 youmind-883,短喜剧小品：《外卖》,Short Comedy Sketch: 'Take Away',真人,现实向,喜剧整活,,zh,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/f832b6d8f415e2aaadb8069f4a226028ae6dfbb1/README_zh.md#L2585,CC-BY-4.0,John,https://x.com/johnAGI168/status/2030909268027679122,True,prompts/真人/现实向/喜剧整活/youmind-883--短喜剧小品-外卖.md,"# 反转喜剧短视频拍摄脚本——“带走”篇
 
 反转喜剧，电影级高清画质，抖音爆款短视频，2 人出镜
@@ -8610,7 +8478,7 @@ youmind-888,短剧：《神龙翻身：前妻高攀不起》,Short Drama: 'The D
 说完，李泽头也不回地快步离开。视觉处理：
 镜头聚焦在李泽坚决的背影上，背景音只有沉重的关门声——“砰！”（画面变黑，无字幕，留白结束）"
 youmind-889,士兵近身战斗场景,Soldier Close-up Combat Scene,真人,特效向,武侠打斗,,zh,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/f832b6d8f415e2aaadb8069f4a226028ae6dfbb1/README_zh.md#L2319,CC-BY-4.0,BURLY STUDIO AI,https://x.com/BURLY_STUDIO/status/2031061214286029042,True,prompts/真人/特效向/武侠打斗/youmind-889--士兵近身战斗场景.md,特写镜头开始：一名身披斗篷的士兵用英语大声喊道：“所有单位，出发！自由开火！”同时持续射击步枪。枪口喷射出明亮的蓝白色火焰，弹壳迅速从侧面弹出，步枪的后坐力明显震动着他的肩膀，持续射击导致枪管上方出现空气热变形效果，画面极其逼真；背景音效包括史诗般的战鼓音乐、坦克炮火声、导弹发射的尖啸声，以及履带碾压冰面的声音，整体呈现出电影般的画面、超现实的光影效果和身临其境的战场氛围。
-youmind-89,与世界领导人来一场《真人快打》,Mortal Kombat with World Leaders,真人,现实向,剧情短片,,en,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/93cd7fdd84a16d05cbfb24c840e84ec240143d6b/README.md#L2238,CC-BY-4.0,The Dor Brothers,https://x.com/thedorbrothers/status/2021203121024926171,True,prompts/真人/现实向/剧情短片/youmind-89--与世界领导人来一场-真人快打.md,"""Mortal Kombat gameplay footage but the characters are famous world leaders"""
+youmind-89,与世界领导人来一场《真人快打》,Mortal Kombat with World Leaders,真人,现实向,剧情短片,,en,Seedance 2.0,link-only,real-person,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/93cd7fdd84a16d05cbfb24c840e84ec240143d6b/README.md#L2238,CC-BY-4.0,The Dor Brothers,https://x.com/thedorbrothers/status/2021203121024926171,True,prompts/真人/现实向/剧情短片/youmind-89--与世界领导人来一场-真人快打.md,
 youmind-890,励志商业演讲短视频提示,Inspirational business speech short video prompt,真人,现实向,运动,,zh,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/f832b6d8f415e2aaadb8069f4a226028ae6dfbb1/README_zh.md#L2690,CC-BY-4.0,John,https://x.com/johnAGI168/status/2030840095951982667,True,prompts/真人/现实向/运动/youmind-890--励志商业演讲短视频提示.md,一个 15 秒的励志商业演讲短视频，4K 超清，电影运镜，暖金 + 深蓝高级舞台灯光；一位 30 岁左右的女企业家，身穿有质感的黑色丝绒西装外套 + 米白色真丝衬衫 + 黑色西裤，佩戴精致的耳饰、项链、戒指、手链等首饰，双手抱臂姿势，面部光滑无痘印，皮肤白皙透亮，淡雅舞台妆，整体优雅成熟商务风；场景是万人体育馆中央舞台，灰色背景，搭配简约大气渐变灯光效果大屏幕，无杂乱特效；人物全程气场全开，脱稿演讲，语气铿锵有力，富有节奏感，逐步贴合文案节奏，3 秒处切近景，捕捉握拳抬臂的坚定表情；精准念出台词：你敢不相信，当你越来越好的时候，你就会遇到我，既然你已经遇到我，请跟我重复一遍，我的 2026 会越来越好，一定会非常优秀；在说“我的 2026 会越来越好，一定会非常优秀”时，抬臂握拳强调；镜头穿插下方万人观众握拳认同、热泪盈眶的特写，观众同时起立，欢呼、鼓掌、呐喊；最后 3 秒镜头拉远定格全舞台景 + 万人观众抬臂欢呼的震撼场景；背景音乐为激昂史诗纯音乐，音量贴合人声不突兀，现场掌声、欢呼声充满环绕感，氛围感十足。
 youmind-891,史诗级太空战斗场景，充满宇宙能量和零重力视角,Epic Space Combat Scene with Cosmic Energy and Zero-Gravity Camera,真人,特效向,科幻,,en,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/414aa567cdd1a6af8cdc8401b95612cd652b65d5/README.md#L2399,CC-BY-4.0,LudovicCreator,https://x.com/LudovicCreator/status/2031301568365048223,True,"prompts/真人/特效向/科幻/youmind-891--史诗级太空战斗场景,充满宇宙能量和零重力视角.md","A woman in her late 20s wearing a flowing black combat coat threaded with glowing silver star patterns leaps across fragments of shattered asteroids drifting in deep space.
 
@@ -13222,9 +13090,7 @@ youmind-9342,城市街头滑板动作,Chaotic City Skateboarding Action,真人,�
 Visual style: photorealistic, cinematic urban atmosphere, realistic physics, natural skin and hair movement, detailed traffic, motion blur, dramatic depth of field, dynamic camera work, realistic lighting, high-end commercial cinematography, 4K, smooth continuous motion.
 
 Important: Keep the girl’s face, hairstyle, clothing, skateboard, and physical appearance consistent throughout the entire 15 seconds. No sudden morphing, duplicate people, distorted limbs, floating objects, or unrealistic vehicle movement."
-youmind-9343,动漫风格蜘蛛女侠荡秋千,Anime Inspired Spider-Woman Swing,漫剧,现实向,剧情短片,2D日漫,en,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/443abdd9b6879739e864da37d329c3b530eebb08/README.md#L4079,CC-BY-4.0,Maya,https://x.com/MayaAiCreator/status/2089326041105915906,True,prompts/漫剧/现实向/剧情短片/youmind-9343--动漫风格蜘蛛女侠荡秋千.md,"A young East Asian woman with a short bob haircut sits on a wide windowsill in a messy Brooklyn-style apartment bedroom. She wears a black long-sleeve top, red collared shirt with a dark tie, gray cargo pants with a light blue sweater tied around her waist, pink-and-red arm sleeves, bright white socks, and teal sneakers. Purple over-ear headphones rest around her neck. The room is cluttered with anime posters (including Dragon Ball), comic books, a Monster Energy can, Funko Pops, clothes scattered on the floor, and a bed to the right. Outside the large open window is a cloudy New York City skyline of red-brick buildings.
-She looks at the camera with a slight smile, puts the headphones on, leans back, then suddenly swings out the window on a thin white web line. Dynamic tracking shots follow her web-slinging through the streets of New York: she flies between brick apartment buildings with fire escapes, over busy intersections filled with yellow taxis and pedestrians, past corner stores and traffic lights, diving and twisting acrobatically. The camera moves with her — low angles looking up, high angles looking down, fast motion blur on the city.
-She lands on a rooftop, stands with arms outstretched in triumph, hair blowing, looking out over the golden-hour skyline. The view includes water towers, dense rooftops, the East River, and the distant One World Trade Center glowing in the soft sunset light. Cinematic, realistic live-action style, vibrant colors, energetic movement, inspired by superhero web-slinging sequences."
+youmind-9343,动漫风格蜘蛛女侠荡秋千,Anime Inspired Spider-Woman Swing,漫剧,现实向,剧情短片,2D日漫,en,Seedance 2.0,link-only,copyrighted-character,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/443abdd9b6879739e864da37d329c3b530eebb08/README.md#L4079,CC-BY-4.0,Maya,https://x.com/MayaAiCreator/status/2089326041105915906,True,prompts/漫剧/现实向/剧情短片/youmind-9343--动漫风格蜘蛛女侠荡秋千.md,
 youmind-9344,健身 Vlog 连续对话,Gym Vlog Continuous Dialogue,真人,现实向,运动,,en,Seedance 2.0,,,YouMind-OpenLab/awesome-seedance-2-prompts,https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/79e98d573c070e22cfbe7cebab2c0cd9a9077c10/README.md#L3606,CC-BY-4.0,Noor,https://x.com/noorlewisx/status/2089573549044568375,True,prompts/真人/现实向/运动/youmind-9344--健身-Vlog-连续对话.md,"15-Second Gym Vlog — Continuous Dialogue
 
 Character: The same young adult woman throughout the entire video, wearing a black T-shirt and sporty gym pants. Keep her face, hairstyle, outfit, and appearance consistent from beginning to end.
@@ -16279,25 +16145,7 @@ Male lead suddenly smirks and tears the divorce paper. At this moment, a massive
 [00:10-00:15] Shot 3: Rich tycoon reveal (The Reveal).
 The main door is kicked open, two rows of black-clad bodyguards rush in, kneeling on one knee to roll out a red carpet. An elderly butler tremblingly holds up a yellow robe (or ultimate black card) and runs to deeply bow in front of the male lead. The mother-in-law is so scared she collapses to the ground, her pupils shaking.
 【Dialogue lip-sync guidance】The butler shouts: ""Welcome back, Dragon King (Young Master)! Family assets have been unfrozen!"""
-zerolu-5d04c737,哪吒与敖丙冰火交锋（时空折叠）,Nezha and Ao Bing Ice-Fire Clash (Space-Time Folding),漫剧,特效向,仙侠玄幻,3D国漫,zh,Seedance 2.0,,,ZeroLu/awesome-seedance,https://github.com/ZeroLu/awesome-seedance/blob/fd0d8000702ae3a8ae5240d3e4717b2546186970/README-zh.md#L456,MIT,Adam also known as Jimmy (@Adam38363368936),https://x.com/Adam38363368936/status/2020530975072264442,True,prompts/漫剧/特效向/仙侠玄幻/zerolu-5d04c737--哪吒与敖丙冰火交锋-时空折叠.md,"第一幕：静止与爆发（测试从静止开始的加速度）
-视觉：特写。哪吒的混天绫在风中轻轻摇曳，火星四溅。镜头突然快速缩小。
-动作：哪吒突然蹬地，导致地面碎裂。
-视觉焦点：测试 Seedance 2.0 对碎片轨迹的模拟，以及从静止到超高速运动的过渡。
-
-第二幕：属性转换（测试匹配剪辑）
-视觉：哪吒挥舞火尖枪横扫，形成一个圆形的火焰环。
-过渡设计：火焰环在旋转时无缝转化为敖丙的旋转冰刃。
-动作：镜头跟随武器的旋转轴线，实现从红调到蓝调的瞬间平滑过渡。
-
-第三幕：激战交互（测试物理碰撞与摄影）
-视觉：侧面中景。火尖枪和冰剑在半空中碰撞。
-动作：火花和冰屑同时爆炸。敖丙身形如龙，绕着火柱螺旋上升；哪吒在空中倒立，脚踩风火轮冲向地面。
-视觉焦点：测试模型在两个角色“高速决斗”期间是否出现肢体崩坏。
-
-第四幕：终极过渡（测试空间折叠）
-视觉：哪吒一拳击碎冰墙。
-过渡设计：破碎的冰晶在空中转化为飞舞的红叶或火羽。镜头穿过冰块碎片，瞬间切入下一场。
-视觉焦点：测试 Seedance 2.0 利用粒子连续性的逻辑连贯性。"
+zerolu-5d04c737,哪吒与敖丙冰火交锋（时空折叠）,Nezha and Ao Bing Ice-Fire Clash (Space-Time Folding),漫剧,特效向,仙侠玄幻,3D国漫,zh,Seedance 2.0,link-only,copyrighted-character,ZeroLu/awesome-seedance,https://github.com/ZeroLu/awesome-seedance/blob/fd0d8000702ae3a8ae5240d3e4717b2546186970/README-zh.md#L456,MIT,Adam also known as Jimmy (@Adam38363368936),https://x.com/Adam38363368936/status/2020530975072264442,True,prompts/漫剧/特效向/仙侠玄幻/zerolu-5d04c737--哪吒与敖丙冰火交锋-时空折叠.md,
 zerolu-5dd6e2a0,参考角色入室并驱动口播,,真人,现实向,生活与vlog,,en,Seedance 2.0,,,ZeroLu/awesome-seedance,https://github.com/ZeroLu/awesome-seedance/blob/fd0d8000702ae3a8ae5240d3e4717b2546186970/README-zh.md#L426,MIT,Replicate Blog,https://replicate.com/blog/seedance-2,True,prompts/真人/现实向/生活与vlog/zerolu-5dd6e2a0--参考角色入室并驱动口播.md,"[Image2] is in the interior of [Image1] where he is kept the style of [Image2], but the realism of [Image1] remains. He says [Audio1]."
 zerolu-6d2ac4e8,香水 MG 动画风格,Perfume MG Animation Style,其他,,广告带货,,zh,Seedance 2.0,,,ZeroLu/awesome-seedance,https://github.com/ZeroLu/awesome-seedance/blob/fd0d8000702ae3a8ae5240d3e4717b2546186970/README-zh.md#L248,MIT,Vicky (@BFAVicky),https://x.com/BFAVicky/status/2020267913316561195?s=20,True,prompts/其他/广告带货/zerolu-6d2ac4e8--香水-MG-动画风格.md,根据图 1 中的脚本，为图 2 中的香水产品生成广告内容。配音应参考自然的女性英文声音。注意香水瓶的比例，将其融入具有自然光照的背景中。避免沉重的纹理叠加和抠图效果。节奏可以更轻快。
 zerolu-82c292a9,Replicate Blog: Blockbuster Prompt Pack：Tidal Wave Disaster Scene,,真人,特效向,动作大片,,en,Seedance 2.0,,,ZeroLu/awesome-seedance,https://github.com/ZeroLu/awesome-seedance/blob/fd0d8000702ae3a8ae5240d3e4717b2546186970/README.md#L169,MIT,Replicate Blog,https://replicate.com/blog/seedance-2,True,prompts/真人/特效向/动作大片/zerolu-82c292a9--Replicate-Blog-Blockbuster-Prompt-Pack-T.md,"A massive tidal wave crashes into a coastal city. Buildings crumble as the wall of water surges through the streets. Cars are swept up and tumble through the flood. The camera captures the destruction from a rooftop as the wave passes below, water exploding against skyscrapers. Debris and foam churn in every direction. The sky is dark with storm clouds. Hyper-realistic, catastrophic scale, 8k, Roland Emmerich disaster movie, the deafening roar of a million tons of water."
@@ -16390,32 +16238,7 @@ zerolu-e6ae9fd1,梵高后印象派风格动画,Van Gogh Post-Impressionism Style
 天空：在深蓝色的夜空中，巨大的黄色天体和新月被放射状的短笔触包围，星云在空中疯狂旋转，像奔腾的河流（旋转运动）。
 前景：左侧是一棵巨大的柏树，像燃烧的黑色火焰一样扭曲，直冲云霄。
 背景：山谷中沉睡的小镇，房屋的窗户发出温暖的、圆圈状绘制的黄光。整个场景随着笔触的方向缓慢流动和呼吸。"
-zerolu-f28470ad,知名动漫角色的力量大会,Tournament of Power with Famous Anime Characters,漫剧,特效向,战斗大招,2D日漫,zh,Seedance 2.0,,,ZeroLu/awesome-seedance,https://github.com/ZeroLu/awesome-seedance/blob/fd0d8000702ae3a8ae5240d3e4717b2546186970/README-zh.md#L581,MIT,nachos2d (@NACHOS2D_),https://x.com/NACHOS2D_/status/2021295886978908547?s=20,True,prompts/漫剧/特效向/战斗大招/zerolu-f28470ad--知名动漫角色的力量大会.md,"一个巨大的宇宙竞技场在耀眼的虚空中形成，规模堪比力量大会。来自无数宇宙的观众在欢呼。
-中央站着旁白：坂田银时，放松地把木刀扛在肩上，眼神死鱼眼，毒舌。
-他漫不经心地宣布规则，几乎在嘲弄命运：“这场比赛决定谁是最强者。赢家可以开后宫。” 停顿。全场爆炸。银时叹了口气。“行了行了。别那样看我。规则又不是我写的。”
-镜头滑向高处的平台，揭示了传说中的女性角色们，她们显然都以不同的方式不以为意：
-布尔玛在调整她的设备，已经很不耐烦了。
-人造人 18 号双臂交叉，面无表情。
-雏田安静地注视着，神情自若。
-小樱在捏响指关节。
-娜美笑着，仿佛已经在计划着什么。
-波雅·汉库克看向别处，被存在的本身冒犯到了。
-三笠没有反应。一点都没有。
-艾露莎像个裁判一样站着。
-妮可·罗宾礼貌地微笑——带着危险。
-露琪亚歪着头，好奇地看。
-
-银时指着。“第一场。尽量别在午饭前毁了宇宙。”
-两条隧道点燃。
-
-从左侧：埼玉慢慢走出来，手插兜，脸上一片空白。他环顾四周。“呵。又来这招。”
-从右侧：悟空踏步上前，严肃、专注，感应到了极度不对劲的地方。“你很强……但你看上去像是一点都不在乎。”
-特写交替。尘土飞扬。能量噼啪作响。
-银时站在他们中间。
-“好了。无聊的秃子对战为此而生的尖头男。”
-灯光暗下。
-力量涌动。
-喜剧与灾难碰撞。"
+zerolu-f28470ad,知名动漫角色的力量大会,Tournament of Power with Famous Anime Characters,漫剧,特效向,战斗大招,2D日漫,zh,Seedance 2.0,link-only,copyrighted-character,ZeroLu/awesome-seedance,https://github.com/ZeroLu/awesome-seedance/blob/fd0d8000702ae3a8ae5240d3e4717b2546186970/README-zh.md#L581,MIT,nachos2d (@NACHOS2D_),https://x.com/NACHOS2D_/status/2021295886978908547?s=20,True,prompts/漫剧/特效向/战斗大招/zerolu-f28470ad--知名动漫角色的力量大会.md,
 zerolu-f5d85bc6,中国短剧风格（雨夜情感戏）,,真人,现实向,都市剧情,,zh,Seedance 2.0,,,ZeroLu/awesome-seedance,https://github.com/ZeroLu/awesome-seedance/blob/fd0d8000702ae3a8ae5240d3e4717b2546186970/README-zh.md#L687,MIT,John (@johnAGI168),https://x.com/johnAGI168/status/2020669827990466643?s=20,True,prompts/真人/现实向/都市剧情/zerolu-f5d85bc6--中国短剧风格-雨夜情感戏.md,"【风格】热门中国网剧风格（短剧风格），极致快切节奏，高颜值滤镜，情感爆发，浪漫且扎心的雨夜。
 【时长】15 秒
 【人物】深情的霸道总裁男主（黑色大衣，湿漉漉的头发，红了眼眶）VS 倔强心碎的女主（白色连衣裙，满脸泪水）。

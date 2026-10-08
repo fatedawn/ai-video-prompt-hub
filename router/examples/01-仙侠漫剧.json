@@ -76,18 +76,6 @@
     "art": "3D国漫",
     "items": [
       {
-        "id": "goodcase-3d-cg-seedance-2-5-2453b4b4307a",
-        "title": "御剑修仙者战穷奇：3D CG 仙侠特效战斗场面（Seedance 2.5）",
-        "genre": "漫剧/特效向/仙侠玄幻",
-        "art_style": "3D国漫",
-        "language": "zh",
-        "model": "Seedance 2.5",
-        "license": "CC-BY-4.0 (curation) — prompt © original creator",
-        "source_repo": "LearnPrompt/awesome-seedance",
-        "path": "prompts/漫剧/特效向/仙侠玄幻/goodcase-3d-cg-seedance-2-5-2453b4b4307a--御剑修仙者战穷奇-3D-CG-仙侠特效战斗场面-Seedance-2.5.md",
-        "score": 8.8
-      },
-      {
         "id": "youmind-11850",
         "title": "史诗仙侠战斗视频提示词",
         "genre": "漫剧/特效向/仙侠玄幻",
@@ -109,6 +97,18 @@
         "license": "CC-BY-4.0",
         "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
         "path": "prompts/漫剧/特效向/仙侠玄幻/youmind-606--Seedance-2.0-中国仙侠动画提示词-0-15-秒.md",
+        "score": 8.8
+      },
+      {
+        "id": "youmind-7785",
+        "title": "古树下休憩的仙侠角色",
+        "genre": "漫剧/特效向/仙侠玄幻",
+        "art_style": "3D国漫",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/漫剧/特效向/仙侠玄幻/youmind-7785--古树下休憩的仙侠角色.md",
         "score": 8.8
       },
       {
