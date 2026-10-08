@@ -1,0 +1,496 @@
+{
+  "topic": "产品带货：便携榨汁杯 30 秒种草视频",
+  "generated_by": "router/cli.mjs recommend",
+  "inputs": {
+    "medium": "真人",
+    "direction": "现实向",
+    "duration_s": 30,
+    "aspect": "9:16",
+    "budget": "free-cpu",
+    "budget_zh": "免费 + 普通电脑（CPU）",
+    "assets": [
+      "product"
+    ],
+    "voice": "Kokoro 本地 TTS（默认）",
+    "commercial": false
+  },
+  "scenario": {
+    "id": "product",
+    "name": "产品带货 / 广告",
+    "matched": [
+      {
+        "id": "product",
+        "score": 3,
+        "keywords": [
+          "带货",
+          "产品",
+          "种草"
+        ]
+      }
+    ],
+    "modifiers": []
+  },
+  "route": {
+    "primary": "C",
+    "primary_name": "路线③：代码动效（Remotion / HyperFrames / Manim）",
+    "secondary": [
+      {
+        "id": "B",
+        "name": "路线②：videogen 视频生成 + prompts/ 提示词（本仓库）"
+      },
+      {
+        "id": "D",
+        "name": "路线④：外部开源项目（catalog/）"
+      }
+    ],
+    "videogen_mode": "web",
+    "why": [
+      "「产品带货 / 广告」需要写实画面与真人表演，用视频模型生成，提示词与模板来自本仓库 prompts/ 和 templates/",
+      "预算是「免费 + CPU」：用产品实拍图 + 代码动效/ffmpeg 做带货片（无需 API）；视频模型镜头作为可选升级"
+    ]
+  },
+  "script_skeleton": [
+    "0–3 秒：痛点钩子或效果对比",
+    "3–10 秒：产品出场 + 核心卖点 1",
+    "10–20 秒：卖点 2/3 演示与证据",
+    "20–30 秒：使用场景 + 行动号召"
+  ],
+  "tips": [
+    "3 秒钩子 → 痛点 → 卖点演示 → 证据 → 行动号召",
+    "产品外观以实拍图为参考图（--refs），避免模型改形",
+    "广告法：不用「最/第一/国家级」等绝对化用语，功效类宣称要有依据"
+  ],
+  "prompts": {
+    "targets": [
+      "其他/广告带货",
+      "其他/美食"
+    ],
+    "art": null,
+    "items": [
+      {
+        "id": "youmind-2220",
+        "title": "Seedance 2.0 美食探店/带货视频提示词",
+        "genre": "其他/广告带货",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/其他/广告带货/youmind-2220--Seedance-2.0-美食探店-带货视频提示词.md",
+        "score": 9.8
+      },
+      {
+        "id": "goodcase-doc3-ui-motion-sonora",
+        "title": "SONORA 耳机官网 UI/UX 动效视频",
+        "genre": "其他/广告带货",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.5",
+        "license": "CC-BY-4.0 (curation) — prompt © original creator",
+        "source_repo": "LearnPrompt/awesome-seedance",
+        "path": "prompts/其他/广告带货/goodcase-doc3-ui-motion-sonora--SONORA-耳机官网-UI-UX-动效视频.md",
+        "score": 7.8
+      },
+      {
+        "id": "youmind-7423",
+        "title": "微缩科技商店微距视频",
+        "genre": "其他/广告带货",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/其他/广告带货/youmind-7423--微缩科技商店微距视频.md",
+        "score": 7.8
+      },
+      {
+        "id": "youmind-834",
+        "title": "超逼真食物飞溅摄影",
+        "genre": "其他/美食",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/其他/美食/youmind-834--超逼真食物飞溅摄影.md",
+        "score": 4.8
+      },
+      {
+        "id": "youmind-2587",
+        "title": "宫保鸡丁摆盘视频提示词",
+        "genre": "其他/美食",
+        "art_style": "",
+        "language": "en",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/其他/美食/youmind-2587--宫保鸡丁摆盘视频提示词.md",
+        "score": 4.3
+      },
+      {
+        "id": "youmind-7212",
+        "title": "ASMR 开箱视频项目",
+        "genre": "其他/美食",
+        "art_style": "",
+        "language": "en",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/其他/美食/youmind-7212--ASMR-开箱视频项目.md",
+        "score": 4.3
+      }
+    ]
+  },
+  "templates": [
+    {
+      "id": "learnprompt-tpl-zh-product-commercial-shotlist",
+      "title": "🛒 电影级产品广告分镜",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-product-commercial-shotlist--🛒-电影级产品广告分镜.md"
+    },
+    {
+      "id": "learnprompt-tpl-zh-ugc-creator-review",
+      "title": "🛒 UGC 口播测评带货",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-ugc-creator-review--🛒-UGC-口播测评带货.md"
+    },
+    {
+      "id": "learnprompt-tpl-zh-process-transformation-montage",
+      "title": "🛒 流程与变换蒙太奇",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-process-transformation-montage--🛒-流程与变换蒙太奇.md"
+    }
+  ],
+  "style_presets": [
+    {
+      "id": "warm-flat-storybook",
+      "name_zh": "暖色几何扁平绘本",
+      "category": "graphic",
+      "best_for": [
+        "关系故事",
+        "品牌叙事",
+        "轻科普",
+        "温暖群像"
+      ],
+      "media": "picture-book"
+    },
+    {
+      "id": "organic-contour-doodle",
+      "name_zh": "有机轮廓品牌涂鸦",
+      "category": "line",
+      "best_for": [
+        "品牌故事",
+        "轻生活",
+        "咖啡餐饮",
+        "社交观点"
+      ],
+      "media": "pencil"
+    },
+    {
+      "id": "naive-marker-notes",
+      "name_zh": "稚拙马克笔笔记",
+      "category": "diary",
+      "best_for": [
+        "社交媒体故事",
+        "观点表达",
+        "年轻化品牌",
+        "轻松科普"
+      ],
+      "media": "marker"
+    }
+  ],
+  "external": {
+    "tools": [
+      {
+        "id": "ecommerce-video-skills",
+        "repo": "xianyu110/ecommerce-video-skills",
+        "url": "https://github.com/xianyu110/ecommerce-video-skills",
+        "kind": "skill",
+        "intro_zh": "电商短视频 skills：3 秒钩子、卖点分镜、图生视频提示词、配音字幕花字、ffmpeg 本地成片、多平台导出",
+        "stars": 53,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "产品带货零成本起步方案",
+        "score": 17.87
+      },
+      {
+        "id": "video-shotcraft",
+        "repo": "Vincentwei1021/video-shotcraft",
+        "url": "https://github.com/Vincentwei1021/video-shotcraft",
+        "kind": "skill",
+        "intro_zh": "电影感产品宣传片 skill：150+ 镜头配方卡、200+ 动效预览、可直接用的 Remotion 模板",
+        "stars": 10795,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "产品带货/项目推荐的 Remotion 镜头库（Apache-2.0）",
+        "score": 13.2
+      },
+      {
+        "id": "guizang-product-video-skill",
+        "repo": "op7418/guizang-product-video-skill",
+        "url": "https://github.com/op7418/guizang-product-video-skill",
+        "kind": "skill",
+        "intro_zh": "归藏：复用产品真实组件与设计语言，用代码做软件更新宣传片（含分镜文案、原创配乐、音效）",
+        "stars": 705,
+        "license": "AGPL-3.0",
+        "license_class": "copyleft",
+        "license_note": "AGPL-3.0",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "软件/开源项目宣传片；AGPL-3.0",
+        "score": 12.42
+      },
+      {
+        "id": "hyperframes-motion-director",
+        "repo": "geekjourneyx/hyperframes-motion-director",
+        "url": "https://github.com/geekjourneyx/hyperframes-motion-director",
+        "kind": "skill",
+        "intro_zh": "中文优先的 HyperFrames 动效视频导演：文章/产品/网站/README→9:16 宣传片，含审片",
+        "stars": 451,
+        "license": "AGPL-3.0",
+        "license_class": "copyleft",
+        "license_note": "AGPL-3.0",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "README→竖屏宣传片；AGPL-3.0",
+        "score": 12.33
+      },
+      {
+        "id": "lottie",
+        "repo": "diffusionstudio/lottie",
+        "url": "https://github.com/diffusionstudio/lottie",
+        "kind": "skill",
+        "intro_zh": "Text-to-Lottie：用 Claude Code/Codex 生成可投产的 Lottie 动画",
+        "stars": 5548,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "生成可复用的矢量动效素材",
+        "score": 11.57
+      },
+      {
+        "id": "ffcreator",
+        "repo": "tnfe/FFCreator",
+        "url": "https://github.com/tnfe/FFCreator",
+        "kind": "library",
+        "intro_zh": "基于 Node.js 的高速短视频制作库（图片/视频/音乐→带动画短片）",
+        "stars": 3163,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "批量相册/带货视频",
+        "score": 11.45
+      },
+      {
+        "id": "remotion-code-motion-explainer",
+        "repo": "vibe-motion/remotion-code-motion-explainer",
+        "url": "https://github.com/vibe-motion/remotion-code-motion-explainer",
+        "kind": "skill",
+        "intro_zh": "代码动画导演 skill：脚本/旁白/产品流程→可编辑、可参数化的 Remotion 动画，63 个镜头条目",
+        "stars": 33,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "中文的 Remotion 解说镜头库",
+        "score": 11.27
+      },
+      {
+        "id": "hyperframes",
+        "repo": "heygen-com/hyperframes",
+        "url": "https://github.com/heygen-com/hyperframes",
+        "kind": "engine",
+        "intro_zh": "HeyGen 出品：写 HTML 渲视频，为 agent 设计的确定性 HTML→MP4 框架（Apache-2.0）",
+        "stars": 58857,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "en",
+        "plugs_into": "大量中文白板/口播 skill 的渲染底座；与 Remotion 二选一",
+        "score": 11
+      }
+    ],
+    "methods": [
+      {
+        "id": "ad-script-master",
+        "repo": "snailzsh/ad-script-master",
+        "url": "https://github.com/snailzsh/ad-script-master",
+        "kind": "skill",
+        "intro_zh": "商业广告脚本生成器：合规审查→产品力→叙事脚本→AIGC 分镜参数",
+        "stars": 50,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "带货/广告脚本",
+        "score": 16.85
+      },
+      {
+        "id": "promo-creator-skills",
+        "repo": "kangarooking/promo-creator-skills",
+        "url": "https://github.com/kangarooking/promo-creator-skills",
+        "kind": "skill",
+        "intro_zh": "产品宣传片 skills：先做产品判断，再叙事结构、视觉规划、HyperFrames 剪辑、BGM 设计",
+        "stars": 102,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "带货/宣传片的「先判断后画面」方法",
+        "score": 13.01
+      },
+      {
+        "id": "make-prompt-seedance2",
+        "repo": "liangdabiao/make-prompt-seedance2",
+        "url": "https://github.com/liangdabiao/make-prompt-seedance2",
+        "kind": "method",
+        "intro_zh": "Seedance 2.0 结构化提示词指南：16+ 模板、8+ 示例（带货、TVC、真人实拍）",
+        "stars": 693,
+        "license": "NONE",
+        "license_class": "none",
+        "license_note": "无 LICENSE 文件；docs/ 收录了他人文章，仅链接，切勿复制",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "写法参考；无许可证，且 docs/ 收录他人文章，仅链接",
+        "score": 10.42
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "确认需求（intake）",
+      "cmds": [
+        "node router/cli.mjs intake"
+      ],
+      "note": "题材、媒介、方向、时长、画幅、预算、角色素材、配音逐项确认；不确定就用本方案的默认值"
+    },
+    {
+      "route": "C",
+      "title": "—— 路线③：代码动效（Remotion / HyperFrames / Manim）（主路线） ——",
+      "cmds": []
+    },
+    {
+      "title": "安装 HyperFrames（HTML→MP4，Apache-2.0）",
+      "cmds": [
+        "npx skills add heygen-com/hyperframes",
+        "npx hyperframes init .work/产品带货-便携榨汁杯-3/hf"
+      ],
+      "route": "C"
+    },
+    {
+      "title": "配音与字幕（复用本仓库本地 TTS）",
+      "cmds": [
+        "node animator/src/cli.mjs make .work/产品带货-便携榨汁杯-3/台词.txt --out .work/产品带货-便携榨汁杯-3/voice-preview.mp4 --scale 0.25"
+      ],
+      "note": "会同时生成 .work/产品带货-便携榨汁杯-3/voice-preview.voice.*（音频 + SRT + 字级时间戳），导入代码动效工程即可逐字对齐",
+      "route": "C"
+    },
+    {
+      "title": "让 agent 写画面、预览、渲染",
+      "cmds": [
+        "cd .work/产品带货-便携榨汁杯-3/hf && npx hyperframes preview",
+        "cd .work/产品带货-便携榨汁杯-3/hf && npx hyperframes render"
+      ],
+      "note": "数据图表可 npx hyperframes add data-chart；手绘质感可配 rough.js / rough-notation",
+      "route": "C"
+    },
+    {
+      "route": "B",
+      "title": "—— 路线②：videogen 视频生成 + prompts/ 提示词（本仓库）（备选/升级） ——",
+      "cmds": []
+    },
+    {
+      "title": "剧本与分镜",
+      "cmds": [
+        "mkdir -p .work/产品带货-便携榨汁杯-3/refs && $EDITOR .work/产品带货-便携榨汁杯-3/分镜.md"
+      ],
+      "note": "按下方模板写：[全局]（画风/角色/场景锁定）+ 镜头1/镜头2/…；照着推荐提示词的写法改成你的剧情",
+      "route": "B"
+    },
+    {
+      "title": "拆成镜头清单",
+      "cmds": [
+        "node videogen/cli.mjs plan .work/产品带货-便携榨汁杯-3/分镜.md --out .work/产品带货-便携榨汁杯-3/shots.json --aspect 9:16"
+      ],
+      "route": "B"
+    },
+    {
+      "title": "生成镜头（网页手动）",
+      "cmds": [
+        "node videogen/cli.mjs export .work/产品带货-便携榨汁杯-3/shots.json --site jimeng --out .work/产品带货-便携榨汁杯-3/packages",
+        "# 按生成包逐镜头在网页端生成，下载文件名保持 S01_shot01… 前缀",
+        "node videogen/cli.mjs import .work/产品带货-便携榨汁杯-3/shots.json --from ~/Downloads"
+      ],
+      "note": "网页端可能消耗会员/额度，费用以平台为准",
+      "route": "B"
+    },
+    {
+      "title": "配音 + 字幕 + 合成",
+      "cmds": [
+        "node videogen/cli.mjs assemble .work/产品带货-便携榨汁杯-3/shots.json --out .work/产品带货-便携榨汁杯-3/final.mp4"
+      ],
+      "note": "台词交给本地 Kokoro TTS（需先 cd animator && npm run setup:tts），自动逐字字幕；--bgm 加你有版权的音乐",
+      "route": "B"
+    },
+    {
+      "title": "发布前质检",
+      "cmds": [],
+      "note": "核对字幕错别字与音画对齐；按平台要求标注「AI 生成」；可用 self-media-compliance-review 做违规风险自查"
+    }
+  ],
+  "compliance": [
+    "本仓库提示词/模板各自保留原许可证（见每条的 license 与 source_repo），转载或二次分发请保留出处；link-only 条目只给链接，不在此推荐",
+    "不使用真实明星/他人的脸、名字和声音；声音克隆、数字人只用本人或已获授权的素材",
+    "背景音乐、字体、参考图需自有版权或可商用授权",
+    "按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容",
+    "op7418/guizang-product-video-skill：AGPL-3.0",
+    "geekjourneyx/hyperframes-motion-director：AGPL-3.0",
+    "liangdabiao/make-prompt-seedance2：无 LICENSE 文件；docs/ 收录了他人文章，仅链接，切勿复制（无许可证：仅可参考，勿复制代码）"
+  ],
+  "warnings": []
+}

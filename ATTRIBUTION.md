@@ -191,3 +191,49 @@
 - `videogen/workflows/wan22_ti2v_5b_*.json` 为本仓库自写的 ComfyUI API 格式工作流（只引用 ComfyUI 内置节点名，模型 Wan2.2-TI2V-5B 为 Apache-2.0，权重不随仓库分发）。ComfyUI 官方模板 [Comfy-Org/workflow_templates](https://github.com/Comfy-Org/workflow_templates)（MIT）只链接、未复制；`comfyanonymous/ComfyUI_examples` 无明确许可证，未复制。
 - 路线 C 演示的分镜 `videogen/examples/route-c/storyboard.md` 取自本仓库自写的 `docs/skill/SKILL.md` 例 2；替身片段由 animator 渲染；BGM 由 ffmpeg 合成，不含任何第三方音乐。
 
+## catalog/ 与 router/（外部项目目录、AI 导演路由器）
+
+- **取用范围**：只用了公开元数据：仓库名、★、最后推送日期、archived 状态和 LICENSE 文件。这些数据于 2026-10-08 通过 GitHub REST API 读取，脚本是 `catalog/tools/refresh_registry.py`。**没有复制任何第三方代码、提示词、模板或文档文字。**
+- **简介与标签**：每个条目的中文简介、路线、画风、输入输出、成本、中文支持、成熟度和「怎么接入本仓库」都由本仓库自写，按 Apache-2.0 提供。
+- **方法论**：`catalog/methodology.md` 用本仓库自己的话归纳公开方法，每条附出处链接。主要出处有：
+  - eternityspring/shuohao-skills（Apache-2.0）
+  - zenstory-ai/drama-skills（MIT）
+  - 0xsline/short-drama（MIT）
+  - lixiaoxiao9888-create/short-drama-factory（MIT）
+  - senmanx/novel-to-manju（CC0）
+  - zyz254009-crypto/script-to-shootable-storyboard（MIT）
+  - liyue-aigc/seedance-2-5-video-director（MIT）
+  - woodfantasy/Seedance-ShotDesign-Skills（MIT-0）
+  - phileiny/h3-storyboard-skill（MIT）
+  - A-cat-with-carrots/OnlyShot（MIT）
+  - CY-CHENYUE/martial-arts-director-cy（Apache-2.0）
+  - kaomei/hand-drawn-video-prompts（MIT）
+  - geeklee/srt-whiteboard-animation（MIT）
+  - geeklee/whiteboard-mask-animation（MIT）
+  - nutllwhy/whiteboard-book-video-skill（MIT）
+  - alchaincyf/huashu-art-motion（MIT）
+  - hi-nikola/hand-drawn-explainer-video-nikola（Apache-2.0）
+  - cafermutluozkan/stick-motion（MIT）
+  - Vincentwei1021/video-shotcraft（Apache-2.0）
+  - HKUSTDial/DataMagic（MIT）
+  - echris6/motion-video-kit（MIT）
+  - erduo1998-cell/erduo-broll-loop-engineering（MIT）
+  - JuneYaooo/self-media-compliance-review（MIT）
+  - snailzsh/ad-script-master（MIT）
+  - kangarooking/promo-creator-skills（MIT）
+  - xianyu110/ecommerce-video-skills（MIT）
+  - aaronyi97/image-story-video-wizard（MIT）
+  - runesleo/claude-video-kit（MIT）
+  - neopen/story-shot-agent（MIT）
+  - HVision-NKU/StoryDiffusion（Apache-2.0）
+- **只给链接、只用自己的话概述思路的出处**：下列项目没有许可证或是非商用许可，没有引用其任何文字。
+  - liangdabiao/smy-seedance-storyboard（无许可证）
+  - liyue-aigc/xianxia-cinematic-video-director（无许可证）
+  - lixiaoxiao9888-create/xuanhuan-combat-director（无许可证）
+  - Vincentwei1021/video-talkcraft（PolyForm Noncommercial）
+  - feitangyuan/onetake（PolyForm Noncommercial）
+- **router 用到的本仓库数据**：
+  - `data/index.csv` 和 `data/prompts/*.jsonl`：只读取标题、分类和正文，用于匹配，输出时只给出 id 和路径。第三方条目的许可与署名仍在各条目的 front matter 里。
+  - `data/templates.jsonl`
+  - `animator/presets/handdrawn-styles.json`：上游 MIT，见第 7 节
+- **命令示例里提到的外部工具**：Remotion、HyperFrames、Manim、remotion-dev/skills 等。router 只生成官方安装命令（如 `npx skills add …`、`npx create-video@latest`），不随仓库分发这些工具。

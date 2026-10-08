@@ -1,0 +1,577 @@
+{
+  "topic": "仙侠漫剧：废柴少女觉醒灵根，宗门大比一剑逆袭",
+  "generated_by": "router/cli.mjs recommend",
+  "inputs": {
+    "medium": "漫剧",
+    "direction": "特效向",
+    "duration_s": 60,
+    "aspect": "9:16",
+    "budget": "api-key",
+    "budget_zh": "有云端视频模型 API key（按量付费）",
+    "assets": [],
+    "voice": "Kokoro 本地 TTS（默认）",
+    "commercial": false
+  },
+  "scenario": {
+    "id": "drama-xianxia",
+    "name": "仙侠 / 玄幻 / 武侠剧",
+    "matched": [
+      {
+        "id": "drama-xianxia",
+        "score": 3.5,
+        "keywords": [
+          "仙侠",
+          "宗门",
+          "灵根",
+          "剑"
+        ]
+      },
+      {
+        "id": "drama-urban",
+        "score": 1,
+        "keywords": [
+          "逆袭"
+        ]
+      }
+    ],
+    "modifiers": []
+  },
+  "route": {
+    "primary": "B",
+    "primary_name": "路线②：videogen 视频生成 + prompts/ 提示词（本仓库）",
+    "secondary": [
+      {
+        "id": "A",
+        "name": "路线①：animator 手绘动画（本仓库）"
+      },
+      {
+        "id": "D",
+        "name": "路线④：外部开源项目（catalog/）"
+      }
+    ],
+    "videogen_mode": "api",
+    "why": [
+      "「仙侠 / 玄幻 / 武侠剧」需要漫剧角色表演与镜头运动，用视频模型生成，提示词与模板来自本仓库 prompts/ 和 templates/",
+      "有 API key：路线② 直接 videogen gen 批量生成（按秒计费，先 --dry-run 估算）"
+    ]
+  },
+  "script_skeleton": [
+    "第 1 镜：3 秒内立冲突（谁、想要什么、被谁挡住）",
+    "第 2–3 镜：冲突升级 / 误会加深",
+    "第 4 镜：反转或爽点",
+    "第 5 镜：留钩子（下一集悬念）"
+  ],
+  "tips": [
+    "先锁角色 4 视图与场景母版（资产图模板），再写镜头",
+    "法术/打戏用「三段式」：起势 → 交锋 → 余波；每段一个明确动作",
+    "只写「镜头1/2/3」，不要逐秒卡点（Seedance 2.0 官方说明精确秒级时序不稳定）"
+  ],
+  "prompts": {
+    "targets": [
+      "漫剧/特效向/仙侠玄幻",
+      "漫剧/特效向/奇幻冒险",
+      "漫剧/特效向/武侠打斗",
+      "漫剧/特效向/战斗大招"
+    ],
+    "art": "3D国漫",
+    "items": [
+      {
+        "id": "goodcase-3d-cg-seedance-2-5-2453b4b4307a",
+        "title": "御剑修仙者战穷奇：3D CG 仙侠特效战斗场面（Seedance 2.5）",
+        "genre": "漫剧/特效向/仙侠玄幻",
+        "art_style": "3D国漫",
+        "language": "zh",
+        "model": "Seedance 2.5",
+        "license": "CC-BY-4.0 (curation) — prompt © original creator",
+        "source_repo": "LearnPrompt/awesome-seedance",
+        "path": "prompts/漫剧/特效向/仙侠玄幻/goodcase-3d-cg-seedance-2-5-2453b4b4307a--御剑修仙者战穷奇-3D-CG-仙侠特效战斗场面-Seedance-2.5.md",
+        "score": 8.8
+      },
+      {
+        "id": "youmind-11850",
+        "title": "史诗仙侠战斗视频提示词",
+        "genre": "漫剧/特效向/仙侠玄幻",
+        "art_style": "3D国漫",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/漫剧/特效向/仙侠玄幻/youmind-11850--史诗仙侠战斗视频提示词.md",
+        "score": 8.8
+      },
+      {
+        "id": "youmind-606",
+        "title": "Seedance 2.0 中国仙侠动画提示词（0-15 秒）",
+        "genre": "漫剧/特效向/仙侠玄幻",
+        "art_style": "3D国漫",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/漫剧/特效向/仙侠玄幻/youmind-606--Seedance-2.0-中国仙侠动画提示词-0-15-秒.md",
+        "score": 8.8
+      },
+      {
+        "id": "youmind-6277",
+        "title": "奇幻战斗女战士动作视频提示词",
+        "genre": "漫剧/特效向/奇幻冒险",
+        "art_style": "3D国漫",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/漫剧/特效向/奇幻冒险/youmind-6277--奇幻战斗女战士动作视频提示词.md",
+        "score": 7.8
+      },
+      {
+        "id": "youmind-948",
+        "title": "破晓之剑：武侠电影式战斗",
+        "genre": "漫剧/特效向/武侠打斗",
+        "art_style": "3D国漫",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/漫剧/特效向/武侠打斗/youmind-948--破晓之剑-武侠电影式战斗.md",
+        "score": 6.8
+      },
+      {
+        "id": "youmind-2133",
+        "title": "视频提示：赛博武侠打斗场面（详细分镜脚本）",
+        "genre": "漫剧/特效向/武侠打斗",
+        "art_style": "3D国漫",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/漫剧/特效向/武侠打斗/youmind-2133--视频提示-赛博武侠打斗场面-详细分镜脚本.md",
+        "score": 5.8
+      }
+    ]
+  },
+  "templates": [
+    {
+      "id": "manju-73db35a4",
+      "title": "七段式 9:16 竖屏标准模板（抖音/红果短剧）",
+      "source_repo": "lixiaoxiao9888-create/manju-laoli-skill",
+      "license": "MIT",
+      "path": "templates/漫剧老李-七段式与资产图模板/manju-73db35a4--七段式-9-16-竖屏标准模板-抖音-红果短剧.md"
+    },
+    {
+      "id": "manju-8afc721d",
+      "title": "玄幻法术战斗 5 段式输出模板",
+      "source_repo": "lixiaoxiao9888-create/manju-laoli-skill",
+      "license": "MIT",
+      "path": "templates/漫剧老李-七段式与资产图模板/manju-8afc721d--玄幻法术战斗-5-段式输出模板.md"
+    },
+    {
+      "id": "manju-d66baf8d",
+      "title": "15 秒大招三段式标准输出模板",
+      "source_repo": "lixiaoxiao9888-create/manju-laoli-skill",
+      "license": "MIT",
+      "path": "templates/漫剧老李-七段式与资产图模板/manju-d66baf8d--15-秒大招三段式标准输出模板.md"
+    },
+    {
+      "id": "manju-cdac03bb",
+      "title": "角色 4 View 资产参考图提示词",
+      "source_repo": "lixiaoxiao9888-create/manju-laoli-skill",
+      "license": "MIT",
+      "path": "templates/漫剧老李-七段式与资产图模板/manju-cdac03bb--角色-4-View-资产参考图提示词.md"
+    },
+    {
+      "id": "manju-039fa4be",
+      "title": "场景空间资产图提示词 · 场景母版",
+      "source_repo": "lixiaoxiao9888-create/manju-laoli-skill",
+      "license": "MIT",
+      "path": "templates/漫剧老李-七段式与资产图模板/manju-039fa4be--场景空间资产图提示词-场景母版.md"
+    },
+    {
+      "id": "toonflow-tpl-seedance20",
+      "title": "A9.1 Seedance 2.0 分段提示词模板（资产标识 + 正式提示词）",
+      "source_repo": "HBAI-Ltd/Toonflow-app",
+      "license": "MIT",
+      "path": "templates/Toonflow-分段提示词模板/seedance20--A9.1-Seedance-2.0-分段提示词模板-资产标识-正式提示词.md"
+    },
+    {
+      "id": "learnprompt-tpl-zh-combat-choreography",
+      "title": "💥 打斗编排",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-combat-choreography--💥-打斗编排.md"
+    }
+  ],
+  "style_presets": [
+    {
+      "id": "ink-wash",
+      "name_zh": "水墨写意",
+      "category": "ink",
+      "best_for": [
+        "人生感悟",
+        "传统文化",
+        "寓言",
+        "宁静叙事"
+      ],
+      "media": "ink"
+    },
+    {
+      "id": "retro-gouache-concept",
+      "name_zh": "中古动画水粉概念稿",
+      "category": "gouache",
+      "best_for": [
+        "怀旧故事",
+        "城市生活",
+        "温暖剧情",
+        "角色短片"
+      ],
+      "media": "pencil"
+    }
+  ],
+  "external": {
+    "tools": [
+      {
+        "id": "toonflow-app",
+        "repo": "HBAI-Ltd/Toonflow-app",
+        "url": "https://github.com/HBAI-Ltd/Toonflow-app",
+        "kind": "platform",
+        "intro_zh": "开源 AI 短剧工厂：无限画布 + Agent + 角色三视图 + 智能分镜 + 视频生成",
+        "stars": 16696,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key",
+          "gpu"
+        ],
+        "zh": "native",
+        "plugs_into": "本仓库 templates/ 已收录其 MIT 分段模板；可接 ComfyUI 零 API 费",
+        "score": 14.5
+      },
+      {
+        "id": "lumenx",
+        "repo": "alibaba/lumenx",
+        "url": "https://github.com/alibaba/lumenx",
+        "kind": "platform",
+        "intro_zh": "LumenX Studio：小说→剧本分析、角色定制、分镜绘制→视频合成",
+        "stars": 1336,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "小说转漫剧平台",
+        "score": 14.06
+      },
+      {
+        "id": "arcreel",
+        "repo": "ArcReel/ArcReel",
+        "url": "https://github.com/ArcReel/ArcReel",
+        "kind": "platform",
+        "intro_zh": "小说/剧本→角色场景道具资产→分镜→视频→剪映草稿",
+        "stars": 5373,
+        "license": "AGPL-3.0",
+        "license_class": "copyleft",
+        "license_note": "AGPL-3.0：修改后对外提供网络服务也需开源",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "剪映草稿交付；AGPL-3.0",
+        "score": 13.37
+      },
+      {
+        "id": "vimax",
+        "repo": "HKUDS/ViMax",
+        "url": "https://github.com/HKUDS/ViMax",
+        "kind": "platform",
+        "intro_zh": "港大：Idea2Video / Script2Video / Novel2Video，编剧→分镜→角色参考→首帧→视频→拼接",
+        "stars": 12572,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "en",
+        "plugs_into": "剧情类全自动；视频模型按秒计费",
+        "score": 13
+      },
+      {
+        "id": "jellyfish",
+        "repo": "Forget-C/Jellyfish",
+        "url": "https://github.com/Forget-C/Jellyfish",
+        "kind": "platform",
+        "intro_zh": "AI 短剧端到端工作台：结构化分镜、一致性管理到出片",
+        "stars": 6630,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "一致性管理参考",
+        "score": 11.41
+      },
+      {
+        "id": "localminidrama",
+        "repo": "xuanyustudio/LocalMiniDrama",
+        "url": "https://github.com/xuanyustudio/LocalMiniDrama",
+        "kind": "app",
+        "intro_zh": "本地 AI 短剧 & 漫剧生成工具，数据不出本机",
+        "stars": 1972,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "本地化短剧工作台",
+        "score": 11.15
+      },
+      {
+        "id": "smy-seedance-storyboard",
+        "repo": "liangdabiao/smy-seedance-storyboard",
+        "url": "https://github.com/liangdabiao/smy-seedance-storyboard",
+        "kind": "skill",
+        "intro_zh": "上美影（复古手绘动画）风格短剧文档生成器：剧本 + 全剧色盘 + 资产出图提示词 + 每集 Seedance 时间轴分镜",
+        "stars": 119,
+        "license": "NONE",
+        "license_class": "none",
+        "license_note": "",
+        "cost": [
+          "api-key",
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "国风手绘漫剧的「色盘锁定 + 资产清单」方法；无许可证，仅链接，提示词可配合 videogen plan",
+        "score": 10.04
+      },
+      {
+        "id": "huobao-drama",
+        "repo": "chatfire-AI/huobao-drama",
+        "url": "https://github.com/chatfire-AI/huobao-drama",
+        "kind": "platform",
+        "intro_zh": "火宝短剧：一句话生成完整短剧",
+        "stars": 15849,
+        "license": "CC-BY-NC-SA-4.0",
+        "license_class": "noncommercial",
+        "license_note": "CC BY-NC-SA 4.0：非商用、相同方式共享",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "CC BY-NC-SA 4.0 非商用，仅作对比参考",
+        "score": 7.5
+      }
+    ],
+    "methods": [
+      {
+        "id": "manju-laoli-skill",
+        "repo": "lixiaoxiao9888-create/manju-laoli-skill",
+        "url": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill",
+        "kind": "skill",
+        "intro_zh": "漫剧老李：立项→剧本→资产锁定→文武双模分镜→七段式提示词 + FACS 微表情",
+        "stars": 1069,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "本仓库 templates/漫剧老李-七段式与资产图模板 已收录其 MIT 模板",
+        "score": 17.01
+      },
+      {
+        "id": "martial-arts-director-cy",
+        "repo": "CY-CHENYUE/martial-arts-director-cy",
+        "url": "https://github.com/CY-CHENYUE/martial-arts-director-cy",
+        "kind": "skill",
+        "intro_zh": "武术指导：一句话→16 宫格武打分镜海报 prompt + 15 秒视频 prompt，含招式语料与 IP 合规规避",
+        "stars": 92,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "武侠/修真打戏",
+        "score": 14.98
+      },
+      {
+        "id": "drama-skills",
+        "repo": "zenstory-ai/drama-skills",
+        "url": "https://github.com/zenstory-ai/drama-skills",
+        "kind": "skill",
+        "intro_zh": "11 个短剧/漫剧 skill：原著分析→分集剧本→视觉设定→图片提示词与分镜→视频提示词→生产→剪辑→审查，五份 Markdown 即创作事实",
+        "stars": 2609,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm",
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "「每集五份 Markdown」组织法可直接映射到 videogen 的分镜输入",
+        "score": 14.21
+      },
+      {
+        "id": "shuohao-skills",
+        "repo": "eternityspring/shuohao-skills",
+        "url": "https://github.com/eternityspring/shuohao-skills",
+        "kind": "skill",
+        "intro_zh": "AI 短剧 skill 集：小说→改编大纲五件套→角色设定集→场景道具设定→剧本→分镜，质量门脚本检查",
+        "stars": 4249,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "小说转漫剧/短剧的前期方法；分镜输出后接 templates/ 七段式与 videogen plan",
+        "score": 12.31
+      },
+      {
+        "id": "short-drama-factory",
+        "repo": "lixiaoxiao9888-create/short-drama-factory",
+        "url": "https://github.com/lixiaoxiao9888-create/short-drama-factory",
+        "kind": "skill",
+        "intro_zh": "抖音/红果爆款短剧编剧系统：40 赛道、六母型钩子、五大断章、反转轮换，标准/长档/漫剧三档篇幅",
+        "stars": 306,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "只产剧本层；剧本完成后再进分镜与 videogen",
+        "score": 11.74
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "确认需求（intake）",
+      "cmds": [
+        "node router/cli.mjs intake"
+      ],
+      "note": "题材、媒介、方向、时长、画幅、预算、角色素材、配音逐项确认；不确定就用本方案的默认值"
+    },
+    {
+      "route": "B",
+      "title": "—— 路线②：videogen 视频生成 + prompts/ 提示词（本仓库）（主路线） ——",
+      "cmds": []
+    },
+    {
+      "title": "剧本与分镜",
+      "cmds": [
+        "mkdir -p .work/仙侠漫剧-废柴少女觉醒灵/refs && $EDITOR .work/仙侠漫剧-废柴少女觉醒灵/分镜.md"
+      ],
+      "note": "按下方模板写：[全局]（画风/角色/场景锁定）+ 镜头1/镜头2/…；照着推荐提示词的写法改成你的剧情",
+      "route": "B"
+    },
+    {
+      "title": "角色与场景资产（一致性）",
+      "cmds": [
+        "# 用 templates/ 里「角色 4 View」「场景母版」模板出参考图，存到 .work/仙侠漫剧-废柴少女觉醒灵/refs/"
+      ],
+      "note": "同一角色全剧用同一张参考图；分镜里用 @角色名 引用",
+      "route": "B"
+    },
+    {
+      "title": "拆成镜头清单",
+      "cmds": [
+        "node videogen/cli.mjs plan .work/仙侠漫剧-废柴少女觉醒灵/分镜.md --out .work/仙侠漫剧-废柴少女觉醒灵/shots.json --aspect 9:16 --refs .work/仙侠漫剧-废柴少女觉醒灵/refs"
+      ],
+      "route": "B"
+    },
+    {
+      "title": "生成镜头（云 API）",
+      "cmds": [
+        "node videogen/cli.mjs providers",
+        "node videogen/cli.mjs gen .work/仙侠漫剧-废柴少女觉醒灵/shots.json --provider seedance --dry-run",
+        "node videogen/cli.mjs gen .work/仙侠漫剧-废柴少女觉醒灵/shots.json --provider seedance"
+      ],
+      "note": "先 --dry-run 只打印请求；provider 还可选 kling / minimax / veo / fal / replicate / runway / luma",
+      "route": "B"
+    },
+    {
+      "title": "配音 + 字幕 + 合成",
+      "cmds": [
+        "node videogen/cli.mjs assemble .work/仙侠漫剧-废柴少女觉醒灵/shots.json --out .work/仙侠漫剧-废柴少女觉醒灵/final.mp4"
+      ],
+      "note": "台词交给本地 Kokoro TTS（需先 cd animator && npm run setup:tts），自动逐字字幕；--bgm 加你有版权的音乐",
+      "route": "B"
+    },
+    {
+      "route": "A",
+      "title": "—— 路线①：animator 手绘动画（本仓库）（备选/升级） ——",
+      "cmds": []
+    },
+    {
+      "title": "准备（只需一次）",
+      "cmds": [
+        "cd animator && npm install && npm run setup:tts && cd .."
+      ],
+      "note": "Node ≥18；setup:tts 下载本地开源 TTS（Kokoro v1.1-zh，CPU、离线、免费）",
+      "route": "A"
+    },
+    {
+      "title": "写台词",
+      "cmds": [
+        "mkdir -p .work/仙侠漫剧-废柴少女觉醒灵 && $EDITOR .work/仙侠漫剧-废柴少女觉醒灵/台词.txt"
+      ],
+      "note": "一行一句（会成为一条字幕）；空行 = 换镜头；「关键词」说到时会被画出来；「角色：台词」可切换说话人（天机/豆豆）",
+      "route": "A"
+    },
+    {
+      "title": "选画风",
+      "cmds": [
+        "node animator/src/cli.mjs styles --show ink-wash",
+        "node animator/src/cli.mjs styles --search 水墨"
+      ],
+      "note": "推荐画材 --media ink；画风预设只是提示词配方，渲染本身不调用任何 AI 服务",
+      "route": "A"
+    },
+    {
+      "title": "一条命令出片",
+      "cmds": [
+        "node animator/src/cli.mjs make .work/仙侠漫剧-废柴少女觉醒灵/台词.txt --out .work/仙侠漫剧-废柴少女觉醒灵/仙侠漫剧-废柴少女觉醒灵.mp4 --character tianji --media ink"
+      ],
+      "note": "先加 --scale 0.5 快速预览；完成后会生成可编辑的工程 project.json",
+      "route": "A"
+    },
+    {
+      "title": "精修（可选）",
+      "cmds": [
+        "node animator/src/cli.mjs check .work/仙侠漫剧-废柴少女觉醒灵/仙侠漫剧-废柴少女觉醒灵.work/project.json",
+        "node animator/src/cli.mjs preview .work/仙侠漫剧-废柴少女觉醒灵/仙侠漫剧-废柴少女觉醒灵.work/project.json",
+        "node animator/src/cli.mjs make .work/仙侠漫剧-废柴少女觉醒灵/仙侠漫剧-废柴少女觉醒灵.work/project.json --out .work/仙侠漫剧-废柴少女觉醒灵/仙侠漫剧-废柴少女觉醒灵.mp4"
+      ],
+      "note": "在 project.json 里加 \"stylePreset\": \"ink-wash\"，调整道具、动作、相机；synccheck 可做图文对齐质检",
+      "route": "A"
+    },
+    {
+      "title": "发布前质检",
+      "cmds": [],
+      "note": "核对字幕错别字与音画对齐；按平台要求标注「AI 生成」；可用 self-media-compliance-review 做违规风险自查"
+    }
+  ],
+  "compliance": [
+    "本仓库提示词/模板各自保留原许可证（见每条的 license 与 source_repo），转载或二次分发请保留出处；link-only 条目只给链接，不在此推荐",
+    "不使用真实明星/他人的脸、名字和声音；声音克隆、数字人只用本人或已获授权的素材",
+    "背景音乐、字体、参考图需自有版权或可商用授权",
+    "按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容",
+    "ArcReel/ArcReel：AGPL-3.0：修改后对外提供网络服务也需开源",
+    "liangdabiao/smy-seedance-storyboard：NONE（无许可证：仅可参考，勿复制代码）",
+    "chatfire-AI/huobao-drama：CC BY-NC-SA 4.0：非商用、相同方式共享"
+  ],
+  "warnings": []
+}

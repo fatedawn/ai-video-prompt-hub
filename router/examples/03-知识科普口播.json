@@ -1,0 +1,367 @@
+{
+  "topic": "知识科普口播：为什么熬夜会让人变笨",
+  "generated_by": "router/cli.mjs recommend",
+  "inputs": {
+    "medium": "其他",
+    "direction": "现实向",
+    "duration_s": 90,
+    "aspect": "9:16",
+    "budget": "free-cpu",
+    "budget_zh": "免费 + 普通电脑（CPU）",
+    "assets": [],
+    "voice": "Kokoro 本地 TTS（默认）",
+    "commercial": false
+  },
+  "scenario": {
+    "id": "explainer",
+    "name": "知识科普 / 口播讲解",
+    "matched": [
+      {
+        "id": "explainer",
+        "score": 4.15,
+        "keywords": [
+          "科普",
+          "知识",
+          "口播",
+          "为什么"
+        ]
+      }
+    ],
+    "modifiers": []
+  },
+  "route": {
+    "primary": "A",
+    "primary_name": "路线①：animator 手绘动画（本仓库）",
+    "secondary": [
+      {
+        "id": "C",
+        "name": "路线③：代码动效（Remotion / HyperFrames / Manim）"
+      },
+      {
+        "id": "D",
+        "name": "路线④：外部开源项目（catalog/）"
+      }
+    ],
+    "videogen_mode": "web",
+    "why": [
+      "「知识科普 / 口播讲解」以讲清楚/讲好故事为主，本仓库 animator 手绘逐笔动画免费、CPU 可跑、画面与台词逐词对齐"
+    ]
+  },
+  "script_skeleton": [
+    "（钩子）一句话抛出反常识结论或痛点",
+    "（是什么）用一个生活化比喻解释「关键词」",
+    "（为什么）第 1 个原因 / 第 2 个原因",
+    "（怎么用）给一个马上能照做的方法",
+    "（结尾）一句话总结 + 引导关注"
+  ],
+  "tips": [
+    "按语义节拍拆句（一句一个画面），每句 8–20 字",
+    "每个镜头至少一个主动作，否则 animator check 会警告画面呆板",
+    "要真人出镜感可加路线④的数字人项目（必须本人或已授权肖像）"
+  ],
+  "prompts": {
+    "targets": [],
+    "art": null,
+    "items": [],
+    "note": "主路线不需要视频模型提示词；要做 AI 插段可加 --scenario 指定剧情类题材，或直接浏览 prompts/其他/动态图形与界面"
+  },
+  "templates": [],
+  "style_presets": [
+    {
+      "id": "minimal-line-explainer",
+      "name_zh": "极简黑白线条讲解",
+      "category": "line",
+      "best_for": [
+        "知识讲解",
+        "流程",
+        "观点拆解",
+        "轻幽默故事"
+      ],
+      "media": "pencil"
+    },
+    {
+      "id": "whiteboard-explainer",
+      "name_zh": "白板讲解动画",
+      "category": "line",
+      "best_for": [
+        "教程",
+        "商业解释",
+        "时间线",
+        "因果关系"
+      ],
+      "media": "pencil"
+    },
+    {
+      "id": "bean-doodle-infographic",
+      "name_zh": "小豆人涂鸦信息图",
+      "category": "line",
+      "best_for": [
+        "方法步骤",
+        "清单",
+        "知识卡",
+        "轻量剧情"
+      ],
+      "media": "pencil"
+    },
+    {
+      "id": "colored-pencil-diary",
+      "name_zh": "彩铅日记漫画（默认）",
+      "category": "diary",
+      "best_for": [
+        "家庭故事",
+        "生活观察",
+        "情感叙事",
+        "医疗与纪实题材"
+      ],
+      "media": "colored-pencil"
+    }
+  ],
+  "external": {
+    "tools": [
+      {
+        "id": "cs-board",
+        "repo": "ChenShuo2004/cs-board",
+        "url": "https://github.com/ChenShuo2004/cs-board",
+        "kind": "app",
+        "intro_zh": "本地 AI 白板声画工坊：参考音频 + 中文文案→音色克隆、内容拆解、插画、手绘动画、字幕与音画合成→MP4",
+        "stars": 765,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "MIT；声音克隆仅用于本人或已授权声音",
+        "cost": [
+          "free-cpu",
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "带音色克隆的「一站式白板口播」桌面方案；声音克隆务必使用本人或已授权声音",
+        "score": 16.44
+      },
+      {
+        "id": "erduo-broll-loop-engineering",
+        "repo": "erduo1998-cell/erduo-broll-loop-engineering",
+        "url": "https://github.com/erduo1998-cell/erduo-broll-loop-engineering",
+        "kind": "skill",
+        "intro_zh": "SRT 驱动的 B-roll skill：多角色接力（导演/创作/审美评审），自动路由 HyperFrames 或 Remotion",
+        "stars": 207,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "口播配动效 B-roll",
+        "score": 15.16
+      },
+      {
+        "id": "video-podcast-maker",
+        "repo": "Agents365-ai/video-podcast-maker",
+        "url": "https://github.com/Agents365-ai/video-podcast-maker",
+        "kind": "skill",
+        "intro_zh": "主题→研究→脚本→本地 TTS→Remotion 合成的视频播客，适配 B 站/YouTube/小红书/抖音",
+        "stars": 1664,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "中文平台适配的口播科普方案（MIT）",
+        "score": 14.81
+      },
+      {
+        "id": "jianying-editor-skill",
+        "repo": "luoluoluo22/jianying-editor-skill",
+        "url": "https://github.com/luoluoluo22/jianying-editor-skill",
+        "kind": "skill",
+        "intro_zh": "让 Agent 自动操作剪映：写文案、配音、字幕、选乐、特效到导出草稿",
+        "stars": 3809,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "MIT；内含 Apache-2.0 的 pyJianYingDraft 等第三方组件",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "成片最后一公里：把 animator/videogen 产物导入剪映精修；含 Apache-2.0 第三方组件",
+        "score": 14.79
+      },
+      {
+        "id": "huashu-art-motion",
+        "repo": "alchaincyf/huashu-art-motion",
+        "url": "https://github.com/alchaincyf/huashu-art-motion",
+        "kind": "skill",
+        "intro_zh": "花叔「艺术动画」skill：35 种艺术风格 + 9 种解说语法（白板/Vox/3b1b…），Canvas 代码逐帧作画，cue 精确到帧",
+        "stars": 2162,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "做「有审美要求」的解说/艺术短片时作为 animator 之外的外部选项；其「每幕 1 主动作 + 2 母题循环」规则可用于 animator 镜头设计",
+        "score": 13.67
+      },
+      {
+        "id": "remotion-subtitles",
+        "repo": "ahgsql/remotion-subtitles",
+        "url": "https://github.com/ahgsql/remotion-subtitles",
+        "kind": "library",
+        "intro_zh": "SRT→Remotion 动画字幕组件库，多种字幕模板",
+        "stars": 100,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "en",
+        "plugs_into": "把 animator/TTS 产出的 SRT 做成花字",
+        "score": 13.5
+      },
+      {
+        "id": "remotion",
+        "repo": "remotion-dev/remotion",
+        "url": "https://github.com/remotion-dev/remotion",
+        "kind": "engine",
+        "intro_zh": "用 React 写视频的框架，确定性渲染，生态最大",
+        "stars": 62466,
+        "license": "Remotion-License",
+        "license_class": "source-available",
+        "license_note": "Remotion License：个人、非营利、≤3 人营利公司免费；更大的公司需购买 Company License",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "en",
+        "plugs_into": "路线 C 的底座；个人/≤3 人公司免费，更大营利公司需买 Company License",
+        "score": 13.5
+      },
+      {
+        "id": "codex-whiteboard-video-skill",
+        "repo": "gnipbao/codex-whiteboard-video-skill",
+        "url": "https://github.com/gnipbao/codex-whiteboard-video-skill",
+        "kind": "skill",
+        "intro_zh": "whiteboard-video-engine 的 Codex Skill 适配层：自然语言驱动本地白板引擎、选择/推荐 30 种风格",
+        "stars": 325,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "给 Codex 用户的安装入口；渲染能力以 engine 仓库为准",
+        "score": 13.26
+      }
+    ],
+    "methods": []
+  },
+  "steps": [
+    {
+      "title": "确认需求（intake）",
+      "cmds": [
+        "node router/cli.mjs intake"
+      ],
+      "note": "题材、媒介、方向、时长、画幅、预算、角色素材、配音逐项确认；不确定就用本方案的默认值"
+    },
+    {
+      "route": "A",
+      "title": "—— 路线①：animator 手绘动画（本仓库）（主路线） ——",
+      "cmds": []
+    },
+    {
+      "title": "准备（只需一次）",
+      "cmds": [
+        "cd animator && npm install && npm run setup:tts && cd .."
+      ],
+      "note": "Node ≥18；setup:tts 下载本地开源 TTS（Kokoro v1.1-zh，CPU、离线、免费）",
+      "route": "A"
+    },
+    {
+      "title": "写台词",
+      "cmds": [
+        "mkdir -p .work/知识科普口播-为什么熬夜 && $EDITOR .work/知识科普口播-为什么熬夜/台词.txt"
+      ],
+      "note": "一行一句（会成为一条字幕）；空行 = 换镜头；「关键词」说到时会被画出来；「角色：台词」可切换说话人（天机/豆豆）",
+      "route": "A"
+    },
+    {
+      "title": "选画风",
+      "cmds": [
+        "node animator/src/cli.mjs styles --show minimal-line-explainer",
+        "node animator/src/cli.mjs styles --search 讲解"
+      ],
+      "note": "推荐画材 --media colored-pencil；画风预设只是提示词配方，渲染本身不调用任何 AI 服务",
+      "route": "A"
+    },
+    {
+      "title": "一条命令出片",
+      "cmds": [
+        "node animator/src/cli.mjs make .work/知识科普口播-为什么熬夜/台词.txt --out .work/知识科普口播-为什么熬夜/知识科普口播-为什么熬夜.mp4 --character tianji --media colored-pencil"
+      ],
+      "note": "先加 --scale 0.5 快速预览；完成后会生成可编辑的工程 project.json",
+      "route": "A"
+    },
+    {
+      "title": "精修（可选）",
+      "cmds": [
+        "node animator/src/cli.mjs check .work/知识科普口播-为什么熬夜/知识科普口播-为什么熬夜.work/project.json",
+        "node animator/src/cli.mjs preview .work/知识科普口播-为什么熬夜/知识科普口播-为什么熬夜.work/project.json",
+        "node animator/src/cli.mjs make .work/知识科普口播-为什么熬夜/知识科普口播-为什么熬夜.work/project.json --out .work/知识科普口播-为什么熬夜/知识科普口播-为什么熬夜.mp4"
+      ],
+      "note": "在 project.json 里加 \"stylePreset\": \"minimal-line-explainer\"，调整道具、动作、相机；synccheck 可做图文对齐质检",
+      "route": "A"
+    },
+    {
+      "route": "C",
+      "title": "—— 路线③：代码动效（Remotion / HyperFrames / Manim）（备选/升级） ——",
+      "cmds": []
+    },
+    {
+      "title": "安装 Remotion skills 并新建工程",
+      "cmds": [
+        "npx skills add remotion-dev/skills",
+        "cd .work/知识科普口播-为什么熬夜 && npx create-video@latest"
+      ],
+      "note": "Remotion License：个人/≤3 人公司免费；更大的营利公司需商业许可（否则换 HyperFrames / Motion Canvas / Revideo）",
+      "route": "C"
+    },
+    {
+      "title": "配音与字幕（复用本仓库本地 TTS）",
+      "cmds": [
+        "node animator/src/cli.mjs make .work/知识科普口播-为什么熬夜/台词.txt --out .work/知识科普口播-为什么熬夜/voice-preview.mp4 --scale 0.25"
+      ],
+      "note": "会同时生成 .work/知识科普口播-为什么熬夜/voice-preview.voice.*（音频 + SRT + 字级时间戳），导入代码动效工程即可逐字对齐",
+      "route": "C"
+    },
+    {
+      "title": "预览与渲染",
+      "cmds": [
+        "npx remotion studio",
+        "npx remotion render"
+      ],
+      "note": "字幕可用 remotion-subtitles；数据视频可用 DataMagic 配方",
+      "route": "C"
+    },
+    {
+      "title": "发布前质检",
+      "cmds": [],
+      "note": "核对字幕错别字与音画对齐；按平台要求标注「AI 生成」；可用 self-media-compliance-review 做违规风险自查"
+    }
+  ],
+  "compliance": [
+    "本仓库提示词/模板各自保留原许可证（见每条的 license 与 source_repo），转载或二次分发请保留出处；link-only 条目只给链接，不在此推荐",
+    "不使用真实明星/他人的脸、名字和声音；声音克隆、数字人只用本人或已获授权的素材",
+    "背景音乐、字体、参考图需自有版权或可商用授权",
+    "按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容",
+    "remotion-dev/remotion：Remotion License：个人、非营利、≤3 人营利公司免费；更大的公司需购买 Company License",
+    "Remotion：个人与 ≤3 人公司免费，更大的营利公司需购买 Company License"
+  ],
+  "warnings": []
+}
