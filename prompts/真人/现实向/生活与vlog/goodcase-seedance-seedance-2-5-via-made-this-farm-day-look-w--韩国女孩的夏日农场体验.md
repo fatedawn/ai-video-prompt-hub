@@ -1,0 +1,100 @@
+---
+id: "goodcase-seedance-seedance-2-5-via-made-this-farm-day-look-way-too-real-37f7dfec4b6c"
+title: "韩国女孩的夏日农场体验"
+title_en: "A Korean Woman’s Summer Day on a Traditional Farm"
+model: "Seedance（版本未注明）"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "生活与vlog"
+art_style: null
+tags: ["template:handheld-ugc-vlog"]
+source_repo: "LearnPrompt/awesome-seedance"
+source_url: "https://github.com/LearnPrompt/awesome-seedance/blob/487c166e2f09487016452b90fec5e19a470af883/data/cases.json#L11977"
+license: "CC-BY-4.0 (curation) — prompt © original creator"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "@saniaspeaks_"
+original_author_url: null
+original_post_url: "https://x.com/saniaspeaks_/status/2098742251472261330"
+published: "2026-09-12"
+third_party_author: true
+flags: []
+also_in: []
+source_page: "https://goodcase.ai/cases/seedance-seedance-2-5-via-made-this-farm-day-look-way-too-real-37f7dfec4b6c"
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+---
+
+# 韩国女孩的夏日农场体验
+
+*A Korean Woman’s Summer Day on a Traditional Farm*
+
+> Seedance 2.5 via @openart_ai made this farm day look way too real 😯 Prompt Create a 30-second, 1080p ultra-realistic personal home-video showing an ordinary su…
+
+## 提示词（English）
+
+```text
+Seedance 2.5 via @openart_ai made this farm day look way too real 😯
+
+Prompt
+
+Create a 30-second, 1080p ultra-realistic personal home-video showing an ordinary summer afternoon in the life of a young Korean woman visiting a small traditional farm and helping with the animals. No reference image.
+
+A naturally pretty beautiful Korean woman in her early 20s, realistic natural skin texture, minimal makeup, relaxed and cheerful personality. Long black hair tied in a loose low ponytail. She wears a loose white cotton T-shirt, light olive-green cargo pants, brown ankle boots, and a beige canvas crossbody bag. Keep the same face, hairstyle, clothing, body proportions, and overall appearance throughout the entire video.
+
+A small traditional countryside farm outside Seoul during a warm summer afternoon. Wooden fences, green fields, an old farmhouse, barn, hay bales, vegetable patches, chickens, cows, buckets, farming tools, trees and natural countryside surroundings. The farm feels ordinary and lived-in, not like a tourist attraction.
+
+The camera is ALWAYS positioned IN FRONT OF THE GIRL, never behind her. A friend stands or walks in front of her, casually filming her with a handheld consumer DV camcorder/smartphone. Her front face must remain clearly visible during the important moments. The camera naturally moves backward while she walks toward it. Use imperfect handheld movement, small shakes, slightly uneven framing, autofocus hunting, occasional exposure changes, natural motion blur, soft digital detail, mild image noise, faded early-2000s home-video colors, and occasional accidental zooms.
+
+Absolutely NO rear-view shots, NO filming from behind, NO drone, NO gimbal, NO cinematic tracking shots, NO polished commercial look, NO beauty filter. It should genuinely feel like a friend casually recorded this afternoon.
+
+TIMELINE
+
+0:00–0:05 — Arriving at the Farm
+
+The girl walks toward the farm entrance while the friend walks backward in front of her filming. She smiles naturally and looks around at the animals and fields. She says casually in Korean:
+
+“오늘 농장에 왔어요.”
+
+Natural footsteps, birds, insects and distant farm sounds.
+
+0:05–0:10 — Feeding the Cow
+
+Still filmed from the front, the girl approaches a calm cow and holds out fresh vegetables. The cow gently eats from her hand. She laughs naturally and looks at the camera, then back at the cow.
+
+0:10–0:15 — Helping With Vegetables
+
+Hard cut. The camera remains in front of her as she walks through a vegetable patch and picks fresh vegetables. She holds them up toward the camera with a happy smile.
+
+0:15–0:20 — Chickens
+
+Hard cut. Several chickens suddenly walk across the path in front of her. The camera stays facing her from the front as she laughs and carefully steps around them. One chicken comes close to her boots.
+
+0:20–0:25 — Farmhouse Break
+
+She sits outside the farmhouse with a basket of freshly picked vegetables and eats a piece of fresh fruit. She looks relaxed and slightly tired from working. She smiles at the camera and says:
+
+“생각보다 재밌어요.”
+
+0:25–0:30 — Walking Away / Goodbye
+She gets up and walks toward the camera, then stops near the farm entrance. The friend keeps filming from directly in front of her. She gives a small wave and says:
+
+“다음에 또 올게요. 안녕!”
+
+She walks past the camera as the recording ends naturally.
+
+AUDIO:
+Only authentic location sound: birds, chickens, cows, insects, footsteps, leaves, distant farm activity and natural conversation. No background music, no narration, no artificial sound effects.
+
+FINAL LOOK:
+Completely believable real-life home-video footage. Slightly imperfect, spontaneous, unpolished and human. Front-facing camera coverage throughout the story, with the girl's face clearly visible.
+```
+
+## 出处与许可
+
+- 原作者：@saniaspeaks_ · 原帖：<https://x.com/saniaspeaks_/status/2098742251472261330>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[LearnPrompt/awesome-seedance](https://github.com/LearnPrompt/awesome-seedance)，[原文位置](https://github.com/LearnPrompt/awesome-seedance/blob/487c166e2f09487016452b90fec5e19a470af883/data/cases.json#L11977)
+- 上游许可：CC-BY-4.0 (curation) — prompt © original creator（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 效果预览（外部链接，本仓库不收录图片/视频）：<https://goodcase.ai/cases/seedance-seedance-2-5-via-made-this-farm-day-look-way-too-real-37f7dfec4b6c>
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

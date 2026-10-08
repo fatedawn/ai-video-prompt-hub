@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  豆豆 (Doudou) — original demo character for ai-video-prompt-hub/animator.
+  Drawn from scratch by hand-written SVG for this repository; no third-party artwork, traced images or AI images.
+  Z-order = document order (legs, body, head, arms — arms on top so a raised hand is never hidden).
+  Rig convention: each movable part is a <g> with a fixed id (leg_l, leg_r, body, arm_l, arm_r, head).
+  Face layers (eyes*, mouth*, expr_*) live inside the head group and are switched by the animator.
+  "_l" = screen-left, "_r" = screen-right. Pivots are declared in character.json (SVG user units).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 360" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <g id="leg_l">
+    <path d="M102 254 L98 322 L112 322 L114 256 Z" fill="#6f93c9" stroke="#4a3326" stroke-width="3.5"/>
+    <path d="M88 334 C 86 322, 112 318, 114 330 C 114 338, 90 340, 88 334 Z" fill="#7a4a32" stroke="#4a3326" stroke-width="3.5"/>
+  </g>
+  <g id="leg_r">
+    <path d="M138 254 L142 322 L128 322 L126 256 Z" fill="#6f93c9" stroke="#4a3326" stroke-width="3.5"/>
+    <path d="M152 334 C 154 322, 128 318, 126 330 C 126 338, 150 340, 152 334 Z" fill="#7a4a32" stroke="#4a3326" stroke-width="3.5"/>
+  </g>
+  <g id="body">
+    <path d="M90 172 C 104 164, 136 164, 150 172 L 166 256 C 140 270, 100 270, 74 256 Z" fill="#f2895f" stroke="#4a3326" stroke-width="4"/>
+    <path d="M100 172 C 108 184, 132 184, 140 172" stroke="#4a3326" stroke-width="3" fill="#fff4d8"/>
+    <path d="M106 222 L 134 222 L 132 242 C 124 246, 116 246, 108 242 Z" fill="#ffd25e" stroke="#4a3326" stroke-width="3"/>
+  </g>
+  <g id="head">
+    <!-- sprout: the bean motif that gives 豆豆 its name -->
+    <path d="M120 50 C 118 40, 120 30, 124 22" stroke="#4f8a2e" stroke-width="4"/>
+    <path d="M123 30 C 112 18, 96 18, 92 24 C 100 34, 114 36, 123 30 Z" fill="#8fcf6f" stroke="#3f7a2a" stroke-width="3"/>
+    <path d="M124 26 C 134 12, 152 12, 156 18 C 148 30, 134 32, 124 26 Z" fill="#8fcf6f" stroke="#3f7a2a" stroke-width="3"/>
+    <circle cx="120" cy="112" r="64" fill="#fde2c4" stroke="#4a3326" stroke-width="4"/>
+    <g id="cheeks">
+      <ellipse cx="86" cy="134" rx="10" ry="7" fill="#f6a3a3" stroke="#e98585" stroke-width="1.5"/>
+      <ellipse cx="154" cy="134" rx="10" ry="7" fill="#f6a3a3" stroke="#e98585" stroke-width="1.5"/>
+    </g>
+    <g id="eyes">
+      <ellipse cx="100" cy="112" rx="6.5" ry="8.5" fill="#2d2420" stroke="#2d2420" stroke-width="2"/>
+      <ellipse cx="140" cy="112" rx="6.5" ry="8.5" fill="#2d2420" stroke="#2d2420" stroke-width="2"/>
+    </g>
+    <g id="eyes_closed">
+      <path d="M92 113 Q 100 119 108 113 M132 113 Q 140 119 148 113" stroke="#2d2420" stroke-width="4"/>
+    </g>
+    <g id="eyes_happy">
+      <path d="M92 116 Q 100 104 108 116 M132 116 Q 140 104 148 116" stroke="#2d2420" stroke-width="4.5"/>
+    </g>
+    <g id="eyes_wide">
+      <circle cx="100" cy="110" r="11" fill="#ffffff" stroke="#2d2420" stroke-width="3"/>
+      <circle cx="140" cy="110" r="11" fill="#ffffff" stroke="#2d2420" stroke-width="3"/>
+      <circle cx="101" cy="111" r="5" fill="#2d2420" stroke="#2d2420" stroke-width="1"/>
+      <circle cx="139" cy="111" r="5" fill="#2d2420" stroke="#2d2420" stroke-width="1"/>
+    </g>
+    <g id="mouth_closed">
+      <path d="M110 140 Q 120 148 130 140" stroke="#4a3326" stroke-width="4"/>
+    </g>
+    <g id="mouth_smile">
+      <path d="M104 136 Q 120 158 136 136 Q 120 144 104 136 Z" fill="#c94a4a" stroke="#4a3326" stroke-width="3.5"/>
+    </g>
+    <g id="mouth_open">
+      <path d="M108 136 Q 120 164 132 136 Q 120 141 108 136 Z" fill="#b23a3a" stroke="#4a3326" stroke-width="3.5"/>
+      <path d="M113 150 Q 120 146 127 150 Q 120 157 113 150 Z" fill="#f08a8a" stroke="#f08a8a" stroke-width="1"/>
+    </g>
+    <g id="mouth_o">
+      <ellipse cx="120" cy="146" rx="7" ry="9" fill="#b23a3a" stroke="#4a3326" stroke-width="3.5"/>
+    </g>
+    <g id="expr_surprised">
+      <path d="M90 88 Q 100 80 110 88 M130 88 Q 140 80 150 88" stroke="#4a3326" stroke-width="4"/>
+      <path d="M182 84 C 178 92, 176 98, 182 100 C 188 98, 186 92, 182 84 Z" fill="#9fd4f2" stroke="#4a8fbf" stroke-width="2.5"/>
+    </g>
+  </g>
+  <g id="arm_l">
+    <path d="M94 180 C 80 196, 72 220, 66 244 L 78 248 C 84 226, 92 206, 104 190 Z" fill="#f2895f" stroke="#4a3326" stroke-width="3.5"/>
+    <circle cx="68" cy="254" r="11" fill="#fde2c4" stroke="#4a3326" stroke-width="3.5"/>
+  </g>
+  <g id="arm_r">
+    <path d="M146 180 C 160 196, 168 220, 174 244 L 162 248 C 156 226, 148 206, 136 190 Z" fill="#f2895f" stroke="#4a3326" stroke-width="3.5"/>
+    <circle cx="172" cy="254" r="11" fill="#fde2c4" stroke="#4a3326" stroke-width="3.5"/>
+  </g>
+</svg>

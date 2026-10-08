@@ -1,0 +1,47 @@
+{
+ "_comment": "本地 TTS 模型清单：下载地址 + sha256 + 许可证。模型不随仓库分发，由 fetch_models.py 下载到 $HDA_MODELS（默认 ~/.cache/hda-models）并校验。",
+ "models": {
+  "kokoro": {
+   "name": "Kokoro-82M v1.1-zh（sherpa-onnx 导出）",
+   "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_1.tar.bz2",
+   "sha256": "a3f4c73d043860e3fd2e5b06f36795eb81de0fc8e8de6df703245edddd87dbad",
+   "bytes": 364816464,
+   "dir": "kokoro-multi-lang-v1_1",
+   "license": "Apache-2.0（权重：hexgrad/Kokoro-82M-v1.1-zh；导出：k2-fsa/sherpa-onnx）",
+   "upstream": "https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh",
+   "default": true
+  },
+  "melo": {
+   "name": "MeloTTS 中英（sherpa-onnx 导出）",
+   "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-melo-tts-zh_en.tar.bz2",
+   "sha256": "e58351ed7149f290a54534538badd4077cdbe6fddc964b24d0bee870415d1514",
+   "bytes": 167006755,
+   "dir": "vits-melo-tts-zh_en",
+   "license": "MIT（myshell-ai/MeloTTS）",
+   "upstream": "https://github.com/myshell-ai/MeloTTS"
+  },
+  "aishell3": {
+   "name": "VITS AISHELL-3 多说话人（sherpa-onnx 导出）",
+   "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-zh-aishell3.tar.bz2",
+   "sha256": "c476bd76d7a25171014bdc1e3a38422f5af2045f43852d90dc4df67660482e20",
+   "bytes": 146922607,
+   "dir": "vits-zh-aishell3",
+   "license": "训练数据 AISHELL-3 为 Apache-2.0；压缩包内未附模型许可证文件——仅作备选，商用前请自行确认",
+   "upstream": "https://k2-fsa.github.io/sherpa/onnx/tts/pretrained_models/vits.html"
+  },
+  "whisper-small": {
+   "name": "faster-whisper small（只用于对齐出字级时间戳，可选）",
+   "hf_repo": "Systran/faster-whisper-small",
+   "revision": "536b0662742c02347bc0e980a01041f333bce120",
+   "files": {
+    "config.json": "b55496ac7940a7ae47d2c01eab40edfd8701feec1229d9cce3b40014383fb828",
+    "model.bin": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+    "tokenizer.json": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+    "vocabulary.txt": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913"
+   },
+   "dir": "faster-whisper-small",
+   "license": "MIT（OpenAI Whisper 权重；CTranslate2 转换：Systran）",
+   "upstream": "https://huggingface.co/Systran/faster-whisper-small"
+  }
+ }
+}

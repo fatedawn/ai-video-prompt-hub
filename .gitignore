@@ -1,0 +1,26 @@
+.work/
+__pycache__/
+*.pyc
+.DS_Store
+
+# animator: dependencies and generated media (keep the repo text-only)
+animator/node_modules/
+animator/examples/out/
+animator/examples/*/out/
+animator/examples/*/voice.*
+animator/characters/doudou-png/sheet.png
+animator/characters/doudou-png/sheet.frames.json
+
+# animator: local TTS environment + generated narration (models live in $HDA_MODELS, never in git)
+animator/.venv/
+**/*.voice.wav
+**/*.voice.srt
+**/*.voice.words.json
+**/*.voice.mp3
+
+# videogen: your own API keys and all generated media
+.env
+.env.*
+!.env.example
+videogen/examples/*/out/
+videogen/**/clips/

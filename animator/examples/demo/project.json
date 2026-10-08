@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schema/project.schema.json",
+  "version": 1,
+  "title": "天机泄露 · 手绘动画小工具",
+  "canvas": {"width": 1080, "height": 1920, "fps": 30},
+  "media": "crayon",
+  "stylePreset": "kid-crayon",
+  "paper": {"color": "#f8f2e4"},
+  "timing": {"srt": "demo.srt"},
+  "tts": {"engine": "local", "out": "voice"},
+  "subtitle": {"size": 56, "y": 0.87},
+  "characters": {"tianji": "../../characters/tianji/character.json"},
+  "script": [
+    {"text": "大家好，我是天机！", "speaker": "tianji"},
+    {"text": "今天泄露一个 GitHub 天机——", "speaker": "tianji"},
+    {"text": "只要写好一段台词，", "speaker": "tianji"},
+    {"text": "它就能一笔一笔，把动画画出来。", "speaker": "tianji"},
+    {"text": "角色会走路、会挥手，还会对口型！", "speaker": "tianji"},
+    {"text": "完全开源，在自己电脑上就能跑。", "speaker": "tianji"},
+    {"text": "评论区见，下期再泄露天机！", "speaker": "tianji"}
+  ],
+  "scenes": [
+    {
+      "id": "s1-开场",
+      "cues": [1, 2],
+      "camera": {
+        "from": {"x": 540, "y": 1060, "zoom": 1.12},
+        "keys": [{"at": "c2", "x": 540, "y": 1000, "zoom": 1.0}, {"at": "c2:泄露", "x": 600, "y": 940, "zoom": 1.1}],
+        "to": {"x": 610, "y": 930, "zoom": 1.14},
+        "shakes": [{"at": "c2:泄露", "dur": 0.35, "amp": 7}]
+      },
+      "elements": [
+        {"id": "sparkle1", "shape": "sparkle", "x": 170, "y": 520, "scale": 0.7, "at": "scene+0.1", "draw": 0.3, "pen": false, "motion": {"type": "twinkle", "period": 0.9}},
+        {"id": "sparkle2", "shape": "sparkle", "x": 930, "y": 700, "scale": 0.55, "at": "scene+0.3", "draw": 0.3, "pen": false, "motion": {"type": "twinkle", "period": 1.2}},
+        {"id": "cloud", "shape": "cloud", "x": 820, "y": 420, "scale": 1.2, "at": "scene+0.2", "draw": 0.5, "pen": false, "motion": {"type": "drift", "dx": -40, "period": 7}},
+        {"id": "name", "text": "我是天机", "size": 120, "color": "#4155a8", "x": 540, "y": 640, "at": "c1:天机", "draw": 0.6, "exit": {"at": "c2", "dur": 0.3}},
+        {"id": "github", "text": "GitHub 天机", "size": 104, "color": "#e2603f", "x": 560, "y": 600, "at": "c2:GitHub", "draw": 0.9},
+        {"id": "bulb", "shape": "bulb", "x": 900, "y": 860, "scale": 0.9, "at": "c2:泄露", "draw": 0.5, "motion": {"type": "pulse", "amt": 0.07, "period": 0.8}}
+      ],
+      "actors": [
+        {
+          "character": "tianji",
+          "x": 480,
+          "y": 1480,
+          "height": 860,
+          "appear": {"type": "draw", "at": "scene", "dur": 1.0},
+          "actions": [
+            {"type": "expression", "name": "happy", "at": "c1"},
+            {"type": "wave", "arm": "arm_l", "at": "c1:大家好", "until": "c1.end"},
+            {"type": "expression", "name": "smug", "at": "c2:泄露"},
+            {"type": "reveal", "at": "c2:泄露", "until": "scene.end+0.3"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2-台词变动画",
+      "cues": [3, 4],
+      "transition": {"type": "scribble", "dur": 0.6},
+      "camera": {
+        "from": {"x": 540, "y": 980, "zoom": 1.04},
+        "keys": [{"at": "c3:台词", "x": 420, "y": 940, "zoom": 1.08}, {"at": "c4:一笔", "x": 640, "y": 900, "zoom": 1.06}],
+        "to": {"x": 560, "y": 960, "zoom": 1.0}
+      },
+      "elements": [
+        {"id": "paper", "shape": "paper", "x": 250, "y": 820, "scale": 1.9, "rot": -4, "at": "c3:台词", "draw": 0.8},
+        {"id": "line1", "text": "“早上好呀！”", "size": 42, "color": "#5a4a3a", "x": 275, "y": 745, "rot": -4, "at": "c3:台词+0.3", "draw": 0.6},
+        {"id": "arrow", "shape": "arrow", "x": 540, "y": 800, "scale": 1.0, "at": "c4:它", "draw": 0.5, "pen": false},
+        {"id": "frame", "shape": "frame", "x": 830, "y": 830, "scale": 1.9, "at": "c4:它", "draw": 0.5, "pen": false},
+        {"id": "mini_sun", "shape": "sun", "x": 910, "y": 720, "scale": 0.6, "at": "c4:一笔", "draw": 0.6, "motion": {"type": "pulse", "amt": 0.06, "period": 1.1}},
+        {"id": "mini_house", "shape": "house", "x": 780, "y": 880, "scale": 0.95, "at": "c4:一笔#2", "draw": 0.9},
+        {"id": "mini_tree", "shape": "tree", "x": 900, "y": 890, "scale": 0.75, "at": "c4:动画", "draw": 0.8, "motion": {"type": "sway", "deg": 2, "period": 1.6}},
+        {"id": "ground", "shape": "ground", "x": 540, "y": 1500, "scale": 2.8, "at": "scene", "draw": 0.5, "pen": false}
+      ],
+      "actors": [
+        {
+          "character": "tianji",
+          "x": 540,
+          "y": 1500,
+          "height": 720,
+          "actions": [
+            {"type": "expression", "name": "thinking", "at": "scene"},
+            {"type": "point", "arm": "arm_l", "at": "c3:台词", "dur": 1.8},
+            {"type": "look", "angle": -6, "at": "c4:一笔", "dur": 1.6},
+            {"type": "expression", "name": "happy", "at": "c4:画出来"},
+            {"type": "point", "arm": "arm_r", "at": "c4:动画", "until": "scene.end+0.2"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-会动的角色",
+      "cues": [5],
+      "transition": {"type": "slide", "dur": 0.5},
+      "camera": {"from": {"x": 540, "y": 1000, "zoom": 1.0}, "keys": [{"at": "c5:挥手", "x": 640, "y": 1000, "zoom": 1.06}], "to": {"x": 600, "y": 1040, "zoom": 1.16}},
+      "elements": [
+        {"id": "ground", "shape": "ground", "x": 540, "y": 1560, "scale": 2.8, "at": "scene", "draw": 0.4, "pen": false},
+        {"id": "grass", "shape": "grass", "x": 900, "y": 1555, "scale": 1.1, "at": "scene+0.2", "draw": 0.3, "pen": false, "motion": {"type": "sway", "deg": 5, "period": 1.8}},
+        {"id": "tag_walk", "text": "走路", "size": 84, "color": "#4155a8", "x": 270, "y": 980, "at": "c5:走路", "draw": 0.4},
+        {"id": "check1", "shape": "check", "x": 400, "y": 970, "scale": 0.5, "at": "c5:走路+0.3", "draw": 0.3, "pen": false},
+        {"id": "tag_wave", "text": "挥手", "size": 84, "color": "#4155a8", "x": 300, "y": 800, "at": "c5:挥手", "draw": 0.4},
+        {"id": "check2", "shape": "check", "x": 430, "y": 790, "scale": 0.5, "at": "c5:挥手+0.3", "draw": 0.3, "pen": false},
+        {"id": "tag_talk", "text": "对口型", "size": 84, "color": "#e2603f", "x": 620, "y": 680, "at": "c5:对口型", "draw": 0.5},
+        {"id": "check3", "shape": "check", "x": 800, "y": 670, "scale": 0.5, "at": "c5:对口型+0.4", "draw": 0.3, "pen": false}
+      ],
+      "actors": [
+        {
+          "character": "tianji",
+          "x": 260,
+          "y": 1560,
+          "height": 720,
+          "actions": [
+            {"type": "expression", "name": "happy", "at": "scene"},
+            {"type": "walk", "at": "c5", "until": "c5:挥手", "from": [220, 1560], "to": [600, 1560]},
+            {"type": "wave", "arm": "arm_l", "at": "c5:挥手", "until": "c5.end"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4-开源",
+      "cues": [6, 7],
+      "transition": {"type": "scribble", "dur": 0.6},
+      "camera": {
+        "from": {"x": 540, "y": 960, "zoom": 1.0},
+        "keys": [{"at": "c6:电脑", "x": 560, "y": 900, "zoom": 1.06}, {"at": "c7", "x": 540, "y": 1020, "zoom": 1.0}],
+        "to": {"x": 540, "y": 1080, "zoom": 1.12},
+        "shakes": [{"at": "c7:下期", "dur": 0.3, "amp": 6}]
+      },
+      "elements": [
+        {"id": "badge", "text": "开源 · 免费", "size": 96, "color": "#3f8f4f", "x": 540, "y": 460, "at": "c6:开源", "draw": 0.6},
+        {
+          "id": "terminal",
+          "shape": "terminal",
+          "x": 540,
+          "y": 750,
+          "scale": 2.6,
+          "at": "c6:电脑",
+          "draw": 0.6,
+          "pen": false,
+          "exit": {"at": "c7", "dur": 0.4},
+          "colors": {"c1": "#fdf8ec", "c3": "#3f8f4f"}
+        },
+        {"id": "cmd", "text": "npm run demo", "size": 50, "color": "#2b2d42", "x": 615, "y": 725, "at": "c6:就能跑", "draw": 0.7, "pen": false, "z": 50, "exit": {"at": "c7", "dur": 0.4}},
+        {"id": "comment", "text": "评论区见 ↓", "size": 104, "color": "#e2603f", "x": 540, "y": 760, "at": "c7:评论区", "draw": 0.6},
+        {"id": "heart1", "shape": "heart", "x": 190, "y": 980, "scale": 0.8, "at": "c7:下期", "draw": 0.4, "motion": {"type": "pulse", "amt": 0.08, "period": 0.9}},
+        {"id": "heart2", "shape": "heart", "x": 900, "y": 960, "scale": 0.65, "at": "c7:下期+0.2", "draw": 0.4, "motion": {"type": "pulse", "amt": 0.08, "period": 1.1}},
+        {"id": "sparkle3", "shape": "sparkle", "x": 860, "y": 1100, "scale": 0.6, "at": "c7:天机", "draw": 0.3, "pen": false, "motion": {"type": "twinkle", "period": 0.8}}
+      ],
+      "actors": [
+        {
+          "character": "tianji",
+          "x": 540,
+          "y": 1600,
+          "height": 720,
+          "actions": [
+            {"type": "expression", "name": "happy", "at": "scene"},
+            {"type": "nod", "times": 2, "at": "c6:开源", "dur": 0.9},
+            {"type": "expression", "name": "smug", "at": "c6:就能跑"},
+            {"type": "expression", "name": "happy", "at": "c7"},
+            {"type": "point", "arm": "arm_l", "angle": 40, "at": "c7:评论区", "dur": 1.2},
+            {"type": "reveal", "at": "c7:下期", "until": "scene.end+0.3"},
+            {"type": "hop", "times": 2, "height": 5, "at": "c7.end", "dur": 0.9}
+          ]
+        }
+      ]
+    }
+  ]
+}

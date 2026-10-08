@@ -1,0 +1,6 @@
+# 下架名单（takedown list）。一行一个，'#' 之后是注释。scripts/extract_sources.py 会跳过这里列出的条目（包括其他来源中的重复项）。
+# 可以写：
+#   原帖链接        https://x.com/someone/status/1234567890
+#   条目 id         youmind-12345
+#   作者（全部条目） author:@someone
+# 加完后运行：python3 scripts/extract_sources.py && python3 scripts/build_index.py

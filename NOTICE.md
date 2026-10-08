@@ -1,0 +1,104 @@
+# NOTICE · 版权与许可声明
+
+本仓库的内容分为三类，各自适用不同的版权与许可。
+
+## 1. 本仓库原创内容：Apache-2.0
+
+版权人：**天机**（Copyright 2026 天机）。许可：**[Apache License 2.0](LICENSE)**（全文见根目录 `LICENSE`，简短声明见根目录 `NOTICE`）。
+
+Apache-2.0 **只覆盖本仓库自己的作品**，包括：
+- 代码：`scripts/`、`animator/`（代码、Schema、`tts/`、`tools/`）、`videogen/`；
+- 文档：README、NOTICE、ATTRIBUTION、CONTRIBUTING、SECURITY 等，`animator/README.md`、`videogen/README.md`，分类体系、各级索引与统计，`tools/漫剧漫画代码项目.md` 链接清单；
+- 手册：`docs/分镜提示词手册.md`、`docs/skill/SKILL.md`（其中【原文摘录】除外，见第 3 节）；
+- 自写的模板、示例与提示词：`animator/templates/`、`animator/examples/`、`videogen/examples/`、`docs/` 中的示例；
+- 对 `animator/presets/handdrawn-styles.json` 所做的改动（15 条改写与 `_provenance` 记录；上游条目本身仍是 MIT，见第 2.1 节）；
+- 原创角色及其美术：默认主持人「天机」（`animator/characters/tianji/`）、示例角色「豆豆」（`animator/characters/doudou*/`）、内置道具 SVG（`src/runtime/shapes.js`）；
+- `docs/assets/` 中的预览图片和视频（由本仓库代码渲染；视频配音由本地 Kokoro 合成，见第 2.1 节末）。
+
+**关于「天机」名称与形象（提醒，不是附加限制）**：「天机」是频道的身份标识。Apache-2.0 第 6 条本来就不授予商号、商标或产品名称的使用权（描述作品来源的合理使用除外）。请不要用「天机」名称或形象冒充频道，或暗示频道为你的作品背书。在此前提下，角色形象与其他原创内容一样按 Apache-2.0 自由使用、修改和商用。
+
+复用时请保留 `LICENSE` 与 `NOTICE`，并按 Apache-2.0 第 4 条注明改动。
+
+## 2. 第三方内容：保持上游许可
+
+`prompts/` 与 `templates/` 中的文字转录自以下上游仓库，**不受本仓库 Apache-2.0 约束**，以各自上游许可（MIT / CC BY 4.0）为准，并逐条保留原作者署名。完整许可文本和版权行见 `LICENSES/`。
+
+| 上游 | 许可 | 版权行 | 许可文本 |
+|---|---|---|---|
+| YouMind-OpenLab/awesome-seedance-2-prompts | CC BY 4.0 | Copyright (c) 2025 YouMind OpenLab | `LICENSES/YouMind-OpenLab_awesome-seedance-2-prompts-CC-BY-4.0.txt` |
+| LearnPrompt/awesome-seedance | 代码 MIT；整理内容 CC BY 4.0（署名 awesome-seedance / goodcase.ai） | Copyright (c) 2026 LearnPrompt | `LICENSES/LearnPrompt_awesome-seedance-MIT.txt`、`LICENSES/LearnPrompt_awesome-seedance-CURATION-NOTE.md` |
+| ZeroLu/awesome-seedance | MIT | Copyright (c) 2026 ZeroLu | `LICENSES/ZeroLu_awesome-seedance-MIT.txt` |
+| Emily2040/seedance-2.0 | MIT | Copyright (c) 2026 Iamemily2050 (@iamemily2050) | `LICENSES/Emily2040_seedance-2.0-MIT.txt` |
+| lixiaoxiao9888-create/manju-laoli-skill | MIT | Copyright (c) 2026 Short-Drama Director Suite contributors | `LICENSES/lixiaoxiao9888-create_manju-laoli-skill-MIT.txt` |
+| HBAI-Ltd/Toonflow-app | MIT | Copyright (c) 2026 HBAI-Ltd | `LICENSES/HBAI-Ltd_Toonflow-app-MIT.txt` |
+
+**第三方原作者的提示词**
+
+YouMind、LearnPrompt、ZeroLu 三个上游都说明：所收提示词来自社区（X/Twitter、微信公众号、Replicate Blog 等），**权利归原作者所有**。LearnPrompt 原文是："Nothing here grants a license to the underlying prompt or media beyond what the original post allows."
+
+因此对这类条目（front matter 中 `third_party_author: true`）：
+- 本仓库逐条保留上游给出的原作者署名和原帖链接；
+- 本仓库**不授予任何许可**，上游的 MIT / CC BY 也不覆盖这些提示词本身；
+- 收录目的是学习、研究和索引。用于商业项目前，请自己确认原帖的使用条件。
+
+**原作者如需删除请提 issue**（附文件路径或原帖链接），我们会移除对应文件及 `data/` 中的记录。
+
+### 2.1 `animator/` 中的第三方内容
+
+`animator/` 的代码是本仓库从零实现的，只借鉴了若干开源项目的**思路**（见第 4 节和 `ATTRIBUTION.md`）。**唯一复制的第三方内容**是：
+
+| 文件 | 来源 | 许可 | 版权行 | 许可文本 |
+|---|---|---|---|---|
+| `animator/presets/handdrawn-styles.json`（画风提示词文字，297 种画风 + 30 套配色） | gnipbao/story-to-handdrawn-video `references/handdrawn-style-library.json` @ `198aefa` | MIT | Copyright (c) 2026 gnipbao | `LICENSES/gnipbao_story-to-handdrawn-video-MIT.txt` |
+| 　其中 `origin.url` 指向 yang0/handraw-style 的 277 条 | yang0/handraw-style（经 gnipbao 收录） | MIT；上游现行版本附加署名要求，本仓库自愿遵守 | Copyright (c) 2026 yang0 | `LICENSES/yang0_handraw-style-MIT.txt` |
+| 　其中 `origin.url` 指向 threerocks/hand-drawn-styles 的 14 条 | threerocks/hand-drawn-styles（经 gnipbao 改编） | MIT | Copyright (c) 2026 liulei | `LICENSES/threerocks_hand-drawn-styles-MIT.txt` |
+
+**署名（按 yang0/handraw-style 许可的署名要求）**：画风配方大部分来自原作者 **yang0** 的 [yang0/handraw-style](https://github.com/yang0/handraw-style)。
+
+该文件只保留文字字段，删去了所有指向示例图片的字段；另把 15 条以品牌、商标作品或具体艺术家名作风格参照的预设改写为通用画法描述（如「几米绘本插画风」→「诗意都市绘本插画风」，「South Park Animation Style」→「Flat Cut-Out TV Cartoon Style」），其余提示词文字未改。文件内的 `_provenance` 字段记录了来源 commit、sha256 和改动列表。各条目 `origin.label` 保留上游的原始标签（部分为艺术家名或提示词作者名），仅用于溯源，不进入任何提示词。
+
+**明确未使用的内容**：
+- huashu-art-motion 的 Arphic 笔画数据（`strokes.js`，非 MIT）、其 OFL 字体，以及「花叔」形象和任何角色素材，均未复制、未引用；
+- anidoodle（Apache-2.0）没有复制任何代码或素材，因此无需转载其 NOTICE；
+- 不随仓库打包任何字体。字幕使用系统字体，按顺序调用霞鹜文楷（OFL）、Noto Sans CJK（OFL）等。
+
+**生成物**：渲染输出目录、TTS 生成的单独音频文件（本地 Kokoro 或 edge-tts）、videogen 的片段与成片均已在 `.gitignore` 中排除。例外是 `docs/assets/` 里几份由本仓库代码渲染的小预览（设定图、剪影、帧图，以及两段带配音的演示视频，共约 2.6 MB），见该目录的 README。
+
+**预览视频的配音**：`docs/assets/tianji-demo.mp4` 与 `docs/assets/videogen-route-c-demo.mp4` 的人声由 [Kokoro-82M v1.1-zh](https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh)（hexgrad，Apache-2.0）经 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)（k2-fsa，Apache-2.0）在本地合成，压缩为 48 kbps 单声道 AAC 音轨；路线 C 演示的背景音乐由本仓库脚本程序化合成。仓库不包含任何模型权重或单独的音频文件。
+
+**TTS 模型与视频模型**：均不随仓库分发。`animator/tts/fetch_models.py` 从上游下载并校验 sha256（Kokoro / sherpa-onnx：Apache-2.0；MeloTTS、faster-whisper：MIT）；videogen 只调用用户自己的 API 账号或用户自己运行的 ComfyUI，模型许可见 `videogen/README.md`。**API 密钥**：本仓库不提供、不保管任何密钥，只从用户的环境变量或 `.env`（已被 git 忽略）读取。
+
+## 3. 仓库所有者自己的文档
+
+`docs/分镜提示词手册.md` 与 `docs/skill/SKILL.md` 是仓库所有者的原创作品，按 Apache-2.0 提供（见第 1 节）。
+
+手册中标注【原文摘录】的段落是对第三方的**简短引用**，版权归原权利人，不随本仓库许可转授。引用对象包括：
+- 火山引擎官方提示词指南：版权所有，仅作评论性短引；
+- YouMind、goodcase.ai、ZeroLu / 卡尔的AI沃茨、Emily2040 的示例；
+- 一位用户示例（@九州文化-奶盖AI，OCR 转录）。
+
+如权利人有异议，同样请提 issue，我们会删改。
+
+## 4. 未收录 / 仅链接的内容
+
+以下内容只提供链接，没有复制任何文字或代码，原因见 README「相关项目」：
+- marsoyang1：无许可证；
+- huobao-drama：CC BY-NC-SA 4.0；
+- waoowaoo：Elastic License 2.0；
+- 火山引擎 / 即梦官方文档：版权所有；
+- dexhunter/seedance2-skill 的示例：疑似转录自官方手册，暂缓收录；
+- YouMind / goodcase.ai 网站内容；
+- `tools/` 中列出的全部代码项目；
+- `animator/` 只借鉴思路、未复制代码的项目：geeklee/srt-whiteboard-animation（MIT）、alexgreensh/anidoodle（Apache-2.0）、alchaincyf/huashu-art-motion（代码 MIT）、HKUDS/ViMax（MIT）、HBAI-Ltd/Toonflow-app（MIT）。
+
+本仓库没有收录任何第三方图片、GIF 或视频。`animator/` 中的 SVG（角色「豆豆」与内置道具）是本仓库原创的矢量图。
+
+## 5. 发布前内容审核（仅保留标题 + 署名 + 链接）
+
+为避免转载违规内容，`scripts/audit.py` 在提取时按关键词规则（先去掉「不要 / avoid / no …」否定约束）加人工复核（`data/audit_overrides.tsv`）检查每条第三方提示词：
+- 以真实可识别人物为主体、性暗示 / 裸露、极端血腥、仇恨用语、自残、毒品 / 武器制作、政治敏感、复刻特定版权角色 / IP 为核心、可能被误认为品牌官方广告的条目：**降级为仅链接**——保留标题、原作者署名、原帖与上游链接和一句中性说明，不转载正文（front matter 标 `access: "link-only"` 与 `audit_reason`）；
+- 涉及未成年人或年龄不明人物的性化内容：**不收录**，只在 `data/extraction_report.json` 的 `audit.excluded` 中记录 id 与原因；
+- 「迪士尼风格」「吉卜力风格」这类风格提法属于引用的第三方文字，保留全文。
+
+各类条数见 README「统计」。规则拿不准时一律从严降级为仅链接，不删除署名。审核流程与申诉见 `CONTRIBUTING.md`。
+

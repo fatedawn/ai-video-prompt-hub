@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/project.schema.json",
+  "version": 1,
+  "title": "图片角色示例",
+  "canvas": {"width": 1080, "height": 1920, "fps": 30},
+  "media": "colored-pencil",
+  "timing": {"srt": "demo.srt"},
+  "characters": {"dd": "../../characters/doudou-png/character.json"},
+  "script": [{"text": "这是用一张设定图做的豆豆。"}, {"text": "“我也会走路、说话、变表情！”", "speaker": "dd"}],
+  "scenes": [
+    {
+      "id": "s1",
+      "cues": [1, 2],
+      "camera": {"from": {"x": 540, "y": 1080, "zoom": 1.0}, "to": {"x": 540, "y": 1120, "zoom": 1.08}},
+      "elements": [
+        {"id": "ground", "shape": "ground", "x": 540, "y": 1470, "scale": 2.8, "at": "scene", "draw": 0.6, "pen": false},
+        {"id": "flower", "shape": "flower", "x": 860, "y": 1420, "scale": 0.8, "at": "c2:说话", "draw": 0.8, "motion": {"type": "sway", "deg": 5, "period": 1.6}}
+      ],
+      "actors": [
+        {
+          "character": "dd",
+          "x": 300,
+          "y": 1470,
+          "appear": {"type": "draw", "at": "c1", "dur": 1.0},
+          "actions": [
+            {"type": "walk", "at": "c1:设定图", "until": "c1.end", "from": [300, 1470], "to": [520, 1470]},
+            {"type": "expression", "name": "happy", "at": "c2"},
+            {"type": "wave", "at": "c2:走路", "dur": 1.0},
+            {"type": "expression", "name": "surprised", "at": "c2:变表情"}
+          ]
+        }
+      ]
+    }
+  ]
+}

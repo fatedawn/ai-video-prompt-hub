@@ -1,0 +1,30 @@
+# Manual audit decisions — win over the keyword rules in scripts/audit.py.
+# id<TAB>action (keep | link-only | exclude)<TAB>reason<TAB>note
+# keep = rule false positive (incidental mention, not the subject); link-only / exclude = stricter than the rules.
+youmind-4724	keep		fan holds a printed photo of a cricketer in the crowd; the subject is a fictional fan
+youmind-5185	keep		only names a pop song as background-music reference
+youmind-5931	keep		fictional fan packs a team jersey with a player's number
+youmind-6078	keep		fictional fan wears a jersey with a player's number
+youmind-6703	keep		broadcast commentary line names a player; subject is fictional fans
+youmind-7078	keep		"a kick like <player>" — motion reference only
+youmind-7139	keep		fan street with supporters' flags; subject is a fictional cheerleader
+youmind-7144	keep		supporter outfit reference; subject is a fictional fan
+goodcase-juliaclarky-seedance-ai-f648a434d526	keep		cartoon kid imitates famous dance moves; no real person depicted
+youmind-10206	keep		"in Transformers movie style" — style reference, original creature
+youmind-4298	keep		"GTA V graphics / like in GTA V" — style reference, original characters
+youmind-6159	keep		a character mentions a game in dialogue
+youmind-2200	keep		a pink toy jeep named after a doll brand, passing mention
+youmind-2133	keep		a tattoo motif, passing mention
+youmind-2223	keep		a tattoo motif, passing mention
+youmind-2418	keep		creature limb severed with sparks; not graphic gore
+youmind-9300	keep		a one-word insult in dialogue; no sexual content
+youmind-3628	keep		"suicide run" = a warship's last mission; no self-harm
+youmind-4726	keep		"heroin" is a typo of "heroine"; no drugs
+youmind-615	link-only	sexual	POV flirt scene with camera pan down the legs
+youmind-553	exclude	sexual-minor	"sexy" dance in a JK (school) uniform
+youmind-669	exclude	sexual-minor	"youthful girl" with focus on bare thighs; age ambiguous, excluded to be safe
+goodcase-seedance-grandma-is-out-here-for-the-shopping-with-her-pet-sparrow-d6d07e610943	keep		only names the creator tool ("Skill Used: …") — not a game character
+goodcase-seedance-arman-exact-same-identity-throughout-334c97a3dc2f	keep		"graphic gore" only appears in the negative-prompt list
+youmind-9484	keep		"graphic gore, dismemberment" only appear in the negative-prompt list
+youmind-6276	keep		prompt explicitly asks for no dismemberment / no exposed flesh
+youmind-7817	keep		myth scene (Perseus/Medusa) shown as an obscured silhouette, prompt says avoid gore

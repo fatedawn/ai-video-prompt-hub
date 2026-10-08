@@ -1,0 +1,41 @@
+---
+id: "emily-ee7b3c1b"
+title: "Clip 02 Continuation Prompt（sequence-airport-arrival）"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "剧情短片"
+art_style: null
+tags: ["Seedance 2.0"]
+source_repo: "Emily2040/seedance-2.0"
+source_url: "https://github.com/Emily2040/seedance-2.0/blob/4668457e560eee06e95d7fcfdf441c8c0bba802e/examples/sequence-airport-arrival/clip-02-prompt.md#L3"
+license: "MIT"
+license_url: "https://opensource.org/license/mit"
+original_author: "Iamemily2050 (@iamemily2050)"
+original_author_url: "https://github.com/Emily2040"
+original_post_url: null
+published: null
+third_party_author: false
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+---
+
+# Clip 02 Continuation Prompt（sequence-airport-arrival）
+
+## 提示词（English）
+
+```text
+[Video 1] is the accepted Clip 01 continuity source; @Image 1 preserves the traveler's identity and charcoal coat. Begin exactly from the observed final state: she is still two steps from the open rear door of the black sedan, mid-stride, moving left-to-right with the suitcase rolling behind her. Continue the same lateral camera movement and rainy curbside ambience. This clip only completes the remaining two steps, lets her duck into the rear passenger seat, and closes the door with one solid thump. Her fingers start toward the rain on her cheek, then redirect to fold the creased airline tag beneath the suitcase handle. She keeps the suitcase upright until the rear door shuts, then turns it so the folded tag faces the seatback. The door thump cuts the curb noise while her face and shoulders remain level. Do not replay the terminal exit. Do not start with her already at the door or inside the car. Do not show the vehicle departing yet. Stop on the closed rear door with the car still parked.
+```
+
+## 出处与许可
+
+- 作者：[Iamemily2050 (@iamemily2050)](https://github.com/Emily2040)（上游仓库作者 / 贡献者）
+- 收录来源：[Emily2040/seedance-2.0](https://github.com/Emily2040/seedance-2.0)，[原文位置](https://github.com/Emily2040/seedance-2.0/blob/4668457e560eee06e95d7fcfdf441c8c0bba802e/examples/sequence-airport-arrival/clip-02-prompt.md#L3)
+- 上游许可：MIT（[许可说明](https://opensource.org/license/mit)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

@@ -1,0 +1,44 @@
+ai-video-prompt-hub
+Copyright 2026 天机
+
+This product includes software and content developed by 天机 (the "Tianji" channel),
+licensed under the Apache License, Version 2.0 (see LICENSE). The Apache-2.0 licence
+covers ONLY this repository's own work: code (scripts/, animator/, videogen/),
+documentation, the handbook, templates, examples and prompts written for this
+repository, the edits made to the animator style presets, the characters 「天机」 and
+「豆豆」 with their artwork, and the preview media in docs/assets/.
+
+Reminder about the 「天机」 name and character: 「天机」 is the identity of the channel.
+As Apache-2.0 section 6 already states, the licence grants no permission to use trade
+names, trademarks or product names, except as required for reasonable and customary
+use in describing the origin of the work. Please do not use the 「天机」 name or
+character in a way that impersonates the channel or suggests its endorsement.
+
+-------------------------------------------------------------------------------
+Third-party material — NOT covered by Apache-2.0; each keeps its upstream licence
+-------------------------------------------------------------------------------
+
+Every file under prompts/ and templates/ states its upstream licence, source and
+original author in its front matter. Prompts written by third-party creators
+(X/Twitter users, bloggers, etc.) remain the property of their original authors and
+are credited with a link to the original post. Full licence texts with the upstream
+copyright lines are in LICENSES/. Details: NOTICE.md and ATTRIBUTION.md.
+
+* YouMind-OpenLab/awesome-seedance-2-prompts — CC BY 4.0
+  Copyright (c) 2025 YouMind OpenLab
+* LearnPrompt/awesome-seedance — code MIT, Copyright (c) 2026 LearnPrompt;
+  curated content CC BY 4.0 (attribution: awesome-seedance / goodcase.ai)
+* ZeroLu/awesome-seedance — MIT, Copyright (c) 2026 ZeroLu
+* Emily2040/seedance-2.0 — MIT, Copyright (c) 2026 Iamemily2050 (@iamemily2050)
+* lixiaoxiao9888-create/manju-laoli-skill — MIT,
+  Copyright (c) 2026 Short-Drama Director Suite contributors
+* HBAI-Ltd/Toonflow-app — MIT, Copyright (c) 2026 HBAI-Ltd
+* animator/presets/handdrawn-styles.json — upstream entries MIT:
+  gnipbao/story-to-handdrawn-video, Copyright (c) 2026 gnipbao;
+  yang0/handraw-style, Copyright (c) 2026 yang0;
+  threerocks/hand-drawn-styles, Copyright (c) 2026 liulei.
+  The upstream source label of every entry is kept for traceability.
+
+Voice tracks of the two preview videos in docs/assets/ were synthesised locally with
+Kokoro-82M v1.1-zh (hexgrad, Apache-2.0) via sherpa-onnx (k2-fsa, Apache-2.0).
+No model weights are distributed with this repository.

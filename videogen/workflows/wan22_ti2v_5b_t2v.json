@@ -1,0 +1,164 @@
+{
+ "_hda": {
+  "_comment": "本仓库自写的 ComfyUI API 格式工作流（不是从任何模板复制）。模型：Wan2.2-TI2V-5B（Apache-2.0）。节点均为 ComfyUI 内置节点（UNETLoader / CLIPLoader / VAELoader / ModelSamplingSD3 / CLIPTextEncode / Wan22ImageToVideoLatent / KSampler / VAEDecode / SaveWEBM）。步数/CFG/shift 为常见默认值，作者没有 GPU 未实测；如节点名或参数与你的 ComfyUI 版本不符，请在 ComfyUI 里打开官方 Wan2.2 模板后 “导出(API)” 并把提示词等字段改成 {{PROMPT}} 这类占位符。",
+  "fps": 24,
+  "frame_step": 4,
+  "size": {
+   "16:9": [
+    1280,
+    704
+   ],
+   "9:16": [
+    704,
+    1280
+   ],
+   "1:1": [
+    960,
+    960
+   ],
+   "4:3": [
+    1088,
+    832
+   ],
+   "3:4": [
+    832,
+    1088
+   ]
+  },
+  "models": {
+   "diffusion_models/wan2.2_ti2v_5B_fp16.safetensors": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+   "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+   "vae/wan2.2_vae.safetensors": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged"
+  }
+ },
+ "prompt": {
+  "1": {
+   "class_type": "UNETLoader",
+   "_meta": {
+    "title": "Wan2.2 TI2V 5B"
+   },
+   "inputs": {
+    "unet_name": "wan2.2_ti2v_5B_fp16.safetensors",
+    "weight_dtype": "default"
+   }
+  },
+  "2": {
+   "class_type": "CLIPLoader",
+   "_meta": {
+    "title": "umT5 文本编码器"
+   },
+   "inputs": {
+    "clip_name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "type": "wan"
+   }
+  },
+  "3": {
+   "class_type": "VAELoader",
+   "inputs": {
+    "vae_name": "wan2.2_vae.safetensors"
+   }
+  },
+  "4": {
+   "class_type": "ModelSamplingSD3",
+   "inputs": {
+    "model": [
+     "1",
+     0
+    ],
+    "shift": 8
+   }
+  },
+  "5": {
+   "class_type": "CLIPTextEncode",
+   "_meta": {
+    "title": "正向提示词"
+   },
+   "inputs": {
+    "clip": [
+     "2",
+     0
+    ],
+    "text": "{{PROMPT}}"
+   }
+  },
+  "6": {
+   "class_type": "CLIPTextEncode",
+   "_meta": {
+    "title": "负向提示词"
+   },
+   "inputs": {
+    "clip": [
+     "2",
+     0
+    ],
+    "text": "{{NEGATIVE}}"
+   }
+  },
+  "7": {
+   "class_type": "Wan22ImageToVideoLatent",
+   "inputs": {
+    "vae": [
+     "3",
+     0
+    ],
+    "width": "{{WIDTH}}",
+    "height": "{{HEIGHT}}",
+    "length": "{{LENGTH}}",
+    "batch_size": 1
+   }
+  },
+  "8": {
+   "class_type": "KSampler",
+   "inputs": {
+    "model": [
+     "4",
+     0
+    ],
+    "positive": [
+     "5",
+     0
+    ],
+    "negative": [
+     "6",
+     0
+    ],
+    "latent_image": [
+     "7",
+     0
+    ],
+    "seed": "{{SEED}}",
+    "steps": 20,
+    "cfg": 5,
+    "sampler_name": "uni_pc",
+    "scheduler": "simple",
+    "denoise": 1
+   }
+  },
+  "9": {
+   "class_type": "VAEDecode",
+   "inputs": {
+    "samples": [
+     "8",
+     0
+    ],
+    "vae": [
+     "3",
+     0
+    ]
+   }
+  },
+  "10": {
+   "class_type": "SaveWEBM",
+   "inputs": {
+    "images": [
+     "9",
+     0
+    ],
+    "filename_prefix": "{{PREFIX}}",
+    "codec": "vp9",
+    "fps": "{{FPS}}",
+    "crf": 24
+   }
+  }
+ }
+}

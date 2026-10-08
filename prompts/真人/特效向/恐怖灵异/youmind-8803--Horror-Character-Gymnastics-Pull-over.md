@@ -1,0 +1,56 @@
+---
+id: "youmind-8803"
+title: "Horror Character Gymnastics Pull-over"
+title_en: "Horror Character Gymnastics Pull-over"
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "恐怖灵异"
+art_style: null
+tags: ["Seedance 2.0", "YouMind"]
+source_repo: "YouMind-OpenLab/awesome-seedance-2-prompts"
+source_url: "https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/ad2dd317a1b6a97e620e03facdeffe5f10f68ff0/README.md#L2637"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Nokosu"
+original_author_url: "https://x.com/Nokosu_kansoku"
+original_post_url: "https://x.com/Nokosu_kansoku/status/2086455504759628019"
+published: "Aug 9, 2026"
+third_party_author: true
+flags: []
+also_in: []
+source_page: "https://youmind.com/en-US/seedance-2-0-prompts?id=8803"
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+---
+
+# Horror Character Gymnastics Pull-over
+
+> A detailed video prompt depicting a specific horror character performing a realistic gymnastics backward pullover on a horizontal bar.
+
+## 提示词（English）
+
+```text
+Use image1 as the mandatory character reference. The character's appearance must remain identical to image1 throughout the entire video. Preserve the oversized square wooden box head with the painted face and round black glasses, distressed black-and-white school uniform, black tie, glossy black sleeves and skirt, newspaper-wrapped legs, oversized black shoes, long sharp fingers, worn textures, proportions, silhouette, facial design, and overall horror aesthetic. Do not redesign, simplify, or replace any part of the character. Short ultra-realistic handheld smartphone video filmed inside a large professional gymnastics arena during a live Olympic-style competition. Bright stadium lighting illuminates a horizontal bar positioned at approximately chest-to-head height above a gymnastics floor and landing mats. A large audience fills the stands, reacting naturally throughout the performance. The horror character from image1 stands directly underneath and slightly in front of the horizontal bar with both feet firmly planted on the ground. The character grips the bar firmly with both hands. The performance begins immediately with a realistic Japanese-style backward pullover mount from the ground — 'saka-agari' (backward flip). Starting completely from the ground, the character bends its knees slightly and pulls strongly against the bar. It kicks both legs upward from below the bar while simultaneously pulling its chest toward the bar. The hips rise toward the bar. Using the momentum of the upward leg kick and the pulling force of both arms, the character rotates backward around the horizontal bar. The legs pass upward and over the bar. The hips remain close to the bar during the rotation. The heavy square wooden head naturally lags slightly behind the body's rotation because of its apparent weight, creating a strange but physically convincing secondary motion. The character completes one full backward pullover rotation and arrives successfully in a front support position above the bar, arms extended, torso upright, legs hanging naturally below. The movement must clearly read as: feet on ground → both hands gripping bar → knees bend → legs kick upward → hips approach bar → body rotates backward around the bar → legs pass over the bar → character pushes into stable front support above the bar. Do not begin with the character already on the bar. Do not begin with the character hanging from the bar. Do not perform a giant swing. Do not perform release moves, aerial flips, somersaults, or a dismount. The entire action is focused on performing one surprisingly athletic and technically convincing reverse pullover from the ground. Because of the character's bizarre proportions, the movement looks slightly awkward and unsettling but still follows believable real-world gymnastics physics. The oversized shoes generate visible momentum during the initial kick. The skirt and tie react naturally to gravity and rotation. The newspaper-wrapped legs flex naturally at the hips and knees. The long fingers tighten visibly around the bar. The horizontal bar flexes subtly under the character's weight. After completing the reverse pullover, the character remains completely still in the support position for a moment, staring forward through its round black glasses. The audience pauses in confusion for a fraction of a second, then suddenly erupts into surprised applause and laughter. Filmed entirely from the audience using a handheld smartphone. Natural handheld camera shake, slightly imperfect framing, small accidental camera corrections, brief autofocus hunting when the character begins rotating, subtle motion blur around the legs during the kick, rolling shutter artifacts, slight overexposed stadium highlights, authentic smartphone dynamic range, and realistic video compression. The person filming instinctively tries to keep the character centered as it rotates around the bar. No professional camera, no cinematic camera, no slow motion, no cinematic stylization. Natural stadium colors and documentary style. Audio: natural arena ambience, audience murmuring before the attempt, shoes scraping lightly against the gymnastics floor, hands gripping the metal bar, subtle metal creaking, clothing rustling during the rotation, eerie wooden creaks from the character's box-shaped head, followed by surprised audience reactions and applause. Ultra-realistic horror performance that feels strangely believable, as if a supernatural creature unexpectedly entered a gymnastics competition and casually performed a perfect reverse pullover from the ground.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### YouMind 提供的中文版本（README_zh.md）
+
+[位置](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/ad2dd317a1b6a97e620e03facdeffe5f10f68ff0/README_zh.md#L2633)
+
+```text
+Use image1 as the mandatory character reference. The character's appearance must remain identical to image1 throughout the entire video. Preserve the oversized square wooden box head with the painted face and round black glasses, distressed black-and-white school uniform, black tie, glossy black sleeves and skirt, newspaper-wrapped legs, oversized black shoes, long sharp fingers, worn textures, proportions, silhouette, facial design, and overall horror aesthetic. Do not redesign, simplify, or replace any part of the character. Short ultra-realistic handheld smartphone video filmed inside a large professional gymnastics arena during a live Olympic-style competition. Bright stadium lighting illuminates a horizontal bar positioned at approximately chest-to-head height above a gymnastics floor and landing mats. A large audience fills the stands, reacting naturally throughout the performance. The horror character from image1 stands directly underneath and slightly in front of the horizontal bar with both feet firmly planted on the ground. The character grips the bar firmly with both hands. The performance begins immediately with a realistic Japanese-style backward pullover mount from the ground — 'saka-agari' (backward flip). Starting completely from the ground, the character bends its knees slightly and pulls strongly against the bar. It kicks both legs upward from below the bar while simultaneously pulling its chest toward the bar. The hips rise toward the bar. Using the momentum of the upward leg kick and the pulling force of both arms, the character rotates backward around the horizontal bar. The legs pass upward and over the bar. The hips remain close to the bar during the rotation. The heavy square wooden head naturally lags slightly behind the body's rotation because of its apparent weight, creating a strange but physically convincing secondary motion. The character completes one full backward pullover rotation and arrives successfully in a front support position above the bar, arms extended, torso upright, legs hanging naturally below. The movement must clearly read as: feet on ground → both hands gripping bar → knees bend → legs kick upward → hips approach bar → body rotates backward around the bar → legs pass over the bar → character pushes into stable front support above the bar. Do not begin with the character already on the bar. Do not begin with the character hanging from the bar. Do not perform a giant swing. Do not perform release moves, aerial flips, somersaults, or a dismount. The entire action is focused on performing one surprisingly athletic and technically convincing reverse pullover from the ground. Because of the character's bizarre proportions, the movement looks slightly awkward and unsettling but still follows believable real-world gymnastics physics. The oversized shoes generate visible momentum during the initial kick. The skirt and tie react naturally to gravity and rotation. The newspaper-wrapped legs flex naturally at the hips and knees. The long fingers tighten visibly around the bar. The horizontal bar flexes subtly under the character's weight. After completing the reverse pullover, the character remains completely still in the support position for a moment, staring forward through its round black glasses. The audience pauses in confusion for a fraction of a second, then suddenly erupts into surprised applause and laughter. Filmed entirely from the audience using a handheld smartphone. Natural handheld camera shake, slightly imperfect framing, small accidental camera corrections, brief autofocus hunting when the character begins rotating, subtle motion blur around the legs during the kick, rolling shutter artifacts, slight overexposed stadium highlights, authentic smartphone dynamic range, and realistic video compression. The person filming instinctively tries to keep the character centered as it rotates around the bar. No professional camera, no cinematic camera, no slow motion, no cinematic stylization. Natural stadium colors and documentary style. Audio: natural arena ambience, audience murmuring before the attempt, shoes scraping lightly against the gymnastics floor, hands gripping the metal bar, subtle metal creaking, clothing rustling during the rotation, eerie wooden creaks from the character's box-shaped head, followed by surprised audience reactions and applause. Ultra-realistic horror performance that feels strangely believable, as if a supernatural creature unexpectedly entered a gymnastics competition and casually performed a perfect reverse pullover from the ground.
+```
+
+## 出处与许可
+
+- 原作者：[Nokosu](https://x.com/Nokosu_kansoku) · 原帖：<https://x.com/Nokosu_kansoku/status/2086455504759628019>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[YouMind-OpenLab/awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts)，[原文位置](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/ad2dd317a1b6a97e620e03facdeffe5f10f68ff0/README.md#L2637)
+- 说明：YouMind 的 README 每天自动轮换展示 100 条提示词；本条取自该仓库 README 的历史版本（commit `ad2dd317a1b6`），与当前版本同为 CC BY 4.0 发布
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 效果预览（外部链接，本仓库不收录图片/视频）：<https://youmind.com/en-US/seedance-2-0-prompts?id=8803>
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

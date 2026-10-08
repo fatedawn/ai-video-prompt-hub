@@ -1,0 +1,66 @@
+---
+id: "youmind-7893"
+title: "高质量动漫泳装视频"
+title_en: "High-Quality Anime Swimsuit Video"
+model: "Seedance 2.0"
+language: "ja"
+medium: "漫剧"
+direction: "现实向"
+genre: "剧情短片"
+art_style: "2D日漫"
+tags: ["Seedance 2.0", "YouMind"]
+source_repo: "YouMind-OpenLab/awesome-seedance-2-prompts"
+source_url: "https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/0e476b77caf1bca3f1b633119af187fa1b9fcde3/README_ja-JP.md#L2674"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "mayv@簡単プロ級プロンプト公開中！"
+original_author_url: "https://x.com/haruuraeadss"
+original_post_url: "https://x.com/haruuraeadss/status/2080867332889399547"
+published: "Jul 25, 2026"
+third_party_author: true
+flags: []
+also_in: []
+source_page: "https://youmind.com/en-US/seedance-2-0-prompts?id=7893"
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+---
+
+# 高质量动漫泳装视频
+
+*High-Quality Anime Swimsuit Video*
+
+> 一份详细的电影级提示词，用于创作高质量的动漫视频序列，展示在豪华度假村中身着泳装的角色。该提示词强调角色一致性、流畅的运镜以及精致的时尚 PV 美学。
+
+## 提示词（日本語）
+
+```text
+高品質なアニメ動画。ソースとなる参照画像のキャラクターを参照し、動画全体を通して同一人物であることを厳密に維持してください。参照画像は、顔、輪郭、目の形、瞳の色、髪型、髪色、ボリューム、服装、装飾、体格、プロポーション、シルエット、雰囲気、キャラクターの色彩を維持するためだけに使用してください。参照画像そのものの背景、部屋、家具、ポーズ、表情、アングル、フレーミングを再現しないでください。変化させてよいのは、表情、視線、口元、ポーズ、呼吸、そして髪や衣服の自然な動きのみです。特徴の混在、顔の平均化、髪型や髪色の変更、衣装の入れ替え、装飾の消失、体型の変更、別人化、クローン化、人数の追加は禁止です。参照画像のキャラクターにふさわしい高品質なアニメの表情を一貫して維持してください。繊細な手描きアニメスタイルをベースとし、線は細く、色彩はエレガントで透明感があり、肌、髪、服、装飾の陰影はソフトで高級感のあるアニメルックに仕上げてください。参照画像の雰囲気が明るい場合は爽やかに、落ち着いている場合はエレガントで静かな雰囲気にしてください。ただし、アートスタイルは一貫させ、太い線、低予算のテレビアニメ風、セミリアル、実写、プラスチックのような CG 感、過度な 3D 感、スタイルの混在は避けてください。場所は終始、明るい屋外の高級リゾート空間に固定します。白い建築物、青い空、オープンテラス、パラソル、遠くに見えるヤシの木、柔らかな日光という基本構成を維持してください。背景は爽やかで明るく、キャラクターを主人公にするために軽いボケと奥行きを持たせてください。構造、屋外リゾートの設定、白い建築物、青い空、テラス、パラソル、ヤシの木を維持してください。パラソル、クッション、花、テーブルの小物、装飾布、反射光、背景のアクセントカラーのみ、キャラクターの色彩、衣装のパレット、装飾のモチーフ、個性に合うよう自然に調整してください。背景はキャラクターを引き立てるための補助的な役割とし、人物よりも目立たせないようにしてください。場所は変更しないでください。この動画は元の映像の厳密な再現ではなく、ソーシャルメディア映えするカメラワークで、爽やかな雰囲気を保ちつつ、身体を魅力的に見せるための再デザインです。表情の厳密な再現は不要ですが、顔は常に明確に認識できる必要があります。顔、目、頬、口元がはっきりと見える「フェイスリワード」を複数含めてください。表情はキャラクター本来の個性に合わせ、自然で柔らかな視線、軽い微笑み、少しの照れ、あるいは控えめで穏やかな笑みを中心にしてください。動画は太ももまで映るミディアムショットから始まります。キャラクターは少し 3/4 の方向を向き、脚、腰、胸、肩、髪の流れ、主要な衣装の装飾が一目でわかる構図にします。カメラは、下から上へと視線が太もも、腰、胸、肩、顔へと流れるように、やや勢いのある滑らかな前方および斜めの動きで入ります。ただし、顔を置き去りにせず、顔と目がはっきりと見える時間を十分に確保してください。キャラクターは自然に両手を下から上げます。手は顔を隠さず、太もも、腰、胸の前を通過させます。指先は緊張させず、柔らかく開いてください。カメラはその動きに合わせ、やや速めの Slides、軽いプッシュイン、浅いラップアラウンドを組み合わせ、ボディライン、衣装の構造、装飾、髪の流れを次々と映し出します。手がレンズの近くを通る際に軽い前ボケが生じても構いませんが、顔、目、頬、口元は常に認識可能である必要があります。手で顔を長時間隠さないでください。カメラは正面に固定せず、キャラクターの前面をなめるように左右へ素早く浅く回り込み、太もも、ウエストライン、胸のデザイン、肩、ネックライン、横顔、流れる髪、衣装の装飾をリズミカルに映し出します。勢いはありますが、荒っぽくならず、エレガンスを維持してください。必要に応じて、脚の長さや太ももから腰につながるラインを美しく見せるため、少し低い位置から見上げるアングルを取り入れてください。必要に応じて、太ももまで映るミディアムショットから胸上のクローズアップへ一瞬でズームし、再び太ももに戻るなど、カメラ速度の変化でソーシャルメディア向けのテンションを作ってください。中盤では、胸から手、手から髪、髪から顔へと視線が流れるように構成します。参照画像にある可動要素（髪、スカートの裾、コートの裾、リボン、レース、アクセサリー）は、身体の動きの半拍後に柔らかく揺れるようにしてください。キャラクターは肩を少しひねり、片足に軽く体重を乗せ、体型と衣装のシルエットが自然に美しく見える立ち姿をとります。大げさな演技よりも、ファッション動画のような洗練された身体のプレゼンテーションを優先してください。中盤のどこかで、顔と目を正面にはっきりと映す、胸元に近いショットを含めてください。終盤には両腕を上げる動作を入れても良いですが、全身を映すためにカメラを引くことはしないでください。太ももまで映るミディアムショットから胸上のクローズアップまでの範囲を維持しつつ、やや速めの斜め上昇、軽い回り込み、短いズームを使い、肩、腕、胸、腰、太もも、髪の広がり、主要な装飾を美しく見せてください。最後に、フェイスリワードを優先します。カメラは胸上からバストアップへと自然にズームし、キャラクターがカメラの方を見つめます。最後の瞬間、キャラクターはカメラを見て、その人らしい自然な小さな微笑みを浮かべます。瞳は輝き、頬は柔らかく緩み、口元はエレガントに微笑みます。そのカメラ目線の微笑みが最も魅力的に見える瞬間にカットしてください。全体として、カメラはゆっくりと観察するように動くのではなく、人物を魅力的に捉えるために、やや速く、滑らかで、リズミカルかつ心地よく追従させてください。爽やかでエレガント、少しファッション PV のような、明るく洗練されたソーシャルメディア向けの動画に仕上げてください。テキスト、字幕、ロゴ、ウォーターマーク、余分な人物、クローン、顔の歪み、目の形や瞳の色の変化、手・腕・指の増殖、衣装の変更、装飾の消失、髪型の変更、髪色の変更、体型の変更、全身を映す引きの終わり、手で顔を長時間隠す動作、カメラの急停止、硬い立ち姿、背景の場所変更、アートスタイルの混在は禁止です。
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### YouMind 提供的中文版本（README_zh.md）
+
+[位置](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/0e476b77caf1bca3f1b633119af187fa1b9fcde3/README_zh.md#L2664)
+
+```text
+高质量动漫视频。请参考源参考图中的角色，并严格确保在整个过程中保持为同一人。参考图仅用于保持脸部、轮廓、眼型、虹膜颜色、发型、发色、发量、服装、装饰、体格、身体比例、剪影、氛围和角色配色。请勿复刻参考图本身的背景、房间、家具、姿势、角度或构图。仅允许改变面部表情、视线、嘴部、姿势、呼吸以及头发和衣服的自然摆动。严禁混合特征、平均化脸部、修改发型、修改发色、更换服装、装饰消失、改变体型、将其变成另一个人、克隆或增加额外人物。始终保持适合参考图角色的高质量动漫表情。基于精致的手绘动漫风格，线条应纤细，色彩优雅通透，皮肤、头发、布料和装饰的阴影应柔和，以呈现高端动漫质感。如果参考氛围明亮，则使其清新；如果宁静，则使其优雅安静。然而，请保持艺术风格一致，避免粗线条、低成本电视动画风格、半写实、真人感、塑料 CG 感、过度的 3D 感或混合艺术风格。地点固定为明亮的户外豪华度假村空间。保持白色建筑、蓝天、开放式露台、遮阳伞、远处的棕榈树和柔和日光的基本配置。背景应清新明亮，带有轻微的虚化和景深，以突出角色作为主角。保持结构、户外度假村环境、白色建筑、蓝天、露台、遮阳伞和棕榈树。仅自然地调整遮阳伞、靠垫、花卉、桌面饰品、装饰布、反射光和背景强调色的色调，以匹配角色的配色、服装色板、装饰图案和个性。背景应作为辅助，以衬托角色，而不应比人物更抢眼。请勿更改地点。此视频并非对原图的严格复刻，而是为了适配社交媒体运镜而进行的重新设计，在保持清新氛围的同时使身体呈现更具吸引力。不要求严格复刻表情，但脸部必须在整个过程中清晰可见。包含多个脸部特写（face rewards），确保脸部、眼睛、脸颊和嘴部清晰可见。表情应符合角色原本的个性，以自然柔和的注视、浅笑、轻微的羞涩或矜持的平静微笑为主。视频从显示大腿的中景开始。角色略微面向 3/4 方向，构图需能同时展现腿部、腰部、胸部、肩膀、发流和主要服装装饰。摄像机以略显有力且流畅的前进和对角线运动进入，从下往上追踪，使视线流向大腿、腰部、胸部、肩膀和脸部。但不要忽略脸部；确保有足够的时间让脸部和眼睛清晰可见。角色自然地从下方抬起双手。双手不遮挡脸部，从大腿前方、腰部和胸部升起。指尖柔和张开，不紧绷。摄像机配合该动作，结合稍快的 Slides、轻微的推入和浅景深环绕，依次展示身体线条、服装结构、装饰和发流。当手部经过镜头附近时，可能会产生轻微的前景虚化，但脸部、眼睛、脸颊和嘴部必须始终清晰可见。不要让手长时间遮挡脸部。摄像机并非固定在前方，而是像贴近角色前方一样快速且浅景深地左右环绕，有节奏地展示大腿、腰线、胸部设计、肩膀、领口、侧脸、飘逸的头发和服装装饰。运镜要有动感但不过于粗糙，保持优雅。必要时从略低的角度仰拍，以美化腿部长度以及从大腿到腰部的线条。根据需要，从显示大腿的中景瞬间缩放到胸部以上的特写，再回到大腿。通过摄像机速度的变化创造出适合社交媒体的节奏。在中间部分，将视线配置为从胸部流向手部，从手部流向头发，再从头发流向脸部。参考图中存在的活动元素——头发、裙摆、外套下摆、丝带、蕾丝、配饰——在身体动作后半拍轻柔摆动。角色略微扭动肩膀，重心轻放在一条腿上，采取身体形状和服装剪影看起来自然优美的站姿。相比宏大的表演，优先考虑像时尚视频那样精致的身体呈现。在中间某处包含一个更接近上胸部的镜头，清晰地展示面向前方的脸部和眼睛。在最后阶段，可以使用抬起双臂的动作，但摄像机不会拉远展示全身。在显示大腿的中景到胸部以上的特写范围内，使用稍快的对角线上升、轻微环绕和短焦缩放，美化肩膀、手臂、胸部、腰部、大腿、散开的头发和主要装饰。最后，优先考虑脸部特写。摄像机自然地从上胸部缩放到胸像镜头，角色看向镜头。在最后一刻，角色看向镜头并露出该角色特有的自然浅笑。眼睛明亮，脸颊柔和放松，嘴部优雅微笑。在那个注视镜头的微笑最迷人的瞬间剪辑。总体而言，摄像机不应缓慢而观察式地移动，而应以稍快、流畅、有节奏且令人愉悦的方式跟随，以吸引人地捕捉人物。使其成为清新、优雅、略带时尚 PV 感、明亮且精致的社交媒体视频。无文字、无字幕、无 Logo、无水印、无额外人物、无克隆、无脸部畸变、无眼型或虹膜颜色改变、无手/手臂/手指增生、无服装修改、无装饰消失、无发型改变、无发色改变、无体型改变、无全身拉远结尾、无长时间遮挡脸部的手部动作、无突然停止的摄像机、无僵硬的站姿、无背景地点改变、无艺术风格混合。
+```
+
+### YouMind 提供的English版本（README.md）
+
+[位置](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/0e476b77caf1bca3f1b633119af187fa1b9fcde3/README.md#L2478)
+
+```text
+High-quality anime video. Refer to the character in the source reference image and strictly maintain them as the same person throughout. Use the reference image only for maintaining the face, contour, eye shape, iris color, hairstyle, hair color, volume, clothing, decorations, physique, body proportions, silhouette, atmosphere, and character colors. Do not reproduce the background, room, furniture, pose, facial expression, angle, or framing of the reference image itself. Only facial expressions, gaze, mouth, poses, breathing, and natural hair and clothing movement may change. Mixing features, averaging faces, modifying hairstyles, modifying hair colors, swapping outfits, disappearing decorations, changing body types, making them a different person, cloning, or adding extra people is prohibited. Maintain high-quality anime expressions suited for the reference image character consistently. Based on a delicate hand-drawn anime style, the lines should be thin, colors elegant and transparent, and the shading of skin, hair, cloth, and decorations should be soft for a high-end anime look. If the reference atmosphere is bright, make it refreshing; if calm, make it elegant and quiet. However, keep the art style consistent and avoid thick lines, low-budget TV anime style, semi-realism, live-action, plastic CG look, excessive 3D feel, or mixed art styles. The location is fixed as a bright outdoor luxury resort space throughout. Maintain a basic configuration of white architecture, blue sky, open terrace, parasols, distant palm trees, and soft daylight. The background should be refreshing and bright, with light bokeh and depth to make the character the protagonist. Maintain the structure, outdoor resort setting, white architecture, blue sky, terrace, parasols, and palm trees. Adjust only the colors of parasols, cushions, flowers, table accessories, decorative cloths, reflected light, and background accent colors naturally to match the character's colors, clothing palette, decorative motifs, and personality. The background should serve as a secondary aid to highlight the character and not stand out more than the person. Do not change the location. This video is not a strict reproduction of the original but a redesign for social-media-friendly camerawork that keeps the same refreshing atmosphere while making the body look attractive. Strict reproduction of expressions is not required, but the face must be clearly legible throughout. Include multiple face rewards where the face, eyes, cheeks, and mouth are clearly visible. Expressions should match the character's original personality, centering on natural soft gazes, light smiles, slight shyness, or reserved calm laughter. The video starts from a medium shot showing down to the thighs. The character faces slightly 3/4 direction in a composition where the legs, waist, chest, shoulders, hair flow, and main clothing decorations can be read at once. The camera enters with slightly vigorous smooth forward and diagonal movement, tracing from bottom to top so the gaze flows to the thighs, waist, chest, shoulders, and face. However, don't leave the face behind; ensure enough time for the face and eyes to be clearly visible. The character naturally raises both hands from below. Hands do not hide the face, rising past the front of the thighs, waist, and chest. Fingertips are softly open and not tense. The camera matches that movement with a combination of slightly faster slides, light push-ins, and shallow wrap-arounds, showing the body lines, clothing structure, decorations, and hair flow one after another. Light foreground bokeh may be created when hands pass near the lens, but the face, eyes, cheeks, and mouth must always be legible. Do not hide the face with hands for long. The camera is not fixed in front but wraps around left and right quickly and shallowly as if licking the front of the character, showing the thighs, waistline, chest design, shoulders, neckline, profile, flowing hair, and clothing decorations rhythmically. It has momentum but is not too rough, maintaining elegance. Occasionally look up from a slightly lower viewpoint to beautifully show the length of the legs and the line connecting the thighs to the waist. As needed, zoom from a medium shot showing thighs to a close-up above the chest in an instant and back to the thighs. Create a social-media-friendly rhythm with camera speed changes. In the middle, configure the gaze to flow from the chest to hands, hands to hair, and hair to face. Movable elements present in the reference image—hair, skirt hem, coat hem, ribbons, lace, accessories—swing softly half a beat after body movements. The character twists shoulders slightly, rests weight lightly on one leg, and takes a standing posture where the body shape and clothing silhouette look naturally beautiful. Prioritize a sophisticated body presentation like a fashion video over grand acting. Include a shot closer to the upper chest somewhere in the middle, showing the face and eyes clearly towards the front. In the final stage, a flow of raising both arms may be used, but the camera does not pull back to show the whole body. While maintaining the range between the medium shot showing thighs and close-up above the chest, use slightly faster diagonal ascent, light wrap-around, and short zooms to beautifully show shoulders, arms, chest, waist, thighs, hair spread, and main decorations. Finally, prioritize face rewards. The camera naturally zooms from the upper chest to a bust-up shot, with the character looking towards the camera. In the final moment, the character looks at the camera and shows a natural small smile characteristic of that person. The eyes are bright, cheeks relax softly, and the mouth smiles elegantly. Cut at the moment that camera-gazing smile looks most attractive. Overall, the camera does not move slowly and observationally but follows slightly faster, smoothly, rhythmically, and pleasantly to capture the person attractively. Make it a refreshing, elegant, slightly fashion-PV-like, bright, and sophisticated social-media-ready video. No text, no subtitles, no logos, no watermarks, no extra people, no clones, no face distortion, no changes in eye shape or iris color, no multiplication of hands/arms/fingers, no clothing modifications, no disappearing decorations, no hairstyle changes, no hair color changes, no body type changes, no full-body pull back ending, no hand movements hiding the face for long, no cameras stopping abruptly, no stiff standing poses, no background location changes, no art style mixing.
+```
+
+## 出处与许可
+
+- 原作者：[mayv@簡単プロ級プロンプト公開中！](https://x.com/haruuraeadss) · 原帖：<https://x.com/haruuraeadss/status/2080867332889399547>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[YouMind-OpenLab/awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts)，[原文位置](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/0e476b77caf1bca3f1b633119af187fa1b9fcde3/README_ja-JP.md#L2674)
+- 说明：YouMind 的 README 每天自动轮换展示 100 条提示词；本条取自该仓库 README 的历史版本（commit `0e476b77caf1`），与当前版本同为 CC BY 4.0 发布
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 效果预览（外部链接，本仓库不收录图片/视频）：<https://youmind.com/en-US/seedance-2-0-prompts?id=7893>
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

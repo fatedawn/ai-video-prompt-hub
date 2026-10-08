@@ -1,0 +1,27 @@
+{
+  "name": "handdrawn-animator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "字幕/配音时间轴驱动的手绘逐笔动画渲染器（支持自定义角色）",
+  "type": "module",
+  "bin": {
+    "handdrawn-animator": "src/cli.mjs"
+  },
+  "scripts": {
+    "demo": "node src/cli.mjs make examples/demo/project.json --out examples/out/demo.mp4",
+    "preview": "node src/cli.mjs render examples/demo/project.json --scale 0.5 --out examples/out/preview.mp4",
+    "check": "node src/cli.mjs check examples/demo/project.json",
+    "demo:doudou": "node src/cli.mjs render examples/doudou/project.json --out examples/out/doudou.mp4",
+    "setup:tts": "python3 -m venv .venv && .venv/bin/pip install -r tts/requirements.txt && .venv/bin/python tts/fetch_models.py",
+    "make": "node src/cli.mjs make",
+    "demo:silent": "node src/cli.mjs render examples/demo/project.json --out examples/out/demo.mp4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "playwright-core": "^1.50.0",
+    "yaml": "^2.5.0"
+  }
+}

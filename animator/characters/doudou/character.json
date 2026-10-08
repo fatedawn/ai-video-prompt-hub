@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/character.schema.json",
+  "id": "doudou",
+  "name": "豆豆",
+  "description": "头顶一棵小豆芽的圆脑袋小朋友，橙色罩衫、蓝裤子、棕色小鞋。本仓库原创示例角色。",
+  "prompt": "a round-headed little kid with a small green bean sprout (two leaves) growing on top of the head, peach skin, rosy oval cheeks, dot eyes, orange smock with cream collar and a yellow pocket, blue trousers, brown shoes; simple children's crayon drawing",
+  "color": "#f08a5d",
+  "voice": {"local": "kokoro:zf_074", "edge": "zh-CN-XiaoyiNeural"},
+  "type": "rig",
+  "height": 520,
+  "rig": {
+    "svg": "doudou.svg",
+    "anchor": [120, 338],
+    "parts": {
+      "leg_l": {"parent": "body", "pivot": [107, 258]},
+      "leg_r": {"parent": "body", "pivot": [133, 258]},
+      "body": {"pivot": [120, 262]},
+      "arm_l": {"parent": "body", "pivot": [96, 184], "raise": 1},
+      "arm_r": {"parent": "body", "pivot": [144, 184], "raise": -1},
+      "head": {"parent": "body", "pivot": [120, 172]}
+    },
+    "layers": {"eyes": "eyes", "blink": "eyes_closed", "mouthClosed": "mouth_closed", "mouthOpen": "mouth_open"}
+  },
+  "expressions": {"normal": {"label": "默认"}, "happy": {"label": "开心", "eyes": "eyes_happy", "mouth": "mouth_smile"}, "surprised": {"label": "惊讶", "eyes": "eyes_wide", "mouth": "mouth_o", "extra": "expr_surprised"}},
+  "points": {"hand_l": {"part": "arm_l", "at": [68, 254]}, "hand_r": {"part": "arm_r", "at": [172, 254]}},
+  "license": "本仓库原创示例角色，Copyright 2026 天机，Apache-2.0（见仓库 LICENSE / NOTICE）"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/character.schema.json",
+  "id": "doudou-png",
+  "name": "豆豆（图片版）",
+  "description": "演示「图片角色」：用一张角色设定图（PNG，透明底）+ 每格裁切坐标定义角色。这里的 sheet.png 由 `node src/cli.mjs sheet characters/doudou/character.json --transparent --out characters/doudou-png/sheet.png` 从原创 SVG 角色生成；你也可以换成自己画的或 AI 生成的设定图。",
+  "color": "#f08a5d",
+  "type": "image",
+  "height": 520,
+  "image": {
+    "sheet": {
+      "src": "sheet.png",
+      "frames": {"normal": [0, 90, 420, 500], "happy": [420, 90, 420, 500], "surprised": [840, 90, 420, 500], "talk": [1260, 90, 420, 500], "wave": [0, 650, 420, 500]}
+    },
+    "anchor": [0.5, 0.98],
+    "views": {"front": "normal"},
+    "expressions": {"happy": "happy", "surprised": "surprised"},
+    "mouth": {"open": "talk"},
+    "actions": {"wave": "wave"}
+  }
+}

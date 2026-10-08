@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schema/project.schema.json",
+  "version": 1,
+  "title": "豆豆的早晨",
+  "canvas": {"width": 1080, "height": 1920, "fps": 30},
+  "media": "crayon",
+  "stylePreset": "kid-crayon",
+  "paper": {"color": "#f8f2e4"},
+  "timing": {"srt": "demo.srt"},
+  "tts": {"voice": "zh-CN-XiaoxiaoNeural", "rate": "+8%", "out": "voice"},
+  "subtitle": {"size": 58, "y": 0.86},
+  "characters": {"doudou": "../../characters/doudou/character.json"},
+  "script": [
+    {"text": "清晨，豆豆推开家门。"},
+    {"text": "太阳慢慢升起来了。"},
+    {"text": "小路的尽头，有一棵开满花的苹果树。"},
+    {"text": "豆豆朝它挥挥手——"},
+    {"text": "“早上好呀，苹果树！”", "speaker": "doudou"},
+    {"text": "一阵风吹过，一个红苹果掉了下来。"},
+    {"text": "豆豆吓了一跳，赶紧把它捡起来！"},
+    {"text": "“嗯！今天一定是个好日子！”", "speaker": "doudou"}
+  ],
+  "scenes": [
+    {
+      "id": "s1-家门口",
+      "cues": [1, 2],
+      "camera": {"from": {"x": 420, "y": 1180, "zoom": 1.18}, "keys": [{"at": "c1:家门", "x": 450, "y": 1150, "zoom": 1.12}], "to": {"x": 570, "y": 1000, "zoom": 1.0}},
+      "elements": [
+        {"id": "ground", "shape": "ground", "x": 540, "y": 1470, "scale": 2.8, "at": "scene", "draw": 0.6, "pen": false},
+        {"id": "house", "shape": "house", "x": 300, "y": 1455, "origin": [100, 175], "scale": 2.3, "at": "scene+0.1", "draw": 1.0},
+        {"id": "cloud1", "shape": "cloud", "x": 250, "y": 560, "scale": 1.5, "at": "scene+0.2", "draw": 0.6, "pen": false, "motion": {"type": "drift", "dx": 40, "period": 7}},
+        {"id": "grass1", "shape": "grass", "x": 620, "y": 1460, "scale": 1.3, "at": "scene+0.2", "draw": 0.4, "pen": false, "motion": {"type": "sway", "deg": 4, "period": 2.2}},
+        {"id": "grass2", "shape": "grass", "x": 980, "y": 1470, "scale": 1.1, "at": "scene+0.3", "draw": 0.4, "pen": false, "motion": {"type": "sway", "deg": 5, "period": 1.9}},
+        {
+          "id": "sun",
+          "shape": "sun",
+          "x": 820,
+          "y": 860,
+          "scale": 1.5,
+          "at": "c2:太阳",
+          "draw": 1.0,
+          "motion": [{"type": "rise", "at": "c2:升起", "dist": 260, "dur": 2.4}, {"type": "pulse", "amt": 0.04, "period": 1.4}]
+        },
+        {"id": "cloud2", "shape": "cloud", "x": 760, "y": 470, "scale": 1.1, "at": "c2:慢慢", "draw": 0.6, "pen": false, "motion": {"type": "drift", "dx": -30, "period": 6}}
+      ],
+      "actors": [
+        {
+          "character": "doudou",
+          "x": 300,
+          "y": 1460,
+          "appear": {"type": "draw", "at": "c1:豆豆", "dur": 1.0},
+          "actions": [
+            {"type": "walk", "at": "c1:家门", "until": "c2+0.7", "from": [300, 1460], "to": [600, 1460]},
+            {"type": "expression", "name": "happy", "at": "c2:升起"},
+            {"type": "look", "angle": -9, "at": "c2:升起", "dur": 1.8}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2-苹果树",
+      "cues": [3, 4, 5, 6, 7],
+      "transition": {"type": "scribble", "dur": 0.7},
+      "camera": {
+        "from": {"x": 540, "y": 1040, "zoom": 1.0},
+        "keys": [
+          {"at": "c3:苹果树", "x": 640, "y": 1060, "zoom": 1.05},
+          {"at": "c4", "x": 430, "y": 1130, "zoom": 1.16},
+          {"at": "c6", "x": 560, "y": 1060, "zoom": 1.0},
+          {"at": "c7:吓", "x": 420, "y": 1180, "zoom": 1.18}
+        ],
+        "to": {"x": 410, "y": 1170, "zoom": 1.22},
+        "shakes": [{"at": "c7:吓", "dur": 0.4, "amp": 9}]
+      },
+      "elements": [
+        {"id": "ground", "shape": "ground", "x": 540, "y": 1470, "scale": 2.8, "at": "scene", "draw": 0.5, "pen": false},
+        {"id": "cloud", "shape": "cloud", "x": 300, "y": 520, "scale": 1.3, "at": "scene+0.2", "draw": 0.5, "pen": false, "motion": {"type": "drift", "dx": 50, "period": 8}},
+        {"id": "lane", "shape": "lane", "x": 540, "y": 1505, "scale": 5.6, "at": "c3:小路", "draw": 0.8},
+        {
+          "id": "tree",
+          "shape": "tree",
+          "x": 790,
+          "y": 1462,
+          "origin": [100, 196],
+          "scale": 3.0,
+          "at": "c3:一棵",
+          "draw": 1.6,
+          "motion": [{"type": "sway", "deg": 1.2, "period": 3.2}, {"type": "sway", "at": "c6:风", "until": "c6.end", "deg": 3.5, "period": 0.9}]
+        },
+        {"id": "flower1", "shape": "flower", "x": 560, "y": 1440, "scale": 0.55, "appear": "pop", "at": "c3:开满花", "pen": false, "motion": {"type": "sway", "deg": 5, "period": 1.7}},
+        {"id": "flower2", "shape": "flower", "x": 1000, "y": 1455, "scale": 0.5, "appear": "pop", "at": "c3:开满花+0.2", "pen": false, "motion": {"type": "sway", "deg": 6, "period": 1.5}},
+        {
+          "id": "bird",
+          "shape": "bird",
+          "x": 120,
+          "y": 700,
+          "scale": 0.8,
+          "at": "c3",
+          "draw": 0.4,
+          "pen": false,
+          "motion": [{"type": "move", "to": [1180, 520], "dur": 9, "ease": "linear"}, {"type": "bob", "amp": 10, "period": 0.8}]
+        },
+        {
+          "id": "wind",
+          "shape": "wind",
+          "x": 380,
+          "y": 860,
+          "scale": 2.2,
+          "at": "c6:风",
+          "draw": 0.7,
+          "motion": {"type": "flow", "period": 1.6, "dx": 40, "until": "c7"},
+          "exit": {"at": "c7", "dur": 0.4}
+        },
+        {
+          "id": "apple",
+          "shape": "apple",
+          "x": 690,
+          "y": 1010,
+          "scale": 0.75,
+          "z": 60,
+          "at": "c6:红苹果",
+          "draw": 0.6,
+          "motion": {"type": "fall", "at": "c6:掉", "dur": 1.1, "to": [470, 1432], "spin": 200},
+          "attach": {"actor": "doudou", "point": "hand_r", "at": "c7:捡起", "blend": 0.45, "offset": [6, -30]}
+        }
+      ],
+      "actors": [
+        {
+          "character": "doudou",
+          "x": 300,
+          "y": 1460,
+          "actions": [
+            {"type": "walk", "at": "scene", "until": "c3:尽头+0.4", "from": [-120, 1460], "to": [300, 1460]},
+            {"type": "point", "arm": "arm_r", "at": "c3:苹果树", "dur": 1.7},
+            {"type": "expression", "name": "happy", "at": "c4"},
+            {"type": "wave", "arm": "arm_r", "at": "c4:挥挥手", "until": "c5.end"},
+            {"type": "expression", "name": "normal", "at": "c6"},
+            {"type": "expression", "name": "surprised", "at": "c7:吓"},
+            {"type": "jump", "at": "c7:吓", "dur": 0.8},
+            {"type": "expression", "name": "happy", "at": "c7:捡起+0.4"},
+            {"type": "raise", "arm": "arm_r", "angle": 115, "at": "c7:捡起", "until": "scene.end+0.4"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-好日子",
+      "cues": [8],
+      "transition": {"type": "fade", "dur": 0.5},
+      "camera": {"from": {"x": 540, "y": 1290, "zoom": 1.0}, "to": {"x": 540, "y": 1230, "zoom": 1.1}},
+      "elements": [
+        {"id": "sun", "shape": "sun", "x": 880, "y": 380, "scale": 1.0, "at": "scene", "draw": 0.5, "pen": false, "motion": {"type": "pulse", "amt": 0.05, "period": 1.3}},
+        {"id": "sparkle1", "shape": "sparkle", "x": 170, "y": 640, "scale": 0.6, "at": "scene+0.3", "draw": 0.3, "pen": false, "motion": {"type": "twinkle", "period": 0.8}},
+        {"id": "sparkle2", "shape": "sparkle", "x": 930, "y": 700, "scale": 0.5, "at": "scene+0.5", "draw": 0.3, "pen": false, "motion": {"type": "twinkle", "period": 1.0}},
+        {"id": "title", "text": "好日子！", "size": 130, "color": "#e2603f", "x": 540, "y": 560, "at": "c8:好日子", "draw": 0.7},
+        {"id": "heart1", "shape": "heart", "x": 220, "y": 930, "scale": 0.9, "at": "c8:好日子", "draw": 0.5, "motion": {"type": "pulse", "amt": 0.08, "period": 0.9}},
+        {"id": "heart2", "shape": "heart", "x": 880, "y": 900, "scale": 0.7, "at": "c8:好日子+0.25", "draw": 0.5, "motion": {"type": "pulse", "amt": 0.08, "period": 1.1}},
+        {
+          "id": "apple",
+          "shape": "apple",
+          "x": 800,
+          "y": 1100,
+          "scale": 1.3,
+          "z": 60,
+          "appear": "fade",
+          "at": "scene",
+          "draw": 0.01,
+          "pen": false,
+          "attach": {"actor": "doudou", "point": "hand_r", "at": "scene", "blend": 0, "offset": [8, -52]}
+        }
+      ],
+      "actors": [
+        {
+          "character": "doudou",
+          "x": 540,
+          "y": 1565,
+          "height": 880,
+          "actions": [
+            {"type": "expression", "name": "happy", "at": "scene"},
+            {"type": "raise", "arm": "arm_r", "angle": 70, "at": "scene-0.3", "until": "scene.end+1"},
+            {"type": "nod", "times": 2, "at": "c8:嗯", "dur": 0.9},
+            {"type": "hop", "times": 2, "height": 6, "at": "c8.end+0.1", "dur": 1.0}
+          ]
+        }
+      ]
+    }
+  ]
+}

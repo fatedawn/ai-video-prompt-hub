@@ -1,0 +1,1230 @@
+{
+ "commits": {
+  "youmind": "c6b6773dc006309c96becc2f12584ec7249bc4ca",
+  "learnprompt": "487c166e2f09487016452b90fec5e19a470af883",
+  "zerolu": "fd0d8000702ae3a8ae5240d3e4717b2546186970",
+  "emily": "4668457e560eee06e95d7fcfdf441c8c0bba802e",
+  "dexhunter": "516284d5bab58361bfdfed3cc96cee3e837d4c44",
+  "manju": "079df685f7cf2f0de635362bd359c233db38f9fe",
+  "toonflow": "72a895c26aab3f54c5a914517615362208fa6008"
+ },
+ "youmind_history": {
+  "repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+  "readme_versions_scanned": true,
+  "prompts_from_pinned_readme": 106,
+  "prompts_from_earlier_readme_versions": 6383
+ },
+ "raw_counts": {
+  "youmind": 6489,
+  "learnprompt": 795,
+  "zerolu": 70,
+  "emily": 112,
+  "dexhunter": 28,
+  "manju": 7
+ },
+ "raw_total": 7501,
+ "held_back": [
+  {
+   "id": "dexhunter-99d3dbc6",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L81",
+   "title": "基本公式",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-33c231da",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L90",
+   "title": "分时段提示词（10秒以上推荐使用）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-3eeb3b21",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L139",
+   "title": "1. 人物一致性",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-1a9de104",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L148",
+   "title": "2. 运镜精准复刻",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-d971dfad",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L158",
+   "title": "3. 创意模版 / 特效复刻",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-b6d27dc0",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L170",
+   "title": "4. 视频延长",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-2e3870e0",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L183",
+   "title": "4. 视频延长（2）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-86c13492",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L190",
+   "title": "5. 视频编辑（修改已有视频）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-dcfe6b76",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L199",
+   "title": "5. 视频编辑（修改已有视频）（2）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-a60f01dd",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L205",
+   "title": "5. 视频编辑（修改已有视频）（3）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-d35b65fd",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L212",
+   "title": "6. 音乐卡点",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-83b333e8",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L222",
+   "title": "7. 对话与声音演绎",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-f11f2fd7",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L233",
+   "title": "8. 一镜到底",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-d66b33aa",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L239",
+   "title": "8. 一镜到底（2）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-bcf07873",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L251",
+   "title": "9. 电商 / 产品展示",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-0500bd2c",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L261",
+   "title": "9. 电商 / 产品展示（2）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-ec76edc8",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L270",
+   "title": "10. 科普 / 教育内容",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-830ee00d",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L282",
+   "title": "11. AI短剧 / 漫改",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-35ec4ea2",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L289",
+   "title": "11. AI短剧 / 漫改（2）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-47b85cab",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L296",
+   "title": "12. 视频融合 / 续写",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-24786e57",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L357",
+   "title": "模版：产品广告片（15秒）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-368ebeb4",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L368",
+   "title": "模版：短剧片段（15秒）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-01acad58",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L382",
+   "title": "模版：舞蹈视频（13秒）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-d59e7f83",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L388",
+   "title": "模版：风光卡点剪辑（15秒）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-6d000ae3",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L394",
+   "title": "模版：仙侠/奇幻（15秒）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-5ae6648e",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/zh/SKILL.md#L411",
+   "title": "模版：科普动画（15秒）",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-06191b01",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/SKILL.md#L80",
+   "title": "Formula",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  },
+  {
+   "id": "dexhunter-7bb02f25",
+   "source_url": "https://github.com/dexhunter/seedance2-skill/blob/516284d5bab58361bfdfed3cc96cee3e837d4c44/SKILL.md#L89",
+   "title": "Time-Segmented Prompts (Recommended for 10s+ videos)",
+   "reason": "dexhunter README 声明内容基于字节跳动官方《即梦 Seedance 2.0 使用手册》（含示例提示词），疑似官方示例的译写/转录",
+   "kind": "prompt"
+  }
+ ],
+ "after_holdback": 7473,
+ "after_dedup": 7258,
+ "taken_down": [],
+ "published": 7258,
+ "audit": {
+  "rules": "scripts/audit.py",
+  "overrides": "data/audit_overrides.tsv",
+  "link_only": {
+   "copyrighted-character": 91,
+   "real-person": 48,
+   "brand-ad": 58,
+   "sexual": 16,
+   "gore": 6,
+   "hate": 1
+  },
+  "excluded": [
+   {
+    "id": "youmind-669",
+    "reason": "sexual-minor"
+   },
+   {
+    "id": "youmind-553",
+    "reason": "sexual-minor"
+   }
+  ]
+ },
+ "merged_groups": [
+  [
+   "youmind-11984",
+   "goodcase-seedance-2-0-basketball-gets-a-whole-lot-more-fun-with-a-giant-fluffy-opponent-1b871f4125da"
+  ],
+  [
+   "youmind-11914",
+   "goodcase-seedance-2-0-create-a-cinematic-14-6-second-action-scene-featuring-a-powerful-anthropomorphi-ae5f2011beaa"
+  ],
+  [
+   "youmind-11806",
+   "goodcase-seedance-2-5-this-is-one-single-unbroken-continuous-shot-lasting-the-full-30-seconds-441d3bf743b0"
+  ],
+  [
+   "youmind-11762",
+   "goodcase-seedance-2-5-create-a-20-second-ultra-realistic-cinematic-camping-vlog-featuring-a-young-jap-e6f181daf03b"
+  ],
+  [
+   "youmind-11764",
+   "goodcase-seedance-2-0-create-a-15-second-vertical-9-16-photorealistic-cinematic-video-of-a-cute-orang-ed0d127d5ff9"
+  ],
+  [
+   "youmind-11717",
+   "goodcase-seedance-create-a-cinematic-ultra-realistic-9-16-school-classroom-scene-758330c6bd34"
+  ],
+  [
+   "youmind-11716",
+   "goodcase-seedance-created-a-20-seconds-cinematic-japanese-style-scene-of-a-young-schoolgirl-walki-fe8957e6d21c"
+  ],
+  [
+   "youmind-11715",
+   "goodcase-seedance-use-the-character-sheet-as-the-visual-reference-4c9544885bba"
+  ],
+  [
+   "youmind-11624",
+   "goodcase-seedance-create-a-30-second-cinematic-ultra-realistic-wuxia-style-video-set-at-night-in-5d900610e1fc"
+  ],
+  [
+   "youmind-11547",
+   "goodcase-seedance-created-a-15-second-cinematic-fantasy-battle-scene-in-a-ruined-ancient-city-at-9ad77dfe2b4e"
+  ],
+  [
+   "youmind-11480",
+   "goodcase-seedance-created-a-video-a-cinematic-cartoon-style-kitchen-story-featuring-a-curly-red-a64a9ed0a27d"
+  ],
+  [
+   "youmind-11477",
+   "goodcase-seedance-create-a-31-second-ultra-realistic-cinematic-action-sequence-set-in-a-destroyed-230c67b382c9"
+  ],
+  [
+   "youmind-11330",
+   "goodcase-seedance-dv-16mm-tape-camcorder-handheld-feel-23c133674a31"
+  ],
+  [
+   "youmind-11230",
+   "goodcase-seedance-create-a-highly-realistic-cinematic-winter-video-of-a-peaceful-woman-staying-in-d5e93fbf164d"
+  ],
+  [
+   "youmind-11231",
+   "goodcase-seedance-create-a-realistic-funny-heartwarming-handheld-phone-video-of-a-real-looking-2ef2ca810aff"
+  ],
+  [
+   "youmind-11199",
+   "goodcase-seedance-cinematic-16-9-live-action-24-sec-realistic-high-school-hallway-bright-fluor-a3f73476b5af"
+  ],
+  [
+   "youmind-11186",
+   "goodcase-seedance-create-a-realistic-10-second-vertical-beauty-product-video-showing-hands-openin-1b5f6c15e630"
+  ],
+  [
+   "youmind-11154",
+   "goodcase-seedance-created-a-dramatic-top-down-shot-of-a-pink-haired-anime-style-girl-falling-thro-b2957665e618"
+  ],
+  [
+   "youmind-11156",
+   "goodcase-seedance-create-a-cinematic-realistic-educational-video-set-inside-a-modern-university-961b27c23385"
+  ],
+  [
+   "youmind-11155",
+   "goodcase-seedance-created-this-cozy-cinematic-coffee-video-featuring-the-beautiful-atmosphere-of-14430e640031"
+  ],
+  [
+   "youmind-11106",
+   "goodcase-seedance-created-a-beautiful-korean-girl-walking-confidently-through-a-traditional-korea-7363b4ff0354"
+  ],
+  [
+   "youmind-11108",
+   "goodcase-seedance-a-beautiful-korean-girl-in-a-dreamy-vintage-countryside-setting-d034c6ea3f5d"
+  ],
+  [
+   "youmind-11071",
+   "goodcase-seedance-created-a-video-of-a-beautiful-korean-girl-having-a-playful-dreamy-day-at-a-co-5e55b5b14463"
+  ],
+  [
+   "youmind-11073",
+   "goodcase-seedance-create-a-15-second-ultra-realistic-luxury-skincare-commercial-featuring-an-eleg-f718c3d31bff"
+  ],
+  [
+   "youmind-11011",
+   "goodcase-seedance-create-a-15-second-photorealistic-skincare-video-featuring-a-young-korean-woman-202c9f1e5d6e"
+  ],
+  [
+   "youmind-10982",
+   "goodcase-seedance-cinematic-luxury-perfume-commercial-10-seconds-9e609d896ad2"
+  ],
+  [
+   "youmind-10983",
+   "goodcase-seedance-created-a-video-featuring-beautiful-korean-words-and-a-warm-nostalgic-korean-55c2c5e05a13"
+  ],
+  [
+   "youmind-10984",
+   "goodcase-seedance-15-second-cinematic-video-prompt-a-realistic-young-korean-schoolgirl-stands-in-b889578e95db"
+  ],
+  [
+   "youmind-10954",
+   "goodcase-seedance-created-a-cinematic-fashion-transformation-video-featuring-a-beautiful-young-wo-c7588dbea707"
+  ],
+  [
+   "youmind-11812",
+   "goodcase-seedance-2-5-create-a-60-second-ultra-realistic-cinematic-lifestyle-vlog-featuring-a-beautif-66af21e259a1"
+  ],
+  [
+   "youmind-10955",
+   "goodcase-seedance-ultra-realistic-cinematic-scene-of-a-fierce-young-woman-standing-confidently-in-4f45a0e18655"
+  ],
+  [
+   "youmind-10949",
+   "goodcase-seedance-create-a-15-second-cinematic-fantasy-battle-video-matching-the-reference-0-1s-adf4ada82a42"
+  ],
+  [
+   "youmind-10905",
+   "goodcase-seedance-create-a-30-second-cinematic-ultra-realistic-live-action-video-set-on-a-rainy-5022a7d3ecb8"
+  ],
+  [
+   "youmind-10904",
+   "goodcase-seedance-created-a-video-of-a-korean-girl-enjoying-a-calm-realistic-morning-beauty-and-5c5a09acb181"
+  ],
+  [
+   "youmind-10902",
+   "goodcase-seedance-create-a-cute-polished-cinematic-3d-animated-video-exactly-15-seconds-long-u-690962672ddc"
+  ],
+  [
+   "youmind-10903",
+   "goodcase-seedance-created-a-30-second-cinematic-3d-animated-video-in-a-premium-fantasy-adventure-e7a3e6134c65"
+  ],
+  [
+   "youmind-10870",
+   "goodcase-seedance-a-korean-girl-with-straight-dark-hair-natural-makeup-and-a-warm-youthful-appe-547a489b6bba"
+  ],
+  [
+   "youmind-10871",
+   "goodcase-seedance-created-a-20-second-cinematic-video-in-a-realistic-korean-action-drama-style-f-121140156df1"
+  ],
+  [
+   "youmind-10859",
+   "goodcase-seedance-created-a-video-in-a-cinematic-ultra-realistic-storytelling-style-a-cute-brow-b80e0e8035f5"
+  ],
+  [
+   "youmind-10857",
+   "goodcase-seedance-create-a-cinematic-realistic-lifestyle-video-following-a-young-korean-universi-2c52e69d07a3"
+  ],
+  [
+   "youmind-10861",
+   "goodcase-seedance-a-bright-clean-beauty-commercial-of-a-young-southeast-asian-woman-with-fair-gl-546b189243cf"
+  ],
+  [
+   "youmind-10752",
+   "goodcase-seedance-cinematic-dark-fantasy-video-bbf9e9ec916a"
+  ],
+  [
+   "youmind-10626",
+   "goodcase-seedance-create-an-11-second-cinematic-dark-fantasy-scene-featuring-a-beautiful-blonde-f-b09877c0a2d2"
+  ],
+  [
+   "youmind-10584",
+   "goodcase-seedance-a-cinematic-30-second-alpine-winter-vlog-montage-featuring-the-same-young-woman-cf96bc6f9a40"
+  ],
+  [
+   "youmind-10547",
+   "goodcase-seedance-create-a-cinematic-25-second-dreamy-retro-pink-fashion-commercial-set-inside-a-e3eaf841edec"
+  ],
+  [
+   "youmind-10549",
+   "goodcase-seedance-30-sec-cinematic-korean-folk-horror-ritual-78323fedb479"
+  ],
+  [
+   "youmind-10510",
+   "goodcase-seedance-created-a-30-second-cinematic-luxury-jewelry-advertisement-video-in-a-warm-and-8d47861d9581"
+  ],
+  [
+   "youmind-10520",
+   "goodcase-seedance-a-weathered-old-lighthouse-keeper-stands-on-a-foggy-cliff-at-night-f581948aed80"
+  ],
+  [
+   "youmind-11107",
+   "goodcase-seedance-a-cinematic-close-to-medium-shot-of-a-young-east-asian-woman-standing-under-a-w-e896c3026c7e"
+  ],
+  [
+   "youmind-10441",
+   "goodcase-seedance-create-a-21-second-vertical-9-16-cinematic-stop-motion-animation-557fa2797476"
+  ],
+  [
+   "youmind-10403",
+   "goodcase-seedance-a-graceful-young-korean-woman-with-soft-short-wavy-brown-hair-delicate-feature-11d70672ecb9"
+  ],
+  [
+   "youmind-10405",
+   "goodcase-seedance-a-beautiful-young-east-asian-woman-with-long-straight-black-hair-wearing-a-sof-d4ab346c8461"
+  ],
+  [
+   "youmind-10402",
+   "goodcase-seedance-created-a-video-in-soft-anime-style-of-a-fluffy-white-cat-with-big-sparkling-te-5d65967aaf57"
+  ],
+  [
+   "youmind-10252",
+   "goodcase-seedance-a-cinematic-3d-pixar-style-animated-short-of-a-beautiful-young-woman-with-long-7a1efe5f0a2a"
+  ],
+  [
+   "youmind-10253",
+   "goodcase-case-429376496e25"
+  ],
+  [
+   "youmind-10250",
+   "goodcase-case-2c7bcef707d4"
+  ],
+  [
+   "youmind-10103",
+   "goodcase-aiwithminal-seedance-ai-3c0cb08ecc8b"
+  ],
+  [
+   "youmind-10100",
+   "goodcase-ayzalnooor24521-seedance-ai-db77eb406bfb"
+  ],
+  [
+   "youmind-10098",
+   "goodcase-mountain-dew-spark-b16d4e23caef"
+  ],
+  [
+   "youmind-9989",
+   "goodcase-aiwithminal-seedance-ai-5612b068051f"
+  ],
+  [
+   "youmind-9983",
+   "goodcase-lianaalane-seedance-ai-c2d4ba0c6fa2"
+  ],
+  [
+   "youmind-9987",
+   "goodcase-zyrellix-seedance-ai-e2b9d262ff6b"
+  ],
+  [
+   "youmind-9979",
+   "goodcase-lianaalane-seedance-ai-57edf326d97f"
+  ],
+  [
+   "youmind-9986",
+   "goodcase-laviniavelle-seedance-ai-c5f328d19010"
+  ],
+  [
+   "youmind-9972",
+   "goodcase-shamiweb3-seedance-ai-5620b354e47d"
+  ],
+  [
+   "youmind-9870",
+   "goodcase-juliaevee-seedance-ai-ae713e2e2dbc"
+  ],
+  [
+   "youmind-9822",
+   "goodcase-minuitia-seedance-ai-9da034716c83"
+  ],
+  [
+   "youmind-9831",
+   "goodcase-yourplugai-seedance-ai-17a1f9de8843"
+  ],
+  [
+   "youmind-9766",
+   "goodcase-zyrellix-seedance-ai-5fa856d9472a"
+  ],
+  [
+   "youmind-10095",
+   "goodcase-chillaikalan-seedance-ai-c67e26cea7cb"
+  ],
+  [
+   "youmind-9725",
+   "goodcase-zyrellix-seedance-ai-cd1e800467b5"
+  ],
+  [
+   "youmind-9715",
+   "goodcase-just-sharon7-seedance-ai-20d2026d6f58"
+  ],
+  [
+   "youmind-9722",
+   "goodcase-vlog-5bea56e008fc"
+  ],
+  [
+   "youmind-9635",
+   "goodcase-mayaaicreator-seedance-ai-99e38c199ba8"
+  ],
+  [
+   "youmind-9648",
+   "goodcase-zyrellix-seedance-ai-e5b8b3460bc0"
+  ],
+  [
+   "youmind-9636",
+   "goodcase-lianaalane-seedance-ai-c3e78794ed16"
+  ],
+  [
+   "youmind-9689",
+   "goodcase-vlog-543a49303376"
+  ],
+  [
+   "youmind-9646",
+   "goodcase-case-d0f11d1ff17c"
+  ],
+  [
+   "youmind-9517",
+   "goodcase-case-b529ffbdfd9a"
+  ],
+  [
+   "youmind-9344",
+   "goodcase-noorlewisx-seedance-ai-b2d98861daf9"
+  ],
+  [
+   "youmind-9341",
+   "goodcase-lianaalane-seedance-ai-d70d42733c55"
+  ],
+  [
+   "youmind-9346",
+   "goodcase-ayzalnooor24521-seedance-ai-4a336f514777"
+  ],
+  [
+   "youmind-9343",
+   "goodcase-mayaaicreator-seedance-ai-701e2e12eda3"
+  ],
+  [
+   "youmind-9279",
+   "goodcase-noorlewisx-seedance-ai-4b6f8c8c977a"
+  ],
+  [
+   "youmind-9189",
+   "goodcase-aiwithelisia-seedance-ai-e7e817c4c4b8"
+  ],
+  [
+   "youmind-9340",
+   "goodcase-case-142119be6421"
+  ],
+  [
+   "youmind-8946",
+   "goodcase-stylized-3d-animation-old-man-and-pigeon"
+  ],
+  [
+   "youmind-8959",
+   "goodcase-vibrant-k-pop-stage-performance"
+  ],
+  [
+   "youmind-9021",
+   "goodcase-seedance-2-5-f3651857750b"
+  ],
+  [
+   "youmind-8951",
+   "goodcase-mermaid-rescue-cinematic-story"
+  ],
+  [
+   "youmind-8339",
+   "youmind-8944",
+   "goodcase-seedance-2-5-vlog-8056757985cc"
+  ],
+  [
+   "youmind-9050",
+   "goodcase-iphone-shot-street-dance-music-video"
+  ],
+  [
+   "youmind-8938",
+   "goodcase-seedance-2-5-vlog-eae9734adb51"
+  ],
+  [
+   "youmind-8641",
+   "goodcase-analog-fitness-vlog-gym-diary"
+  ],
+  [
+   "youmind-8567",
+   "goodcase-cats-chasing-via-red-mini-motorcycle"
+  ],
+  [
+   "youmind-8486",
+   "goodcase-aiwithlariab-seedance-ai-801301860e89"
+  ],
+  [
+   "youmind-4969",
+   "youmind-8348"
+  ],
+  [
+   "youmind-8367",
+   "goodcase-apartment-arrival-storyboard-animation"
+  ],
+  [
+   "youmind-8264",
+   "goodcase-youmind-paris-fashion-campaign-streetwear"
+  ],
+  [
+   "youmind-8351",
+   "goodcase-bladesmith-competition-reality-tv-video"
+  ],
+  [
+   "youmind-8274",
+   "goodcase-seedance-25-kpop-mv-dual-idol"
+  ],
+  [
+   "youmind-8282",
+   "goodcase-youmind-travel-vlog-city-to-beach"
+  ],
+  [
+   "youmind-8362",
+   "goodcase-youmind-rollercoaster-wig-time-freeze"
+  ],
+  [
+   "youmind-8196",
+   "goodcase-seedance-25-minidv-coffee-asmr-vlog"
+  ],
+  [
+   "youmind-8122",
+   "goodcase-youmind-wuxia-temple-energy-dance"
+  ],
+  [
+   "youmind-7982",
+   "goodcase-real-case-06-aimikoda"
+  ],
+  [
+   "youmind-7909",
+   "goodcase-case-50692082320d"
+  ],
+  [
+   "youmind-7920",
+   "goodcase-case-f7e7c1862f38"
+  ],
+  [
+   "youmind-7921",
+   "goodcase-fpv-cd4a852a53ba"
+  ],
+  [
+   "youmind-7916",
+   "goodcase-k-pop-vlog-01673e48bc3c"
+  ],
+  [
+   "youmind-7917",
+   "goodcase-case-1f7a27e4c448"
+  ],
+  [
+   "youmind-7910",
+   "goodcase-korean-idol-backstage-fitting-vlog"
+  ],
+  [
+   "youmind-7915",
+   "goodcase-pov-vlog-c94d5709daa4"
+  ],
+  [
+   "youmind-7912",
+   "goodcase-case-3bdeb046587d"
+  ],
+  [
+   "youmind-7904",
+   "goodcase-2000-minidv-5cceb6310905"
+  ],
+  [
+   "youmind-7862",
+   "goodcase-case-4306bf4e075c"
+  ],
+  [
+   "youmind-7867",
+   "goodcase-case-d30f8318a084"
+  ],
+  [
+   "youmind-7873",
+   "goodcase-case-e0d3b03f1aef"
+  ],
+  [
+   "youmind-7858",
+   "goodcase-vlog-49dbf66ad64f"
+  ],
+  [
+   "youmind-7869",
+   "goodcase-case-9cb44af49d8a"
+  ],
+  [
+   "youmind-7865",
+   "goodcase-case-b1405ee458d3"
+  ],
+  [
+   "youmind-7866",
+   "goodcase-vlog-065189cb9adb"
+  ],
+  [
+   "youmind-7870",
+   "goodcase-16mm-vlog-c8cfec0d8310"
+  ],
+  [
+   "youmind-7881",
+   "goodcase-case-e53b614b0f42"
+  ],
+  [
+   "youmind-7877",
+   "goodcase-ugc-6f13437e4b40"
+  ],
+  [
+   "youmind-7860",
+   "goodcase-case-d087761bf321"
+  ],
+  [
+   "youmind-7857",
+   "goodcase-starbucks-739b454ab5c1"
+  ],
+  [
+   "youmind-7856",
+   "goodcase-case-f5315418af5f"
+  ],
+  [
+   "youmind-7798",
+   "goodcase-case-95a5c01a9b87"
+  ],
+  [
+   "youmind-7813",
+   "goodcase-case-1b3b8865bca8"
+  ],
+  [
+   "youmind-7815",
+   "goodcase-crimson-cola-99e9ec88e937"
+  ],
+  [
+   "youmind-7840",
+   "goodcase-case-3d49f00e65c0"
+  ],
+  [
+   "youmind-7823",
+   "goodcase-90-f704a9d8555b"
+  ],
+  [
+   "youmind-7814",
+   "goodcase-fpv-def15f90bf27"
+  ],
+  [
+   "youmind-7805",
+   "goodcase-case-cbb9868317f8"
+  ],
+  [
+   "youmind-7808",
+   "goodcase-case-146e12082f4d"
+  ],
+  [
+   "youmind-7768",
+   "goodcase-case-398be18644ee"
+  ],
+  [
+   "youmind-7760",
+   "goodcase-case-c726edc4268d"
+  ],
+  [
+   "youmind-7776",
+   "goodcase-case-fecae6e34928"
+  ],
+  [
+   "youmind-7703",
+   "goodcase-case-bf2bedc93316"
+  ],
+  [
+   "youmind-7702",
+   "goodcase-erling-haaland-525acabe78da"
+  ],
+  [
+   "youmind-7729",
+   "goodcase-korean-fantasy-romance-drama"
+  ],
+  [
+   "youmind-7679",
+   "goodcase-case-de248f679b06"
+  ],
+  [
+   "youmind-7654",
+   "goodcase-ugc-f1f4b662e370"
+  ],
+  [
+   "youmind-7606",
+   "goodcase-smartphone-beach-day-memories"
+  ],
+  [
+   "youmind-7592",
+   "goodcase-vfx-47bf458a20a3"
+  ],
+  [
+   "youmind-7612",
+   "goodcase-ugc-f0cd0dd33284"
+  ],
+  [
+   "youmind-7588",
+   "goodcase-case-58e736edb65c"
+  ],
+  [
+   "youmind-7481",
+   "goodcase-case-6152b0808b14"
+  ],
+  [
+   "youmind-7482",
+   "goodcase-case-0287a838e662"
+  ],
+  [
+   "youmind-7480",
+   "goodcase-case-b157d9c072bc"
+  ],
+  [
+   "youmind-7484",
+   "goodcase-case-69e5879cc5a7"
+  ],
+  [
+   "youmind-7388",
+   "goodcase-case-21aab321f762"
+  ],
+  [
+   "youmind-7439",
+   "goodcase-vlog-2d9d2fcaef84"
+  ],
+  [
+   "youmind-7328",
+   "goodcase-luxury-skincare-commercial"
+  ],
+  [
+   "youmind-7337",
+   "goodcase-case-b723c4e1858e"
+  ],
+  [
+   "youmind-7298",
+   "goodcase-case-80317051f9f3"
+  ],
+  [
+   "youmind-7282",
+   "goodcase-vlog-8a3e0b49e77b"
+  ],
+  [
+   "youmind-7281",
+   "goodcase-case-50ba683413ff"
+  ],
+  [
+   "youmind-7241",
+   "goodcase-3d-f194855e4246"
+  ],
+  [
+   "youmind-7257",
+   "goodcase-ugc-80d503f66caa"
+  ],
+  [
+   "youmind-7152",
+   "goodcase-asmr-b99180475dc6"
+  ],
+  [
+   "youmind-6954",
+   "goodcase-case-7a9235e91c71"
+  ],
+  [
+   "youmind-6771",
+   "goodcase-case-7aea1313f63b"
+  ],
+  [
+   "youmind-6530",
+   "goodcase-case-179a06586ce5"
+  ],
+  [
+   "youmind-2536",
+   "zerolu-1e465359",
+   "zerolu-bcb282e8"
+  ],
+  [
+   "youmind-159",
+   "youmind-162",
+   "youmind-945"
+  ],
+  [
+   "youmind-249",
+   "youmind-359"
+  ],
+  [
+   "youmind-172",
+   "youmind-306"
+  ],
+  [
+   "youmind-149",
+   "youmind-86"
+  ],
+  [
+   "youmind-144",
+   "youmind-169"
+  ],
+  [
+   "youmind-150",
+   "youmind-204"
+  ],
+  [
+   "youmind-174",
+   "youmind-175"
+  ],
+  [
+   "youmind-37",
+   "youmind-9"
+  ],
+  [
+   "youmind-35",
+   "youmind-7"
+  ],
+  [
+   "youmind-39",
+   "youmind-8"
+  ],
+  [
+   "youmind-12",
+   "youmind-45"
+  ],
+  [
+   "youmind-36",
+   "youmind-6"
+  ],
+  [
+   "zerolu-8f771dca",
+   "zerolu-f10580d4"
+  ],
+  [
+   "zerolu-4df9f58e",
+   "zerolu-6c7417e7"
+  ],
+  [
+   "zerolu-45c5a8da",
+   "zerolu-a4ffcab5"
+  ],
+  [
+   "zerolu-00d78acb",
+   "zerolu-f08da023"
+  ],
+  [
+   "zerolu-03dd31f5",
+   "zerolu-78416bd2"
+  ],
+  [
+   "zerolu-82c292a9",
+   "zerolu-d30bb7bc"
+  ],
+  [
+   "zerolu-2bd41479",
+   "zerolu-a3d12c63"
+  ],
+  [
+   "zerolu-0a365781",
+   "zerolu-fbce3ac3"
+  ],
+  [
+   "zerolu-48646618",
+   "zerolu-94f7ca16"
+  ],
+  [
+   "zerolu-a83bc8c0",
+   "zerolu-b0903215"
+  ],
+  [
+   "zerolu-421eb508",
+   "zerolu-e990e1ee"
+  ],
+  [
+   "zerolu-2a8d7707",
+   "zerolu-ddc7c5dd"
+  ],
+  [
+   "zerolu-411d95b1",
+   "zerolu-8f93b551"
+  ],
+  [
+   "zerolu-19f4b6e1",
+   "zerolu-3e33b128"
+  ],
+  [
+   "zerolu-479d68cf",
+   "zerolu-548764c4"
+  ],
+  [
+   "zerolu-37092664",
+   "zerolu-d6dd8d6d"
+  ],
+  [
+   "zerolu-a3dea506",
+   "zerolu-bd747d39"
+  ],
+  [
+   "zerolu-dbfb5dff",
+   "zerolu-e3c7ef5d"
+  ],
+  [
+   "zerolu-5dd6e2a0",
+   "zerolu-9899e394"
+  ],
+  [
+   "zerolu-0fcae691",
+   "zerolu-15feb39a"
+  ],
+  [
+   "zerolu-0ee72636",
+   "zerolu-8c6074de"
+  ],
+  [
+   "zerolu-0dc05598",
+   "zerolu-5336253d"
+  ],
+  [
+   "zerolu-05aae551",
+   "zerolu-17e682d5"
+  ],
+  [
+   "zerolu-00e3dee7",
+   "zerolu-8ac4dd79"
+  ],
+  [
+   "emily-75f453fb",
+   "emily-e9bbf928"
+  ],
+  [
+   "emily-2e4c311b",
+   "emily-b350dea5"
+  ],
+  [
+   "emily-148be0e2",
+   "emily-43483327"
+  ],
+  [
+   "emily-1e24fbd2",
+   "emily-499f1256",
+   "emily-b8451116"
+  ],
+  [
+   "emily-383d938b",
+   "emily-48a4f08d",
+   "emily-68770e53"
+  ],
+  [
+   "emily-10f03bb3",
+   "emily-91cf741b"
+  ]
+ ],
+ "near_duplicate_pairs": [
+  [
+   "emily-383d938b",
+   "emily-48a4f08d",
+   0.942
+  ],
+  [
+   "goodcase-noorlewisx-seedance-ai-4b6f8c8c977a",
+   "youmind-9279",
+   0.983
+  ],
+  [
+   "youmind-10752",
+   "goodcase-seedance-cinematic-dark-fantasy-video-bbf9e9ec916a",
+   0.932
+  ],
+  [
+   "youmind-9831",
+   "goodcase-yourplugai-seedance-ai-17a1f9de8843",
+   0.988
+  ],
+  [
+   "youmind-11199",
+   "goodcase-seedance-cinematic-16-9-live-action-24-sec-realistic-high-school-hallway-bright-fluor-a3f73476b5af",
+   0.945
+  ],
+  [
+   "youmind-10252",
+   "goodcase-seedance-a-cinematic-3d-pixar-style-animated-short-of-a-beautiful-young-woman-with-long-7a1efe5f0a2a",
+   0.99
+  ],
+  [
+   "youmind-9715",
+   "goodcase-just-sharon7-seedance-ai-20d2026d6f58",
+   0.942
+  ],
+  [
+   "youmind-9635",
+   "goodcase-mayaaicreator-seedance-ai-99e38c199ba8",
+   0.956
+  ],
+  [
+   "youmind-11984",
+   "goodcase-seedance-2-0-basketball-gets-a-whole-lot-more-fun-with-a-giant-fluffy-opponent-1b871f4125da",
+   0.91
+  ],
+  [
+   "youmind-8348",
+   "youmind-4969",
+   0.973
+  ],
+  [
+   "youmind-9636",
+   "goodcase-lianaalane-seedance-ai-c3e78794ed16",
+   0.982
+  ],
+  [
+   "youmind-10626",
+   "goodcase-seedance-create-an-11-second-cinematic-dark-fantasy-scene-featuring-a-beautiful-blonde-f-b09877c0a2d2",
+   0.99
+  ],
+  [
+   "youmind-8938",
+   "goodcase-seedance-2-5-vlog-eae9734adb51",
+   0.926
+  ],
+  [
+   "youmind-7281",
+   "goodcase-case-50ba683413ff",
+   0.935
+  ],
+  [
+   "youmind-7808",
+   "goodcase-case-146e12082f4d",
+   0.905
+  ],
+  [
+   "youmind-9972",
+   "goodcase-shamiweb3-seedance-ai-5620b354e47d",
+   0.996
+  ],
+  [
+   "youmind-10098",
+   "goodcase-mountain-dew-spark-b16d4e23caef",
+   0.995
+  ],
+  [
+   "youmind-7482",
+   "goodcase-case-0287a838e662",
+   0.977
+  ],
+  [
+   "youmind-7982",
+   "goodcase-real-case-06-aimikoda",
+   0.992
+  ],
+  [
+   "youmind-10095",
+   "goodcase-chillaikalan-seedance-ai-c67e26cea7cb",
+   0.925
+  ]
+ ],
+ "templates": {
+  "learnprompt": 54,
+  "manju": 13,
+  "toonflow": 2
+ },
+ "overlap_top": [
+  [
+   "youmind-121",
+   0.191
+  ],
+  [
+   "youmind-5390",
+   0.185
+  ],
+  [
+   "youmind-206",
+   0.102
+  ],
+  [
+   "youmind-8634",
+   0.095
+  ],
+  [
+   "youmind-560",
+   0.082
+  ],
+  [
+   "zerolu-45172720",
+   0.057
+  ],
+  [
+   "youmind-9196",
+   0.055
+  ],
+  [
+   "youmind-485",
+   0.052
+  ]
+ ]
+}

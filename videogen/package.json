@@ -1,0 +1,15 @@
+{
+  "name": "hda-videogen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "分镜 → 视频片段（云 API 自带 key / 本地 ComfyUI / 网页端手动往返）→ 配音 + 字幕 + BGM 合成成片",
+  "type": "module",
+  "bin": { "videogen": "cli.mjs" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/",
+    "providers": "node cli.mjs providers",
+    "demo:route-c": "bash examples/route-c/run_demo.sh"
+  },
+  "license": "Apache-2.0"
+}

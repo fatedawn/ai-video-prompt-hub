@@ -1,0 +1,5 @@
+# 本地 TTS（默认）依赖：pip install -r animator/tts/requirements.txt
+sherpa-onnx>=1.12        # Apache-2.0，CPU 推理
+numpy
+pypinyin>=0.50           # MIT，对齐时按拼音比对（容忍繁简/同音字）
+faster-whisper>=1.0      # MIT，可选：把整句对齐到字级时间戳；不装则句内按停顿+字数估计

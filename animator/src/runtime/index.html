@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>手绘动画预览 · handdrawn-animator</title>
+<style>
+  html, body { margin: 0; background: #2b2724; color: #eee; font: 14px "Noto Sans CJK SC", sans-serif; }
+  #wrap { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 8px; }
+  canvas { display: block; }
+  body.preview canvas { max-height: calc(100vh - 90px); width: auto; box-shadow: 0 4px 24px #0008; }
+  #ui { display: none; gap: 8px; align-items: center; width: min(900px, 96vw); }
+  body.preview #ui { display: flex; }
+  #ui input[type=range] { flex: 1; }
+  #info { font-size: 12px; opacity: .8; min-width: 260px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="c" width="1080" height="1920"></canvas>
+  <div id="ui"><button id="play">▶ 播放</button><input id="seek" type="range" min="0" max="1000" value="0"><span id="time">0.00s</span></div>
+  <div id="info"></div>
+</div>
+<script type="module">
+  import './engine.js';
+  const qs = new URLSearchParams(location.search);
+  if (qs.get('preview')) {
+    document.body.classList.add('preview');
+    const proj = await (await fetch('/__project.json')).json();
+    await window.__setup(proj);
+    const seek = document.getElementById('seek'), time = document.getElementById('time'), info = document.getElementById('info');
+    let playing = false, t0 = 0, base = 0;
+    const show = (t) => {
+      window.__render(t);
+      seek.value = Math.round((t / proj.duration) * 1000);
+      time.textContent = t.toFixed(2) + 's';
+      const cue = proj.cues.find((c) => t >= c.start && t < c.end);
+      info.textContent = cue ? `#${cue.index} [${cue.start.toFixed(2)}–${cue.end.toFixed(2)}] ${cue.text}` : '';
+    };
+    seek.oninput = () => { playing = false; show((seek.value / 1000) * proj.duration); };
+    document.getElementById('play').onclick = () => { playing = !playing; base = (seek.value / 1000) * proj.duration; t0 = performance.now(); if (playing) loop(); };
+    function loop() { if (!playing) return; const t = base + (performance.now() - t0) / 1000; if (t >= proj.duration) { playing = false; return; } show(t); requestAnimationFrame(loop); }
+    show(0);
+  }
+</script>
+</body>
+</html>

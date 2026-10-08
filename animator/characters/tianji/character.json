@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schema/character.schema.json",
+  "id": "tianji",
+  "name": "天机",
+  "description": "「天机」系列的默认主持人：一位会「泄露天机」的小仙师 + 技术宅。头顶发髻斜插一根金色星星发簪（像天线），戴大圆眼镜（镜片反光），留一小撮白胡子，穿靛蓝交领道袍（宽袖、金色腰带、袍上点点星光），腰间挂一枚小罗盘，手持一把展开会露出 </> 的折扇，身边飘着星星伙伴「小星」。本仓库原创默认角色。",
+  "prompt": "a tiny chibi sage-geek mascot with a big round head, black hair in a topknot pierced diagonally by a long gold hairpin topped with a glowing five-point star, big round black-rimmed glasses with a white glint, a small white goatee, rosy cheeks, indigo crossed-collar Taoist robe with wide sleeves, gold collar trim, gold sash, scattered little gold star dots, a tiny gold compass pendant with a red needle, cream trousers and black cloth shoes, holding a cream folding fan that shows a </> symbol, a small smiling yellow star companion floating nearby; children's crayon drawing, paper texture",
+  "color": "#4155a8",
+  "palette": {"靛蓝道袍": "#4155a8", "金色点缀": "#f2c14e", "发色/镜框": "#2b2d42", "肤色": "#fde2c4", "扇面/内衬": "#fbf3dc", "朱砂（罗盘指针、扇穗）": "#e2603f", "星星": "#ffd54a"},
+  "voice": {"local": "kokoro:zm_052", "edge": "zh-CN-YunxiNeural", "variants": {"激动": {"local": "kokoro:zm_052", "speed": 1.12, "edge": "zh-CN-YunxiNeural"}, "悄悄话": {"local": "kokoro:zm_052", "speed": 0.9, "edge": "zh-CN-YunxiNeural"}}},
+  "type": "rig",
+  "height": 560,
+  "rig": {
+    "svg": "tianji.svg",
+    "anchor": [130, 366],
+    "parts": {
+      "star": {"parent": null, "pivot": [38, 118], "idle": {"bob": 7, "sway": 10, "period": 1.9}},
+      "leg_l": {"parent": "body", "pivot": [117, 318]},
+      "leg_r": {"parent": "body", "pivot": [143, 318]},
+      "body": {"pivot": [130, 330]},
+      "head": {"parent": "body", "pivot": [130, 210]},
+      "hair": {"parent": "head", "pivot": [130, 150]},
+      "glasses": {"parent": "head", "pivot": [130, 150]},
+      "fan": {"parent": "arm_r", "pivot": [173, 304], "upright": 0.8},
+      "arm_l": {"parent": "body", "pivot": [112, 222], "raise": 1},
+      "arm_r": {"parent": "body", "pivot": [148, 222], "raise": -1}
+    },
+    "layers": {"eyes": "eyes", "blink": "eyes_closed", "mouthClosed": "mouth_closed", "mouthOpen": "mouth_open"}
+  },
+  "expressions": {
+    "normal": {"label": "默认"},
+    "happy": {"label": "开心", "eyes": "eyes_happy", "mouth": "mouth_smile"},
+    "surprised": {"label": "惊讶", "eyes": "eyes_wide", "mouth": "mouth_o", "extra": "expr_surprised"},
+    "smug": {"label": "得意（眼镜反光）", "eyes": "eyes_smug", "mouth": "mouth_smirk", "extra": "expr_smug"},
+    "thinking": {"label": "思考", "eyes": "eyes_up", "mouth": "mouth_flat", "extra": "expr_thinking"}
+  },
+  "actionDefaults": {"wave": {"angle": 95, "amp": 15}, "raise": {"angle": 105}, "point": {"angle": 92}, "reveal": {"angle": 100}},
+  "poseLayers": {"default": ["prop_fan_closed"], "reveal": ["prop_fan_open", "fx_reveal"]},
+  "points": {"hand_l": {"part": "arm_l", "at": [89, 306]}, "hand_r": {"part": "arm_r", "at": [171, 306]}, "fan_tip": {"part": "fan", "at": [215, 245]}},
+  "sheet": {
+    "poses": [
+      {"name": "reveal", "label": "招牌动作：亮扇泄露天机", "expr": "smug", "actions": [{"type": "reveal", "start": -0.6, "end": 10}]},
+      {"name": "walk", "label": "走路", "actions": [{"type": "walk", "start": -0.13, "end": 10}]}
+    ]
+  },
+  "license": "本仓库原创默认角色，Copyright 2026 天机，Apache-2.0（见仓库 LICENSE / NOTICE）。提醒：「天机」是频道的身份标识，Apache-2.0 第 6 条不授予商标使用权，请勿用其冒充频道或暗示背书。"
+}
