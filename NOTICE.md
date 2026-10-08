@@ -7,7 +7,9 @@
 版权人：**天机**（Copyright 2026 天机）。许可：**[Apache License 2.0](LICENSE)**（全文见根目录 `LICENSE`，简短声明见根目录 `NOTICE`）。
 
 Apache-2.0 **只覆盖本仓库自己的作品**，包括：
-- 代码：`scripts/`、`animator/`（代码、Schema、`tts/`、`tools/`；**不含** `animator/vendor/` 下的第三方代码，见第 2.1 节）、`videogen/`；
+- 代码：`scripts/`、`animator/`（代码、Schema、`tts/`、`tools/`；**不含** `animator/vendor/` 下的第三方代码，见第 2.1 节）、`videogen/`、`router/`（AI 导演路由器，含测试与 `examples/` 示例方案）、`catalog/tools/`；
+- AI Agent 说明与技能：`AGENTS.md`、`CLAUDE.md`、`skills/ai-video-director/SKILL.md`；
+- 外部项目目录 `catalog/`：`registry.json` 中本仓库自写的中文简介、标签、接入说明与许可证备注，生成的分类页面，以及 `catalog/methodology.md`（用本仓库自己的话归纳的方法论，未摘录第三方原文）。目录里列出的外部项目**只是链接**，它们各自的代码、文档、模板仍归原作者并适用其自己的许可证，见第 4 节；
 - 文档：README、NOTICE、ATTRIBUTION、CONTRIBUTING、SECURITY 等，`animator/README.md`、`videogen/README.md`，分类体系、各级索引与统计，`tools/漫剧漫画代码项目.md` 链接清单；
 - 手册：`docs/分镜提示词手册.md`、`docs/skill/SKILL.md`（其中【原文摘录】除外，见第 3 节）；
 - 自写的模板、示例与提示词：`animator/templates/`、`animator/examples/`、`videogen/examples/`、`docs/` 中的示例；
@@ -103,6 +105,17 @@ YouMind、LearnPrompt、ZeroLu 三个上游都说明：所收提示词来自社�
 - `animator/` 只借鉴思路、未复制代码的项目：geeklee/srt-whiteboard-animation（MIT）、alexgreensh/anidoodle（Apache-2.0）、HKUDS/ViMax（MIT）、HBAI-Ltd/Toonflow-app（MIT）。（alchaincyf/huashu-art-motion 的 MIT 代码已移植，见第 2.1 节。）
 
 本仓库没有收录任何第三方图片、GIF 或视频。`animator/` 中的 SVG（角色「豆豆」与内置道具）是本仓库原创的矢量图。
+
+### 外部项目目录 `catalog/`（仅链接）
+
+`catalog/registry.json` 及其生成的页面列出了 167 个外部开源项目。对每个项目，本仓库**只记录**这些内容：
+- 链接
+- 事实性元数据：★、最后推送日期、许可证标识。核验日期为 2026-10-08；许可证以各仓库 LICENSE 原文为准。
+- 本仓库自写的简介、标签和接入说明
+
+我们没有复制这些项目的任何代码、提示词、模板、README 或 SKILL 文本。`catalog/methodology.md` 中的方法要点，是用本仓库自己的语言对公开思路做的归纳，每条都附出处链接，同样没有摘录原文。
+
+被列出的项目里，有非商用许可（PolyForm Noncommercial、CC BY-NC-SA）、传染性许可（GPL / AGPL）、有条件许可（Remotion License），也有未附许可证的项目（默认保留所有权利）。使用这些项目时，以它们各自的许可证为准。`node router/cli.mjs recommend --commercial` 会排除非商用和无许可证的项目。
 
 ## 5. 发布前内容审核（仅保留标题 + 署名 + 链接）
 

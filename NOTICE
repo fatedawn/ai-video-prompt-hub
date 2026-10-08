@@ -3,7 +3,9 @@ Copyright 2026 天机
 
 This product includes software and content developed by 天机 (the "Tianji" channel),
 licensed under the Apache License, Version 2.0 (see LICENSE). The Apache-2.0 licence
-covers ONLY this repository's own work: code (scripts/, animator/, videogen/),
+covers ONLY this repository's own work: code (scripts/, animator/ excluding
+animator/vendor/, videogen/, router/), the external-project catalog's own
+descriptions and tags (catalog/), AGENTS.md, CLAUDE.md and skills/ai-video-director/,
 documentation, the handbook, templates, examples and prompts written for this
 repository, the edits made to the animator style presets, the characters 「天机」 and
 「豆豆」 with their artwork, and the preview media in docs/assets/.
@@ -48,6 +50,9 @@ copyright lines are in LICENSES/. Details: NOTICE.md and ATTRIBUTION.md.
   repository's adapters and modifications (animator/src/runtime/fx/, fxcatalog.mjs,
   the runtime stage-size patch). NOT included: its Arphic stroke data, its fonts, the
   花叔 character/likeness and any image asset. See the folder's VENDOR.md.
+
+Projects listed in catalog/ are referenced by link only; none of their code or text is
+included, and each keeps its own licence (see NOTICE.md).
 
 Voice tracks of the two preview videos in docs/assets/ were synthesised locally with
 Kokoro-82M v1.1-zh (hexgrad, Apache-2.0) via sherpa-onnx (k2-fsa, Apache-2.0).

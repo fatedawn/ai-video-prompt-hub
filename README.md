@@ -16,11 +16,50 @@
 | 把一堆镜头拼成带配音、字幕、BGM 的成片 | `videogen assemble`（自动处理时长 / 画幅不一致） | `node videogen/cli.mjs assemble shots.json --bgm music.mp3` |
 | 做手绘动画讲解 / 口播短视频 | [`animator/`](animator/README.md)：默认主持人「天机」，台词一行一句即可出片 | `cd animator && node src/cli.mjs make 台词.txt` |
 | 免费、离线的中文配音（带字级时间戳） | `animator/tts/`：Kokoro v1.1-zh（Apache-2.0，CPU），edge-tts 可选 | `cd animator && npm run setup:tts && node src/cli.mjs tts 工程.json` |
-| 找开源漫剧 / 漫画工具 | [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md)（仅链接） | — |
+| 不知道该用哪条路线，想让 AI 按题材出方案 | [`router/`](router/README.md) + [`skills/ai-video-director/`](skills/ai-video-director/SKILL.md)（见下文「AI 导演 / Agent 使用」） | `node router/cli.mjs recommend "仙侠漫剧：……" --budget free-cpu` |
+| 找开源工具：手绘/白板/火柴人、Remotion、代码动效、视频 Agent 技能、漫剧方法论 | [`catalog/`](catalog/README.md)（167 个，已核验许可证，仅链接）· [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md) | `node router/cli.mjs search 火柴人 --cost free-cpu` |
 
 预览（随仓库提交的小文件）：[天机设定图](docs/assets/tianji_sheet.png) · [天机剪影](docs/assets/tianji_silhouette.png) · [天机电影感特效展示（带配音）](docs/assets/tianji-showcase.mp4) · [路线 C 演示成片（替身片段）](docs/assets/videogen-route-c-demo.mp4)
 
 > 原作者 / 权利人如需删除，请用 [下架申请模板](.github/ISSUE_TEMPLATE/takedown.md) 提 issue（见下文「合规与下架」）。贡献新提示词请先读 [CONTRIBUTING.md](CONTRIBUTING.md)；**不要提交任何 API key**（见 [SECURITY.md](SECURITY.md)）。
+
+---
+
+## AI 导演 / Agent 使用
+
+把「我想做一条 xx 题材的视频」交给 AI Agent（Claude Code、Codex、Cursor 等）时，Agent 会先读根目录的 [`AGENTS.md`](AGENTS.md)（Claude Code 读 [`CLAUDE.md`](CLAUDE.md)），再按 [`skills/ai-video-director/SKILL.md`](skills/ai-video-director/SKILL.md) 做三件事：
+
+1. **问清需求**：题材、漫剧还是真人、现实向还是特效向、时长、画幅、预算/硬件（免费 CPU / 自己的显卡 / API key / 网页手动）、角色素材、配音、是否商用。
+2. **选路线**：
+   - ① **animator 手绘动画**：讲解、科普、绘本、古诗、天机风项目推荐
+   - ② **videogen 视频生成 + prompts/**：仙侠、甜宠、悬疑等剧情
+   - ③ **代码动效**：数据、图表、公式、字幕重的视频，用 Remotion / HyperFrames / Manim
+   - ④ **外部开源项目**：从 [`catalog/`](catalog/README.md) 里选
+
+   预算会改变选择，例如免费 CPU 下的漫剧先出手绘版。
+3. **出方案**：给出匹配的提示词 id、模板、画风预设、外部项目和逐条命令。
+
+```bash
+node router/cli.mjs intake                                                   # 需求确认问题清单
+node router/cli.mjs recommend "仙侠漫剧：废柴少女觉醒灵根，宗门大比一剑逆袭" --medium 漫剧 --budget api-key
+node router/cli.mjs recommend "知识科普口播：为什么熬夜会让人变笨" --budget free-cpu --format json
+node router/cli.mjs search 白板 --zh native                                   # 查外部项目
+```
+
+8 个示例题材的完整方案在 [`router/examples/`](router/examples/)：仙侠漫剧、都市甜宠真人剧、知识科普口播、儿童绘本、悬疑短剧、产品带货、GitHub 项目推荐（天机）、DV vlog。
+
+**外部项目目录 [`catalog/`](catalog/README.md)** 共 167 个项目，全部用 GitHub API 实时核验过，许可证读的是 LICENSE 原文，分 8 类：
+
+- 手绘·白板·火柴人
+- 笔画与手绘风组件
+- AI 草图动画研究
+- Remotion 生态
+- 代码动效引擎
+- 视频 Agent 技能
+- 漫剧·短剧方法论
+- 端到端平台
+
+[`catalog/methodology.md`](catalog/methodology.md) 是本仓库用自己的话整理的方法论速查，内容包括剧本结构、小说改编、角色一致性、分镜写法、打戏、手绘讲解和质检，每条都附原始出处链接。目录只放链接和自写简介，不复制第三方代码或文档。
 
 ---
 
@@ -96,6 +135,10 @@ ai-video-prompt-hub/
 ├── data/                  # prompts/part-NN.{jsonl,csv} · index.csv · templates.jsonl · extraction_report.json · takedown.txt · audit_overrides.tsv
 ├── docs/                  # 分镜提示词手册.md（用户自有手册）· skill/SKILL.md · assets/（天机设定图、演示视频等小预览）
 ├── tools/                 # 漫剧漫画代码项目.md（仅链接）
+├── AGENTS.md / CLAUDE.md  # 给 AI Agent 的使用说明（能力、决策流程、命令）
+├── skills/ai-video-director/ # AI 导演 Skill：需求确认 → 选路线 → 选素材 → 执行
+├── router/                # AI 导演路由器 CLI（无依赖）：题材 → 方案；tests、examples/
+├── catalog/               # 外部项目目录：registry.json（机器可读）+ 分类页面 + methodology.md
 ├── animator/              # 手绘动画渲染器（Node + 浏览器 Canvas + ffmpeg），详见 animator/README.md
 │   ├── src/               #   命令行、工程编译、绘制引擎（全部为本仓库原创代码）
 │   ├── schema/            #   工程 / 角色 JSON Schema
@@ -104,6 +147,7 @@ ai-video-prompt-hub/
 │   ├── presets/           #   画风提示词预设（第三方 MIT 数据，见 NOTICE.md）
 │   ├── templates/         #   init 用的默认工程模板（主持人：天机）
 │   ├── examples/          #   主示例《天机泄露》、《豆豆的早晨》等
+│   ├── vendor/            #   按 MIT 原样移植的第三方代码：huashu-art-motion（风格配方 / 转场 / 后期层，见 VENDOR.md）
 │   └── tools/             #   静止帧 / 图文对齐 QA、可选 edge-tts
 ├── videogen/              # 分镜 → 视频片段（云 API / ComfyUI / 网页端往返）→ 配音 + 字幕 + BGM 成片，详见 videogen/README.md
 └── scripts/               # build_index.py · extract_sources.py · audit.py · classify.py · hub_common.py
@@ -295,7 +339,7 @@ Star 数为 2026-10-08 查询值。
 | [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) | Seedance 2.0 提示词 Skill，有中英示例（MIT） | 上游 README 写明示例基于字节官方《即梦 Seedance 2.0 使用手册》，权利链存疑，28 条示例**暂不收录**（只在 `data/extraction_report.json` 记录元数据） |
 | [YouMind Seedance 2.0 提示词库（网站）](https://youmind.com/en-US/seedance-2-0-prompts) / [goodcase.ai](https://goodcase.ai) | 两个上游的完整在线图库，提示词更多，带视频预览 | 网站内容不在 GitHub 仓库的许可范围内，只放链接 |
 
-更多漫剧 / 漫画代码项目见 [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md)。
+更多漫剧 / 漫画代码项目见 [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md)；手绘动画、Remotion、代码动效、视频 Agent 技能与漫剧方法论见 [`catalog/`](catalog/README.md)。
 
 ---
 
@@ -317,7 +361,7 @@ Star 数为 2026-10-08 查询值。
 
 ## 许可
 
-- **本仓库自己的作品：[Apache License 2.0](LICENSE)**，版权人：天机（Copyright 2026 天机），简短声明见 [`NOTICE`](NOTICE)。范围包括：代码（`scripts/`、`animator/`、`videogen/`）、文档与手册（`docs/分镜提示词手册.md`、`docs/skill/SKILL.md` 等）、自写的模板 / 示例 / 提示词、对画风预设的改写、原创角色「天机」「豆豆」及其美术、`docs/assets/` 预览素材。
+- **本仓库自己的作品：[Apache License 2.0](LICENSE)**，版权人：天机（Copyright 2026 天机），简短声明见 [`NOTICE`](NOTICE)。范围包括：代码（`scripts/`、`animator/`（不含 `animator/vendor/` 的第三方 MIT 代码）、`videogen/`、`router/`）、外部项目目录 `catalog/`（自写简介、标签与方法论整理；所链接的项目各自保留其许可证）、`AGENTS.md` / `CLAUDE.md`、`skills/ai-video-director/`、文档与手册（`docs/分镜提示词手册.md`、`docs/skill/SKILL.md` 等）、自写的模板 / 示例 / 提示词、对画风预设的改写、原创角色「天机」「豆豆」及其美术、`docs/assets/` 预览素材。
 - **Apache-2.0 只覆盖本仓库自己的作品。第三方内容保持上游许可**：
   - `prompts/` 与 `templates/` 中的每个文件，front matter 里的 `license` 写明了它的上游许可（MIT 或 CC BY 4.0），并保留原作者署名与原帖链接；上游许可全文与版权行见 [`LICENSES/`](LICENSES/)；
   - 第三方原作者（X/Twitter 用户、博主等）的提示词版权归原作者，本仓库不对其授予任何许可；
@@ -332,6 +376,8 @@ Star 数为 2026-10-08 查询值。
 - [分镜提示词手册（AI 漫剧 / 真人剧）](docs/分镜提示词手册.md)
 - [Seedance 分镜提示词 Skill](docs/skill/SKILL.md)
 - [漫剧 / 漫画代码项目（仅链接）](tools/漫剧漫画代码项目.md)
+- [外部项目目录（167 个，已核验许可证）](catalog/README.md) · [方法论速查](catalog/methodology.md)
+- [AI 导演 Skill](skills/ai-video-director/SKILL.md) · [路由器 router](router/README.md) · [AGENTS.md](AGENTS.md)
 - [手绘动画渲染器 animator](animator/README.md)
 - [视频生成层 videogen（三条路线 + 统一合成）](videogen/README.md)
 - [贡献指南（添加提示词 / 内容审核）](CONTRIBUTING.md) · [安全说明](SECURITY.md) · [版权与许可详细说明](NOTICE.md)

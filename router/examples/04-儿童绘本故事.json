@@ -1,0 +1,477 @@
+{
+  "topic": "儿童绘本故事：小兔子学会分享胡萝卜",
+  "generated_by": "router/cli.mjs recommend",
+  "inputs": {
+    "medium": "漫剧",
+    "direction": "现实向",
+    "duration_s": 90,
+    "aspect": "9:16",
+    "budget": "free-cpu",
+    "budget_zh": "免费 + 普通电脑（CPU）",
+    "assets": [],
+    "voice": "Kokoro 本地 TTS（默认）",
+    "commercial": false
+  },
+  "scenario": {
+    "id": "picture-book",
+    "name": "儿童绘本故事",
+    "matched": [
+      {
+        "id": "picture-book",
+        "score": 3,
+        "keywords": [
+          "绘本",
+          "儿童",
+          "小兔"
+        ]
+      }
+    ],
+    "modifiers": [
+      {
+        "id": "kids-safe",
+        "note": "面向儿童：避免惊吓画面与不安全行为示范"
+      }
+    ]
+  },
+  "route": {
+    "primary": "A",
+    "primary_name": "路线①：animator 手绘动画（本仓库）",
+    "secondary": [
+      {
+        "id": "B",
+        "name": "路线②：videogen 视频生成 + prompts/ 提示词（本仓库）"
+      },
+      {
+        "id": "D",
+        "name": "路线④：外部开源项目（catalog/）"
+      }
+    ],
+    "videogen_mode": "web",
+    "why": [
+      "「儿童绘本故事」以讲清楚/讲好故事为主，本仓库 animator 手绘逐笔动画免费、CPU 可跑、画面与台词逐词对齐"
+    ]
+  },
+  "script_skeleton": [
+    "从前，有一只「小主角」……",
+    "有一天，它遇到了一个难题",
+    "它试了一次，没成功",
+    "朋友帮忙 / 换了个办法",
+    "终于成功了，它明白了一个道理"
+  ],
+  "tips": [
+    "语速放慢（Kokoro 可用 0.9× 变体），一页一句",
+    "想要「插画被画出来」的绘本感：先 AI 生插图，再用 whiteboard-stream-animation 或 story-to-handdrawn-video"
+  ],
+  "prompts": {
+    "targets": [
+      "漫剧/现实向/日常治愈",
+      "漫剧/特效向/奇幻冒险",
+      "其他/动物萌宠"
+    ],
+    "art": "3D卡通",
+    "items": [
+      {
+        "id": "youmind-4916",
+        "title": "可爱的 3D 动画小猫救援故事",
+        "genre": "漫剧/现实向/日常治愈",
+        "art_style": "3D卡通",
+        "language": "en",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/漫剧/现实向/日常治愈/youmind-4916--可爱的-3D-动画小猫救援故事.md",
+        "score": 7.3
+      },
+      {
+        "id": "youmind-5777",
+        "title": "皮克斯风格父子足球故事",
+        "genre": "漫剧/现实向/日常治愈",
+        "art_style": "3D卡通",
+        "language": "en",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/漫剧/现实向/日常治愈/youmind-5777--皮克斯风格父子足球故事.md",
+        "score": 7.3
+      },
+      {
+        "id": "youmind-8203",
+        "title": "感人 3D 动画小狗与戒指的故事",
+        "genre": "漫剧/现实向/日常治愈",
+        "art_style": "3D卡通",
+        "language": "en",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/漫剧/现实向/日常治愈/youmind-8203--感人-3D-动画小狗与戒指的故事.md",
+        "score": 7.3
+      },
+      {
+        "id": "goodcase-seedance-2-5-a-magical-3d-animated-fairy-tale-scene-featuring-a-young-girl-wearing-a-black-h-cf1194730635",
+        "title": "头巾女孩与小鸭兔子的月夜提灯漫游",
+        "genre": "漫剧/特效向/奇幻冒险",
+        "art_style": "3D卡通",
+        "language": "en",
+        "model": "Seedance 2.5",
+        "license": "CC-BY-4.0 (curation) — prompt © original creator",
+        "source_repo": "LearnPrompt/awesome-seedance",
+        "path": "prompts/漫剧/特效向/奇幻冒险/goodcase-seedance-2-5-a-magical-3d-animated-fairy-tale-scene--头巾女孩与小鸭兔子的月夜提灯漫游.md",
+        "score": 6.3
+      },
+      {
+        "id": "youmind-2839",
+        "title": "Seedance 2.0 提示词：可爱的冒险故事",
+        "genre": "漫剧/特效向/奇幻冒险",
+        "art_style": "3D卡通",
+        "language": "en",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/漫剧/特效向/奇幻冒险/youmind-2839--Seedance-2.0-提示词-可爱的冒险故事.md",
+        "score": 6.3
+      },
+      {
+        "id": "youmind-6112",
+        "title": "皮克斯风格：2026 年世界杯故事",
+        "genre": "漫剧/特效向/奇幻冒险",
+        "art_style": "3D卡通",
+        "language": "en",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/漫剧/特效向/奇幻冒险/youmind-6112--皮克斯风格-2026-年世界杯故事.md",
+        "score": 6.3
+      }
+    ]
+  },
+  "templates": [
+    {
+      "id": "learnprompt-tpl-zh-3d-cartoon",
+      "title": "🎨 3D 卡通角色短片",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-3d-cartoon--🎨-3D-卡通角色短片.md"
+    },
+    {
+      "id": "learnprompt-tpl-zh-stop-motion-cadence",
+      "title": "🎨 定格动画与步进节奏",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-stop-motion-cadence--🎨-定格动画与步进节奏.md"
+    }
+  ],
+  "style_presets": [
+    {
+      "id": "sunlit-storybook",
+      "name_zh": "暖光童画绘本",
+      "category": "gouache",
+      "best_for": [
+        "治愈故事",
+        "儿童冒险",
+        "亲情",
+        "梦境段落"
+      ],
+      "media": "picture-book"
+    },
+    {
+      "id": "kid-crayon",
+      "name_zh": "五岁儿童蜡笔坏画",
+      "category": "crayon",
+      "best_for": [
+        "亲子故事",
+        "童年回忆",
+        "轻喜剧",
+        "儿童科普"
+      ],
+      "media": "crayon"
+    },
+    {
+      "id": "nordic-gouache-storybook",
+      "name_zh": "北欧低饱和水粉绘本",
+      "category": "gouache",
+      "best_for": [
+        "安静日常",
+        "睡前故事",
+        "自然主题",
+        "生活方式"
+      ],
+      "media": "picture-book"
+    },
+    {
+      "id": "warm-flat-storybook",
+      "name_zh": "暖色几何扁平绘本",
+      "category": "graphic",
+      "best_for": [
+        "关系故事",
+        "品牌叙事",
+        "轻科普",
+        "温暖群像"
+      ],
+      "media": "picture-book"
+    },
+    {
+      "id": "inked-storybook",
+      "name_zh": "墨线淡彩绘本",
+      "category": "watercolor",
+      "best_for": [
+        "角色故事",
+        "人物头像",
+        "青春叙事",
+        "情绪对白"
+      ],
+      "media": "ink"
+    }
+  ],
+  "external": {
+    "tools": [
+      {
+        "id": "handdraw-story-video",
+        "repo": "xiejunjie524/handdraw-story-video",
+        "url": "https://github.com/xiejunjie524/handdraw-story-video",
+        "kind": "skill",
+        "intro_zh": "7–9 幅手绘故事母图→35–45 秒竖屏：线稿从左到右显现、再逐步上色（HyperFrames 渲染）",
+        "stars": 775,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "与 story-to-handdrawn 同类的绘本揭示路线（HyperFrames 版）；不绑定生图服务",
+        "score": 19.44
+      },
+      {
+        "id": "whiteboard-video-engine",
+        "repo": "gnipbao/whiteboard-video-engine",
+        "url": "https://github.com/gnipbao/whiteboard-video-engine",
+        "kind": "engine",
+        "intro_zh": "本地白板手绘视频引擎：SVG/线稿/插画/照片→逐笔绘制 MP4，骨架追踪、手势跟随、轮廓感上色、30 种画材风格，可用词级时间戳驱动节奏",
+        "stars": 103,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "照片/插画→逐笔绘制的通用引擎，可产出单镜头片段交给 videogen assemble；配套 Skill 见 codex-whiteboard-video-skill",
+        "score": 16.01
+      },
+      {
+        "id": "whiteboard-stream-animation",
+        "repo": "geeklee/whiteboard-stream-animation",
+        "url": "https://github.com/geeklee/whiteboard-stream-animation",
+        "kind": "skill",
+        "intro_zh": "一张插图→连续落笔线稿→按原图回填颜色→停留展示的白板手绘片，支持批量合并",
+        "stars": 59,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "把 AI 生的绘本插图转成「被画出来」的镜头，再交给 videogen assemble 合成配音字幕",
+        "score": 15.89
+      },
+      {
+        "id": "anidoodle",
+        "repo": "alexgreensh/anidoodle",
+        "url": "https://github.com/alexgreensh/anidoodle",
+        "kind": "skill",
+        "intro_zh": "Claude Code/Codex/Grok 插件：31 种手绘画材全部用代码画，可生成「一笔一笔画出来」的过程片、故事分镜和带配乐/字幕的短片",
+        "stars": 850,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "en",
+        "plugs_into": "画材种类最接近 story-to-handdrawn 画风库且真正在「画」；英文为主，中文题材需自己写台词",
+        "score": 14.96
+      },
+      {
+        "id": "story-to-handdrawn-video",
+        "repo": "gnipbao/story-to-handdrawn-video",
+        "url": "https://github.com/gnipbao/story-to-handdrawn-video",
+        "kind": "skill",
+        "intro_zh": "中文故事→每句一张 AI 母图→「文字→黑白稿→彩色」擦除揭示的 3:4 手绘日记漫画静音片；内置 297 条画风配方",
+        "stars": 2159,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key",
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "本仓库 animator/presets/handdrawn-styles.json 已收录其 MIT 画风配方；它的成片是遮罩擦除+静帧，需要真动画/词级对齐时改走 animator",
+        "score": 14.67
+      },
+      {
+        "id": "story-handdrawn-remotion",
+        "repo": "liangdabiao/story-handdrawn-remotion",
+        "url": "https://github.com/liangdabiao/story-handdrawn-remotion",
+        "kind": "skill",
+        "intro_zh": "故事文本→「文字→黑白画稿→彩色插画」三阶段擦除的手绘日记漫画竖屏片，主打全免费工具链",
+        "stars": 36,
+        "license": "NONE",
+        "license_class": "none",
+        "license_note": "",
+        "cost": [
+          "free-cpu",
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "story-to-handdrawn 思路的免费工具链版本；无许可证，仅链接",
+        "score": 12.78
+      },
+      {
+        "id": "animateddrawings",
+        "repo": "facebookresearch/AnimatedDrawings",
+        "url": "https://github.com/facebookresearch/AnimatedDrawings",
+        "kind": "research",
+        "intro_zh": "Meta：让儿童手绘人物动起来（自动骨骼 + 动作重定向）",
+        "stars": 12810,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "MIT；仓库已归档",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "en",
+        "plugs_into": "孩子画的小人→会跳舞的动画，可作为绘本/亲子题材素材生成；已归档",
+        "score": 12.5
+      },
+      {
+        "id": "image-to-animation-offline",
+        "repo": "daslearning-org/image-to-animation-offline",
+        "url": "https://github.com/daslearning-org/image-to-animation-offline",
+        "kind": "app",
+        "intro_zh": "离线跨平台 App：图片→素描风「画出来」动画视频，可批量",
+        "stars": 44,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "en",
+        "plugs_into": "手机/离线场景把单张图做成绘制镜头",
+        "score": 11.33
+      }
+    ],
+    "methods": []
+  },
+  "steps": [
+    {
+      "title": "确认需求（intake）",
+      "cmds": [
+        "node router/cli.mjs intake"
+      ],
+      "note": "题材、媒介、方向、时长、画幅、预算、角色素材、配音逐项确认；不确定就用本方案的默认值"
+    },
+    {
+      "route": "A",
+      "title": "—— 路线①：animator 手绘动画（本仓库）（主路线） ——",
+      "cmds": []
+    },
+    {
+      "title": "准备（只需一次）",
+      "cmds": [
+        "cd animator && npm install && npm run setup:tts && cd .."
+      ],
+      "note": "Node ≥18；setup:tts 下载本地开源 TTS（Kokoro v1.1-zh，CPU、离线、免费）",
+      "route": "A"
+    },
+    {
+      "title": "写台词",
+      "cmds": [
+        "mkdir -p .work/儿童绘本故事-小兔子学会 && $EDITOR .work/儿童绘本故事-小兔子学会/台词.txt"
+      ],
+      "note": "一行一句（会成为一条字幕）；空行 = 换镜头；「关键词」说到时会被画出来；「角色：台词」可切换说话人（天机/豆豆）",
+      "route": "A"
+    },
+    {
+      "title": "选画风",
+      "cmds": [
+        "node animator/src/cli.mjs styles --show sunlit-storybook",
+        "node animator/src/cli.mjs styles --search 绘本"
+      ],
+      "note": "推荐画材 --media picture-book；画风预设只是提示词配方，渲染本身不调用任何 AI 服务",
+      "route": "A"
+    },
+    {
+      "title": "一条命令出片",
+      "cmds": [
+        "node animator/src/cli.mjs make .work/儿童绘本故事-小兔子学会/台词.txt --out .work/儿童绘本故事-小兔子学会/儿童绘本故事-小兔子学会.mp4 --character doudou --media picture-book"
+      ],
+      "note": "先加 --scale 0.5 快速预览；完成后会生成可编辑的工程 project.json",
+      "route": "A"
+    },
+    {
+      "title": "精修（可选）",
+      "cmds": [
+        "node animator/src/cli.mjs check .work/儿童绘本故事-小兔子学会/儿童绘本故事-小兔子学会.work/project.json",
+        "node animator/src/cli.mjs preview .work/儿童绘本故事-小兔子学会/儿童绘本故事-小兔子学会.work/project.json",
+        "node animator/src/cli.mjs make .work/儿童绘本故事-小兔子学会/儿童绘本故事-小兔子学会.work/project.json --out .work/儿童绘本故事-小兔子学会/儿童绘本故事-小兔子学会.mp4"
+      ],
+      "note": "在 project.json 里加 \"stylePreset\": \"sunlit-storybook\"，调整道具、动作、相机；synccheck 可做图文对齐质检",
+      "route": "A"
+    },
+    {
+      "route": "B",
+      "title": "—— 路线②：videogen 视频生成 + prompts/ 提示词（本仓库）（备选/升级） ——",
+      "cmds": []
+    },
+    {
+      "title": "剧本与分镜",
+      "cmds": [
+        "mkdir -p .work/儿童绘本故事-小兔子学会/refs && $EDITOR .work/儿童绘本故事-小兔子学会/分镜.md"
+      ],
+      "note": "按下方模板写：[全局]（画风/角色/场景锁定）+ 镜头1/镜头2/…；照着推荐提示词的写法改成你的剧情",
+      "route": "B"
+    },
+    {
+      "title": "拆成镜头清单",
+      "cmds": [
+        "node videogen/cli.mjs plan .work/儿童绘本故事-小兔子学会/分镜.md --out .work/儿童绘本故事-小兔子学会/shots.json --aspect 9:16"
+      ],
+      "route": "B"
+    },
+    {
+      "title": "生成镜头（网页手动）",
+      "cmds": [
+        "node videogen/cli.mjs export .work/儿童绘本故事-小兔子学会/shots.json --site jimeng --out .work/儿童绘本故事-小兔子学会/packages",
+        "# 按生成包逐镜头在网页端生成，下载文件名保持 S01_shot01… 前缀",
+        "node videogen/cli.mjs import .work/儿童绘本故事-小兔子学会/shots.json --from ~/Downloads"
+      ],
+      "note": "网页端可能消耗会员/额度，费用以平台为准",
+      "route": "B"
+    },
+    {
+      "title": "配音 + 字幕 + 合成",
+      "cmds": [
+        "node videogen/cli.mjs assemble .work/儿童绘本故事-小兔子学会/shots.json --out .work/儿童绘本故事-小兔子学会/final.mp4"
+      ],
+      "note": "台词交给本地 Kokoro TTS（需先 cd animator && npm run setup:tts），自动逐字字幕；--bgm 加你有版权的音乐",
+      "route": "B"
+    },
+    {
+      "title": "发布前质检",
+      "cmds": [],
+      "note": "核对字幕错别字与音画对齐；按平台要求标注「AI 生成」；可用 self-media-compliance-review 做违规风险自查"
+    }
+  ],
+  "compliance": [
+    "本仓库提示词/模板各自保留原许可证（见每条的 license 与 source_repo），转载或二次分发请保留出处；link-only 条目只给链接，不在此推荐",
+    "不使用真实明星/他人的脸、名字和声音；声音克隆、数字人只用本人或已获授权的素材",
+    "背景音乐、字体、参考图需自有版权或可商用授权",
+    "按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容",
+    "liangdabiao/story-handdrawn-remotion：NONE（无许可证：仅可参考，勿复制代码）"
+  ],
+  "warnings": []
+}

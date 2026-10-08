@@ -1,0 +1,551 @@
+{
+  "topic": "悬疑短剧：雨夜失踪的室友留下一段录音",
+  "generated_by": "router/cli.mjs recommend",
+  "inputs": {
+    "medium": "真人",
+    "direction": "现实向",
+    "duration_s": 60,
+    "aspect": "9:16",
+    "budget": "gpu",
+    "budget_zh": "有自己的显卡（ComfyUI / 本地模型）",
+    "assets": [],
+    "voice": "Kokoro 本地 TTS（默认）",
+    "commercial": false
+  },
+  "scenario": {
+    "id": "drama-suspense",
+    "name": "悬疑 / 推理 / 惊悚剧",
+    "matched": [
+      {
+        "id": "drama-suspense",
+        "score": 2,
+        "keywords": [
+          "悬疑",
+          "失踪"
+        ]
+      }
+    ],
+    "modifiers": []
+  },
+  "route": {
+    "primary": "B",
+    "primary_name": "路线②：videogen 视频生成 + prompts/ 提示词（本仓库）",
+    "secondary": [
+      {
+        "id": "A",
+        "name": "路线①：animator 手绘动画（本仓库）"
+      },
+      {
+        "id": "D",
+        "name": "路线④：外部开源项目（catalog/）"
+      }
+    ],
+    "videogen_mode": "comfyui",
+    "why": [
+      "「悬疑 / 推理 / 惊悚剧」需要写实画面与真人表演，用视频模型生成，提示词与模板来自本仓库 prompts/ 和 templates/",
+      "有自己的显卡：路线② 走本地 ComfyUI（Wan2.2 5B 工作流），没有 API 费用"
+    ]
+  },
+  "script_skeleton": [
+    "第 1 镜：3 秒内立冲突（谁、想要什么、被谁挡住）",
+    "第 2–3 镜：冲突升级 / 误会加深",
+    "第 4 镜：反转或爽点",
+    "第 5 镜：留钩子（下一集悬念）"
+  ],
+  "tips": [
+    "信息分层释放：每集只揭一个线索、埋一个新疑问",
+    "血腥/暴力画面点到为止，平台审核更友好"
+  ],
+  "prompts": {
+    "targets": [
+      "真人/现实向/悬疑犯罪",
+      "真人/现实向/剧情短片",
+      "真人/特效向/恐怖灵异"
+    ],
+    "art": null,
+    "items": [
+      {
+        "id": "youmind-7781",
+        "title": "电影感悬疑便利店视频提示词",
+        "genre": "真人/现实向/悬疑犯罪",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/悬疑犯罪/youmind-7781--电影感悬疑便利店视频提示词.md",
+        "score": 9.8
+      },
+      {
+        "id": "youmind-6518",
+        "title": "VHS 森林悬疑恐怖录像带",
+        "genre": "真人/现实向/悬疑犯罪",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/悬疑犯罪/youmind-6518--VHS-森林悬疑恐怖录像带.md",
+        "score": 7.8
+      },
+      {
+        "id": "youmind-1356",
+        "title": "Seedance 2.0 逼真瑜伽序列视频提示",
+        "genre": "真人/现实向/剧情短片",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/剧情短片/youmind-1356--Seedance-2.0-逼真瑜伽序列视频提示.md",
+        "score": 6.8
+      },
+      {
+        "id": "youmind-6087",
+        "title": "悬疑镜面反射恐怖场景",
+        "genre": "真人/现实向/悬疑犯罪",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/悬疑犯罪/youmind-6087--悬疑镜面反射恐怖场景.md",
+        "score": 6.8
+      },
+      {
+        "id": "goodcase-liyue-ai-seedance-ai-10c1ac4f1c20",
+        "title": "纸飞机飞越老城四季",
+        "genre": "真人/现实向/剧情短片",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance（版本未注明）",
+        "license": "CC-BY-4.0 (curation) — prompt © original creator",
+        "source_repo": "LearnPrompt/awesome-seedance",
+        "path": "prompts/真人/现实向/剧情短片/goodcase-liyue-ai-seedance-ai-10c1ac4f1c20--纸飞机飞越老城四季.md",
+        "score": 6.5
+      },
+      {
+        "id": "emily-148be0e2",
+        "title": "Chinese-English Mixed Role Map",
+        "genre": "真人/现实向/剧情短片",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "MIT",
+        "source_repo": "Emily2040/seedance-2.0",
+        "path": "prompts/真人/现实向/剧情短片/emily-148be0e2--Chinese-English-Mixed-Role-Map.md",
+        "score": 5.8
+      }
+    ]
+  },
+  "templates": [
+    {
+      "id": "learnprompt-tpl-zh-horror-suspense",
+      "title": "🎭 恐怖悬疑短片",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-horror-suspense--🎭-恐怖悬疑短片.md"
+    },
+    {
+      "id": "learnprompt-tpl-zh-dialogue-performance-beats",
+      "title": "🎭 对白与表演节拍",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-dialogue-performance-beats--🎭-对白与表演节拍.md"
+    },
+    {
+      "id": "manju-73db35a4",
+      "title": "七段式 9:16 竖屏标准模板（抖音/红果短剧）",
+      "source_repo": "lixiaoxiao9888-create/manju-laoli-skill",
+      "license": "MIT",
+      "path": "templates/漫剧老李-七段式与资产图模板/manju-73db35a4--七段式-9-16-竖屏标准模板-抖音-红果短剧.md"
+    },
+    {
+      "id": "manju-06e63e41",
+      "title": "场景空间资产图提示词 · 文戏机位调度版",
+      "source_repo": "lixiaoxiao9888-create/manju-laoli-skill",
+      "license": "MIT",
+      "path": "templates/漫剧老李-七段式与资产图模板/manju-06e63e41--场景空间资产图提示词-文戏机位调度版.md"
+    }
+  ],
+  "style_presets": [
+    {
+      "id": "linocut-editorial",
+      "name_zh": "粗粝木刻社论插画",
+      "category": "print",
+      "best_for": [
+        "社会议题",
+        "历史故事",
+        "寓言",
+        "有力量的观点"
+      ],
+      "media": "crayon"
+    },
+    {
+      "id": "ballpoint-scribble",
+      "name_zh": "圆珠笔缠绕线速写",
+      "category": "line",
+      "best_for": [
+        "人物肖像",
+        "动物",
+        "内心独白",
+        "情绪段落"
+      ],
+      "media": "pencil"
+    },
+    {
+      "id": "ink-wash",
+      "name_zh": "水墨写意",
+      "category": "ink",
+      "best_for": [
+        "人生感悟",
+        "传统文化",
+        "寓言",
+        "宁静叙事"
+      ],
+      "media": "ink"
+    }
+  ],
+  "external": {
+    "tools": [
+      {
+        "id": "toonflow-app",
+        "repo": "HBAI-Ltd/Toonflow-app",
+        "url": "https://github.com/HBAI-Ltd/Toonflow-app",
+        "kind": "platform",
+        "intro_zh": "开源 AI 短剧工厂：无限画布 + Agent + 角色三视图 + 智能分镜 + 视频生成",
+        "stars": 16696,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key",
+          "gpu"
+        ],
+        "zh": "native",
+        "plugs_into": "本仓库 templates/ 已收录其 MIT 分段模板；可接 ComfyUI 零 API 费",
+        "score": 12
+      },
+      {
+        "id": "storydiffusion",
+        "repo": "HVision-NKU/StoryDiffusion",
+        "url": "https://github.com/HVision-NKU/StoryDiffusion",
+        "kind": "research",
+        "intro_zh": "一致性自注意力生成角色一致的多格故事图与长视频（NeurIPS 2024）",
+        "stars": 6472,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "gpu"
+        ],
+        "zh": "en",
+        "plugs_into": "角色一致性的研究方法",
+        "score": 10.41
+      },
+      {
+        "id": "jellyfish",
+        "repo": "Forget-C/Jellyfish",
+        "url": "https://github.com/Forget-C/Jellyfish",
+        "kind": "platform",
+        "intro_zh": "AI 短剧端到端工作台：结构化分镜、一致性管理到出片",
+        "stars": 6630,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "一致性管理参考",
+        "score": 8.91
+      },
+      {
+        "id": "localminidrama",
+        "repo": "xuanyustudio/LocalMiniDrama",
+        "url": "https://github.com/xuanyustudio/LocalMiniDrama",
+        "kind": "app",
+        "intro_zh": "本地 AI 短剧 & 漫剧生成工具，数据不出本机",
+        "stars": 1972,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "本地化短剧工作台",
+        "score": 8.65
+      },
+      {
+        "id": "comfyui-mcp",
+        "repo": "artokun/comfyui-mcp",
+        "url": "https://github.com/artokun/comfyui-mcp",
+        "kind": "app",
+        "intro_zh": "本地 ComfyUI 的 agent 控制面：MCP + 侧栏 agent 生成图像/视频、搭工作流",
+        "stars": 797,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "gpu"
+        ],
+        "zh": "en",
+        "plugs_into": "自有 GPU 时让 agent 驱动 ComfyUI，可与 videogen 路线 B 并用",
+        "score": 8.45
+      },
+      {
+        "id": "arcreel",
+        "repo": "ArcReel/ArcReel",
+        "url": "https://github.com/ArcReel/ArcReel",
+        "kind": "platform",
+        "intro_zh": "小说/剧本→角色场景道具资产→分镜→视频→剪映草稿",
+        "stars": 5373,
+        "license": "AGPL-3.0",
+        "license_class": "copyleft",
+        "license_note": "AGPL-3.0：修改后对外提供网络服务也需开源",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "剪映草稿交付；AGPL-3.0",
+        "score": 7.87
+      },
+      {
+        "id": "vimax",
+        "repo": "HKUDS/ViMax",
+        "url": "https://github.com/HKUDS/ViMax",
+        "kind": "platform",
+        "intro_zh": "港大：Idea2Video / Script2Video / Novel2Video，编剧→分镜→角色参考→首帧→视频→拼接",
+        "stars": 12572,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "en",
+        "plugs_into": "剧情类全自动；视频模型按秒计费",
+        "score": 7.5
+      },
+      {
+        "id": "tooncrafter",
+        "repo": "Doubiiu/ToonCrafter",
+        "url": "https://github.com/Doubiiu/ToonCrafter",
+        "kind": "research",
+        "intro_zh": "生成式卡通中间帧插值，支持草图引导（SIGGRAPH Asia 2024）",
+        "stars": 6031,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "gpu"
+        ],
+        "zh": "en",
+        "plugs_into": "关键帧手绘漫剧的补帧",
+        "score": 7.39
+      }
+    ],
+    "methods": [
+      {
+        "id": "short-drama",
+        "repo": "0xsline/short-drama",
+        "url": "https://github.com/0xsline/short-drama",
+        "kind": "skill",
+        "intro_zh": "短剧剧本创作 skill：13 种题材模板、四层反派、五种钩子、节奏曲线、付费卡点、合规审核、出海",
+        "stars": 1365,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "剧本结构方法（MIT）",
+        "score": 13.07
+      },
+      {
+        "id": "manga-script-master",
+        "repo": "snailzsh/manga-script-master",
+        "url": "https://github.com/snailzsh/manga-script-master",
+        "kind": "skill",
+        "intro_zh": "爆款漫剧（动态漫/条漫）脚本 + AI 分镜提示词：角色视觉锚点、四大赛道节奏模型",
+        "stars": 73,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "漫剧赛道节奏",
+        "score": 10.93
+      },
+      {
+        "id": "shuohao-skills",
+        "repo": "eternityspring/shuohao-skills",
+        "url": "https://github.com/eternityspring/shuohao-skills",
+        "kind": "skill",
+        "intro_zh": "AI 短剧 skill 集：小说→改编大纲五件套→角色设定集→场景道具设定→剧本→分镜，质量门脚本检查",
+        "stars": 4249,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "小说转漫剧/短剧的前期方法；分镜输出后接 templates/ 七段式与 videogen plan",
+        "score": 9.81
+      },
+      {
+        "id": "manju-laoli-skill",
+        "repo": "lixiaoxiao9888-create/manju-laoli-skill",
+        "url": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill",
+        "kind": "skill",
+        "intro_zh": "漫剧老李：立项→剧本→资产锁定→文武双模分镜→七段式提示词 + FACS 微表情",
+        "stars": 1069,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "本仓库 templates/漫剧老李-七段式与资产图模板 已收录其 MIT 模板",
+        "score": 9.51
+      },
+      {
+        "id": "short-drama-factory",
+        "repo": "lixiaoxiao9888-create/short-drama-factory",
+        "url": "https://github.com/lixiaoxiao9888-create/short-drama-factory",
+        "kind": "skill",
+        "intro_zh": "抖音/红果爆款短剧编剧系统：40 赛道、六母型钩子、五大断章、反转轮换，标准/长档/漫剧三档篇幅",
+        "stars": 306,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "只产剧本层；剧本完成后再进分镜与 videogen",
+        "score": 9.24
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "确认需求（intake）",
+      "cmds": [
+        "node router/cli.mjs intake"
+      ],
+      "note": "题材、媒介、方向、时长、画幅、预算、角色素材、配音逐项确认；不确定就用本方案的默认值"
+    },
+    {
+      "route": "B",
+      "title": "—— 路线②：videogen 视频生成 + prompts/ 提示词（本仓库）（主路线） ——",
+      "cmds": []
+    },
+    {
+      "title": "剧本与分镜",
+      "cmds": [
+        "mkdir -p .work/悬疑短剧-雨夜失踪的室友/refs && $EDITOR .work/悬疑短剧-雨夜失踪的室友/分镜.md"
+      ],
+      "note": "按下方模板写：[全局]（画风/角色/场景锁定）+ 镜头1/镜头2/…；照着推荐提示词的写法改成你的剧情",
+      "route": "B"
+    },
+    {
+      "title": "角色与场景资产（一致性）",
+      "cmds": [
+        "# 用 templates/ 里「角色 4 View」「场景母版」模板出参考图，存到 .work/悬疑短剧-雨夜失踪的室友/refs/"
+      ],
+      "note": "同一角色全剧用同一张参考图；分镜里用 @角色名 引用",
+      "route": "B"
+    },
+    {
+      "title": "拆成镜头清单",
+      "cmds": [
+        "node videogen/cli.mjs plan .work/悬疑短剧-雨夜失踪的室友/分镜.md --out .work/悬疑短剧-雨夜失踪的室友/shots.json --aspect 9:16 --refs .work/悬疑短剧-雨夜失踪的室友/refs"
+      ],
+      "route": "B"
+    },
+    {
+      "title": "生成镜头（本地 GPU）",
+      "cmds": [
+        "node videogen/cli.mjs gen .work/悬疑短剧-雨夜失踪的室友/shots.json --provider comfyui --workflow videogen/workflows/wan22_ti2v_5b_t2v.json"
+      ],
+      "note": "ComfyUI 需先装好 Wan2.2 TI2V 5B 模型",
+      "route": "B"
+    },
+    {
+      "title": "配音 + 字幕 + 合成",
+      "cmds": [
+        "node videogen/cli.mjs assemble .work/悬疑短剧-雨夜失踪的室友/shots.json --out .work/悬疑短剧-雨夜失踪的室友/final.mp4"
+      ],
+      "note": "台词交给本地 Kokoro TTS（需先 cd animator && npm run setup:tts），自动逐字字幕；--bgm 加你有版权的音乐",
+      "route": "B"
+    },
+    {
+      "route": "A",
+      "title": "—— 路线①：animator 手绘动画（本仓库）（备选/升级） ——",
+      "cmds": []
+    },
+    {
+      "title": "准备（只需一次）",
+      "cmds": [
+        "cd animator && npm install && npm run setup:tts && cd .."
+      ],
+      "note": "Node ≥18；setup:tts 下载本地开源 TTS（Kokoro v1.1-zh，CPU、离线、免费）",
+      "route": "A"
+    },
+    {
+      "title": "写台词",
+      "cmds": [
+        "mkdir -p .work/悬疑短剧-雨夜失踪的室友 && $EDITOR .work/悬疑短剧-雨夜失踪的室友/台词.txt"
+      ],
+      "note": "一行一句（会成为一条字幕）；空行 = 换镜头；「关键词」说到时会被画出来；「角色：台词」可切换说话人（天机/豆豆）",
+      "route": "A"
+    },
+    {
+      "title": "选画风",
+      "cmds": [
+        "node animator/src/cli.mjs styles --show linocut-editorial",
+        "node animator/src/cli.mjs styles --search 彩铅"
+      ],
+      "note": "推荐画材 --media ink；画风预设只是提示词配方，渲染本身不调用任何 AI 服务",
+      "route": "A"
+    },
+    {
+      "title": "一条命令出片",
+      "cmds": [
+        "node animator/src/cli.mjs make .work/悬疑短剧-雨夜失踪的室友/台词.txt --out .work/悬疑短剧-雨夜失踪的室友/悬疑短剧-雨夜失踪的室友.mp4 --character tianji --media ink"
+      ],
+      "note": "先加 --scale 0.5 快速预览；完成后会生成可编辑的工程 project.json",
+      "route": "A"
+    },
+    {
+      "title": "精修（可选）",
+      "cmds": [
+        "node animator/src/cli.mjs check .work/悬疑短剧-雨夜失踪的室友/悬疑短剧-雨夜失踪的室友.work/project.json",
+        "node animator/src/cli.mjs preview .work/悬疑短剧-雨夜失踪的室友/悬疑短剧-雨夜失踪的室友.work/project.json",
+        "node animator/src/cli.mjs make .work/悬疑短剧-雨夜失踪的室友/悬疑短剧-雨夜失踪的室友.work/project.json --out .work/悬疑短剧-雨夜失踪的室友/悬疑短剧-雨夜失踪的室友.mp4"
+      ],
+      "note": "在 project.json 里加 \"stylePreset\": \"linocut-editorial\"，调整道具、动作、相机；synccheck 可做图文对齐质检",
+      "route": "A"
+    },
+    {
+      "title": "发布前质检",
+      "cmds": [],
+      "note": "核对字幕错别字与音画对齐；按平台要求标注「AI 生成」；可用 self-media-compliance-review 做违规风险自查"
+    }
+  ],
+  "compliance": [
+    "本仓库提示词/模板各自保留原许可证（见每条的 license 与 source_repo），转载或二次分发请保留出处；link-only 条目只给链接，不在此推荐",
+    "不使用真实明星/他人的脸、名字和声音；声音克隆、数字人只用本人或已获授权的素材",
+    "背景音乐、字体、参考图需自有版权或可商用授权",
+    "按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容",
+    "ArcReel/ArcReel：AGPL-3.0：修改后对外提供网络服务也需开源"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,458 @@
+{
+  "topic": "DV vlog：2005 年夏天一家人去海边的家庭录像",
+  "generated_by": "router/cli.mjs recommend",
+  "inputs": {
+    "medium": "真人",
+    "direction": "现实向",
+    "duration_s": 45,
+    "aspect": "9:16",
+    "budget": "web-manual",
+    "budget_zh": "用即梦/可灵/海螺等网页端手动生成（会员或免费额度）",
+    "assets": [],
+    "voice": "Kokoro 本地 TTS（默认）",
+    "commercial": false
+  },
+  "scenario": {
+    "id": "vlog",
+    "name": "Vlog / DV 录像 / 旅行记录",
+    "matched": [
+      {
+        "id": "vlog",
+        "score": 3.6,
+        "keywords": [
+          "vlog",
+          "dv",
+          "家庭录像"
+        ]
+      },
+      {
+        "id": "drama-urban",
+        "score": 1,
+        "keywords": [
+          "家庭"
+        ]
+      }
+    ],
+    "modifiers": []
+  },
+  "route": {
+    "primary": "B",
+    "primary_name": "路线②：videogen 视频生成 + prompts/ 提示词（本仓库）",
+    "secondary": [
+      {
+        "id": "C",
+        "name": "路线③：代码动效（Remotion / HyperFrames / Manim）"
+      },
+      {
+        "id": "D",
+        "name": "路线④：外部开源项目（catalog/）"
+      }
+    ],
+    "videogen_mode": "web",
+    "why": [
+      "「Vlog / DV 录像 / 旅行记录」需要写实画面与真人表演，用视频模型生成，提示词与模板来自本仓库 prompts/ 和 templates/",
+      "网页手动：videogen export 导出逐镜头生成包，网页生成后 import 收回"
+    ]
+  },
+  "script_skeleton": [
+    "开场：地点/时间/今天要做什么",
+    "过程：3–5 个手持片段（走、看、吃、玩）",
+    "高光：一个最有感觉的瞬间",
+    "结尾：一句感受"
+  ],
+  "tips": [
+    "有实拍素材时优先走剪辑（路线④ 的剪映 skill / editly），AI 只补空镜",
+    "DV 质感：4:3 或带黑边、时间码、轻微噪点与自动曝光呼吸"
+  ],
+  "prompts": {
+    "targets": [
+      "真人/现实向/生活与vlog",
+      "真人/现实向/年代怀旧",
+      "其他/风景空镜",
+      "其他/美食"
+    ],
+    "art": null,
+    "items": [
+      {
+        "id": "youmind-6728",
+        "title": "写实风格 2000 年代中国 DV 视频",
+        "genre": "真人/现实向/生活与vlog",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/生活与vlog/youmind-6728--写实风格-2000-年代中国-DV-视频.md",
+        "score": 9.8
+      },
+      {
+        "id": "youmind-7923",
+        "title": "90 年代复古 VHS 健身 Vlog",
+        "genre": "真人/现实向/年代怀旧",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/年代怀旧/youmind-7923--90-年代复古-VHS-健身-Vlog.md",
+        "score": 9.8
+      },
+      {
+        "id": "youmind-9883",
+        "title": "复古日系 MiniDV 旅行记忆",
+        "genre": "真人/现实向/生活与vlog",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/生活与vlog/youmind-9883--复古日系-MiniDV-旅行记忆.md",
+        "score": 9.8
+      },
+      {
+        "id": "youmind-2847",
+        "title": "伪纪录片喜剧：影子故障舞蹈视频提示词",
+        "genre": "真人/现实向/生活与vlog",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/生活与vlog/youmind-2847--伪纪录片喜剧-影子故障舞蹈视频提示词.md",
+        "score": 8.8
+      },
+      {
+        "id": "youmind-7251",
+        "title": "1990 年代巴黎塞纳河家庭录像",
+        "genre": "真人/现实向/年代怀旧",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/年代怀旧/youmind-7251--1990-年代巴黎塞纳河家庭录像.md",
+        "score": 8.8
+      },
+      {
+        "id": "youmind-2667",
+        "title": "适用于 Seedance 2.0 的 Y2K 泳池派对视频提示词",
+        "genre": "真人/现实向/年代怀旧",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/年代怀旧/youmind-2667--适用于-Seedance-2.0-的-Y2K-泳池派对视频提示词.md",
+        "score": 6.8
+      }
+    ]
+  },
+  "templates": [
+    {
+      "id": "learnprompt-tpl-zh-handheld-ugc-vlog",
+      "title": "📱 手持 UGC vlog",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-handheld-ugc-vlog--📱-手持-UGC-vlog.md"
+    },
+    {
+      "id": "learnprompt-tpl-zh-retro-found-footage",
+      "title": "📱 早年 DV 家庭录像",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-retro-found-footage--📱-早年-DV-家庭录像.md"
+    },
+    {
+      "id": "learnprompt-tpl-zh-travel-city-walk",
+      "title": "🎭 电影感旅行漫游",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-travel-city-walk--🎭-电影感旅行漫游.md"
+    },
+    {
+      "id": "learnprompt-tpl-zh-pov-continuous-take",
+      "title": "📱 第一人称一镜到底",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-pov-continuous-take--📱-第一人称一镜到底.md"
+    }
+  ],
+  "style_presets": [
+    {
+      "id": "zine-riso-collage",
+      "name_zh": "Zine 孔版拼贴",
+      "category": "collage",
+      "best_for": [
+        "成长回忆",
+        "旅行故事",
+        "情绪混剪",
+        "文化与音乐题材"
+      ],
+      "media": "crayon"
+    },
+    {
+      "id": "naive-marker-notes",
+      "name_zh": "稚拙马克笔笔记",
+      "category": "diary",
+      "best_for": [
+        "社交媒体故事",
+        "观点表达",
+        "年轻化品牌",
+        "轻松科普"
+      ],
+      "media": "marker"
+    }
+  ],
+  "external": {
+    "tools": [
+      {
+        "id": "ffcreator",
+        "repo": "tnfe/FFCreator",
+        "url": "https://github.com/tnfe/FFCreator",
+        "kind": "library",
+        "intro_zh": "基于 Node.js 的高速短视频制作库（图片/视频/音乐→带动画短片）",
+        "stars": 3163,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "批量相册/带货视频",
+        "score": 11.95
+      },
+      {
+        "id": "jianying-editor-skill",
+        "repo": "luoluoluo22/jianying-editor-skill",
+        "url": "https://github.com/luoluoluo22/jianying-editor-skill",
+        "kind": "skill",
+        "intro_zh": "让 Agent 自动操作剪映：写文案、配音、字幕、选乐、特效到导出草稿",
+        "stars": 3809,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "MIT；内含 Apache-2.0 的 pyJianYingDraft 等第三方组件",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "成片最后一公里：把 animator/videogen 产物导入剪映精修；含 Apache-2.0 第三方组件",
+        "score": 11.79
+      },
+      {
+        "id": "moneyprinterturbo",
+        "repo": "harry0703/MoneyPrinterTurbo",
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+        "kind": "app",
+        "intro_zh": "主题→文案→实拍素材库拼接→配音字幕的短视频生成",
+        "stars": 129304,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key",
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "实拍素材口播；不适合手绘",
+        "score": 10.5
+      },
+      {
+        "id": "editly",
+        "repo": "mifi/editly",
+        "url": "https://github.com/mifi/editly",
+        "kind": "library",
+        "intro_zh": "声明式（JSON）命令行视频剪辑/合成",
+        "stars": 5519,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "en",
+        "plugs_into": "用 JSON 拼片头片尾与转场",
+        "score": 9.87
+      },
+      {
+        "id": "short-video-maker",
+        "repo": "gyoridavid/short-video-maker",
+        "url": "https://github.com/gyoridavid/short-video-maker",
+        "kind": "app",
+        "intro_zh": "文本→TTS + 自动字幕 + 背景素材 + 音乐的短视频生成器（MCP/REST）",
+        "stars": 1397,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "en",
+        "plugs_into": "实拍素材拼接型短视频；不生成画面本身",
+        "score": 9.57
+      },
+      {
+        "id": "firered-openstoryline",
+        "repo": "FireRedTeam/FireRed-OpenStoryline",
+        "url": "https://github.com/FireRedTeam/FireRed-OpenStoryline",
+        "kind": "app",
+        "intro_zh": "AI 剪辑 agent：自然语言驱动剪辑决策",
+        "stars": 3465,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "已有素材的剪辑路线",
+        "score": 8.97
+      },
+      {
+        "id": "template-tiktok",
+        "repo": "remotion-dev/template-tiktok",
+        "url": "https://github.com/remotion-dev/template-tiktok",
+        "kind": "template",
+        "intro_zh": "官方模板：Whisper.cpp 生成 TikTok 式逐词字幕",
+        "stars": 283,
+        "license": "NONE",
+        "license_class": "none",
+        "license_note": "未附 LICENSE 文件，package.json 标注 UNLICENSED；按官方方式 npx create-video 使用",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "en",
+        "plugs_into": "口播/vlog 加逐词字幕；package.json 标注 UNLICENSED（Remotion License 管框架）",
+        "score": 8.23
+      }
+    ],
+    "methods": [
+      {
+        "id": "director-skills",
+        "repo": "kangarooking/director-skills",
+        "url": "https://github.com/kangarooking/director-skills",
+        "kind": "skill",
+        "intro_zh": "导演 Skill 集：文旅视频、旅拍照片图生视频、影视资产提示词、动作打戏、角色情绪表演",
+        "stars": 173,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "旅拍/vlog 与情绪表演",
+        "score": 9.62
+      },
+      {
+        "id": "make-prompt-seedance2",
+        "repo": "liangdabiao/make-prompt-seedance2",
+        "url": "https://github.com/liangdabiao/make-prompt-seedance2",
+        "kind": "method",
+        "intro_zh": "Seedance 2.0 结构化提示词指南：16+ 模板、8+ 示例（带货、TVC、真人实拍）",
+        "stars": 693,
+        "license": "NONE",
+        "license_class": "none",
+        "license_note": "无 LICENSE 文件；docs/ 收录了他人文章，仅链接，切勿复制",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "写法参考；无许可证，且 docs/ 收录他人文章，仅链接",
+        "score": 7.42
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "确认需求（intake）",
+      "cmds": [
+        "node router/cli.mjs intake"
+      ],
+      "note": "题材、媒介、方向、时长、画幅、预算、角色素材、配音逐项确认；不确定就用本方案的默认值"
+    },
+    {
+      "route": "B",
+      "title": "—— 路线②：videogen 视频生成 + prompts/ 提示词（本仓库）（主路线） ——",
+      "cmds": []
+    },
+    {
+      "title": "剧本与分镜",
+      "cmds": [
+        "mkdir -p .work/dv-vlog-2005/refs && $EDITOR .work/dv-vlog-2005/分镜.md"
+      ],
+      "note": "按下方模板写：[全局]（画风/角色/场景锁定）+ 镜头1/镜头2/…；照着推荐提示词的写法改成你的剧情",
+      "route": "B"
+    },
+    {
+      "title": "拆成镜头清单",
+      "cmds": [
+        "node videogen/cli.mjs plan .work/dv-vlog-2005/分镜.md --out .work/dv-vlog-2005/shots.json --aspect 9:16"
+      ],
+      "route": "B"
+    },
+    {
+      "title": "生成镜头（网页手动）",
+      "cmds": [
+        "node videogen/cli.mjs export .work/dv-vlog-2005/shots.json --site jimeng --out .work/dv-vlog-2005/packages",
+        "# 按生成包逐镜头在网页端生成，下载文件名保持 S01_shot01… 前缀",
+        "node videogen/cli.mjs import .work/dv-vlog-2005/shots.json --from ~/Downloads"
+      ],
+      "note": "网页端费用以平台为准",
+      "route": "B"
+    },
+    {
+      "title": "配音 + 字幕 + 合成",
+      "cmds": [
+        "node videogen/cli.mjs assemble .work/dv-vlog-2005/shots.json --out .work/dv-vlog-2005/final.mp4"
+      ],
+      "note": "台词交给本地 Kokoro TTS（需先 cd animator && npm run setup:tts），自动逐字字幕；--bgm 加你有版权的音乐",
+      "route": "B"
+    },
+    {
+      "route": "C",
+      "title": "—— 路线③：代码动效（Remotion / HyperFrames / Manim）（备选/升级） ——",
+      "cmds": []
+    },
+    {
+      "title": "安装 HyperFrames（HTML→MP4，Apache-2.0）",
+      "cmds": [
+        "npx skills add heygen-com/hyperframes",
+        "npx hyperframes init .work/dv-vlog-2005/hf"
+      ],
+      "route": "C"
+    },
+    {
+      "title": "配音与字幕（复用本仓库本地 TTS）",
+      "cmds": [
+        "node animator/src/cli.mjs make .work/dv-vlog-2005/台词.txt --out .work/dv-vlog-2005/voice-preview.mp4 --scale 0.25"
+      ],
+      "note": "会同时生成 .work/dv-vlog-2005/voice-preview.voice.*（音频 + SRT + 字级时间戳），导入代码动效工程即可逐字对齐",
+      "route": "C"
+    },
+    {
+      "title": "让 agent 写画面、预览、渲染",
+      "cmds": [
+        "cd .work/dv-vlog-2005/hf && npx hyperframes preview",
+        "cd .work/dv-vlog-2005/hf && npx hyperframes render"
+      ],
+      "note": "数据图表可 npx hyperframes add data-chart；手绘质感可配 rough.js / rough-notation",
+      "route": "C"
+    },
+    {
+      "title": "发布前质检",
+      "cmds": [],
+      "note": "核对字幕错别字与音画对齐；按平台要求标注「AI 生成」；可用 self-media-compliance-review 做违规风险自查"
+    }
+  ],
+  "compliance": [
+    "本仓库提示词/模板各自保留原许可证（见每条的 license 与 source_repo），转载或二次分发请保留出处；link-only 条目只给链接，不在此推荐",
+    "不使用真实明星/他人的脸、名字和声音；声音克隆、数字人只用本人或已获授权的素材",
+    "背景音乐、字体、参考图需自有版权或可商用授权",
+    "按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容",
+    "remotion-dev/template-tiktok：未附 LICENSE 文件，package.json 标注 UNLICENSED；按官方方式 npx create-video 使用（无许可证：仅可参考，勿复制代码）",
+    "liangdabiao/make-prompt-seedance2：无 LICENSE 文件；docs/ 收录了他人文章，仅链接，切勿复制（无许可证：仅可参考，勿复制代码）"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,564 @@
+{
+  "topic": "都市甜宠真人剧：契约闪婚的霸总和实习生",
+  "generated_by": "router/cli.mjs recommend",
+  "inputs": {
+    "medium": "真人",
+    "direction": "现实向",
+    "duration_s": 60,
+    "aspect": "9:16",
+    "budget": "web-manual",
+    "budget_zh": "用即梦/可灵/海螺等网页端手动生成（会员或免费额度）",
+    "assets": [],
+    "voice": "Kokoro 本地 TTS（默认）",
+    "commercial": false
+  },
+  "scenario": {
+    "id": "drama-romance",
+    "name": "甜宠 / 恋爱 / 霸总剧",
+    "matched": [
+      {
+        "id": "drama-romance",
+        "score": 4,
+        "keywords": [
+          "甜宠",
+          "霸总",
+          "闪婚",
+          "契约"
+        ]
+      },
+      {
+        "id": "drama-urban",
+        "score": 1,
+        "keywords": [
+          "都市"
+        ]
+      }
+    ],
+    "modifiers": []
+  },
+  "route": {
+    "primary": "B",
+    "primary_name": "路线②：videogen 视频生成 + prompts/ 提示词（本仓库）",
+    "secondary": [
+      {
+        "id": "A",
+        "name": "路线①：animator 手绘动画（本仓库）"
+      },
+      {
+        "id": "D",
+        "name": "路线④：外部开源项目（catalog/）"
+      }
+    ],
+    "videogen_mode": "web",
+    "why": [
+      "「甜宠 / 恋爱 / 霸总剧」需要写实画面与真人表演，用视频模型生成，提示词与模板来自本仓库 prompts/ 和 templates/",
+      "网页手动：videogen export 导出逐镜头生成包，网页生成后 import 收回"
+    ]
+  },
+  "script_skeleton": [
+    "第 1 镜：3 秒内立冲突（谁、想要什么、被谁挡住）",
+    "第 2–3 镜：冲突升级 / 误会加深",
+    "第 4 镜：反转或爽点",
+    "第 5 镜：留钩子（下一集悬念）"
+  ],
+  "tips": [
+    "每集结尾留钩子（反转/误会/心动瞬间）",
+    "情绪戏用近景 + 对白节拍；男女主各一张参考图锁脸",
+    "真人题材不要用真实明星的脸和名字"
+  ],
+  "prompts": {
+    "targets": [
+      "真人/现实向/甜宠恋爱",
+      "真人/现实向/都市剧情",
+      "真人/现实向/情绪特写"
+    ],
+    "art": null,
+    "items": [
+      {
+        "id": "youmind-9284",
+        "title": "韩剧浪漫喜剧公交车场景剧本",
+        "genre": "真人/现实向/甜宠恋爱",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/甜宠恋爱/youmind-9284--韩剧浪漫喜剧公交车场景剧本.md",
+        "score": 6.8
+      },
+      {
+        "id": "youmind-9597",
+        "title": "浪漫喜剧 TikTok 风格视频",
+        "genre": "真人/现实向/甜宠恋爱",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/甜宠恋爱/youmind-9597--浪漫喜剧-TikTok-风格视频.md",
+        "score": 6.8
+      },
+      {
+        "id": "goodcase-seedance-kiss-kiss-d141755d3737",
+        "title": "雨夜豪车后座的霸总虐恋短剧",
+        "genre": "真人/现实向/都市剧情",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance（版本未注明）",
+        "license": "CC-BY-4.0 (curation) — prompt © original creator",
+        "source_repo": "LearnPrompt/awesome-seedance",
+        "path": "prompts/真人/现实向/都市剧情/goodcase-seedance-kiss-kiss-d141755d3737--雨夜豪车后座的霸总虐恋短剧.md",
+        "score": 6.5
+      },
+      {
+        "id": "goodcase-seedance-2-5-8d136b59e95a",
+        "title": "出租车分手戏：仿真人微表情连续情绪演变视频（Seedance 2.5）",
+        "genre": "真人/现实向/情绪特写",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.5",
+        "license": "CC-BY-4.0 (curation) — prompt © original creator",
+        "source_repo": "LearnPrompt/awesome-seedance",
+        "path": "prompts/真人/现实向/情绪特写/goodcase-seedance-2-5-8d136b59e95a--出租车分手戏-仿真人微表情连续情绪演变视频-Seedance-2.5.md",
+        "score": 5.8
+      },
+      {
+        "id": "youmind-10052",
+        "title": "Seedance 2.0 多资产角色锁定",
+        "genre": "真人/现实向/甜宠恋爱",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/甜宠恋爱/youmind-10052--Seedance-2.0-多资产角色锁定.md",
+        "score": 5.8
+      },
+      {
+        "id": "youmind-1722",
+        "title": "甜宠反转短剧《心蛊》",
+        "genre": "真人/现实向/都市剧情",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
+        "path": "prompts/真人/现实向/都市剧情/youmind-1722--甜宠反转短剧-心蛊.md",
+        "score": 5.8
+      }
+    ]
+  },
+  "templates": [
+    {
+      "id": "manju-73db35a4",
+      "title": "七段式 9:16 竖屏标准模板（抖音/红果短剧）",
+      "source_repo": "lixiaoxiao9888-create/manju-laoli-skill",
+      "license": "MIT",
+      "path": "templates/漫剧老李-七段式与资产图模板/manju-73db35a4--七段式-9-16-竖屏标准模板-抖音-红果短剧.md"
+    },
+    {
+      "id": "learnprompt-tpl-zh-dialogue-performance-beats",
+      "title": "🎭 对白与表演节拍",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-dialogue-performance-beats--🎭-对白与表演节拍.md"
+    },
+    {
+      "id": "learnprompt-tpl-zh-character-reference-lock",
+      "title": "🧱 参考图身份锁定",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-character-reference-lock--🧱-参考图身份锁定.md"
+    },
+    {
+      "id": "learnprompt-tpl-zh-cinematic-narrative-short",
+      "title": "🎭 电影级叙事短片",
+      "source_repo": "LearnPrompt/awesome-seedance",
+      "license": "CC-BY-4.0 (curation)",
+      "path": "templates/LearnPrompt-分类模板/zh/zh-cinematic-narrative-short--🎭-电影级叙事短片.md"
+    }
+  ],
+  "style_presets": [
+    {
+      "id": "emotional-watercolor-sketch",
+      "name_zh": "情绪叙事淡彩速写",
+      "category": "watercolor",
+      "best_for": [
+        "催泪故事",
+        "人物关系",
+        "回忆",
+        "克制纪实"
+      ],
+      "media": "picture-book"
+    },
+    {
+      "id": "inked-storybook",
+      "name_zh": "墨线淡彩绘本",
+      "category": "watercolor",
+      "best_for": [
+        "角色故事",
+        "人物头像",
+        "青春叙事",
+        "情绪对白"
+      ],
+      "media": "ink"
+    },
+    {
+      "id": "colored-pencil-diary",
+      "name_zh": "彩铅日记漫画（默认）",
+      "category": "diary",
+      "best_for": [
+        "家庭故事",
+        "生活观察",
+        "情感叙事",
+        "医疗与纪实题材"
+      ],
+      "media": "colored-pencil"
+    }
+  ],
+  "external": {
+    "tools": [
+      {
+        "id": "toonflow-app",
+        "repo": "HBAI-Ltd/Toonflow-app",
+        "url": "https://github.com/HBAI-Ltd/Toonflow-app",
+        "kind": "platform",
+        "intro_zh": "开源 AI 短剧工厂：无限画布 + Agent + 角色三视图 + 智能分镜 + 视频生成",
+        "stars": 16696,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key",
+          "gpu"
+        ],
+        "zh": "native",
+        "plugs_into": "本仓库 templates/ 已收录其 MIT 分段模板；可接 ComfyUI 零 API 费",
+        "score": 10
+      },
+      {
+        "id": "jellyfish",
+        "repo": "Forget-C/Jellyfish",
+        "url": "https://github.com/Forget-C/Jellyfish",
+        "kind": "platform",
+        "intro_zh": "AI 短剧端到端工作台：结构化分镜、一致性管理到出片",
+        "stars": 6630,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "一致性管理参考",
+        "score": 9.91
+      },
+      {
+        "id": "localminidrama",
+        "repo": "xuanyustudio/LocalMiniDrama",
+        "url": "https://github.com/xuanyustudio/LocalMiniDrama",
+        "kind": "app",
+        "intro_zh": "本地 AI 短剧 & 漫剧生成工具，数据不出本机",
+        "stars": 1972,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "本地化短剧工作台",
+        "score": 9.65
+      },
+      {
+        "id": "arcreel",
+        "repo": "ArcReel/ArcReel",
+        "url": "https://github.com/ArcReel/ArcReel",
+        "kind": "platform",
+        "intro_zh": "小说/剧本→角色场景道具资产→分镜→视频→剪映草稿",
+        "stars": 5373,
+        "license": "AGPL-3.0",
+        "license_class": "copyleft",
+        "license_note": "AGPL-3.0：修改后对外提供网络服务也需开源",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "剪映草稿交付；AGPL-3.0",
+        "score": 8.87
+      },
+      {
+        "id": "vimax",
+        "repo": "HKUDS/ViMax",
+        "url": "https://github.com/HKUDS/ViMax",
+        "kind": "platform",
+        "intro_zh": "港大：Idea2Video / Script2Video / Novel2Video，编剧→分镜→角色参考→首帧→视频→拼接",
+        "stars": 12572,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "en",
+        "plugs_into": "剧情类全自动；视频模型按秒计费",
+        "score": 8.5
+      },
+      {
+        "id": "lumenx",
+        "repo": "alibaba/lumenx",
+        "url": "https://github.com/alibaba/lumenx",
+        "kind": "platform",
+        "intro_zh": "LumenX Studio：小说→剧本分析、角色定制、分镜绘制→视频合成",
+        "stars": 1336,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "小说转漫剧平台",
+        "score": 8.06
+      },
+      {
+        "id": "huobao-drama",
+        "repo": "chatfire-AI/huobao-drama",
+        "url": "https://github.com/chatfire-AI/huobao-drama",
+        "kind": "platform",
+        "intro_zh": "火宝短剧：一句话生成完整短剧",
+        "stars": 15849,
+        "license": "CC-BY-NC-SA-4.0",
+        "license_class": "noncommercial",
+        "license_note": "CC BY-NC-SA 4.0：非商用、相同方式共享",
+        "cost": [
+          "api-key"
+        ],
+        "zh": "native",
+        "plugs_into": "CC BY-NC-SA 4.0 非商用，仅作对比参考",
+        "score": 6
+      },
+      {
+        "id": "storydiffusion",
+        "repo": "HVision-NKU/StoryDiffusion",
+        "url": "https://github.com/HVision-NKU/StoryDiffusion",
+        "kind": "research",
+        "intro_zh": "一致性自注意力生成角色一致的多格故事图与长视频（NeurIPS 2024）",
+        "stars": 6472,
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "gpu"
+        ],
+        "zh": "en",
+        "plugs_into": "角色一致性的研究方法",
+        "score": 5.91
+      }
+    ],
+    "methods": [
+      {
+        "id": "short-drama-factory",
+        "repo": "lixiaoxiao9888-create/short-drama-factory",
+        "url": "https://github.com/lixiaoxiao9888-create/short-drama-factory",
+        "kind": "skill",
+        "intro_zh": "抖音/红果爆款短剧编剧系统：40 赛道、六母型钩子、五大断章、反转轮换，标准/长档/漫剧三档篇幅",
+        "stars": 306,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "只产剧本层；剧本完成后再进分镜与 videogen",
+        "score": 17.24
+      },
+      {
+        "id": "short-drama",
+        "repo": "0xsline/short-drama",
+        "url": "https://github.com/0xsline/short-drama",
+        "kind": "skill",
+        "intro_zh": "短剧剧本创作 skill：13 种题材模板、四层反派、五种钩子、节奏曲线、付费卡点、合规审核、出海",
+        "stars": 1365,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "剧本结构方法（MIT）",
+        "score": 16.07
+      },
+      {
+        "id": "seedance-2-5-video-director",
+        "repo": "liyue-aigc/seedance-2-5-video-director",
+        "url": "https://github.com/liyue-aigc/seedance-2-5-video-director",
+        "kind": "skill",
+        "intro_zh": "Seedance 2.5 视频导演：脚本、诊断、人物锁定、续写、编辑、转场、多格分镜动画",
+        "stars": 553,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "2.5 精确 30 秒时间轴与人物锁定",
+        "score": 12.87
+      },
+      {
+        "id": "h3-storyboard-skill",
+        "repo": "phileiny/h3-storyboard-skill",
+        "url": "https://github.com/phileiny/h3-storyboard-skill",
+        "kind": "skill",
+        "intro_zh": "MiniMax H3 镜头拆分与表演指导：作者实测「只有带对白标签的镜头才渲染面部表情」等规则",
+        "stars": 175,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "en",
+        "plugs_into": "情绪戏/表演镜头写法",
+        "score": 12.62
+      },
+      {
+        "id": "manga-script-master",
+        "repo": "snailzsh/manga-script-master",
+        "url": "https://github.com/snailzsh/manga-script-master",
+        "kind": "skill",
+        "intro_zh": "爆款漫剧（动态漫/条漫）脚本 + AI 分镜提示词：角色视觉锚点、四大赛道节奏模型",
+        "stars": 73,
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "漫剧赛道节奏",
+        "score": 10.93
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "确认需求（intake）",
+      "cmds": [
+        "node router/cli.mjs intake"
+      ],
+      "note": "题材、媒介、方向、时长、画幅、预算、角色素材、配音逐项确认；不确定就用本方案的默认值"
+    },
+    {
+      "route": "B",
+      "title": "—— 路线②：videogen 视频生成 + prompts/ 提示词（本仓库）（主路线） ——",
+      "cmds": []
+    },
+    {
+      "title": "剧本与分镜",
+      "cmds": [
+        "mkdir -p .work/都市甜宠真人剧-契约闪婚/refs && $EDITOR .work/都市甜宠真人剧-契约闪婚/分镜.md"
+      ],
+      "note": "按下方模板写：[全局]（画风/角色/场景锁定）+ 镜头1/镜头2/…；照着推荐提示词的写法改成你的剧情",
+      "route": "B"
+    },
+    {
+      "title": "角色与场景资产（一致性）",
+      "cmds": [
+        "# 用 templates/ 里「角色 4 View」「场景母版」模板出参考图，存到 .work/都市甜宠真人剧-契约闪婚/refs/"
+      ],
+      "note": "同一角色全剧用同一张参考图；分镜里用 @角色名 引用",
+      "route": "B"
+    },
+    {
+      "title": "拆成镜头清单",
+      "cmds": [
+        "node videogen/cli.mjs plan .work/都市甜宠真人剧-契约闪婚/分镜.md --out .work/都市甜宠真人剧-契约闪婚/shots.json --aspect 9:16 --refs .work/都市甜宠真人剧-契约闪婚/refs"
+      ],
+      "route": "B"
+    },
+    {
+      "title": "生成镜头（网页手动）",
+      "cmds": [
+        "node videogen/cli.mjs export .work/都市甜宠真人剧-契约闪婚/shots.json --site jimeng --out .work/都市甜宠真人剧-契约闪婚/packages",
+        "# 按生成包逐镜头在网页端生成，下载文件名保持 S01_shot01… 前缀",
+        "node videogen/cli.mjs import .work/都市甜宠真人剧-契约闪婚/shots.json --from ~/Downloads"
+      ],
+      "note": "网页端费用以平台为准",
+      "route": "B"
+    },
+    {
+      "title": "配音 + 字幕 + 合成",
+      "cmds": [
+        "node videogen/cli.mjs assemble .work/都市甜宠真人剧-契约闪婚/shots.json --out .work/都市甜宠真人剧-契约闪婚/final.mp4"
+      ],
+      "note": "台词交给本地 Kokoro TTS（需先 cd animator && npm run setup:tts），自动逐字字幕；--bgm 加你有版权的音乐",
+      "route": "B"
+    },
+    {
+      "route": "A",
+      "title": "—— 路线①：animator 手绘动画（本仓库）（备选/升级） ——",
+      "cmds": []
+    },
+    {
+      "title": "准备（只需一次）",
+      "cmds": [
+        "cd animator && npm install && npm run setup:tts && cd .."
+      ],
+      "note": "Node ≥18；setup:tts 下载本地开源 TTS（Kokoro v1.1-zh，CPU、离线、免费）",
+      "route": "A"
+    },
+    {
+      "title": "写台词",
+      "cmds": [
+        "mkdir -p .work/都市甜宠真人剧-契约闪婚 && $EDITOR .work/都市甜宠真人剧-契约闪婚/台词.txt"
+      ],
+      "note": "一行一句（会成为一条字幕）；空行 = 换镜头；「关键词」说到时会被画出来；「角色：台词」可切换说话人（天机/豆豆）",
+      "route": "A"
+    },
+    {
+      "title": "选画风",
+      "cmds": [
+        "node animator/src/cli.mjs styles --show emotional-watercolor-sketch",
+        "node animator/src/cli.mjs styles --search 彩铅"
+      ],
+      "note": "推荐画材 --media colored-pencil；画风预设只是提示词配方，渲染本身不调用任何 AI 服务",
+      "route": "A"
+    },
+    {
+      "title": "一条命令出片",
+      "cmds": [
+        "node animator/src/cli.mjs make .work/都市甜宠真人剧-契约闪婚/台词.txt --out .work/都市甜宠真人剧-契约闪婚/都市甜宠真人剧-契约闪婚.mp4 --character tianji --media colored-pencil"
+      ],
+      "note": "先加 --scale 0.5 快速预览；完成后会生成可编辑的工程 project.json",
+      "route": "A"
+    },
+    {
+      "title": "精修（可选）",
+      "cmds": [
+        "node animator/src/cli.mjs check .work/都市甜宠真人剧-契约闪婚/都市甜宠真人剧-契约闪婚.work/project.json",
+        "node animator/src/cli.mjs preview .work/都市甜宠真人剧-契约闪婚/都市甜宠真人剧-契约闪婚.work/project.json",
+        "node animator/src/cli.mjs make .work/都市甜宠真人剧-契约闪婚/都市甜宠真人剧-契约闪婚.work/project.json --out .work/都市甜宠真人剧-契约闪婚/都市甜宠真人剧-契约闪婚.mp4"
+      ],
+      "note": "在 project.json 里加 \"stylePreset\": \"emotional-watercolor-sketch\"，调整道具、动作、相机；synccheck 可做图文对齐质检",
+      "route": "A"
+    },
+    {
+      "title": "发布前质检",
+      "cmds": [],
+      "note": "核对字幕错别字与音画对齐；按平台要求标注「AI 生成」；可用 self-media-compliance-review 做违规风险自查"
+    }
+  ],
+  "compliance": [
+    "本仓库提示词/模板各自保留原许可证（见每条的 license 与 source_repo），转载或二次分发请保留出处；link-only 条目只给链接，不在此推荐",
+    "不使用真实明星/他人的脸、名字和声音；声音克隆、数字人只用本人或已获授权的素材",
+    "背景音乐、字体、参考图需自有版权或可商用授权",
+    "按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容",
+    "ArcReel/ArcReel：AGPL-3.0：修改后对外提供网络服务也需开源",
+    "chatfire-AI/huobao-drama：CC BY-NC-SA 4.0：非商用、相同方式共享"
+  ],
+  "warnings": []
+}

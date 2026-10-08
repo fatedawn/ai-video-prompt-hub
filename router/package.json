@@ -1,0 +1,16 @@
+{
+  "name": "ai-video-director-router",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI 导演路由器：按题材/媒介/预算，从本仓库提示词库、模板、画风预设和外部项目目录里组合出一份可执行的制作方案（无依赖）",
+  "type": "module",
+  "bin": { "ai-video-router": "./cli.mjs" },
+  "scripts": {
+    "test": "node --test test/",
+    "examples": "node cli.mjs examples",
+    "catalog": "node cli.mjs build-catalog",
+    "check": "node cli.mjs check"
+  },
+  "engines": { "node": ">=18" },
+  "license": "Apache-2.0"
+}
