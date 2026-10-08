@@ -1,10 +1,15 @@
 // Frame renderer: renderFrame(t) is a pure function of time (deterministic, seekable), so frames can be
 // captured in any order / in parallel. Original code for ai-video-prompt-hub/animator.
 // Idea credits: Canvas render -> headless browser frame capture -> ffmpeg, second-level cue spec, "every scene has a
-// main motion", viewport camera over a world canvas (alchaincyf/huashu-art-motion, MIT, ideas only);
+// main motion", viewport camera over a world canvas (alchaincyf/huashu-art-motion, MIT — pipeline ideas reimplemented here;
+// its recipe/transition/post code is ported verbatim under MIT in vendor/huashu-art-motion, see below);
 // elements bound to subtitle events and drawn with a continuous pen (geeklee/srt-whiteboard-animation, MIT, ideas only).
+// Cinematic layer: vendored huashu-art-motion code (MIT, © alchaincyf) is driven through ./fx/huashu.js (style recipes as
+// backdrops, its transitions, post layers and stylisers); ./fx/effects.js holds our own particles / reveals / camera moves.
 import { mountSvg, buildDrawing } from './geometry.js';
-import { SpriteCache, renderDrawing } from './sprite.js';
+import { loadHuashu, recipeFrame, huashuTransition, huashuPost, huashuStylise } from './fx/huashu.js';
+import { drawParticles, drawOverlay, sketchOf, revealMask, inkMask, cameraMoves, ownTransition, OWN_TRANSITIONS } from './fx/effects.js';
+import { SpriteCache, renderDrawing, UNDERPAINT } from './sprite.js';
 import { getMedia, paperTexture } from './media.js';
 import { shapeMarkup, SHAPES } from './shapes.js';
 import { buildCharacter, drawCharacter, scribbleReveal, characterPoint } from './rig.js';
@@ -26,6 +31,7 @@ async function setup(project) {
   const c = S.canvas = document.getElementById('c');
   c.width = Math.round(W * S.scale); c.height = Math.round(H * S.scale);
   S.ctx = c.getContext('2d');
+  UNDERPAINT.value = project.underpaint ?? !!project.scenes.some((s) => s.backdrop);   // opaque fills over backdrops
   if (document.fonts && project.subtitle?.font) {
     try { await document.fonts.load(`700 40px ${project.subtitle.font}`, '中文字幕'); } catch (e) { /* system fallback */ }
   }
@@ -56,6 +62,11 @@ async function setup(project) {
       S.items.set(scene.id + '/' + it.id, rec);
     }
   }
+  // cinematic layer: load only what the project uses
+  const recipes = [...new Set(project.scenes.map((s) => s.backdrop?.recipe).filter(Boolean))];
+  const usesStage = project.scenes.some((s) => String(s.transition?.type || '').startsWith('huashu:') || s.style || (s.fx || []).some((f) => f.type === 'post'))
+    || (project.post || []).some((f) => f.type === 'post');
+  if (recipes.length || usesStage) await loadHuashu({ scenes: recipes, stage: usesStage }, c.width, c.height);
   window.__ready = true;
 }
 
@@ -69,6 +80,14 @@ function resolveOrigin(o, vb, fallback) {
 
 // ---------------- camera ----------------
 function cameraAt(scene, t) {
+  const cam = cameraBase(scene, t);
+  const mv = cameraMoves(scene.camera?.moves, t);
+  cam.x += mv.x; cam.y += mv.y; cam.zoom = (cam.zoom || 1) * mv.zoomMul; cam.rot = (cam.rot || 0) + mv.rot;
+  cam.bgZoom = mv.bgZoom; cam.blurX = mv.blurX; cam.blurY = mv.blurY;
+  return cam;
+}
+
+function cameraBase(scene, t) {
   const W = S.project.width, H = S.project.height;
   const keys = scene.camera?.keys?.length ? scene.camera.keys : [
     { t: scene.start, x: W / 2, y: H / 2, zoom: 1.0 },
@@ -255,7 +274,8 @@ function renderScene(ctx, scene, t) {
   const camM = cameraMatrix(cam);
   const fps = S.project.boilFps || 8;
   const phase = Math.floor(t * fps);
-  if (!S.project.paper?.transparent) {
+  if (scene.backdrop) drawBackdrop(ctx, scene, t, cam);
+  else if (!S.project.paper?.transparent) {
     ctx.save();
     ctx.setTransform(camM);
     const paper = paperTexture(scene.paper || S.project.paper?.color || '#f8f2e4');
@@ -264,6 +284,7 @@ function renderScene(ctx, scene, t) {
     ctx.fillRect(-W * 1.5, -H * 1.5, W * 4, H * 4);
     ctx.restore();
   }
+  for (const f of scene.fx || []) if (f.layer === 'back') drawFx(ctx, f, t);
   let pen = null;
   for (const it of scene.items) {
     if (S.hidden && S.hidden.has(scene.id + '/' + it.id)) continue; // QA ablation: render without this item
@@ -279,7 +300,95 @@ function renderScene(ctx, scene, t) {
     }
   }
   ctx.setTransform(1, 0, 0, 1, 0, 0);
+  finishScene(ctx, scene, t, cam);
   return { pen, cam };
+}
+
+// ---------------- cinematic layer ----------------
+/** Backdrop: a huashu-art-motion style recipe (1920×1080, drawn live) or a gradient, in screen space with parallax. */
+function drawBackdrop(ctx, scene, t, cam) {
+  const b = scene.backdrop, W = S.project.width, H = S.project.height, k = S.scale;
+  const lt = t - scene.start, u = clamp01((t - scene.start) / Math.max(0.01, scene.end - scene.start));
+  ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0);
+  if (b.gradient) {
+    const g = ctx.createLinearGradient(0, 0, 0, H * k); b.gradient.forEach((c, i) => g.addColorStop(i / Math.max(1, b.gradient.length - 1), c));
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W * k, H * k);
+  }
+  if (b.recipe) {
+    const src = recipeFrame(b.recipe, (b.offset || 0) + lt * (b.speed ?? 1), t, { hideCast: b.hideCast !== false });
+    const fit = b.fit || 'cover';
+    const zoom = lerp(b.zoom?.[0] ?? 1, b.zoom?.[1] ?? b.zoom?.[0] ?? 1, ease.inOut(u)) * (cam.bgZoom || 1);
+    const par = b.parallax ?? 0.25, cz = 1 + ((cam.zoom || 1) - 1) * par;
+    const px = lerp(b.pan?.[0] ?? 0.5, b.pan?.[1] ?? b.pan?.[0] ?? 0.5, ease.inOut(u));
+    const py = b.panY ?? 0.5;
+    if (fit === 'contain') {
+      // blurred cover fill + sharp landscape panel ("widescreen inset")
+      const sc = (H * k) / 1080;
+      ctx.filter = `blur(${24 * k}px) brightness(0.55)`; ctx.drawImage(src, (W * k - 1920 * sc) / 2, 0, 1920 * sc, 1080 * sc); ctx.filter = 'none';
+      const s2 = (W * k) / 1920 * zoom * cz, y0 = (b.y ?? 0.3) * H * k - 1080 * s2 / 2;
+      ctx.drawImage(src, (W * k - 1920 * s2) / 2, y0, 1920 * s2, 1080 * s2);
+    } else {
+      const sc = Math.max((W * k) / 1920, (H * k) / 1080) * zoom * cz;
+      const dw = 1920 * sc, dh = 1080 * sc;
+      const ox = -(dw - W * k) * px - (cam.x - W / 2) * par * k * 0.5, oy = -(dh - H * k) * py - (cam.y - H / 2) * par * k * 0.5;
+      if (b.blur) ctx.filter = `blur(${b.blur * k}px)`;
+      ctx.drawImage(src, ox, oy, dw, dh);
+      ctx.filter = 'none';
+    }
+  }
+  if (b.dim) { ctx.fillStyle = `rgba(${b.dimColor || '10,8,20'},${b.dim})`; ctx.fillRect(0, 0, W * k, H * k); }
+  ctx.restore();
+}
+
+function drawFx(ctx, f, t) {
+  const W = S.project.width, H = S.project.height;
+  if (f.type === 'particles') drawParticles(ctx, f, t, W, H, S.scale);
+  else if (f.type === 'post') { if (t >= f.start && (f.end == null || t <= f.end)) huashuPost(ctx, f.name, t, t - f.start, f); }
+  else if (f.type !== 'reveal') drawOverlay(ctx, f, t, W, H, S.scale);
+}
+
+/** Per-scene finishing passes on the scene's own target: styliser → reveal → front fx → whip motion blur. */
+function finishScene(ctx, scene, t, cam) {
+  const st = scene.style;
+  if (st && t >= (st.start ?? -1e9) && t <= (st.end ?? 1e9)) huashuStylise(ctx, st.name, t, st);
+  for (const f of scene.fx || []) if (f.type === 'reveal' && t >= f.start - 0.001 && t < f.start + f.dur) applyReveal(ctx, f, t);
+  for (const f of scene.fx || []) if (f.layer !== 'back' && f.type !== 'reveal') drawFx(ctx, f, t);
+  if (cam.blurX > 0.5 || cam.blurY > 0.5) {
+    const c = sceneCanvas('blur'), g = c.getContext('2d');
+    g.setTransform(1, 0, 0, 1, 0, 0); g.clearRect(0, 0, c.width, c.height); g.drawImage(ctx.canvas, 0, 0);
+    ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0); const n = 7;
+    for (let i = 0; i < n; i++) { const q = (i / (n - 1) - 0.5) * S.scale; ctx.globalAlpha = 1 / (i + 1); ctx.drawImage(c, cam.blurX * q, cam.blurY * q); }
+    ctx.restore();
+  }
+}
+
+function applyReveal(ctx, f, t) {
+  const W = S.project.width, H = S.project.height, k = S.scale;
+  const u = clamp01((t - f.start) / f.dur);
+  const col = sceneCanvas('rv_col'), cg = col.getContext('2d');
+  cg.setTransform(1, 0, 0, 1, 0, 0); cg.globalCompositeOperation = 'source-over'; cg.clearRect(0, 0, col.width, col.height); cg.drawImage(ctx.canvas, 0, 0);
+  const m = sceneCanvas('rv_mask');
+  ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0);
+  if (f.mode === 'ink') {
+    const rim = sceneCanvas('rv_rim');
+    inkMask(m, rim, u, W, H, k, f.seed || 7, f.drops);
+    ctx.fillStyle = f.paper || '#f3ecdc'; ctx.fillRect(0, 0, col.width, col.height);
+    // inside the ink the picture first appears as ink wash (desaturated), colour floods in over the last 40 %
+    const lay = sceneCanvas('rv_lay'), lg = lay.getContext('2d');
+    lg.setTransform(1, 0, 0, 1, 0, 0); lg.globalCompositeOperation = 'source-over'; lg.clearRect(0, 0, lay.width, lay.height);
+    const sat = clamp01((u - 0.55) / 0.45);
+    lg.filter = `grayscale(${1 - sat}) contrast(${1.25 - 0.25 * sat})`; lg.drawImage(col, 0, 0); lg.filter = 'none';
+    lg.globalCompositeOperation = 'destination-in'; lg.drawImage(m, 0, 0); lg.globalCompositeOperation = 'source-over';
+    ctx.drawImage(lay, 0, 0);
+    ctx.globalCompositeOperation = 'multiply'; ctx.drawImage(rim, 0, 0); ctx.globalCompositeOperation = 'source-over';
+  } else {
+    const sk = sketchOf(col, sceneCanvas('rv_sk'), k, f.paper || '#f6f0e2');
+    revealMask(m, u, W, H, k, f.mode === 'bloom' ? 'bloom' : 'brush', f.seed || 3, f.center);
+    ctx.drawImage(sk, 0, 0);
+    cg.globalCompositeOperation = 'destination-in'; cg.drawImage(m, 0, 0); cg.globalCompositeOperation = 'source-over';
+    ctx.drawImage(col, 0, 0);
+  }
+  ctx.restore();
 }
 
 function vignette(ctx) {
@@ -350,6 +459,7 @@ function drawSubtitle(ctx, t) {
   const cy = (sub.y ?? 0.855) * H;
   const x0 = W / 2 - boxW / 2, y0 = cy - boxH / 2 + (1 - a) * 10;
   ctx.globalAlpha = a;
+  if (sub.style === 'cinematic') { drawCinematicSub(ctx, cue, lines, { size, lh, y0, W, t, sub, font }); ctx.restore(); return; }
   ctx.fillStyle = sub.background || 'rgba(255,251,240,0.9)';
   ctx.strokeStyle = sub.border || 'rgba(80,60,40,0.55)';
   ctx.lineWidth = 3;
@@ -379,6 +489,37 @@ function drawSubtitle(ctx, t) {
     }
   });
   ctx.restore();
+}
+
+/** Cinematic subtitles: no box, heavy outline + soft glow; the word being spoken pops and turns accent colour. */
+function drawCinematicSub(ctx, cue, lines, { size, lh, y0, W, t, sub, font }) {
+  const times = cue.charTimes || [];
+  let idx = 0;
+  ctx.textBaseline = 'middle'; ctx.lineJoin = 'round';
+  lines.forEach((line, li) => {
+    const lw = ctx.measureText(line).width;
+    let x = W / 2 - lw / 2;
+    const y = y0 + size * 0.35 + lh * li + lh / 2;
+    for (const ch of [...line]) {
+      const cw = ctx.measureText(ch).width;
+      const ct = times[idx] ?? cue.start, age = t - ct;
+      const spoken = age >= 0 || sub.karaoke === false;
+      const pop = age >= 0 && age < 0.22 ? 1 + 0.16 * Math.sin((age / 0.22) * Math.PI) : 1;
+      const nextT = times[idx + 1] ?? cue.end;
+      const current = age >= 0 && t < nextT + 0.08;
+      ctx.save();
+      ctx.translate(x + cw / 2, y); ctx.scale(pop, pop);
+      ctx.font = font;
+      ctx.shadowColor = sub.glow || 'rgba(0,0,0,0.55)'; ctx.shadowBlur = size * 0.35;
+      ctx.strokeStyle = sub.outline || 'rgba(12,10,24,0.92)'; ctx.lineWidth = size * 0.17;
+      ctx.strokeText(ch, -cw / 2, 0);
+      ctx.shadowBlur = 0;
+      ctx.fillStyle = current ? (sub.accent || '#ffd54a') : spoken ? (sub.color || '#ffffff') : (sub.pendingColor || 'rgba(255,255,255,0.62)');
+      ctx.fillText(ch, -cw / 2, 0);
+      ctx.restore();
+      x += cw; idx++;
+    }
+  });
 }
 
 // ---------------- transitions ----------------
@@ -424,7 +565,7 @@ export function renderFrame(t) {
   if (i < 0) i = t < scenes[0].start ? 0 : scenes.length - 1;
   const B = scenes[i];
   const tr = B.transition || { type: 'cut', dur: 0 };
-  const inTr = i > 0 && tr.type !== 'cut' && t < B.start + tr.dur;
+  const inTr = i > 0 && tr.type !== 'cut' && tr.dur > 0 && t < B.start + tr.dur;
   let pen = null;
   ctx.setTransform(1, 0, 0, 1, 0, 0);
   ctx.clearRect(0, 0, S.canvas.width, S.canvas.height);
@@ -440,7 +581,12 @@ export function renderFrame(t) {
     renderScene(ga, A, t);
     pen = renderScene(gb, B, t).pen;
     const w = S.canvas.width;
-    if (tr.type === 'fade') {
+    const p = clamp01((t - B.start) / tr.dur);
+    if (tr.type.startsWith('huashu:')) {
+      huashuTransition(tr.type.slice(7), ctx, ca, cb, p, { ...(tr.params || {}), id: B.id, from: A.id, lt: t - B.start, t, dur: tr.dur });
+    } else if (OWN_TRANSITIONS.includes(tr.type)) {
+      ownTransition(tr.type, ctx, ca, cb, p, { ...(tr.params || {}), k: S.scale });
+    } else if (tr.type === 'fade') {
       ctx.drawImage(ca, 0, 0); ctx.globalAlpha = u; ctx.drawImage(cb, 0, 0); ctx.globalAlpha = 1;
     } else if (tr.type === 'slide') {
       ctx.drawImage(ca, -w * u, 0); ctx.drawImage(cb, w * (1 - u), 0);
@@ -453,7 +599,8 @@ export function renderFrame(t) {
       ctx.drawImage(cb, 0, 0);
     }
   }
-  if (!S.project.paper?.transparent) vignette(ctx);
+  for (const f of S.project.post || []) drawFx(ctx, f, t);
+  if (!S.project.paper?.transparent && S.project.vignette !== false) vignette(ctx);
   drawPencil(ctx, pen, t);
   drawSubtitle(ctx, t);
 }

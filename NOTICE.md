@@ -7,7 +7,7 @@
 版权人：**天机**（Copyright 2026 天机）。许可：**[Apache License 2.0](LICENSE)**（全文见根目录 `LICENSE`，简短声明见根目录 `NOTICE`）。
 
 Apache-2.0 **只覆盖本仓库自己的作品**，包括：
-- 代码：`scripts/`、`animator/`（代码、Schema、`tts/`、`tools/`）、`videogen/`；
+- 代码：`scripts/`、`animator/`（代码、Schema、`tts/`、`tools/`；**不含** `animator/vendor/` 下的第三方代码，见第 2.1 节）、`videogen/`；
 - 文档：README、NOTICE、ATTRIBUTION、CONTRIBUTING、SECURITY 等，`animator/README.md`、`videogen/README.md`，分类体系、各级索引与统计，`tools/漫剧漫画代码项目.md` 链接清单；
 - 手册：`docs/分镜提示词手册.md`、`docs/skill/SKILL.md`（其中【原文摘录】除外，见第 3 节）；
 - 自写的模板、示例与提示词：`animator/templates/`、`animator/examples/`、`videogen/examples/`、`docs/` 中的示例；
@@ -45,7 +45,7 @@ YouMind、LearnPrompt、ZeroLu 三个上游都说明：所收提示词来自社�
 
 ### 2.1 `animator/` 中的第三方内容
 
-`animator/` 的代码是本仓库从零实现的，只借鉴了若干开源项目的**思路**（见第 4 节和 `ATTRIBUTION.md`）。**唯一复制的第三方内容**是：
+`animator/` 自己的代码是本仓库从零实现的，另借鉴了若干开源项目的**思路**（见第 4 节和 `ATTRIBUTION.md`）。复制进来的第三方内容只有两处：画风提示词数据（下表）和 huashu-art-motion 的 MIT 代码（见下文「移植的代码」）。
 
 | 文件 | 来源 | 许可 | 版权行 | 许可文本 |
 |---|---|---|---|---|
@@ -57,14 +57,25 @@ YouMind、LearnPrompt、ZeroLu 三个上游都说明：所收提示词来自社�
 
 该文件只保留文字字段，删去了所有指向示例图片的字段；另把 15 条以品牌、商标作品或具体艺术家名作风格参照的预设改写为通用画法描述（如「几米绘本插画风」→「诗意都市绘本插画风」，「South Park Animation Style」→「Flat Cut-Out TV Cartoon Style」），其余提示词文字未改。文件内的 `_provenance` 字段记录了来源 commit、sha256 和改动列表。各条目 `origin.label` 保留上游的原始标签（部分为艺术家名或提示词作者名），仅用于溯源，不进入任何提示词。
 
+**移植的代码：alchaincyf/huashu-art-motion（MIT）**
+
+| 项目 | 内容 |
+|---|---|
+| 位置 | `animator/vendor/huashu-art-motion/`（清单与说明见该目录 `VENDOR.md`） |
+| 上游 | https://github.com/alchaincyf/huashu-art-motion @ commit `f178bd7754a71d6d399473af1501634548efa6cb` |
+| 许可 / 版权行 | MIT，Copyright (c) 2026 alchaincyf (花叔 · 花生)；全文 `LICENSES/alchaincyf_huashu-art-motion-MIT.txt`（目录内另有一份 `LICENSE`） |
+| 拷贝的文件（90 个，逐字节原样，保留原注释） | `LICENSE`；`scripts/engine/lib/` 下 `util` `motion` `paint` `brush` `render` `post` `kit` `camera` `typo` `ui` `diagram` `collage` `chart` `rig`（`.js`）；`scripts/engine/transitions.js`（50 种转场）、`eras_gallery.js`；`scripts/engine/scenes/` 下 35 个风格配方（`01_cave` … `36_picasso_blue`）；`references/风格配方/` 下 35 张配方卡 + `INDEX.md` 等 3 个说明 |
+| 改动 | 磁盘上**无改动**。运行时由本仓库适配层 `animator/src/runtime/fx/huashu.js` 在内存中把舞台类脚本的固定 `W/H = 1920×1080` 换成可变舞台尺寸（竖屏），并可在运行时隐藏上游代码绘制的少女 / 猫 |
+| 许可范围 | 这些文件**仍是 MIT，版权归原作者**；本仓库的 Apache-2.0 只覆盖我们自己写的适配层与改动（`src/runtime/fx/huashu.js`、`src/runtime/fx/effects.js`、`src/fxcatalog.mjs`、`engine.js` / `project.mjs` 中的接入代码、`VENDOR.md`） |
+
 **明确未使用的内容**：
-- huashu-art-motion 的 Arphic 笔画数据（`strokes.js`，非 MIT）、其 OFL 字体，以及「花叔」形象和任何角色素材，均未复制、未引用；
+- huashu-art-motion 的 Arphic / 文鼎笔顺数据（`reference_films/**/strokes.js`，非 MIT）、`scripts/engine/lib/fonts/` 的 OFL 字体与 `fonts.js`、「花叔」形象与角色（`rig_huashu.js`、`toon.js` 的豆子花叔、`clips/`、`demos/`、`assets/`、`examples/` 中的图片与帧），以及任何图片素材，均未复制；
 - anidoodle（Apache-2.0）没有复制任何代码或素材，因此无需转载其 NOTICE；
 - 不随仓库打包任何字体。字幕使用系统字体，按顺序调用霞鹜文楷（OFL）、Noto Sans CJK（OFL）等。
 
-**生成物**：渲染输出目录、TTS 生成的单独音频文件（本地 Kokoro 或 edge-tts）、videogen 的片段与成片均已在 `.gitignore` 中排除。例外是 `docs/assets/` 里几份由本仓库代码渲染的小预览（设定图、剪影、帧图，以及两段带配音的演示视频，共约 2.6 MB），见该目录的 README。
+**生成物**：渲染输出目录、TTS 生成的单独音频文件（本地 Kokoro 或 edge-tts）、videogen 的片段与成片均已在 `.gitignore` 中排除。例外是 `docs/assets/` 里几份由本仓库代码渲染的小预览（设定图、剪影、帧图，以及两段带配音的演示视频，共约 4.3 MB），见该目录的 README。
 
-**预览视频的配音**：`docs/assets/tianji-demo.mp4` 与 `docs/assets/videogen-route-c-demo.mp4` 的人声由 [Kokoro-82M v1.1-zh](https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh)（hexgrad，Apache-2.0）经 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)（k2-fsa，Apache-2.0）在本地合成，压缩为 48 kbps 单声道 AAC 音轨；路线 C 演示的背景音乐由本仓库脚本程序化合成。仓库不包含任何模型权重或单独的音频文件。
+**预览视频的配音**：`docs/assets/tianji-showcase.mp4` 与 `docs/assets/videogen-route-c-demo.mp4` 的人声由 [Kokoro-82M v1.1-zh](https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh)（hexgrad，Apache-2.0）经 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)（k2-fsa，Apache-2.0）在本地合成，压缩为 48 kbps 单声道 AAC 音轨；路线 C 演示的背景音乐由本仓库脚本程序化合成。仓库不包含任何模型权重或单独的音频文件。`tianji-showcase.mp4` 的背景和部分转场由上述 huashu-art-motion 的 MIT 代码实时渲染（已隐藏其角色）。
 
 **TTS 模型与视频模型**：均不随仓库分发。`animator/tts/fetch_models.py` 从上游下载并校验 sha256（Kokoro / sherpa-onnx：Apache-2.0；MeloTTS、faster-whisper：MIT）；videogen 只调用用户自己的 API 账号或用户自己运行的 ComfyUI，模型许可见 `videogen/README.md`。**API 密钥**：本仓库不提供、不保管任何密钥，只从用户的环境变量或 `.env`（已被 git 忽略）读取。
 
@@ -89,7 +100,7 @@ YouMind、LearnPrompt、ZeroLu 三个上游都说明：所收提示词来自社�
 - dexhunter/seedance2-skill 的示例：疑似转录自官方手册，暂缓收录；
 - YouMind / goodcase.ai 网站内容；
 - `tools/` 中列出的全部代码项目；
-- `animator/` 只借鉴思路、未复制代码的项目：geeklee/srt-whiteboard-animation（MIT）、alexgreensh/anidoodle（Apache-2.0）、alchaincyf/huashu-art-motion（代码 MIT）、HKUDS/ViMax（MIT）、HBAI-Ltd/Toonflow-app（MIT）。
+- `animator/` 只借鉴思路、未复制代码的项目：geeklee/srt-whiteboard-animation（MIT）、alexgreensh/anidoodle（Apache-2.0）、HKUDS/ViMax（MIT）、HBAI-Ltd/Toonflow-app（MIT）。（alchaincyf/huashu-art-motion 的 MIT 代码已移植，见第 2.1 节。）
 
 本仓库没有收录任何第三方图片、GIF 或视频。`animator/` 中的 SVG（角色「豆豆」与内置道具）是本仓库原创的矢量图。
 

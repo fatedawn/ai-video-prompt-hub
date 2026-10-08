@@ -11,7 +11,7 @@
 - **默认主持人「天机」**：本仓库原创的默认角色（小仙师 + 技术宅：星星发簪、大圆眼镜、白胡子、靛蓝道袍、`</>` 折扇、星星伙伴「小星」），招牌动作「亮扇」`reveal`。`init` 模板、`make` 自动分镜和主示例都用他；豆豆是第二个示例角色。
 - **一条命令出片 + 默认开源配音**：`make 台词.txt` → 本地开源 TTS（Kokoro v1.1-zh，Apache-2.0，CPU、免费、离线）配音 → 字级时间戳 → 渲染 → 带声音和逐字字幕的 MP4。在线 edge-tts 仅作可选备选。
 
-> 本目录全部代码为本仓库原创实现，只借鉴了下面几个开源项目的**思路**；唯一复制的第三方内容是 `presets/handdrawn-styles.json`（画风提示词，MIT）。详见下文「致谢与来源」和仓库根目录的 `NOTICE.md`、`ATTRIBUTION.md`。
+> 本目录的代码除 `vendor/` 外均为本仓库原创实现，并借鉴了下面几个开源项目的**思路**。复制的第三方内容有两处：`presets/handdrawn-styles.json`（画风提示词，MIT）和 `vendor/huashu-art-motion/`（**按 MIT 移植的代码**：风格配方、转场、后期层等，版权归原作者 alchaincyf，见该目录 `VENDOR.md`）。详见下文「致谢与来源」和仓库根目录的 `NOTICE.md`、`ATTRIBUTION.md`。
 
 ---
 
@@ -161,6 +161,27 @@ node src/cli.mjs init my-video            # 或者从模板（主持人：天机
 
 角色还会自动眨眼。`"autoTalk": false` 可以关闭自动对口型。
 
+### 2.5 电影感特效（背景、转场、粒子、运镜）
+
+`node src/cli.mjs fx` 列出全部可选项；`node tools/fx_gallery.mjs --out out/fx-gallery` 把所有风格配方 / 转场 / 风格化滤镜渲染成接触表（加 `--cast` 显示配方自带角色）。完整示例见 `examples/showcase/project.json`（26 秒，`npm run showcase` 一条命令配音 + 出片）。所有特效都是时间的纯函数，可与六种画材、字级时间引用、天机 / 豆豆骨骼角色同时使用。
+
+**来源**：风格配方、`huashu:` 转场、`post` 后期层和 `style` 风格化滤镜来自 `vendor/huashu-art-motion/`——按 **MIT 原样移植**的 [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) 代码（© alchaincyf，见该目录 `VENDOR.md`）；粒子、素描→上色、水墨开场、叠加层、运镜和 8 种新转场是本仓库自己写的（`src/runtime/fx/effects.js`）。
+
+| 字段（镜头级） | 作用 | 例子 |
+|---|---|---|
+| `backdrop` | 背景。`recipe`：35 种风格配方之一（梵高、克里姆特、莫奈、草间弥生、蒸汽波、水墨、敦煌…），在 1920×1080 上实时绘制再铺进竖屏；`pan` [起,止] / `panY` / `zoom` [起,止] 取景并随镜头缓动，`dim` 压暗，`blur`，`fit: contain`，`speed` 配方内动画速度。也可 `gradient: ["#123", "#456"]` | `{"recipe": "18_klimt", "pan": [0, 0.12], "zoom": [1.05, 1.12], "dim": 0.22}` |
+| `transition` | 进入本镜头的转场：内置 `cut fade slide scribble`；新增 `flash whipPan zoomBlur inkWipe lightLeak glitch spinZoom sketchWipe`；或 `huashu:<名>`（50 种，如 `swirl comicPanels inkBloom dotBloom pageTurn shards godRays`）。`params` 传额外参数 | `{"type": "huashu:inkBloom", "dur": 0.8, "params": {"cx": 540, "cy": 900}}` |
+| `camera.moves` | 电影运镜，叠加在 from/to 关键帧之上：`crashZoom dollyZoom whip dutch orbit crane punch pushIn pullOut drift`。`at` / `times`（多次）/ `dur` / `amt` / `deg` / `release` | `[{"type": "crashZoom", "at": "c1:开源", "dur": 0.35, "amt": 0.1}]` |
+| `fx[]` `type: particles` | `kind`: `stars petals swordqi lightning embers snow sparks bokeh inksplash`；`layer: back` 画在角色后面；`times` 为一次性爆发，否则持续到镜头结束；`count area from size life seed` | `{"type": "particles", "kind": "swordqi", "times": ["c3:分得"], "size": 1.5}` |
+| `fx[]` `type: reveal` | `mode`: `sketch`（铅笔素描 → 笔刷扫出彩色）、`bloom`（素描从一点晕开成彩色）、`ink`（白纸上水墨晕开，开场用）；`dur` 默认 1.6 | `{"type": "reveal", "mode": "ink", "at": "scene", "dur": 2.0}` |
+| `fx[]` 叠加层 | `flash speedlines shockwave godrays letterbox grade lightsweep glow`（`amount color center radius dur`） | `{"type": "shockwave", "at": "c2:七千", "center": [540, 440]}` |
+| `fx[]` `type: post` | huashu 后期层 `name`: `bloom film vhs lensFlare rgbSplit scanlines vignette fade gateWeave` | `{"type": "post", "name": "lensFlare", "sun": [820, 330], "at": "c7:点个"}` |
+| `style` | 整帧风格化：`strokes`（梵高笔触）`dabs mosaic halftone pixelate facets pointillism`，可加 `at` / `until` | `{"name": "halftone", "at": "c4:手绘"}` |
+
+工程级字段：`post`（整片后期层数组）、`vignette: false`（关掉内置暗角）、`underpaint`（角色不透明底色，防止蜡笔 / 马克笔的留白透出背景；有 `backdrop` 时默认开）、`subtitle.style: "cinematic"`（粗体描边、逐字高亮的电影感字幕，配 `weight`）。
+
+注意：风格配方原本画的是上游的少女与猫，作为背景时默认隐藏（`hideCast`）。`09_postimp 18_klimt 21_kusama 26_vaporwave 28_monet` 隐藏后最干净（`cli fx` 中标 ★）；其他配方可能残留少量头发 / 杯子 / 猫身，请用 `pan` / `zoom` 裁掉。配方里写的字体（Kalam、Bangers 等）本仓库不附带，会回退为系统字体。
+
 ---
 
 ## 3. 定义你自己的角色
@@ -281,6 +302,7 @@ node src/cli.mjs render examples/image-character/project.json --out examples/out
 | `python3 tools/qa_motion.py out.mp4` | 静止帧比例：相邻帧几乎无变化的帧占比（算法：缩到 160px 宽灰度图，相邻帧平均差 < 0.05 记为静止；与调研 story-to-handdrawn-video 时用的帧差脚本一致），以及最长连续静止段 |
 | `python3 tools/check_sync.py out.mp4 timeline.json --md report.md` | 图文对齐：逐帧检测每个绑定了台词的元素在**成片里**第一次出现墨迹的时间，与绑定的词对比 |
 | `python3 tools/sync_frames.py out.mp4 timeline.json 输出目录 [元素id…]` | 为每个绑定元素裁出「台词前 / 台词后 / 画完」三连图，供人工核对 |
+| `node tools/fx_gallery.mjs --out out/fx-gallery [--what recipes,transitions,stylisers] [--cast]` | 电影感特效接触表：35 种风格配方、50 种 huashu 转场（p=0.35 / 0.65 两帧）、风格化滤镜与后期层 |
 
 需要 ffmpeg 和 numpy。`timeline.json` 由 `probe` 命令生成。`check_sync` 遇到相机移动、相邻元素重叠时可能误报「提前出现」，请用 `sync_frames` 的三连图人工确认。
 
@@ -336,6 +358,7 @@ animator/
 │   ├── tts.mjs                  配音调度：本地 TTS（默认）/ edge-tts，音色解析
 │   ├── autoscript.mjs           台词 .txt → 工程（自动分镜、关键词上屏、角色动作）
 │   ├── synccheck.mjs            消融法图文对齐检查
+│   ├── fxcatalog.mjs            特效目录（从 vendor 文件读取配方与转场名，`fx` 命令）
 │   └── runtime/                 在浏览器里运行的绘制引擎（Canvas 2D）
 │       ├── engine.js            镜头、相机、元素动效、转场、字幕、铅笔光标
 │       ├── geometry.js          SVG → 笔画采样，生成涂色排线
@@ -343,16 +366,20 @@ animator/
 │       ├── sprite.js            笔画渲染与缓存
 │       ├── rig.js               角色骨骼、动作、表情、口型，以及图片角色
 │       ├── shapes.js            内置道具 SVG（原创）
+│       ├── fx/huashu.js         huashu-art-motion 适配层（两个隐藏 iframe 加载 vendor 代码，配方 / 转场 / 后期层）
+│       ├── fx/effects.js        自研特效：粒子、素描上色 / 水墨开场、叠加层、运镜、转场
 │       └── util.js  index.html
 ├── characters/
 │   ├── tianji/                  原创默认角色「天机」（SVG 骨骼 + 招牌动作 reveal）
 │   ├── doudou/                  原创示例角色「豆豆」（SVG 骨骼）
 │   └── doudou-png/              同一角色的「图片 / 设定图」用法示例
 ├── presets/handdrawn-styles.json   297 种画风提示词 + 30 套配色（MIT，第三方，见 NOTICE）
+├── vendor/huashu-art-motion/    按 MIT 原样移植的第三方代码（© alchaincyf；清单见 VENDOR.md，不受本仓库 Apache-2.0 约束）
 ├── examples/
 │   ├── demo/                    主示例《天机泄露》：工程文件 + SRT（静音版）
 │   ├── doudou/                  第二个示例《豆豆的早晨》
 │   ├── image-character/         图片角色示例
+│   ├── showcase/                电影感特效展示《天机泄露 · 开源宝藏仓库》（风格配方背景 + 转场 + 粒子 + 运镜）
 │   └── out/                     渲染输出（不提交）
 ├── templates/                   init 用的默认工程模板（主持人：天机）
 ├── tts/                         本地 TTS：tts_local.py、fetch_models.py、models.json（URL + sha256）、requirements.txt
@@ -363,13 +390,13 @@ animator/
 
 ## 8. 致谢与来源（每个想法从哪里来）
 
-本目录的代码由本仓库从零实现，**没有复制**下列项目的代码。下表说明每个想法的出处，许可均已按各仓库的 LICENSE 文件核对（取用的 commit 见 `ATTRIBUTION.md`）。
+除 `vendor/huashu-art-motion/`（MIT 代码移植，见下表第三行）外，本目录的代码由本仓库从零实现，**没有复制**下列其他项目的代码。下表说明每个想法的出处，许可均已按各仓库的 LICENSE 文件核对（取用的 commit 见 `ATTRIBUTION.md`）。
 
 | 想法 | 出处 | 许可 | 本仓库的实现 |
 |---|---|---|---|
 | 元素绑定到字幕时间戳；笔画连续画出、笔尖带着画笔走 | [geeklee/srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation) | MIT | `project.mjs` 的时间引用语法（细化到「句内某个词」）；`engine.js` 的逐笔绘制和铅笔光标 |
 | 以真实手绘媒介（蜡笔、彩铅…）逐笔画出，而不是矢量描边动画 | [alexgreensh/anidoodle](https://github.com/alexgreensh/anidoodle) | Apache-2.0 | `media.js` / `geometry.js` / `sprite.js`：SVG 采样成笔画，按画材排线涂色、加颗粒、线条抖动 |
-| Canvas 逐帧渲染 → 浏览器 → ffmpeg 的管线；JSON 镜头脚本 + cue；每个镜头必须有主动作；相机和转场 | [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)（仅参考其 MIT 代码部分的思路） | 代码 MIT | `browser.mjs`、`engine.js`。**未使用**其 Arphic 笔画数据、字体，以及「花叔」形象和任何角色素材；角色系统与其无关 |
+| Canvas 逐帧渲染 → 浏览器 → ffmpeg 的管线；JSON 镜头脚本 + cue；每个镜头必须有主动作。**另按 MIT 移植了代码**：35 个风格配方、50 种转场、后期层与风格化滤镜 | [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)（commit `f178bd7`，**代码按 MIT 移植**，版权归 alchaincyf (花叔 · 花生)） | 代码 MIT | 管线思路：`browser.mjs`、`engine.js`（自行实现）；移植的原文件：`vendor/huashu-art-motion/`（原样拷贝，保留原注释，仍为 MIT）；适配层：`src/runtime/fx/huashu.js`。**未使用**其 Arphic 笔顺数据、字体，以及「花叔」形象和任何图片 / 角色素材；角色系统与其无关 |
 | 297 种手绘画风提示词库 | [gnipbao/story-to-handdrawn-video](https://github.com/gnipbao/story-to-handdrawn-video)，其中大部分条目改编自 [yang0/handraw-style](https://github.com/yang0/handraw-style)（原作者 yang0），部分来自 [threerocks/hand-drawn-styles](https://github.com/threerocks/hand-drawn-styles)（原作者 liulei） | MIT | `presets/handdrawn-styles.json`：**复制了文字数据**（删去图片字段），仅作可选的提示词预设 |
 | 角色只定义一次、跨镜头保持一致（角色设定图） | [HKUDS/ViMax](https://github.com/HKUDS/ViMax)、[HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | MIT | `characters/*/character.json` + 工程级 `characters` 声明；`sheet` 命令生成设定图 |
 
@@ -390,4 +417,4 @@ animator/
 
 ## 10. 许可
 
-本目录的代码、原创角色「天机」「豆豆」（含形象与设定图）、内置道具 SVG、示例与文档属于本仓库原创内容，版权人为「天机」，按 **Apache-2.0** 发布（根目录 `LICENSE`、`NOTICE`）。提醒：「天机」是频道的身份标识，Apache-2.0 第 6 条本就不授予商标 / 商号使用权，请勿用「天机」名称或形象冒充频道或暗示其背书（这不是附加限制）。`presets/handdrawn-styles.json` 的上游条目是第三方 MIT 内容，按其上游许可提供（许可全文见 `LICENSES/`），本仓库对其所做的改写按 Apache-2.0 提供。TTS 模型不随仓库分发，许可见第 6 节。
+本目录的代码（`vendor/` 除外）、原创角色「天机」「豆豆」（含形象与设定图）、内置道具 SVG、示例与文档属于本仓库原创内容，版权人为「天机」，按 **Apache-2.0** 发布（根目录 `LICENSE`、`NOTICE`）。提醒：「天机」是频道的身份标识，Apache-2.0 第 6 条本就不授予商标 / 商号使用权，请勿用「天机」名称或形象冒充频道或暗示其背书（这不是附加限制）。`presets/handdrawn-styles.json` 的上游条目是第三方 MIT 内容，按其上游许可提供（许可全文见 `LICENSES/`），本仓库对其所做的改写按 Apache-2.0 提供。`vendor/huashu-art-motion/` 是按 MIT 原样移植的第三方代码，仍为 MIT、版权归原作者 alchaincyf（许可全文见该目录 `LICENSE` 与根目录 `LICENSES/alchaincyf_huashu-art-motion-MIT.txt`），Apache-2.0 只覆盖本仓库的适配层与改动。TTS 模型不随仓库分发，许可见第 6 节。

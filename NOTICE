@@ -38,7 +38,19 @@ copyright lines are in LICENSES/. Details: NOTICE.md and ATTRIBUTION.md.
   yang0/handraw-style, Copyright (c) 2026 yang0;
   threerocks/hand-drawn-styles, Copyright (c) 2026 liulei.
   The upstream source label of every entry is kept for traceability.
+* animator/vendor/huashu-art-motion/ — code ported from alchaincyf/huashu-art-motion
+  (https://github.com/alchaincyf/huashu-art-motion, commit
+  f178bd7754a71d6d399473af1501634548efa6cb): engine libraries, 50 transitions and
+  35 style-recipe scenes plus their recipe cards, copied verbatim (90 files, original
+  headers kept, no on-disk changes). MIT, Copyright (c) 2026 alchaincyf (花叔 · 花生);
+  licence text in LICENSES/alchaincyf_huashu-art-motion-MIT.txt and in that folder.
+  The vendored files remain MIT (c) the original author; Apache-2.0 covers only this
+  repository's adapters and modifications (animator/src/runtime/fx/, fxcatalog.mjs,
+  the runtime stage-size patch). NOT included: its Arphic stroke data, its fonts, the
+  花叔 character/likeness and any image asset. See the folder's VENDOR.md.
 
 Voice tracks of the two preview videos in docs/assets/ were synthesised locally with
 Kokoro-82M v1.1-zh (hexgrad, Apache-2.0) via sherpa-onnx (k2-fsa, Apache-2.0).
 No model weights are distributed with this repository.
+The backgrounds and several transitions in docs/assets/tianji-showcase.mp4 are rendered
+by the MIT-licensed huashu-art-motion code listed above (with its characters hidden).

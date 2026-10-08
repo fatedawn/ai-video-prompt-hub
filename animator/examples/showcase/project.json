@@ -1,0 +1,170 @@
+{
+  "$schema": "../../schema/project.schema.json",
+  "version": 1,
+  "title": "天机泄露 · 开源宝藏仓库（电影感特效展示）",
+  "canvas": {"width": 1080, "height": 1920, "fps": 30},
+  "media": "crayon",
+  "tts": {"engine": "local", "lead": 0.45, "gap": 0.32},
+  "timing": {"estimate": {"cps": 4.6, "gap": 0.32, "lead": 0.45}},
+  "subtitle": {"style": "cinematic", "size": 64, "weight": 900, "y": 0.9, "font": "\"Noto Sans CJK SC\", \"Source Han Sans SC\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif"},
+  "vignette": false,
+  "pen": false,
+  "tail": 0.9,
+  "post": [{"type": "post", "name": "vignette", "inner": 0.4, "outer": 0.85, "color": "rgba(0,0,0,.42)"}],
+  "characters": {"tianji": "../../characters/tianji/character.json"},
+  "script": [
+    {"text": "天机泄露：一个开源宝藏仓库！", "speaker": "tianji", "voice": "激动"},
+    {"text": "七千多条分镜提示词，随便抄。", "speaker": "tianji"},
+    {"text": "漫剧和真人剧，分得清清楚楚。", "speaker": "tianji"},
+    {"text": "手绘引擎，台词秒变动画。", "speaker": "tianji"},
+    {"text": "本地免费配音，一分钱不花。", "speaker": "tianji"},
+    {"text": "三条视频生成路线，任你挑！", "speaker": "tianji"},
+    {"text": "觉得有用？快去点个 Star！", "speaker": "tianji", "voice": "激动"}
+  ],
+  "scenes": [
+    {
+      "id": "s1-水墨开场",
+      "cues": [1],
+      "backdrop": {"recipe": "09_postimp", "pan": [0.27, 0.4], "zoom": [1.0, 1.06], "dim": 0.12},
+      "camera": {"from": {"x": 540, "y": 980, "zoom": 1.06}, "to": {"x": 540, "y": 940, "zoom": 1.0}, "handheld": 0.6,
+        "moves": [{"type": "crashZoom", "at": "c1:开源", "dur": 0.35, "amt": 0.1}]},
+      "fx": [
+        {"type": "reveal", "mode": "ink", "at": "scene", "dur": 2.0},
+        {"type": "particles", "kind": "stars", "layer": "back", "count": 34, "area": [0, 60, 1080, 1000], "at": "scene+0.6"},
+        {"type": "lightsweep", "at": "c1:开源", "dur": 0.8},
+        {"type": "flash", "at": "c1:宝藏", "dur": 0.3, "amount": 0.45}
+      ],
+      "elements": [
+        {"id": "title", "text": "天机泄露", "size": 168, "color": "#ffe7a3", "outline": "#1b1640", "font": "\"Ma Shan Zheng\", \"Noto Serif CJK SC\", serif", "x": 540, "y": 400, "at": "c1:天机", "draw": 0.5, "pen": false},
+        {"id": "sub", "text": "开源宝藏仓库", "size": 96, "color": "#ffffff", "outline": "#1b1640", "x": 540, "y": 590, "at": "c1:开源", "draw": 0.45, "pen": false}
+      ],
+      "actors": [{"character": "tianji", "x": 540, "y": 1600, "height": 860,
+        "actions": [{"type": "expression", "name": "smug", "at": "c1:泄露"}, {"type": "reveal", "at": "c1:泄露", "until": "scene.end"}]}]
+    },
+    {
+      "id": "s2-七千提示词",
+      "cues": [2],
+      "transition": {"type": "huashu:swirl", "dur": 0.7},
+      "backdrop": {"recipe": "18_klimt", "pan": [0.0, 0.12], "zoom": [1.05, 1.12], "dim": 0.22},
+      "camera": {"from": {"x": 540, "y": 960, "zoom": 1.0}, "to": {"x": 540, "y": 930, "zoom": 1.06},
+        "moves": [{"type": "punch", "times": ["c2:七千", "c2:随便抄"], "amt": 0.05}]},
+      "fx": [
+        {"type": "particles", "kind": "embers", "layer": "back", "count": 40, "area": [0, 300, 1080, 1920]},
+        {"type": "shockwave", "at": "c2:七千", "center": [540, 440], "radius": 760, "dur": 0.6},
+        {"type": "particles", "kind": "sparks", "times": ["c2:七千"], "from": [540, 440], "count": 70},
+        {"type": "post", "name": "bloom", "amount": 0.3}
+      ],
+      "elements": [
+        {"id": "num", "text": "7000+", "size": 250, "color": "#fff3c4", "outline": "#5a3600", "x": 540, "y": 440, "at": "c2:七千", "draw": 0.35, "pen": false},
+        {"id": "label", "text": "分镜提示词", "size": 104, "color": "#ffffff", "outline": "#3a2400", "x": 540, "y": 640, "at": "c2:分镜", "draw": 0.45, "pen": false},
+        {"id": "copy", "text": "随便抄！", "size": 86, "color": "#ff8a5c", "outline": "#ffffff", "x": 700, "y": 790, "rot": -6, "at": "c2:随便抄", "draw": 0.35, "pen": false}
+      ],
+      "actors": [{"character": "tianji", "x": 540, "y": 1610, "height": 780,
+        "actions": [{"type": "expression", "name": "happy", "at": "scene"}, {"type": "point", "arm": "arm_r", "at": "c2:分镜", "dur": 1.4}]}]
+    },
+    {
+      "id": "s3-漫剧真人",
+      "cues": [3],
+      "transition": {"type": "huashu:comicPanels", "dur": 0.6},
+      "backdrop": {"recipe": "26_vaporwave", "pan": [0.2, 0.34], "dim": 0.3},
+      "camera": {"from": {"x": 540, "y": 960, "zoom": 1.02}, "to": {"x": 540, "y": 960, "zoom": 1.08},
+        "moves": [{"type": "dutch", "at": "c3:分得", "dur": 0.4, "deg": -4}]},
+      "fx": [
+        {"type": "letterbox", "at": "scene", "size": 0.06},
+        {"type": "particles", "kind": "swordqi", "times": ["c3:分得", "c3:清清楚楚"], "life": 0.6, "area": [160, 300, 920, 860], "size": 1.5, "seed": "qi2"},
+        {"type": "flash", "at": "c3:分得", "dur": 0.25, "amount": 0.35, "color": "rgb(170,240,255)"},
+        {"type": "speedlines", "at": "c3:清清楚楚", "count": 70, "center": [540, 560], "amount": 0.5}
+      ],
+      "elements": [
+        {"id": "manju", "text": "漫剧", "size": 150, "color": "#7fe7ff", "outline": "#140a33", "x": 285, "y": 500, "at": "c3:漫剧", "draw": 0.35, "pen": false},
+        {"id": "zhenren", "text": "真人剧", "size": 132, "color": "#ffb3d6", "outline": "#140a33", "x": 790, "y": 500, "at": "c3:真人剧", "draw": 0.4, "pen": false},
+        {"id": "clear", "text": "分得清清楚楚", "size": 86, "color": "#ffffff", "outline": "#140a33", "x": 540, "y": 700, "at": "c3:分得", "draw": 0.55, "pen": false}
+      ],
+      "actors": [{"character": "tianji", "x": 540, "y": 1620, "height": 780,
+        "actions": [{"type": "expression", "name": "thinking", "at": "scene"}, {"type": "point", "arm": "arm_l", "at": "c3:漫剧", "dur": 1.0}, {"type": "expression", "name": "smug", "at": "c3:分得"}, {"type": "nod", "at": "c3:清清楚楚"}]}]
+    },
+    {
+      "id": "s4-手绘引擎",
+      "cues": [4],
+      "transition": {"type": "huashu:inkBloom", "dur": 0.8, "params": {"cx": 540, "cy": 900}},
+      "backdrop": {"recipe": "28_monet", "pan": [0.06, 0.2], "panY": 0.15, "zoom": [1.12, 1.18]},
+      "camera": {"from": {"x": 540, "y": 960, "zoom": 1.0}, "moves": [{"type": "pushIn", "at": "scene", "dur": 3.0, "amt": 0.08}]},
+      "fx": [
+        {"type": "reveal", "mode": "sketch", "at": "c4:手绘", "dur": 1.7},
+        {"type": "particles", "kind": "petals", "count": 22, "at": "c4:台词"}
+      ],
+      "elements": [
+        {"id": "engine", "text": "手绘引擎", "size": 150, "color": "#24407a", "outline": "#ffffff", "x": 540, "y": 430, "at": "c4:手绘", "draw": 0.5, "pen": false},
+        {"id": "lines", "text": "台词 → 动画", "size": 92, "color": "#c2410c", "outline": "#ffffff", "x": 540, "y": 620, "at": "c4:台词", "draw": 0.6, "pen": false}
+      ],
+      "actors": [{"character": "tianji", "x": 540, "y": 1610, "height": 800,
+        "actions": [{"type": "expression", "name": "happy", "at": "scene"}, {"type": "wave", "arm": "arm_l", "at": "c4:台词", "until": "c4.end"}]}]
+    },
+    {
+      "id": "s5-免费配音",
+      "cues": [5],
+      "transition": {"type": "huashu:dotBloom", "dur": 0.6},
+      "backdrop": {"recipe": "21_kusama", "zoom": [1.0, 1.1], "dim": 0.62, "dimColor": "40,0,18"},
+      "camera": {"from": {"x": 540, "y": 960, "zoom": 1.0}, "to": {"x": 540, "y": 940, "zoom": 1.04},
+        "moves": [{"type": "crashZoom", "at": "c5:免费", "dur": 0.3, "amt": 0.1, "release": "c5:一分钱", "releaseDur": 0.6}]},
+      "fx": [
+        {"type": "glow", "layer": "back", "center": [540, 1150], "radius": 560, "color": "255,190,120"},
+        {"type": "particles", "kind": "bokeh", "count": 12, "layer": "back"},
+        {"type": "flash", "at": "c5:免费", "dur": 0.28, "amount": 0.4},
+        {"type": "post", "name": "bloom", "amount": 0.28}
+      ],
+      "elements": [
+        {"id": "free", "text": "免费配音", "size": 156, "color": "#ffffff", "outline": "#b0102c", "x": 540, "y": 430, "at": "c5:免费", "draw": 0.45, "pen": false},
+        {"id": "zero", "text": "0 元 · 本地离线", "size": 84, "color": "#ffd54a", "outline": "#3a0010", "x": 540, "y": 620, "rot": 3, "at": "c5:一分钱", "draw": 0.5, "pen": false}
+      ],
+      "actors": [{"character": "tianji", "x": 540, "y": 1610, "height": 800,
+        "actions": [{"type": "expression", "name": "happy", "at": "scene"}, {"type": "nod", "at": "c5:免费"}, {"type": "hop", "at": "c5:不花"}]}]
+    },
+    {
+      "id": "s6-三条路线",
+      "cues": [6],
+      "transition": {"type": "glitch", "dur": 0.45},
+      "backdrop": {"gradient": ["#04050d", "#141b3d", "#2b1b47"]},
+      "camera": {"from": {"x": 540, "y": 960, "zoom": 1.04}, "to": {"x": 540, "y": 960, "zoom": 1.0},
+        "shakes": [{"at": "c6:三条", "dur": 0.3, "amp": 9}, {"at": "c6:三条+0.38", "dur": 0.3, "amp": 9}, {"at": "c6:三条+0.76", "dur": 0.3, "amp": 9}],
+        "moves": [{"type": "whip", "at": "c6:任你挑", "dur": 0.4, "dist": 260}]},
+      "fx": [
+        {"type": "particles", "kind": "embers", "layer": "back", "count": 30, "color": "120,160,255"},
+        {"type": "particles", "kind": "lightning", "times": ["c6:三条"], "area": [80, 0, 380, 470], "flash": 0.7, "size": 1.4},
+        {"type": "particles", "kind": "lightning", "times": ["c6:三条+0.38"], "area": [390, 0, 690, 470], "flash": 0.7, "size": 1.4},
+        {"type": "particles", "kind": "lightning", "times": ["c6:三条+0.76"], "area": [700, 0, 1000, 470], "flash": 0.7, "size": 1.4}
+      ],
+      "elements": [
+        {"id": "r1", "text": "路线 A", "size": 84, "color": "#9fd0ff", "outline": "#05060f", "x": 230, "y": 540, "at": "c6:三条", "draw": 0.3, "pen": false},
+        {"id": "r2", "text": "路线 B", "size": 84, "color": "#ffe08a", "outline": "#05060f", "x": 540, "y": 540, "at": "c6:三条+0.38", "draw": 0.3, "pen": false},
+        {"id": "r3", "text": "路线 C", "size": 84, "color": "#ffa3c8", "outline": "#05060f", "x": 850, "y": 540, "at": "c6:三条+0.76", "draw": 0.3, "pen": false},
+        {"id": "vg", "text": "视频生成 · 任你挑", "size": 80, "color": "#ffffff", "outline": "#05060f", "x": 540, "y": 720, "at": "c6:任你挑", "draw": 0.45, "pen": false}
+      ],
+      "actors": [{"character": "tianji", "x": 540, "y": 1610, "height": 800,
+        "actions": [{"type": "expression", "name": "surprised", "at": "c6:三条"}, {"type": "expression", "name": "smug", "at": "c6:任你挑"}, {"type": "raise", "arm": "arm_r", "at": "c6:任你挑", "until": "scene.end"}]}]
+    },
+    {
+      "id": "s7-Star",
+      "cues": [7],
+      "transition": {"type": "zoomBlur", "dur": 0.5},
+      "backdrop": {"gradient": ["#141c48", "#6b3a7a", "#ff8a5c", "#ffd27a"]},
+      "camera": {"from": {"x": 540, "y": 960, "zoom": 1.0}, "to": {"x": 540, "y": 960, "zoom": 1.05},
+        "moves": [{"type": "crashZoom", "at": "c7:Star", "dur": 0.35, "amt": 0.12}]},
+      "fx": [
+        {"type": "godrays", "layer": "back", "center": [540, 470], "count": 11, "spread": 6.28, "amount": 0.8, "at": "c7:点个"},
+        {"type": "particles", "kind": "stars", "layer": "back", "count": 40, "area": [0, 0, 1080, 1100]},
+        {"type": "shockwave", "at": "c7:Star", "center": [540, 470], "radius": 900},
+        {"type": "particles", "kind": "sparks", "times": ["c7:Star"], "from": [540, 470], "count": 90},
+        {"type": "flash", "at": "c7:Star", "dur": 0.3, "amount": 0.5},
+        {"type": "post", "name": "lensFlare", "sun": [820, 330], "at": "c7:点个"}
+      ],
+      "elements": [
+        {"id": "star", "shape": "star", "x": 540, "y": 470, "scale": 3.0, "at": "c7:Star", "appear": "pop", "draw": 0.35, "pen": false, "motion": {"type": "spin", "speed": 25}},
+        {"id": "cta", "text": "点个 Star", "size": 128, "color": "#ffffff", "outline": "#c2410c", "x": 540, "y": 760, "at": "c7:点个", "draw": 0.45, "pen": false},
+        {"id": "repo", "text": "ai-video-prompt-hub", "size": 54, "color": "#fff6d8", "outline": "#2a1838", "x": 540, "y": 880, "at": "c7:Star+0.2", "draw": 0.5, "pen": false}
+      ],
+      "actors": [{"character": "tianji", "x": 540, "y": 1610, "height": 800,
+        "actions": [{"type": "expression", "name": "happy", "at": "scene"}, {"type": "point", "arm": "arm_r", "at": "c7:点个", "dur": 1.2}, {"type": "hop", "at": "c7:Star"}]}]
+    }
+  ]
+}

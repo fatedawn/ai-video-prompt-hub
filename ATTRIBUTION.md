@@ -97,7 +97,7 @@
 
 ## animator/（手绘动画渲染器）的来源
 
-`animator/` 的代码全部由本仓库原创实现。下面第 7 节是**唯一复制了内容**的上游；第 8–12 节**只借鉴了思路**，没有复制代码、数据或素材，列在这里是为了说明出处。所有许可都已按各仓库在所列 commit 的 LICENSE 文件核对（2026-10-08）。
+`animator/` 自己的代码由本仓库原创实现。下面第 7 节（画风提示词数据）和第 10 节（huashu-art-motion 的 MIT 代码，放在 `animator/vendor/`）是**复制了内容**的上游；第 8、9、11、12 节**只借鉴了思路**，没有复制代码、数据或素材，列在这里是为了说明出处。所有许可都已按各仓库在所列 commit 的 LICENSE 文件和 README 核对（2026-10-08）。
 
 ## 7. gnipbao / story-to-handdrawn-video（复制：画风提示词数据）
 
@@ -140,15 +140,21 @@
 | 借鉴的思路 | 用真实手绘媒介（蜡笔、彩铅、水彩等）的质感逐笔画出 |
 | 本仓库实现 | `animator/src/runtime/media.js`、`geometry.js`、`sprite.js`。**未复制任何代码、素材或音色包**，因此不涉及 Apache-2.0 第 4(d) 条的 NOTICE 转载义务 |
 
-## 10. alchaincyf / huashu-art-motion（仅思路，且只涉及其 MIT 代码部分）
+## 10. alchaincyf / huashu-art-motion（复制：MIT 代码移植）
 
 | 项目 | 内容 |
 |---|---|
+| 标题 | huashu-art-motion |
+| 作者 | alchaincyf（花叔 · 花生） |
 | 链接 | https://github.com/alchaincyf/huashu-art-motion |
-| 许可 | 代码 MIT（Copyright (c) 2026 alchaincyf (花叔 · 花生)）。例外：Arphic 笔画数据 `strokes.js`、OFL 字体、「花叔」形象不属于 MIT |
-| 版本 | commit `26dba25b2b495c2138848c29a2c90df356a20325` |
-| 借鉴的思路 | Canvas 逐帧渲染 → 浏览器自动化 → ffmpeg 编码；JSON 镜头脚本 + cue；每个镜头必须有一个主动作；相机运动与转场 |
-| 本仓库实现 | `animator/src/browser.mjs`、`animator/src/runtime/engine.js`。**未使用** Arphic 笔画数据、任何字体、「花叔」形象和任何角色素材；角色系统与该项目无关 |
+| 许可 | 代码和文档 MIT（Copyright (c) 2026 alchaincyf (花叔 · 花生)），全文见 `LICENSES/alchaincyf_huashu-art-motion-MIT.txt` 与 `animator/vendor/huashu-art-motion/LICENSE`。上游 README 列明的例外（不属于 MIT）：Arphic 笔顺数据 `reference_films/spacex/spacex_wb/assets/strokes.js`（Arphic Public License）、`scripts/engine/lib/fonts/` 字体（SIL OFL）、花叔卡通形象与角色帧（`scripts/engine/demos/_shared/hero/`、`demos/long_scroll/frames/`、`assets/角色/`，以及含该形象的总览图和示范视频，仅限上游示范） |
+| 版本 | commit `f178bd7754a71d6d399473af1501634548efa6cb`（2026-10-08；此前仅借鉴思路时核对的是 `26dba25`） |
+| 取用（逐字节拷贝，90 个文件，保留原注释） | `LICENSE`；`scripts/engine/lib/{util,motion,paint,brush,render,post,kit,camera,typo,ui,diagram,collage,chart,rig}.js`；`scripts/engine/transitions.js`（50 种转场）；`scripts/engine/eras_gallery.js`；`scripts/engine/scenes/` 的 35 个风格配方 `01_cave` `02_egypt` `03_greek` `04_roman` `05_gothic` `06_renaissance` `08_impressionism` `09_postimp` `10_nouveau` `11_cubism` `12_bauhaus` `13_pop` `14_8bit` `15_raytrace` `16_2026` `17_ink` `18_klimt` `19_munch` `20_dunhuang` `21_kusama` `22_constructivism` `23_dali` `24_hopper` `25_ghibli` `26_vaporwave` `27_kirby` `28_monet` `29_seurat` `30_matisse` `31_haring` `32_rembrandt` `33_rubberhose` `34_shadowpuppet` `35_shinkai` `36_picasso_blue`；`references/风格配方/` 的 35 张配方卡与 `INDEX.md`、`_转场_迁移测试.md`、`_音轨_艺术史速通.md` → `animator/vendor/huashu-art-motion/`（同名相对路径） |
+| 改动 | 磁盘上无改动。运行时改动由本仓库适配层完成：舞台类脚本（paint / brush / render / post / kit / transitions）加载时把 `const W = 1920, H = 1080` 在内存中替换为可变舞台尺寸（竖屏 1080×1920）；配方在独立的 1920×1080 iframe 中绘制后作为背景铺入；可选隐藏上游代码绘制的少女 / 猫（`hideCast`，默认开）；对 `post.gateWeave` 与 `pointillism` 的调用参数做了适配 |
+| 未取用 | 字体与 `fonts.js`；`reference_films/**`（Arphic 数据、手部图片）；`rig_huashu.js`、`toon.js`（豆子花叔）、`clips/**`；`demos/**`、`assets/**`、`examples/**` 的全部图片；`engine.js`、`eras.js`、`index.html`、Python 脚本、测试、`SKILL.md`、`references/动画语法` 等文档 |
+| 本仓库实现（Apache-2.0） | 适配层 `animator/src/runtime/fx/huashu.js`、目录 `animator/src/fxcatalog.mjs`、`engine.js` / `project.mjs` / `browser.mjs` 中的接入代码、`tools/fx_gallery.mjs`；我们自己新增的粒子、素描上色、水墨开场、运镜、转场与叠加层在 `animator/src/runtime/fx/effects.js`，与上游无关 |
+| 许可范围 | `animator/vendor/huashu-art-motion/` 下的文件**仍是 MIT，版权归原作者**；Apache-2.0 只覆盖本仓库的改动和适配代码 |
+| 更早借鉴的思路 | Canvas 逐帧渲染 → 浏览器自动化 → ffmpeg 编码；JSON 镜头脚本 + cue；每个镜头必须有一个主动作（`browser.mjs`、`engine.js`，本仓库自行实现） |
 
 ## 11. HKUDS / ViMax（仅思路）
 

@@ -1,5 +1,6 @@
 // Headless Chromium driver + ffmpeg encoder. Original code for ai-video-prompt-hub/animator.
-// Idea credit: Canvas page -> Playwright frame capture -> ffmpeg pipe (alchaincyf/huashu-art-motion, MIT; idea only).
+// Idea credit: Canvas page -> Playwright frame capture -> ffmpeg pipe (alchaincyf/huashu-art-motion, MIT);
+// its code is ported under MIT in vendor/huashu-art-motion and served at /vendor/.
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -9,6 +10,8 @@ import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright-core';
 
 const RUNTIME = path.join(path.dirname(fileURLToPath(import.meta.url)), 'runtime');
+// vendored third-party code (animator/vendor/<name>/, each under its own licence) is served read-only under /vendor/
+const VENDOR = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'vendor');
 
 export function findChrome() {
   const cands = [];
@@ -33,8 +36,9 @@ export function startServer(project) {
   const server = http.createServer((req, res) => {
     const url = decodeURIComponent(req.url.split('?')[0]);
     if (url === '/__project.json') { res.writeHead(200, { 'content-type': 'application/json; charset=utf-8' }); res.end(JSON.stringify(project)); return; }
-    const f = path.join(RUNTIME, url === '/' ? 'index.html' : url);
-    if (!f.startsWith(RUNTIME) || !fs.existsSync(f)) { res.writeHead(404); res.end(); return; }
+    const root = url.startsWith('/vendor/') ? VENDOR : RUNTIME;
+    const f = path.join(root, url === '/' ? 'index.html' : url.startsWith('/vendor/') ? url.slice(7) : url);
+    if (!f.startsWith(root + path.sep) || !fs.existsSync(f) || !fs.statSync(f).isFile()) { res.writeHead(404); res.end(); return; }
     const type = f.endsWith('.js') ? 'text/javascript' : f.endsWith('.html') ? 'text/html; charset=utf-8' : 'application/octet-stream';
     res.writeHead(200, { 'content-type': type, 'cache-control': 'no-store' });
     fs.createReadStream(f).pipe(res);

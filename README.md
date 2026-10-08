@@ -18,7 +18,7 @@
 | 免费、离线的中文配音（带字级时间戳） | `animator/tts/`：Kokoro v1.1-zh（Apache-2.0，CPU），edge-tts 可选 | `cd animator && npm run setup:tts && node src/cli.mjs tts 工程.json` |
 | 找开源漫剧 / 漫画工具 | [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md)（仅链接） | — |
 
-预览（随仓库提交的小文件）：[天机设定图](docs/assets/tianji_sheet.png) · [天机剪影](docs/assets/tianji_silhouette.png) · [天机演示视频（带配音）](docs/assets/tianji-demo.mp4) · [路线 C 演示成片（替身片段）](docs/assets/videogen-route-c-demo.mp4)
+预览（随仓库提交的小文件）：[天机设定图](docs/assets/tianji_sheet.png) · [天机剪影](docs/assets/tianji_silhouette.png) · [天机电影感特效展示（带配音）](docs/assets/tianji-showcase.mp4) · [路线 C 演示成片（替身片段）](docs/assets/videogen-route-c-demo.mp4)
 
 > 原作者 / 权利人如需删除，请用 [下架申请模板](.github/ISSUE_TEMPLATE/takedown.md) 提 issue（见下文「合规与下架」）。贡献新提示词请先读 [CONTRIBUTING.md](CONTRIBUTING.md)；**不要提交任何 API key**（见 [SECURITY.md](SECURITY.md)）。
 
@@ -47,7 +47,7 @@
    - 方法论见 [`docs/分镜提示词手册.md`](docs/分镜提示词手册.md)；
    - Agent Skill 见 [`docs/skill/SKILL.md`](docs/skill/SKILL.md)。
 5. **找工具**：漫剧 / 漫画相关的开源代码项目（生成管线、线稿上色、分镜、ComfyUI、一站式短剧平台）见 [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md)。这份清单只放链接。
-6. **做手绘动画**：[`animator/`](animator/README.md) 是本仓库自带的手绘动画渲染器。默认主持人是原创角色「天机」（招牌动作「亮扇」），写一个台词文件就能一条命令出片：本地开源 TTS 配音 → 字级时间戳 → 蜡笔 / 彩铅等画材逐笔画出、与台词逐字对齐的竖屏 MP4。也支持定义自己的角色（SVG 部件骨骼或 PNG 设定图）。
+6. **做手绘动画**：[`animator/`](animator/README.md) 是本仓库自带的手绘动画渲染器。默认主持人是原创角色「天机」（招牌动作「亮扇」），写一个台词文件就能一条命令出片：本地开源 TTS 配音 → 字级时间戳 → 蜡笔 / 彩铅等画材逐笔画出、与台词逐字对齐的竖屏 MP4。也支持定义自己的角色（SVG 部件骨骼或 PNG 设定图）。还内置电影感特效：35 种名画 / 风格配方背景、50+ 转场、粒子（星光、花瓣、剑气、闪电…）、素描→上色、水墨开场、推拉摇移与甩镜等运镜（`node src/cli.mjs fx` 列出全部）；其中风格配方、转场和后期层移植自 [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)（MIT）。
    ```bash
    cd animator && npm install && npm run setup:tts && npm run demo    # → animator/examples/out/demo.mp4（带配音）
    ```
@@ -322,6 +322,7 @@ Star 数为 2026-10-08 查询值。
   - `prompts/` 与 `templates/` 中的每个文件，front matter 里的 `license` 写明了它的上游许可（MIT 或 CC BY 4.0），并保留原作者署名与原帖链接；上游许可全文与版权行见 [`LICENSES/`](LICENSES/)；
   - 第三方原作者（X/Twitter 用户、博主等）的提示词版权归原作者，本仓库不对其授予任何许可；
   - `animator/presets/handdrawn-styles.json` 的上游条目是第三方 MIT 数据（各条保留上游来源标签以便溯源），本仓库的改写部分按 Apache-2.0 提供；
+  - `animator/vendor/huashu-art-motion/`：**按 MIT 移植的代码**，来自 [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)（commit `f178bd7`，MIT，Copyright (c) 2026 alchaincyf (花叔 · 花生)），包括引擎库、50 种转场、35 个风格配方及配方卡，原样拷贝、保留原注释。这些文件仍是 MIT、版权归原作者；Apache-2.0 只覆盖本仓库的适配层与改动。**没有**拷贝其 Arphic 笔顺数据、字体、「花叔」形象或任何图片素材。清单见该目录 `VENDOR.md` 与 ATTRIBUTION.md 第 10 节；
   - 手册中的【原文摘录】是对第三方的简短引用，版权归原权利人，见 NOTICE.md 第 3 节。
 - **关于「天机」**：「天机」是频道的身份标识。Apache-2.0 第 6 条本来就不授予商标 / 商号的使用权；请不要用「天机」名称或形象冒充频道或暗示频道背书。这只是提醒，不是在 Apache-2.0 之外附加限制。
 - 预览视频的配音由 Kokoro-82M v1.1-zh（hexgrad，Apache-2.0）本地合成。TTS 模型、视频模型均不随仓库分发；API key 由用户自己提供（`.env`，不进 git）。

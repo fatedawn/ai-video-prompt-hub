@@ -14,7 +14,9 @@
     "demo:doudou": "node src/cli.mjs render examples/doudou/project.json --out examples/out/doudou.mp4",
     "setup:tts": "python3 -m venv .venv && .venv/bin/pip install -r tts/requirements.txt && .venv/bin/python tts/fetch_models.py",
     "make": "node src/cli.mjs make",
-    "demo:silent": "node src/cli.mjs render examples/demo/project.json --out examples/out/demo.mp4"
+    "demo:silent": "node src/cli.mjs render examples/demo/project.json --out examples/out/demo.mp4",
+    "showcase": "node src/cli.mjs make examples/showcase/project.json --out examples/out/showcase.mp4",
+    "fx": "node src/cli.mjs fx"
   },
   "engines": {
     "node": ">=18"

@@ -1,6 +1,12 @@
 // Render a stroke drawing (see geometry.js) into an offscreen sprite at a given progress.
 // Original code for ai-video-prompt-hub/animator.
-import { makeCanvas } from './util.js';
+import { makeCanvas, hexToRgb } from './util.js';
+
+// Opaque underpaint: crayon / marker / wash fills are deliberately see-through (paper tooth). On paper that reads as
+// texture; over a busy or dark backdrop it shows the background through faces and clothes. With underpaint on, every
+// started fill group first gets a flat, light tint of its own colour, so marks keep their texture but never show holes.
+export const UNDERPAINT = { value: false };
+const tint = (c, k = 0.42) => { const { r, g, b } = hexToRgb(c); const m = (v, w) => Math.round(v + (w - v) * k); return `rgb(${m(r, 255)},${m(g, 250)},${m(b, 242)})`; };
 import { drawStroke, drawWash, applyGrain } from './media.js';
 
 /**
@@ -74,12 +80,19 @@ export function renderDrawing(drawing, p, phase, res) {
     tc.drawImage(m, 0, 0);
     fc.save(); fc.setTransform(1, 0, 0, 1, 0, 0); fc.drawImage(tmp, 0, 0); fc.restore();
   });
+  const under = media.fill.underpaint ?? UNDERPAINT.value;
+  let underC = null;
+  if (under) {
+    underC = makeCanvas(W, H); const uc = underC.getContext('2d'); setT(uc);
+    groups.forEach((g, gi) => { if (!(groupAny[gi] && (p >= 1 || groupDone[gi])) && !(g.instant && started)) return; uc.fillStyle = typeof under === 'string' ? under : tint(g.color); uc.fill(g.path, g.rule); });
+  }
   const kind = media.label === '蜡笔' ? 'crayon' : 'pencil';
   const worldRes = res * (drawing.unit || 1); // sprite pixels per world pixel -> grain has a constant world size
   applyGrain(fc, W, H, media.fill.grain, kind, worldRes);
   applyGrain(lc, W, H, media.line.grain * 0.8, kind, worldRes);
-  // fills under lines
+  // fills under lines (underpaint under the fills)
   fc.setTransform(1, 0, 0, 1, 0, 0);
+  if (underC) { fc.globalCompositeOperation = 'destination-over'; fc.drawImage(underC, 0, 0); fc.globalCompositeOperation = 'source-over'; }
   fc.drawImage(lineC, 0, 0);
   return { canvas: fillC, x: bbox.x, y: bbox.y, scale: res, head };
 }

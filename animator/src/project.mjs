@@ -2,11 +2,13 @@
 // Idea credits: bind every visual element to a subtitle event (geeklee/srt-whiteboard-animation, MIT);
 // JSON spec with second-accurate cues and "every scene needs a main motion" rule (alchaincyf/huashu-art-motion, MIT);
 // characters declared once in a project-level asset list and reused per shot (HKUDS/ViMax, HBAI-Ltd/Toonflow-app).
-// All ideas reimplemented; no code copied.
+// These ideas are reimplemented here. The cinematic catalogue (recipes, huashu:<transition>, post/stylisers) refers to
+// code ported under MIT in vendor/huashu-art-motion (© alchaincyf); validation here is our own (Apache-2.0).
 import fs from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
 import { parseSrt } from './srt.mjs';
+import { huashuCatalog, BUILTIN_TRANSITIONS, OWN_TRANSITIONS, HUASHU_POST, HUASHU_STYLISERS, PARTICLES, OVERLAYS, CAMERA_MOVES } from './fxcatalog.mjs';
 
 const MIME = { '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.gif': 'image/gif' };
 const PUNCT = /[\s，。！？、；：“”‘’「」『』（）《》…—,.!?;:'"()\-]/;
@@ -211,7 +213,8 @@ export function compileProject(file, opts = {}) {
     const s = sc.src;
     const scene = { id: sc.id, start: sc.start, end: sc.end, paper: s.paper, media: s.media, items: [] };
     const tr = s.transition ?? P.transition ?? 'scribble';
-    scene.transition = typeof tr === 'string' ? { type: tr, dur: tr === 'cut' ? 0 : 0.6 } : { type: tr.type, dur: tr.dur ?? 0.6 };
+    scene.transition = typeof tr === 'string' ? { type: tr, dur: tr === 'cut' ? 0 : 0.6 } : { type: tr.type, dur: tr.dur ?? 0.6, params: tr.params || undefined };
+    checkTransition(scene.transition.type, sc.id);
     // camera
     const cam = s.camera || {};
     const keys = [];
@@ -220,8 +223,25 @@ export function compileProject(file, opts = {}) {
     if (cam.to) keys.push({ t: cam.toAt ? T.at(cam.toAt, scene) : sc.end, ease: cam.ease || 'inOut', ...cam.to });
     keys.forEach((k) => { k.x = k.x ?? W / 2; k.y = k.y ?? H / 2; k.zoom = k.zoom ?? 1; delete k.at; });
     keys.sort((a, b) => a.t - b.t);
-    scene.camera = { keys, handheld: cam.handheld, shakes: (cam.shakes || []).map((x) => ({ at: T.at(x.at, scene), dur: x.dur || 0.4, amp: x.amp || 10 })) };
+    scene.camera = { keys, handheld: cam.handheld, shakes: (cam.shakes || []).map((x) => ({ at: T.at(x.at, scene), dur: x.dur || 0.4, amp: x.amp || 10 })),
+      moves: (cam.moves || []).map((m) => {
+        if (!CAMERA_MOVES.includes(m.type)) throw new Error(`镜头 ${sc.id} 的 camera.moves 类型「${m.type}」不存在（可选：${CAMERA_MOVES.join(' ')}）`);
+        const mm = { ...m, at: T.at(m.at ?? 'scene', scene) };
+        if (m.times) mm.times = [].concat(m.times).map((x) => T.at(x, scene));
+        for (const k of ['release', 'back']) if (m[k] !== undefined) mm[k] = T.at(m[k], scene);
+        return mm;
+      }) };
+    // cinematic layer: backdrop (style recipe / gradient), whole-frame styliser, fx layers
+    if (s.backdrop) scene.backdrop = compileBackdrop(s.backdrop, sc.id);
+    if (s.style) {
+      const st = typeof s.style === 'string' ? { name: s.style } : { ...s.style };
+      if (!HUASHU_STYLISERS.includes(st.name)) throw new Error(`镜头 ${sc.id} 的 style「${st.name}」不存在（可选：${HUASHU_STYLISERS.join(' ')}）`);
+      if (st.at !== undefined) st.start = T.at(st.at, scene); if (st.until !== undefined) st.end = T.at(st.until, scene);
+      delete st.at; delete st.until; scene.style = st;
+    }
+    scene.fx = (s.fx || []).map((f) => compileFx(f, scene, T, sc.id));
     let mainMotion = keys.length >= 2 && keys.some((k, i) => i && (k.x !== keys[0].x || k.y !== keys[0].y || k.zoom !== keys[0].zoom));
+    if (scene.camera.moves.length || scene.backdrop?.recipe || scene.fx.length) mainMotion = true;
     if (!keys.length) mainMotion = true; // default slow push-in is generated in the runtime
 
     // elements
@@ -308,10 +328,44 @@ export function compileProject(file, opts = {}) {
     title: P.title || '', width: W, height: H, fps, duration, media: media || 'crayon', paper: P.paper || {},
     subtitle: { font: '"LXGW WenKai", "Noto Sans CJK SC", "Source Han Sans SC", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif', ...(P.subtitle || {}) },
     pen: P.pen ?? true, boilFps: P.boilFps || 8, camera: P.camera || {}, characters, cues, scenes: out, stylePreset: P.stylePreset || null,
+    vignette: P.vignette ?? true, underpaint: P.underpaint, post: (P.post || []).map((f) => compileFx(f, { start: 0, end: duration }, T, 'project.post')),
   };
   const audio = timing.audio || P.audio ? path.resolve(dir, timing.audio || P.audio) : null;
   if (audio && !fs.existsSync(audio)) warnings.push(`音频文件不存在，将输出无声视频: ${audio}`);
   return { project, warnings, audio: audio && fs.existsSync(audio) ? audio : null, file: projFile, dir };
+}
+
+function checkTransition(type, where) {
+  if (BUILTIN_TRANSITIONS.includes(type) || OWN_TRANSITIONS.includes(type)) return;
+  if (type.startsWith('huashu:')) {
+    const n = type.slice(7), names = huashuCatalog().transitions;
+    if (!names.includes(n)) throw new Error(`镜头 ${where}: huashu 转场「${n}」不存在（可选：${names.join(' ')}）`);
+    return;
+  }
+  throw new Error(`镜头 ${where}: 转场「${type}」不存在（可选：${[...BUILTIN_TRANSITIONS, ...OWN_TRANSITIONS].join(' ')}，或 huashu:<名>，见 cli fx）`);
+}
+
+function compileBackdrop(b, where) {
+  const o = typeof b === 'string' ? { recipe: b } : { ...b };
+  if (o.recipe) {
+    const ids = huashuCatalog().recipes.map((r) => r.id);
+    if (!ids.includes(o.recipe)) throw new Error(`镜头 ${where}: 风格配方「${o.recipe}」不存在（可选：${ids.join(' ')}）`);
+  }
+  if (!o.recipe && !o.gradient) throw new Error(`镜头 ${where}: backdrop 需要 recipe 或 gradient`);
+  return o;
+}
+
+function compileFx(f, scene, T, where) {
+  const o = { ...f };
+  o.start = T.at(f.at ?? 'scene', scene);
+  o.end = f.until !== undefined ? T.at(f.until, scene) : (f.type === 'particles' || f.type === 'post' || ['godrays', 'letterbox', 'grade', 'glow', 'speedlines'].includes(f.type) ? scene.end : null);
+  if (f.times) o.times = [].concat(f.times).map((x) => T.at(x, scene));
+  delete o.at; delete o.until;
+  if (f.type === 'particles') { if (!PARTICLES.includes(f.kind)) throw new Error(`${where}: 粒子「${f.kind}」不存在（可选：${PARTICLES.join(' ')}）`); }
+  else if (f.type === 'post') { if (!HUASHU_POST.includes(f.name)) throw new Error(`${where}: 后期层「${f.name}」不存在（可选：${HUASHU_POST.join(' ')}）`); }
+  else if (f.type === 'reveal') { if (!['sketch', 'bloom', 'ink'].includes(f.mode || 'sketch')) throw new Error(`${where}: reveal.mode 只能是 sketch / bloom / ink`); o.mode = f.mode || 'sketch'; o.dur = f.dur ?? 1.6; }
+  else if (!OVERLAYS.includes(f.type)) throw new Error(`${where}: 特效类型「${f.type}」不存在（可选：particles reveal post ${OVERLAYS.join(' ')}）`);
+  return o;
 }
 
 function defaultDur(type) {
@@ -326,7 +380,10 @@ export function describe(compiled) {
   L.push(`字幕 ${project.cues.length} 条（时间来源：${project.cues[0]?.timing === 'words' ? '词级时间戳' : 'SRT 句级 + 句内按字线性估计'}）`);
   for (const c of project.cues) L.push(`  c${c.index} [${c.start.toFixed(2)}–${c.end.toFixed(2)}]${c.speaker ? ' <' + c.speaker + '>' : ''} ${c.text}`);
   for (const s of project.scenes) {
-    L.push(`镜头 ${s.id} [${s.start.toFixed(2)}–${s.end.toFixed(2)}] 转场 ${s.transition.type}  相机关键帧 ${s.camera.keys.length}`);
+    L.push(`镜头 ${s.id} [${s.start.toFixed(2)}–${s.end.toFixed(2)}] 转场 ${s.transition.type}  相机关键帧 ${s.camera.keys.length}${s.camera.moves?.length ? '  运镜 ' + s.camera.moves.map((m) => `${m.type}@${m.at.toFixed(2)}`).join(' ') : ''}`);
+    if (s.backdrop) L.push(`  · 背景 ${s.backdrop.recipe ? '风格配方 ' + s.backdrop.recipe : '渐变'}${s.backdrop.recipe && s.backdrop.hideCast === false ? '（含原片角色）' : ''}`);
+    if (s.style) L.push(`  · 整帧风格 ${s.style.name}`);
+    for (const f of s.fx || []) L.push(`  · 特效 ${f.type}${f.kind ? ':' + f.kind : ''}${f.name ? ':' + f.name : ''}${f.mode ? ':' + f.mode : ''} @${f.start.toFixed(2)}s${f.end != null ? '–' + f.end.toFixed(2) + 's' : ''}${f.times ? ' ×' + f.times.length : ''}`);
     for (const it of s.items) {
       if (it.kind === 'element') L.push(`  · 元素 ${it.id.padEnd(12)} ${it.start.toFixed(2)}s 开始画 → ${(it.start + it.draw).toFixed(2)}s 画完${it.cueRef ? '  ← ' + it.cueRef : ''}${it.motions.length ? '  动效: ' + it.motions.map((m) => m.type).join(',') : ''}`);
       else L.push(`  · 角色 ${it.id} (${it.character}) 出场 ${it.appear.type}@${it.appear.at.toFixed(2)}s  动作: ${it.actions.map((a) => `${a.type}[${a.start.toFixed(2)}–${a.end.toFixed(2)}]`).join(' ') || '无'}  表情: ${it.expressions.map((e) => `${e.name}@${e.t.toFixed(2)}`).join(' ') || '默认'}  说话: ${it.talk.map(([a, b]) => `${a.toFixed(2)}–${b.toFixed(2)}`).join(' ') || '无'}`);

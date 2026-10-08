@@ -19,6 +19,7 @@ const HELP = `用法: node src/cli.mjs <命令> [参数]
   sheet   <character.json> [--out sheet.png] [--media crayon] [--transparent]
                                               渲染角色设定图（各表情 + 说话 + 动作）并输出每格裁切坐标
   styles  [--search 蜡笔] [--featured] [--show <id>]   查询可选画风预设（AI 生图提示词用）
+  fx                                          列出电影感特效：35 种风格配方背景、50+ 转场、粒子、素描上色/水墨开场、后期层、运镜
   make    <project.json|script.txt> [--out x.mp4]   一条命令出片：配音(TTS) → SRT/字级时间戳 → 渲染 → 带声音+字幕的 MP4
           [--engine local|edge|none] [--voice kokoro:zm_052] [--character tianji] [--scale 0.5]
   tts     <project> [--engine local|edge] [--voice kokoro:zm_052]   只生成配音 + SRT + 字级时间戳
@@ -88,6 +89,7 @@ async function main() {
   const a = args(rest);
   if (!cmd || cmd === 'help' || a.help) { console.log(HELP); return; }
   if (cmd === 'styles') { const { stylesCmd } = await import('./styles.mjs'); return stylesCmd(a); }
+  if (cmd === 'fx') { const { fxCmd } = await import('./fxcatalog.mjs'); return fxCmd(a); }
   if (cmd === 'tts') { const { ttsCmd } = await import('./tts.mjs'); return ttsCmd(a); }
   if (cmd === 'sheet') return sheetCmd(a);
   if (cmd === 'init') {

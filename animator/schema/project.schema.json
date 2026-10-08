@@ -10,23 +10,60 @@
       "description": "时间引用：数字=绝对秒；\"c3\"=第3条字幕开始；\"c3.end\"=结束；\"c3:苹果树\"=说到「苹果树」的时刻（有词级时间戳用真实值，否则按字在句内线性估计）；\"c3:苹果树.end\"=这个词说完；\"c3:果#2\"=第2次出现；可加偏移 \"+0.2\"/\"-0.3\"；\"scene\"/\"scene.end\"=本镜头开始/结束。也可写对象 {cue, word, edge:'start'|'end', nth, offset}。",
       "oneOf": [
         {"type": "number"},
-        {"type": "string", "pattern": "^(\\s*[+-]?\\d*\\.?\\d+\\s*|(c\\d+(:[^+]+?)?(\\.end|\\.start)?|scene(\\.end|\\.start)?)([+-]\\d*\\.?\\d+)?)$"},
-        {"type": "object", "properties": {"cue": {"type": "integer"}, "word": {"type": "string"}, "edge": {"enum": ["start", "end"]}, "nth": {"type": "integer"}, "offset": {"type": "number"}, "scene": {"enum": ["start", "end"]}}}
+        {
+          "type": "string",
+          "pattern": "^(\\s*[+-]?\\d*\\.?\\d+\\s*|(c\\d+(:[^+]+?)?(\\.end|\\.start)?|scene(\\.end|\\.start)?)([+-]\\d*\\.?\\d+)?)$"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cue": {"type": "integer"},
+            "word": {"type": "string"},
+            "edge": {"enum": ["start", "end"]},
+            "nth": {"type": "integer"},
+            "offset": {"type": "number"},
+            "scene": {"enum": ["start", "end"]}
+          }
+        }
       ]
     },
     "point": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2},
-    "media": {"enum": ["crayon", "colored-pencil", "pencil", "ink", "picture-book", "marker"], "description": "画材：蜡笔 / 彩铅 / 铅笔素描 / 钢笔淡彩·水墨 / 绘本（铅笔+水彩）/ 马克笔"},
-    "camKey": {"type": "object", "properties": {"x": {"type": "number"}, "y": {"type": "number"}, "zoom": {"type": "number"}, "rot": {"type": "number"}, "ease": {"enum": ["linear", "in", "out", "inOut", "outBack", "outBounce"]}}},
+    "media": {
+      "enum": ["crayon", "colored-pencil", "pencil", "ink", "picture-book", "marker"],
+      "description": "画材：蜡笔 / 彩铅 / 铅笔素描 / 钢笔淡彩·水墨 / 绘本（铅笔+水彩）/ 马克笔"
+    },
+    "camKey": {
+      "type": "object",
+      "properties": {
+        "x": {"type": "number"},
+        "y": {"type": "number"},
+        "zoom": {"type": "number"},
+        "rot": {"type": "number"},
+        "ease": {"enum": ["linear", "in", "out", "inOut", "outBack", "outBounce"]}
+      }
+    },
     "motion": {
       "type": "object",
       "required": ["type"],
       "description": "元素画完后的动效（默认从画完那一刻开始；at 可改起点，until 可设终点）",
       "properties": {
         "type": {"enum": ["drift", "sway", "spin", "bob", "pulse", "twinkle", "rise", "move", "fall", "flow"]},
-        "at": {"$ref": "#/definitions/timeRef"}, "until": {"$ref": "#/definitions/timeRef"},
-        "dx": {"type": "number"}, "dy": {"type": "number"}, "period": {"type": "number"}, "deg": {"type": "number"}, "speed": {"type": "number"},
-        "amp": {"type": "number"}, "amt": {"type": "number"}, "dist": {"type": "number"}, "dur": {"type": "number"},
-        "to": {"$ref": "#/definitions/point"}, "from": {"$ref": "#/definitions/point"}, "ease": {"type": "string"}, "arc": {"type": "number"}, "spin": {"type": "number"}
+        "at": {"$ref": "#/definitions/timeRef"},
+        "until": {"$ref": "#/definitions/timeRef"},
+        "dx": {"type": "number"},
+        "dy": {"type": "number"},
+        "period": {"type": "number"},
+        "deg": {"type": "number"},
+        "speed": {"type": "number"},
+        "amp": {"type": "number"},
+        "amt": {"type": "number"},
+        "dist": {"type": "number"},
+        "dur": {"type": "number"},
+        "to": {"$ref": "#/definitions/point"},
+        "from": {"$ref": "#/definitions/point"},
+        "ease": {"type": "string"},
+        "arc": {"type": "number"},
+        "spin": {"type": "number"}
       }
     },
     "element": {
@@ -35,35 +72,78 @@
       "description": "画面元素：内置图形 shape / 自己的 SVG / 位图 image / 手写文字 text 四选一",
       "properties": {
         "id": {"type": "string"},
-        "shape": {"enum": ["ground", "hill", "grass", "house", "sun", "cloud", "tree", "apple", "flower", "heart", "star", "sparkle", "wind", "road", "lane", "bird", "bush", "bubble", "basket", "paper", "frame", "terminal", "arrow", "bulb", "check"]},
+        "shape": {
+          "enum": ["ground", "hill", "grass", "house", "sun", "cloud", "tree", "apple", "flower", "heart", "star", "sparkle", "wind", "road", "lane", "bird", "bush", "bubble", "basket", "paper", "frame", "terminal", "arrow", "bulb", "check"]
+        },
         "svg": {"type": "string", "description": "SVG 文件路径（相对工程文件）；轮廓逐笔画出，填色区域用画材涂色"},
         "image": {"type": "string", "description": "PNG/JPG/WebP 路径；用涂抹式遮罩显现（不是矩形擦除）"},
-        "text": {"type": "string"}, "size": {"type": "number"}, "color": {"type": "string"}, "font": {"type": "string"},
-        "colors": {"type": "object", "description": "内置图形换色：line 轮廓、c1 主色、c2 辅色、c3 点缀", "additionalProperties": {"type": "string"}},
-        "x": {"type": "number"}, "y": {"type": "number"}, "scale": {"type": "number"}, "rot": {"type": "number"},
-        "origin": {"oneOf": [{"$ref": "#/definitions/point"}, {"enum": ["center", "bottom", "top"]}], "description": "定位/旋转原点（SVG 坐标）"},
-        "width": {"type": "number"}, "height": {"type": "number"},
+        "text": {"type": "string"},
+        "size": {"type": "number"},
+        "color": {"type": "string"},
+        "font": {"type": "string"},
+        "colors": {
+          "type": "object",
+          "description": "内置图形换色：line 轮廓、c1 主色、c2 辅色、c3 点缀",
+          "additionalProperties": {"type": "string"}
+        },
+        "x": {"type": "number"},
+        "y": {"type": "number"},
+        "scale": {"type": "number"},
+        "rot": {"type": "number"},
+        "origin": {
+          "oneOf": [{"$ref": "#/definitions/point"}, {"enum": ["center", "bottom", "top"]}],
+          "description": "定位/旋转原点（SVG 坐标）"
+        },
+        "width": {"type": "number"},
+        "height": {"type": "number"},
         "at": {"$ref": "#/definitions/timeRef", "description": "开始画的时刻（建议绑定到台词里的词）"},
         "draw": {"type": "number", "description": "画完需要的秒数"},
         "appear": {"enum": ["draw", "pop", "fade"]},
         "media": {"$ref": "#/definitions/media"},
         "pen": {"type": "boolean", "description": "是否显示铅笔笔尖（默认 true）"},
         "z": {"type": "number"},
-        "motion": {"oneOf": [{"$ref": "#/definitions/motion"}, {"type": "array", "items": {"$ref": "#/definitions/motion"}}]},
+        "motion": {
+          "oneOf": [{"$ref": "#/definitions/motion"}, {"type": "array", "items": {"$ref": "#/definitions/motion"}}]
+        },
         "exit": {"type": "object", "properties": {"at": {"$ref": "#/definitions/timeRef"}, "dur": {"type": "number"}}},
-        "attach": {"type": "object", "required": ["actor", "point"], "description": "挂到角色的挂点上（如 hand_r），跟着手动", "properties": {"actor": {"type": "string"}, "point": {"type": "string"}, "at": {"$ref": "#/definitions/timeRef"}, "blend": {"type": "number"}, "offset": {"$ref": "#/definitions/point"}, "rot": {"type": "number"}}}
+        "attach": {
+          "type": "object",
+          "required": ["actor", "point"],
+          "description": "挂到角色的挂点上（如 hand_r），跟着手动",
+          "properties": {
+            "actor": {"type": "string"},
+            "point": {"type": "string"},
+            "at": {"$ref": "#/definitions/timeRef"},
+            "blend": {"type": "number"},
+            "offset": {"$ref": "#/definitions/point"},
+            "rot": {"type": "number"}
+          }
+        }
       }
     },
     "action": {
       "type": "object",
       "required": ["type"],
       "properties": {
-        "type": {"enum": ["walk", "move", "wave", "point", "raise", "nod", "shake", "look", "jump", "hop", "tremble", "turn", "talk", "expression", "reveal"], "description": "reveal = 招牌动作：举起手中道具并唰地展开（角色需在 poseLayers.reveal 中定义展开后的图层）"},
-        "at": {"$ref": "#/definitions/timeRef"}, "until": {"$ref": "#/definitions/timeRef"}, "dur": {"type": "number"},
-        "from": {"$ref": "#/definitions/point"}, "to": {"$ref": "#/definitions/point"},
+        "type": {
+          "enum": ["walk", "move", "wave", "point", "raise", "nod", "shake", "look", "jump", "hop", "tremble", "turn", "talk", "expression", "reveal"],
+          "description": "reveal = 招牌动作：举起手中道具并唰地展开（角色需在 poseLayers.reveal 中定义展开后的图层）"
+        },
+        "at": {"$ref": "#/definitions/timeRef"},
+        "until": {"$ref": "#/definitions/timeRef"},
+        "dur": {"type": "number"},
+        "from": {"$ref": "#/definitions/point"},
+        "to": {"$ref": "#/definitions/point"},
         "arm": {"type": "string", "description": "wave/point/raise 用哪只手臂（部件 id，默认 arm_r）"},
-        "angle": {"type": "number"}, "times": {"type": "integer"}, "height": {"type": "number"}, "hz": {"type": "number"}, "amp": {"type": "number", "description": "wave 的摆动幅度（度）"}, "prop": {"type": "string", "description": "reveal 时甩动的道具部件 id（默认 fan）"}, "stepHz": {"type": "number"},
-        "name": {"type": "string", "description": "expression 的表情名"}, "face": {"enum": ["left", "right"]}
+        "angle": {"type": "number"},
+        "times": {"type": "integer"},
+        "height": {"type": "number"},
+        "hz": {"type": "number"},
+        "amp": {"type": "number", "description": "wave 的摆动幅度（度）"},
+        "prop": {"type": "string", "description": "reveal 时甩动的道具部件 id（默认 fan）"},
+        "stepHz": {"type": "number"},
+        "name": {"type": "string", "description": "expression 的表情名"},
+        "face": {"enum": ["left", "right"]}
       }
     },
     "actor": {
@@ -71,13 +151,140 @@
       "required": ["character"],
       "properties": {
         "character": {"type": "string", "description": "project.characters 里声明的角色 id"},
-        "id": {"type": "string"}, "x": {"type": "number"}, "y": {"type": "number"}, "height": {"type": "number", "description": "角色在世界里的像素高度（默认取 character.json 的 height）"},
-        "flip": {"type": "boolean"}, "autoFace": {"type": "boolean"}, "autoTalk": {"type": "boolean", "description": "该角色是台词 speaker 时自动对口型（默认 true）"},
-        "appear": {"oneOf": [{"enum": ["none", "draw", "pop", "fade"]}, {"type": "object", "properties": {"type": {"enum": ["none", "draw", "pop", "fade"]}, "at": {"$ref": "#/definitions/timeRef"}, "dur": {"type": "number"}}}]},
+        "id": {"type": "string"},
+        "x": {"type": "number"},
+        "y": {"type": "number"},
+        "height": {"type": "number", "description": "角色在世界里的像素高度（默认取 character.json 的 height）"},
+        "flip": {"type": "boolean"},
+        "autoFace": {"type": "boolean"},
+        "autoTalk": {"type": "boolean", "description": "该角色是台词 speaker 时自动对口型（默认 true）"},
+        "appear": {
+          "oneOf": [
+            {"enum": ["none", "draw", "pop", "fade"]},
+            {
+              "type": "object",
+              "properties": {
+                "type": {"enum": ["none", "draw", "pop", "fade"]},
+                "at": {"$ref": "#/definitions/timeRef"},
+                "dur": {"type": "number"}
+              }
+            }
+          ]
+        },
         "exit": {"type": "object", "properties": {"at": {"$ref": "#/definitions/timeRef"}, "dur": {"type": "number"}}},
         "z": {"type": "number"},
         "hide": {"type": "array", "items": {"type": "string"}, "description": "本镜头隐藏的部件，例如 [\"fan\", \"star\"]"},
         "actions": {"type": "array", "items": {"$ref": "#/definitions/action"}}
+      }
+    },
+    "transition": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "内置 cut/fade/slide/scribble；本仓库新增 flash/whipPan/zoomBlur/inkWipe/lightLeak/glitch/spinZoom/sketchWipe；或 huashu:<名>（MIT 移植的 50 种，见 cli fx）",
+          "anyOf": [
+            {
+              "enum": ["cut", "fade", "slide", "scribble", "flash", "whipPan", "zoomBlur", "inkWipe", "lightLeak", "glitch", "spinZoom", "sketchWipe"]
+            },
+            {"pattern": "^huashu:[A-Za-z0-9_]+$"}
+          ]
+        },
+        {
+          "type": "object",
+          "required": ["type"],
+          "properties": {
+            "type": {
+              "type": "string",
+              "description": "内置 cut/fade/slide/scribble；本仓库新增 flash/whipPan/zoomBlur/inkWipe/lightLeak/glitch/spinZoom/sketchWipe；或 huashu:<名>（MIT 移植的 50 种，见 cli fx）",
+              "anyOf": [
+                {
+                  "enum": ["cut", "fade", "slide", "scribble", "flash", "whipPan", "zoomBlur", "inkWipe", "lightLeak", "glitch", "spinZoom", "sketchWipe"]
+                },
+                {"pattern": "^huashu:[A-Za-z0-9_]+$"}
+              ]
+            },
+            "dur": {"type": "number"},
+            "params": {
+              "type": "object",
+              "description": "传给 huashu 转场的额外参数（如 lensReveal 的 lens、expandRect 的 rect；inkBloom 的 cx/cy）"
+            }
+          }
+        }
+      ]
+    },
+    "backdrop": {
+      "oneOf": [
+        {"type": "string", "description": "风格配方 id，如 09_postimp"},
+        {
+          "type": "object",
+          "properties": {
+            "recipe": {
+              "enum": ["01_cave", "02_egypt", "03_greek", "04_roman", "05_gothic", "06_renaissance", "08_impressionism", "09_postimp", "10_nouveau", "11_cubism", "12_bauhaus", "13_pop", "14_8bit", "15_raytrace", "16_2026", "17_ink", "18_klimt", "19_munch", "20_dunhuang", "21_kusama", "22_constructivism", "23_dali", "24_hopper", "25_ghibli", "26_vaporwave", "27_kirby", "28_monet", "29_seurat", "30_matisse", "31_haring", "32_rembrandt", "33_rubberhose", "34_shadowpuppet", "35_shinkai", "36_picasso_blue"],
+              "description": "huashu-art-motion 风格配方（MIT 移植），1920×1080 实时绘制后铺进画面"
+            },
+            "gradient": {"type": "array", "items": {"type": "string"}, "description": "纵向渐变色（不用配方时）"},
+            "fit": {"enum": ["cover", "contain"]},
+            "pan": {"type": "array", "items": {"type": "number"}, "description": "[起, 止] 水平取景位置 0–1，随镜头缓动"},
+            "panY": {"type": "number"},
+            "zoom": {"type": "array", "items": {"type": "number"}},
+            "parallax": {"type": "number", "description": "相机缩放对背景的影响，默认 0.25"},
+            "dim": {"type": "number"},
+            "dimColor": {"type": "string", "description": "\"r,g,b\""},
+            "blur": {"type": "number"},
+            "speed": {"type": "number"},
+            "offset": {"type": "number"},
+            "hideCast": {"type": "boolean", "description": "隐藏配方自带的少女 / 猫，默认 true"}
+          }
+        }
+      ]
+    },
+    "fx": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "enum": ["particles", "reveal", "post", "flash", "speedlines", "shockwave", "godrays", "letterbox", "grade", "lightsweep", "glow"]
+        },
+        "at": {"$ref": "#/definitions/timeRef"},
+        "until": {"$ref": "#/definitions/timeRef"},
+        "times": {"type": "array", "items": {"$ref": "#/definitions/timeRef"}, "description": "一次性爆发的时间点"},
+        "dur": {"type": "number"},
+        "layer": {"enum": ["back", "front"]},
+        "kind": {
+          "enum": ["stars", "petals", "swordqi", "lightning", "embers", "snow", "sparks", "bokeh", "inksplash"],
+          "description": "particles 的种类"
+        },
+        "name": {
+          "enum": ["bloom", "film", "vhs", "lensFlare", "rgbSplit", "scanlines", "vignette", "fade", "gateWeave"],
+          "description": "post 的后期层（MIT 移植）"
+        },
+        "mode": {"enum": ["sketch", "bloom", "ink"], "description": "reveal：素描→上色 / 光晕绽开 / 水墨晕开"},
+        "count": {"type": "number"},
+        "area": {"type": "array", "items": {"type": "number"}},
+        "from": {"$ref": "#/definitions/point"},
+        "center": {"$ref": "#/definitions/point"},
+        "size": {"type": "number"},
+        "life": {"type": "number"},
+        "amount": {"type": "number"},
+        "color": {"type": "string"},
+        "radius": {"type": "number"},
+        "seed": {}
+      }
+    },
+    "cameraMove": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "enum": ["crashZoom", "dollyZoom", "whip", "dutch", "orbit", "crane", "punch", "pushIn", "pullOut", "drift"]
+        },
+        "at": {"$ref": "#/definitions/timeRef"},
+        "times": {"type": "array", "items": {"$ref": "#/definitions/timeRef"}},
+        "dur": {"type": "number"},
+        "amt": {"type": "number"},
+        "deg": {"type": "number"},
+        "release": {"$ref": "#/definitions/timeRef"},
+        "back": {"$ref": "#/definitions/timeRef"}
       }
     }
   },
@@ -85,24 +292,88 @@
     "$schema": {"type": "string"},
     "version": {"const": 1},
     "title": {"type": "string"},
-    "canvas": {"type": "object", "properties": {"width": {"type": "integer", "default": 1080}, "height": {"type": "integer", "default": 1920}, "fps": {"type": "integer", "default": 30}}},
+    "canvas": {
+      "type": "object",
+      "properties": {
+        "width": {"type": "integer", "default": 1080},
+        "height": {"type": "integer", "default": 1920},
+        "fps": {"type": "integer", "default": 30}
+      }
+    },
     "media": {"$ref": "#/definitions/media"},
-    "stylePreset": {"type": "string", "description": "可选画风预设 id（presets/handdrawn-styles.json），只作 AI 生图提示词元数据；未写 media 时据此推荐画材"},
+    "stylePreset": {
+      "type": "string",
+      "description": "可选画风预设 id（presets/handdrawn-styles.json），只作 AI 生图提示词元数据；未写 media 时据此推荐画材"
+    },
     "paper": {"type": "object", "properties": {"color": {"type": "string"}, "transparent": {"type": "boolean"}}},
     "timing": {
       "type": "object",
       "description": "时间轴来源（必填其一）：srt=配音对应的字幕；words=词级时间戳 JSON（tts 命令生成，或你自己的强制对齐结果）；audio=混入成片的音频；estimate=按字数估时（只用于草稿）",
-      "properties": {"srt": {"type": "string"}, "words": {"type": "string"}, "audio": {"type": "string"}, "estimate": {"type": "object", "properties": {"cps": {"type": "number"}, "gap": {"type": "number"}, "lead": {"type": "number"}}}}
+      "properties": {
+        "srt": {"type": "string"},
+        "words": {"type": "string"},
+        "audio": {"type": "string"},
+        "estimate": {
+          "type": "object",
+          "properties": {"cps": {"type": "number"}, "gap": {"type": "number"}, "lead": {"type": "number"}}
+        }
+      }
     },
-    "tts": {"type": "object", "description": "配音设置（tts / make 命令）。engine 默认 local = 本地开源 TTS（Kokoro v1.1-zh，CPU 离线）；edge = 在线 edge-tts（可选）", "properties": {"engine": {"enum": ["local", "edge", "none"]}, "voice": {"type": "string", "description": "旁白/默认音色：kokoro:zf_001 之类（local）或 zh-CN-…Neural（edge）"}, "localVoice": {"type": "string"}, "edgeVoice": {"type": "string"}, "speed": {"type": "number"}, "align": {"enum": ["auto", "whisper", "even"]}, "rate": {"type": "string", "description": "仅 edge：语速，如 +6%"}, "gap": {"type": "number"}, "lead": {"type": "number"}, "out": {"type": "string"}}},
-    "subtitle": {"type": "object", "properties": {"enabled": {"type": "boolean"}, "font": {"type": "string"}, "size": {"type": "number"}, "y": {"type": "number"}, "karaoke": {"type": "boolean"}, "color": {"type": "string"}, "background": {"type": "string"}, "maxWidth": {"type": "number"}, "hold": {"type": "number"}}},
+    "tts": {
+      "type": "object",
+      "description": "配音设置（tts / make 命令）。engine 默认 local = 本地开源 TTS（Kokoro v1.1-zh，CPU 离线）；edge = 在线 edge-tts（可选）",
+      "properties": {
+        "engine": {"enum": ["local", "edge", "none"]},
+        "voice": {"type": "string", "description": "旁白/默认音色：kokoro:zf_001 之类（local）或 zh-CN-…Neural（edge）"},
+        "localVoice": {"type": "string"},
+        "edgeVoice": {"type": "string"},
+        "speed": {"type": "number"},
+        "align": {"enum": ["auto", "whisper", "even"]},
+        "rate": {"type": "string", "description": "仅 edge：语速，如 +6%"},
+        "gap": {"type": "number"},
+        "lead": {"type": "number"},
+        "out": {"type": "string"}
+      }
+    },
+    "subtitle": {
+      "type": "object",
+      "properties": {
+        "enabled": {"type": "boolean"},
+        "font": {"type": "string"},
+        "size": {"type": "number"},
+        "y": {"type": "number"},
+        "karaoke": {"type": "boolean"},
+        "color": {"type": "string"},
+        "background": {"type": "string"},
+        "maxWidth": {"type": "number"},
+        "hold": {"type": "number"},
+        "style": {"enum": ["default", "cinematic"]},
+        "weight": {"type": "number"}
+      }
+    },
     "pen": {"type": "boolean"},
     "boilFps": {"type": "number", "description": "线条抖动（line boil）每秒换几次，默认 8"},
     "camera": {"type": "object", "properties": {"handheld": {"type": "number", "description": "手持微晃强度，0 关闭，默认 1"}}},
-    "transition": {"oneOf": [{"enum": ["scribble", "fade", "slide", "cut"]}, {"type": "object"}]},
+    "transition": {"$ref": "#/definitions/transition"},
     "tail": {"type": "number", "description": "最后一条字幕后留白秒数，默认 1.0"},
     "characters": {"type": "object", "description": "角色只在这里声明一次，所有镜头复用（保证一致性）", "additionalProperties": {"type": "string"}},
-    "script": {"type": "array", "description": "逐行台词，与 SRT 按序号对齐；speaker=角色 id 时该角色自动对口型；tts 命令用它合成配音", "items": {"type": "object", "required": ["text"], "properties": {"text": {"type": "string"}, "speaker": {"type": "string"}, "voice": {"type": "string", "description": "本行音色：说话角色的 voice.variants 名（如 激动），或完整音色（kokoro:zf_001 / zh-CN-…Neural）"}, "speed": {"type": "number"}}}},
+    "script": {
+      "type": "array",
+      "description": "逐行台词，与 SRT 按序号对齐；speaker=角色 id 时该角色自动对口型；tts 命令用它合成配音",
+      "items": {
+        "type": "object",
+        "required": ["text"],
+        "properties": {
+          "text": {"type": "string"},
+          "speaker": {"type": "string"},
+          "voice": {
+            "type": "string",
+            "description": "本行音色：说话角色的 voice.variants 名（如 激动），或完整音色（kokoro:zf_001 / zh-CN-…Neural）"
+          },
+          "speed": {"type": "number"}
+        }
+      }
+    },
     "scenes": {
       "type": "array",
       "items": {
@@ -110,16 +381,70 @@
         "properties": {
           "id": {"type": "string"},
           "cues": {"type": "array", "items": {"type": "integer"}, "description": "本镜头覆盖的字幕序号，镜头时长由真实字幕时间决定"},
-          "start": {"$ref": "#/definitions/timeRef"}, "end": {"$ref": "#/definitions/timeRef"}, "preroll": {"type": "number"},
-          "transition": {"oneOf": [{"enum": ["scribble", "fade", "slide", "cut"]}, {"type": "object", "properties": {"type": {"enum": ["scribble", "fade", "slide", "cut"]}, "dur": {"type": "number"}}}]},
-          "media": {"$ref": "#/definitions/media"}, "paper": {"type": "string"},
-          "camera": {"type": "object", "properties": {"from": {"$ref": "#/definitions/camKey"}, "to": {"$ref": "#/definitions/camKey"}, "toAt": {"$ref": "#/definitions/timeRef"},
-            "keys": {"type": "array", "items": {"allOf": [{"$ref": "#/definitions/camKey"}, {"properties": {"at": {"$ref": "#/definitions/timeRef"}}}]}},
-            "handheld": {"type": "number"}, "shakes": {"type": "array", "items": {"type": "object", "properties": {"at": {"$ref": "#/definitions/timeRef"}, "dur": {"type": "number"}, "amp": {"type": "number"}}}}}},
+          "start": {"$ref": "#/definitions/timeRef"},
+          "end": {"$ref": "#/definitions/timeRef"},
+          "preroll": {"type": "number"},
+          "transition": {"$ref": "#/definitions/transition"},
+          "media": {"$ref": "#/definitions/media"},
+          "paper": {"type": "string"},
+          "camera": {
+            "type": "object",
+            "properties": {
+              "from": {"$ref": "#/definitions/camKey"},
+              "to": {"$ref": "#/definitions/camKey"},
+              "toAt": {"$ref": "#/definitions/timeRef"},
+              "keys": {
+                "type": "array",
+                "items": {
+                  "allOf": [
+                    {"$ref": "#/definitions/camKey"},
+                    {"properties": {"at": {"$ref": "#/definitions/timeRef"}}}
+                  ]
+                }
+              },
+              "handheld": {"type": "number"},
+              "shakes": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "at": {"$ref": "#/definitions/timeRef"},
+                    "dur": {"type": "number"},
+                    "amp": {"type": "number"}
+                  }
+                }
+              },
+              "moves": {
+                "type": "array",
+                "items": {"$ref": "#/definitions/cameraMove"},
+                "description": "电影感运镜：crashZoom dollyZoom whip dutch orbit crane punch pushIn pullOut drift"
+              }
+            }
+          },
           "elements": {"type": "array", "items": {"$ref": "#/definitions/element"}},
-          "actors": {"type": "array", "items": {"$ref": "#/definitions/actor"}}
+          "actors": {"type": "array", "items": {"$ref": "#/definitions/actor"}},
+          "backdrop": {"$ref": "#/definitions/backdrop"},
+          "style": {
+            "oneOf": [
+              {"enum": ["strokes", "dabs", "mosaic", "halftone", "pixelate", "facets", "pointillism"]},
+              {
+                "type": "object",
+                "required": ["name"],
+                "properties": {
+                  "name": {"enum": ["strokes", "dabs", "mosaic", "halftone", "pixelate", "facets", "pointillism"]},
+                  "at": {"$ref": "#/definitions/timeRef"},
+                  "until": {"$ref": "#/definitions/timeRef"}
+                }
+              }
+            ],
+            "description": "整帧风格化（MIT 移植）"
+          },
+          "fx": {"type": "array", "items": {"$ref": "#/definitions/fx"}}
         }
       }
-    }
+    },
+    "vignette": {"type": "boolean", "description": "内置暗角，默认 true"},
+    "underpaint": {"type": "boolean", "description": "角色不透明底色（防止画材透出背景）；默认：有 backdrop 时开"},
+    "post": {"type": "array", "items": {"$ref": "#/definitions/fx"}, "description": "整片后期层（type: post）"}
   }
 }
