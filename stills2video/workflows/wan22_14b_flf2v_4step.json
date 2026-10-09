@@ -1,0 +1,303 @@
+{
+ "_hda": {
+  "_comment": "本仓库为 stills2video 写的 ComfyUI API 格式工作流。节点类型与默认参数（两段专家 + lightx2v 4 步 LoRA、shift 5、cfg 1、euler/simple、16fps、2/4 步分段）参照 Comfy-Org/workflow_templates（MIT，commit 8be1f8c）的官方模板 video_wan2_2_14B_flf2v.json 改写为 API 格式并加上 {{占位符}} / $标题绑定；许可见 LICENSES/Comfy-Org_workflow_templates-MIT.txt。作者没有 GPU，未实测：如与你的 ComfyUI 版本不符，打开官方模板 → 导出(API) → 把节点标题改成 $prompt.text / $image.image 这类名字即可直接用（见 stills2video/README.md）。",
+  "task": "flf2v",
+  "model_license": "Wan2.2 权重 Apache-2.0；lightx2v 4 步 LoRA 见其 Hugging Face 页面",
+  "fps": 16,
+  "frame_step": 4,
+  "steps": 4,
+  "split": 2,
+  "size": {
+   "9:16": [
+    480,
+    832
+   ],
+   "16:9": [
+    832,
+    480
+   ],
+   "1:1": [
+    640,
+    640
+   ],
+   "3:4": [
+    544,
+    720
+   ],
+   "4:3": [
+    720,
+    544
+   ]
+  },
+  "vram": "24GB 官方 fp8 模板；12–16GB 需换 GGUF 量化（city96/ComfyUI-GGUF，把 UNETLoader 换成 UnetLoaderGGUF）",
+  "models": {
+   "diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+   "diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+   "loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
+   "loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
+   "vae/wan_2.1_vae.safetensors": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+   "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+  }
+ },
+ "prompt": {
+  "1": {
+   "class_type": "UNETLoader",
+   "_meta": {
+    "title": "Wan2.2 I2V 14B 高噪声专家"
+   },
+   "inputs": {
+    "unet_name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+    "weight_dtype": "default"
+   }
+  },
+  "2": {
+   "class_type": "UNETLoader",
+   "_meta": {
+    "title": "Wan2.2 I2V 14B 低噪声专家"
+   },
+   "inputs": {
+    "unet_name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+    "weight_dtype": "default"
+   }
+  },
+  "3": {
+   "class_type": "LoraLoaderModelOnly",
+   "_meta": {
+    "title": "4 步加速 LoRA（高噪声）"
+   },
+   "inputs": {
+    "model": [
+     "1",
+     0
+    ],
+    "lora_name": "wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
+    "strength_model": 1.0
+   }
+  },
+  "4": {
+   "class_type": "LoraLoaderModelOnly",
+   "_meta": {
+    "title": "4 步加速 LoRA（低噪声）"
+   },
+   "inputs": {
+    "model": [
+     "2",
+     0
+    ],
+    "lora_name": "wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
+    "strength_model": 1.0
+   }
+  },
+  "5": {
+   "class_type": "ModelSamplingSD3",
+   "inputs": {
+    "model": [
+     "3",
+     0
+    ],
+    "shift": 5
+   }
+  },
+  "6": {
+   "class_type": "ModelSamplingSD3",
+   "inputs": {
+    "model": [
+     "4",
+     0
+    ],
+    "shift": 5
+   }
+  },
+  "7": {
+   "class_type": "CLIPLoader",
+   "inputs": {
+    "clip_name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "type": "wan",
+    "device": "default"
+   }
+  },
+  "8": {
+   "class_type": "CLIPTextEncode",
+   "_meta": {
+    "title": "$prompt.text"
+   },
+   "inputs": {
+    "clip": [
+     "7",
+     0
+    ],
+    "text": "{{PROMPT}}"
+   }
+  },
+  "9": {
+   "class_type": "CLIPTextEncode",
+   "_meta": {
+    "title": "$negative.text"
+   },
+   "inputs": {
+    "clip": [
+     "7",
+     0
+    ],
+    "text": "{{NEGATIVE}}"
+   }
+  },
+  "10": {
+   "class_type": "VAELoader",
+   "inputs": {
+    "vae_name": "wan_2.1_vae.safetensors"
+   }
+  },
+  "11": {
+   "class_type": "LoadImage",
+   "_meta": {
+    "title": "$image.image"
+   },
+   "inputs": {
+    "image": "{{IMAGE}}"
+   }
+  },
+  "12": {
+   "class_type": "LoadImage",
+   "_meta": {
+    "title": "$image_end.image"
+   },
+   "inputs": {
+    "image": "{{IMAGE_END}}"
+   }
+  },
+  "13": {
+   "class_type": "WanFirstLastFrameToVideo",
+   "inputs": {
+    "positive": [
+     "8",
+     0
+    ],
+    "negative": [
+     "9",
+     0
+    ],
+    "vae": [
+     "10",
+     0
+    ],
+    "start_image": [
+     "11",
+     0
+    ],
+    "end_image": [
+     "12",
+     0
+    ],
+    "width": "{{WIDTH}}",
+    "height": "{{HEIGHT}}",
+    "length": "{{LENGTH}}",
+    "batch_size": 1
+   }
+  },
+  "14": {
+   "class_type": "KSamplerAdvanced",
+   "_meta": {
+    "title": "高噪声阶段（0→2 步）"
+   },
+   "inputs": {
+    "model": [
+     "5",
+     0
+    ],
+    "add_noise": "enable",
+    "noise_seed": "{{SEED}}",
+    "steps": "{{STEPS}}",
+    "cfg": 1,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "positive": [
+     "13",
+     0
+    ],
+    "negative": [
+     "13",
+     1
+    ],
+    "latent_image": [
+     "13",
+     2
+    ],
+    "start_at_step": 0,
+    "end_at_step": "{{SPLIT}}",
+    "return_with_leftover_noise": "enable"
+   }
+  },
+  "15": {
+   "class_type": "KSamplerAdvanced",
+   "_meta": {
+    "title": "低噪声阶段（2→结束）"
+   },
+   "inputs": {
+    "model": [
+     "6",
+     0
+    ],
+    "add_noise": "disable",
+    "noise_seed": 0,
+    "steps": "{{STEPS}}",
+    "cfg": 1,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "positive": [
+     "13",
+     0
+    ],
+    "negative": [
+     "13",
+     1
+    ],
+    "latent_image": [
+     "14",
+     0
+    ],
+    "start_at_step": "{{SPLIT}}",
+    "end_at_step": 10000,
+    "return_with_leftover_noise": "disable"
+   }
+  },
+  "16": {
+   "class_type": "VAEDecode",
+   "inputs": {
+    "samples": [
+     "15",
+     0
+    ],
+    "vae": [
+     "10",
+     0
+    ]
+   }
+  },
+  "17": {
+   "class_type": "CreateVideo",
+   "inputs": {
+    "images": [
+     "16",
+     0
+    ],
+    "fps": "{{FPS}}"
+   }
+  },
+  "18": {
+   "class_type": "SaveVideo",
+   "_meta": {
+    "title": "$prefix.filename_prefix"
+   },
+   "inputs": {
+    "video": [
+     "17",
+     0
+    ],
+    "filename_prefix": "{{PREFIX}}",
+    "format": "auto",
+    "codec": "auto"
+   }
+  }
+ }
+}

@@ -1,0 +1,1001 @@
+{
+ "_comment": "stills2video 空镜头 / B-roll 镜头配方（本仓库原创，Apache-2.0，© 2026 天机）。每个配方 = CPU 运镜 + 叠层特效 + 时长 + 转场 + 给本地/云端 I2V 模型的运动提示词 + 给 ChatGPT Images 的中文出图模板（{主体} 替换成你的主体）。出图模板专门写了「前景/中景/远景」，因为分层清楚的图做 2.5D 视差效果最好。",
+ "image_prompt_suffix": "竖版 9:16（1024×1536 也可），画面中不要出现任何文字、水印、Logo；主体与背景层次分明，便于做视差运镜。",
+ "recipes": [
+  {
+   "id": "bamboo_mist_push",
+   "name": "晨雾竹林推进",
+   "kind": "空镜",
+   "keywords": [
+    "竹",
+    "竹林",
+    "晨雾",
+    "雾",
+    "清晨",
+    "bamboo"
+   ],
+   "motion": {
+    "preset": "push_in",
+    "amount": 1.0
+   },
+   "overlays": [
+    {
+     "type": "fog",
+     "amount": 0.9
+    },
+    {
+     "type": "godrays",
+     "center": [
+      0.78,
+      -0.08
+     ],
+     "amount": 0.7
+    },
+    {
+     "type": "dust"
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "duration": 5,
+   "transition": "fade",
+   "i2v_prompt": "镜头缓慢向前推进，穿过竹林；薄雾在竹竿之间缓缓流动，光束随风轻微晃动，竹叶轻轻摇摆，画面稳定无闪烁",
+   "image_prompt": "清晨的竹林深处，{主体}；前景有两根虚化的竹竿，中景是一条铺着落叶的小径，远景隐没在白色薄雾里；阳光从右上方斜射形成清晰的光束；空气中有细小尘埃；层次分明、景深明显，电影感写实摄影，柔和冷绿色调",
+   "fx": [],
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "xianxia_sea_orbit",
+   "name": "仙侠云海环绕",
+   "kind": "空镜",
+   "keywords": [
+    "云海",
+    "仙",
+    "山",
+    "峰",
+    "仙侠",
+    "云",
+    "sea of clouds"
+   ],
+   "motion": {
+    "preset": "orbit",
+    "amount": 1.2
+   },
+   "flow": {
+    "region": "far",
+    "kind": "drift",
+    "distance": 0.05,
+    "angle": 0,
+    "threshold": 0.42
+   },
+   "overlays": [
+    {
+     "type": "lightleak",
+     "amount": 0.55
+    },
+    {
+     "type": "fog",
+     "amount": 0.5
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "duration": 5,
+   "loop": true,
+   "transition": "huashu:inkBloom",
+   "i2v_prompt": "镜头缓慢环绕山峰，云海在山谷间翻涌流动，远处日光透过云层，仙气缭绕，运动平缓",
+   "image_prompt": "仙侠世界的云海群山，{主体}；近景是一座带古亭的山崖，中景层层山峰从云海中探出，远景是金色朝阳和渐变天空；云层有明显的前后层次；水墨与写实结合的东方幻想风格，大气透视强",
+   "fx": []
+  },
+  {
+   "id": "city_night_timelapse",
+   "name": "城市夜景延时感",
+   "kind": "空镜",
+   "keywords": [
+    "城市",
+    "夜景",
+    "夜",
+    "霓虹",
+    "都市",
+    "city",
+    "skyline"
+   ],
+   "motion": {
+    "preset": "pan_right",
+    "amount": 0.9
+   },
+   "flow": {
+    "region": "top",
+    "kind": "drift",
+    "distance": 0.08,
+    "angle": 0
+   },
+   "overlays": [
+    {
+     "type": "bokeh",
+     "amount": 0.8
+    },
+    {
+     "type": "grade",
+     "look": "night",
+     "amount": 0.6
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "fx": [
+    {
+     "particles": "stars",
+     "count": 18,
+     "size": 0.5
+    }
+   ],
+   "duration": 5,
+   "transition": "fadeblack",
+   "i2v_prompt": "延时摄影风格，镜头缓慢横移，城市灯光闪烁，车流光轨流动，云层快速掠过夜空",
+   "image_prompt": "俯瞰城市夜景，{主体}；前景是江面和倒影，中景是灯火通明的高楼群，远景是带薄云的深蓝夜空和月亮；窗户灯光细节丰富；城市天际线清晰分层，电影感夜景摄影，蓝紫与暖橙对比",
+   "loop": false
+  },
+  {
+   "id": "product_orbit_glow",
+   "name": "产品展示旋转光效",
+   "kind": "产品",
+   "keywords": [
+    "产品",
+    "展示",
+    "商品",
+    "包装",
+    "瓶",
+    "手机",
+    "product",
+    "角色",
+    "IP"
+   ],
+   "motion": {
+    "preset": "orbit",
+    "amount": 0.8
+   },
+   "overlays": [
+    {
+     "type": "grade",
+     "look": "warm",
+     "amount": 0.4
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "fx": [
+    {
+     "overlay": "lightsweep",
+     "at": 0.6,
+     "dur": 1.4,
+     "amount": 0.5
+    },
+    {
+     "overlay": "glow",
+     "center": [
+      540,
+      860
+     ],
+     "radius": 520
+    },
+    {
+     "particles": "stars",
+     "count": 14,
+     "size": 0.6
+    }
+   ],
+   "duration": 4,
+   "transition": "huashu:flareSweep",
+   "i2v_prompt": "产品在展台上缓慢旋转，一道高光从左到右扫过表面，背景柔光呼吸，干净的商业广告质感",
+   "image_prompt": "{主体}放在画面正中的圆形展台上，主体占画面高度约 45%；背景是干净的深色渐变和柔和背光光晕；地面有淡淡倒影；主体边缘轮廓光清晰；商业广告摄影，干净留白，便于后期加字",
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "rainy_window",
+   "name": "雨夜窗边",
+   "kind": "空镜",
+   "keywords": [
+    "雨",
+    "雨夜",
+    "窗",
+    "下雨",
+    "rain"
+   ],
+   "motion": {
+    "preset": "drift",
+    "amount": 0.8
+   },
+   "overlays": [
+    {
+     "type": "rain",
+     "amount": 0.9
+    },
+    {
+     "type": "grade",
+     "look": "cold",
+     "amount": 0.6
+    },
+    {
+     "type": "bokeh",
+     "amount": 0.6
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "duration": 5,
+   "loop": true,
+   "transition": "fade",
+   "i2v_prompt": "窗外下着雨，雨丝斜落，玻璃上水珠缓慢滑下，远处霓虹虚化闪烁，镜头几乎不动",
+   "image_prompt": "雨夜的窗边，{主体}；前景是带水珠的玻璃窗框，中景是室内一角，远景窗外是虚化的城市霓虹；冷蓝色调加少量暖色灯光；安静、忧郁的电影氛围",
+   "fx": [],
+   "flow": null
+  },
+  {
+   "id": "snow_town",
+   "name": "雪夜古镇",
+   "kind": "空镜",
+   "keywords": [
+    "雪",
+    "雪夜",
+    "古镇",
+    "冬",
+    "snow"
+   ],
+   "motion": {
+    "preset": "push_in",
+    "amount": 0.8
+   },
+   "overlays": [
+    {
+     "type": "snow",
+     "amount": 1.0
+    },
+    {
+     "type": "fog",
+     "amount": 0.5
+    },
+    {
+     "type": "grade",
+     "look": "cold",
+     "amount": 0.4
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "duration": 5,
+   "transition": "fadewhite",
+   "i2v_prompt": "大雪纷飞的古镇夜晚，灯笼轻轻摇晃，镜头缓慢推进到街巷深处",
+   "image_prompt": "雪夜的江南古镇街巷，{主体}；前景是挂着红灯笼的屋檐，中景是覆雪的石板路，远景是一座拱桥和暖黄窗光；雪花飘落；冷暖对比、静谧温暖",
+   "fx": [],
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "sakura_sway",
+   "name": "樱花飘落",
+   "kind": "空镜",
+   "keywords": [
+    "樱花",
+    "花",
+    "春",
+    "花瓣",
+    "sakura",
+    "桃花"
+   ],
+   "motion": {
+    "preset": "sway",
+    "amount": 0.8
+   },
+   "overlays": [
+    {
+     "type": "lightleak",
+     "amount": 0.4
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "fx": [
+    {
+     "particles": "petals",
+     "count": 34
+    }
+   ],
+   "duration": 5,
+   "loop": true,
+   "transition": "huashu:dotBloom",
+   "i2v_prompt": "微风吹过，樱花花瓣从枝头飘落，枝条轻轻摇摆，阳光温柔",
+   "image_prompt": "春日樱花树下，{主体}；前景是一枝虚化的粉色樱花，中景是主体，远景是成片樱花林和浅蓝天空；柔和逆光，日系清新胶片质感",
+   "flow": null
+  },
+  {
+   "id": "sunset_sea",
+   "name": "落日海边",
+   "kind": "空镜",
+   "keywords": [
+    "海",
+    "海边",
+    "落日",
+    "夕阳",
+    "日落",
+    "sea",
+    "beach",
+    "湖",
+    "水"
+   ],
+   "motion": {
+    "preset": "pull_out",
+    "amount": 0.8
+   },
+   "flow": {
+    "region": "bottom",
+    "kind": "ripple",
+    "from": 0.6,
+    "amp": 0.004,
+    "speed": 2
+   },
+   "overlays": [
+    {
+     "type": "lightleak",
+     "amount": 0.5
+    },
+    {
+     "type": "grade",
+     "look": "warm",
+     "amount": 0.5
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "duration": 5,
+   "transition": "fade",
+   "i2v_prompt": "夕阳下海浪轻拍沙滩，海面波光粼粼，镜头缓慢后拉展现全景",
+   "image_prompt": "落日时分的海边，{主体}；前景是湿润的沙滩和浪花，中景是波光粼粼的海面，远景是半落入海平线的太阳和橙紫色晚霞；暖色调，电影宽景",
+   "fx": [],
+   "loop": false
+  },
+  {
+   "id": "starry_sky",
+   "name": "星空银河",
+   "kind": "空镜",
+   "keywords": [
+    "星空",
+    "银河",
+    "星",
+    "夜空",
+    "宇宙",
+    "stars",
+    "galaxy"
+   ],
+   "motion": {
+    "preset": "tilt_up",
+    "amount": 0.8
+   },
+   "overlays": [
+    {
+     "type": "grade",
+     "look": "night",
+     "amount": 0.5
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "fx": [
+    {
+     "particles": "stars",
+     "count": 40,
+     "size": 0.6
+    }
+   ],
+   "duration": 5,
+   "transition": "fadeblack",
+   "i2v_prompt": "镜头从地面缓慢上摇到银河，星星闪烁，偶有流星划过",
+   "image_prompt": "夜晚的山野，{主体}；下方是剪影般的山脊和一棵孤树，上方是横跨天空的银河和密集星点；深蓝到紫色渐变，长曝光星空摄影",
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "desk_closeup",
+   "name": "书桌暖光特写",
+   "kind": "空镜",
+   "keywords": [
+    "书",
+    "书桌",
+    "台灯",
+    "咖啡",
+    "学习",
+    "desk"
+   ],
+   "motion": {
+    "preset": "push_in",
+    "amount": 0.6
+   },
+   "overlays": [
+    {
+     "type": "dust",
+     "amount": 0.9
+    },
+    {
+     "type": "grade",
+     "look": "warm",
+     "amount": 0.5
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "duration": 4,
+   "transition": "fadeblack",
+   "i2v_prompt": "台灯暖光下的书桌特写，咖啡热气缓缓升起，空气中尘埃漂浮，镜头极慢推进",
+   "image_prompt": "夜晚书桌一角的特写，{主体}；前景是虚化的书页边缘，中景是一杯冒热气的咖啡和打开的笔记本，背景是台灯暖光和书架虚化光斑；浅景深，温暖治愈",
+   "fx": [],
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "courtyard_pan",
+   "name": "古风庭院横移",
+   "kind": "空镜",
+   "keywords": [
+    "庭院",
+    "古风",
+    "宫",
+    "院",
+    "寺",
+    "亭",
+    "园林"
+   ],
+   "motion": {
+    "preset": "pan_left",
+    "amount": 0.9
+   },
+   "overlays": [
+    {
+     "type": "dust",
+     "amount": 0.6
+    },
+    {
+     "type": "grade",
+     "look": "warm",
+     "amount": 0.3
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "fx": [
+    {
+     "particles": "petals",
+     "count": 12,
+     "size": 0.8
+    }
+   ],
+   "duration": 5,
+   "transition": "huashu:goldLeaf",
+   "i2v_prompt": "镜头沿着回廊缓慢横移，树影在地面摇曳，偶有花瓣飘过",
+   "image_prompt": "中式古典园林庭院，{主体}；前景是雕花木窗框，中景是回廊与池塘，远景是假山和楼阁；午后斜阳，光影斑驳，国风写实",
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "waterfall_flow",
+   "name": "山间瀑布（动态照片）",
+   "kind": "空镜",
+   "keywords": [
+    "瀑布",
+    "溪",
+    "河",
+    "流水",
+    "waterfall"
+   ],
+   "motion": {
+    "preset": "static"
+   },
+   "flow": {
+    "region": "box",
+    "box": [
+     0.35,
+     0.15,
+     0.65,
+     0.85
+    ],
+    "kind": "drift",
+    "distance": 0.05,
+    "angle": 90
+   },
+   "overlays": [
+    {
+     "type": "fog",
+     "amount": 0.6
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "duration": 5,
+   "loop": true,
+   "transition": "fade",
+   "i2v_prompt": "瀑布持续倾泻，水雾升腾，周围树木静止，镜头固定",
+   "image_prompt": "深山中的瀑布，{主体}；瀑布位于画面中央竖直落下，两侧是苔藓岩石和树木，底部有水雾；画面构图对称，写实风景摄影",
+   "fx": []
+  },
+  {
+   "id": "cyber_street",
+   "name": "赛博朋克街头",
+   "kind": "空镜",
+   "keywords": [
+    "赛博",
+    "朋克",
+    "霓虹",
+    "科幻",
+    "cyberpunk",
+    "未来"
+   ],
+   "motion": {
+    "preset": "dolly_zoom",
+    "amount": 0.9
+   },
+   "overlays": [
+    {
+     "type": "rain",
+     "amount": 0.7
+    },
+    {
+     "type": "grade",
+     "look": "teal-orange",
+     "amount": 0.6
+    },
+    {
+     "type": "bokeh",
+     "amount": 0.6
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "duration": 4,
+   "transition": "huashu:vhs",
+   "i2v_prompt": "雨夜赛博朋克街头，霓虹招牌闪烁，镜头推进同时背景拉远（希区柯克变焦）",
+   "image_prompt": "雨夜的赛博朋克街道，{主体}站在画面中央；两侧是层叠的霓虹招牌（不要可读文字），地面积水反射霓虹，远处是高楼和飞行器灯光；青橙配色，电影感",
+   "fx": [],
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "portrait_breath",
+   "name": "人物特写呼吸",
+   "kind": "人物",
+   "keywords": [
+    "人物",
+    "肖像",
+    "特写",
+    "脸",
+    "女孩",
+    "男孩",
+    "角色",
+    "portrait"
+   ],
+   "motion": {
+    "preset": "drift",
+    "amount": 0.5,
+    "parallax": 0.8
+   },
+   "overlays": [
+    {
+     "type": "bokeh",
+     "amount": 0.5
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "duration": 4,
+   "loop": true,
+   "transition": "fadeblack",
+   "i2v_prompt": "人物轻微呼吸，发丝和衣角被微风吹动，眨眼一次，镜头几乎不动",
+   "image_prompt": "{主体}的半身特写，人物位于画面中线偏上，眼神看向镜头侧方；背景是浅景深虚化光斑，与人物明显分离；柔和侧光，细腻皮肤质感",
+   "fx": [],
+   "flow": null
+  },
+  {
+   "id": "sword_qi",
+   "name": "剑气对峙",
+   "kind": "动作",
+   "keywords": [
+    "剑",
+    "战",
+    "对决",
+    "武侠",
+    "修仙",
+    "斗",
+    "sword"
+   ],
+   "motion": {
+    "preset": "push_in",
+    "amount": 1.2
+   },
+   "overlays": [
+    {
+     "type": "grade",
+     "look": "cold",
+     "amount": 0.5
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "fx": [
+    {
+     "particles": "swordqi",
+     "start": 0.8,
+     "end": 3.5,
+     "every": 0.9
+    },
+    {
+     "particles": "lightning",
+     "times": [
+      2.6
+     ],
+     "life": 0.45
+    }
+   ],
+   "duration": 4,
+   "transition": "huashu:shards",
+   "i2v_prompt": "剑客横剑而立，剑身泛起寒光，衣袂翻飞，镜头快速推近",
+   "image_prompt": "{主体}手持长剑立于山巅，剑尖斜指地面；前景是被风吹起的碎石与落叶，背景是阴沉翻滚的乌云和远山；冷色调高对比，武侠电影海报质感",
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "embers_drift",
+   "name": "火光余烬",
+   "kind": "空镜",
+   "keywords": [
+    "火",
+    "篝火",
+    "余烬",
+    "战场",
+    "废墟",
+    "fire"
+   ],
+   "motion": {
+    "preset": "drift",
+    "amount": 0.8
+   },
+   "overlays": [
+    {
+     "type": "grade",
+     "look": "warm",
+     "amount": 0.6
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "fx": [
+    {
+     "particles": "embers",
+     "count": 50
+    }
+   ],
+   "duration": 4,
+   "loop": true,
+   "transition": "fadeblack",
+   "i2v_prompt": "火光摇曳，余烬向上飘散，烟雾缓缓升起",
+   "image_prompt": "夜晚的篝火旁，{主体}；前景是燃烧的篝火，中景是被火光照亮的主体，远景是黑暗的森林；暖橙与深蓝对比，火星飞舞",
+   "flow": null
+  },
+  {
+   "id": "forest_rays",
+   "name": "森林光束下摇",
+   "kind": "空镜",
+   "keywords": [
+    "森林",
+    "树林",
+    "林",
+    "阳光",
+    "树",
+    "forest"
+   ],
+   "motion": {
+    "preset": "tilt_down",
+    "amount": 0.8
+   },
+   "overlays": [
+    {
+     "type": "godrays",
+     "center": [
+      0.3,
+      -0.1
+     ],
+     "amount": 0.8
+    },
+    {
+     "type": "dust"
+    },
+    {
+     "type": "fog",
+     "amount": 0.4
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "duration": 5,
+   "transition": "fade",
+   "i2v_prompt": "镜头从树冠缓慢下摇到林间地面，阳光透过树叶形成光束，尘埃在光中漂浮",
+   "image_prompt": "清晨的原始森林，{主体}；高大树干从前景延伸到远处，阳光从左上方透过树冠形成多道光束，地面有蕨类和苔藓，薄雾；纵深感强，写实摄影",
+   "fx": [],
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "aerial_rise",
+   "name": "航拍上升",
+   "kind": "空镜",
+   "keywords": [
+    "航拍",
+    "鸟瞰",
+    "大地",
+    "山河",
+    "梯田",
+    "aerial"
+   ],
+   "motion": {
+    "preset": "rise",
+    "amount": 1.0
+   },
+   "overlays": [
+    {
+     "type": "fog",
+     "amount": 0.4
+    },
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "duration": 5,
+   "transition": "fadeblack",
+   "i2v_prompt": "无人机航拍镜头缓慢上升并前进，展现壮阔的大地全景",
+   "image_prompt": "高空俯瞰的壮阔山河，{主体}；近处是山脊和道路，中景是蜿蜒的河流和梯田，远处是层叠的山脉与云；航拍摄影，大气透视，清晨光线",
+   "fx": [],
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "memory_kenburns",
+   "name": "老照片回忆",
+   "kind": "回忆",
+   "keywords": [
+    "回忆",
+    "老照片",
+    "童年",
+    "往事",
+    "过去",
+    "memory"
+   ],
+   "motion": {
+    "preset": "kenburns",
+    "direction": "in",
+    "amount": 0.8
+   },
+   "overlays": [
+    {
+     "type": "grade",
+     "look": "dream",
+     "amount": 0.6
+    },
+    {
+     "type": "grain",
+     "amount": 1.0
+    },
+    {
+     "type": "vignette",
+     "amount": 0.5
+    }
+   ],
+   "duration": 4,
+   "transition": "fadewhite",
+   "i2v_prompt": "老照片质感，画面轻微闪烁，镜头缓慢推近",
+   "image_prompt": "一张泛黄的老照片风格画面，{主体}；暖黄褪色，边缘轻微暗角，胶片颗粒；构图朴素，像家庭相册里的照片",
+   "fx": [],
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "flat_info_kb",
+   "name": "平面图 / 文字图慢推",
+   "kind": "信息图",
+   "keywords": [
+    "图表",
+    "信息图",
+    "文字",
+    "海报",
+    "封面",
+    "info",
+    "poster"
+   ],
+   "motion": {
+    "preset": "kenburns",
+    "direction": "in",
+    "amount": 0.6,
+    "parallax": 0
+   },
+   "overlays": [],
+   "duration": 4,
+   "transition": "slideleft",
+   "i2v_prompt": "平面图片缓慢推近，保持文字清晰不变形",
+   "image_prompt": "一张简洁的扁平风信息图，主题是{主体}；大标题区域留白，三个要点图标排成一列，配色统一，干净的矢量插画风格（文字后期再加，图里不要文字）",
+   "fx": [],
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "reveal_pull",
+   "name": "后拉揭示全景",
+   "kind": "空镜",
+   "keywords": [
+    "揭示",
+    "全景",
+    "开场",
+    "远景",
+    "reveal"
+   ],
+   "motion": {
+    "preset": "pull_out",
+    "amount": 1.2
+   },
+   "overlays": [
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "duration": 5,
+   "transition": "circleopen",
+   "i2v_prompt": "从细节特写缓慢后拉，逐渐揭示完整场景",
+   "image_prompt": "宏大的全景画面，{主体}位于画面中心偏下；四周环境层次丰富，越往外细节越多；适合从中心向外拉开的构图",
+   "fx": [],
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "dream_drift",
+   "name": "梦境漂浮",
+   "kind": "空镜",
+   "keywords": [
+    "梦",
+    "梦境",
+    "幻想",
+    "童话",
+    "dream"
+   ],
+   "motion": {
+    "preset": "drift",
+    "amount": 1.0
+   },
+   "overlays": [
+    {
+     "type": "lightleak",
+     "amount": 0.6
+    },
+    {
+     "type": "grade",
+     "look": "dream",
+     "amount": 0.6
+    },
+    {
+     "type": "bokeh",
+     "amount": 0.7
+    }
+   ],
+   "duration": 5,
+   "loop": true,
+   "transition": "huashu:swirl",
+   "i2v_prompt": "梦幻般的画面，光斑漂浮，镜头像在空中缓慢漂移",
+   "image_prompt": "梦境般的奇幻场景，{主体}；粉紫色柔光，漂浮的发光粒子和气泡，前景虚化花朵，远景是柔和的云；童话插画质感",
+   "fx": [],
+   "flow": null
+  },
+  {
+   "id": "vertigo",
+   "name": "希区柯克变焦",
+   "kind": "情绪",
+   "keywords": [
+    "震惊",
+    "紧张",
+    "恐惧",
+    "眩晕",
+    "vertigo"
+   ],
+   "motion": {
+    "preset": "dolly_zoom",
+    "amount": 1.2
+   },
+   "overlays": [
+    {
+     "type": "vignette",
+     "amount": 0.5
+    }
+   ],
+   "duration": 3,
+   "transition": "cut",
+   "i2v_prompt": "人物不动，背景急速压缩拉伸，表现震惊",
+   "image_prompt": "{主体}位于画面正中，表情震惊；身后是一条笔直延伸的走廊或街道，透视线明显汇聚到人物身后",
+   "fx": [],
+   "flow": null,
+   "loop": false
+  },
+  {
+   "id": "nebula_orbit",
+   "name": "宇宙星云环绕",
+   "kind": "空镜",
+   "keywords": [
+    "星云",
+    "太空",
+    "宇宙",
+    "星球",
+    "space",
+    "nebula"
+   ],
+   "motion": {
+    "preset": "orbit",
+    "amount": 1.0
+   },
+   "flow": {
+    "region": "far",
+    "kind": "drift",
+    "distance": 0.04,
+    "angle": 20,
+    "threshold": 0.5
+   },
+   "overlays": [
+    {
+     "type": "vignette",
+     "amount": 0.3
+    }
+   ],
+   "fx": [
+    {
+     "particles": "stars",
+     "count": 30,
+     "size": 0.5
+    }
+   ],
+   "duration": 5,
+   "loop": true,
+   "transition": "fadeblack",
+   "i2v_prompt": "镜头缓慢环绕星球，星云缓缓流动，星光闪烁",
+   "image_prompt": "浩瀚宇宙，{主体}；前景是一颗带光环的行星，中景是彩色星云，远景是密集星点；深空摄影风格，紫蓝与金色"
+  }
+ ]
+}

@@ -27,3 +27,20 @@ videogen/**/clips/
 
 # dependencies
 node_modules/
+
+# stills2video: model weights, generated media, caches (weights live in $HDA_MODELS / ~/.cache/hda-models)
+stills2video/examples/sample/out/
+stills2video/**/clips/
+**/.jobs/
+**/.tts-cache/
+**/.tts-work/
+**/dry-run.txt
+**/comfyui/*.api.json
+**/wan2gp/S*.json
+*.onnx
+*.safetensors
+*.gguf
+*.ckpt
+*.pth
+# reference clones used during research are kept outside the repo (../ref-i2v); never vendor them here
+ref-i2v/

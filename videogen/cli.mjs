@@ -24,6 +24,7 @@ const HELP = `用法: node videogen/cli.mjs <命令> [参数]
             路线 C：按文件名（S01_shot03*.mp4）收回网页端下载的视频，校验时长/画幅，写回 shots.json
   assemble  <shots.json> [--out final.mp4] [--clips clips/] [--bgm music.mp3] [--bgm-volume 0.22]
             [--fit auto|slow|hold|trim|loop] [--frame auto|crop|blur|pad] [--clip-audio 0.3] [--size 1080x1920] [--allow-missing] [--keep-work]
+            [--transition cut|fade|dissolve|circleopen|…（ffmpeg xfade 名）]  镜头间转场（默认硬切；也可在 shots.json 每镜写 transition）
             统一合成：镜头（任意来源或手绘 animator）+ 本地开源 TTS 配音 + 逐字字幕 + 可选 BGM → 成片
 `;
 
@@ -122,7 +123,7 @@ async function main() {
     return;
   }
   if (cmd === 'assemble') {
-    const tl = assemble(sb, { baseDir, clipsDir: a.clips, out: a.out ? path.resolve(a.out) : path.join(baseDir, 'final.mp4'), bgm: a.bgm && path.resolve(a.bgm), bgmVolume: a['bgm-volume'] ? +a['bgm-volume'] : undefined, fit: a.fit, frame: a.frame, clipAudio: a['clip-audio'] ? +a['clip-audio'] : 0, size: a.size, font: a.font, allowMissing: !!a['allow-missing'], keepWork: !!a['keep-work'], subtitles: !a['no-subtitles'] });
+    const tl = assemble(sb, { baseDir, clipsDir: a.clips, out: a.out ? path.resolve(a.out) : path.join(baseDir, 'final.mp4'), bgm: a.bgm && path.resolve(a.bgm), bgmVolume: a['bgm-volume'] ? +a['bgm-volume'] : undefined, fit: a.fit, frame: a.frame, clipAudio: a['clip-audio'] ? +a['clip-audio'] : 0, size: a.size, font: a.font, allowMissing: !!a['allow-missing'], keepWork: !!a['keep-work'], subtitles: !a['no-subtitles'], transition: a.transition });
     for (const s of tl.shots) console.log(`  ${s.id}  ${s.start.toFixed(2)}s 起  目标 ${s.target}s  素材 ${s.clipDuration ?? '—'}s → ${s.fit.mode}${s.fit.speed && s.fit.speed !== 1 ? `（${(1 / s.fit.speed).toFixed(2)}× 放慢）` : ''}${s.fit.hold ? `（定格 ${s.fit.hold}s）` : ''}${s.fit.trim ? `（裁掉 ${s.fit.trim}s）` : ''}`);
     console.log(`完成：${tl.out}（${tl.duration}s，${tl.size}）\n  字幕：${tl.out.replace(/\.mp4$/i, '.srt')}\n  时间线：${tl.out.replace(/\.mp4$/i, '.timeline.json')}`);
     return;
