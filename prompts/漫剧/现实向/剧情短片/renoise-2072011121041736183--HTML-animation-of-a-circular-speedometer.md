@@ -1,0 +1,818 @@
+---
+id: "renoise-2072011121041736183"
+title: "HTML animation of a circular speedometer with numbers 0-200 MPH. The needle…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "漫剧"
+direction: "现实向"
+genre: "剧情短片"
+art_style: "3D卡通"
+tags: ["Seedance 2.0", "Renoise", "Auto", "POV Drive", "3D Animation", "Realistic World", "Creative Asset"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2072011121041736183.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Zentrix⌚️"
+original_author_url: "https://x.com/ZentrixHQ"
+original_post_url: "https://x.com/ZentrixHQ/status/2072011121041736183"
+published: "2026-06-30"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# HTML animation of a circular speedometer with numbers 0-200 MPH. The needle…
+
+## 提示词（English）
+
+```text
+HTML animation of a circular speedometer with numbers 0-200 MPH. The needle starts at 0 and smoothly accelerates to 120, then decelerates back to 0 in a loop. The dial glows red when above 100 MPH.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2072011121041736183.json)
+
+```text
+---
+Animación HTML de un velocímetro circular con números de 0 a 200 MPH. La aguja comienza en 0 y acelera suavemente hasta 120, luego desacelera de nuevo a 0 en un bucle. La esfera brilla en rojo cuando supera las 100 MPH.
+
+--- TWEET CITADO ---
+https://t.co/hwiagfxTgi
+
+--- ARTÍCULO VINCULADO: LA GUÍA DEFINITIVA DE ChatGPT IMAGE 2.0 + SEEDANCE 2.0 (2026) ---
+Desde el registro hasta el video cinematográfico: una guía completa para principiantes
+ChatGPT Image 2.0 construye el storyboard • Seedance 2.0 genera el video
+La inteligencia artificial ha cambiado completamente la forma en que los creadores producen contenido visual. Lo que antes requería un equipo de producción completo ahora puede ser logrado por una sola persona usando las herramientas y el flujo de trabajo adecuados.
+Esta guía te lleva a través de todo el proceso, desde crear tus cuentas y elegir los planes adecuados hasta escribir prompts efectivos, diseñar personajes consistentes, generar storyboards cinematográficos en ChatGPT Image 2.0 y transformarlos en videos de alta calidad con Seedance 2.0.
+Ya seas un principiante completo, creador de contenido, comercializador o cineasta, aprenderás un flujo de trabajo práctico paso a paso que puede repetirse para cualquier proyecto. Al final de esta guía, sabrás cómo crear imágenes y videos generados por IA profesionales con personajes consistentes, movimientos de cámara cinematográficos y calidad lista para producción.
+
+## Tabla de Contenidos
+
+## ¿Qué es ChatGPT Image 2.0?
+
+ChatGPT Image 2.0 es la herramienta de generación de imágenes de OpenAI integrada directamente en ChatGPT. Permite un verdadero diálogo con el modelo: refinar imágenes, ajustar detalles y construir storyboards consistentes, todo dentro de un solo chat.
+Ventajas clave de Image 2.0
+- Entiende el contexto de la conversación: recuerda imágenes y personajes anteriores
+- Genera cuadros consistentes con el mismo personaje sin perder estilo
+- Acepta instrucciones detalladas del director dentro del prompt de texto
+- Soporta estilos: cinematográfico, anime, realismo, fantasía, ciencia ficción, documental
+- Integrado en ChatGPT: no se requiere cuenta separada ni plugin
+> 💡 Nota: ChatGPT Image 2.0 no es solo un generador de imágenes. Es una herramienta para construir el lenguaje visual de tu video antes de siquiera abrir Seedance 2.0.
+
+## ¿Qué es Seedance 2.0?
+
+Seedance 2.0 es el modelo de generación de video de ByteDance, disponible a través de la plataforma Dreamina. Transforma prompts de texto o imágenes en clips de video cinematográficos que van de 5 a 10 segundos.
+Comparación con competidores:
+
+## Registro — Paso a Paso
+
+Parte A: Registro en ChatGPT
+1. Abre tu navegador y ve al sitio web de ChatGPT de OpenAI.
+1. Haz clic en el botón deSign upen la esquina superior derecha.
+1. Elige un método de registro: Google, Microsoft o correo electrónico.
+1. Confirma tu correo electrónico: sigue el enlace en el correo de OpenAI.
+1. Ingresa tu nombre y fecha de nacimiento, luego acepta los términos de uso.
+1. Image 2.0 solo está disponible en planes de pago: consulta la Sección 4 para elegir un plan.
+
+Parte B: Registro en Dreamina (Seedance 2.0)
+1. Abre la plataforma Dreamina de ByteDance.
+1. Haz clic enSign enla esquina superior derecha.
+1. Regístrate a través de una cuenta de TikTok o dirección de correo electrónico.
+1. Después de iniciar sesión, selecciona lasección de Videoen el menú de la izquierda.
+1. Haz clic en el icono del modelo y seleccionaSeedance 2.0.
+1. Activa el modo JSON usando el interruptor Normal / JSON en el panel de prompts.
+> 💡 Consejo: Dreamina ofrece créditos gratuitos a nuevas cuentas. Tus primeros videos pueden generarse gratis sin ingresar detalles de pago.
+
+## Planes y Precios
+
+ChatGPT — Planes de OpenAI (2026)
+
+> 💡 Recomendación inicial: ChatGPT Plus ($20/mes) + Dreamina Standard ($13/mes). Juntos $33/mes — suficiente para aprender y comenzar tus primeros proyectos comerciales.
+
+## Fundamentos de los Prompts
+
+Un prompt es la instrucción que le das a la IA. La calidad de tu prompt determina directamente la calidad del resultado.
+Estructura del prompt perfecto
+
+> ❌ Prompt débil: Un pantera en una playa de noche.
+> ✅ Prompt fuerte: Una pantera negra masiva con ojos ámbar brillantes, corriendo a través de arena oscura y húmeda en una playa tormentosa al anochecer. Toma dramática en ángulo bajo. Iluminación atmosférica azul profundo con luz de contorno sutil en el pelaje. Lluvia cayendo en el fondo. Estilo fotorealista cinematográfico, 8K ultra nítido, calidad National Geographic.
+
+PALABRAS CLAVE PARA ESTILO CINEMATOGRÁFICO
+
+## Creación de un Personaje
+
+Antes de construir escenas y un storyboard, necesitas crear y fijar tus personajes. Esto es crítico para mantener la consistencia, asegurando que el mismo personaje luzca idéntico en cada cuadro.
+Prompt de Hoja de Personaje:
+
+TABLA DE DESCRIPCIÓN DE PERSONAJE
+
+## Escritura de Historia y Guion
+
+Antes de generar cualquier imagen o video, necesitas una estructura clara de la historia. ChatGPT es tu guionista.
+Estructura de tres actos
+
+Prompt de guion:
+
+## Creación de Storyboard en ChatGPT
+
+Un storyboard es una serie de imágenes que ilustran cada escena del video. ChatGPT Image 2.0 genera estos cuadros basándose en tu guion. Estas imágenes se convierten en el material de referencia para Seedance 2.0.
+1. Abre ChatGPT y carga la Hoja de Personaje de tu personaje.
+1. Pega el guion con todas las escenas en un solo prompt.
+1. Genera cuadros uno por uno, desde la Escena 1 hasta la escena final.
+1. Usa la plantilla de prompt a continuación para cada cuadro.
+1. Guarda todos los cuadros: Escena_01.jpg, Escena_02.jpg, y así sucesivamente.
+1. Si un cuadro no coincide con las expectativas, refina el prompt y regenera.
+1. Revisa todos los cuadros como una presentación de diapositivas antes de comenzar la generación de video.
+Plantilla de cuadro de storyboard:
+
+## Generación de Video en Seedance 2.0
+
+Ahora que el storyboard está listo, pasa a Dreamina y genera tus clips de video.
+Estructura JSON para Seedance 2.0:
+
+## Proceso de generación paso a paso
+
+1. Abre Dreamina y ve a Generación de Video.
+1. Selecciona el modelo Seedance 2.0.
+1. Para Imagen a Video: carga el cuadro de storyboard correspondiente.
+1. Activa el modo JSON usando el interruptor.
+1. Pega el prompt JSON. Valida la sintaxis.
+1. Establece la duración: 5 seg para escenas regulares, 8–10 seg para transformaciones.
+1. Haz clic en Generar. La primera generación es una prueba: evalúa la calidad y ajusta el JSON antes de la generación final.
+
+## Escalado y Mejora de Calidad
+
+## Edición Final de Video
+
+## Proceso de edición paso a paso
+
+1. Importa todos los clips. Organiza por escenas.
+1. Revisa todas las variaciones de cada escena y elige la mejor.
+1. Organiza los clips en la línea de tiempo en orden cronológico.
+1. Recorta cada clip: elimina los primeros y últimos 0.5 segundos.
+1. Añade transiciones: Disolver Cruzado para suavizar, Corte Duro para cortes bruscos.
+1. Añade música. Sincroniza transformaciones con el ritmo.
+1. Gradación de color: tonos azul oscuro-púrpura para la noche, dorado cálido para el amanecer.
+
+## Exportación y Publicación
+
+Siguiendo sus repetidas solicitudes, he escrito este artículo para principiantes. Espero que haya sido útil. Habrá muchas más cosas interesantes por venir.
+🔖Marca y sigue a @ZentrixHQ
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2072011121041736183.json)
+
+```text
+---
+Animation HTML d'un compteur de vitesse circulaire avec des chiffres de 0 à 200 MPH. L'aiguille commence à 0 et accélère en douceur jusqu'à 120, puis décélère à nouveau à 0 en boucle. Le cadran s'illumine en rouge au-dessus de 100 MPH.
+
+--- TWEET CITÉ ---
+https://t.co/hwiagfxTgi
+
+--- ARTICLE LIÉ : LE GUIDE ULTIME ChatGPT IMAGE 2.0 + SEEDANCE 2.0 (2026) ---
+De l'inscription à la vidéo cinématographique — un guide complet pour les débutants
+ChatGPT Image 2.0 construit le storyboard • Seedance 2.0 génère la vidéo
+L'intelligence artificielle a complètement changé la façon dont les créateurs produisent du contenu visuel. Ce qui nécessitait autrefois une équipe de production complète peut maintenant être accompli par une seule personne utilisant les bons outils et le bon flux de travail.
+Ce guide vous accompagne tout au long du processus — de la création de vos comptes et du choix des bons plans à l'écriture de prompts efficaces, la conception de personnages cohérents, la génération de storyboards cinématographiques dans ChatGPT Image 2.0, et leur transformation en vidéos de haute qualité avec Seedance 2.0.
+Que vous soyez un débutant complet, un créateur de contenu, un marketeur ou un cinéaste, vous apprendrez un flux de travail pratique étape par étape qui peut être répété pour n'importe quel projet. À la fin de ce guide, vous saurez comment créer des images et des vidéos générées par l'IA avec des personnages cohérents, des mouvements de caméra cinématographiques et une qualité prête pour la production.
+
+## Table des matières
+
+## Qu'est-ce que ChatGPT Image 2.0
+
+ChatGPT Image 2.0 est l'outil de génération d'images d'OpenAI intégré directement dans ChatGPT. Il permet un véritable dialogue avec le modèle : affiner les images, ajuster les détails et construire des storyboards cohérents — tout cela dans un seul chat.
+Principaux avantages de l'Image 2.0
+- Comprend le contexte de la conversation — se souvient des images et des personnages précédents
+- Génère des cadres cohérents avec le même personnage sans perdre de style
+- Accepte des instructions détaillées de réalisateur dans le prompt textuel
+- Prend en charge les styles : cinématographique, anime, réalisme, fantasy, sci-fi, documentaire
+- Intégré dans ChatGPT — pas besoin de compte séparé ou de plugin
+> 💡 Note : ChatGPT Image 2.0 n'est pas seulement un générateur d'images. C'est un outil pour construire le langage visuel de votre vidéo avant même d'ouvrir Seedance 2.0.
+
+## Qu'est-ce que Seedance 2.0
+
+Seedance 2.0 est le modèle de génération vidéo de ByteDance, disponible via la plateforme Dreamina. Il transforme des prompts textuels ou des images en clips vidéo cinématographiques de 5 à 10 secondes.
+Comparaison avec les concurrents :
+
+## Inscription — Étape par étape
+
+Partie A : Inscription à ChatGPT
+1. Ouvrez votre navigateur et allez sur le site de ChatGPT d'OpenAI.
+1. Cliquez sur le bouton S'inscrire en haut à droite.
+1. Choisissez une méthode d'inscription : Google, Microsoft ou email.
+1. Confirmez votre email — suivez le lien dans l'email d'OpenAI.
+1. Entrez votre nom et votre date de naissance, puis acceptez les conditions d'utilisation.
+1. Image 2.0 n'est disponible que sur les plans payants — voir la section 4 pour choisir un plan.
+
+Partie B : Inscription à Dreamina (Seedance 2.0)
+1. Ouvrez la plateforme Dreamina de ByteDance.
+1. Cliquez sur Se connecter en haut à droite.
+1. Inscrivez-vous via un compte TikTok ou une adresse email.
+1. Après vous être connecté, sélectionnez la section Vidéo dans le menu de gauche.
+1. Cliquez sur l'icône du modèle et sélectionnez Seedance 2.0.
+1. Activez le mode JSON en utilisant le basculement Normal / JSON dans le panneau de prompt.
+> 💡 Astuce : Dreamina offre des crédits gratuits aux nouveaux comptes. Vos premières vidéos peuvent être générées gratuitement sans entrer de détails de paiement.
+
+## Plans & Tarification
+
+ChatGPT — Plans OpenAI (2026)
+
+> 💡 Début recommandé : ChatGPT Plus (20 $/mois) + Dreamina Standard (13 $/mois). Ensemble 33 $/mois — suffisant pour apprendre et démarrer vos premiers projets commerciaux.
+
+## Fondamentaux du Prompting
+
+Un prompt est l'instruction que vous donnez à l'IA. La qualité de votre prompt détermine directement la qualité du résultat.
+Structure du prompt parfait
+
+> ❌ Prompt faible : Une panthère sur une plage la nuit.
+> ✅ Prompt fort : Une immense panthère noire aux yeux ambrés brillants, sprintant sur le sable sombre et mouillé d'une plage orageuse au crépuscule. Prise de vue dramatique en contre-plongée. Éclairage atmosphérique bleu profond avec une lumière de bord subtile sur la fourrure. Pluie tombant en arrière-plan. Style cinématographique photoréaliste, 8K ultra-net, qualité National Geographic.
+
+MOTS CLÉS POUR LE STYLE CINÉMATOGRAPHIQUE
+
+## Création d'un personnage
+
+Avant de construire des scènes et un storyboard, vous devez créer et verrouiller vos personnages. C'est crucial pour maintenir la cohérence — s'assurer que le même personnage est identique dans chaque cadre.
+Prompt de fiche de personnage :
+
+TABLEAU DE DESCRIPTION DE PERSONNAGE
+
+## Écriture de l'histoire et du scénario
+
+Avant de générer des images ou des vidéos, vous avez besoin d'une structure d'histoire claire. ChatGPT est votre scénariste.
+Structure en trois actes
+
+Prompt de scénario :
+
+## Création de storyboard dans ChatGPT
+
+Un storyboard est une série d'images illustrant chaque scène de la vidéo. ChatGPT Image 2.0 génère ces cadres en fonction de votre scénario. Ces images deviennent le matériel de référence pour Seedance 2.0.
+1. Ouvrez ChatGPT et téléchargez la fiche de votre personnage.
+1. Collez le scénario avec toutes les scènes dans un seul prompt.
+1. Générez les cadres un par un — de la scène 1 à la scène finale.
+1. Utilisez le modèle de prompt ci-dessous pour chaque cadre.
+1. Sauvegardez tous les cadres : Scene_01.jpg, Scene_02.jpg, et ainsi de suite.
+1. Si un cadre ne correspond pas aux attentes — affinez le prompt et régénérez.
+1. Passez en revue tous les cadres sous forme de diaporama avant de commencer la génération vidéo.
+Modèle de cadre de storyboard :
+
+## Génération vidéo dans Seedance 2.0
+
+Maintenant que le storyboard est prêt, passez à Dreamina et générez vos clips vidéo.
+Structure JSON pour Seedance 2.0 :
+
+## Processus de génération étape par étape
+
+1. Ouvrez Dreamina et allez à la génération vidéo.
+1. Sélectionnez le modèle Seedance 2.0.
+1. Pour Image à Vidéo : téléchargez le cadre de storyboard correspondant.
+1. Activez le mode JSON en utilisant le basculement.
+1. Collez le prompt JSON. Validez la syntaxe.
+1. Définissez la durée : 5 sec pour les scènes régulières, 8–10 sec pour les transformations.
+1. Cliquez sur Générer. La première génération est un test — évaluez la qualité et ajustez le JSON avant la génération finale.
+
+## Mise à l'échelle et amélioration de la qualité
+
+## Montage vidéo final
+
+## Processus de montage étape par étape
+
+1. Importez tous les clips. Organisez par scènes.
+1. Passez en revue toutes les variations de chaque scène et choisissez la meilleure.
+1. Disposez les clips sur la timeline dans l'ordre chronologique.
+1. Coupez chaque clip : retirez les 0,5 premières et dernières secondes.
+1. Ajoutez des transitions : Cross Dissolve pour des transitions fluides, Hard Cut pour des coupures nettes.
+1. Ajoutez de la musique. Synchronisez les transformations avec le rythme.
+1. Étalez les couleurs : tons bleu-violet foncé pour la nuit, or chaud pour l'aube.
+
+## Exportation et publication
+
+À la suite de vos demandes répétées, j'ai écrit cet article pour les débutants. J'espère que cela a été utile. Il y aura beaucoup d'autres choses intéressantes à venir.
+🔖Ajoutez aux favoris et suivez @ZentrixHQ
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2072011121041736183.json)
+
+```text
+---
+HTMLアニメーションで、0-200 MPHの数字が表示された円形のスピードメーター。針は0から始まり、スムーズに120まで加速し、その後0に戻るループを繰り返します。100 MPHを超えるとダイヤルが赤く光ります。
+
+--- 引用ツイート ---
+https://t.co/hwiagfxTgi
+
+--- リンクされた記事: THE ULTIMATE ChatGPT IMAGE 2.0 + SEEDANCE 2.0 GUIDE (2026) ---
+登録からシネマティックビデオまで — 初心者向け完全ガイド
+ChatGPT Image 2.0がストーリーボードを作成し、Seedance 2.0がビデオを生成します。
+人工知能はクリエイターが視覚コンテンツを制作する方法を完全に変えました。かつてはフルプロダクションチームが必要だったものが、今では適切なツールとワークフローを使って一人で達成できます。
+このガイドは、アカウントの作成から適切なプランの選択、効果的なプロンプトの作成、一貫したキャラクターのデザイン、ChatGPT Image 2.0でのシネマティックなストーリーボードの生成、そしてそれらをSeedance 2.0で高品質なビデオに変換するまでの全プロセスを案内します。
+初心者、コンテンツクリエイター、マーケター、映画製作者を問わず、どんなプロジェクトにも繰り返し使える実践的なステップバイステップのワークフローを学べます。このガイドの終わりには、一貫したキャラクター、シネマティックなカメラ動作、プロダクションレディの品質でAI生成の画像とビデオを作成する方法を知ることができます。
+
+## 目次
+
+## ChatGPT Image 2.0とは
+
+ChatGPT Image 2.0は、ChatGPTに直接組み込まれたOpenAIの画像生成ツールです。モデルとの真の対話を可能にし、イメージの洗練、詳細の調整、一貫したストーリーボードの構築を単一のチャット内で行えます。
+Image 2.0の主な利点
+- 会話の文脈を理解 — 前の画像やキャラクターを記憶
+- 同じキャラクターでスタイルを失わずに一貫したフレームを生成
+- テキストプロンプト内で詳細なディレクターの指示を受け入れる
+- スタイルをサポート: シネマティック、アニメ、リアリズム、ファンタジー、SF、ドキュメンタリー
+- ChatGPTに統合 — 別のアカウントやプラグインは不要
+> 💡 注: ChatGPT Image 2.0は単なる画像生成ツールではありません。Seedance 2.0を開く前にビデオの視覚言語を構築するためのツールです。
+
+## Seedance 2.0とは
+
+Seedance 2.0は、ByteDanceのビデオ生成モデルで、Dreaminaプラットフォームを通じて利用可能です。テキストプロンプトや画像をシネマティックなビデオクリップに変換し、5秒から10秒の範囲で生成します。
+競合他社との比較:
+
+## 登録 — ステップバイステップ
+
+パートA: ChatGPTへの登録
+1. ブラウザを開き、OpenAIのChatGPTウェブサイトにアクセスします。
+1. 右上のSign upボタンをクリックします。
+1. サインアップ方法を選択: Google、Microsoft、またはメール。
+1. メールを確認 — OpenAIからのメール内のリンクをフォローします。
+1. 名前と生年月日を入力し、利用規約に同意します。
+1. Image 2.0は有料プランでのみ利用可能 — プランの選択はセクション4を参照。
+
+パートB: Dreamina（Seedance 2.0）への登録
+1. ByteDanceのDreaminaプラットフォームを開きます。
+1. 右上のSign inをクリックします。
+1. TikTokアカウントまたはメールアドレスで登録します。
+1. ログイン後、左メニューのVideoセクションを選択します。
+1. モデルアイコンをクリックし、Seedance 2.0を選択します。
+1. プロンプトパネルでNormal / JSONトグルを使用してJSONモードを有効にします。
+> 💡 ヒント: Dreaminaは新しいアカウントに無料クレジットを提供します。最初のビデオは支払い情報を入力せずに無料で生成できます。
+
+## プランと価格
+
+ChatGPT — OpenAIプラン (2026)
+
+> 💡 推奨スターター: ChatGPT Plus ($20/月) + Dreamina Standard ($13/月)。合計$33/月 — 学習と最初の商業プロジェクトを始めるのに十分です。
+
+## プロンプトの基本
+
+プロンプトはAIに与える指示です。プロンプトの品質が結果の品質を直接決定します。
+完璧なプロンプトの構造
+
+> ❌ 弱いプロンプト: A panther on a beach at night.
+> ✅ 強いプロンプト: A massive black panther with gleaming amber eyes, sprinting across dark wet sand on a stormy beach at dusk. Dramatic low-angle shot. Deep blue atmospheric lighting with subtle rim light on the fur. Rain falling in the background. Cinematic photorealistic style, 8K ultra-sharp, National Geographic quality.
+
+シネマティックスタイルのキーワード
+
+## キャラクターの作成
+
+シーンとストーリーボードを構築する前に、キャラクターを作成し、固定する必要があります。これは一貫性を保つために重要です — 同じキャラクターがすべてのフレームで同一に見えるようにします。
+キャラクターシートプロンプト:
+
+キャラクター説明表
+
+## ストーリーと脚本の執筆
+
+画像やビデオを生成する前に、明確なストーリー構造が必要です。ChatGPTがあなたの脚本家です。
+三幕構成
+
+脚本プロンプト:
+
+## ChatGPTでのストーリーボード作成
+
+ストーリーボードは、ビデオの各シーンを示す一連の画像です。ChatGPT Image 2.0は、あなたの脚本に基づいてこれらのフレームを生成します。これらの画像は、Seedance 2.0の参照資料となります。
+1. ChatGPTを開き、キャラクターのキャラクターシートをアップロードします。
+1. すべてのシーンを含む脚本を単一のプロンプトに貼り付けます。
+1. シーン1から最終シーンまで、フレームを一つずつ生成します。
+1. 各フレームに以下のプロンプトテンプレートを使用します。
+1. すべてのフレームを保存: Scene_01.jpg, Scene_02.jpgなど。
+1. フレームが期待に合わない場合 — プロンプトを洗練し、再生成します。
+1. ビデオ生成を始める前に、すべてのフレームをスライドショーとしてレビューします。
+ストーリーボードフレームテンプレート:
+
+## Seedance 2.0でのビデオ生成
+
+ストーリーボードが準備できたら、Dreaminaに移動してビデオクリップを生成します。
+Seedance 2.0のJSON構造:
+
+## ステップバイステップ生成プロセス
+
+1. Dreaminaを開き、ビデオ生成に移動します。
+1. Seedance 2.0モデルを選択します。
+1. 画像からビデオへ: 対応するストーリーボードフレームをアップロードします。
+1. トグルを使用してJSONモードを有効にします。
+1. JSONプロンプトを貼り付けます。構文を検証します。
+1. 期間を設定: 通常のシーンは5秒、変換は8–10秒。
+1. 生成をクリックします。最初の生成はテストランです — 品質を評価し、最終生成前にJSONを調整します。
+
+## ア
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2072011121041736183.json)
+
+```text
+---
+HTML 애니메이션으로 0-200 MPH 숫자가 있는 원형 속도계를 만듭니다. 바늘은 0에서 시작하여 부드럽게 120까지 가속한 후 다시 0으로 감속하며 반복됩니다. 속도가 100 MPH를 넘으면 다이얼이 빨간색으로 빛납니다.
+
+--- 인용된 트윗 ---
+https://t.co/hwiagfxTgi
+
+--- 연결된 기사: 궁극의 ChatGPT 이미지 2.0 + SEEDANCE 2.0 가이드 (2026) ---
+등록부터 영화 같은 비디오까지 — 초보자를 위한 완벽한 가이드
+ChatGPT 이미지 2.0이 스토리보드를 구축하고 Seedance 2.0이 비디오를 생성합니다.
+인공지능은 창작자가 시각적 콘텐츠를 제작하는 방식을 완전히 바꾸어 놓았습니다. 과거에는 전체 제작팀이 필요했던 작업을 이제는 적절한 도구와 워크플로우를 사용하여 한 사람이 수행할 수 있습니다.
+이 가이드는 계정 생성부터 적절한 플랜 선택, 효과적인 프롬프트 작성, 일관된 캐릭터 디자인, ChatGPT 이미지 2.0에서 영화 같은 스토리보드 생성, Seedance 2.0을 통한 고품질 비디오 변환까지 전체 과정을 안내합니다.
+초보자, 콘텐츠 제작자, 마케터, 영화 제작자 모두가 프로젝트에 반복 적용할 수 있는 실용적인 단계별 워크플로우를 배울 수 있습니다. 이 가이드를 마치면 일관된 캐릭터, 영화 같은 카메라 움직임, 제작 준비가 된 품질의 전문 AI 생성 이미지와 비디오를 만드는 방법을 알게 될 것입니다.
+
+## 목차
+
+## ChatGPT 이미지 2.0이란
+
+ChatGPT 이미지 2.0은 ChatGPT에 직접 내장된 OpenAI의 이미지 생성 도구입니다. 모델과의 진정한 대화를 가능하게 하여 이미지 세부사항을 조정하고 일관된 스토리보드를 구축할 수 있습니다 — 모두 하나의 채팅 내에서 가능합니다.
+이미지 2.0의 주요 장점
+- 대화의 맥락을 이해 — 이전 이미지와 캐릭터를 기억
+- 스타일을 잃지 않고 동일한 캐릭터로 일관된 프레임 생성
+- 텍스트 프롬프트 내에서 감독의 세부 지시를 수용
+- 스타일 지원: 영화적, 애니메이션, 사실적, 판타지, SF, 다큐멘터리
+- ChatGPT에 통합 — 별도의 계정이나 플러그인 불필요
+> 💡 참고: ChatGPT 이미지 2.0은 단순한 이미지 생성기가 아닙니다. Seedance 2.0을 열기 전에 비디오의 시각적 언어를 구축하는 도구입니다.
+
+## Seedance 2.0이란
+
+Seedance 2.0은 ByteDance의 비디오 생성 모델로, Dreamina 플랫폼을 통해 제공됩니다. 텍스트 프롬프트나 이미지를 영화 같은 비디오 클립(5~10초)으로 변환합니다.
+경쟁사와의 비교:
+
+## 등록 — 단계별 안내
+
+파트 A: ChatGPT 등록
+1. 브라우저를 열고 OpenAI의 ChatGPT 웹사이트로 이동합니다.
+1. 오른쪽 상단의Sign up버튼을 클릭합니다.
+1. Google, Microsoft, 이메일 중 하나의 가입 방법을 선택합니다.
+1. 이메일 확인 — OpenAI에서 보낸 이메일의 링크를 따릅니다.
+1. 이름과 생년월일을 입력한 후 이용 약관에 동의합니다.
+1. 이미지 2.0은 유료 플랜에서만 사용 가능 — 섹션 4에서 플랜 선택.
+
+파트 B: Dreamina (Seedance 2.0) 등록
+1. ByteDance의 Dreamina 플랫폼을 엽니다.
+1. 오른쪽 상단의Sign in을 클릭합니다.
+1. TikTok 계정 또는 이메일 주소로 등록합니다.
+1. 로그인 후 왼쪽 메뉴에서Video섹션을 선택합니다.
+1. 모델 아이콘을 클릭하고Seedance 2.0을 선택합니다.
+1. 프롬프트 패널에서 Normal / JSON 토글을 사용하여 JSON 모드를 활성화합니다.
+> 💡 팁: Dreamina는 새로운 계정에 무료 크레딧을 제공합니다. 첫 비디오는 결제 정보 입력 없이 무료로 생성할 수 있습니다.
+
+## 플랜 및 가격
+
+ChatGPT — OpenAI 플랜 (2026)
+
+> 💡 추천 시작 플랜: ChatGPT Plus ($20/월) + Dreamina Standard ($13/월). 총 $33/월 — 학습하고 첫 상업 프로젝트를 시작하기에 충분합니다.
+
+## 프롬프트 기본 원칙
+
+프롬프트는 AI에게 주는 지시입니다. 프롬프트의 품질이 결과의 품질을 직접 결정합니다.
+완벽한 프롬프트의 구조
+
+> ❌ 약한 프롬프트: 밤의 해변에 있는 표범.
+> ✅ 강한 프롬프트: 거대한 검은 표범이 번쩍이는 호박색 눈을 가지고, 폭풍우가 치는 해변의 어두운 젖은 모래 위를 질주합니다. 극적인 저각도 샷. 깊은 파란색 대기 조명과 털에 미묘한 림 라이트. 배경에 비가 내립니다. 영화적 사실주의 스타일, 8K 초고화질, 내셔널 지오그래픽 품질.
+
+영화적 스타일을 위한 키워드
+
+## 캐릭터 생성
+
+장면과 스토리보드를 구축하기 전에 캐릭터를 생성하고 고정해야 합니다. 이는 일관성을 유지하는 데 중요합니다 — 동일한 캐릭터가 모든 프레임에서 동일하게 보이도록 보장합니다.
+캐릭터 시트 프롬프트:
+
+캐릭터 설명 표
+
+## 스토리 및 대본 작성
+
+이미지나 비디오를 생성하기 전에 명확한 스토리 구조가 필요합니다. ChatGPT가 당신의 시나리오 작가입니다.
+삼막 구조
+
+대본 프롬프트:
+
+## ChatGPT에서 스토리보드 작성
+
+스토리보드는 비디오의 각 장면을 설명하는 일련의 이미지입니다. ChatGPT 이미지 2.0은 대본을 기반으로 이러한 프레임을 생성합니다. 이 이미지는 Seedance 2.0의 참조 자료가 됩니다.
+1. ChatGPT를 열고 캐릭터의 캐릭터 시트를 업로드합니다.
+1. 모든 장면이 포함된 대본을 하나의 프롬프트로 붙여넣습니다.
+1. 장면 1부터 마지막 장면까지 프레임을 하나씩 생성합니다.
+1. 각 프레임에 대한 프롬프트 템플릿을 사용합니다.
+1. 모든 프레임을 저장합니다: Scene_01.jpg, Scene_02.jpg 등.
+1. 프레임이 기대에 부합하지 않으면 프롬프트를 수정하고 재생성합니다.
+1. 비디오 생성 시작 전에 모든 프레임을 슬라이드쇼로 검토합니다.
+스토리보드 프레임 템플릿:
+
+## Seedance 2.0에서 비디오 생성
+
+이제 스토리보드가 준비되었으므로 Dreamina로 이동하여 비디오 클립을 생성합니다.
+Seedance 2.0의 JSON 구조:
+
+## 단계별 생성 프로세스
+
+1. Dreamina를 열고 비디오 생성으로 이동합니다.
+1. Seedance 2.0 모델을 선택합니다.
+1. 이미지에서 비디오로: 해당 스토리보드 프레임을 업로드합니다.
+1. 토글을 사용하여 JSON 모드를 활성화합니다.
+1. JSON 프롬프트를 붙여넣습니다. 구문을 검증합니다.
+1. 지속 시간 설정: 일반 장면은 5초, 변환은 8–10초.
+1. 생성 버튼을 클릭합니다. 첫 번째 생성은 테스트 실행입니다 — 품질을 평가하고 최종 생성 전에 JSON을 조정합니다.
+
+## 업스케일링 및 품질 향상
+
+## 최종 비디오 편집
+
+## 단계별 편집 프로세스
+
+1. 모든 클립을 가져옵니다. 장면별로 정리합니다.
+1. 각 장면의 모든 변형을 검토하고 최상의 것을 선택합니다.
+1. 타임라인에 클립을 순서대로 배열합니다.
+1. 각 클립을 다듬습니다: 처음과 마지막 0.5초를 제거합니다.
+1. 전환 추가: 부드러운 전환을 위한 크로스 디졸브, 날카로운 컷을 위한 하드 컷.
+1. 음악 추가. 변환을 비트에 맞춥니다.
+1. 색상 등급: 밤에는 어두운 파란색-보라색 톤, 새벽에는 따뜻한 금색.
+
+## 내보내기 및 게시
+
+여러분의 반복적인 요청에 따라 초보자를 위한 이 기사를 작성했습니다. 도움이 되었기를 바랍니다. 앞으로도 많은 �
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2072011121041736183.json)
+
+```text
+HTML animação de um velocímetro circular com números de 0 a 200 MPH. O ponteiro começa em 0 e acelera suavemente até 120, depois desacelera de volta para 0 em um loop. O mostrador brilha em vermelho quando acima de 100 MPH.
+
+--- TWEET CITADO ---
+https://t.co/hwiagfxTgi
+
+--- ARTIGO VINCULADO: O GUIA DEFINITIVO ChatGPT IMAGE 2.0 + SEEDANCE 2.0 (2026) ---
+Do registro ao vídeo cinematográfico — um guia completo para iniciantes
+ChatGPT Image 2.0 constrói o storyboard • Seedance 2.0 gera o vídeo
+A inteligência artificial mudou completamente a forma como os criadores produzem conteúdo visual. O que antes exigia uma equipe de produção completa agora pode ser realizado por uma única pessoa usando as ferramentas e o fluxo de trabalho corretos.
+Este guia leva você por todo o processo — desde a criação de suas contas e escolha dos planos certos até a escrita de prompts eficazes, design de personagens consistentes, geração de storyboards cinematográficos no ChatGPT Image 2.0 e transformação deles em vídeos de alta qualidade com o Seedance 2.0.
+Seja você um iniciante completo, criador de conteúdo, profissional de marketing ou cineasta, você aprenderá um fluxo de trabalho prático passo a passo que pode ser repetido para qualquer projeto. Ao final deste guia, você saberá como criar imagens e vídeos gerados por IA com personagens consistentes, movimentos de câmera cinematográficos e qualidade pronta para produção.
+
+## Índice
+
+## O que é o ChatGPT Image 2.0
+
+O ChatGPT Image 2.0 é a ferramenta de geração de imagens da OpenAI integrada diretamente no ChatGPT. Ele permite um verdadeiro diálogo com o modelo: refinar imagens, ajustar detalhes e construir storyboards consistentes — tudo em um único chat.
+Principais vantagens do Image 2.0
+- Entende o contexto da conversa — lembra imagens e personagens anteriores
+- Gera quadros consistentes com o mesmo personagem sem perder o estilo
+- Aceita instruções detalhadas do diretor dentro do prompt de texto
+- Suporta estilos: cinematográfico, anime, realismo, fantasia, ficção científica, documentário
+- Integrado ao ChatGPT — não é necessário conta separada ou plugin
+> 💡 Nota: O ChatGPT Image 2.0 não é apenas um gerador de imagens. É uma ferramenta para construir a linguagem visual do seu vídeo antes mesmo de abrir o Seedance 2.0.
+
+## O que é o Seedance 2.0
+
+O Seedance 2.0 é o modelo de geração de vídeo da ByteDance, disponível através da plataforma Dreamina. Ele transforma prompts de texto ou imagens em clipes de vídeo cinematográficos de 5 a 10 segundos.
+Comparação com concorrentes:
+
+## Registro — Passo a Passo
+
+Parte A: Registrando no ChatGPT
+1. Abra seu navegador e vá para o site do ChatGPT da OpenAI.
+1. Clique no botãoSign upno canto superior direito.
+1. Escolha um método de inscrição: Google, Microsoft ou e-mail.
+1. Confirme seu e-mail — siga o link no e-mail da OpenAI.
+1. Insira seu nome e data de nascimento, depois aceite os termos de uso.
+1. O Image 2.0 está disponível apenas em planos pagos — veja a Seção 4 para escolher um plano.
+
+Parte B: Registrando no Dreamina (Seedance 2.0)
+1. Abra a plataforma Dreamina da ByteDance.
+1. Clique emSign inno canto superior direito.
+1. Registre-se via conta TikTok ou endereço de e-mail.
+1. Após o login, selecione a seçãoVídeono menu à esquerda.
+1. Clique no ícone do modelo e selecioneSeedance 2.0.
+1. Ative o modo JSON usando a alternância Normal / JSON no painel de prompt.
+> 💡 Dica: O Dreamina oferece créditos gratuitos para novas contas. Seus primeiros vídeos podem ser gerados gratuitamente sem inserir detalhes de pagamento.
+
+## Planos e Preços
+
+ChatGPT — Planos OpenAI (2026)
+
+> 💡 Iniciante recomendado: ChatGPT Plus ($20/mês) + Dreamina Standard ($13/mês). Juntos $33/mês — suficiente para aprender e iniciar seus primeiros projetos comerciais.
+
+## Fundamentos de Prompting
+
+Um prompt é a instrução que você dá à IA. A qualidade do seu prompt determina diretamente a qualidade do resultado.
+Estrutura do prompt perfeito
+
+> ❌ Prompt fraco: Uma pantera em uma praia à noite.
+> ✅ Prompt forte: Uma enorme pantera negra com olhos âmbar brilhantes, correndo pela areia escura e molhada em uma praia tempestuosa ao anoitecer. Tomada dramática em ângulo baixo. Iluminação atmosférica azul profunda com luz de contorno sutil na pelagem. Chuva caindo ao fundo. Estilo fotorealista cinematográfico, 8K ultra-nítido, qualidade National Geographic.
+
+PALAVRAS-CHAVE PARA ESTILO CINEMATOGRÁFICO
+
+## Criando um Personagem
+
+Antes de construir cenas e um storyboard, você precisa criar e fixar seus personagens. Isso é crítico para manter a consistência — garantindo que o mesmo personagem pareça idêntico em cada quadro.
+Prompt de Ficha de Personagem:
+
+TABELA DE DESCRIÇÃO DE PERSONAGEM
+
+## Escrita de História e Roteiro
+
+Antes de gerar qualquer imagem ou vídeo, você precisa de uma estrutura clara de história. O ChatGPT é seu roteirista.
+Estrutura de três atos
+
+Prompt de roteiro:
+
+## Storyboarding no ChatGPT
+
+Um storyboard é uma série de imagens ilustrando cada cena do vídeo. O ChatGPT Image 2.0 gera esses quadros com base no seu roteiro. Essas imagens se tornam o material de referência para o Seedance 2.0.
+1. Abra o ChatGPT e carregue a Ficha de Personagem do seu personagem.
+1. Cole o roteiro com todas as cenas em um único prompt.
+1. Gere os quadros um por um — da Cena 1 à cena final.
+1. Use o modelo de prompt abaixo para cada quadro.
+1. Salve todos os quadros: Cena_01.jpg, Cena_02.jpg, e assim por diante.
+1. Se um quadro não corresponder às expectativas — refine o prompt e regenere.
+1. Revise todos os quadros como uma apresentação de slides antes de iniciar a geração de vídeo.
+Modelo de quadro de storyboard:
+
+## Geração de Vídeo no Seedance 2.0
+
+Agora que o storyboard está pronto, vá para o Dreamina e gere seus clipes de vídeo.
+Estrutura JSON para Seedance 2.0:
+
+## Processo de geração passo a passo
+
+1. Abra o Dreamina e vá para Geração de Vídeo.
+1. Selecione o modelo Seedance 2.0.
+1. Para Imagem para Vídeo: carregue o quadro correspondente do storyboard.
+1. Ative o modo JSON usando a alternância.
+1. Cole o prompt JSON. Valide a sintaxe.
+1. Defina a duração: 5 seg para cenas regulares, 8–10 seg para transformações.
+1. Clique em Gerar. A primeira geração é um teste — avalie a qualidade e ajuste o JSON antes da geração final.
+
+## Aumento de Resolução e Melhoria de Qualidade
+
+## Edição Final de Vídeo
+
+## Processo de edição passo a passo
+
+1. Importe todos os clipes. Organize por cenas.
+1. Revise todas as variações de cada cena e escolha a melhor.
+1. Organize os clipes na linha do tempo em ordem cronológica.
+1. Corte cada clipe: remova os primeiros e últimos 0,5 segundos.
+1. Adicione transições: Dissolver Cruzado para suave, Corte Seco para cortes bruscos.
+1. Adicione música. Sincronize transformações com o ritmo.
+1. Graduação de cor: tons azul-púrpura escuros para noite, dourado quente para amanhecer.
+
+## Exportação e Publicação
+
+Após seus repetidos pedidos, escrevi este artigo para iniciantes. Espero que tenha sido útil. Haverá muitas outras coisas interessantes por vir.
+🔖Marque e siga @ZentrixHQ
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2072011121041736183.json)
+
+```text
+HTML动画：一个圆形速度表，数字从0到200 MPH。指针从0开始，平稳加速到120，然后减速回到0，循环往复。当速度超过100 MPH时，表盘会发出红光。
+
+--- 引用推文 ---
+https://t.co/hwiagfxTgi
+
+--- 相关文章：终极ChatGPT Image 2.0 + Seedance 2.0指南（2026） ---
+从注册到电影级视频——初学者的完整指南
+ChatGPT Image 2.0构建故事板 • Seedance 2.0生成视频
+人工智能彻底改变了创作者制作视觉内容的方式。过去需要一个完整的制作团队，现在只需一个人使用合适的工具和工作流程即可完成。
+本指南将带您完成整个过程——从创建账户、选择合适的计划，到编写有效的prompt、设计一致的角色、在ChatGPT Image 2.0中生成电影级故事板，并使用Seedance 2.0将其转化为高质量视频。
+无论您是完全的初学者、内容创作者、营销人员还是电影制作人，您都将学习到一个实用的逐步工作流程，可以在任何项目中重复使用。在本指南结束时，您将知道如何创建具有一致角色、电影级镜头运动和生产就绪质量的专业AI生成图像和视频。
+
+## 目录
+
+## 什么是ChatGPT Image 2.0
+
+ChatGPT Image 2.0是OpenAI直接集成到ChatGPT中的图像生成工具。它实现了与模型的真实对话：优化图像、调整细节，并在单一聊天中构建一致的故事板。
+Image 2.0的主要优势
+- 理解对话上下文——记住之前的图像和角色
+- 生成具有相同角色的一致画面而不失风格
+- 在文本prompt中接受详细的导演指令
+- 支持风格：电影级、动漫、现实主义、奇幻、科幻、纪录片
+- 集成到ChatGPT中——无需单独账户或插件
+> 💡 注意：ChatGPT Image 2.0不仅仅是一个图像生成器。它是在您打开Seedance 2.0之前构建视频视觉语言的工具。
+
+## 什么是Seedance 2.0
+
+Seedance 2.0是字节跳动通过Dreamina平台提供的视频生成模型。它将文本prompt或图像转化为5到10秒的电影级视频片段。
+与竞争对手的比较：
+
+## 注册——逐步指南
+
+部分A：在ChatGPT中注册
+1. 打开浏览器并访问OpenAI的ChatGPT网站。
+1. 点击右上角的注册按钮。
+1. 选择一种注册方式：Google、Microsoft或电子邮件。
+1. 确认您的电子邮件——按照OpenAI邮件中的链接操作。
+1. 输入您的姓名和出生日期，然后接受使用条款。
+1. Image 2.0仅在付费计划中可用——请参见第4节选择计划。
+
+部分B：在Dreamina（Seedance 2.0）中注册
+1. 打开字节跳动的Dreamina平台。
+1. 点击右上角的登录。
+1. 通过TikTok账户或电子邮件地址注册。
+1. 登录后，选择左侧菜单中的视频部分。
+1. 点击模型图标并选择Seedance 2.0。
+1. 在prompt面板中使用Normal / JSON切换激活JSON模式。
+> 💡 提示：Dreamina为新账户提供免费积分。您的第一个视频可以在不输入支付信息的情况下免费生成。
+
+## 计划与定价
+
+ChatGPT — OpenAI计划（2026）
+
+> 💡 推荐入门：ChatGPT Plus（$20/月）+ Dreamina标准版（$13/月）。总计$33/月——足以学习并开始您的第一个商业项目。
+
+## Prompt基础
+
+Prompt是您给AI的指令。Prompt的质量直接决定结果的质量。
+完美prompt的结构
+
+> ❌ 弱prompt：夜晚海滩上的一只黑豹。
+> ✅ 强prompt：一只巨大的黑豹，琥珀色的眼睛闪闪发光，在暴风雨的黄昏海滩上奔跑。戏剧性的低角度镜头。深蓝色的氛围灯光，毛皮上有微妙的轮廓光。背景中有雨。电影级写实风格，8K超清晰，国家地理质量。
+
+电影级风格关键词
+
+## 创建角色
+
+在构建场景和故事板之前，您需要创建并锁定您的角色。这对于保持一致性至关重要——确保同一角色在每一帧中看起来都相同。
+角色描述表：
+
+## 故事与剧本写作
+
+在生成任何图像或视频之前，您需要一个清晰的故事结构。ChatGPT是您的编剧。
+三幕结构
+
+剧本prompt：
+
+## 在ChatGPT中制作故事板
+
+故事板是一系列图像，展示视频的每个场景。ChatGPT Image 2.0根据您的剧本生成这些画面。这些图像成为Seedance 2.0的参考材料。
+1. 打开ChatGPT并上传角色的角色表。
+1. 将包含所有场景的剧本粘贴到一个prompt中。
+1. 一一生成画面——从场景1到最后一个场景。
+1. 使用下面的prompt模板为每个画面。
+1. 保存所有画面：Scene_01.jpg、Scene_02.jpg，依此类推。
+1. 如果某个画面不符合预期——优化prompt并重新生成。
+1. 在开始视频生成之前，以幻灯片形式查看所有画面。
+故事板画面模板：
+
+## 在Seedance 2.0中生成视频
+
+现在故事板已准备好，转到Dreamina并生成您的视频片段。
+Seedance 2.0的JSON结构：
+
+## 逐步生成过程
+
+1. 打开Dreamina并转到视频生成。
+1. 选择Seedance 2.0模型。
+1. 对于图像到视频：上传相应的故事板画面。
+1. 使用切换激活JSON模式。
+1. 粘贴JSON prompt。验证语法。
+1. 设置时长：常规场景5秒，转换场景8-10秒。
+1. 点击生成。第一次生成是测试运行——评估质量并在最终生成前调整JSON。
+
+## 放大与质量增强
+
+## 最终视频编辑
+
+## 逐步编辑过程
+
+1. 导入所有片段。按场景组织。
+1. 查看每个场景的所有变体并选择最佳。
+1. 按时间顺序排列片段。
+1. 修剪每个片段：去掉前后0.5秒。
+1. 添加过渡：平滑过渡使用交叉溶解，锐利切换使用硬切。
+1. 添加音乐。将转换与节拍同步。
+1. 调色：夜晚使用深蓝紫色调，黎明使用暖金色。
+
+## 导出与发布
+
+根据您的反复请求，我为初学者写了这篇文章。希望这对您有所帮助。未来会有更多有趣的内容。
+🔖收藏并关注@ZentrixHQ
+```
+
+## 出处与许可
+
+- 原作者：[Zentrix⌚️](https://x.com/ZentrixHQ) · 原帖：<https://x.com/ZentrixHQ/status/2072011121041736183>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2072011121041736183.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

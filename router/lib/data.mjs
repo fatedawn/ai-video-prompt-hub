@@ -4,7 +4,11 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseCSV } from './text.mjs';
 
-export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
+// HUB_ROOT / AVPH_ROOT override the repo root (used by mcp/ when the package is not sitting inside the clone).
+const envRoot = process.env.HUB_ROOT || process.env.AVPH_ROOT;
+export const ROOT = envRoot
+  ? path.resolve(envRoot)
+  : path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const P = (...a) => path.join(ROOT, ...a);
 const readJSON = (f) => JSON.parse(fs.readFileSync(P(f), 'utf8'));
 const readJSONL = (f) => fs.readFileSync(P(f), 'utf8').split('\n').filter(Boolean).map((l) => JSON.parse(l));

@@ -1,0 +1,181 @@
+---
+id: "renoise-2068296212500054476"
+title: "Style: Ultra-cute Pixar-quality 3D animation, cinematic lighting, expressive…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "漫剧"
+direction: "特效向"
+genre: "特效综合"
+art_style: "3D卡通"
+tags: ["Seedance 2.0", "Renoise", "Animals", "Pets", "3D Animation", "Realistic World", "VFX", "POV"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068296212500054476.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Anissa"
+original_author_url: "https://x.com/SimplyAnnisa"
+original_post_url: "https://x.com/SimplyAnnisa/status/2068296212500054476"
+published: "2026-06-20"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Style: Ultra-cute Pixar-quality 3D animation, cinematic lighting, expressive…
+
+## 提示词（English）
+
+```text
+Style: Ultra-cute Pixar-quality 3D animation, cinematic lighting, expressive faces, vibrant playground, smooth animation, 9:16 vertical.
+⏱️ 0.0s – 3.0s
+Same playground, same sandbox scene continuation. The toddler boy is now slightly out of focus in the background (no major action change). The little girl in the pink dress is now in the playground area, gently visible in the same scene environment as before, moving calmly with her mother in the background.
+⏱️ 3.0s – 6.0s
+Cut to the little girl’s perspective: she notices the fluffy orange kitten playing near the sandbox with the yellow toy dump truck and blue shovel. Her eyes slowly widen with curiosity and soft excitement. The warm sunlight creates a dreamy glow around the scene.
+⏱️ 6.0s – 9.0s
+The orange kitten becomes slightly aware of the girl’s attention and pauses playing. Tiny magical pink hearts start appearing around the kitten’s head in a soft, cute way (no sudden motion, just gentle magical effect). The kitten looks adorably fascinated.
+⏱️ 9.0s – 12.0s
+The girl gently tilts her head, smiling softly at the kitten. The kitten now fully reacts — sparkling eyes, soft blush-like glow, and floating pink 3D heart particles around it. The toy dump truck and blue shovel remain in the sand unchanged.
+⏱️ 12.0s – 15.0s
+Final cinematic shot: the girl smiling at the kitten from a short distance, while the kitten continues its cute “mesmerized” reaction. Background remains same playground with warm golden sunlight. Soft dreamy ending, same emotional tone as Part 1 for perfect continuity loop.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068296212500054476.json)
+
+```text
+---
+Estilo: Animación 3D de calidad Pixar ultra-cute, iluminación cinematográfica, caras expresivas, parque vibrante, animación fluida, vertical 9:16.
+⏱️ 0.0s – 3.0s
+Mismo parque, continuación de la misma escena en el arenero. El niño pequeño ahora está ligeramente desenfocado en el fondo (sin cambio de acción importante). La niña con el vestido rosa ahora está en el área del parque, visible suavemente en el mismo entorno de escena que antes, moviéndose tranquilamente con su madre en el fondo.
+⏱️ 3.0s – 6.0s
+Corte a la perspectiva de la niña: nota al esponjoso gatito naranja jugando cerca del arenero con el camión volquete amarillo de juguete y la pala azul. Sus ojos se agrandan lentamente con curiosidad y suave emoción. La cálida luz del sol crea un resplandor de ensueño alrededor de la escena.
+⏱️ 6.0s – 9.0s
+El gatito naranja se da cuenta ligeramente de la atención de la niña y deja de jugar. Pequeños corazones mágicos rosados comienzan a aparecer alrededor de la cabeza del gatito de una manera suave y cute (sin movimiento brusco, solo un efecto mágico suave). El gatito parece adorablemente fascinado.
+⏱️ 9.0s – 12.0s
+La niña inclina suavemente la cabeza, sonriendo dulcemente al gatito. El gatito ahora reacciona completamente — ojos brillantes, suave resplandor como de rubor, y partículas flotantes de corazones 3D rosados a su alrededor. El camión volquete de juguete y la pala azul permanecen en la arena sin cambios.
+⏱️ 12.0s – 15.0s
+Toma cinematográfica final: la niña sonriendo al gatito desde una corta distancia, mientras el gatito continúa su cute reacción “hipnotizada”. El fondo sigue siendo el mismo parque con cálida luz dorada del sol. Final suave y de ensueño, mismo tono emocional que la Parte 1 para un perfecto bucle de continuidad.
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068296212500054476.json)
+
+```text
+---
+Style : Animation 3D de qualité Pixar ultra-mignonne, éclairage cinématographique, visages expressifs, terrain de jeu vibrant, animation fluide, format vertical 9:16.
+⏱️ 0.0s – 3.0s
+Même terrain de jeu, continuation de la même scène dans le bac à sable. Le petit garçon est maintenant légèrement flou en arrière-plan (pas de changement d'action majeur). La petite fille en robe rose est maintenant dans la zone de jeu, doucement visible dans le même environnement de scène qu'auparavant, se déplaçant calmement avec sa mère en arrière-plan.
+⏱️ 3.0s – 6.0s
+Passage à la perspective de la petite fille : elle remarque le chaton orange duveteux jouant près du bac à sable avec le camion-benne jouet jaune et la pelle bleue. Ses yeux s'écarquillent lentement de curiosité et d'une douce excitation. La lumière chaude du soleil crée une lueur onirique autour de la scène.
+⏱️ 6.0s – 9.0s
+Le chaton orange devient légèrement conscient de l'attention de la fille et arrête de jouer. De petits cœurs magiques roses commencent à apparaître autour de la tête du chaton de manière douce et mignonne (pas de mouvement brusque, juste un effet magique doux). Le chaton semble adorablement fasciné.
+⏱️ 9.0s – 12.0s
+La fille incline doucement la tête, souriant doucement au chaton. Le chaton réagit maintenant pleinement — yeux scintillants, douce lueur de type rougissement, et particules de cœurs roses 3D flottant autour de lui. Le camion-benne jouet et la pelle bleue restent inchangés dans le sable.
+⏱️ 12.0s – 15.0s
+Plan cinématographique final : la fille souriant au chaton à courte distance, tandis que le chaton continue sa réaction mignonne de "fascination". L'arrière-plan reste le même terrain de jeu avec une lumière dorée chaude. Fin douce et onirique, même ton émotionnel que la Partie 1 pour une boucle de continuité parfaite.
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068296212500054476.json)
+
+```text
+---
+スタイル: ウルトラキュートなピクサークオリティの3Dアニメーション、シネマティックなライティング、表情豊かな顔、鮮やかな遊び場、スムーズなアニメーション、9:16の縦型。
+
+⏱️ 0.0s – 3.0s
+同じ遊び場、同じ砂場のシーンの続き。幼児の男の子は背景で少しぼやけている（大きなアクションの変化はなし）。ピンクのドレスを着た小さな女の子が遊び場エリアにいて、以前と同じシーン環境で母親と一緒に穏やかに動いているのが優しく見える。
+
+⏱️ 3.0s – 6.0s
+小さな女の子の視点にカット: 彼女は砂場の近くで黄色いおもちゃのダンプトラックと青いシャベルで遊んでいるふわふわのオレンジ色の子猫に気づく。彼女の目は好奇心と柔らかな興奮でゆっくりと大きくなる。暖かい日差しがシーンに夢のような輝きを与える。
+
+⏱️ 6.0s – 9.0s
+オレンジ色の子猫は女の子の注目に少し気づき、遊びを止める。小さな魔法のようなピンクのハートが子猫の頭の周りに柔らかくかわいらしく現れる（急な動きはなく、ただ優しい魔法の効果）。子猫は愛らしく魅了された様子で見つめる。
+
+⏱️ 9.0s – 12.0s
+女の子は優しく頭を傾け、子猫に微笑む。子猫は完全に反応し、輝く目、柔らかな頬のような輝き、そしてその周りに浮かぶピンクの3Dハートの粒子。おもちゃのダンプトラックと青いシャベルは砂の中で変わらずに残っている。
+
+⏱️ 12.0s – 15.0s
+最後のシネマティックショット: 女の子が短い距離から子猫に微笑みかける間、子猫はかわいい「魅了された」反応を続ける。背景は同じ遊び場で、暖かい黄金色の日差し。柔らかく夢のようなエンディングで、パート1と同じ感情的なトーンで完璧な連続ループを形成する。
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068296212500054476.json)
+
+```text
+---
+스타일: 울트라 귀여운 픽사 품질의 3D 애니메이션, 시네마틱 조명, 표현력 있는 얼굴, 생동감 있는 놀이터, 부드러운 애니메이션, 9:16 세로.
+⏱️ 0.0초 – 3.0초
+같은 놀이터, 같은 모래상자 장면의 연속. 이제 유아 소년이 배경에서 약간 초점이 흐려짐 (주요 행동 변화 없음). 분홍색 드레스를 입은 작은 소녀가 이제 놀이터 구역에 있으며, 이전과 같은 장면 환경에서 어머니와 함께 배경에서 차분히 움직이고 있음.
+⏱️ 3.0초 – 6.0초
+작은 소녀의 시점으로 전환: 그녀는 모래상자 근처에서 노란 장난감 덤프트럭과 파란 삽을 가지고 노는 털복숭이 주황색 새끼 고양이를 발견함. 그녀의 눈이 호기심과 부드러운 흥분으로 천천히 커짐. 따뜻한 햇빛이 장면 주위에 꿈같은 빛을 만들어냄.
+⏱️ 6.0초 – 9.0초
+주황색 새끼 고양이는 소녀의 관심을 약간 인식하고 놀이를 멈춤. 작은 마법의 분홍색 하트가 새끼 고양이 머리 주위에 부드럽고 귀엽게 나타나기 시작함 (갑작스러운 움직임 없이, 단지 부드러운 마법 효과). 새끼 고양이는 사랑스럽게 매료된 듯 보임.
+⏱️ 9.0초 – 12.0초
+소녀는 부드럽게 고개를 기울이며 새끼 고양이를 향해 미소 짓음. 새끼 고양이는 이제 완전히 반응함 — 반짝이는 눈, 부드러운 홍조 같은 빛, 그리고 그 주위에 떠다니는 분홍색 3D 하트 입자. 장난감 덤프트럭과 파란 삽은 모래 속에서 변함없이 남아 있음.
+⏱️ 12.0초 – 15.0초
+마지막 시네마틱 샷: 소녀가 짧은 거리에서 새끼 고양이를 향해 미소 짓고, 새끼 고양이는 계속해서 귀여운 "매료된" 반응을 보임. 배경은 따뜻한 황금빛 햇빛이 비치는 같은 놀이터로 남아 있음. 부드럽고 꿈같은 결말, Part 1과 같은 감정적 톤으로 완벽한 연속 루프.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068296212500054476.json)
+
+```text
+---
+Estilo: Animação 3D de qualidade Pixar ultra-fofa, iluminação cinematográfica, rostos expressivos, playground vibrante, animação suave, vertical 9:16.
+⏱️ 0,0s – 3,0s
+Mesmo playground, continuação da mesma cena na caixa de areia. O menino pequeno agora está ligeiramente fora de foco ao fundo (sem grande mudança de ação). A menininha de vestido rosa agora está na área do playground, visível suavemente no mesmo ambiente da cena anterior, movendo-se calmamente com sua mãe ao fundo.
+⏱️ 3,0s – 6,0s
+Corte para a perspectiva da menininha: ela nota o gatinho laranja fofinho brincando perto da caixa de areia com o caminhão de brinquedo amarelo e a pá azul. Seus olhos lentamente se arregalam com curiosidade e suave empolgação. A luz quente do sol cria um brilho de sonho ao redor da cena.
+⏱️ 6,0s – 9,0s
+O gatinho laranja fica ligeiramente ciente da atenção da menina e pausa a brincadeira. Pequenos corações mágicos rosa começam a aparecer ao redor da cabeça do gatinho de uma maneira suave e fofa (sem movimento brusco, apenas um efeito mágico suave). O gatinho parece adoravelmente fascinado.
+⏱️ 9,0s – 12,0s
+A menina inclina suavemente a cabeça, sorrindo docemente para o gatinho. O gatinho agora reage completamente — olhos brilhantes, um suave brilho como se estivesse corado, e partículas de corações 3D rosa flutuando ao seu redor. O caminhão de brinquedo e a pá azul permanecem na areia inalterados.
+⏱️ 12,0s – 15,0s
+Tomada cinematográfica final: a menina sorrindo para o gatinho a uma curta distância, enquanto o gatinho continua sua reação fofa de “encantamento”. O fundo permanece o mesmo playground com a luz dourada quente do sol. Final suave e sonhador, mesmo tom emocional da Parte 1 para um perfeito loop de continuidade.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068296212500054476.json)
+
+```text
+---
+风格：超可爱的皮克斯质量3D动画，电影级灯光，富有表现力的面孔，色彩鲜艳的游乐场，流畅的动画，9:16竖屏。
+⏱️ 0.0s – 3.0s
+同一游乐场，同一沙箱场景的延续。小男孩现在在背景中略微失焦（没有重大动作变化）。穿粉色裙子的小女孩现在在游乐场区域，在与之前相同的场景环境中轻轻可见，背景中与她的母亲一起平静地移动。
+⏱️ 3.0s – 6.0s
+切换到小女孩的视角：她注意到毛茸茸的橙色小猫在沙箱附近玩耍，旁边有黄色玩具翻斗车和蓝色铲子。她的眼睛慢慢地因好奇和柔和的兴奋而睁大。温暖的阳光为场景增添了梦幻般的光晕。
+⏱️ 6.0s – 9.0s
+橙色小猫稍微注意到女孩的关注，暂停了玩耍。小猫的头上开始出现微小的魔法粉色心形，柔和可爱（没有突然的动作，只是轻柔的魔法效果）。小猫看起来可爱地着迷。
+⏱️ 9.0s – 12.0s
+女孩轻轻地歪着头，柔和地微笑着看着小猫。小猫现在完全反应过来——闪亮的眼睛，柔和的腮红般的光芒，周围漂浮着粉色3D心形粒子。玩具翻斗车和蓝色铲子在沙子中保持不变。
+⏱️ 12.0s – 15.0s
+最终的电影镜头：女孩从短距离微笑着看着小猫，而小猫继续它可爱的“着迷”反应。背景仍然是同一个游乐场，温暖的金色阳光。柔和梦幻的结尾，与第一部分相同的情感基调，完美的连续循环。
+---
+```
+
+## 出处与许可
+
+- 原作者：[Anissa](https://x.com/SimplyAnnisa) · 原帖：<https://x.com/SimplyAnnisa/status/2068296212500054476>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068296212500054476.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

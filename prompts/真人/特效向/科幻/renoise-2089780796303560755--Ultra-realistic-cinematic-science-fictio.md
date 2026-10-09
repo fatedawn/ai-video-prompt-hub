@@ -1,0 +1,128 @@
+---
+id: "renoise-2089780796303560755"
+title: "Ultra-realistic cinematic science-fiction disaster, 15 seconds, 16:9. A…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "科幻"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Scenery & Spectacle", "Cityscape", "Photoreal", "Sci-Fi", "VFX", "FPV & Aerial"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2089780796303560755.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Alexandra Aisling"
+original_author_url: "https://x.com/AllaAisling"
+original_post_url: "https://x.com/AllaAisling/status/2089780796303560755"
+published: "2026-08-18"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Ultra-realistic cinematic science-fiction disaster, 15 seconds, 16:9. A…
+
+## 提示词（English）
+
+```text
+Ultra-realistic cinematic science-fiction disaster, 15 seconds, 16:9. A colossal orbital elevator rises from a futuristic megacity into the clouds and continues beyond the atmosphere while a massive evacuation is underway.
+0–4s: enormous aerial establishing shot reveals the true scale of the structure, thousands of people moving across evacuation platforms while futuristic aircraft race between skyscrapers. Far above, the elevator cable suddenly begins vibrating violently.
+4–9s: camera accelerates upward alongside the elevator as enormous sections of the structure rupture. Cargo platforms detach and fall through the clouds, aircraft desperately maneuver around the collapsing infrastructure, sparks and debris streak downward.
+9–15s: the camera pulls far back as a gigantic section of the orbital elevator breaks apart high above the city. A cascade of collapsing structures races downward through the clouds while thousands of tiny aircraft flee in every direction.
+Photorealistic, monumental scale, realistic engineering, physically believable destruction, dynamic aerial cinematography, dramatic atmospheric lighting, intense sense of height and speed, spectacular cinematic climax, no dialogue, no text, no subtitles.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2089780796303560755.json)
+
+```text
+Desastre de ciencia ficción cinematográfico ultra realista, 15 segundos, 16:9. Un colosal ascensor orbital se eleva desde una megaciudad futurista hacia las nubes y continúa más allá de la atmósfera mientras se lleva a cabo una evacuación masiva.
+0–4s: una enorme toma aérea de establecimiento revela la verdadera escala de la estructura, miles de personas moviéndose por plataformas de evacuación mientras aeronaves futuristas atraviesan a toda velocidad entre rascacielos. Muy arriba, el cable del ascensor comienza de repente a vibrar violentamente.
+4–9s: la cámara acelera hacia arriba junto al ascensor mientras enormes secciones de la estructura se rompen. Las plataformas de carga se desprenden y caen a través de las nubes, las aeronaves maniobran desesperadamente alrededor de la infraestructura en colapso, chispas y escombros descienden a toda velocidad.
+9–15s: la cámara se aleja mucho mientras una sección gigantesca del ascensor orbital se desintegra en lo alto sobre la ciudad. Una cascada de estructuras en colapso se precipita hacia abajo a través de las nubes mientras miles de pequeñas aeronaves huyen en todas direcciones.
+Fotorealista, escala monumental, ingeniería realista, destrucción físicamente creíble, cinematografía aérea dinámica, iluminación atmosférica dramática, intensa sensación de altura y velocidad, clímax cinematográfico espectacular, sin diálogo, sin texto, sin subtítulos.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2089780796303560755.json)
+
+```text
+Science-fiction catastrophe ultra-réaliste et cinématographique, 15 secondes, 16:9. Un ascenseur orbital colossal s’élève d’une mégalopole futuriste jusqu’aux nuages et se prolonge au-delà de l’atmosphère, tandis qu’une évacuation massive est en cours.
+0–4s : un immense plan aérien d’établissement révèle la véritable échelle de la structure, des milliers de personnes se déplaçant sur des plateformes d’évacuation tandis que des aéronefs futuristes filent entre les gratte-ciel. Très haut au-dessus, le câble de l’ascenseur se met soudain à vibrer violemment.
+4–9s : la caméra accélère vers le haut le long de l’ascenseur tandis que d’énormes sections de la structure se rompent. Des plateformes de fret se détachent et chutent à travers les nuages, les aéronefs manœuvrent désespérément autour de l’infrastructure qui s’effondre, des étincelles et des débris plongent vers le bas.
+9–15s : la caméra prend beaucoup de recul alors qu’une gigantesque section de l’ascenseur orbital se disloque très haut au-dessus de la ville. Une cascade de structures en chute dévale à travers les nuages tandis que des milliers de petits aéronefs fuient dans toutes les directions.
+Photorealistic, échelle monumentale, ingénierie réaliste, destruction physiquement crédible, cinématographie aérienne dynamique, éclairage atmosphérique dramatique, intense sensation de hauteur et de vitesse, climax cinématographique spectaculaire, sans dialogue, sans texte, sans sous-titres.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2089780796303560755.json)
+
+```text
+---
+超写実的なシネマティックSF災害、15秒、16:9。未来的なメガシティから雲を突き抜け、さらに大気圏の外へと伸びる巨大な軌道エレベーター。大規模な避難が進行する中、その構造物がそびえ立っている。
+
+0–4秒：巨大な空撮のエスタブリッシングショットで、その構造の真のスケールが明らかになる。何千人もの人々が避難プラットフォーム上を移動し、未来的な航空機が摩天楼の間を疾走する。はるか上空で、エレベーターのケーブルが突然激しく振動し始める。
+
+4–9秒：カメラがエレベーターに沿って急上昇し、構造の巨大な一部が次々と破断する。貨物プラットフォームが外れて雲を突き抜けて落下し、航空機は崩壊するインフラの周囲を必死に回避しながら飛行する。火花と破片が下方へと流れ落ちる。
+
+9–15秒：カメラが大きく引き、都市のはるか上空で軌道エレベーターの巨大な一部が崩壊する。崩れ落ちる構造物の連鎖が雲を突き抜けて地上へと殺到し、何千もの小型航空機が四方八方へ逃げ去る。
+
+フォトリアル、壮大なスケール、現実的な工学描写、物理的に説得力のある破壊、ダイナミックな空撮シネマトグラフィー、ドラマチックな大気光、圧倒的な高さと速度の感覚、スペクタクルなシネマティック・クライマックス、セリフなし、テキストなし、字幕なし。
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2089780796303560755.json)
+
+```text
+초현실적인 시네마틱 SF 재난 장면, 15초, 16:9. 거대한 궤도 엘리베이터가 미래형 메가시티에서 구름 위로 솟아오르고, 대기권을 넘어 계속 이어지는 가운데 대규모 대피가 진행된다.
+0–4초: 거대한 항공 와이드 샷이 구조물의 진정한 규모를 드러낸다. 수천 명의 사람들이 대피 플랫폼을 가로질러 이동하고, 미래형 항공기들이 마천루 사이를 질주한다. 저 멀리 위쪽에서 엘리베이터 케이블이 갑자기 격렬하게 진동하기 시작한다.
+4–9초: 카메라가 엘리베이터와 나란히 위로 가속하며, 구조물의 거대한 구간들이 파열된다. 화물 플랫폼이 분리되어 구름 사이로 추락하고, 항공기들은 붕괴하는 인프라 주변을 필사적으로 기동하며, 불꽃과 파편이 아래로 흩날린다.
+9–15초: 카메라가 멀리 뒤로 물러나며, 궤도 엘리베이터의 거대한 일부가 도시 상공 높은 곳에서 산산이 부서진다. 붕괴하는 구조물의 연쇄가 구름을 가르며 아래로 질주하고, 수천 대의 작은 항공기들이 사방으로 도주한다.
+포토리얼리스틱, 거대한 스케일, 현실적인 엔지니어링, 물리적으로 설득력 있는 파괴, 역동적인 항공 촬영, 극적인 대기 조명, 강렬한 높이감과 속도감, 장대한 시네마틱 클라이맥스, 대사 없음, 텍스트 없음, 자막 없음.
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2089780796303560755.json)
+
+```text
+Ultra-realista, desastre de ficção científica cinematográfico, 15 segundos, 16:9. Um elevador orbital colossal se ergue de uma megacidade futurista até as nuvens e continua além da atmosfera, enquanto uma evacuação em massa está em andamento.
+0–4s: uma enorme tomada aérea de estabelecimento revela a verdadeira escala da estrutura, milhares de pessoas se movendo pelas plataformas de evacuação enquanto aeronaves futuristas cruzam entre arranha-céus. Bem acima, o cabo do elevador de repente começa a vibrar violentamente.
+4–9s: a câmera acelera para cima ao lado do elevador enquanto enormes seções da estrutura se rompem. Plataformas de carga se desprendem e despencam através das nuvens, aeronaves manobram desesperadamente ao redor da infraestrutura em colapso, faíscas e destroços riscam para baixo.
+9–15s: a câmera se afasta bastante enquanto uma seção gigantesca do elevador orbital se parte em alta altitude acima da cidade. Uma cascata de estruturas em colapso despenca pelas nuvens enquanto milhares de pequenas aeronaves fogem em todas as direções.
+Fotorealista, escala monumental, engenharia realista, destruição fisicamente plausível, cinematografia aérea dinâmica, iluminação atmosférica dramática, intensa sensação de altura e velocidade, clímax cinematográfico espetacular, sem diálogo, sem texto, sem legendas.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2089780796303560755.json)
+
+```text
+超写实电影级科幻灾难，15秒，16:9。一座巨大的轨道电梯从未来感十足的超级都市中拔地而起，直冲云层，并继续延伸至大气层之外，此时一场大规模疏散正在进行中。
+0–4秒：超大规模的空中建立镜头揭示出这座结构的真实体量，成千上万的人在疏散平台上移动，未来飞行器在摩天大楼之间疾驰。远处高空中，电梯缆索突然开始剧烈震动。
+4–9秒：镜头沿着电梯迅速向上推进，结构的巨大部分开始破裂。货运平台脱落并坠入云层，飞行器拼命在崩塌的基础设施周围机动，火花与碎片向下飞溅。
+9–15秒：镜头大幅拉远，轨道电梯的一个巨大部分在城市上空高处断裂崩解。层层坍塌的结构如瀑布般穿过云层向下席卷，成千上万架微小飞行器四散逃离。
+照片级真实感，宏伟尺度，真实工程结构，符合物理规律的破坏，动态空中摄影，戏剧性的氛围光照，强烈的高度与速度感，震撼的电影级高潮，无对白，无文字，无字幕。
+```
+
+## 出处与许可
+
+- 原作者：[Alexandra Aisling](https://x.com/AllaAisling) · 原帖：<https://x.com/AllaAisling/status/2089780796303560755>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2089780796303560755.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

@@ -1,0 +1,166 @@
+---
+id: "renoise-2066399759511023901"
+title: "Ultra-realistic live TV broadcast screenshot from FIFA World Cup 2026…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "运动"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Sports", "Crowd & Fans", "Food", "Drinks", "Photoreal", "Realistic World"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066399759511023901.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Mr Das"
+original_author_url: "https://x.com/MrDasOnX"
+original_post_url: "https://x.com/MrDasOnX/status/2066399759511023901"
+published: "2026-06-15"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Ultra-realistic live TV broadcast screenshot from FIFA World Cup 2026…
+
+## 提示词（English）
+
+```text
+Ultra-realistic live TV broadcast screenshot from FIFA World Cup 2026, professional sports camera feed, cinematic masterpiece quality. A glamorous, beautiful young Brazilian woman (mid-20s, long wavy dark hair with subtle highlights, elegant natural makeup, confident and playful smile) sitting in the packed VIP stands of a massive World Cup stadium at night. She is wearing the iconic yellow Brazil national team jersey (with green accents and CBF badge), holding a fresh caipirinha cocktail in one hand (mid-sip) and a hot coxinha in the other (taking a bite). Background: electric carnival atmosphere with huge crowd of Brazil fans waving massive green-yellow-blue Brazil flags, singing and jumping. Bright stadium floodlights, prominent FIFA World Cup 2026 logos, Brazil match branding on screens and pitchside. Score overlay graphics, "LIVE" badge, match timer, and authentic broadcast UI like real international TV feed. Cinematic night lighting with lens flares, realistic crowd motion blur, ultra-detailed textures on jersey, caipirinha glass, coxinha, and flags. Shot from a slightly low broadcast angle, vibrant yellow-green colors, hyper-realistic, masterpiece quality --ar 16:9
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066399759511023901.json)
+
+```text
+---
+Captura de pantalla de una transmisión de TV en vivo ultra-realista de la Copa Mundial de la FIFA 2026, transmisión de cámara profesional de deportes, calidad de obra maestra cinematográfica. Una joven brasileña glamorosa y hermosa (mediados de los 20, cabello oscuro largo y ondulado con sutiles reflejos, maquillaje natural elegante, sonrisa confiada y juguetona) sentada en las abarrotadas gradas VIP de un enorme estadio de la Copa Mundial por la noche. Lleva la icónica camiseta amarilla del equipo nacional de Brasil (con acentos verdes y el escudo de la CBF), sosteniendo un cóctel de caipirinha fresco en una mano (a medio sorbo) y una coxinha caliente en la otra (dando un mordisco). Fondo: atmósfera de carnaval eléctrico con una gran multitud de fanáticos de Brasil ondeando enormes banderas verde-amarillo-azul de Brasil, cantando y saltando. Brillantes luces de estadio, logotipos prominentes de la Copa Mundial de la FIFA 2026, marca del partido de Brasil en pantallas y a nivel de campo. Gráficos de superposición de puntaje, insignia "LIVE", temporizador del partido y UI de transmisión auténtica como una transmisión internacional real. Iluminación nocturna cinematográfica con destellos de lente, desenfoque de movimiento realista de la multitud, texturas ultra-detalladas en la camiseta, vaso de caipirinha, coxinha y banderas. Toma desde un ángulo de transmisión ligeramente bajo, colores vibrantes amarillo-verde, hiperrealista, calidad de obra maestra --ar 16:9
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Imagen de referencia para el prompt de video:
+
+Estilo de transmisión en vivo de la Copa Mundial de la FIFA 2026, metraje de TV deportiva cinematográfica ultra-realista, trabajo de cámara dinámico como la cobertura real de un partido con el toque brasileño.
+
+Comienza con la glamorosa mujer brasileña en las gradas felizmente sorbiendo su caipirinha y luego dando un gran mordisco a la coxinha, fanáticos energéticos de Brasil cantando y ondeando banderas en el fondo. De repente, se emociona mucho por un ataque de Brasil, se levanta, se quita los tacones altos, salta sobre las vallas publicitarias en una carrera juguetona y corre elegantemente hacia el campo mientras hace un rápido paso de samba.
+
+Corre hacia el balón con energía de samba, da una patada poderosa y hábil enviándolo volando hacia la portería. El portero se lanza dramáticamente. Cámara lenta en la patada y el vuelo del balón. Termina con ella celebrando con los brazos en alto al estilo clásico brasileño mientras la multitud explota con cánticos de "¡Brasil!" y una atmósfera vibrante.
+
+Cámara: tomas de seguimiento de transmisión suaves, paneo y zoom como un corte de director real, ángulos de repetición ocasionales. Incluye superposiciones auténticas de la Copa Mundial de la FIFA 2026, gráficos del equipo de Brasil, marcador, aumento de tensión. Iluminación nocturna cinematográfica, desenfoque de movimiento en movimientos rápidos, física fotorrealista, alta energía, atmósfera de carnaval, calidad viral de redes sociales, duración de 15 segundos.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066399759511023901.json)
+
+```text
+---
+Capture d'écran ultra-réaliste d'une diffusion télévisée en direct de la Coupe du Monde de la FIFA 2026, flux de caméra sportive professionnelle, qualité de chef-d'œuvre cinématographique. Une jeune femme brésilienne glamour et belle (mi-vingtaine, cheveux longs et ondulés avec des reflets subtils, maquillage naturel élégant, sourire confiant et espiègle) assise dans les tribunes VIP bondées d'un immense stade de la Coupe du Monde la nuit. Elle porte le maillot iconique de l'équipe nationale du Brésil (avec des accents verts et l'écusson CBF), tenant un cocktail caipirinha frais dans une main (en train de boire) et une coxinha chaude dans l'autre (en train de mordre). En arrière-plan : ambiance de carnaval électrique avec une foule immense de fans brésiliens agitant d'énormes drapeaux verts-jaunes-bleus du Brésil, chantant et sautant. Projecteurs de stade brillants, logos proéminents de la Coupe du Monde de la FIFA 2026, branding du match du Brésil sur les écrans et le bord du terrain. Graphiques de superposition de score, badge "LIVE", chronomètre du match, et interface utilisateur de diffusion authentique comme un véritable flux TV international. Éclairage nocturne cinématographique avec des reflets de lentille, flou de mouvement réaliste de la foule, textures ultra-détaillées sur le maillot, le verre de caipirinha, la coxinha et les drapeaux. Prise de vue d'un angle de diffusion légèrement bas, couleurs jaune-vert vibrantes, hyper-réaliste, qualité de chef-d'œuvre --ar 16:9
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Image de référence pour le prompt vidéo :
+
+Style de diffusion en direct de la Coupe du Monde de la FIFA 2026, séquences TV sportives cinématographiques ultra-réalistes, travail de caméra dynamique comme une véritable couverture de match avec une touche brésilienne.
+
+Commencez avec la femme brésilienne glamour dans les tribunes sirotant joyeusement sa caipirinha puis prenant une grande bouchée de la coxinha, des fans brésiliens énergiques chantant et agitant des drapeaux en arrière-plan. Elle devient soudainement super excitée par une attaque du Brésil, se lève, enlève ses talons hauts, saute par-dessus les panneaux publicitaires dans une course espiègle, et court élégamment sur le terrain tout en faisant un pas de samba rapide.
+
+Elle court vers le ballon avec l'énergie de la samba, donne un coup puissant et habile l'envoyant voler vers le but. Le gardien plonge de manière spectaculaire. Ralenti sur le coup et le vol du ballon. Finissez avec elle célébrant les bras levés dans le style brésilien classique alors que la foule explose avec des chants de "Brasil !" et une ambiance vibrante.
+
+Caméra : prises de vue de suivi de diffusion fluides, panoramiques et zooms comme une véritable coupe de réalisateur, angles de replay occasionnels. Incluez des superpositions authentiques de la Coupe du Monde de la FIFA 2026, des graphiques de l'équipe du Brésil, un bug de score, montée de tension. Éclairage nocturne cinématographique, flou de mouvement sur les mouvements rapides, physique photoréaliste, haute énergie, ambiance de carnaval, qualité virale sur les réseaux sociaux, durée de 15 secondes.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066399759511023901.json)
+
+```text
+---
+FIFAワールドカップ2026の超リアルなライブTV放送スクリーンショット、プロフェッショナルなスポーツカメラフィード、シネマティックな傑作品質。夜の大規模なワールドカップスタジアムの満員のVIPスタンドに座っている、魅力的で美しい若いブラジル人女性（20代半ば、長いウェーブのかかったダークヘアに控えめなハイライト、エレガントなナチュラルメイク、自信に満ちた遊び心のある笑顔）。彼女は象徴的な黄色のブラジル代表チームのジャージ（緑のアクセントとCBFバッジ付き）を着ており、一方の手に新鮮なカイピリーニャカクテルを持ち（飲みかけ）、もう一方の手にホットなコシーニャを持っている（かじりかけ）。背景には、巨大な緑・黄・青のブラジル国旗を振り、歌い、跳ねるブラジルファンの大群によるエレクトリックなカーニバルの雰囲気。明るいスタジアムのフラッドライト、目立つFIFAワールドカップ2026のロゴ、スクリーンやピッチサイドのブラジル試合のブランディング。スコアオーバーレイグラフィックス、「LIVE」バッジ、試合タイマー、本物の国際TVフィードのような放送UI。シネマティックな夜間照明とレンズフレア、リアルな群衆のモーションブラー、ジャージ、カイピリーニャグラス、コシーニャ、旗の超詳細なテクスチャ。やや低めの放送アングルからのショット、鮮やかな黄緑色、ハイパーリアリスティック、傑作品質 --ar 16:9
+
+--- THREAD CONTINUATION ---
+[Thread 1] 画像からビデオへのプロンプト:
+
+Live FIFA World Cup 2026 broadcast style, ultra-realistic cinematic sports TV footage, dynamic camera work like real match coverage with Brazilian flair.
+
+スタンドでカイピリーニャを楽しそうに飲み、コシーニャを大きくかじる魅力的なブラジル人女性から始め、背景ではエネルギッシュなブラジルファンが旗を振りながら応援している。彼女は突然ブラジルの攻撃に興奮し、立ち上がり、ハイヒールを脱ぎ、広告ボードを飛び越えて遊び心のあるランでピッチに優雅に駆け出し、クイックなサンバステップを踏む。
+
+彼女はサンバのエネルギーでボールに向かって走り、強力でスキルフルなキックを放ち、ゴールに向かって飛ばす。ゴールキーパーが劇的にダイブ。キックとボールの飛行をスローモーションで。彼女がクラシックなブラジルスタイルで両手を上げて祝うシーンで終わり、観客が「ブラジル！」のチャントと活気ある雰囲気で爆発する。
+
+カメラ: スムーズな放送トラッキングショット、リアルなディレクターカットのようなパンとズーム、時折のリプレイアングル。FIFAワールドカップ2026のオーバーレイ、ブラジルチームのグラフィックス、スコアバグ、緊張感の高まりを含む。シネマティックな夜間照明、速い動きのモーションブラー、フォトリアリスティックな物理、ハイエナジー、カーニバルの雰囲気、バイラルなソーシャルメディア品質、15秒の長さ。
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066399759511023901.json)
+
+```text
+---
+FIFA 월드컵 2026의 초현실적인 라이브 TV 방송 스크린샷, 프로 스포츠 카메라 피드, 영화 걸작 품질. 화려하고 아름다운 젊은 브라질 여성 (20대 중반, 긴 웨이브 진 어두운 머리에 은은한 하이라이트, 우아한 자연 메이크업, 자신감 있고 장난기 있는 미소)이 밤의 거대한 월드컵 경기장의 가득 찬 VIP 관중석에 앉아 있다. 그녀는 상징적인 노란색 브라질 국가대표팀 유니폼(녹색 악센트와 CBF 배지 포함)을 입고, 한 손에는 신선한 카이피리냐 칵테일을 들고(마시는 중) 다른 손에는 뜨거운 코시냐를 들고 있다(한 입 베어 물고 있다). 배경: 브라질 팬들이 거대한 녹색-노란색-파란색 브라질 깃발을 흔들며 노래하고 뛰는 전기적인 카니발 분위기. 밝은 경기장 조명, 두드러진 FIFA 월드컵 2026 로고, 화면 및 경기장 측면의 브라질 경기 브랜딩. 점수 오버레이 그래픽, "LIVE" 배지, 경기 타이머, 실제 국제 TV 피드 같은 진짜 방송 UI. 영화 같은 야간 조명과 렌즈 플레어, 현실적인 관중 모션 블러, 유니폼, 카이피리냐 잔, 코시냐, 깃발의 초세밀한 텍스처. 약간 낮은 방송 각도에서 촬영, 생생한 노란색-녹색 색상, 초현실적, 걸작 품질 --ar 16:9
+
+--- THREAD CONTINUATION ---
+[Thread 1] 비디오 프롬프트에 대한 참조 이미지:
+
+FIFA 월드컵 2026 라이브 방송 스타일, 초현실적인 영화 같은 스포츠 TV 영상, 브라질 특유의 역동적인 카메라 작업으로 실제 경기 중계처럼.
+
+화려한 브라질 여성이 관중석에서 카이피리냐를 즐겁게 마시고 코시냐를 크게 베어 물며 시작, 배경에서는 에너지 넘치는 브라질 팬들이 노래하고 깃발을 흔들고 있다. 그녀는 갑자기 브라질의 공격에 매우 흥분하여, 하이힐을 벗고 광고판을 뛰어넘어 장난스럽게 경기장으로 달려가며 빠른 삼바 스텝을 밟는다.
+
+그녀는 삼바 에너지를 가지고 공을 향해 달려가며 강력하고 능숙한 킥을 하여 공을 골대로 날린다. 골키퍼가 극적으로 다이빙한다. 킥과 공의 비행을 슬로우 모션으로. 그녀가 팔을 올리고 고전적인 브라질 스타일로 축하하는 장면으로 끝나며, 관중은 "Brasil!" 구호와 함께 폭발적인 분위기를 만든다.
+
+카메라: 실제 감독 컷처럼 부드러운 방송 추적 샷, 팬 및 줌, 가끔 리플레이 각도 포함. 진짜 FIFA 월드컵 2026 오버레이, 브라질 팀 그래픽, 점수 버그, 긴장감 고조 포함. 영화 같은 야간 조명, 빠른 움직임의 모션 블러, 사진 같은 물리학, 높은 에너지, 카니발 분위기, 바이럴 소셜 미디어 품질, 15초 길이.
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066399759511023901.json)
+
+```text
+---
+Captura de tela ultra-realista de transmissão ao vivo da Copa do Mundo FIFA 2026, feed de câmera profissional de esportes, qualidade de obra-prima cinematográfica. Uma jovem brasileira glamourosa e bonita (meados dos 20 anos, cabelo escuro longo e ondulado com sutis reflexos, maquiagem natural elegante, sorriso confiante e brincalhão) sentada nas arquibancadas VIP lotadas de um enorme estádio da Copa do Mundo à noite. Ela está vestindo a icônica camisa amarela da seleção brasileira (com detalhes em verde e emblema da CBF), segurando um coquetel de caipirinha fresco em uma mão (no meio de um gole) e uma coxinha quente na outra (dando uma mordida). Fundo: atmosfera de carnaval elétrica com uma enorme multidão de torcedores do Brasil agitando bandeiras verde-amarelo-azul do Brasil, cantando e pulando. Refletores brilhantes do estádio, logotipos proeminentes da Copa do Mundo FIFA 2026, marcação do jogo do Brasil em telas e à beira do campo. Gráficos de sobreposição de placar, selo "AO VIVO", cronômetro do jogo e interface de transmissão autêntica como um feed de TV internacional real. Iluminação noturna cinematográfica com flares de lente, desfoque de movimento realista da multidão, texturas ultra-detalhadas na camisa, copo de caipirinha, coxinha e bandeiras. Filmagem de um ângulo de transmissão ligeiramente baixo, cores vibrantes amarelo-verde, qualidade hiper-realista, obra-prima --ar 16:9
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Imagem de referência para prompt de vídeo:
+
+Estilo de transmissão ao vivo da Copa do Mundo FIFA 2026, filmagem de TV esportiva cinematográfica ultra-realista, trabalho de câmera dinâmico como cobertura de jogo real com toque brasileiro.
+
+Comece com a glamourosa brasileira nas arquibancadas, feliz, tomando sua caipirinha e depois dando uma grande mordida na coxinha, torcedores energéticos do Brasil cantando e agitando bandeiras ao fundo. Ela de repente fica super animada com um ataque do Brasil, levanta-se, tira os saltos altos, pula sobre as placas de publicidade em uma corrida brincalhona e corre elegantemente para o campo enquanto faz um passo rápido de samba.
+
+Ela corre em direção à bola com energia de samba, dá um chute poderoso e habilidoso enviando-a voando em direção ao gol. O goleiro mergulha dramaticamente. Câmera lenta no chute e no voo da bola. Termine com ela comemorando com os braços levantados no estilo clássico brasileiro enquanto a multidão explode com gritos de "Brasil!" e uma atmosfera vibrante.
+
+Câmera: tomadas de rastreamento de transmissão suaves, panorâmicas e zooms como um corte de diretor real, ângulos de replay ocasionais. Inclua sobreposições autênticas da Copa do Mundo FIFA 2026, gráficos da equipe do Brasil, bug de pontuação, construção de tensão. Iluminação noturna cinematográfica, desfoque de movimento em movimentos rápidos, física fotorrealista, alta energia, atmosfera de carnaval, qualidade viral de mídia social, duração de 15 segundos.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066399759511023901.json)
+
+```text
+---
+超现实主义的FIFA世界杯2026现场电视转播截图，专业体育摄像机画面，电影杰作般的质量。一位迷人的年轻巴西女性（20多岁，长长的波浪状深色头发，带有微妙的挑染，优雅的自然妆容，自信而俏皮的微笑）坐在夜晚拥挤的世界杯体育场VIP看台上。她穿着标志性的黄色巴西国家队球衣（带有绿色装饰和CBF徽章），一手拿着新鲜的卡皮里尼亚鸡尾酒（正在喝），另一手拿着热乎乎的鸡肉球（正在咬）。背景：电动狂欢节氛围，巨大的巴西球迷人群挥舞着巨大的绿黄蓝巴西国旗，唱歌跳跃。明亮的体育场泛光灯，显眼的FIFA世界杯2026标志，巴西比赛品牌在屏幕和场边。比分叠加图形，“LIVE”标志，比赛计时器，以及像真实国际电视转播一样的UI。电影般的夜间照明，镜头光晕，逼真的人群运动模糊，球衣、卡皮里尼亚玻璃、鸡肉球和旗帜上的超详细纹理。从略低的广播角度拍摄，鲜艳的黄绿色，超现实主义，杰作质量 --ar 16:9
+
+--- 线程继续 ---
+[线程1] 图像到视频提示：
+
+Live FIFA World Cup 2026 broadcast style, ultra-realistic cinematic sports TV footage, dynamic camera work like real match coverage with Brazilian flair.
+
+从看台上快乐地喝着卡皮里尼亚的迷人巴西女性开始，然后大口咬鸡肉球，背景中是充满活力的巴西球迷高呼并挥舞旗帜。她突然因巴西进攻而异常兴奋，站起来，踢掉高跟鞋，玩笑般地跳过广告牌，优雅地冲向球场，同时做了一个快速的桑巴舞步。
+
+她以桑巴的活力奔向球，进行了一次强有力而技艺高超的射门，将球踢向球门。守门员戏剧性地扑救。慢动作展示射门和球的飞行。最后以她经典的巴西风格举起双臂庆祝，观众爆发出“Brasil!”的呼喊和充满活力的氛围。
+
+Camera: smooth broadcast tracking shots, panning and zooming like a real director cut, occasional replay angles. Include authentic FIFA World Cup 2026 overlays, Brazil team graphics, score bug, tension build-up. Cinematic night lighting, motion blur on fast movements, photorealistic physics, high energy, carnival atmosphere, viral social media quality, 15 seconds duration.
+```
+
+## 出处与许可
+
+- 原作者：[Mr Das](https://x.com/MrDasOnX) · 原帖：<https://x.com/MrDasOnX/status/2066399759511023901>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066399759511023901.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

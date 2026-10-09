@@ -1,0 +1,199 @@
+---
+id: "renoise-2076680882669474157"
+title: "15s 16:9 illustrated ASMR cooking video. Use the supplied storyboard image as…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "生活与vlog"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Food", "Cooking", "Hand-drawn", "Realistic World", "ASMR"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2076680882669474157.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Super Producer Seth"
+original_author_url: "https://x.com/SethCritchley"
+original_post_url: "https://x.com/SethCritchley/status/2076680882669474157"
+published: "2026-07-13"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# 15s 16:9 illustrated ASMR cooking video. Use the supplied storyboard image as…
+
+## 提示词（English）
+
+```text
+15s 16:9 illustrated ASMR cooking video. Use the supplied storyboard image as the exact visual reference; preserve its art style, characters, hands, ingredients, objects, warm morning lighting, and continuity in every shot. Smooth realistic motion. No music, dialogue, narration, subtitles, captions, or on-screen text; only high-quality kitchen ASMR.
+
+0–2s wide cozy marble countertop: uncooked bacon, basket of brown eggs, rustic bread loaf, butter dish, sunlight, subtle push-in. 2–4s close-up hands place bacon in skillet; sizzling, curling edges, steam. 4–6s crack egg into skillet; centered glossy yolk, setting whites. 6–8s toaster close-up: insert exactly TWO bread slices, one per slot; lever locks down. 8–10s inside toaster: elements glow, same two slices toast, then pop up golden with steam. 10–13s butter one hot toast slice with smooth knife strokes. 13–15s medium hero shot: table with black coffee, orange juice, shakers, napkin, silverware; plate holds crispy bacon, two sunny-side-up eggs, and buttered toast from the same two slices. Soft ceramic set-down, steam, fade to black.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2076680882669474157.json)
+
+```text
+---
+Video de cocina ASMR ilustrado de 15s en formato 16:9. Usa la imagen del storyboard proporcionada como referencia visual exacta; preserva su estilo artístico, personajes, manos, ingredientes, objetos, iluminación cálida de la mañana y continuidad en cada toma. Movimiento suave y realista. Sin música, diálogo, narración, subtítulos, leyendas ni texto en pantalla; solo ASMR de alta calidad en la cocina.
+
+0–2s encimera de mármol acogedora: tocino crudo, cesta de huevos marrones, hogaza de pan rústico, mantequera, luz del sol, acercamiento sutil. 2–4s primer plano de manos colocando tocino en la sartén; chisporroteo, bordes rizados, vapor. 4–6s romper huevo en la sartén; yema brillante centrada, claras cuajándose. 6–8s primer plano de la tostadora: insertar exactamente DOS rebanadas de pan, una por ranura; la palanca se bloquea hacia abajo. 8–10s dentro de la tostadora: los elementos brillan, las mismas dos rebanadas se tuestan, luego saltan doradas con vapor. 10–13s untar una rebanada de tostada caliente con suaves movimientos de cuchillo. 13–15s toma media heroica: mesa con café negro, jugo de naranja, saleros, servilleta, cubiertos; el plato contiene tocino crujiente, dos huevos fritos y tostada con mantequilla de las mismas dos rebanadas. Colocación suave de cerámica, vapor, fundido a negro.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Google Gemini Pro:
+Manteniendo el estilo artístico exacto de la imagen de referencia subida, crea un storyboard para un video Seedance 2.0 de 15 segundos usando esta imagen como referencia.
+
+Quiero que el video comience mostrando todos los ingredientes para un desayuno de tocino, huevos fritos y tostada con mantequilla. Luego un primer plano de sus manos cocinando el tocino, luego cocinando los huevos fritos, luego poniendo el pan en la tostadora, bajando la palanca de la tostadora para que el pan baje, luego el pan salta bellamente tostado, luego ella unta la tostada con mantequilla, luego coloca el plato terminado (tocino, huevos fritos y tostada) en una mesa de desayuno perfectamente puesta que ya tiene café caliente humeante, jugo de naranja frío, sal y pimienta, una servilleta y cubiertos apropiados. Resolución 8k, formato 16:9, renderizado octano.
+
+[Hilo 2] ChatGPT Prompt para Seedance 2.0
+Manteniendo el estilo artístico exacto de la imagen de referencia subida, escribe un prompt para un video Seedance 2.0 de 15 segundos usando esta imagen como referencia.
+
+Quiero que el video comience mostrando todos los ingredientes para un desayuno de tocino, huevos fritos y tostada con mantequilla. Luego un primer plano de sus manos cocinando el tocino, luego cocinando los huevos fritos, luego poniendo el pan en la tostadora, bajando la palanca de la tostadora para que el pan baje, luego el pan salta bellamente tostado, luego ella unta la tostada con mantequilla, luego coloca el plato terminado (tocino, huevos fritos y tostada) en una mesa de desayuno perfectamente puesta que ya tiene café caliente humeante, jugo de naranja frío, sal y pimienta, una servilleta y cubiertos apropiados. Sin música, sin indicaciones de diálogo, sin hablar, permite efectos de sonido ASMR.
+
+[Hilo 3] Prompt Resultante para Seedance 2.0:
+
+Video de cocina ASMR ilustrado de 15s en formato 16:9. Usa la imagen del storyboard proporcionada como referencia visual exacta; preserva su estilo artístico, personajes, manos, ingredientes, objetos, iluminación cálida de la mañana y continuidad en cada toma. Movimiento suave y realista. Sin música, diálogo, narración, subtítulos, leyendas ni texto en pantalla; solo ASMR de alta calidad en la cocina.
+
+0–2s encimera de mármol acogedora: tocino crudo, cesta de huevos marrones, hogaza de pan rústico, mantequera, luz del sol, acercamiento sutil. 2–4s primer plano de manos colocando tocino en la sartén; chisporroteo, bordes rizados, vapor. 4–6s romper huevo en la sartén; yema brillante centrada, claras cuajándose. 6–8s primer plano de la tostadora: insertar exactamente DOS rebanadas de pan, una por ranura; la palanca se bloquea hacia abajo. 8–10s dentro de la tostadora: los elementos brillan, las mismas dos rebanadas se tuestan, luego saltan doradas con vapor. 10–13s untar una rebanada de tostada caliente con suaves movimientos de cuchillo. 13–15s toma media heroica: mesa con café negro, jugo de naranja, saleros, servilleta, cubiertos; el plato contiene tocino crujiente, dos huevos fritos y tostada con mantequilla de las mismas dos rebanadas. Colocación suave de cerámica, vapor, fundido a negro.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2076680882669474157.json)
+
+```text
+---
+Vidéo de cuisine ASMR illustrée de 15s au format 16:9. Utilisez l'image du storyboard fournie comme référence visuelle exacte ; préservez son style artistique, ses personnages, ses mains, ses ingrédients, ses objets, l'éclairage chaleureux du matin et la continuité dans chaque plan. Mouvement réaliste et fluide. Pas de musique, de dialogue, de narration, de sous-titres, de légendes ou de texte à l'écran ; uniquement des sons ASMR de cuisine de haute qualité.
+
+0–2s large plan sur un plan de travail en marbre confortable : bacon cru, panier d'œufs bruns, pain rustique, beurrier, lumière du soleil, léger zoom avant. 2–4s gros plan des mains plaçant le bacon dans la poêle ; grésillement, bords qui se recourbent, vapeur. 4–6s casser un œuf dans la poêle ; jaune brillant centré, blancs qui se figent. 6–8s gros plan du grille-pain : insérer exactement DEUX tranches de pain, une par fente ; levier verrouillé vers le bas. 8–10s à l'intérieur du grille-pain : éléments qui brillent, les deux mêmes tranches grillent, puis sortent dorées avec de la vapeur. 10–13s beurrer une tranche de pain grillé chaud avec des mouvements de couteau fluides. 13–15s plan moyen héroïque : table avec café noir, jus d'orange, salières, serviette, couverts ; l'assiette contient du bacon croustillant, deux œufs au plat et du pain grillé beurré des mêmes deux tranches. Pose douce en céramique, vapeur, fondu au noir.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2076680882669474157.json)
+
+```text
+---
+15秒 16:9 イラスト付きASMR料理動画。提供されたストーリーボード画像を正確なビジュアル参照として使用し、そのアートスタイル、キャラクター、手、材料、オブジェクト、暖かい朝の照明、各ショットの連続性を保持します。滑らかでリアルな動き。音楽、対話、ナレーション、字幕、キャプション、画面上のテキストはなし。高品質なキッチンASMRのみ。
+
+0–2秒 広い居心地の良い大理石のカウンタートップ：生のベーコン、茶色の卵のバスケット、素朴なパンの塊、バター皿、日光、微妙なプッシュイン。2–4秒 クローズアップで手がベーコンをスキレットに置く；ジュージューと音を立て、端がカールし、蒸気が上がる。4–6秒 卵をスキレットに割る；中央に光沢のある黄身、白身が固まる。6–8秒 トースターのクローズアップ：正確に2枚のパンをスロットに1枚ずつ挿入；レバーがロックされる。8–10秒 トースター内部：要素が光り、同じ2枚のパンがトーストされ、蒸気と共に黄金色にポップアップ。10–13秒 熱いトーストのスライスに滑らかなナイフでバターを塗る。13–15秒 中間ヒーローショット：ブラックコーヒー、オレンジジュース、シェーカー、ナプキン、カトラリーが揃ったテーブル；皿にはカリカリのベーコン、2つのサニーサイドアップの卵、同じ2枚のスライスからのバタートーストが載っている。柔らかい陶器のセットダウン、蒸気、フェードアウト。
+
+--- THREAD CONTINUATION ---
+[スレッド1] Google Gemini Pro:
+アップロードされた参照画像の正確なアートスタイルを保持し、この画像を参照として15秒のSeedance 2.0ビデオのストーリーボードを作成します。
+
+ビデオはベーコン、サニーサイドアップの卵、バタートーストの朝食のすべての材料を見せるところから始めたいです。それから彼女の手がベーコンを料理するクローズアップ、次にサニーサイドアップの卵を料理する、次にパンをトースターに入れ、トースターのレバーを押し下げてパンがトースターに下がる、次にパンが美しくトーストされてポップアップする、次に彼女がトーストにバターを塗る、次に完成した料理（ベーコン、サニーサイドアップの卵、トースト）を完璧にセットされた朝食テーブルに置く。テーブルにはすでに蒸気の立つホットコーヒー、冷たいオレンジジュース、塩と胡椒、ナプキン、適切なカトラリーが揃っています。8k解像度、16:9フォーマット、オクタンレンダー。
+
+[スレッド2] ChatGPT Prompt for Seedance 2.0
+アップロードされた参照画像の正確なアートスタイルを保持し、この画像を参照として15秒のSeedance 2.0ビデオのプロンプトを書いてください。
+
+ビデオはベーコン、サニーサイドアップの卵、バタートーストの朝食のすべての材料を見せるところから始めたいです。それから彼女の手がベーコンを料理するクローズアップ、次にサニーサイドアップの卵を料理する、次にパンをトースターに入れ、トースターのレバーを押し下げてパンがトースターに下がる、次にパンが美しくトーストされてポップアップする、次に彼女がトーストにバターを塗る、次に完成した料理（ベーコン、サニーサイドアップの卵、トースト）を完璧にセットされた朝食テーブルに置く。テーブルにはすでに蒸気の立つホットコーヒー、冷たいオレンジジュース、塩と胡椒、ナプキン、適切なカトラリーが揃っています。音楽なし、対話のキューなし、話しなし、ASMR効果音を許可。
+
+[スレッド3] Resulting Prompt for Seedance 2.0:
+
+15秒 16:9 イラスト付きASMR料理動画。提供されたストーリーボード画像を正確なビジュアル参照として使用し、そのアートスタイル、キャラクター、手、材料、オブジェクト、暖かい朝の照明、各ショットの連続性を保持します。滑らかでリアルな動き。音楽、対話、ナレーション、字幕、キャプション、画面上のテキストはなし。高品質なキッチンASMRのみ。
+
+0–2秒 広い居心地の良い大理石のカウンタートップ：生のベーコン、茶色の卵のバスケット、素朴なパンの塊、バター皿、日光、微妙なプッシュイン。2–4秒 クローズアップで手がベーコンをスキレットに置く；ジュージューと音を立て、端がカールし、蒸気が上がる。4–6秒 卵をスキレットに割る；中央に光沢のある黄身、白身が固まる。6–8秒 トースターのクローズアップ：正確に2枚のパンをスロットに1枚ずつ挿入；レバーがロックされる。8–10秒 トースター内部：要素が光り、同じ2枚のパンがトーストされ、蒸気と共に黄金色にポップアップ。10–13秒 熱いトーストのスライスに滑らかなナイフでバターを塗る。13–15秒 中間ヒーローショット：ブラックコーヒー、オレンジジュース、シェーカー、ナプキン、カトラリーが揃ったテーブル；皿にはカリカリのベーコン、2つのサニーサイドアップの卵、同じ2枚のスライスからのバタートーストが載っている。柔らかい陶器のセットダウン、蒸気、フェードアウト。
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2076680882669474157.json)
+
+```text
+---
+15초 16:9 일러스트 ASMR 요리 비디오. 제공된 스토리보드 이미지를 정확한 시각적 참고 자료로 사용하여 그 아트 스타일, 캐릭터, 손, 재료, 물체, 따뜻한 아침 조명, 각 샷의 연속성을 유지하세요. 부드럽고 현실적인 움직임. 음악, 대화, 내레이션, 자막, 화면 텍스트 없이 고품질의 주방 ASMR만 포함.
+
+0–2초 넓고 아늑한 대리석 조리대: 익히지 않은 베이컨, 갈색 달걀 바구니, 시골풍의 빵 덩어리, 버터 접시, 햇빛, 부드러운 푸시 인. 2–4초 클로즈업 손이 베이컨을 프라이팬에 놓음; 지글지글, 말려 올라가는 가장자리, 김. 4–6초 프라이팬에 달걀 깨기; 중심에 윤기 나는 노른자, 굳어가는 흰자. 6–8초 토스터 클로즈업: 정확히 두 조각의 빵을 슬롯에 하나씩 넣기; 레버가 잠김. 8–10초 토스터 내부: 요소가 빛나고, 같은 두 조각의 빵이 구워져 김이 나는 황금빛으로 튀어 오름. 10–13초 뜨거운 토스트 한 조각에 부드러운 칼질로 버터 바르기. 13–15초 중간 히어로 샷: 블랙 커피, 오렌지 주스, 셰이커, 냅킨, 식기가 있는 테이블; 접시에는 바삭한 베이컨, 두 개의 써니사이드업 달걀, 같은 두 조각의 버터 바른 토스트가 있음. 부드러운 도자기 세팅, 김, 페이드 아웃.
+
+--- THREAD CONTINUATION ---
+[Thread 1] Google Gemini Pro:
+업로드된 참고 이미지의 정확한 아트 스타일을 유지하여 이 이미지를 참고로 15초 Seedance 2.0 비디오의 스토리보드를 만드세요.
+
+비디오는 베이컨, 써니사이드업 달걀, 버터 바른 토스트 아침 식사의 모든 재료를 보여주는 것으로 시작하고 싶습니다. 그런 다음 그녀의 손이 베이컨을 요리하는 클로즈업, 써니사이드업 달걀을 요리하는 장면, 빵을 토스터에 넣고 레버를 내려 빵이 토스터 안으로 내려가는 장면, 빵이 아름답게 구워져 튀어 오르는 장면, 그녀가 토스트에 버터를 바르는 장면, 그런 다음 완성된 요리(베이컨, 써니사이드업 달걀, 토스트)를 이미 뜨거운 커피, 차가운 오렌지 주스, 소금과 후추, 냅킨, 적절한 식기가 있는 완벽하게 세팅된 아침 식사 테이블에 놓는 장면으로 이어집니다. 8k 해상도, 16:9 포맷, 옥탄 렌더.
+
+[Thread 2] ChatGPT Prompt for Seedance 2.0
+업로드된 참고 이미지의 정확한 아트 스타일을 유지하여 이 이미지를 참고로 15초 Seedance 2.0 비디오의 프롬프트를 작성하세요.
+
+비디오는 베이컨, 써니사이드업 달걀, 버터 바른 토스트 아침 식사의 모든 재료를 보여주는 것으로 시작하고 싶습니다. 그런 다음 그녀의 손이 베이컨을 요리하는 클로즈업, 써니사이드업 달걀을 요리하는 장면, 빵을 토스터에 넣고 레버를 내려 빵이 토스터 안으로 내려가는 장면, 빵이 아름답게 구워져 튀어 오르는 장면, 그녀가 토스트에 버터를 바르는 장면, 그런 다음 완성된 요리(베이컨, 써니사이드업 달걀, 토스트)를 이미 뜨거운 커피, 차가운 오렌지 주스, 소금과 후추, 냅킨, 적절한 식기가 있는 완벽하게 세팅된 아침 식사 테이블에 놓는 장면으로 이어집니다. 음악 없음, 대화 큐 없음, 말하기 없음, ASMR 사운드 효과 허용.
+
+[Thread 3] Resulting Prompt for Seedance 2.0:
+
+15초 16:9 일러스트 ASMR 요리 비디오. 제공된 스토리보드 이미지를 정확한 시각적 참고 자료로 사용하여 그 아트 스타일, 캐릭터, 손, 재료, 물체, 따뜻한 아침 조명, 각 샷의 연속성을 유지하세요. 부드럽고 현실적인 움직임. 음악, 대화, 내레이션, 자막, 화면 텍스트 없이 고품질의 주방 ASMR만 포함.
+
+0–2초 넓고 아늑한 대리석 조리대: 익히지 않은 베이컨, 갈색 달걀 바구니, 시골풍의 빵 덩어리, 버터 접시, 햇빛, 부드러운 푸시 인. 2–4초 클로즈업 손이 베이컨을 프라이팬에 놓음; 지글지글, 말려 올라가는 가장자리, 김. 4–6초 프라이팬에 달걀 깨기; 중심에 윤기 나는 노른자, 굳어가는 흰자. 6–8초 토스터 클로즈업: 정확히 두 조각의 빵을 슬롯에 하나씩 넣기; 레버가 잠김. 8–10초 토스터 내부: 요소가 빛나고, 같은 두 조각의 빵이 구워져 김이 나는 황금빛으로 튀어 오름. 10–13초 뜨거운 토스트 한 조각에 부드러운 칼질로 버터 바르기. 13–15초 중간 히어로 샷: 블랙 커피, 오렌지 주스, 셰이커, 냅킨, 식기가 있는 테이블; 접시에는 바삭한 베이컨, 두 개의 써니사이드업 달걀, 같은 두 조각의 버터 바른 토스트가 있음. 부드러운 도자기 세팅, 김, 페이드 아웃.
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2076680882669474157.json)
+
+```text
+---
+Vídeo de culinária ASMR ilustrado de 15s em formato 16:9. Use a imagem do storyboard fornecida como referência visual exata; preserve seu estilo artístico, personagens, mãos, ingredientes, objetos, iluminação matinal quente e continuidade em cada cena. Movimento realista e suave. Sem música, diálogo, narração, legendas, textos na tela; apenas ASMR de alta qualidade na cozinha.
+
+0–2s bancada de mármore aconchegante: bacon cru, cesta de ovos marrons, pão rústico, manteigueira, luz do sol, leve aproximação. 2–4s close-up das mãos colocando bacon na frigideira; chiado, bordas enrolando, vapor. 4–6s quebrar ovo na frigideira; gema brilhante centralizada, claras se firmando. 6–8s close-up da torradeira: inserir exatamente DUAS fatias de pão, uma por slot; alavanca trava para baixo. 8–10s dentro da torradeira: elementos brilham, as mesmas duas fatias tostam, depois saltam douradas com vapor. 10–13s passar manteiga em uma fatia de torrada quente com movimentos suaves de faca. 13–15s plano médio heroico: mesa com café preto, suco de laranja, saleiros, guardanapo, talheres; prato com bacon crocante, dois ovos fritos e torrada com manteiga das mesmas duas fatias. Colocação suave de cerâmica, vapor, fade para preto.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] Google Gemini Pro:
+Mantendo o estilo artístico exato da imagem de referência carregada, crie um storyboard para um vídeo Seedance 2.0 de 15 segundos usando esta imagem como referência.
+
+Quero que o vídeo comece mostrando todos os ingredientes para um café da manhã com bacon, ovos fritos e torrada com manteiga. Depois, um close-up das mãos dela cozinhando o bacon, depois cozinhando os ovos fritos, depois colocando o pão na torradeira, empurrando a alavanca para baixo na torradeira para que o pão desça, depois o pão salta lindamente tostado, depois ela passa manteiga na torrada, depois ela coloca o prato finalizado (bacon, ovos fritos e torrada) em uma mesa de café da manhã perfeitamente arrumada que já tem café quente, suco de laranja frio, sal e pimenta, um guardanapo e talheres apropriados. Resolução 8k, formato 16:9, renderização octane.
+
+[Thread 2] ChatGPT Prompt for Seedance 2.0
+Mantendo o estilo artístico exato da imagem de referência carregada, escreva um prompt para um vídeo Seedance 2.0 de 15 segundos usando esta imagem como referência.
+
+Quero que o vídeo comece mostrando todos os ingredientes para um café da manhã com bacon, ovos fritos e torrada com manteiga. Depois, um close-up das mãos dela cozinhando o bacon, depois cozinhando os ovos fritos, depois colocando o pão na torradeira, empurrando a alavanca para baixo na torradeira para que o pão desça, depois o pão salta lindamente tostado, depois ela passa manteiga na torrada, depois ela coloca o prato finalizado (bacon, ovos fritos e torrada) em uma mesa de café da manhã perfeitamente arrumada que já tem café quente, suco de laranja frio, sal e pimenta, um guardanapo e talheres apropriados. Sem música, sem falas, sem narração, permitindo apenas efeitos sonoros ASMR.
+
+[Thread 3] Resulting Prompt for Seedance 2.0:
+
+Vídeo de culinária ASMR ilustrado de 15s em formato 16:9. Use a imagem do storyboard fornecida como referência visual exata; preserve seu estilo artístico, personagens, mãos, ingredientes, objetos, iluminação matinal quente e continuidade em cada cena. Movimento realista e suave. Sem música, diálogo, narração, legendas, textos na tela; apenas ASMR de alta qualidade na cozinha.
+
+0–2s bancada de mármore aconchegante: bacon cru, cesta de ovos marrons, pão rústico, manteigueira, luz do sol, leve aproximação. 2–4s close-up das mãos colocando bacon na frigideira; chiado, bordas enrolando, vapor. 4–6s quebrar ovo na frigideira; gema brilhante centralizada, claras se firmando. 6–8s close-up da torradeira: inserir exatamente DUAS fatias de pão, uma por slot; alavanca trava para baixo. 8–10s dentro da torradeira: elementos brilham, as mesmas duas fatias tostam, depois saltam douradas com vapor. 10–13s passar manteiga em uma fatia de torrada quente com movimentos suaves de faca. 13–15s plano médio heroico: mesa com café preto, suco de laranja, saleiros, guardanapo, talheres; prato com bacon crocante, dois ovos fritos e torrada com manteiga das mesmas duas fatias. Colocação suave de cerâmica, vapor, fade para preto.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2076680882669474157.json)
+
+```text
+---
+15秒 16:9 插图风格的ASMR烹饪视频。使用提供的分镜图像作为精确的视觉参考；在每个镜头中保持其艺术风格、角色、手、食材、物品、温暖的晨光和连贯性。流畅逼真的动作。无音乐、对话、旁白、字幕、说明文字或屏幕文字；仅有高质量的厨房ASMR。
+
+0–2秒 宽敞舒适的大理石台面：生培根、棕色鸡蛋篮、乡村面包、黄油碟、阳光、轻微推入。2–4秒 特写手将培根放入煎锅；滋滋作响，边缘卷曲，蒸汽。4–6秒 打鸡蛋入煎锅；蛋黄居中光亮，蛋白凝固。6–8秒 烤面包机特写：准确插入两片面包，每槽一片；杠杆锁定。8–10秒 烤面包机内部：加热元件发光，同样的两片面包烤好后弹出，金黄冒蒸汽。10–13秒 用平滑的刀法涂抹黄油在一片热吐司上。13–15秒 中景主镜头：桌上有黑咖啡、橙汁、调味瓶、餐巾、餐具；盘子里有酥脆的培根、两个太阳蛋和涂黄油的吐司，来自同样的两片。轻放陶瓷，蒸汽，淡出至黑。
+
+--- 线程继续 ---
+[线程1] Google Gemini Pro:
+保持上传参考图像的精确艺术风格，创建一个15秒Seedance 2.0视频的分镜图，以此图像为参考。
+
+我希望视频以展示培根、太阳蛋和涂黄油吐司早餐的所有食材开始。然后是她的手煎培根的特写，然后煎太阳蛋，然后将面包放入烤面包机，按下烤面包机的杠杆使面包下降到烤面包机中，然后面包弹出，完美烤好，然后她涂抹黄油在吐司上，然后她将完成的菜肴（培根、太阳蛋和吐司）放在一个完美摆放的早餐桌上，桌上已经有热气腾腾的咖啡、冰橙汁、盐和胡椒、餐巾和合适的餐具。8k分辨率，16:9格式，octane渲染。
+
+[线程2] ChatGPT Prompt for Seedance 2.0
+保持上传参考图像的精确艺术风格，撰写一个15秒Seedance 2.0视频的提示，以此图像为参考。
+
+我希望视频以展示培根、太阳蛋和涂黄油吐司早餐的所有食材开始。然后是她的手煎培根的特写，然后煎太阳蛋，然后将面包放入烤面包机，按下烤面包机的杠杆使面包下降到烤面包机中，然后面包弹出，完美烤好，然后她涂抹黄油在吐司上，然后她将完成的菜肴（培根、太阳蛋和吐司）放在一个完美摆放的早餐桌上，桌上已经有热气腾腾的咖啡、冰橙汁、盐和胡椒、餐巾和合适的餐具。无音乐，无对话提示，无讲话，仅允许ASMR音效。
+
+[线程3] Resulting Prompt for Seedance 2.0:
+
+15秒 16:9 插图风格的ASMR烹饪视频。使用提供的分镜图像作为精确的视觉参考；在每个镜头中保持其艺术风格、角色、手、食材、物品、温暖的晨光和连贯性。流畅逼真的动作。无音乐、对话、旁白、字幕、说明文字或屏幕文字；仅有高质量的厨房ASMR。
+
+0–2秒 宽敞舒适的大理石台面：生培根、棕色鸡蛋篮、乡村面包、黄油碟、阳光、轻微推入。2–4秒 特写手将培根放入煎锅；滋滋作响，边缘卷曲，蒸汽。4–6秒 打鸡蛋入煎锅；蛋黄居中光亮，蛋白凝固。6–8秒 烤面包机特写：准确插入两片面包，每槽一片；杠杆锁定。8–10秒 烤面包机内部：加热元件发光，同样的两片面包烤好后弹出，金黄冒蒸汽。10–13秒 用平滑的刀法涂抹黄油在一片热吐司上。13–15秒 中景主镜头：桌上有黑咖啡、橙汁、调味瓶、餐巾、餐具；盘子里有酥脆的培根、两个太阳蛋和涂黄油的吐司，来自同样的两片。轻放陶瓷，蒸汽，淡出至黑。
+```
+
+## 出处与许可
+
+- 原作者：[Super Producer Seth](https://x.com/SethCritchley) · 原帖：<https://x.com/SethCritchley/status/2076680882669474157>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2076680882669474157.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

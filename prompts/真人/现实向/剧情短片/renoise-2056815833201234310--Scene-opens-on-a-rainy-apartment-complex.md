@@ -1,0 +1,139 @@
+---
+id: "renoise-2056815833201234310"
+title: "Scene opens on a rainy apartment complex at night, warm yellow lights glowing…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "剧情短片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Story", "Heartwarming", "Hand-drawn", "Realistic World", "ASMR"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056815833201234310.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "ANKIT PATEL 🇮🇳 | AI"
+original_author_url: "https://x.com/Ankit_patel211"
+original_post_url: "https://x.com/Ankit_patel211/status/2056815833201234310"
+published: "2026-05-19"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Scene opens on a rainy apartment complex at night, warm yellow lights glowing…
+
+## 提示词（English）
+
+```text
+Scene opens on a rainy apartment complex at night, warm yellow lights glowing through windows while puddles reflect street lamps.
+An elderly security guard with oversized round glasses, gray mustache, dark security uniform, and tired gentle eyes sits alone inside a tiny guard cabin drinking tea and writing in a logbook under a dim desk lamp.
+Residents carrying umbrellas walk past the gate without noticing him.
+A little girl in a yellow raincoat with small pigtails and a backpack quietly watches him from behind a wall, concerned by how lonely he looks.
+Later that night, the girl carefully places a steaming cup of tea and a child’s drawing on the wooden table outside the cabin before shyly running away into the rain.
+The old guard discovers the drawing, freezes in surprise, then softly smiles with emotional teary eyes while holding the paper gently in his hands.
+Inside the cozy cabin, he proudly hangs the drawing on the wall beside his desk and thermos flask.
+Final scene transitions into peaceful golden morning sunlight as the girl waves at him near the apartment gate and the old security guard smiles warmly and salutes back.
+Soft rain ambience, tiny emotional gestures, watercolor texture bleeding, sketchy imperfect line art, cinematic camera pans, gentle handheld movement, cozy emotional storytelling, quiet human connection.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056815833201234310.json)
+
+```text
+---
+La escena se abre en un complejo de apartamentos lluvioso por la noche, con cálidas luces amarillas brillando a través de las ventanas mientras los charcos reflejan las farolas. Un guardia de seguridad anciano con gafas redondas de gran tamaño, bigote gris, uniforme oscuro de seguridad y ojos cansados pero amables, se sienta solo dentro de una pequeña cabina de guardia bebiendo té y escribiendo en un libro de registro bajo una tenue lámpara de escritorio. Los residentes con paraguas pasan por la puerta sin notarlo. Una niña con un impermeable amarillo, pequeñas coletas y una mochila lo observa en silencio desde detrás de una pared, preocupada por lo solitario que parece. Más tarde esa noche, la niña coloca cuidadosamente una taza de té humeante y un dibujo infantil en la mesa de madera fuera de la cabina antes de correr tímidamente bajo la lluvia. El viejo guardia descubre el dibujo, se congela de sorpresa, luego sonríe suavemente con ojos emocionados y llorosos mientras sostiene el papel con delicadeza en sus manos. Dentro de la acogedora cabina, cuelga con orgullo el dibujo en la pared junto a su escritorio y su termo. La escena final transiciona a una pacífica luz dorada de la mañana mientras la niña le saluda cerca de la puerta del apartamento y el viejo guardia de seguridad sonríe cálidamente y saluda de vuelta. Ambiente de lluvia suave, pequeños gestos emocionales, textura de acuarela difuminada, arte lineal imperfecto y esbozado, cinematic camera pans, movimiento suave de cámara en mano, narración emocional acogedora, conexión humana silenciosa.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056815833201234310.json)
+
+```text
+La scène s'ouvre sur un complexe d'appartements pluvieux la nuit, des lumières jaunes chaudes brillant à travers les fenêtres tandis que les flaques d'eau reflètent les lampadaires. Un vieux gardien de sécurité avec de grandes lunettes rondes, une moustache grise, un uniforme de sécurité sombre et des yeux fatigués mais doux est assis seul dans une petite cabine de garde, buvant du thé et écrivant dans un registre sous une lampe de bureau tamisée. Les résidents portant des parapluies passent devant le portail sans le remarquer. Une petite fille en imperméable jaune avec de petites couettes et un sac à dos l'observe silencieusement derrière un mur, préoccupée par son air solitaire. Plus tard dans la nuit, la fillette dépose soigneusement une tasse de thé fumante et un dessin d'enfant sur la table en bois à l'extérieur de la cabine avant de s'enfuir timidement sous la pluie. Le vieux gardien découvre le dessin, se fige de surprise, puis sourit doucement avec des yeux larmoyants d'émotion en tenant le papier délicatement dans ses mains. À l'intérieur de la cabine douillette, il accroche fièrement le dessin au mur à côté de son bureau et de sa bouteille thermos. La scène finale passe à une paisible lumière dorée du matin alors que la fillette lui fait signe près du portail de l'appartement et que le vieux gardien de sécurité lui sourit chaleureusement et lui rend son salut. Ambiance de pluie douce, petits gestes émotionnels, texture aquarelle qui se fond, art de ligne esquissé imparfait, camera pans cinématographiques, mouvement doux à main levée, narration émotionnelle et chaleureuse, connexion humaine silencieuse.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056815833201234310.json)
+
+```text
+---
+シーンは夜の雨が降るアパートの複合施設から始まります。窓からは暖かい黄色の光が漏れ、路面の水たまりが街灯を反射しています。
+大きな丸い眼鏡、灰色の口ひげ、暗い警備服を着た年配の警備員が、小さな警備室の中で一人でお茶を飲み、薄暗いデスクランプの下でログブックに書き込んでいます。
+住人たちは傘を持って門を通り過ぎ、彼に気づきません。
+黄色いレインコートを着た小さな女の子が、小さなツインテールとバックパックを背負い、壁の後ろから彼を静かに見つめています。彼がどれほど孤独に見えるかを心配しています。
+その夜遅く、女の子は慎重に蒸気の立つお茶のカップと子供の絵を警備室の外の木のテーブルに置き、恥ずかしそうに雨の中を走り去ります。
+老人の警備員はその絵を見つけ、驚いて固まりますが、紙を優しく手に取りながら感動して涙ぐんだ目で微笑みます。
+居心地の良い警備室の中で、彼はその絵をデスクと魔法瓶の横の壁に誇らしげに飾ります。
+最後のシーンは、アパートの門の近くで彼に手を振る女の子と、暖かく微笑んで敬礼を返す年配の警備員がいる、穏やかな黄金の朝日に移行します。
+Soft rain ambience, tiny emotional gestures, watercolor texture bleeding, sketchy imperfect line art, cinematic camera pans, gentle handheld movement, cozy emotional storytelling, quiet human connection.
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056815833201234310.json)
+
+```text
+---
+장면은 밤의 비 내리는 아파트 단지에서 시작됩니다. 창문을 통해 따뜻한 노란 불빛이 빛나고, 웅덩이는 가로등을 반사합니다.
+커다란 둥근 안경과 회색 콧수염, 어두운 보안 제복을 입고 피곤하지만 부드러운 눈을 가진 노년의 경비원이 작은 경비실 안에서 혼자 앉아 차를 마시며 희미한 책상 램프 아래에서 일지를 쓰고 있습니다.
+우산을 든 주민들이 그를 알아채지 못하고 문을 지나갑니다.
+노란 우비를 입고 작은 양갈래 머리와 배낭을 멘 소녀가 벽 뒤에서 조용히 그를 지켜보며 그가 얼마나 외로워 보이는지 걱정합니다.
+그날 밤 늦게, 소녀는 조심스럽게 김이 나는 차 한 잔과 어린이의 그림을 경비실 밖 나무 테이블에 놓고 부끄러워하며 비 속으로 달려갑니다.
+늙은 경비원은 그림을 발견하고 놀라서 멈추었다가, 종이를 부드럽게 손에 쥐고 감동의 눈물을 머금은 채 부드럽게 미소 짓습니다.
+아늑한 경비실 안에서 그는 자랑스럽게 책상과 보온병 옆 벽에 그림을 걸어둡니다.
+마지막 장면은 평화로운 황금빛 아침 햇살로 전환되며, 소녀가 아파트 문 근처에서 그에게 손을 흔들고, 늙은 경비원은 따뜻하게 미소 지으며 경례를 돌려줍니다.
+부드러운 비 소리, 작은 감정적 제스처, 수채화 질감의 번짐, 스케치 같은 불완전한 선화, cinematic camera pans, 부드러운 핸드헬드 움직임, 아늑한 감정적 스토리텔링, 조용한 인간의 연결.
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056815833201234310.json)
+
+```text
+Cena abre em um complexo de apartamentos chuvoso à noite, luzes amarelas quentes brilhando através das janelas enquanto poças refletem os postes de luz.
+Um guarda de segurança idoso com óculos redondos grandes, bigode grisalho, uniforme de segurança escuro e olhos cansados e gentis senta-se sozinho dentro de uma pequena cabine de guarda, bebendo chá e escrevendo em um livro de registros sob uma lâmpada de mesa fraca.
+Moradores carregando guarda-chuvas passam pelo portão sem notá-lo.
+Uma garotinha com uma capa de chuva amarela, pequenos rabos de cavalo e uma mochila observa-o silenciosamente de trás de uma parede, preocupada com o quão solitário ele parece.
+Mais tarde naquela noite, a menina cuidadosamente coloca uma xícara de chá fumegante e um desenho infantil na mesa de madeira fora da cabine antes de correr timidamente para a chuva.
+O velho guarda descobre o desenho, congela surpreso, depois sorri suavemente com os olhos emocionados e lacrimejantes enquanto segura o papel gentilmente em suas mãos.
+Dentro da aconchegante cabine, ele orgulhosamente pendura o desenho na parede ao lado de sua mesa e garrafa térmica.
+A cena final transita para a luz dourada pacífica da manhã enquanto a menina acena para ele perto do portão do apartamento e o velho guarda de segurança sorri calorosamente e faz uma saudação de volta.
+Ambiência suave de chuva, pequenos gestos emocionais, textura de aquarela se espalhando, arte de linha imperfeita e esboçada, cinematic camera pans, movimento suave de câmera na mão, narrativa emocional aconchegante, conexão humana silenciosa.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056815833201234310.json)
+
+```text
+---
+场景在夜晚的雨中公寓楼展开，温暖的黄色灯光透过窗户闪烁，水洼反射着街灯。
+一位戴着超大圆眼镜、灰色胡子、穿着深色保安制服、眼神疲惫而温柔的老保安独自坐在一个小小的保安亭里，喝着茶，在昏暗的台灯下写日志。
+居民们撑着伞走过大门，没有注意到他。
+一个穿着黄色雨衣、扎着小辫子、背着书包的小女孩静静地从墙后面观察他，为他的孤独感到担忧。
+那天晚上晚些时候，小女孩小心翼翼地在小屋外的木桌上放了一杯热茶和一幅儿童画，然后害羞地跑进雨中。
+老保安发现了那幅画，惊讶地愣住了，然后轻轻地微笑，眼中含着感动的泪水，轻轻地捧着那张纸。
+在舒适的小屋里，他自豪地把那幅画挂在桌子和保温瓶旁边的墙上。
+最后的场景过渡到宁静的金色晨光中，小女孩在公寓大门附近向他挥手，老保安温暖地微笑并回礼。
+柔和的雨声氛围，细微的情感动作，水彩质感渗透，草图般不完美的线条艺术，cinematic camera pans，温柔的手持运动，舒适的情感叙事，安静的人际连接。
+```
+
+## 出处与许可
+
+- 原作者：[ANKIT PATEL 🇮🇳 | AI](https://x.com/Ankit_patel211) · 原帖：<https://x.com/Ankit_patel211/status/2056815833201234310>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056815833201234310.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

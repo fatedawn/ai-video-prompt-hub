@@ -1,0 +1,100 @@
+---
+id: "renoise-2084581149377179886"
+title: "Ultra fast-paced FPV drone flight through the ancient Indian Chandela Dynasty…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "剧情短片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Scenery & Spectacle", "Worldbuilding", "Photoreal", "Historical", "FPV & Aerial"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084581149377179886.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Shushant Lakhyani"
+original_author_url: "https://x.com/shushant_l"
+original_post_url: "https://x.com/shushant_l/status/2084581149377179886"
+published: "2026-08-04"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Ultra fast-paced FPV drone flight through the ancient Indian Chandela Dynasty…
+
+## 提示词（English）
+
+```text
+Ultra fast-paced FPV drone flight through the ancient Indian Chandela Dynasty at its peak during the 10th to 12th century CE. A single continuous one take shot with no cuts, no transitions, and no camera resets. Fly seamlessly through magnificent sandstone temples with intricate carvings, towering shikharas, grand palaces, bustling marketplaces, royal courtyards, lush gardens, sacred water tanks, elephant processions, cavalry, artisans sculpting stone, dancers, priests performing rituals, vibrant festivals, dense forests, dramatic cliffs, and fortified cities. Hyper realistic, cinematic, ultra detailed, bright natural daylight, golden sunlight, vibrant colors, authentic historical architecture, smooth fluid FPV motion, dynamic speed changes, immersive depth, breathtaking scale, realistic human activity, volumetric lighting, atmospheric dust, crisp textures, premium film quality, 8K, HDR, masterpiece, photorealistic, continuous uninterrupted camera movement from start to finish
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084581149377179886.json)
+
+```text
+Vol ultra rapide en FPV à travers l’ancienne dynastie Chandela indienne à son apogée, entre le Xe et le XIIe siècle de notre ère. Un seul plan-séquence continu, sans coupes, sans transitions et sans réinitialisation de la caméra. Survole sans interruption de magnifiques temples en grès aux sculptures complexes, des shikharas imposants, de grands palais, des marchés animés, des cours royales, des jardins luxuriants, des bassins d’eau sacrés, des processions d’éléphants, de la cavalerie, des artisans sculptant la pierre, des danseurs, des prêtres accomplissant des rituels, des festivals éclatants, des forêts denses, des falaises spectaculaires et des villes fortifiées. Hyperréaliste, cinématographique, ultra détaillé, lumière naturelle vive en plein jour, lumière dorée du soleil, couleurs vibrantes, architecture historique authentique, mouvement FPV fluide et souple, changements de vitesse dynamiques, profondeur immersive, échelle à couper le souffle, activité humaine réaliste, éclairage volumétrique, poussière atmosphérique, textures nettes, qualité film premium, 8K, HDR, chef-d’œuvre, photoréaliste, mouvement de caméra continu et ininterrompu du début à la fin
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084581149377179886.json)
+
+```text
+---
+10世紀から12世紀の西暦にかけて最盛期を迎えた古代インドのチャンデーラ朝を、超高速のFPVドローン飛行で駆け抜ける。カットなし、トランジションなし、カメラのリセットなしの、単一の連続したワンテイクショット。精緻な彫刻が施された壮麗な砂岩寺院、そびえ立つシカラ、壮大な宮殿、活気あふれる市場、王宮の中庭、豊かな庭園、聖なる水槽、象の行列、騎兵隊、石を彫る職人たち、踊り手、儀式を執り行う僧侶たち、色鮮やかな祭り、鬱蒼とした森林、劇的な断崖、要塞化された都市の中を、シームレスに飛行する。超リアル、シネマティック、超高精細、明るい自然光、黄金色の陽光、鮮やかな色彩、史実に忠実な建築、滑らかで流れるようなFPVモーション、ダイナミックな速度変化、没入感のある奥行き、息をのむスケール、リアルな人々の営み、ボリューメトリックライティング、大気中の塵、くっきりとした質感、プレミアムなフィルムクオリティ、8K、HDR、傑作、フォトリアル、始まりから終わりまで途切れない連続したカメラ移動
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084581149377179886.json)
+
+```text
+---
+10세기부터 12세기 CE에 걸쳐 전성기를 누리던 고대 인도 찬델라 왕조를 초고속 FPV 드론 비행으로 가로지르는 장면. 컷, 전환, 카메라 리셋 없이 하나의 연속된 원테이크 샷으로 구성된다. 정교한 조각이 새겨진 웅장한 사암 사원들, 우뚝 솟은 시카라, 거대한 궁전, 활기 넘치는 시장, 왕실 안뜰, 울창한 정원, 성스러운 물탱크, 코끼리 행렬, 기병대, 돌을 조각하는 장인들, 춤추는 사람들, 의식을 행하는 사제들, 생동감 넘치는 축제, 울창한 숲, 극적인 절벽, 요새화된 도시들을 매끄럽게 비행하며 지나간다. 하이퍼 리얼리스틱, 시네마틱, 초고디테일, 밝은 자연광, 황금빛 햇살, 생생한 색감, 실제 역사적 건축 양식, 부드럽고 유려한 FPV 모션, 역동적인 속도 변화, 몰입감 있는 깊이감, 숨 막히는 스케일, 사실적인 인간 활동, 볼류메트릭 라이팅, 대기 중 먼지, 선명한 텍스처, 프리미엄 필름 퀄리티, 8K, HDR, 마스터피스, 포토리얼리스틱, 시작부터 끝까지 끊김 없는 연속 카메라 움직임
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084581149377179886.json)
+
+```text
+Voo de drone FPV em ritmo ultrarrápido pela antiga Dinastia Chandela da Índia em seu auge, entre os séculos X e XII d.C. Uma única tomada contínua, sem cortes, sem transições e sem resets de câmera. Voe de forma fluida por magníficos templos de arenito com entalhes intrincados, shikharas imponentes, grandes palácios, mercados movimentados, pátios reais, jardins exuberantes, tanques sagrados de água, procissões de elefantes, cavalaria, artesãos esculpindo pedra, dançarinos, sacerdotes realizando rituais, festivais vibrantes, florestas densas, penhascos dramáticos e cidades fortificadas. Hiper-realista, cinematográfico, ultra detalhado, luz natural brilhante durante o dia, luz dourada do sol, cores vibrantes, arquitetura histórica autêntica, movimento FPV suave e fluido, mudanças dinâmicas de velocidade, profundidade imersiva, escala de tirar o fôlego, atividade humana realista, iluminação volumétrica, poeira atmosférica, texturas nítidas, qualidade premium de filme, 8K, HDR, obra-prima, fotorrealista, movimento de câmera contínuo e ininterrupto do início ao fim
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084581149377179886.json)
+
+```text
+---
+超高速 FPV 无人机飞行，穿越公元 10 至 12 世纪处于鼎盛时期的古印度 Chandela 王朝。单一连续的一镜到底拍摄，没有剪切、没有转场，也没有镜头重置。无缝飞越宏伟的砂岩寺庙，精美繁复的雕刻，高耸的 shikhara，宏大的宫殿，熙攘的集市，皇家庭院，郁郁葱葱的花园，神圣的水池，大象游行，骑兵，雕刻石材的工匠，翩翩起舞的舞者，举行仪式的祭司，热闹的节庆，茂密的森林，壮观的悬崖，以及设防城池。超写实，cinematic，超高细节，明亮的自然日光，金色阳光，鲜艳的色彩，真实的历史建筑，平滑流畅的 FPV 运动，动态速度变化，沉浸式深度，令人屏息的宏大尺度，逼真的人类活动，体积光，氛围尘埃，清晰纹理，顶级电影质感，8K，HDR，杰作，photorealistic，从头到尾连续不间断的镜头运动
+---
+```
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084581149377179886.json)
+
+```text
+Vuelo FPV ultrarrápido con dron a través de la antigua dinastía Chandela de la India en su apogeo durante los siglos X al XII d. C. Una única toma continua sin cortes, sin transiciones y sin reinicios de cámara. Vuela sin interrupciones a través de magníficos templos de arenisca con intrincados relieves, imponentes shikharas, grandes palacios, bulliciosos mercados, patios reales, exuberantes jardines, estanques sagrados, procesiones de elefantes, caballería, artesanos tallando piedra, bailarines, sacerdotes realizando rituales, vibrantes festivales, densos bosques, acantilados dramáticos y ciudades fortificadas. Hiperrealista, cinematográfico, ultradetallado, luz natural brillante de día, luz dorada del sol, colores vibrantes, arquitectura histórica auténtica, movimiento FPV suave y fluido, cambios dinámicos de velocidad, profundidad envolvente, escala impresionante, actividad humana realista, iluminación volumétrica, polvo atmosférico, texturas nítidas, calidad cinematográfica premium, 8K, HDR, obra maestra, fotorrealista, movimiento de cámara continuo e ininterrumpido de principio a fin
+```
+
+## 出处与许可
+
+- 原作者：[Shushant Lakhyani](https://x.com/shushant_l) · 原帖：<https://x.com/shushant_l/status/2084581149377179886>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084581149377179886.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

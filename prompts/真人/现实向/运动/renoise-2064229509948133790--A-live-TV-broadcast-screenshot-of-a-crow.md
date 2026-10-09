@@ -1,0 +1,160 @@
+---
+id: "renoise-2064229509948133790"
+title: "A live TV broadcast screenshot of a crowded soccer stadium stands during a…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "运动"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Sports", "Crowd & Fans", "Photoreal", "Realistic World", "Game UI"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064229509948133790.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Gilbert Odera | Your AI Plug🇰🇪"
+original_author_url: "https://x.com/yourPlugAI"
+original_post_url: "https://x.com/yourPlugAI/status/2064229509948133790"
+published: "2026-06-09"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# A live TV broadcast screenshot of a crowded soccer stadium stands during a…
+
+## 提示词（English）
+
+```text
+A live TV broadcast screenshot of a crowded soccer stadium stands during a World Cup match. In the center focus is a beautiful young Mexican woman with long dark hair, wearing an official green Mexico football jersey. Beside her sits a handsome South African gentleman in an official yellow and green South Africa jersey. They are sitting closely, smiling and warmly embracing each other as they notice the camera. The background shows blurred fans, stadium seats, and a large Mexican flag draped nearby. In the top-left corner of the screen, a clean digital TV scoreboard overlay reads "MEX 0 - 0 RSA" with a live match clock. In the top-right corner, a professional "SuperSport 1" broadcasting logo is cleanly displayed. Authentic television camera quality, 4k resolution, sharp focus on the couple, subtle film grain, broadcast television aesthetics, lifelike expressions. --ar 9:16
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064229509948133790.json)
+
+```text
+---
+Une capture d'écran d'une diffusion télévisée en direct montrant les gradins bondés d'un stade de football pendant un match de la Coupe du Monde. Au centre de l'image se trouve une belle jeune femme mexicaine aux longs cheveux noirs, portant un maillot officiel vert de l'équipe de football du Mexique. À côté d'elle, un bel homme sud-africain porte un maillot officiel jaune et vert de l'équipe d'Afrique du Sud. Ils sont assis proches l'un de l'autre, souriant et s'enlaçant chaleureusement en remarquant la caméra. En arrière-plan, on aperçoit des fans flous, des sièges de stade et un grand drapeau mexicain drapé à proximité. Dans le coin supérieur gauche de l'écran, un tableau de bord numérique propre affiche "MEX 0 - 0 RSA" avec une horloge de match en direct. Dans le coin supérieur droit, un logo professionnel de diffusion "SuperSport 1" est affiché clairement. Qualité authentique de caméra télévisée, résolution 4k, mise au point nette sur le couple, grain de film subtil, esthétique de diffusion télévisée, expressions réalistes. --ar 9:16
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Image de Départ du Prompt :
+
+Prompt: A live TV broadcast screenshot of a crowded soccer stadium stands during a World Cup match. In the center focus is a beautiful young Mexican woman with long dark hair, wearing an official green Mexico football jersey. Beside her sits a handsome South African gentleman in an official yellow and green South Africa jersey. They are sitting closely, smiling and warmly embracing each other as they notice the camera. The background shows blurred fans, stadium seats, and a large Mexican flag draped nearby. In the top-left corner of the screen, a clean digital TV scoreboard overlay reads "MEX 0 - 0 RSA" with a live match clock. In the top-right corner, a professional "SuperSport 1" broadcasting logo is cleanly displayed. Authentic television camera quality, 4k resolution, sharp focus on the couple, subtle film grain, broadcast television aesthetics, lifelike expressions. --ar 9:16
+
+[Fil 2] 2. Vidéo Prompt
+
+Vidéo Prompt: Hyper-realistic live television broadcast footage. The camera slowly zooms in closer on the Mexican woman and the South African man in the stadium stands. Their expressions shift naturally from looking around to realizing they are on the big screen. They smile warmly at each other, and the South African gentleman wraps his arm further around her shoulder in a gentle, warm embrace. Natural hair movement from the stadium breeze, blinking eyes, realistic facial expressions, and ambient crowd movement in the blurred background. The TV overlay graphics for the SuperSport logo and match fixture remain perfectly static in the corners of the screen. Slow, smooth cinematic camera zoom, 24fps.
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064229509948133790.json)
+
+```text
+---
+ワールドカップの試合中に混雑したサッカースタジアムのスタンドを映したライブテレビ放送のスクリーンショット。中央には、長い黒髪の美しい若いメキシコ人女性が、公式の緑のメキシコサッカージャージを着ている姿が映し出されています。彼女の隣には、公式の黄色と緑の南アフリカジャージを着たハンサムな南アフリカ人の紳士が座っています。彼らはカメラに気づき、親密に寄り添い、微笑み合っています。背景にはぼやけたファンやスタジアムの座席、大きなメキシコの旗が近くに掛けられているのが見えます。画面の左上には、デジタルTVのスコアボードオーバーレイが「MEX 0 - 0 RSA」とライブの試合時計を表示しています。右上には、プロフェッショナルな「SuperSport 1」の放送ロゴがきれいに表示されています。テレビカメラの本物の品質、4k解像度、カップルに焦点を合わせたシャープな映像、微妙なフィルムグレイン、放送テレビの美学、リアルな表情。--ar 9:16
+
+--- スレッド継続 ---
+[スレッド1] スタートフレームイメージプロンプト:
+
+Prompt: A live TV broadcast screenshot of a crowded soccer stadium stands during a World Cup match. In the center focus is a beautiful young Mexican woman with long dark hair, wearing an official green Mexico football jersey. Beside her sits a handsome South African gentleman in an official yellow and green South Africa jersey. They are sitting closely, smiling and warmly embracing each other as they notice the camera. The background shows blurred fans, stadium seats, and a large Mexican flag draped nearby. In the top-left corner of the screen, a clean digital TV scoreboard overlay reads "MEX 0 - 0 RSA" with a live match clock. In the top-right corner, a professional "SuperSport 1" broadcasting logo is cleanly displayed. Authentic television camera quality, 4k resolution, sharp focus on the couple, subtle film grain, broadcast television aesthetics, lifelike expressions. --ar 9:16
+
+[スレッド2] 2. ビデオプロンプト
+
+Video Prompt: Hyper-realistic live television broadcast footage. The camera slowly zooms in closer on the Mexican woman and the South African man in the stadium stands. Their expressions shift naturally from looking around to realizing they are on the big screen. They smile warmly at each other, and the South African gentleman wraps his arm further around her shoulder in a gentle, warm embrace. Natural hair movement from the stadium breeze, blinking eyes, realistic facial expressions, and ambient crowd movement in the blurred background. The TV overlay graphics for the SuperSport logo and match fixture remain perfectly static in the corners of the screen. Slow, smooth cinematic camera zoom, 24fps.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064229509948133790.json)
+
+```text
+---
+Uma captura de tela de uma transmissão ao vivo de TV de um estádio de futebol lotado durante uma partida da Copa do Mundo. No foco central está uma bela jovem mexicana com longos cabelos escuros, vestindo uma camisa oficial verde da seleção do México. Ao lado dela, está um elegante cavalheiro sul-africano com uma camisa oficial amarela e verde da seleção da África do Sul. Eles estão sentados próximos, sorrindo e se abraçando calorosamente ao perceberem a câmera. Ao fundo, aparecem fãs desfocados, assentos do estádio e uma grande bandeira mexicana pendurada nas proximidades. No canto superior esquerdo da tela, uma sobreposição limpa de placar digital de TV lê "MEX 0 - 0 RSA" com um relógio de partida ao vivo. No canto superior direito, um logotipo profissional de transmissão "SuperSport 1" é exibido de forma limpa. Qualidade autêntica de câmera de televisão, resolução 4k, foco nítido no casal, leve granulação de filme, estética de transmissão televisiva, expressões realistas. --ar 9:16
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Início do Prompt de Imagem de Quadro:
+
+Prompt: A live TV broadcast screenshot of a crowded soccer stadium stands during a World Cup match. In the center focus is a beautiful young Mexican woman with long dark hair, wearing an official green Mexico football jersey. Beside her sits a handsome South African gentleman in an official yellow and green South Africa jersey. They are sitting closely, smiling and warmly embracing each other as they notice the camera. The background shows blurred fans, stadium seats, and a large Mexican flag draped nearby. In the top-left corner of the screen, a clean digital TV scoreboard overlay reads "MEX 0 - 0 RSA" with a live match clock. In the top-right corner, a professional "SuperSport 1" broadcasting logo is cleanly displayed. Authentic television camera quality, 4k resolution, sharp focus on the couple, subtle film grain, broadcast television aesthetics, lifelike expressions. --ar 9:16
+
+[Tópico 2] 2. Prompt de Vídeo
+
+Prompt de Vídeo: Filmagem hiper-realista de transmissão ao vivo de televisão. A câmera faz um zoom lento e se aproxima da mulher mexicana e do homem sul-africano nas arquibancadas do estádio. Suas expressões mudam naturalmente de olhar ao redor para perceber que estão na tela grande. Eles sorriem calorosamente um para o outro, e o cavalheiro sul-africano envolve ainda mais o braço em torno do ombro dela em um abraço gentil e caloroso. Movimento natural do cabelo pela brisa do estádio, olhos piscando, expressões faciais realistas e movimento ambiente da multidão no fundo desfocado. Os gráficos de sobreposição de TV para o logotipo do SuperSport e o placar da partida permanecem perfeitamente estáticos nos cantos da tela. Zoom de câmera cinematográfico lento e suave, 24fps.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064229509948133790.json)
+
+```text
+---
+一张世界杯比赛期间拥挤的足球场看台的现场直播电视截图。画面中心是一位美丽的墨西哥年轻女子，长长的黑发，身穿墨西哥官方绿色足球球衣。她旁边坐着一位英俊的南非绅士，穿着南非官方黄绿色球衣。他们坐得很近，微笑着，温暖地拥抱着对方，注意到摄像机。背景中是模糊的球迷、体育场座位和附近悬挂的大型墨西哥国旗。屏幕左上角，一个干净的数字电视记分板叠加显示“MEX 0 - 0 RSA”，并有一个实时比赛时钟。右上角，专业的“SuperSport 1”广播标志清晰地显示。真实的电视摄像机质量，4k分辨率，聚焦于这对情侣，细微的胶片颗粒，广播电视美学，栩栩如生的表情。 --ar 9:16
+
+--- 线程延续 ---
+[线程 1] 开始帧图像提示：
+
+Prompt: A live TV broadcast screenshot of a crowded soccer stadium stands during a World Cup match. In the center focus is a beautiful young Mexican woman with long dark hair, wearing an official green Mexico football jersey. Beside her sits a handsome South African gentleman in an official yellow and green South Africa jersey. They are sitting closely, smiling and warmly embracing each other as they notice the camera. The background shows blurred fans, stadium seats, and a large Mexican flag draped nearby. In the top-left corner of the screen, a clean digital TV scoreboard overlay reads "MEX 0 - 0 RSA" with a live match clock. In the top-right corner, a professional "SuperSport 1" broadcasting logo is cleanly displayed. Authentic television camera quality, 4k resolution, sharp focus on the couple, subtle film grain, broadcast television aesthetics, lifelike expressions. --ar 9:16
+
+[线程 2] 2. 视频提示
+
+Video Prompt: Hyper-realistic live television broadcast footage. The camera slowly zooms in closer on the Mexican woman and the South African man in the stadium stands. Their expressions shift naturally from looking around to realizing they are on the big screen. They smile warmly at each other, and the South African gentleman wraps his arm further around her shoulder in a gentle, warm embrace. Natural hair movement from the stadium breeze, blinking eyes, realistic facial expressions, and ambient crowd movement in the blurred background. The TV overlay graphics for the SuperSport logo and match fixture remain perfectly static in the corners of the screen. Slow, smooth cinematic camera zoom, 24fps.
+---
+```
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064229509948133790.json)
+
+```text
+---
+Una captura de pantalla de una transmisión en vivo de televisión de las gradas de un estadio de fútbol abarrotado durante un partido de la Copa del Mundo. En el centro de la imagen se enfoca una hermosa joven mexicana con largo cabello oscuro, vistiendo una camiseta oficial verde de la selección de fútbol de México. A su lado se encuentra un apuesto caballero sudafricano con una camiseta oficial amarilla y verde de Sudáfrica. Están sentados juntos, sonriendo y abrazándose cálidamente al notar la cámara. El fondo muestra aficionados desenfocados, asientos del estadio y una gran bandera mexicana colgada cerca. En la esquina superior izquierda de la pantalla, una superposición limpia de marcador digital de TV muestra "MEX 0 - 0 RSA" con un reloj de partido en vivo. En la esquina superior derecha, se muestra claramente el logotipo profesional de transmisión de "SuperSport 1". Calidad auténtica de cámara de televisión, resolución 4k, enfoque nítido en la pareja, sutil grano de película, estética de transmisión televisiva, expresiones realistas. --ar 9:16
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Imagen de Inicio del Marco:
+
+Prompt: A live TV broadcast screenshot of a crowded soccer stadium stands during a World Cup match. In the center focus is a beautiful young Mexican woman with long dark hair, wearing an official green Mexico football jersey. Beside her sits a handsome South African gentleman in an official yellow and green South Africa jersey. They are sitting closely, smiling and warmly embracing each other as they notice the camera. The background shows blurred fans, stadium seats, and a large Mexican flag draped nearby. In the top-left corner of the screen, a clean digital TV scoreboard overlay reads "MEX 0 - 0 RSA" with a live match clock. In the top-right corner, a professional "SuperSport 1" broadcasting logo is cleanly displayed. Authentic television camera quality, 4k resolution, sharp focus on the couple, subtle film grain, broadcast television aesthetics, lifelike expressions. --ar 9:16
+
+[Hilo 2] 2. Video Prompt
+
+Video Prompt: Hyper-realistic live television broadcast footage. The camera slowly zooms in closer on the Mexican woman and the South African man in the stadium stands. Their expressions shift naturally from looking around to realizing they are on the big screen. They smile warmly at each other, and the South African gentleman wraps his arm further around her shoulder in a gentle, warm embrace. Natural hair movement from the stadium breeze, blinking eyes, realistic facial expressions, and ambient crowd movement in the blurred background. The TV overlay graphics for the SuperSport logo and match fixture remain perfectly static in the corners of the screen. Slow, smooth cinematic camera zoom, 24fps.
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064229509948133790.json)
+
+```text
+---
+월드컵 경기 중 붐비는 축구 경기장의 관중석을 생중계하는 TV 방송 스크린샷. 중앙에는 긴 검은 머리를 가진 아름다운 젊은 멕시코 여성이 공식 녹색 멕시코 축구 유니폼을 입고 있다. 그녀 옆에는 공식 노란색과 녹색 남아프리카 공화국 유니폼을 입은 잘생긴 남아프리카 신사가 앉아 있다. 그들은 카메라를 의식하며 가까이 앉아 미소를 지으며 따뜻하게 서로를 포옹하고 있다. 배경에는 흐릿한 팬들, 경기장 좌석, 그리고 근처에 걸린 큰 멕시코 국기가 보인다. 화면 왼쪽 상단에는 "MEX 0 - 0 RSA"와 라이브 경기 시계가 표시된 깔끔한 디지털 TV 스코어보드 오버레이가 있다. 오른쪽 상단에는 전문적인 "SuperSport 1" 방송 로고가 깔끔하게 표시되어 있다. 진짜 같은 텔레비전 카메라 품질, 4k 해상도, 커플에 대한 선명한 초점, 미세한 필름 그레인, 방송 텔레비전 미학, 생생한 표정. --ar 9:16
+
+--- THREAD CONTINUATION ---
+[Thread 1] Start Frame Image Prompt:
+
+Prompt: A live TV broadcast screenshot of a crowded soccer stadium stands during a World Cup match. In the center focus is a beautiful young Mexican woman with long dark hair, wearing an official green Mexico football jersey. Beside her sits a handsome South African gentleman in an official yellow and green South Africa jersey. They are sitting closely, smiling and warmly embracing each other as they notice the camera. The background shows blurred fans, stadium seats, and a large Mexican flag draped nearby. In the top-left corner of the screen, a clean digital TV scoreboard overlay reads "MEX 0 - 0 RSA" with a live match clock. In the top-right corner, a professional "SuperSport 1" broadcasting logo is cleanly displayed. Authentic television camera quality, 4k resolution, sharp focus on the couple, subtle film grain, broadcast television aesthetics, lifelike expressions. --ar 9:16
+
+[Thread 2] 2. Video Prompt
+
+Video Prompt: Hyper-realistic live television broadcast footage. The camera slowly zooms in closer on the Mexican woman and the South African man in the stadium stands. Their expressions shift naturally from looking around to realizing they are on the big screen. They smile warmly at each other, and the South African gentleman wraps his arm further around her shoulder in a gentle, warm embrace. Natural hair movement from the stadium breeze, blinking eyes, realistic facial expressions, and ambient crowd movement in the blurred background. The TV overlay graphics for the SuperSport logo and match fixture remain perfectly static in the corners of the screen. Slow, smooth cinematic camera zoom, 24fps.
+---
+```
+
+## 出处与许可
+
+- 原作者：[Gilbert Odera | Your AI Plug🇰🇪](https://x.com/yourPlugAI) · 原帖：<https://x.com/yourPlugAI/status/2064229509948133790>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064229509948133790.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "checked_at": "2026-10-08",
- "method": "每个条目都用 GitHub REST API 实时核验（stars、最后推送时间、archived），许可证以仓库里的 LICENSE 文件原文为准（GitHub 识别为 NOASSERTION 时人工读原文判定）。只收链接与本仓库自写简介，不复制第三方代码或文档。stars/日期为 checked_at 当天数值，会过时；可用 catalog/tools/refresh_registry.py 刷新。",
+ "checked_at": "2026-10-09",
+ "method": "每个条目都用 GitHub API 核验（stars、pushed、archived、LICENSE 路径）。许可证以仓库 LICENSE 原文为准。verified_at 是最近一次核验日期。只收链接与本仓库自写简介。带 warning / commercial_block 的条目排序靠后，router --commercial 会排除非商用、无许可证和 commercial_block。",
  "categories": [
   {
    "id": "handdrawn",
@@ -34,6 +34,22 @@
   {
    "id": "pipeline",
    "name_zh": "端到端短剧/短视频平台"
+  },
+  {
+   "id": "edit",
+   "name_zh": "剪辑·切条·字幕"
+  },
+  {
+   "id": "models",
+   "name_zh": "开源视频模型"
+  },
+  {
+   "id": "mcp",
+   "name_zh": "视频 MCP"
+  },
+  {
+   "id": "promptlib",
+   "name_zh": "提示词库资源"
   }
  ],
  "vocab": {
@@ -72,7 +88,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "中文故事→每句一张 AI 母图→「文字→黑白稿→彩色」擦除揭示的 3:4 手绘日记漫画静音片；内置 297 条画风配方",
-   "stars": 2159,
+   "stars": 2167,
    "pushed": "2026-09-22",
    "archived": false,
    "license": "MIT",
@@ -109,7 +125,9 @@
     "explainer"
    ],
    "deps": "Node20+、Python3.10+、FFmpeg、Chrome、Remotion；生图走 Agent 自带工具或 OPENAI_API_KEY",
-   "plugs_into": "本仓库 animator/presets/handdrawn-styles.json 已收录其 MIT 画风配方；它的成片是遮罩擦除+静帧，需要真动画/词级对齐时改走 animator"
+   "plugs_into": "本仓库 animator/presets/handdrawn-styles.json 已收录其 MIT 画风配方；它的成片是遮罩擦除+静帧，需要真动画/词级对齐时改走 animator",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "huashu-art-motion",
@@ -118,7 +136,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "花叔「艺术动画」skill：35 种艺术风格 + 9 种解说语法（白板/Vox/3b1b…），Canvas 代码逐帧作画，cue 精确到帧",
-   "stars": 2162,
+   "stars": 2425,
    "pushed": "2026-10-08",
    "archived": false,
    "license": "MIT",
@@ -155,7 +173,9 @@
     "launch"
    ],
    "deps": "uv、ffmpeg、Playwright Chromium；无需 API key",
-   "plugs_into": "做「有审美要求」的解说/艺术短片时作为 animator 之外的外部选项；其「每幕 1 主动作 + 2 母题循环」规则可用于 animator 镜头设计"
+   "plugs_into": "做「有审美要求」的解说/艺术短片时作为 animator 之外的外部选项；其「每幕 1 主动作 + 2 母题循环」规则可用于 animator 镜头设计",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "anidoodle",
@@ -164,7 +184,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "Claude Code/Codex/Grok 插件：31 种手绘画材全部用代码画，可生成「一笔一笔画出来」的过程片、故事分镜和带配乐/字幕的短片",
-   "stars": 850,
+   "stars": 859,
    "pushed": "2026-10-05",
    "archived": false,
    "license": "Apache-2.0",
@@ -205,7 +225,9 @@
     "launch"
    ],
    "deps": "Node、Playwright；本地渲染免费",
-   "plugs_into": "画材种类最接近 story-to-handdrawn 画风库且真正在「画」；英文为主，中文题材需自己写台词"
+   "plugs_into": "画材种类最接近 story-to-handdrawn 画风库且真正在「画」；英文为主，中文题材需自己写台词",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "srt-whiteboard-animation",
@@ -214,7 +236,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "SRT 字幕→分镜→统一风格线稿→annotation.json 把每个元素绑定到字幕事件→连续流式笔迹（铺线→上色）+ 手部素材→MP4",
-   "stars": 4119,
+   "stars": 4129,
    "pushed": "2026-07-27",
    "archived": false,
    "license": "MIT",
@@ -246,7 +268,9 @@
     "book"
    ],
    "deps": "Python；线稿靠 Agent 生图（每幕 1 张）",
-   "plugs_into": "与 animator 的「元素绑定第几句/某个词」思路一致；需要「AI 插画 + 白板笔迹」时用它，纯代码道具用 animator"
+   "plugs_into": "与 animator 的「元素绑定第几句/某个词」思路一致；需要「AI 插画 + 白板笔迹」时用它，纯代码道具用 animator",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "whiteboard-stream-animation",
@@ -285,7 +309,9 @@
     "explainer"
    ],
    "deps": "Python、PyAV（可选 FFmpeg）",
-   "plugs_into": "把 AI 生的绘本插图转成「被画出来」的镜头，再交给 videogen assemble 合成配音字幕"
+   "plugs_into": "把 AI 生的绘本插图转成「被画出来」的镜头，再交给 videogen assemble 合成配音字幕",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "whiteboard-video-engine",
@@ -327,7 +353,9 @@
     "picture-book"
    ],
    "deps": "Python 包 + CLI；本地神经网络线稿提取（Informative Drawings / Anime2Sketch）",
-   "plugs_into": "照片/插画→逐笔绘制的通用引擎，可产出单镜头片段交给 videogen assemble；配套 Skill 见 codex-whiteboard-video-skill"
+   "plugs_into": "照片/插画→逐笔绘制的通用引擎，可产出单镜头片段交给 videogen assemble；配套 Skill 见 codex-whiteboard-video-skill",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "codex-whiteboard-video-skill",
@@ -368,7 +396,9 @@
     "story"
    ],
    "deps": "依赖 whiteboard-video-engine",
-   "plugs_into": "给 Codex 用户的安装入口；渲染能力以 engine 仓库为准"
+   "plugs_into": "给 Codex 用户的安装入口；渲染能力以 engine 仓库为准",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "stickman-video-director",
@@ -377,7 +407,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "文案→英文旁白→画面优先的导演提案→可直接投喂 Gemini Omni Flash 的火柴人视频提示词包（默认 60 秒），多种火柴人视觉流派",
-   "stars": 1618,
+   "stars": 1627,
    "pushed": "2026-09-22",
    "archived": false,
    "license": "MIT",
@@ -410,7 +440,9 @@
     "book"
    ],
    "deps": "Codex Skill；生成依赖 Gemini Omni Flash（付费/额度）",
-   "plugs_into": "「火柴人」风格的视频模型路线；想零成本时改用 animator 或 stix 用代码画火柴人"
+   "plugs_into": "「火柴人」风格的视频模型路线；想零成本时改用 animator 或 stix 用代码画火柴人",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "hand-drawn-video-prompts",
@@ -452,7 +484,9 @@
     "repo-promo"
    ],
    "deps": "Skill（提示词生成）；生图/图生视频走 Flow、Nano Banana 等",
-   "plugs_into": "口播类科普/科技解说的「AI 生图+图生视频」手绘路线；其「按语义节拍而非字数分镜」可用于 animator 台词拆分"
+   "plugs_into": "口播类科普/科技解说的「AI 生图+图生视频」手绘路线；其「按语义节拍而非字数分镜」可用于 animator 台词拆分",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "hand-drawn-explainer-video-nikola",
@@ -461,7 +495,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "中文手绘知识讲解 Codex Skill：逐笔故事动画（单场景/多幕/左右双语义岛，Q 版或「小黑」风格）+ 程序动画两条路线，交付 MP4/字幕/时间轴",
-   "stars": 367,
+   "stars": 369,
    "pushed": "2026-09-03",
    "archived": false,
    "license": "Apache-2.0",
@@ -496,7 +530,9 @@
     "story"
    ],
    "deps": "Codex Skill；HTML/SVG/GSAP 程序动画 + 逐笔故事动画",
-   "plugs_into": "「讲一部分画一部分」的中文讲解；双语义岛构图可直接借鉴到 animator 镜头布局"
+   "plugs_into": "「讲一部分画一部分」的中文讲解；双语义岛构图可直接借鉴到 animator 镜头布局",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "simon-skills",
@@ -505,7 +541,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "不露脸账号的 skill 合集：手绘白板「边画边讲」讲解（Excalidraw 风逐笔）+ 商业调查长片，含事实核查、封面与各平台文案",
-   "stars": 360,
+   "stars": 369,
    "pushed": "2026-09-24",
    "archived": false,
    "license": "MIT",
@@ -539,7 +575,9 @@
     "book"
    ],
    "deps": "Skill 合集；Remotion 合成、Codex 生图贴纸",
-   "plugs_into": "白板讲解 + 发布文案全流程参考；事实核查/来源台账步骤可接到我们的口播稿环节"
+   "plugs_into": "白板讲解 + 发布文案全流程参考；事实核查/来源台账步骤可接到我们的口播稿环节",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "cs-board",
@@ -548,7 +586,7 @@
    "category": "handdrawn",
    "kind": "app",
    "intro_zh": "本地 AI 白板声画工坊：参考音频 + 中文文案→音色克隆、内容拆解、插画、手绘动画、字幕与音画合成→MP4",
-   "stars": 765,
+   "stars": 766,
    "pushed": "2026-10-01",
    "archived": false,
    "license": "MIT",
@@ -580,7 +618,9 @@
     "story"
    ],
    "deps": "本地 Web 工作台；IndexTTS 音色克隆、文生图需配置模型",
-   "plugs_into": "带音色克隆的「一站式白板口播」桌面方案；声音克隆务必使用本人或已授权声音"
+   "plugs_into": "带音色克隆的「一站式白板口播」桌面方案；声音克隆务必使用本人或已授权声音",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "handdraw-story-video",
@@ -621,7 +661,9 @@
     "kids"
    ],
    "deps": "Python3.10+、Node18+、FFmpeg、HyperFrames、GSAP",
-   "plugs_into": "与 story-to-handdrawn 同类的绘本揭示路线（HyperFrames 版）；不绑定生图服务"
+   "plugs_into": "与 story-to-handdrawn 同类的绘本揭示路线（HyperFrames 版）；不绑定生图服务",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "whiteboard-book-video-skill",
@@ -662,7 +704,9 @@
     "explainer"
    ],
    "deps": "HyperFrames 本地渲染；上游生图/配音服务另计",
-   "plugs_into": "拆书/读书类选题的完整 SOP；节奏模式（6–8 画面 vs 16–20 画面）可直接用于 animator 分镜密度"
+   "plugs_into": "拆书/读书类选题的完整 SOP；节奏模式（6–8 画面 vs 16–20 画面）可直接用于 animator 分镜密度",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "whiteboard-explainer",
@@ -701,7 +745,9 @@
     "math"
    ],
    "deps": "Python；依赖 whiteboard-animator（PyPI）",
-   "plugs_into": "数学推导/流程图类讲解；注意其依赖包内 craft.onnx 文字检测模型为非商用"
+   "plugs_into": "数学推导/流程图类讲解；注意其依赖包内 craft.onnx 文字检测模型为非商用",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "musedock",
@@ -711,7 +757,7 @@
    "kind": "app",
    "intro_zh": "本地优先 AI 短视频工作台：HyperFrames 动态视频 / 线稿白板动画 / 旁白配图三种模式，支持 GitHub 链接作为输入",
    "stars": 160,
-   "pushed": "2026-10-07",
+   "pushed": "2026-10-08",
    "archived": false,
    "license": "Apache-2.0",
    "license_class": "permissive",
@@ -744,7 +790,9 @@
     "talking-head"
    ],
    "deps": "Node22+；需配置分析模型、TTS、图片模型",
-   "plugs_into": "「GitHub 项目→短视频」可直接对照天机选题；需要自备模型 key"
+   "plugs_into": "「GitHub 项目→短视频」可直接对照天机选题；需要自备模型 key",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "code-poem-film",
@@ -753,7 +801,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "说一首诗→20–80 秒水墨手绘 2D 动画：红点角色走完全诗，题签随朗诵逐字写出，全部代码绘制与合成配乐",
-   "stars": 56,
+   "stars": 57,
    "pushed": "2026-10-03",
    "archived": false,
    "license": "MIT",
@@ -784,7 +832,9 @@
     "kids"
    ],
    "deps": "Claude Code skill；代码逐帧绘制 + numpy 配乐",
-   "plugs_into": "古诗词题材的零素材方案；可与 animator 的 ink 画材互为备选"
+   "plugs_into": "古诗词题材的零素材方案；可与 animator 的 ink 画材互为备选",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "lemo-opuscar",
@@ -793,8 +843,8 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "43 种影片风格，每种附一支完全用代码做的示范短片；选风格+自带故事，让编程 agent 当导演",
-   "stars": 1391,
-   "pushed": "2026-10-05",
+   "stars": 1416,
+   "pushed": "2026-10-08",
    "archived": false,
    "license": "MIT",
    "license_class": "permissive",
@@ -823,7 +873,9 @@
     "launch"
    ],
    "deps": "Claude Code skill；无视频模型",
-   "plugs_into": "风格参考库：给 animator/Remotion 找视觉方向；演示素材另有许可"
+   "plugs_into": "风格参考库：给 animator/Remotion 找视觉方向；演示素材另有许可",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "onetake",
@@ -832,7 +884,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "一镜到底的连贯动效发布片：每个画面从上一个画面中「长出来」，用 oracle 量化连续性",
-   "stars": 1919,
+   "stars": 1959,
    "pushed": "2026-10-08",
    "archived": false,
    "license": "PolyForm-Noncommercial-1.0.0",
@@ -862,7 +914,9 @@
     "repo-promo"
    ],
    "deps": "Claude Agent Skill",
-   "plugs_into": "产品/项目发布片的高级镜头语言参考；PolyForm Noncommercial，商用需授权"
+   "plugs_into": "产品/项目发布片的高级镜头语言参考；PolyForm Noncommercial，商用需授权",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "stix",
@@ -901,7 +955,9 @@
     "comedy"
    ],
    "deps": "npx skills / npm",
-   "plugs_into": "最轻量的「小人动起来」方案；可做 animator 之外的火柴人表情包/插段"
+   "plugs_into": "最轻量的「小人动起来」方案；可做 animator 之外的火柴人表情包/插段",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "stick-motion",
@@ -938,7 +994,9 @@
     "explainer"
    ],
    "deps": "浏览器单文件",
-   "plugs_into": "「骨骼而非逐帧坐标」的思路与 animator 角色骨骼一致，可参考其走路循环"
+   "plugs_into": "「骨骼而非逐帧坐标」的思路与 animator 角色骨骼一致，可参考其走路循环",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "stickman-animation-skill",
@@ -979,7 +1037,9 @@
     "talking-head"
    ],
    "deps": "MiniMax 配音（API）",
-   "plugs_into": "中文火柴人口播；可把配音换成本仓库 Kokoro 本地 TTS"
+   "plugs_into": "中文火柴人口播；可把配音换成本仓库 Kokoro 本地 TTS",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "sketchling",
@@ -1020,7 +1080,9 @@
     "explainer"
    ],
    "deps": "JS 语言/运行时",
-   "plugs_into": "手绘 DSL 的另一种设计，可借鉴其词汇表扩展 animator 道具/动作"
+   "plugs_into": "手绘 DSL 的另一种设计，可借鉴其词汇表扩展 animator 道具/动作",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "storyboard-ai",
@@ -1056,7 +1118,9 @@
     "explainer"
    ],
    "deps": "Python；Gemini API；SAM3 可选",
-   "plugs_into": "英文白板解说端到端方案；GPL-3.0，二次分发需开源"
+   "plugs_into": "英文白板解说端到端方案；GPL-3.0，二次分发需开源",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "image-to-animation-offline",
@@ -1094,7 +1158,9 @@
     "explainer"
    ],
    "deps": "Python、OpenCV、Kivy；Android/Win/Linux/Mac",
-   "plugs_into": "手机/离线场景把单张图做成绘制镜头"
+   "plugs_into": "手机/离线场景把单张图做成绘制镜头",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "vocaloid-style-mv-pipeline",
@@ -1103,7 +1169,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "V 家手书（手書き）歌词 MV 管线：给歌和歌词，agent 产出 1920×1080 手书风歌词 MV",
-   "stars": 62,
+   "stars": 70,
    "pushed": "2026-10-04",
    "archived": false,
    "license": "MIT",
@@ -1133,7 +1199,9 @@
     "music-mv"
    ],
    "deps": "Canvas2D/WebGL2 确定性引擎",
-   "plugs_into": "音乐/歌词类选题的手书风方案"
+   "plugs_into": "音乐/歌词类选题的手书风方案",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "hbg-classical-poem-silk-video",
@@ -1171,7 +1239,9 @@
     "poem"
    ],
    "deps": "ImageGen + Docker 图生视频 + 毛笔字字幕",
-   "plugs_into": "古诗题材「视频模型」路线；零成本时改用 code-poem-film 或 animator ink"
+   "plugs_into": "古诗题材「视频模型」路线；零成本时改用 code-poem-film 或 animator ink",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "bilingual-kids-story-video",
@@ -1211,7 +1281,9 @@
     "kids"
    ],
    "deps": "ImageGen、Edge TTS、Remotion",
-   "plugs_into": "儿童绘本题材的完整参考；配音可换 Kokoro 本地 TTS"
+   "plugs_into": "儿童绘本题材的完整参考；配音可换 Kokoro 本地 TTS",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "hbg-life-simulation",
@@ -1249,7 +1321,9 @@
     "story"
    ],
    "deps": "Edge TTS、静态漫画推拉",
-   "plugs_into": "长文案旁白漫画视频（小说推文类）的低成本做法"
+   "plugs_into": "长文案旁白漫画视频（小说推文类）的低成本做法",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "paper-cut-video-skill",
@@ -1288,7 +1362,9 @@
     "explainer"
    ],
    "deps": "Remotion、豆包 TTS",
-   "plugs_into": "国风剪纸风科普；配音可换 Kokoro"
+   "plugs_into": "国风剪纸风科普；配音可换 Kokoro",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "story-handdrawn-remotion",
@@ -1328,7 +1404,9 @@
     "story"
    ],
    "deps": "Remotion、Agnes Image（当前免费）、edge-tts",
-   "plugs_into": "story-to-handdrawn 思路的免费工具链版本；无许可证，仅链接"
+   "plugs_into": "story-to-handdrawn 思路的免费工具链版本；无许可证，仅链接",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "smy-seedance-storyboard",
@@ -1337,7 +1415,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "上美影（复古手绘动画）风格短剧文档生成器：剧本 + 全剧色盘 + 资产出图提示词 + 每集 Seedance 时间轴分镜",
-   "stars": 119,
+   "stars": 123,
    "pushed": "2026-10-08",
    "archived": false,
    "license": "NONE",
@@ -1371,7 +1449,9 @@
     "kids"
    ],
    "deps": "Skill；出图/出视频走即梦 Seedream/Seedance",
-   "plugs_into": "国风手绘漫剧的「色盘锁定 + 资产清单」方法；无许可证，仅链接，提示词可配合 videogen plan"
+   "plugs_into": "国风手绘漫剧的「色盘锁定 + 资产清单」方法；无许可证，仅链接，提示词可配合 videogen plan",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "archscribe",
@@ -1412,7 +1492,9 @@
     "repo-promo"
    ],
    "deps": "本地渲染器；输出 .excalidraw",
-   "plugs_into": "GitHub 项目推荐里的「架构图」插段素材"
+   "plugs_into": "GitHub 项目推荐里的「架构图」插段素材",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "vox-director",
@@ -1421,7 +1503,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "一句话主题→Vox 风纸片拼贴解说/广告片：脚本、拼贴关键帧、运动、配音、配乐、字幕全自动",
-   "stars": 2170,
+   "stars": 2176,
    "pushed": "2026-10-05",
    "archived": false,
    "license": "MIT",
@@ -1450,7 +1532,9 @@
     "ad"
    ],
    "deps": "Atlas Cloud API + ffmpeg",
-   "plugs_into": "拼贴风科普的视频模型路线；需付费 API"
+   "plugs_into": "拼贴风科普的视频模型路线；需付费 API",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "claudeanimationbase",
@@ -1459,7 +1543,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "用 Claude 给「手绘卡通角色」做动画的入门套件：p5.brush 笔刷、Clawd 角色、31 种表演情绪与给模型的指南",
-   "stars": 935,
+   "stars": 952,
    "pushed": "2026-09-24",
    "archived": false,
    "license": "MIT",
@@ -1490,7 +1574,9 @@
     "music-mv"
    ],
    "deps": "p5.js + p5.brush",
-   "plugs_into": "角色「表演情绪」清单可借鉴到天机/豆豆的表情动作设计"
+   "plugs_into": "角色「表演情绪」清单可借鉴到天机/豆豆的表情动作设计",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "opus-video-skills",
@@ -1499,7 +1585,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "一风格一 skill 的代码视频合集（手绘动画、动态字幕等），画面与音乐全部代码生成，无生成模型",
-   "stars": 129,
+   "stars": 135,
    "pushed": "2026-09-27",
    "archived": false,
    "license": "MIT",
@@ -1532,7 +1618,9 @@
     "music-mv"
    ],
    "deps": "headless Chrome + ffmpeg，全程程序生成画面与音乐",
-   "plugs_into": "代码作画路线的风格补充"
+   "plugs_into": "代码作画路线的风格补充",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "remotion-guofeng-starter",
@@ -1574,7 +1662,9 @@
     "kids"
    ],
    "deps": "Remotion",
-   "plugs_into": "国风/成语类选题的 Remotion 路线；演示素材不随 MIT 授予商用"
+   "plugs_into": "国风/成语类选题的 Remotion 路线；演示素材不随 MIT 授予商用",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "image-story-video-wizard",
@@ -1583,7 +1673,7 @@
    "category": "handdrawn",
    "kind": "skill",
    "intro_zh": "音频优先的图文故事视频分步向导：选题→对标→文案→配音→分镜→角色锚点→生图→质检→成片，每步需确认",
-   "stars": 355,
+   "stars": 356,
    "pushed": "2026-09-15",
    "archived": false,
    "license": "MIT",
@@ -1614,7 +1704,9 @@
     "picture-book"
    ],
    "deps": "Codex / WorkBuddy skill",
-   "plugs_into": "「确认闸门」式工作流可直接借鉴到 ai-video-director 的执行计划"
+   "plugs_into": "「确认闸门」式工作流可直接借鉴到 ai-video-director 的执行计划",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "vivus",
@@ -1650,7 +1742,9 @@
     "explainer"
    ],
    "deps": "浏览器 JS",
-   "plugs_into": "网页/HTML→视频管线（HyperFrames/Remotion）里的 SVG 逐笔绘制基础件"
+   "plugs_into": "网页/HTML→视频管线（HyperFrames/Remotion）里的 SVG 逐笔绘制基础件",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "lazy-line-painter",
@@ -1686,7 +1780,9 @@
     "explainer"
    ],
    "deps": "浏览器 JS",
-   "plugs_into": "同 vivus，可做 logo/线稿逐笔出现"
+   "plugs_into": "同 vivus，可做 logo/线稿逐笔出现",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE.md"
   },
   {
    "id": "hanzi-writer",
@@ -1725,7 +1821,9 @@
     "poem"
    ],
    "deps": "浏览器 JS；笔顺数据见 hanzi-writer-data",
-   "plugs_into": "中文「逐笔写字」：可在 Remotion/HyperFrames 里做标题逐笔写出；注意笔顺数据仓库单独许可"
+   "plugs_into": "中文「逐笔写字」：可在 Remotion/HyperFrames 里做标题逐笔写出；注意笔顺数据仓库单独许可",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "rough",
@@ -1734,7 +1832,7 @@
    "category": "stroke",
    "kind": "library",
    "intro_zh": "Rough.js：生成手绘草图感的图形（线、矩形、填充排线）",
-   "stars": 21242,
+   "stars": 21245,
    "pushed": "2024-07-28",
    "archived": false,
    "license": "MIT",
@@ -1766,7 +1864,9 @@
     "data"
    ],
    "deps": "浏览器/Node JS",
-   "plugs_into": "给 Remotion/Motion Canvas 图表加手绘质感"
+   "plugs_into": "给 Remotion/Motion Canvas 图表加手绘质感",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "rough-notation",
@@ -1775,7 +1875,7 @@
    "category": "stroke",
    "kind": "library",
    "intro_zh": "网页上的手绘标注动画（圈、划线、高亮、框）",
-   "stars": 9710,
+   "stars": 9711,
    "pushed": "2024-03-18",
    "archived": false,
    "license": "MIT",
@@ -1804,7 +1904,9 @@
     "repo-promo"
    ],
    "deps": "浏览器 JS",
-   "plugs_into": "代码讲解/项目推荐中给关键词「画圈强调」"
+   "plugs_into": "代码讲解/项目推荐中给关键词「画圈强调」",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "svg2roughjs",
@@ -1840,7 +1942,9 @@
     "explainer"
    ],
    "deps": "浏览器 JS",
-   "plugs_into": "把现成图标/图表一键手绘化"
+   "plugs_into": "把现成图标/图表一键手绘化",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE.md"
   },
   {
    "id": "svg-text-animate",
@@ -1877,7 +1981,9 @@
     "explainer"
    ],
    "deps": "浏览器 JS + 字体文件",
-   "plugs_into": "标题手写出现效果"
+   "plugs_into": "标题手写出现效果",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "excalidraw-animate",
@@ -1916,7 +2022,9 @@
     "repo-promo"
    ],
    "deps": "Web 工具",
-   "plugs_into": "手画流程图→动画插段的零代码方案"
+   "plugs_into": "手画流程图→动画插段的零代码方案",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "excalimate",
@@ -1926,7 +2034,7 @@
    "kind": "app",
    "intro_zh": "Excalidraw 手绘图关键帧动画编辑器：时间线、相机、序列揭示，含 MCP 让 AI 创建动画，可导出 MP4/GIF",
    "stars": 86,
-   "pushed": "2026-10-06",
+   "pushed": "2026-10-08",
    "archived": false,
    "license": "MIT",
    "license_class": "permissive",
@@ -1958,7 +2066,9 @@
     "repo-promo"
    ],
    "deps": "Web 编辑器 + MCP Server",
-   "plugs_into": "AI agent 通过 MCP 生成手绘架构图动画"
+   "plugs_into": "AI agent 通过 MCP 生成手绘架构图动画",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "excalidraw",
@@ -1967,7 +2077,7 @@
    "category": "stroke",
    "kind": "app",
    "intro_zh": "手绘风白板（开源），大量手绘工具的上游",
-   "stars": 133679,
+   "stars": 133512,
    "pushed": "2026-10-08",
    "archived": false,
    "license": "MIT",
@@ -1997,7 +2107,9 @@
     "repo-promo"
    ],
    "deps": "Web",
-   "plugs_into": "画线稿/示意图，再交给 excalidraw-animate / excalimate 动起来"
+   "plugs_into": "画线稿/示意图，再交给 excalidraw-animate / excalimate 动起来",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "animcjk",
@@ -2034,7 +2146,9 @@
     "poem"
    ],
    "deps": "SVG 数据",
-   "plugs_into": "笔顺数据参考；无顶层 LICENSE 文件，使用前读仓库内说明"
+   "plugs_into": "笔顺数据参考；无顶层 LICENSE 文件，使用前读仓库内说明",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "animateddrawings",
@@ -2073,7 +2187,9 @@
     "picture-book"
    ],
    "deps": "Python；可 CPU 运行",
-   "plugs_into": "孩子画的小人→会跳舞的动画，可作为绘本/亲子题材素材生成；已归档"
+   "plugs_into": "孩子画的小人→会跳舞的动画，可作为绘本/亲子题材素材生成；已归档",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "sketchagent",
@@ -2109,7 +2225,9 @@
     "explainer"
    ],
    "deps": "Python；多模态 LLM API",
-   "plugs_into": "「一支笔画小人」的学术原型，可借鉴其逐笔顺序生成"
+   "plugs_into": "「一支笔画小人」的学术原型，可借鉴其逐笔顺序生成",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "clipasso",
@@ -2145,7 +2263,9 @@
     "explainer"
    ],
    "deps": "Python、CUDA",
-   "plugs_into": "照片→极简线稿；CC BY-NC-SA 非商用"
+   "plugs_into": "照片→极简线稿；CC BY-NC-SA 非商用",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "flipsketch",
@@ -2183,7 +2303,9 @@
     "story"
    ],
    "deps": "Python、T2V LoRA、GPU",
-   "plugs_into": "让单张线稿「动起来」的研究方案"
+   "plugs_into": "让单张线稿「动起来」的研究方案",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "paints-undo",
@@ -2219,7 +2341,9 @@
     "picture-book"
    ],
    "deps": "Python、GPU",
-   "plugs_into": "成品图→「被画出来」的过程镜头"
+   "plugs_into": "成品图→「被画出来」的过程镜头",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "tooncrafter",
@@ -2228,7 +2352,7 @@
    "category": "sketchai",
    "kind": "research",
    "intro_zh": "生成式卡通中间帧插值，支持草图引导（SIGGRAPH Asia 2024）",
-   "stars": 6031,
+   "stars": 6032,
    "pushed": "2025-03-19",
    "archived": false,
    "license": "Apache-2.0",
@@ -2255,7 +2379,9 @@
     "drama"
    ],
    "deps": "Python、GPU",
-   "plugs_into": "关键帧手绘漫剧的补帧"
+   "plugs_into": "关键帧手绘漫剧的补帧",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "omnilottie",
@@ -2293,7 +2419,9 @@
     "explainer"
    ],
    "deps": "Python、模型权重",
-   "plugs_into": "生成可编辑矢量动效素材"
+   "plugs_into": "生成可编辑矢量动效素材",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "remotion",
@@ -2302,7 +2430,7 @@
    "category": "remotion",
    "kind": "engine",
    "intro_zh": "用 React 写视频的框架，确定性渲染，生态最大",
-   "stars": 62466,
+   "stars": 62553,
    "pushed": "2026-10-08",
    "archived": false,
    "license": "Remotion-License",
@@ -2336,7 +2464,9 @@
     "talking-head"
    ],
    "deps": "Node、React、Chromium",
-   "plugs_into": "路线 C 的底座；个人/≤3 人公司免费，更大营利公司需买 Company License"
+   "plugs_into": "路线 C 的底座；个人/≤3 人公司免费，更大营利公司需买 Company License",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE.md"
   },
   {
    "id": "remotion-dev-skills",
@@ -2345,7 +2475,7 @@
    "category": "remotion",
    "kind": "skill",
    "intro_zh": "Remotion 官方 Agent Skills（remotion-best-practices 等），供 Claude Code/Codex/Cursor 写 Remotion 工程",
-   "stars": 4894,
+   "stars": 4914,
    "pushed": "2026-10-07",
    "archived": false,
    "license": "NONE",
@@ -2376,7 +2506,9 @@
     "repo-promo"
    ],
    "deps": "npx skills add remotion-dev/skills",
-   "plugs_into": "agent 写 Remotion 前先装；仓库未附 LICENSE 文件"
+   "plugs_into": "agent 写 Remotion 前先装；仓库未附 LICENSE 文件",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "template-tiktok",
@@ -2414,7 +2546,9 @@
     "vlog"
    ],
    "deps": "Remotion、Whisper.cpp",
-   "plugs_into": "口播/vlog 加逐词字幕；package.json 标注 UNLICENSED（Remotion License 管框架）"
+   "plugs_into": "口播/vlog 加逐词字幕；package.json 标注 UNLICENSED（Remotion License 管框架）",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "template-prompt-to-video",
@@ -2423,7 +2557,7 @@
    "category": "remotion",
    "kind": "template",
    "intro_zh": "官方模板：一句提示→故事脚本 + 配图 + 配音→竖屏视频",
-   "stars": 150,
+   "stars": 151,
    "pushed": "2026-09-29",
    "archived": false,
    "license": "NONE",
@@ -2450,7 +2584,9 @@
     "story"
    ],
    "deps": "Remotion、OpenAI、ElevenLabs",
-   "plugs_into": "「AI 图 + 配音」故事片的官方骨架；package.json 标注 UNLICENSED"
+   "plugs_into": "「AI 图 + 配音」故事片的官方骨架；package.json 标注 UNLICENSED",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "template-prompt-to-motion-graphics-saas",
@@ -2459,7 +2595,7 @@
    "category": "remotion",
    "kind": "template",
    "intro_zh": "官方模板：自然语言→Remotion 动效代码（含校验、技能检测、代码清洗、实时预览）",
-   "stars": 265,
+   "stars": 267,
    "pushed": "2026-10-05",
    "archived": false,
    "license": "NONE",
@@ -2489,7 +2625,9 @@
     "data"
    ],
    "deps": "Remotion、LLM API",
-   "plugs_into": "「提示词→动效代码」的参考实现"
+   "plugs_into": "「提示词→动效代码」的参考实现",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "template-code-hike",
@@ -2525,7 +2663,9 @@
     "repo-promo"
    ],
    "deps": "Remotion、Code Hike",
-   "plugs_into": "天机 GitHub 项目推荐里的「代码讲解」插段"
+   "plugs_into": "天机 GitHub 项目推荐里的「代码讲解」插段",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "claude-code-video-toolkit",
@@ -2534,7 +2674,7 @@
    "category": "remotion",
    "kind": "skill",
    "intro_zh": "Claude Code 视频制作工作区：脚本、配音、音乐、画面、渲染全流程的 skills/命令/模板",
-   "stars": 2176,
+   "stars": 2182,
    "pushed": "2026-10-05",
    "archived": false,
    "license": "MIT",
@@ -2566,7 +2706,9 @@
     "product"
    ],
    "deps": "Claude Code；Remotion；开源模型（按次几分钱）",
-   "plugs_into": "英文综合工具箱，可参考其目录结构与成本估算"
+   "plugs_into": "英文综合工具箱，可参考其目录结构与成本估算",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "video-shotcraft",
@@ -2575,7 +2717,7 @@
    "category": "remotion",
    "kind": "skill",
    "intro_zh": "电影感产品宣传片 skill：150+ 镜头配方卡、200+ 动效预览、可直接用的 Remotion 模板",
-   "stars": 10795,
+   "stars": 10881,
    "pushed": "2026-10-05",
    "archived": false,
    "license": "Apache-2.0",
@@ -2606,7 +2748,9 @@
     "repo-promo"
    ],
    "deps": "Remotion；Claude Code / Codex",
-   "plugs_into": "产品带货/项目推荐的 Remotion 镜头库（Apache-2.0）"
+   "plugs_into": "产品带货/项目推荐的 Remotion 镜头库（Apache-2.0）",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "video-talkcraft",
@@ -2615,7 +2759,7 @@
    "category": "remotion",
    "kind": "skill",
    "intro_zh": "口播稿 + 配音→字级时间戳→SHOTBOOK 分镜→Remotion；108 张动效配方卡、反 PPT 镜头系统",
-   "stars": 1417,
+   "stars": 1427,
    "pushed": "2026-10-01",
    "archived": false,
    "license": "PolyForm-Noncommercial-1.0.0",
@@ -2646,7 +2790,9 @@
     "talking-head"
    ],
    "deps": "Remotion、本机字级对齐",
-   "plugs_into": "字级对齐做得最细；PolyForm Noncommercial，商用需作者授权"
+   "plugs_into": "字级对齐做得最细；PolyForm Noncommercial，商用需作者授权",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "anything2explainer",
@@ -2655,7 +2801,7 @@
    "category": "remotion",
    "kind": "skill",
    "intro_zh": "主题→研究→旁白→配音→逐镜 Remotion 组件（多 agent 并行）→QC 的黑底解说片",
-   "stars": 2327,
+   "stars": 2341,
    "pushed": "2026-09-18",
    "archived": false,
    "license": "PolyForm-Noncommercial-1.0.0",
@@ -2683,7 +2829,9 @@
     "explainer"
    ],
    "deps": "Remotion、edge-tts 或自带 TTS",
-   "plugs_into": "全自动解说流水线参考；PolyForm Noncommercial"
+   "plugs_into": "全自动解说流水线参考；PolyForm Noncommercial",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "video-podcast-maker",
@@ -2692,7 +2840,7 @@
    "category": "remotion",
    "kind": "skill",
    "intro_zh": "主题→研究→脚本→本地 TTS→Remotion 合成的视频播客，适配 B 站/YouTube/小红书/抖音",
-   "stars": 1664,
+   "stars": 1666,
    "pushed": "2026-10-01",
    "archived": false,
    "license": "MIT",
@@ -2721,7 +2869,9 @@
     "talking-head"
    ],
    "deps": "Remotion、FFmpeg、edge/azure TTS",
-   "plugs_into": "中文平台适配的口播科普方案（MIT）"
+   "plugs_into": "中文平台适配的口播科普方案（MIT）",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "short-video-maker",
@@ -2730,7 +2880,7 @@
    "category": "remotion",
    "kind": "app",
    "intro_zh": "文本→TTS + 自动字幕 + 背景素材 + 音乐的短视频生成器（MCP/REST）",
-   "stars": 1397,
+   "stars": 1399,
    "pushed": "2025-06-21",
    "archived": false,
    "license": "MIT",
@@ -2759,7 +2909,9 @@
     "vlog"
    ],
    "deps": "MCP + REST；Kokoro TTS、Whisper、Pexels 素材",
-   "plugs_into": "实拍素材拼接型短视频；不生成画面本身"
+   "plugs_into": "实拍素材拼接型短视频；不生成画面本身",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "remotion-video-skill",
@@ -2768,7 +2920,7 @@
    "category": "remotion",
    "kind": "skill",
    "intro_zh": "Claude Code 的 Remotion 视频 skill：场景化架构、自动计时、字幕与音乐可视化",
-   "stars": 391,
+   "stars": 392,
    "pushed": "2026-01-25",
    "archived": false,
    "license": "NONE",
@@ -2796,7 +2948,9 @@
     "explainer"
    ],
    "deps": "Remotion、MiniMax 或 Edge TTS",
-   "plugs_into": "中文作者的 Remotion 入门 skill；无许可证，仅链接"
+   "plugs_into": "中文作者的 Remotion 入门 skill；无许可证，仅链接",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "claude-remotion-skill",
@@ -2805,7 +2959,7 @@
    "category": "remotion",
    "kind": "skill",
    "intro_zh": "教 Claude 用 Remotion 做专业动效：弹簧、错峰、调色、胶片颗粒、Ken Burns、逐词字幕",
-   "stars": 278,
+   "stars": 290,
    "pushed": "2026-08-12",
    "archived": false,
    "license": "MIT",
@@ -2835,7 +2989,9 @@
     "product"
    ],
    "deps": "Remotion",
-   "plugs_into": "动效「质感」规则清单"
+   "plugs_into": "动效「质感」规则清单",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "remotion-superpowers",
@@ -2874,7 +3030,9 @@
     "talking-head"
    ],
    "deps": "Claude Code 插件；多家 API",
-   "plugs_into": "需要什么就接什么的 Remotion 扩展包"
+   "plugs_into": "需要什么就接什么的 Remotion 扩展包",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "claude-video-kit",
@@ -2911,7 +3069,9 @@
     "explainer"
    ],
    "deps": "Remotion、TTS",
-   "plugs_into": "「渲染前审稿闸门」可借鉴"
+   "plugs_into": "「渲染前审稿闸门」可借鉴",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "knowledge-explainer-skill",
@@ -2951,7 +3111,9 @@
     "data"
    ],
    "deps": "Remotion、Node",
-   "plugs_into": "知识科普的「真动画」组件（双摆、指数增长等）"
+   "plugs_into": "知识科普的「真动画」组件（双摆、指数增长等）",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "remotion-code-motion-explainer",
@@ -2992,7 +3154,9 @@
     "repo-promo"
    ],
    "deps": "Remotion",
-   "plugs_into": "中文的 Remotion 解说镜头库"
+   "plugs_into": "中文的 Remotion 解说镜头库",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "remotion-subtitles",
@@ -3029,7 +3193,9 @@
     "explainer"
    ],
    "deps": "npm 包",
-   "plugs_into": "把 animator/TTS 产出的 SRT 做成花字"
+   "plugs_into": "把 animator/TTS 产出的 SRT 做成花字",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "remotion-captioneer",
@@ -3039,7 +3205,7 @@
    "kind": "library",
    "intro_zh": "音频→逐词同步的动画字幕组件，14 种样式",
    "stars": 17,
-   "pushed": "2026-10-04",
+   "pushed": "2026-10-08",
    "archived": false,
    "license": "MIT",
    "license_class": "permissive",
@@ -3065,7 +3231,9 @@
     "talking-head"
    ],
    "deps": "npm 包；兼容 @remotion/captions",
-   "plugs_into": "口播逐词字幕"
+   "plugs_into": "口播逐词字幕",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "video-skills-toolkit",
@@ -3105,7 +3273,9 @@
     "recap"
    ],
    "deps": "HyperFrames；火山引擎 ASR",
-   "plugs_into": "中文自媒体口播全流程参考"
+   "plugs_into": "中文自媒体口播全流程参考",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "claude-shorts",
@@ -3114,7 +3284,7 @@
    "category": "remotion",
    "kind": "skill",
    "intro_zh": "长视频→短视频切条：AI 片段打分、词级转写、Remotion 动画字幕",
-   "stars": 218,
+   "stars": 219,
    "pushed": "2026-07-11",
    "archived": false,
    "license": "MIT",
@@ -3143,7 +3313,9 @@
     "talking-head"
    ],
    "deps": "faster-whisper（GPU 加速）、Remotion",
-   "plugs_into": "长视频切片路线"
+   "plugs_into": "长视频切片路线",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "openreels",
@@ -3180,7 +3352,9 @@
     "explainer"
    ],
    "deps": "Docker / CLI；BYO API keys",
-   "plugs_into": "英文 topic-to-short 全自动方案"
+   "plugs_into": "英文 topic-to-short 全自动方案",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "datamagic",
@@ -3218,7 +3392,9 @@
     "explainer"
    ],
    "deps": "编程智能体 + datamagic Skill",
-   "plugs_into": "数据/财报/排行类选题首选"
+   "plugs_into": "数据/财报/排行类选题首选",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "motion-skills",
@@ -3227,7 +3403,7 @@
    "category": "remotion",
    "kind": "skill",
    "intro_zh": "50+ 动效 skills：动态字幕、数据图表、解说、TikTok、WebGL、数学动画、代码绘制 Canvas",
-   "stars": 741,
+   "stars": 745,
    "pushed": "2026-09-30",
    "archived": false,
    "license": "MIT",
@@ -3261,7 +3437,9 @@
     "product"
    ],
    "deps": "17 个可安装包",
-   "plugs_into": "按需挑选动效技能"
+   "plugs_into": "按需挑选动效技能",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "remotion-voicevox-template",
@@ -3298,7 +3476,9 @@
     "comedy"
    ],
    "deps": "Remotion、VOICEVOX",
-   "plugs_into": "「两个角色对话」口播格式参考（日文）；无许可证"
+   "plugs_into": "「两个角色对话」口播格式参考（日文）；无许可证",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "erduo-broll-loop-engineering",
@@ -3307,7 +3487,7 @@
    "category": "remotion",
    "kind": "skill",
    "intro_zh": "SRT 驱动的 B-roll skill：多角色接力（导演/创作/审美评审），自动路由 HyperFrames 或 Remotion",
-   "stars": 207,
+   "stars": 208,
    "pushed": "2026-09-21",
    "archived": false,
    "license": "MIT",
@@ -3335,7 +3515,9 @@
     "explainer"
    ],
    "deps": "HyperFrames / Remotion 双后端",
-   "plugs_into": "口播配动效 B-roll"
+   "plugs_into": "口播配动效 B-roll",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "3b1b-manim",
@@ -3344,7 +3526,7 @@
    "category": "engine",
    "kind": "engine",
    "intro_zh": "3Blue1Brown 的数学解说动画引擎（ManimGL）",
-   "stars": 94740,
+   "stars": 94768,
    "pushed": "2026-09-09",
    "archived": false,
    "license": "MIT",
@@ -3372,7 +3554,9 @@
     "explainer"
    ],
    "deps": "Python、LaTeX、FFmpeg",
-   "plugs_into": "数学/原理讲解"
+   "plugs_into": "数学/原理讲解",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE.md"
   },
   {
    "id": "manimcommunity-manim",
@@ -3381,8 +3565,8 @@
    "category": "engine",
    "kind": "engine",
    "intro_zh": "社区版 Manim，文档与生态完善",
-   "stars": 41346,
-   "pushed": "2026-10-06",
+   "stars": 41358,
+   "pushed": "2026-10-08",
    "archived": false,
    "license": "MIT",
    "license_class": "permissive",
@@ -3410,7 +3594,9 @@
     "explainer"
    ],
    "deps": "Python、FFmpeg、可选 LaTeX",
-   "plugs_into": "路线 C 的数学/原理分支"
+   "plugs_into": "路线 C 的数学/原理分支",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "manim-voiceover",
@@ -3447,7 +3633,9 @@
     "explainer"
    ],
    "deps": "Manim 插件",
-   "plugs_into": "词级对齐的 Manim 讲解"
+   "plugs_into": "词级对齐的 Manim 讲解",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "manim-skill",
@@ -3456,7 +3644,7 @@
    "category": "engine",
    "kind": "skill",
    "intro_zh": "Manim（社区版 + ManimGL）agent skills：最佳实践与示例",
-   "stars": 1146,
+   "stars": 1150,
    "pushed": "2026-01-23",
    "archived": false,
    "license": "MIT",
@@ -3485,7 +3673,9 @@
     "explainer"
    ],
    "deps": "npx skills add",
-   "plugs_into": "agent 写 Manim 前安装"
+   "plugs_into": "agent 写 Manim 前安装",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "code2video",
@@ -3494,7 +3684,7 @@
    "category": "engine",
    "kind": "research",
    "intro_zh": "多 agent 写 Manim 代码生成教学视频（ICML 2026）",
-   "stars": 2099,
+   "stars": 2103,
    "pushed": "2026-08-24",
    "archived": false,
    "license": "MIT",
@@ -3523,7 +3713,9 @@
     "explainer"
    ],
    "deps": "LLM API、Manim",
-   "plugs_into": "教学视频自动化的研究参考"
+   "plugs_into": "教学视频自动化的研究参考",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "theoremexplainagent",
@@ -3559,7 +3751,9 @@
     "math"
    ],
    "deps": "LLM API、Manim",
-   "plugs_into": "长视频讲解规划方法"
+   "plugs_into": "长视频讲解规划方法",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "math-to-manim",
@@ -3568,8 +3762,8 @@
    "category": "engine",
    "kind": "app",
    "intro_zh": "文字/图片→数学物理动画与学习笔记",
-   "stars": 2753,
-   "pushed": "2026-10-07",
+   "stars": 2754,
+   "pushed": "2026-10-08",
    "archived": false,
    "license": "MIT",
    "license_class": "permissive",
@@ -3596,7 +3790,9 @@
     "math"
    ],
    "deps": "Codex SDK、Manim",
-   "plugs_into": "数学题讲解"
+   "plugs_into": "数学题讲解",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "generative-manim",
@@ -3633,7 +3829,9 @@
     "explainer"
    ],
    "deps": "LLM API、Manim",
-   "plugs_into": "文本→Manim 动画"
+   "plugs_into": "文本→Manim 动画",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "motion-canvas",
@@ -3642,7 +3840,7 @@
    "category": "engine",
    "kind": "engine",
    "intro_zh": "用代码可视化想法的动画库 + 实时编辑器（MIT）",
-   "stars": 19254,
+   "stars": 19259,
    "pushed": "2026-07-02",
    "archived": false,
    "license": "MIT",
@@ -3671,7 +3869,9 @@
     "repo-promo"
    ],
    "deps": "TypeScript、浏览器编辑器",
-   "plugs_into": "Remotion 之外的 MIT 代码动画底座"
+   "plugs_into": "Remotion 之外的 MIT 代码动画底座",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "revideo",
@@ -3680,7 +3880,7 @@
    "category": "engine",
    "kind": "engine",
    "intro_zh": "用代码创建视频（Motion Canvas 分支，面向程序化批量渲染，MIT）",
-   "stars": 4090,
+   "stars": 4092,
    "pushed": "2026-07-15",
    "archived": false,
    "license": "MIT",
@@ -3708,7 +3908,9 @@
     "product"
    ],
    "deps": "TypeScript；Motion Canvas 分支",
-   "plugs_into": "需要 MIT 许可的程序化渲染时替代 Remotion"
+   "plugs_into": "需要 MIT 许可的程序化渲染时替代 Remotion",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "hyperframes",
@@ -3717,7 +3919,7 @@
    "category": "engine",
    "kind": "engine",
    "intro_zh": "HeyGen 出品：写 HTML 渲视频，为 agent 设计的确定性 HTML→MP4 框架（Apache-2.0）",
-   "stars": 58857,
+   "stars": 59183,
    "pushed": "2026-10-08",
    "archived": false,
    "license": "Apache-2.0",
@@ -3748,7 +3950,9 @@
     "launch"
    ],
    "deps": "Node22+",
-   "plugs_into": "大量中文白板/口播 skill 的渲染底座；与 Remotion 二选一"
+   "plugs_into": "大量中文白板/口播 skill 的渲染底座；与 Remotion 二选一",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "html-video",
@@ -3757,7 +3961,7 @@
    "category": "engine",
    "kind": "engine",
    "intro_zh": "编程 agent 的程序化视频：HTML/CSS/数据→MP4，21 个模板，可直接贴文章或 GitHub 仓库链接",
-   "stars": 4652,
+   "stars": 4654,
    "pushed": "2026-06-21",
    "archived": false,
    "license": "Apache-2.0",
@@ -3787,7 +3991,9 @@
     "explainer"
    ],
    "deps": "本地；可插拔渲染引擎",
-   "plugs_into": "「GitHub 仓库→视频」直接对口天机选题"
+   "plugs_into": "「GitHub 仓库→视频」直接对口天机选题",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "theatre",
@@ -3823,7 +4029,9 @@
     "launch"
    ],
    "deps": "JS；可视化时间线编辑器",
-   "plugs_into": "需要手调关键帧的网页动效"
+   "plugs_into": "需要手调关键帧的网页动效",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "lottie-web",
@@ -3832,7 +4040,7 @@
    "category": "engine",
    "kind": "library",
    "intro_zh": "在网页/移动端渲染 After Effects（Lottie）动画",
-   "stars": 32146,
+   "stars": 32147,
    "pushed": "2025-09-01",
    "archived": false,
    "license": "MIT",
@@ -3860,7 +4068,9 @@
     "product"
    ],
    "deps": "浏览器 JS",
-   "plugs_into": "在 Remotion/HyperFrames 中放 Lottie 素材"
+   "plugs_into": "在 Remotion/HyperFrames 中放 Lottie 素材",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE.md"
   },
   {
    "id": "lottie",
@@ -3869,7 +4079,7 @@
    "category": "engine",
    "kind": "skill",
    "intro_zh": "Text-to-Lottie：用 Claude Code/Codex 生成可投产的 Lottie 动画",
-   "stars": 5548,
+   "stars": 5551,
    "pushed": "2026-07-25",
    "archived": false,
    "license": "MIT",
@@ -3901,7 +4111,9 @@
     "launch"
    ],
    "deps": "npx skills add",
-   "plugs_into": "生成可复用的矢量动效素材"
+   "plugs_into": "生成可复用的矢量动效素材",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "pixel2motion",
@@ -3910,7 +4122,7 @@
    "category": "engine",
    "kind": "skill",
    "intro_zh": "位图 logo→平滑 SVG→logo 动画 + HTML 演示 + GIF/视频预览",
-   "stars": 2400,
+   "stars": 2401,
    "pushed": "2026-08-21",
    "archived": false,
    "license": "MIT",
@@ -3941,7 +4153,9 @@
     "launch"
    ],
    "deps": "Codex / Claude skill",
-   "plugs_into": "项目推荐开头的 logo 动效"
+   "plugs_into": "项目推荐开头的 logo 动效",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "rive-wasm",
@@ -3977,7 +4191,9 @@
     "product"
    ],
    "deps": "Wasm/JS 运行时（编辑器为商业产品）",
-   "plugs_into": "交互动画素材；创作需 Rive 编辑器"
+   "plugs_into": "交互动画素材；创作需 Rive 编辑器",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "ffcreator",
@@ -4015,7 +4231,9 @@
     "vlog"
    ],
    "deps": "Node.js、FFmpeg",
-   "plugs_into": "批量相册/带货视频"
+   "plugs_into": "批量相册/带货视频",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "editly",
@@ -4024,7 +4242,7 @@
    "category": "engine",
    "kind": "library",
    "intro_zh": "声明式（JSON）命令行视频剪辑/合成",
-   "stars": 5519,
+   "stars": 5521,
    "pushed": "2025-05-12",
    "archived": false,
    "license": "MIT",
@@ -4053,7 +4271,9 @@
     "product"
    ],
    "deps": "Node.js、FFmpeg",
-   "plugs_into": "用 JSON 拼片头片尾与转场"
+   "plugs_into": "用 JSON 拼片头片尾与转场",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "janim",
@@ -4062,7 +4282,7 @@
    "category": "engine",
    "kind": "engine",
    "intro_zh": "受 Manim 启发的程序化动画引擎，支持实时预览",
-   "stars": 281,
+   "stars": 282,
    "pushed": "2026-09-30",
    "archived": false,
    "license": "MIT",
@@ -4091,7 +4311,9 @@
     "explainer"
    ],
    "deps": "Python",
-   "plugs_into": "Manim 替代（有中文文档）"
+   "plugs_into": "Manim 替代（有中文文档）",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "fframes",
@@ -4100,7 +4322,7 @@
    "category": "engine",
    "kind": "engine",
    "intro_zh": "Rust/SVG 写视频、GPU 渲染的高速程序化视频框架",
-   "stars": 2372,
+   "stars": 2420,
    "pushed": "2026-10-08",
    "archived": false,
    "license": "MIT",
@@ -4129,7 +4351,9 @@
     "product"
    ],
    "deps": "Rust + SVG，GPU 渲染；自带 agent skill",
-   "plugs_into": "追求渲染速度时的选择"
+   "plugs_into": "追求渲染速度时的选择",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE.txt"
   },
   {
    "id": "openmontage",
@@ -4138,7 +4362,7 @@
    "category": "agentvideo",
    "kind": "platform",
    "intro_zh": "开源 agent 视频制作系统：12 条管线、100+ 工具、大量 agent skills",
-   "stars": 65239,
+   "stars": 65483,
    "pushed": "2026-10-03",
    "archived": false,
    "license": "AGPL-3.0",
@@ -4171,7 +4395,9 @@
     "story"
    ],
    "deps": "多管线；可调 Kling/Veo、Remotion、Blender",
-   "plugs_into": "功能面最广的总控系统；AGPL-3.0"
+   "plugs_into": "功能面最广的总控系统；AGPL-3.0",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "opencreator",
@@ -4180,7 +4406,7 @@
    "category": "agentvideo",
    "kind": "platform",
    "intro_zh": "创作者 AI 工作区（原 KrillinAI）：视频、图片、语音、数字人、视频翻译与剪辑",
-   "stars": 12624,
+   "stars": 12629,
    "pushed": "2026-10-05",
    "archived": false,
    "license": "Apache-2.0",
@@ -4210,7 +4436,9 @@
     "recap"
    ],
    "deps": "Codex 驱动工作区",
-   "plugs_into": "视频翻译/配音/剪辑的工作台"
+   "plugs_into": "视频翻译/配音/剪辑的工作台",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "firered-openstoryline",
@@ -4219,7 +4447,7 @@
    "category": "agentvideo",
    "kind": "app",
    "intro_zh": "AI 剪辑 agent：自然语言驱动剪辑决策",
-   "stars": 3465,
+   "stars": 3470,
    "pushed": "2026-07-31",
    "archived": false,
    "license": "Apache-2.0",
@@ -4247,7 +4475,9 @@
     "recap"
    ],
    "deps": "LLM 驱动",
-   "plugs_into": "已有素材的剪辑路线"
+   "plugs_into": "已有素材的剪辑路线",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "brag",
@@ -4256,7 +4486,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "/brag：把你刚做的项目一条命令变成带音乐、动效和分享文案的发布短片",
-   "stars": 14165,
+   "stars": 14380,
    "pushed": "2026-10-06",
    "archived": false,
    "license": "MIT",
@@ -4285,7 +4515,9 @@
     "launch"
    ],
    "deps": "基于 HyperFrames",
-   "plugs_into": "GitHub 项目推荐（天机）的现成「项目→发布片」方案"
+   "plugs_into": "GitHub 项目推荐（天机）的现成「项目→发布片」方案",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "jianying-editor-skill",
@@ -4294,7 +4526,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "让 Agent 自动操作剪映：写文案、配音、字幕、选乐、特效到导出草稿",
-   "stars": 3809,
+   "stars": 3824,
    "pushed": "2026-09-11",
    "archived": false,
    "license": "MIT",
@@ -4325,7 +4557,9 @@
     "explainer"
    ],
    "deps": "剪映专业版（Windows 最稳）",
-   "plugs_into": "成片最后一公里：把 animator/videogen 产物导入剪映精修；含 Apache-2.0 第三方组件"
+   "plugs_into": "成片最后一公里：把 animator/videogen 产物导入剪映精修；含 Apache-2.0 第三方组件",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "chengfeng-videocut-skills",
@@ -4334,7 +4568,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "口播视频剪辑 Agent（Codex 插件 + 本地工作台）",
-   "stars": 3040,
+   "stars": 3041,
    "pushed": "2026-09-20",
    "archived": false,
    "license": "Apache-2.0",
@@ -4362,7 +4596,9 @@
     "talking-head"
    ],
    "deps": "Codex Plugin + 本地 Runtime",
-   "plugs_into": "真人口播粗剪"
+   "plugs_into": "真人口播粗剪",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "lanshu-create-ai-presenter-video",
@@ -4371,7 +4607,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "主题或脚本 + 已授权人像→数字人讲解视频，或 9 种视觉风格的演示讲解",
-   "stars": 2519,
+   "stars": 2546,
    "pushed": "2026-10-06",
    "archived": false,
    "license": "MIT",
@@ -4403,7 +4639,9 @@
     "explainer"
    ],
    "deps": "Codex Skill；数字人/口型 API",
-   "plugs_into": "需要「真人出镜感」的口播；必须使用已授权肖像"
+   "plugs_into": "需要「真人出镜感」的口播；必须使用已授权肖像",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "heygen-com-skills",
@@ -4439,7 +4677,9 @@
     "talking-head"
    ],
    "deps": "HeyGen API（付费）",
-   "plugs_into": "商业数字人口播"
+   "plugs_into": "商业数字人口播",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "guizang-product-video-skill",
@@ -4448,7 +4688,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "归藏：复用产品真实组件与设计语言，用代码做软件更新宣传片（含分镜文案、原创配乐、音效）",
-   "stars": 705,
+   "stars": 727,
    "pushed": "2026-10-01",
    "archived": false,
    "license": "AGPL-3.0",
@@ -4479,7 +4719,9 @@
     "repo-promo"
    ],
    "deps": "Claude Code / Codex",
-   "plugs_into": "软件/开源项目宣传片；AGPL-3.0"
+   "plugs_into": "软件/开源项目宣传片；AGPL-3.0",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "video-spec-builder",
@@ -4488,7 +4730,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "像导演一样追问，把「我想做个视频」逼成精确到秒的 video-spec.md，再交给 HyperFrames",
-   "stars": 1014,
+   "stars": 1015,
    "pushed": "2026-05-18",
    "archived": false,
    "license": "MIT",
@@ -4516,7 +4758,9 @@
     "any"
    ],
    "deps": "npx skills add",
-   "plugs_into": "需求澄清阶段：可与 ai-video-director 的 intake 互补"
+   "plugs_into": "需求澄清阶段：可与 ai-video-director 的 intake 互补",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "hyperframes-motion-director",
@@ -4557,7 +4801,9 @@
     "launch"
    ],
    "deps": "HyperFrames",
-   "plugs_into": "README→竖屏宣传片；AGPL-3.0"
+   "plugs_into": "README→竖屏宣传片；AGPL-3.0",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "motion-video-kit",
@@ -4566,7 +4812,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "商业广告片 skill：独立评审回路、28 支发布片总结的动效原则、质量门槛与声音设计",
-   "stars": 1064,
+   "stars": 1070,
    "pushed": "2026-09-28",
    "archived": false,
    "license": "MIT",
@@ -4596,7 +4842,9 @@
     "ad"
    ],
    "deps": "HTML/GSAP、Three.js",
-   "plugs_into": "广告片质量标准参考"
+   "plugs_into": "广告片质量标准参考",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "promo-creator-skills",
@@ -4605,7 +4853,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "产品宣传片 skills：先做产品判断，再叙事结构、视觉规划、HyperFrames 剪辑、BGM 设计",
-   "stars": 102,
+   "stars": 103,
    "pushed": "2026-05-12",
    "archived": false,
    "license": "MIT",
@@ -4635,7 +4883,9 @@
     "launch"
    ],
    "deps": "HyperFrames",
-   "plugs_into": "带货/宣传片的「先判断后画面」方法"
+   "plugs_into": "带货/宣传片的「先判断后画面」方法",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "ecommerce-video-skills",
@@ -4644,7 +4894,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "电商短视频 skills：3 秒钩子、卖点分镜、图生视频提示词、配音字幕花字、ffmpeg 本地成片、多平台导出",
-   "stars": 53,
+   "stars": 57,
    "pushed": "2026-10-05",
    "archived": false,
    "license": "MIT",
@@ -4677,7 +4927,9 @@
     "ad"
    ],
    "deps": "edge-tts、ffmpeg（无需 API key）",
-   "plugs_into": "产品带货零成本起步方案"
+   "plugs_into": "产品带货零成本起步方案",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "book-sales-video",
@@ -4715,7 +4967,9 @@
     "book"
    ],
    "deps": "豆包 TTS、Pexels、OpenChatCut",
-   "plugs_into": "图书带货"
+   "plugs_into": "图书带货",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "avatar-forge",
@@ -4724,7 +4978,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "人物图片 + 参考声音 + 口播稿→数字人口播视频（含声音克隆）",
-   "stars": 92,
+   "stars": 93,
    "pushed": "2026-09-11",
    "archived": false,
    "license": "MIT",
@@ -4753,7 +5007,9 @@
     "talking-head"
    ],
    "deps": "Lab 账号/服务",
-   "plugs_into": "数字人路线；仅限本人或已授权的肖像与声音"
+   "plugs_into": "数字人路线；仅限本人或已授权的肖像与声音",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "video-recap-skills",
@@ -4762,7 +5018,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "视频→中文解说成片：场景检测、ASR、VLM、写稿、TTS、混音，可导出剪映草稿",
-   "stars": 556,
+   "stars": 559,
    "pushed": "2026-10-04",
    "archived": false,
    "license": "MIT",
@@ -4791,7 +5047,9 @@
     "recap"
    ],
    "deps": "ffmpeg、小米 MiMo key",
-   "plugs_into": "影视/短剧解说二创；注意素材版权"
+   "plugs_into": "影视/短剧解说二创；注意素材版权",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "self-media-compliance-review",
@@ -4800,7 +5058,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "自媒体视频发布前违规风险审核：画面/声音/文字/封面/带货/资质/引流，五级风险报告",
-   "stars": 91,
+   "stars": 94,
    "pushed": "2026-10-06",
    "archived": false,
    "license": "MIT",
@@ -4830,7 +5088,9 @@
     "ecommerce"
    ],
    "deps": "Skill",
-   "plugs_into": "发布前合规质检，建议作为所有路线的最后一步"
+   "plugs_into": "发布前合规质检，建议作为所有路线的最后一步",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "comfyui-mcp",
@@ -4839,7 +5099,7 @@
    "category": "agentvideo",
    "kind": "app",
    "intro_zh": "本地 ComfyUI 的 agent 控制面：MCP + 侧栏 agent 生成图像/视频、搭工作流",
-   "stars": 797,
+   "stars": 798,
    "pushed": "2026-10-05",
    "archived": false,
    "license": "MIT",
@@ -4868,7 +5128,9 @@
     "drama"
    ],
    "deps": "ComfyUI + MCP",
-   "plugs_into": "自有 GPU 时让 agent 驱动 ComfyUI，可与 videogen 路线 B 并用"
+   "plugs_into": "自有 GPU 时让 agent 驱动 ComfyUI，可与 videogen 路线 B 并用",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "reelmimic",
@@ -4877,7 +5139,7 @@
    "category": "agentvideo",
    "kind": "skill",
    "intro_zh": "给一个喜欢的参考视频→AI 团队规划、制作、审片出同风格新视频",
-   "stars": 1712,
+   "stars": 1751,
    "pushed": "2026-10-07",
    "archived": false,
    "license": "MIT",
@@ -4907,7 +5169,9 @@
     "story"
    ],
    "deps": "Claude Code / Codex",
-   "plugs_into": "「照着参考片的风格做」场景"
+   "plugs_into": "「照着参考片的风格做」场景",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "video-illustrator",
@@ -4947,7 +5211,9 @@
     "product"
    ],
    "deps": "本地渲染",
-   "plugs_into": "真人旁白 + 真实素材的讲解片"
+   "plugs_into": "真人旁白 + 真实素材的讲解片",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "hbg-douyin-code-explainer-video",
@@ -4985,7 +5251,9 @@
     "talking-head"
    ],
    "deps": "HyperFrames、TTS、Whisper",
-   "plugs_into": "中文对话式口播；无许可证，仅链接"
+   "plugs_into": "中文对话式口播；无许可证，仅链接",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "awesome-claude-video-skills",
@@ -4994,8 +5262,8 @@
    "category": "agentvideo",
    "kind": "index",
    "intro_zh": "Agent 视频 skills 索引：200+ 仓库按类型分组并做安全分级（CC0）",
-   "stars": 479,
-   "pushed": "2026-10-06",
+   "stars": 489,
+   "pushed": "2026-10-08",
    "archived": false,
    "license": "CC0-1.0",
    "license_class": "permissive",
@@ -5021,7 +5289,9 @@
     "any"
    ],
    "deps": "—",
-   "plugs_into": "找更多 skill 时的上游索引"
+   "plugs_into": "找更多 skill 时的上游索引",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "shuohao-skills",
@@ -5030,8 +5300,8 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "AI 短剧 skill 集：小说→改编大纲五件套→角色设定集→场景道具设定→剧本→分镜，质量门脚本检查",
-   "stars": 4249,
-   "pushed": "2026-09-26",
+   "stars": 4266,
+   "pushed": "2026-10-08",
    "archived": false,
    "license": "Apache-2.0",
    "license_class": "permissive",
@@ -5061,7 +5331,9 @@
     "novel-adapt"
    ],
    "deps": "Claude Code / Codex",
-   "plugs_into": "小说转漫剧/短剧的前期方法；分镜输出后接 templates/ 七段式与 videogen plan"
+   "plugs_into": "小说转漫剧/短剧的前期方法；分镜输出后接 templates/ 七段式与 videogen plan",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "drama-skills",
@@ -5070,7 +5342,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "11 个短剧/漫剧 skill：原著分析→分集剧本→视觉设定→图片提示词与分镜→视频提示词→生产→剪辑→审查，五份 Markdown 即创作事实",
-   "stars": 2609,
+   "stars": 2625,
    "pushed": "2026-10-03",
    "archived": false,
    "license": "MIT",
@@ -5103,7 +5375,9 @@
     "novel-adapt"
    ],
    "deps": "Claude Code / Codex",
-   "plugs_into": "「每集五份 Markdown」组织法可直接映射到 videogen 的分镜输入"
+   "plugs_into": "「每集五份 Markdown」组织法可直接映射到 videogen 的分镜输入",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "manju-laoli-skill",
@@ -5112,7 +5386,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "漫剧老李：立项→剧本→资产锁定→文武双模分镜→七段式提示词 + FACS 微表情",
-   "stars": 1069,
+   "stars": 1086,
    "pushed": "2026-09-20",
    "archived": false,
    "license": "MIT",
@@ -5144,7 +5418,9 @@
     "fight"
    ],
    "deps": "Skill",
-   "plugs_into": "本仓库 templates/漫剧老李-七段式与资产图模板 已收录其 MIT 模板"
+   "plugs_into": "本仓库 templates/漫剧老李-七段式与资产图模板 已收录其 MIT 模板",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "short-drama-factory",
@@ -5153,7 +5429,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "抖音/红果爆款短剧编剧系统：40 赛道、六母型钩子、五大断章、反转轮换，标准/长档/漫剧三档篇幅",
-   "stars": 306,
+   "stars": 310,
    "pushed": "2026-09-29",
    "archived": false,
    "license": "MIT",
@@ -5184,7 +5460,9 @@
     "novel-adapt"
    ],
    "deps": "Skill",
-   "plugs_into": "只产剧本层；剧本完成后再进分镜与 videogen"
+   "plugs_into": "只产剧本层；剧本完成后再进分镜与 videogen",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "xuanhuan-combat-director",
@@ -5222,7 +5500,9 @@
     "fight"
    ],
    "deps": "Skill",
-   "plugs_into": "仙侠打戏镜头；无许可证，仅链接"
+   "plugs_into": "仙侠打戏镜头；无许可证，仅链接",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "short-drama",
@@ -5231,7 +5511,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "短剧剧本创作 skill：13 种题材模板、四层反派、五种钩子、节奏曲线、付费卡点、合规审核、出海",
-   "stars": 1365,
+   "stars": 1367,
    "pushed": "2026-04-17",
    "archived": false,
    "license": "MIT",
@@ -5261,7 +5541,9 @@
     "urban"
    ],
    "deps": "Skill",
-   "plugs_into": "剧本结构方法（MIT）"
+   "plugs_into": "剧本结构方法（MIT）",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "onlyshot",
@@ -5302,7 +5584,9 @@
     "drama"
    ],
    "deps": "即梦 / Seedance",
-   "plugs_into": "失败模式清单可用于 videogen 返工"
+   "plugs_into": "失败模式清单可用于 videogen 返工",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "seedance2-storyboard-generator",
@@ -5311,7 +5595,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "小说/故事→多集剧本→Seedance 2.0 分镜提示词",
-   "stars": 2540,
+   "stars": 2542,
    "pushed": "2026-09-21",
    "archived": false,
    "license": "NONE",
@@ -5341,7 +5625,9 @@
     "novel-adapt"
    ],
    "deps": "Skill；建议配合即梦 CLI",
-   "plugs_into": "小说转多集；无许可证，仅链接"
+   "plugs_into": "小说转多集；无许可证，仅链接",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "make-prompt-seedance2",
@@ -5350,7 +5636,7 @@
    "category": "drama",
    "kind": "method",
    "intro_zh": "Seedance 2.0 结构化提示词指南：16+ 模板、8+ 示例（带货、TVC、真人实拍）",
-   "stars": 693,
+   "stars": 694,
    "pushed": "2026-10-04",
    "archived": false,
    "license": "NONE",
@@ -5380,7 +5666,9 @@
     "vlog"
    ],
    "deps": "Skill + 指南",
-   "plugs_into": "写法参考；无许可证，且 docs/ 收录他人文章，仅链接"
+   "plugs_into": "写法参考；无许可证，且 docs/ 收录他人文章，仅链接",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "seedance-2-0",
@@ -5389,7 +5677,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "Seedance 2.0 Skill OS：镜头规划、参考绑定、续写，多语言示例",
-   "stars": 7545,
+   "stars": 7557,
    "pushed": "2026-10-03",
    "archived": false,
    "license": "MIT",
@@ -5418,7 +5706,9 @@
     "any"
    ],
    "deps": "Skill OS",
-   "plugs_into": "本仓库 prompts/ 已收录其 MIT 示例提示词 104 条"
+   "plugs_into": "本仓库 prompts/ 已收录其 MIT 示例提示词 104 条",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "manga-script-master",
@@ -5427,7 +5717,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "爆款漫剧（动态漫/条漫）脚本 + AI 分镜提示词：角色视觉锚点、四大赛道节奏模型",
-   "stars": 73,
+   "stars": 74,
    "pushed": "2026-03-25",
    "archived": false,
    "license": "MIT",
@@ -5458,7 +5748,9 @@
     "suspense"
    ],
    "deps": "npx skills add",
-   "plugs_into": "漫剧赛道节奏"
+   "plugs_into": "漫剧赛道节奏",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "xianxia-cinematic-video-director",
@@ -5467,7 +5759,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "东方仙侠运镜导演：故事脊柱、连续性锁定卡、分镜总表、逐镜头运镜与稳定首尾状态",
-   "stars": 270,
+   "stars": 269,
    "pushed": "2026-08-13",
    "archived": false,
    "license": "NONE",
@@ -5497,7 +5789,9 @@
     "xianxia"
    ],
    "deps": "Codex Skill",
-   "plugs_into": "仙侠漫剧/真人的镜头连续性；无许可证，仅链接"
+   "plugs_into": "仙侠漫剧/真人的镜头连续性；无许可证，仅链接",
+   "verified_at": "2026-10-09",
+   "license_source": "(no LICENSE file)"
   },
   {
    "id": "seedance-2-5-video-director",
@@ -5506,7 +5800,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "Seedance 2.5 视频导演：脚本、诊断、人物锁定、续写、编辑、转场、多格分镜动画",
-   "stars": 553,
+   "stars": 556,
    "pushed": "2026-08-26",
    "archived": false,
    "license": "MIT",
@@ -5536,7 +5830,9 @@
     "any"
    ],
    "deps": "npx skills add",
-   "plugs_into": "2.5 精确 30 秒时间轴与人物锁定"
+   "plugs_into": "2.5 精确 30 秒时间轴与人物锁定",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "novel-to-manju",
@@ -5545,7 +5841,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "小说→爆款改文→漫剧剧本→角色卡与音色→人物/场景/三视图提示词→分镜→MiniMax H3 视频提示词",
-   "stars": 45,
+   "stars": 46,
    "pushed": "2026-08-17",
    "archived": false,
    "license": "CC0-1.0",
@@ -5575,7 +5871,9 @@
     "drama"
    ],
    "deps": "Skill（自包含）",
-   "plugs_into": "小说转漫剧全流程（CC0）"
+   "plugs_into": "小说转漫剧全流程（CC0）",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "ai-film-skills",
@@ -5584,7 +5882,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "21 个独立影视 skill：故事、导演、视觉资产、摄影分镜、生成提示词、看片修复",
-   "stars": 62,
+   "stars": 63,
    "pushed": "2026-09-28",
    "archived": false,
    "license": "Apache-2.0",
@@ -5612,7 +5910,9 @@
     "drama"
    ],
    "deps": "Skill",
-   "plugs_into": "按阶段调用的影视技能"
+   "plugs_into": "按阶段调用的影视技能",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "directorskill",
@@ -5621,7 +5921,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "剧本/段落/关键帧→导演本、走位、分镜表、关键帧与图生视频提示词、声音计划、剪辑时间线、连续性圣经",
-   "stars": 181,
+   "stars": 185,
    "pushed": "2026-08-31",
    "archived": false,
    "license": "MIT",
@@ -5651,7 +5951,9 @@
     "drama"
    ],
    "deps": "Claude Code skill",
-   "plugs_into": "电影级分镜的完整交付清单"
+   "plugs_into": "电影级分镜的完整交付清单",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "martial-arts-director-cy",
@@ -5690,7 +5992,9 @@
     "xianxia"
    ],
    "deps": "Skill",
-   "plugs_into": "武侠/修真打戏"
+   "plugs_into": "武侠/修真打戏",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "script-to-shootable-storyboard",
@@ -5727,7 +6031,9 @@
     "drama"
    ],
    "deps": "Codex Skill + JSON Schema + 校验器",
-   "plugs_into": "「原子镜头」规则可用于 videogen 镜头拆分"
+   "plugs_into": "「原子镜头」规则可用于 videogen 镜头拆分",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "screenwriter-skill",
@@ -5736,7 +6042,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "短剧/漫剧编剧审稿 skill：37 条规则、第一集「生死线」、爽感清单",
-   "stars": 72,
+   "stars": 73,
    "pushed": "2026-04-12",
    "archived": false,
    "license": "MIT",
@@ -5763,7 +6069,9 @@
     "drama"
    ],
    "deps": "Skill",
-   "plugs_into": "剧本自查"
+   "plugs_into": "剧本自查",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "short-drama-production",
@@ -5801,7 +6109,9 @@
     "drama"
    ],
    "deps": "Codex；MiniMax H3 / CompShare",
-   "plugs_into": "生产管线状态管理参考"
+   "plugs_into": "生产管线状态管理参考",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "ai-short-drama-skill",
@@ -5841,7 +6151,9 @@
     "drama"
    ],
    "deps": "Codex / Claude Code / WorkBuddy",
-   "plugs_into": "多模型路由思路与本仓库 videogen 对照"
+   "plugs_into": "多模型路由思路与本仓库 videogen 对照",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "story-shot-agent",
@@ -5850,7 +6162,7 @@
    "category": "drama",
    "kind": "app",
    "intro_zh": "PenShot：剧本→分镜片段→Sora/Veo/Runway 提示词，三视图 + RAG 记忆保持角色一致",
-   "stars": 214,
+   "stars": 216,
    "pushed": "2026-10-03",
    "archived": false,
    "license": "MIT",
@@ -5879,7 +6191,9 @@
     "novel-adapt"
    ],
    "deps": "LangGraph、LlamaIndex；MCP/REST",
-   "plugs_into": "角色一致性的工程化做法"
+   "plugs_into": "角色一致性的工程化做法",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "ai-shortfilm-prompts",
@@ -5916,7 +6230,9 @@
     "any"
    ],
    "deps": "Claude Code skill",
-   "plugs_into": "英文类型模板"
+   "plugs_into": "英文类型模板",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "h3-storyboard-skill",
@@ -5954,7 +6270,9 @@
     "romance"
    ],
    "deps": "Claude Code skill",
-   "plugs_into": "情绪戏/表演镜头写法"
+   "plugs_into": "情绪戏/表演镜头写法",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "seedance-shotdesign-skills",
@@ -5963,7 +6281,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "Seedance 2.5 镜头设计：30 秒标准、30–180 秒超长、延长与编辑模式",
-   "stars": 119,
+   "stars": 120,
    "pushed": "2026-08-19",
    "archived": false,
    "license": "MIT-0",
@@ -5992,7 +6310,9 @@
     "any"
    ],
    "deps": "Skill",
-   "plugs_into": "长片段规划（MIT-0）"
+   "plugs_into": "长片段规划（MIT-0）",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "director-skills",
@@ -6031,7 +6351,9 @@
     "drama"
    ],
    "deps": "Skill",
-   "plugs_into": "旅拍/vlog 与情绪表演"
+   "plugs_into": "旅拍/vlog 与情绪表演",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "screenwriting-skills",
@@ -6040,7 +6362,7 @@
    "category": "drama",
    "kind": "skill",
    "intro_zh": "26 个编剧/电视剧写作/戏剧构作 skills（正文中文）",
-   "stars": 1599,
+   "stars": 1602,
    "pushed": "2026-10-03",
    "archived": false,
    "license": "MIT",
@@ -6067,7 +6389,9 @@
     "drama"
    ],
    "deps": "Skill",
-   "plugs_into": "编剧基本功"
+   "plugs_into": "编剧基本功",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "hook-lab",
@@ -6104,7 +6428,9 @@
     "ecommerce"
    ],
    "deps": "Claude Code skill",
-   "plugs_into": "开头 3 秒钩子设计"
+   "plugs_into": "开头 3 秒钩子设计",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "ad-script-master",
@@ -6143,7 +6469,9 @@
     "ecommerce"
    ],
    "deps": "npx skills add",
-   "plugs_into": "带货/广告脚本"
+   "plugs_into": "带货/广告脚本",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "vimax",
@@ -6152,7 +6480,7 @@
    "category": "pipeline",
    "kind": "platform",
    "intro_zh": "港大：Idea2Video / Script2Video / Novel2Video，编剧→分镜→角色参考→首帧→视频→拼接",
-   "stars": 12572,
+   "stars": 12585,
    "pushed": "2026-09-30",
    "archived": false,
    "license": "MIT",
@@ -6183,7 +6511,9 @@
     "novel-adapt"
    ],
    "deps": "LLM + 图像 + 视频模型 API",
-   "plugs_into": "剧情类全自动；视频模型按秒计费"
+   "plugs_into": "剧情类全自动；视频模型按秒计费",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "toonflow-app",
@@ -6192,7 +6522,7 @@
    "category": "pipeline",
    "kind": "platform",
    "intro_zh": "开源 AI 短剧工厂：无限画布 + Agent + 角色三视图 + 智能分镜 + 视频生成",
-   "stars": 16696,
+   "stars": 16797,
    "pushed": "2026-10-05",
    "archived": false,
    "license": "MIT",
@@ -6223,7 +6553,9 @@
     "novel-adapt"
    ],
    "deps": "桌面/本地部署；可接本地 ComfyUI",
-   "plugs_into": "本仓库 templates/ 已收录其 MIT 分段模板；可接 ComfyUI 零 API 费"
+   "plugs_into": "本仓库 templates/ 已收录其 MIT 分段模板；可接 ComfyUI 零 API 费",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "pixelle-video",
@@ -6232,7 +6564,7 @@
    "category": "pipeline",
    "kind": "platform",
    "intro_zh": "AI 全自动短视频引擎：文案→分镜→配图/视频片段→TTS→字幕→合成",
-   "stars": 28748,
+   "stars": 28756,
    "pushed": "2026-06-14",
    "archived": false,
    "license": "Apache-2.0",
@@ -6261,7 +6593,9 @@
     "story"
    ],
    "deps": "Streamlit；ComfyUI/RunningHub 或 DashScope/Wan/Seedance/Kling",
-   "plugs_into": "中文短视频全自动；ComfyUI 本地可零 API 费"
+   "plugs_into": "中文短视频全自动；ComfyUI 本地可零 API 费",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "index-anisora",
@@ -6299,7 +6633,9 @@
     "story"
    ],
    "deps": "GPU（有 12GB 版本）",
-   "plugs_into": "有显卡时的漫剧运动先验；可接 videogen 路线 B"
+   "plugs_into": "有显卡时的漫剧运动先验；可接 videogen 路线 B",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "localminidrama",
@@ -6308,7 +6644,7 @@
    "category": "pipeline",
    "kind": "app",
    "intro_zh": "本地 AI 短剧 & 漫剧生成工具，数据不出本机",
-   "stars": 1972,
+   "stars": 1975,
    "pushed": "2026-10-02",
    "archived": false,
    "license": "MIT",
@@ -6335,7 +6671,9 @@
     "drama"
    ],
    "deps": "本地运行；接入 Seedance 2",
-   "plugs_into": "本地化短剧工作台"
+   "plugs_into": "本地化短剧工作台",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "jellyfish",
@@ -6344,7 +6682,7 @@
    "category": "pipeline",
    "kind": "platform",
    "intro_zh": "AI 短剧端到端工作台：结构化分镜、一致性管理到出片",
-   "stars": 6630,
+   "stars": 6634,
    "pushed": "2026-07-30",
    "archived": false,
    "license": "Apache-2.0",
@@ -6371,7 +6709,9 @@
     "drama"
    ],
    "deps": "Web 平台",
-   "plugs_into": "一致性管理参考"
+   "plugs_into": "一致性管理参考",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "lumenx",
@@ -6408,7 +6748,9 @@
     "drama"
    ],
    "deps": "阿里云模型",
-   "plugs_into": "小说转漫剧平台"
+   "plugs_into": "小说转漫剧平台",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "arcreel",
@@ -6417,7 +6759,7 @@
    "category": "pipeline",
    "kind": "platform",
    "intro_zh": "小说/剧本→角色场景道具资产→分镜→视频→剪映草稿",
-   "stars": 5373,
+   "stars": 5387,
    "pushed": "2026-10-08",
    "archived": false,
    "license": "AGPL-3.0",
@@ -6448,7 +6790,9 @@
     "drama"
    ],
    "deps": "自部署 Web",
-   "plugs_into": "剪映草稿交付；AGPL-3.0"
+   "plugs_into": "剪映草稿交付；AGPL-3.0",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "moneyprinterturbo",
@@ -6457,7 +6801,7 @@
    "category": "pipeline",
    "kind": "app",
    "intro_zh": "主题→文案→实拍素材库拼接→配音字幕的短视频生成",
-   "stars": 129304,
+   "stars": 129189,
    "pushed": "2026-10-08",
    "archived": false,
    "license": "MIT",
@@ -6486,7 +6830,9 @@
     "vlog"
    ],
    "deps": "Python；Pexels/Pixabay 素材",
-   "plugs_into": "实拍素材口播；不适合手绘"
+   "plugs_into": "实拍素材口播；不适合手绘",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "huobao-drama",
@@ -6495,7 +6841,7 @@
    "category": "pipeline",
    "kind": "platform",
    "intro_zh": "火宝短剧：一句话生成完整短剧",
-   "stars": 15849,
+   "stars": 15858,
    "pushed": "2026-10-05",
    "archived": false,
    "license": "CC-BY-NC-SA-4.0",
@@ -6522,7 +6868,9 @@
     "drama"
    ],
    "deps": "Web 平台",
-   "plugs_into": "CC BY-NC-SA 4.0 非商用，仅作对比参考"
+   "plugs_into": "CC BY-NC-SA 4.0 非商用，仅作对比参考",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
   },
   {
    "id": "storydiffusion",
@@ -6561,7 +6909,1296 @@
     "picture-book"
    ],
    "deps": "Python、GPU",
-   "plugs_into": "角色一致性的研究方法"
+   "plugs_into": "角色一致性的研究方法",
+   "verified_at": "2026-10-09",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "video-use",
+   "repo": "browser-use/video-use",
+   "category": "edit",
+   "kind": "app",
+   "intro_zh": "用浏览器去操作网页剪辑/生成站点的自动化层，适合把重复的网页端出片步骤交给 Agent",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "E-edit"
+   ],
+   "input": [
+    "script"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "free-cpu",
+    "agent-llm"
+   ],
+   "zh": "en",
+   "use_for": [
+    "edit",
+    "clip"
+   ],
+   "plugs_into": "路线④网页端往返时，可把它当作「替人点网页」的外挂；不替代 videogen 的本地合成",
+   "url": "https://github.com/browser-use/video-use",
+   "stars": 28448,
+   "pushed": "2026-10-08",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "narratoai",
+   "repo": "linyqh/NarratoAI",
+   "category": "edit",
+   "kind": "app",
+   "intro_zh": "中文解说向的自动剪辑：给成片或素材配解说、字幕和切片，偏影视解说流水线",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "E-edit"
+   ],
+   "input": [
+    "video",
+    "script"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "free-cpu",
+    "api-key"
+   ],
+   "zh": "native",
+   "use_for": [
+    "edit",
+    "clip"
+   ],
+   "plugs_into": "有实拍或已生成成片、要做解说切片时用；本仓库只给链接，不复制它的文案",
+   "url": "https://github.com/linyqh/NarratoAI",
+   "stars": 11322,
+   "pushed": "2026-09-17",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "autoclip",
+   "repo": "zhouxiaoka/autoclip",
+   "category": "edit",
+   "kind": "app",
+   "intro_zh": "自动把长视频切成短视频的中文工具，面向口播和直播切片",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "E-edit"
+   ],
+   "input": [
+    "video"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "free-cpu"
+   ],
+   "zh": "native",
+   "use_for": [
+    "edit",
+    "clip"
+   ],
+   "plugs_into": "成片之后的切片步骤；和 videogen assemble 是前后关系，不替代生成",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "stars": 9264,
+   "pushed": "2026-10-08",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "funclip",
+   "repo": "modelscope/FunClip",
+   "category": "edit",
+   "kind": "app",
+   "intro_zh": "ModelScope 的语音识别 + 按说话人/热词剪辑，适合口播和访谈自动成片",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "E-edit"
+   ],
+   "input": [
+    "video",
+    "audio"
+   ],
+   "output": [
+    "mp4",
+    "srt"
+   ],
+   "cost": [
+    "free-cpu",
+    "gpu"
+   ],
+   "zh": "bilingual",
+   "use_for": [
+    "edit",
+    "clip"
+   ],
+   "plugs_into": "本地有录音或口播成片时做粗剪；识别模型要自己准备，本仓库不带权重",
+   "url": "https://github.com/modelscope/FunClip",
+   "stars": 6379,
+   "pushed": "2026-10-08",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "openshorts",
+   "repo": "mutonby/openshorts",
+   "category": "edit",
+   "kind": "app",
+   "intro_zh": "开源短视频流水线，把素材剪成竖屏短片",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "E-edit"
+   ],
+   "input": [
+    "video",
+    "script"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "free-cpu",
+    "api-key"
+   ],
+   "zh": "en",
+   "use_for": [
+    "edit",
+    "clip"
+   ],
+   "plugs_into": "竖屏切片的外部选项；接入前自己看它的依赖和模型要求",
+   "url": "https://github.com/mutonby/openshorts",
+   "stars": 6336,
+   "pushed": "2026-10-07",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "openreel",
+   "repo": "Augani/openreel-video",
+   "category": "edit",
+   "kind": "app",
+   "intro_zh": "浏览器里的开源视频编辑器，时间线剪辑，不依赖云端",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "E-edit"
+   ],
+   "input": [
+    "video"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "free-cpu"
+   ],
+   "zh": "en",
+   "use_for": [
+    "edit",
+    "clip"
+   ],
+   "plugs_into": "不想装剪映/达芬奇时的网页时间线；导出后再交给 videogen assemble 也可以",
+   "url": "https://github.com/Augani/openreel-video",
+   "stars": 5319,
+   "pushed": "2026-10-03",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "pyjianyingdraft",
+   "repo": "GuanYixuan/pyJianYingDraft",
+   "category": "edit",
+   "kind": "library",
+   "intro_zh": "用 Python 生成剪映草稿，把镜头、字幕和特效写进草稿而不是直接渲染",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "routes": [
+    "E-edit"
+   ],
+   "input": [
+    "script",
+    "video"
+   ],
+   "output": [
+    "draft"
+   ],
+   "cost": [
+    "free-cpu"
+   ],
+   "zh": "native",
+   "use_for": [
+    "edit",
+    "clip"
+   ],
+   "plugs_into": "和已收录的剪映 skill 互补：它产草稿文件，成片仍在剪映里导出",
+   "url": "https://github.com/GuanYixuan/pyJianYingDraft",
+   "stars": 4507,
+   "pushed": "2026-09-26",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "davinci-resolve-mcp",
+   "repo": "samuelgursky/davinci-resolve-mcp",
+   "category": "edit",
+   "kind": "mcp",
+   "intro_zh": "通过 MCP 操作本机 DaVinci Resolve 时间线，适合已经在用达芬奇的人",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "E-edit"
+   ],
+   "input": [
+    "video"
+   ],
+   "output": [
+    "project"
+   ],
+   "cost": [
+    "free-cpu"
+   ],
+   "zh": "en",
+   "use_for": [
+    "edit",
+    "clip",
+    "mcp"
+   ],
+   "plugs_into": "本机装了 Resolve 才能用；本仓库的 MCP 不转发它的工具，只作目录链接",
+   "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+   "stars": 3420,
+   "pushed": "2026-10-08",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "wan22",
+   "repo": "Wan-Video/Wan2.2",
+   "category": "models",
+   "kind": "model",
+   "intro_zh": "阿里开源的 Wan2.2 视频模型。本仓库 videogen 带了 5B 的 ComfyUI 工作流示例，权重需自行下载",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "license_source": "LICENSE.txt",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "text",
+    "image"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "gpu"
+   ],
+   "zh": "bilingual",
+   "use_for": [
+    "open-model"
+   ],
+   "plugs_into": "node videogen/cli.mjs gen shots.json --provider comfyui --workflow videogen/workflows/wan22_ti2v_5b_t2v.json",
+   "url": "https://github.com/Wan-Video/Wan2.2",
+   "stars": 17790,
+   "pushed": "2026-09-21"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "framepack",
+   "repo": "lllyasviel/FramePack",
+   "category": "models",
+   "kind": "model",
+   "intro_zh": "lllyasviel 的长视频逐帧打包生成，用下一帧预测把片段拉长，适合有显卡时做较长镜头",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "image",
+    "text"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "gpu"
+   ],
+   "zh": "en",
+   "use_for": [
+    "open-model"
+   ],
+   "plugs_into": "本地 GPU 路线的延长镜头选项；权重与显存要求以该仓库为准，这里不镜像",
+   "url": "https://github.com/lllyasviel/FramePack",
+   "stars": 17277,
+   "pushed": "2025-10-16",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "open-sora",
+   "repo": "hpcaitech/Open-Sora",
+   "category": "models",
+   "kind": "model",
+   "intro_zh": "HPC-AI 的 Open-Sora 视频扩散训练与推理代码，Apache-2.0",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "text",
+    "image"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "gpu"
+   ],
+   "zh": "en",
+   "use_for": [
+    "open-model"
+   ],
+   "plugs_into": "自训或本地推理的研究向选项；不替代 videogen 里现成的 Wan 工作流",
+   "url": "https://github.com/hpcaitech/Open-Sora",
+   "stars": 29866,
+   "pushed": "2026-04-09",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "cogvideo",
+   "repo": "zai-org/CogVideo",
+   "category": "models",
+   "kind": "model",
+   "intro_zh": "智谱 CogVideo / CogVideoX 的开源代码与模型说明，许可证为 Apache-2.0",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "text",
+    "image"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "gpu"
+   ],
+   "zh": "bilingual",
+   "use_for": [
+    "open-model"
+   ],
+   "plugs_into": "本地 GPU 文生视频的另一家可选权重；接入 ComfyUI 或 diffusers 由你自己配",
+   "url": "https://github.com/zai-org/CogVideo",
+   "stars": 13067,
+   "pushed": "2025-11-04",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "ltx-video",
+   "repo": "Lightricks/LTX-Video",
+   "category": "models",
+   "kind": "model",
+   "intro_zh": "Lightricks 的 LTX-Video 开源视频模型，Apache-2.0，强调较快的推理",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "text",
+    "image"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "gpu"
+   ],
+   "zh": "en",
+   "use_for": [
+    "open-model"
+   ],
+   "plugs_into": "显存较小、想本地出片时的候选；工作流不在本仓库内置",
+   "url": "https://github.com/Lightricks/LTX-Video",
+   "stars": 11055,
+   "pushed": "2026-01-05",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "已读 LICENSE.txt：Tencent Hunyuan Community License。不适用于欧盟、英国、韩国；另有 Additional Commercial Terms。权重不随本仓库分发。",
+   "verified_at": "2026-10-09",
+   "id": "hunyuanvideo",
+   "repo": "Tencent-Hunyuan/HunyuanVideo",
+   "category": "models",
+   "kind": "model",
+   "intro_zh": "腾讯混元视频模型。不是 Apache：社区许可有地域限制（不含欧盟、英国、韩国）和额外商业条款",
+   "license": "Tencent-Hunyuan-Community",
+   "license_class": "source-available",
+   "license_source": "LICENSE.txt",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "text",
+    "image"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "gpu"
+   ],
+   "zh": "bilingual",
+   "use_for": [
+    "open-model"
+   ],
+   "warning": "custom-license",
+   "commercial_block": true,
+   "plugs_into": "仅作链接。商用或在受限地域使用前必须自己读完该 LICENSE，router --commercial 会排除",
+   "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+   "stars": 12601,
+   "pushed": "2026-10-08"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "已读 LICENSE.txt：允许个人和公司内部使用、出售生成结果；出售或白标软件本身需要另签许可。",
+   "verified_at": "2026-10-09",
+   "id": "wan2gp",
+   "repo": "deepbeepmeep/Wan2GP",
+   "category": "models",
+   "kind": "model",
+   "intro_zh": "在消费级显卡上跑 Wan 等模型的打包界面。许可证是项目自己的 Community License，不是 OSI 开源许可",
+   "license": "WanGP-Community-2.0",
+   "license_class": "source-available",
+   "license_source": "LICENSE.txt",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "text",
+    "image"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "gpu"
+   ],
+   "zh": "en",
+   "use_for": [
+    "open-model"
+   ],
+   "warning": "custom-license",
+   "commercial_block": true,
+   "plugs_into": "低显存试 Wan 的第三方启动器。--commercial 排除，因为转售软件本身受限制",
+   "url": "https://github.com/deepbeepmeep/Wan2GP",
+   "stars": 10221,
+   "pushed": "2026-10-07"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "minimax-mcp",
+   "repo": "MiniMax-AI/MiniMax-MCP",
+   "category": "mcp",
+   "kind": "mcp",
+   "intro_zh": "MiniMax 官方 MCP：语音、克隆、图像、海螺视频、音乐。调用需要你自己的 API key",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "text",
+    "audio"
+   ],
+   "output": [
+    "mp4",
+    "audio"
+   ],
+   "cost": [
+    "api-key"
+   ],
+   "zh": "bilingual",
+   "use_for": [
+    "mcp"
+   ],
+   "plugs_into": "与 videogen 的 minimax provider 同类，走 MCP 而不是本仓库 CLI；key 不要写进仓库",
+   "url": "https://github.com/MiniMax-AI/MiniMax-MCP",
+   "stars": 1583,
+   "pushed": "2026-08-20",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "pixelle-mcp",
+   "repo": "ATH-MaaS/Pixelle-MCP",
+   "category": "mcp",
+   "kind": "mcp",
+   "intro_zh": "把 ComfyUI 工作流暴露成 MCP 工具，在本地图/视频工作流上给 Agent 用",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "text",
+    "image"
+   ],
+   "output": [
+    "image",
+    "mp4"
+   ],
+   "cost": [
+    "gpu",
+    "free-cpu"
+   ],
+   "zh": "bilingual",
+   "use_for": [
+    "mcp"
+   ],
+   "plugs_into": "已有 ComfyUI 时的 MCP 外壳；本仓库 videogen 的 comfyui provider 是另一条直连方式",
+   "url": "https://github.com/ATH-MaaS/Pixelle-MCP",
+   "stars": 1127,
+   "pushed": "2025-12-17",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "comfyui-mcp-joenorton",
+   "repo": "joenorton/comfyui-mcp-server",
+   "category": "mcp",
+   "kind": "mcp",
+   "intro_zh": "本地 ComfyUI 的 MCP 服务器，Apache-2.0，用来提交和查看工作流",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "text",
+    "image"
+   ],
+   "output": [
+    "image",
+    "mp4"
+   ],
+   "cost": [
+    "gpu"
+   ],
+   "zh": "en",
+   "use_for": [
+    "mcp"
+   ],
+   "plugs_into": "目录里另有其他 ComfyUI MCP；选一个即可，不要同时把 key 或工作流密钥提交到 git",
+   "url": "https://github.com/joenorton/comfyui-mcp-server",
+   "stars": 407,
+   "pushed": "2026-02-17",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "mcp-film",
+   "repo": "c47-inc/mcp-film",
+   "category": "mcp",
+   "kind": "registry",
+   "intro_zh": "mcp.film：影视相关 MCP 服务器的目录站点，不是我们内置的数据。这里只收录这个目录本身",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "M-method"
+   ],
+   "input": [
+    "query"
+   ],
+   "output": [
+    "links"
+   ],
+   "cost": [
+    "free-cpu"
+   ],
+   "zh": "en",
+   "use_for": [
+    "mcp"
+   ],
+   "plugs_into": "要找更多影视 MCP 时去它的目录检索；本仓库不厂商化（vendor）它的 registry",
+   "url": "https://github.com/c47-inc/mcp-film",
+   "stars": 6,
+   "pushed": "2026-10-08",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "MIT 只覆盖这个 MCP 代码。生成服务的条款以 AceData / 模型提供方为准。",
+   "verified_at": "2026-10-09",
+   "id": "seedance-mcp-acedata",
+   "repo": "AceDataCloud/SeedanceMCP",
+   "category": "mcp",
+   "kind": "mcp",
+   "intro_zh": "第三方 Seedance API 的 MCP 封装，需要该服务的 key，不是字节官方客户端",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "text"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "api-key"
+   ],
+   "zh": "en",
+   "use_for": [
+    "mcp"
+   ],
+   "plugs_into": "没有官方 API、又接受第三方中转时的选项；key 放在你自己的环境变量里",
+   "url": "https://github.com/AceDataCloud/SeedanceMCP",
+   "stars": 20,
+   "pushed": "2026-10-08",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "fal-mcp",
+   "repo": "luminarylane/fal-mcp-server",
+   "category": "mcp",
+   "kind": "mcp",
+   "intro_zh": "社区版 fal MCP，用 fal 的密钥调用其视频/图像模型",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "text",
+    "image"
+   ],
+   "output": [
+    "mp4",
+    "image"
+   ],
+   "cost": [
+    "api-key"
+   ],
+   "zh": "en",
+   "use_for": [
+    "mcp"
+   ],
+   "plugs_into": "videogen 已有 fal provider；这是 MCP 形态的同类入口",
+   "url": "https://github.com/luminarylane/fal-mcp-server",
+   "stars": 58,
+   "pushed": "2026-05-04",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "runway-mcp-plugin",
+   "repo": "runwayml/runway-mcp-plugin",
+   "category": "mcp",
+   "kind": "mcp",
+   "intro_zh": "Runway 官方 MCP 插件，给 Cursor 等客户端调用 Runway，需要 Runway 账号",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "text",
+    "image"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "api-key"
+   ],
+   "zh": "en",
+   "use_for": [
+    "mcp"
+   ],
+   "plugs_into": "官方插件，优先于非官方中转；本目录不代跑、不保存密钥",
+   "url": "https://github.com/runwayml/runway-mcp-plugin",
+   "stars": 3,
+   "pushed": "2026-09-11",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "renoise-prompts",
+   "repo": "renoise-ai/awesome-seedance-prompts",
+   "category": "promptlib",
+   "kind": "dataset",
+   "intro_zh": "CC BY 4.0 的 Seedance 提示词集合。本仓库已按帖子 id 和文本去重后收录允许转载的新条目，并保留原作者",
+   "license": "CC-BY-4.0",
+   "license_class": "permissive",
+   "routes": [
+    "M-method"
+   ],
+   "input": [
+    "text"
+   ],
+   "output": [
+    "prompt"
+   ],
+   "cost": [
+    "free-cpu"
+   ],
+   "zh": "bilingual",
+   "use_for": [
+    "prompt-library"
+   ],
+   "plugs_into": "全文在 prompts/，署名见每条 front matter；这里的条目只是资源链接",
+   "url": "https://github.com/renoise-ai/awesome-seedance-prompts",
+   "stars": 8,
+   "pushed": "2026-10-08",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "2026-10-09 读过 LICENSE：Copyright (c) 2026 YouMind，CC BY 4.0。提示词来自社区，权利在原作者。",
+   "verified_at": "2026-10-09",
+   "id": "grok-imagine-prompts",
+   "repo": "YouMind-OpenLab/awesome-grok-imagine-prompts",
+   "category": "promptlib",
+   "kind": "dataset",
+   "intro_zh": "YouMind 的 Grok Imagine 提示词库，LICENSE 原文为 CC BY 4.0（GitHub 识别为 NOASSERTION）",
+   "license": "CC-BY-4.0",
+   "license_class": "permissive",
+   "license_source": "LICENSE",
+   "routes": [
+    "M-method"
+   ],
+   "input": [
+    "text"
+   ],
+   "output": [
+    "prompt"
+   ],
+   "cost": [
+    "free-cpu"
+   ],
+   "zh": "bilingual",
+   "use_for": [
+    "prompt-library"
+   ],
+   "plugs_into": "新收录的 Grok Imagine 条目在 prompts/，model 字段为 Grok Imagine",
+   "url": "https://github.com/YouMind-OpenLab/awesome-grok-imagine-prompts",
+   "stars": 54,
+   "pushed": "2026-10-08"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "",
+   "verified_at": "2026-10-09",
+   "id": "emaki-prompts",
+   "repo": "hanshs474/seedance-prompts-mcp",
+   "category": "promptlib",
+   "kind": "mcp",
+   "intro_zh": "Emaki 自己编写并实际渲染过的约 150 条 Seedance 提示词，MIT，带一个小型 MCP",
+   "license": "MIT",
+   "license_class": "permissive",
+   "routes": [
+    "M-method",
+    "B-videogen"
+   ],
+   "input": [
+    "text"
+   ],
+   "output": [
+    "prompt"
+   ],
+   "cost": [
+    "free-cpu"
+   ],
+   "zh": "bilingual",
+   "use_for": [
+    "prompt-library"
+   ],
+   "plugs_into": "本仓库收录了其 prompts.json 的文字（不收录示例视频）。它自己的 MCP 与本仓库 MCP 是两个包",
+   "url": "https://github.com/hanshs474/seedance-prompts-mcp",
+   "stars": 0,
+   "pushed": "2026-09-20",
+   "license_source": "LICENSE"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "2026-10-09 读过 LICENSE：提示词与 prompts.csv 为 CC0；站点代码为 MIT。",
+   "verified_at": "2026-10-09",
+   "id": "prompts-chat",
+   "repo": "f/awesome-chatgpt-prompts",
+   "category": "promptlib",
+   "kind": "dataset",
+   "intro_zh": "prompts.chat。代码 MIT，提示词数据 CC0。视频生成向的正文我们只收了直接描述画面的那几条",
+   "license": "MIT (code) / CC0-1.0 (prompts)",
+   "license_class": "permissive",
+   "license_source": "LICENSE",
+   "routes": [
+    "M-method"
+   ],
+   "input": [
+    "text"
+   ],
+   "output": [
+    "prompt"
+   ],
+   "cost": [
+    "free-cpu"
+   ],
+   "zh": "en",
+   "use_for": [
+    "prompt-library"
+   ],
+   "plugs_into": "视频类只收了少量 CC0 正文，见 source_repo f/awesome-chatgpt-prompts",
+   "url": "https://github.com/f/awesome-chatgpt-prompts",
+   "stars": 172184,
+   "pushed": "2026-10-03"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "已读 LICENSE.md：第三方提示词、媒体和原帖不随仓库再授权。不要复制提示词正文。",
+   "verified_at": "2026-10-09",
+   "id": "beatapi-minimax-h3",
+   "repo": "BeatAPI/awesome-minimax-h3-prompts",
+   "category": "promptlib",
+   "kind": "dataset",
+   "intro_zh": "BeatAPI 的 MiniMax H3 图库。文档是 CC BY，但第三方提示词明确不在许可范围内，所以这里只有链接",
+   "license": "CC-BY-4.0 (docs only)",
+   "license_class": "permissive",
+   "license_source": "LICENSE.md",
+   "routes": [
+    "M-method"
+   ],
+   "input": [
+    "text"
+   ],
+   "output": [
+    "links"
+   ],
+   "cost": [
+    "free-cpu"
+   ],
+   "zh": "en",
+   "use_for": [
+    "prompt-library"
+   ],
+   "warning": "third-party-prompts-not-licensed",
+   "plugs_into": "只作链接。要全文必须找到原作者自己的许可，不能从这里转载",
+   "url": "https://github.com/BeatAPI/awesome-minimax-h3-prompts",
+   "stars": 190,
+   "pushed": "2026-10-07"
+  },
+  {
+   "archived": true,
+   "maturity": "archived",
+   "styles": [],
+   "deps": "",
+   "license_note": "2026-10-09 确认仓库中没有 LICENSE 文件。默认保留一切权利。",
+   "verified_at": "2026-10-09",
+   "id": "semonxue-video-prompts",
+   "repo": "Semonxue/awesome-video-prompts",
+   "category": "promptlib",
+   "kind": "dataset",
+   "intro_zh": "多模型视频提示词站，仓库没有 LICENSE，且已归档。只放链接，不抓取正文",
+   "license": "NONE",
+   "license_class": "none",
+   "license_source": "(no LICENSE file)",
+   "routes": [
+    "M-method"
+   ],
+   "input": [
+    "text"
+   ],
+   "output": [
+    "links"
+   ],
+   "cost": [
+    "free-cpu"
+   ],
+   "zh": "en",
+   "use_for": [
+    "prompt-library"
+   ],
+   "warning": "no-license",
+   "plugs_into": "catalog 链接而已。router --commercial 会排除无许可证条目",
+   "url": "https://github.com/Semonxue/awesome-video-prompts",
+   "stars": 15,
+   "pushed": "2026-06-17"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [
+    "whiteboard"
+   ],
+   "deps": "",
+   "license_note": "2026-10-09 读过 LICENSE 开头，为 Apache License 2.0 全文。",
+   "verified_at": "2026-10-09",
+   "id": "inkplainer",
+   "repo": "NadirWeb-App/Inkplainer-OS",
+   "category": "handdrawn",
+   "kind": "app",
+   "intro_zh": "把讲解做成白板/手绘风格视频的开源项目。LICENSE 全文是 Apache-2.0（GitHub 显示 NOASSERTION）",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "license_source": "LICENSE",
+   "routes": [
+    "A-handdrawn"
+   ],
+   "input": [
+    "script"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "free-cpu"
+   ],
+   "zh": "en",
+   "use_for": [
+    "whiteboard"
+   ],
+   "plugs_into": "和本仓库 animator 同属手绘讲解路线，实现不同；不复制其代码",
+   "url": "https://github.com/NadirWeb-App/Inkplainer-OS",
+   "stars": 38,
+   "pushed": "2026-09-03"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "根目录没有名为 LICENSE 的文件；LICENSES/Elastic-2.0.txt 与 NOTICE 写明 Elastic License 2.0。托管给他人使用通常受 ELv2 限制。",
+   "verified_at": "2026-10-09",
+   "id": "dramaclaw",
+   "repo": "dramaclaw/dramaclaw",
+   "category": "pipeline",
+   "kind": "app",
+   "intro_zh": "短剧 Agent 平台。NOTICE 与 REUSE.toml 声明代码树为 Elastic License 2.0，不是宽松开源",
+   "license": "Elastic-2.0",
+   "license_class": "source-available",
+   "license_source": "LICENSES/Elastic-2.0.txt",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "novel",
+    "script"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "api-key"
+   ],
+   "zh": "bilingual",
+   "use_for": [
+    "short-drama",
+    "pipeline"
+   ],
+   "warning": "elv2",
+   "commercial_block": true,
+   "plugs_into": "仅链接。--commercial 排除。不要复制它的源码或提示词",
+   "url": "https://github.com/dramaclaw/dramaclaw",
+   "stars": 6767,
+   "pushed": "2026-10-08"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "已读 LICENSE 开头：Elastic License 2.0。不能把它当成 MIT/Apache 来商用转售服务。",
+   "verified_at": "2026-10-09",
+   "id": "waoowaoo",
+   "repo": "waooAI/waoowaoo",
+   "category": "pipeline",
+   "kind": "app",
+   "intro_zh": "短剧/漫剧向的端到端应用，许可证为 Elastic License 2.0",
+   "license": "Elastic-2.0",
+   "license_class": "source-available",
+   "license_source": "LICENSE",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "novel",
+    "script"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "api-key",
+    "gpu"
+   ],
+   "zh": "native",
+   "use_for": [
+    "short-drama",
+    "pipeline"
+   ],
+   "warning": "elv2",
+   "commercial_block": true,
+   "plugs_into": "仅链接，排序靠后，--commercial 排除",
+   "url": "https://github.com/waooAI/waoowaoo",
+   "stars": 14434,
+   "pushed": "2026-09-21"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "已读 LICENSE：非商业社区许可，商业使用需另行书面授权。",
+   "verified_at": "2026-10-09",
+   "id": "bigbanana",
+   "repo": "shuyu-labs/BigBanana-AI-Director",
+   "category": "pipeline",
+   "kind": "app",
+   "intro_zh": "BigBanana AI Director。社区许可证写明仅限非商业的学习、研究与评估",
+   "license": "BigBanana-Community-1.0",
+   "license_class": "noncommercial",
+   "license_source": "LICENSE",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "script"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "api-key"
+   ],
+   "zh": "native",
+   "use_for": [
+    "short-drama",
+    "pipeline"
+   ],
+   "warning": "noncommercial",
+   "commercial_block": true,
+   "plugs_into": "仅链接。商用项目不要采用，--commercial 会排除",
+   "url": "https://github.com/shuyu-labs/BigBanana-AI-Director",
+   "stars": 2276,
+   "pushed": "2026-10-06"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "已读 LICENSE：CC BY-NC-SA 4.0，Copyright (c) 2026 AI shotlive Director。",
+   "verified_at": "2026-10-09",
+   "id": "ai-shotlive",
+   "repo": "sorker/ai-shotlive",
+   "category": "pipeline",
+   "kind": "app",
+   "intro_zh": "AI 分镜/短剧工具，许可证为 CC BY-NC-SA 4.0，非商业且相同方式共享",
+   "license": "CC-BY-NC-SA-4.0",
+   "license_class": "noncommercial",
+   "license_source": "LICENSE",
+   "routes": [
+    "B-videogen",
+    "M-method"
+   ],
+   "input": [
+    "script"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "api-key"
+   ],
+   "zh": "bilingual",
+   "use_for": [
+    "short-drama",
+    "pipeline"
+   ],
+   "warning": "noncommercial",
+   "commercial_block": true,
+   "plugs_into": "仅链接。非商用许可，--commercial 排除",
+   "url": "https://github.com/sorker/ai-shotlive",
+   "stars": 331,
+   "pushed": "2026-08-30"
+  },
+  {
+   "archived": false,
+   "maturity": "active",
+   "styles": [],
+   "deps": "",
+   "license_note": "2026-10-09 未找到 LICENSE / COPYING。无许可证即保留所有权利。",
+   "verified_at": "2026-10-09",
+   "id": "director-ai",
+   "repo": "freestylefly/director_ai",
+   "category": "pipeline",
+   "kind": "app",
+   "intro_zh": "短剧导演向项目。仓库没有 LICENSE 文件，只列链接",
+   "license": "NONE",
+   "license_class": "none",
+   "license_source": "(no LICENSE file)",
+   "routes": [
+    "B-videogen"
+   ],
+   "input": [
+    "script"
+   ],
+   "output": [
+    "mp4"
+   ],
+   "cost": [
+    "api-key"
+   ],
+   "zh": "native",
+   "use_for": [
+    "short-drama",
+    "pipeline"
+   ],
+   "warning": "no-license",
+   "commercial_block": true,
+   "plugs_into": "仅链接，不要复制代码。--commercial 排除",
+   "url": "https://github.com/freestylefly/director_ai",
+   "stars": 1786,
+   "pushed": "2026-05-01"
   }
  ]
 }

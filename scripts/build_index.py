@@ -20,7 +20,9 @@ from classify import folder_for
 ROOT = Path(__file__).resolve().parent.parent
 REQUIRED = ["id", "title", "language", "medium", "genre", "source_repo", "source_url", "license", "changes"]
 SOURCE_ORDER = ["YouMind-OpenLab/awesome-seedance-2-prompts", "LearnPrompt/awesome-seedance", "ZeroLu/awesome-seedance",
-                "Emily2040/seedance-2.0", "lixiaoxiao9888-create/manju-laoli-skill", "dexhunter/seedance2-skill", "HBAI-Ltd/Toonflow-app"]
+                "Emily2040/seedance-2.0", "lixiaoxiao9888-create/manju-laoli-skill", "dexhunter/seedance2-skill", "HBAI-Ltd/Toonflow-app",
+                "renoise-ai/awesome-seedance-prompts", "YouMind-OpenLab/awesome-grok-imagine-prompts",
+                "hanshs474/seedance-prompts-mcp", "f/awesome-chatgpt-prompts", "liu-kaining/Awesome-Veo3-Prompts"]
 MEDIUM_ORDER = ["漫剧", "真人", "其他"]
 AUDIT_ZH = {"real-person": "真实人物", "sexual": "性内容", "politics": "政治敏感", "hate": "仇恨", "self-harm": "自残",
             "drugs-weapons": "毒品 / 武器", "gore": "极端血腥", "copyrighted-character": "版权角色 / IP", "brand-ad": "品牌官方广告冒用风险"}
@@ -116,8 +118,10 @@ def stats_block(items, templates):
     also = Counter(a["source_repo"] for it in items for a in it["meta"].get("also_in", []))
     lic = {it["meta"]["source_repo"]: it["meta"]["license"] for it in items}
     src_lo = Counter(it["meta"]["source_repo"] for it in lo)
+    ordered = [s for s in SOURCE_ORDER if src.get(s) or also.get(s)]
+    ordered += sorted(s for s in src if s not in SOURCE_ORDER)
     rows = [[f"[{s}](https://github.com/{s})", src[s], src[s] - src_lo.get(s, 0), src_lo.get(s, 0), also.get(s, 0), lic.get(s, "")]
-            for s in SOURCE_ORDER if src.get(s) or also.get(s)]
+            for s in ordered]
     out = [f"**提示词总数：{n} 条**（跨来源去重后）；另有可复用模板 {len(templates)} 个（见 `templates/`）。",
            f"其中 **{len(tp)} 条** 的提示词版权属于第三方原作者（X/Twitter、微信公众号、博客等，已保留原作者与原帖链接），"
            f"其中 {len(no_trace)} 条上游未给出可追溯的原帖链接（已在文件中标记 `no_traceable_original_post`）。", "",

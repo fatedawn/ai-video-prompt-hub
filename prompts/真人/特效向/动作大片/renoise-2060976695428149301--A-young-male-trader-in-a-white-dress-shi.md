@@ -1,0 +1,185 @@
+---
+id: "renoise-2060976695428149301"
+title: "A young male trader in a white dress shirt sits at a multi-monitor trading…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "动作大片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Story", "Twist", "Photoreal", "Realistic World", "VFX", "Slow-Mo"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060976695428149301.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Cia0"
+original_author_url: "https://x.com/Cia0_exe"
+original_post_url: "https://x.com/Cia0_exe/status/2060976695428149301"
+published: "2026-05-31"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# A young male trader in a white dress shirt sits at a multi-monitor trading…
+
+## 提示词（English）
+
+```text
+A young male trader in a white dress shirt sits at a multi-monitor trading setup in a high-rise office overlooking a city skyline. Suddenly, a massive meteorite streaks across the sky and crashes into the city in the distance, sending a enormous shockwave and giant dust cloud rising into the atmosphere. The office windows shake violently. The trader slowly turns his head, stares at the impact for a brief moment, then turns back to his monitors and punches them hard — screens cracking and falling. He then calmly sits back down, pulls out a cigarette from his shirt pocket, lights it, takes a long slow drag, and leans back in his chair with a completely peaceful smile — totally unbothered by the apocalypse outside. Camera starts as a wide establishing shot of the full office, then slowly zooms out through the window revealing the massive meteorite dust cloud engulfing the distant cityscape, trader becoming a small silhouette against the chaos. Cinematic slow motion, dramatic dust and ember particles floating in the air, warm apocalyptic orange glow filling the room. Photorealistic, 4K cinematic quality.
+
+Mood: dark comedy, unbothered, end of world energy
+Camera: slow zoom out, wide cinematic angle
+Lighting: apocalyptic orange warm glow
+Style: cinematic blockbuster, Christopher Nolan inspired.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060976695428149301.json)
+
+```text
+Un joven comerciante con una camisa blanca se sienta frente a una configuración de múltiples monitores en una oficina en un rascacielos con vista al horizonte de la ciudad. De repente, un meteorito masivo cruza el cielo y se estrella en la ciudad a lo lejos, enviando una enorme onda de choque y una gigantesca nube de polvo que se eleva en la atmósfera. Las ventanas de la oficina tiemblan violentamente. El comerciante gira lentamente la cabeza, observa el impacto por un breve momento, luego vuelve a sus monitores y los golpea con fuerza, haciendo que las pantallas se agrieten y caigan. Luego, se sienta tranquilamente, saca un cigarrillo del bolsillo de su camisa, lo enciende, da una larga y lenta calada, y se recuesta en su silla con una sonrisa completamente pacífica, totalmente indiferente al apocalipsis afuera. La cámara comienza con una toma amplia de todo el despacho, luego se aleja lentamente a través de la ventana revelando la enorme nube de polvo del meteorito envolviendo el paisaje urbano distante, el comerciante convirtiéndose en una pequeña silueta contra el caos. Cámara lenta cinematográfica, partículas dramáticas de polvo y brasas flotando en el aire, un cálido resplandor naranja apocalíptico llenando la habitación. Calidad cinematográfica fotorrealista en 4K.
+
+Estado de ánimo: comedia oscura, indiferente, energía de fin del mundo
+Cámara: alejamiento lento, ángulo cinematográfico amplio
+Iluminación: cálido resplandor naranja apocalíptico
+Estilo: superproducción cinematográfica, inspirado en Christopher Nolan.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060976695428149301.json)
+
+```text
+Un jeune trader en chemise blanche est assis devant un ensemble de moniteurs dans un bureau en hauteur surplombant la ligne d'horizon de la ville. Soudain, une énorme météorite traverse le ciel et s'écrase sur la ville au loin, envoyant une onde de choc massive et un gigantesque nuage de poussière s'élevant dans l'atmosphère. Les fenêtres du bureau tremblent violemment. Le trader tourne lentement la tête, fixe l'impact pendant un bref instant, puis se retourne vers ses moniteurs et les frappe violemment — les écrans se fissurent et tombent. Il s'assoit ensuite calmement, sort une cigarette de la poche de sa chemise, l'allume, tire une longue bouffée lente, et s'adosse à sa chaise avec un sourire complètement paisible — totalement indifférent à l'apocalypse à l'extérieur. La caméra commence par un plan large de l'ensemble du bureau, puis recule lentement à travers la fenêtre révélant le gigantesque nuage de poussière de la météorite engloutissant le paysage urbain lointain, le trader devenant une petite silhouette contre le chaos. Ralenti cinématographique, particules de poussière et de braise flottant dans l'air, lueur orange apocalyptique chaude remplissant la pièce. Qualité cinématographique photoréaliste en 4K.
+
+Ambiance : comédie noire, indifférence, énergie de fin du monde
+Caméra : zoom arrière lent, angle cinématographique large
+Éclairage : lueur orange apocalyptique chaude
+Style : blockbuster cinématographique, inspiré par Christopher Nolan.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] prompt pour tout le monde :
+
+A young male trader in a white dress shirt sits at a multi-monitor trading setup in a high-rise office overlooking a city skyline. Suddenly, a massive meteorite streaks across the sky and crashes into the city in the distance, sending a enormous shockwave and giant dust cloud rising into the atmosphere. The office windows shake violently. The trader slowly turns his head, stares at the impact for a brief moment, then turns back to his monitors and punches them hard — screens cracking and falling. He then calmly sits back down, pulls out a cigarette from his shirt pocket, lights it, takes a long slow drag, and leans back in his chair with a completely peaceful smile — totally unbothered by the apocalypse outside. Camera starts as a wide establishing shot of the full office, then slowly zooms out through the window revealing the massive meteorite dust cloud engulfing the distant cityscape, trader becoming a small silhouette against the chaos. Cinematic slow motion, dramatic dust and ember particles floating in the air, warm apocalyptic orange glow filling the room. Photorealistic, 4K cinematic quality.
+
+Mood: dark comedy, unbothered, end of world energy
+Camera: slow zoom out, wide cinematic angle
+Lighting: apocalyptic orange warm glow
+Style: cinematic blockbuster, Christopher Nolan inspired.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060976695428149301.json)
+
+```text
+---
+若い男性トレーダーが、都市のスカイラインを見下ろす高層オフィスで、マルチモニターのトレーディングセットアップに座っている。突然、巨大な隕石が空を横切り、遠くの都市に衝突し、巨大な衝撃波と巨大な塵の雲が大気中に立ち上る。オフィスの窓が激しく揺れる。トレーダーはゆっくりと頭を回し、衝撃を一瞬見つめた後、再びモニターに向き直り、強く叩く—画面がひび割れ、落ちる。その後、彼は落ち着いて座り直し、シャツのポケットからタバコを取り出し、火をつけ、ゆっくりと長く吸い込み、完全に穏やかな笑顔で椅子に寄りかかる—外の黙示録には全く動じていない。カメラはオフィス全体の広いエスタブリッシングショットから始まり、窓を通してゆっくりとズームアウトし、遠くの都市景観を飲み込む巨大な隕石の塵の雲を明らかにし、トレーダーは混沌の中で小さなシルエットになる。シネマティックなスローモーション、空中に漂う劇的な塵と火の粉、部屋を満たす暖かい黙示録的なオレンジの輝き。フォトリアリスティック、4Kシネマティッククオリティ。
+
+ムード: ダークコメディ、動じない、世界の終わりのエネルギー
+カメラ: スローズームアウト、広いシネマティックアングル
+ライティング: 黙示録的なオレンジの暖かい輝き
+スタイル: シネマティックブロックバスター、クリストファー・ノーランにインスパイアされた。
+
+--- THREAD CONTINUATION ---
+[Thread 1] prompt for everyone:
+
+A young male trader in a white dress shirt sits at a multi-monitor trading setup in a high-rise office overlooking a city skyline. Suddenly, a massive meteorite streaks across the sky and crashes into the city in the distance, sending a enormous shockwave and giant dust cloud rising into the atmosphere. The office windows shake violently. The trader slowly turns his head, stares at the impact for a brief moment, then turns back to his monitors and punches them hard — screens cracking and falling. He then calmly sits back down, pulls out a cigarette from his shirt pocket, lights it, takes a long slow drag, and leans back in his chair with a completely peaceful smile — totally unbothered by the apocalypse outside. Camera starts as a wide establishing shot of the full office, then slowly zooms out through the window revealing the massive meteorite dust cloud engulfing the distant cityscape, trader becoming a small silhouette against the chaos. Cinematic slow motion, dramatic dust and ember particles floating in the air, warm apocalyptic orange glow filling the room. Photorealistic, 4K cinematic quality.
+
+Mood: dark comedy, unbothered, end of world energy
+Camera: slow zoom out, wide cinematic angle
+Lighting: apocalyptic orange warm glow
+Style: cinematic blockbuster, Christopher Nolan inspired.
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060976695428149301.json)
+
+```text
+---
+한 고층 빌딩의 도시 스카이라인을 내려다보는 사무실에서 다중 모니터 거래 설정에 앉아 있는 흰색 드레스 셔츠를 입은 젊은 남성 트레이더. 갑자기 거대한 운석이 하늘을 가로질러 도시 멀리 떨어진 곳에 충돌하면서 엄청난 충격파와 거대한 먼지 구름이 대기로 솟아오릅니다. 사무실 창문이 심하게 흔들립니다. 트레이더는 천천히 고개를 돌려 충돌을 잠시 응시한 후 다시 모니터로 돌아가 강하게 주먹을 날립니다 — 화면이 깨지고 떨어집니다. 그런 다음 그는 침착하게 다시 앉아 셔츠 주머니에서 담배를 꺼내 불을 붙이고 천천히 길게 한 모금을 들이마신 후 완전히 평화로운 미소를 지으며 의자에 기대어 앉습니다 — 밖의 종말에도 전혀 개의치 않는 모습입니다. 카메라는 전체 사무실의 넓은 설정 샷으로 시작하여 천천히 창문을 통해 멀리 있는 도시 풍경을 집어삼키는 거대한 운석 먼지 구름을 드러내며 줌 아웃합니다. 트레이더는 혼란 속에서 작은 실루엣이 됩니다. 영화적인 슬로우 모션, 공중에 떠다니는 극적인 먼지와 불꽃 입자, 방을 채우는 따뜻한 종말론적 오렌지 빛. 포토리얼리스틱, 4K 시네마틱 퀄리티.
+
+무드: 다크 코미디, 개의치 않음, 세상의 끝 에너지
+카메라: 슬로우 줌 아웃, 넓은 시네마틱 앵글
+조명: 종말론적 오렌지 따뜻한 빛
+스타일: 시네마틱 블록버스터, 크리스토퍼 놀란 영감.
+
+--- THREAD CONTINUATION ---
+[Thread 1] prompt for everyone:
+
+A young male trader in a white dress shirt sits at a multi-monitor trading setup in a high-rise office overlooking a city skyline. Suddenly, a massive meteorite streaks across the sky and crashes into the city in the distance, sending a enormous shockwave and giant dust cloud rising into the atmosphere. The office windows shake violently. The trader slowly turns his head, stares at the impact for a brief moment, then turns back to his monitors and punches them hard — screens cracking and falling. He then calmly sits back down, pulls out a cigarette from his shirt pocket, lights it, takes a long slow drag, and leans back in his chair with a completely peaceful smile — totally unbothered by the apocalypse outside. Camera starts as a wide establishing shot of the full office, then slowly zooms out through the window revealing the massive meteorite dust cloud engulfing the distant cityscape, trader becoming a small silhouette against the chaos. Cinematic slow motion, dramatic dust and ember particles floating in the air, warm apocalyptic orange glow filling the room. Photorealistic, 4K cinematic quality.
+
+Mood: dark comedy, unbothered, end of world energy
+Camera: slow zoom out, wide cinematic angle
+Lighting: apocalyptic orange warm glow
+Style: cinematic blockbuster, Christopher Nolan inspired.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060976695428149301.json)
+
+```text
+Um jovem trader masculino em uma camisa social branca está sentado em uma configuração de múltiplos monitores em um escritório em um arranha-céu com vista para o horizonte da cidade. De repente, um enorme meteorito risca o céu e colide com a cidade ao longe, enviando uma onda de choque enorme e uma gigantesca nuvem de poeira subindo na atmosfera. As janelas do escritório tremem violentamente. O trader lentamente vira a cabeça, olha para o impacto por um breve momento, depois volta para seus monitores e os soca com força — as telas racham e caem. Ele então calmamente se senta novamente, tira um cigarro do bolso da camisa, acende, dá uma longa tragada lenta e se recosta na cadeira com um sorriso completamente pacífico — totalmente indiferente ao apocalipse lá fora. A câmera começa com uma tomada ampla de todo o escritório, depois lentamente faz um zoom para fora através da janela revelando a enorme nuvem de poeira do meteorito engolfando a paisagem urbana distante, o trader se tornando uma pequena silhueta contra o caos. Câmera lenta cinematográfica, partículas dramáticas de poeira e brasas flutuando no ar, brilho laranja apocalíptico quente preenchendo a sala. Qualidade cinematográfica fotorrealista em 4K.
+
+Humor: comédia sombria, indiferente, energia de fim de mundo
+Câmera: zoom lento para fora, ângulo cinematográfico amplo
+Iluminação: brilho laranja apocalíptico quente
+Estilo: blockbuster cinematográfico, inspirado em Christopher Nolan.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] prompt para todos:
+
+A young male trader in a white dress shirt sits at a multi-monitor trading setup in a high-rise office overlooking a city skyline. Suddenly, a massive meteorite streaks across the sky and crashes into the city in the distance, sending a enormous shockwave and giant dust cloud rising into the atmosphere. The office windows shake violently. The trader slowly turns his head, stares at the impact for a brief moment, then turns back to his monitors and punches them hard — screens cracking and falling. He then calmly sits back down, pulls out a cigarette from his shirt pocket, lights it, takes a long slow drag, and leans back in his chair with a completely peaceful smile — totally unbothered by the apocalypse outside. Camera starts as a wide establishing shot of the full office, then slowly zooms out through the window revealing the massive meteorite dust cloud engulfing the distant cityscape, trader becoming a small silhouette against the chaos. Cinematic slow motion, dramatic dust and ember particles floating in the air, warm apocalyptic orange glow filling the room. Photorealistic, 4K cinematic quality.
+
+Mood: dark comedy, unbothered, end of world energy
+Camera: slow zoom out, wide cinematic angle
+Lighting: apocalyptic orange warm glow
+Style: cinematic blockbuster, Christopher Nolan inspired.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060976695428149301.json)
+
+```text
+---
+一名年轻的男性交易员穿着白色衬衫，坐在高层办公室的多屏交易设备前，俯瞰城市天际线。突然，一颗巨大的陨石划过天空，撞向远处的城市，产生了巨大的冲击波和巨大的尘云升入大气。办公室的窗户剧烈震动。交易员慢慢转过头，盯着撞击点看了一会儿，然后转回他的显示器，用力砸向它们——屏幕破裂并掉落。他随后平静地坐下来，从衬衫口袋里拿出一支香烟，点燃，慢慢地深吸一口，靠在椅子上，脸上露出完全平静的微笑——对外面的末日景象毫不在意。镜头从整个办公室的广角镜头开始，然后慢慢通过窗户拉远，揭示出巨大的陨石尘云吞没了远处的城市景观，交易员在混乱中变成一个小小的剪影。电影般的慢动作，空气中漂浮着戏剧性的尘埃和火星颗粒，房间里充满了温暖的末日橙色光芒。照片级真实感，4K电影质量。
+
+情绪：黑色幽默，毫不在意，世界末日的能量
+镜头：慢慢拉远，广角电影镜头
+灯光：末日橙色温暖光芒
+风格：电影大片，克里斯托弗·诺兰风格。
+
+--- THREAD CONTINUATION ---
+[Thread 1] prompt for everyone:
+
+A young male trader in a white dress shirt sits at a multi-monitor trading setup in a high-rise office overlooking a city skyline. Suddenly, a massive meteorite streaks across the sky and crashes into the city in the distance, sending a enormous shockwave and giant dust cloud rising into the atmosphere. The office windows shake violently. The trader slowly turns his head, stares at the impact for a brief moment, then turns back to his monitors and punches them hard — screens cracking and falling. He then calmly sits back down, pulls out a cigarette from his shirt pocket, lights it, takes a long slow drag, and leans back in his chair with a completely peaceful smile — totally unbothered by the apocalypse outside. Camera starts as a wide establishing shot of the full office, then slowly zooms out through the window revealing the massive meteorite dust cloud engulfing the distant cityscape, trader becoming a small silhouette against the chaos. Cinematic slow motion, dramatic dust and ember particles floating in the air, warm apocalyptic orange glow filling the room. Photorealistic, 4K cinematic quality.
+
+Mood: dark comedy, unbothered, end of world energy
+Camera: slow zoom out, wide cinematic angle
+Lighting: apocalyptic orange warm glow
+Style: cinematic blockbuster, Christopher Nolan inspired.
+---
+```
+
+## 出处与许可
+
+- 原作者：[Cia0](https://x.com/Cia0_exe) · 原帖：<https://x.com/Cia0_exe/status/2060976695428149301>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060976695428149301.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

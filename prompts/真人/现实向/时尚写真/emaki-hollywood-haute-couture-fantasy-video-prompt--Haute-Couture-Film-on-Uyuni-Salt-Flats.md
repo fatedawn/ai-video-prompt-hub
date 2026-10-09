@@ -1,0 +1,57 @@
+---
+id: "emaki-hollywood-haute-couture-fantasy-video-prompt"
+title: "Haute Couture Film on Uyuni Salt Flats"
+title_en: "Haute Couture Film on Uyuni Salt Flats"
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "时尚写真"
+art_style: null
+tags: ["Seedance 2.0", "Emaki", "person"]
+source_repo: "hanshs474/seedance-prompts-mcp"
+source_url: "https://github.com/hanshs474/seedance-prompts-mcp/blob/05917c359eeeefd3bfbc37fe9b18c56018d22ebc/src/prompts.json#L1"
+license: "MIT"
+license_url: "https://opensource.org/license/mit"
+original_author: "Emaki"
+original_author_url: "https://github.com/hanshs474"
+original_post_url: null
+published: null
+third_party_author: false
+flags: ["example_video_not_copied"]
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Haute Couture Film on Uyuni Salt Flats
+
+> Generate a majestic fashion film like a high-fashion ad against Uyuni's mirror-like salt flats; center the model to emphasize the reflection.
+
+## 提示词（English）
+
+```text
+[Style] Hollywood Haute Couture Fantasy blockbuster, 8K ultra-clear, Photorealistic, High-fashion Editorial Style, Unreal Engine 5 fluid rendering, visual illusion. [Duration] 15 seconds. [Scene] An endless, real-life Salar de Uyuni (Sky Mirror) salt flat. The sky is filled with oppressive dark clouds, and the ground perfectly reflects everything like a mirr
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### Emaki 提供的日本語版本
+
+[位置](https://github.com/hanshs474/seedance-prompts-mcp/blob/05917c359eeeefd3bfbc37fe9b18c56018d22ebc/src/prompts.json#L1)
+
+```text
+【スタイル】ハリウッド級のオートクチュール・ファンタジー大作、8K超高精細、フォトリアリスティック、ハイファッションのエディトリアル調、Unreal Engine 5による流体レンダリング、視覚的なイリュージョン。【尺】15秒。【シーン】どこまでも続く実在のウユニ塩湖（天空の鏡）。空には重く垂れ込めた暗雲が広がり、地表が鏡のようにすべてを完璧に反射する。
+```
+
+## 出处与许可
+
+- 作者：[Emaki](https://github.com/hanshs474)（上游仓库作者 / 贡献者）
+- 收录来源：[hanshs474/seedance-prompts-mcp](https://github.com/hanshs474/seedance-prompts-mcp)，[原文位置](https://github.com/hanshs474/seedance-prompts-mcp/blob/05917c359eeeefd3bfbc37fe9b18c56018d22ebc/src/prompts.json#L1)
+- 上游许可：MIT（[许可说明](https://opensource.org/license/mit)；全文见本仓库 `LICENSES/`）
+- 示例视频仍在上游 CDN，本仓库不收录图片或视频。
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。
+- ⚠️ 标记：example_video_not_copied

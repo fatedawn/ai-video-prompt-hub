@@ -1,0 +1,175 @@
+---
+id: "renoise-2059907274932621764"
+title: "[0-3s] Ocean surface at night. Absolute black water. Massive bioluminescent…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "奇幻怪兽"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Animals", "Creatures", "Photoreal", "Fantasy", "VFX", "Slow-Mo"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059907274932621764.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "𝐌"
+original_author_url: "https://x.com/Strength04_X"
+original_post_url: "https://x.com/Strength04_X/status/2059907274932621764"
+published: "2026-05-28"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# [0-3s] Ocean surface at night. Absolute black water. Massive bioluminescent…
+
+## 提示词（English）
+
+```text
+[0-3s] Ocean surface at night. Absolute black water. Massive bioluminescent shapes moving far below — something enormous ascending. Camera at water surface looking down into abyss.
+[3-7s] Mara erupts from ocean surface riding the neck of a colossal leviathan sea creature — water explosion in every direction. She stands on its head, trident raised, bioluminescent markings blazing electric blue against night sky. Slow motion water cascade.
+[7-11s] The leviathan roars — ancient terrible sound. Mara and creature move as one — her markings sync with its bioluminescence, pulsing together. Camera circles them both in moonlight, capturing scale of creature vs tiny figure commanding it.
+[11-15s] She points trident toward horizon — leviathan turns and charges forward creating massive wake. Camera aerial pulls back showing them cutting across moonlit ocean toward distant coastline. Something ancient heading for the shore. The sea belongs to her.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059907274932621764.json)
+
+```text
+---
+[0-3s] Superficie del océano por la noche. Agua absolutamente negra. Formas bioluminiscentes masivas moviéndose muy por debajo — algo enorme ascendiendo. Cámara en la superficie del agua mirando hacia el abismo.
+[3-7s] Mara emerge de la superficie del océano montando el cuello de una colosal criatura marina leviatán — explosión de agua en todas direcciones. Ella se para sobre su cabeza, tridente en alto, marcas bioluminiscentes brillando en azul eléctrico contra el cielo nocturno. Cascada de agua en cámara lenta.
+[7-11s] El leviatán ruge — sonido antiguo y terrible. Mara y la criatura se mueven como uno solo — sus marcas se sincronizan con la bioluminiscencia de la criatura, pulsando juntas. La cámara los rodea en la luz de la luna, capturando la escala de la criatura frente a la diminuta figura que la comanda.
+[11-15s] Ella apunta el tridente hacia el horizonte — el leviatán gira y avanza creando una estela masiva. La cámara aérea se aleja mostrando cómo cortan el océano iluminado por la luna hacia la costa distante. Algo antiguo se dirige hacia la orilla. El mar le pertenece a ella.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] GPT prompt: A highly detailed realistic character design sheet for "MARA" — a cursed deep sea leviathan rider. Front, side, back view. Age 26, tall athletic build, partially transformed — lower body has bioluminescent scale patches, fingers slightly webbed, gills visible on neck. Wearing barnacle-encrusted dark armor, deep sea creature leather, glowing deep-sea organism lights embedded in suit. Weapons: trident of black deep sea metal, leviathan fang sword. Accessories: bioluminescent blue markings across face and arms that glow in darkness, deep sea coral crown, one eye deep ocean blue one eye solid black. Color palette: deep abyss black, bioluminescent blue, dark teal, pale seafoam, abyssal purple. Character stats panel. White background. Realistic 3D render style.
+
+[Hilo 2] Seedance 2.0 Prompt:- [0-3s] Ocean surface at night. Absolute black water. Massive bioluminescent shapes moving far below — something enormous ascending. Camera at water surface looking down into abyss.
+[3-7s] Mara erupts from ocean surface riding the neck of a colossal leviathan sea creature — water explosion in every direction. She stands on its head, trident raised, bioluminescent markings blazing electric blue against night sky. Slow motion water cascade.
+[7-11s] The leviathan roars — ancient terrible sound. Mara and creature move as one — her markings sync with its bioluminescence, pulsing together. Camera circles them both in moonlight, capturing scale of creature vs tiny figure commanding it.
+[11-15s] She points trident toward horizon — leviathan turns and charges forward creating massive wake. Camera aerial pulls back showing them cutting across moonlit ocean toward distant coastline. Something ancient heading for the shore. The sea belongs to her.
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059907274932621764.json)
+
+```text
+---
+[0-3s] Surface de l'océan la nuit. Eau d'un noir absolu. Des formes bioluminescentes massives se déplacent loin en dessous — quelque chose d'énorme monte. Caméra à la surface de l'eau regardant dans l'abîme.
+[3-7s] Mara émerge de la surface de l'océan chevauchant le cou d'une créature marine léviathan colossale — explosion d'eau dans toutes les directions. Elle se tient sur sa tête, trident levé, marques bioluminescentes flamboyant d'un bleu électrique contre le ciel nocturne. Cascade d'eau au ralenti.
+[7-11s] Le léviathan rugit — un son ancien et terrible. Mara et la créature ne font qu'un — ses marques se synchronisent avec la bioluminescence de la créature, pulsant ensemble. La caméra tourne autour d'eux au clair de lune, capturant l'échelle de la créature par rapport à la petite silhouette qui la commande.
+[11-15s] Elle pointe le trident vers l'horizon — le léviathan se tourne et fonce en avant, créant un sillage massif. La caméra aérienne recule, les montrant traversant l'océan illuminé par la lune vers une côte lointaine. Quelque chose d'ancien se dirige vers le rivage. La mer lui appartient.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] GPT prompt: Une feuille de conception de personnage réaliste et très détaillée pour "MARA" — une cavalière de léviathan des profondeurs maudite. Vue de face, de côté, de dos. Âge 26 ans, silhouette athlétique et grande, partiellement transformée — partie inférieure du corps avec des plaques d'écailles bioluminescentes, doigts légèrement palmés, branchies visibles sur le cou. Porte une armure sombre incrustée de bernacles, cuir de créature des profondeurs, lumières d'organismes des profondeurs intégrées dans le costume. Armes : trident en métal noir des profondeurs, épée de croc de léviathan. Accessoires : marques bioluminescentes bleues sur le visage et les bras qui brillent dans l'obscurité, couronne de corail des profondeurs, un œil bleu océan profond, un œil noir solide. Palette de couleurs : noir abysse profond, bleu bioluminescent, bleu-vert foncé, écume de mer pâle, violet abyssal. Panneau de statistiques du personnage. Fond blanc. Style de rendu 3D réaliste.
+
+[Fil 2] Seedance 2.0 Prompt:- [0-3s] Ocean surface at night. Absolute black water. Massive bioluminescent shapes moving far below — something enormous ascending. Camera at water surface looking down into abyss.
+[3-7s] Mara erupts from ocean surface riding the neck of a colossal leviathan sea creature — water explosion in every direction. She stands on its head, trident raised, bioluminescent markings blazing electric blue against night sky. Slow motion water cascade.
+[7-11s] The leviathan roars — ancient terrible sound. Mara and creature move as one — her markings sync with its bioluminescence, pulsing together. Camera circles them both in moonlight, capturing scale of creature vs tiny figure commanding it.
+[11-15s] She points trident toward horizon — leviathan turns and charges forward creating massive wake. Camera aerial pulls back showing them cutting across moonlit ocean toward distant coastline. Something ancient heading for the shore. The sea belongs to her.
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059907274932621764.json)
+
+```text
+---
+[0-3s] 夜の海面。絶対的な黒い水。巨大な生物発光の形が遠く下で動いている—何か巨大なものが上昇している。カメラは水面にあり、深淵を見下ろしている。
+[3-7s] マラが海面から噴出し、巨大なリヴァイアサンの海の生物の首に乗っている—水が四方に爆発する。彼女はその頭に立ち、トライデントを掲げ、夜空に対して電気ブルーに輝く生物発光の模様を見せている。スローモーションで水が流れる。
+[7-11s] リヴァイアサンが咆哮する—古代の恐ろしい音。マラと生物は一体となって動く—彼女の模様はその生物発光と同期し、一緒に脈動する。カメラは月光の中で彼らを円を描くように回り、巨大な生物とそれを指揮する小さな人物のスケールを捉える。
+[11-15s] 彼女はトライデントを地平線に向ける—リヴァイアサンは方向を変え、前方に突進し、巨大な波を生み出す。カメラは空中から引いて、彼らが月明かりの海を切り裂いて遠くの海岸線に向かう様子を見せる。何か古代のものが岸に向かっている。海は彼女のものだ。
+
+--- THREAD CONTINUATION ---
+[Thread 1] GPT プロンプト: 「MARA」の非常に詳細なリアルなキャラクターデザインシート—呪われた深海のリヴァイアサンライダー。前面、側面、背面ビュー。年齢26歳、背が高くアスレチックな体型、部分的に変身—下半身には生物発光の鱗のパッチ、指はやや水かき状、首には鰓が見える。フジツボが付着した暗い鎧、深海生物の革、スーツに埋め込まれた発光する深海生物のライトを着用。武器: 黒い深海金属のトライデント、リヴァイアサンの牙の剣。アクセサリー: 暗闇で光る顔と腕にかけての生物発光の青い模様、深海のサンゴの冠、一つの目は深海の青、もう一つの目は完全に黒。カラーパレット: 深淵の黒、生物発光の青、ダークティール、淡いシーフォーム、アビサルパープル。キャラクターステータスパネル。白い背景。リアルな3Dレンダースタイル。
+
+[Thread 2] Seedance 2.0 Prompt:- [0-3s] Ocean surface at night. Absolute black water. Massive bioluminescent shapes moving far below — something enormous ascending. Camera at water surface looking down into abyss.
+[3-7s] Mara erupts from ocean surface riding the neck of a colossal leviathan sea creature — water explosion in every direction. She stands on its head, trident raised, bioluminescent markings blazing electric blue against night sky. Slow motion water cascade.
+[7-11s] The leviathan roars — ancient terrible sound. Mara and creature move as one — her markings sync with its bioluminescence, pulsing together. Camera circles them both in moonlight, capturing scale of creature vs tiny figure commanding it.
+[11-15s] She points trident toward horizon — leviathan turns and charges forward creating massive wake. Camera aerial pulls back showing them cutting across moonlit ocean toward distant coastline. Something ancient heading for the shore. The sea belongs to her.
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059907274932621764.json)
+
+```text
+---
+[0-3초] 밤의 바다 표면. 절대적인 검은 물. 거대한 발광체들이 멀리 아래에서 움직이고 있다 — 거대한 무언가가 상승 중이다. 카메라는 물 표면에서 심연을 내려다보고 있다.
+[3-7초] 마라가 거대한 레비아탄 해양 생물의 목을 타고 바다 표면에서 솟아오른다 — 사방으로 물이 폭발한다. 그녀는 그 머리 위에 서서 삼지창을 들고, 발광하는 표식이 밤하늘을 배경으로 전기 블루로 빛난다. 슬로우 모션으로 물이 쏟아진다.
+[7-11초] 레비아탄이 포효한다 — 고대의 무시무시한 소리. 마라와 생물은 하나처럼 움직인다 — 그녀의 표식이 생물의 발광체와 동기화되어 함께 맥동한다. 카메라는 달빛 아래 그들을 둘러싸며, 생물의 규모와 그것을 지휘하는 작은 인물을 포착한다.
+[11-15초] 그녀가 삼지창을 수평선 쪽으로 가리킨다 — 레비아탄이 방향을 틀어 앞으로 돌진하며 거대한 물결을 만든다. 카메라는 공중에서 뒤로 당겨 그들이 달빛 아래의 바다를 가로질러 먼 해안선으로 향하는 모습을 보여준다. 고대의 무언가가 해안으로 향하고 있다. 바다는 그녀의 것이다.
+
+--- THREAD CONTINUATION ---
+[Thread 1] GPT 프롬프트: "MARA"의 매우 상세하고 현실적인 캐릭터 디자인 시트 — 저주받은 심해 레비아탄 라이더. 앞, 옆, 뒤 모습. 나이 26세, 키가 크고 운동적인 체격, 부분적으로 변형됨 — 하체에 발광하는 비늘 패치, 손가락이 약간 물갈퀴 모양, 목에 아가미가 보임. 따개비가 붙은 어두운 갑옷, 심해 생물 가죽, 슈트에 박힌 발광 심해 생물 조명. 무기: 검은 심해 금속의 삼지창, 레비아탄 송곳니 검. 액세서리: 얼굴과 팔에 어둠 속에서 빛나는 발광 블루 표식, 심해 산호 왕관, 한쪽 눈은 깊은 바다 블루, 다른 쪽 눈은 완전한 검정. 색상 팔레트: 깊은 심연의 검정, 발광 블루, 어두운 청록색, 옅은 바다 거품색, 심연의 보라색. 캐릭터 통계 패널. 흰색 배경. 현실적인 3D 렌더 스타일.
+
+[Thread 2] Seedance 2.0 Prompt:- [0-3s] Ocean surface at night. Absolute black water. Massive bioluminescent shapes moving far below — something enormous ascending. Camera at water surface looking down into abyss.
+[3-7s] Mara erupts from ocean surface riding the neck of a colossal leviathan sea creature — water explosion in every direction. She stands on its head, trident raised, bioluminescent markings blazing electric blue against night sky. Slow motion water cascade.
+[7-11s] The leviathan roars — ancient terrible sound. Mara and creature move as one — her markings sync with its bioluminescence, pulsing together. Camera circles them both in moonlight, capturing scale of creature vs tiny figure commanding it.
+[11-15s] She points trident toward horizon — leviathan turns and charges forward creating massive wake. Camera aerial pulls back showing them cutting across moonlit ocean toward distant coastline. Something ancient heading for the shore. The sea belongs to her.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059907274932621764.json)
+
+```text
+---
+[0-3s] Superfície do oceano à noite. Água absolutamente negra. Formas bioluminescentes maciças se movendo bem abaixo — algo enorme ascendendo. Câmera na superfície da água olhando para o abismo.
+[3-7s] Mara irrompe da superfície do oceano montando o pescoço de uma colossal criatura marinha leviatã — explosão de água em todas as direções. Ela está em pé sobre sua cabeça, tridente erguido, marcas bioluminescentes brilhando em azul elétrico contra o céu noturno. Cascata de água em câmera lenta.
+[7-11s] O leviatã ruge — som antigo e terrível. Mara e a criatura se movem como um só — suas marcas sincronizam com a bioluminescência da criatura, pulsando juntas. A câmera circula ambos sob a luz da lua, capturando a escala da criatura versus a pequena figura que a comanda.
+[11-15s] Ela aponta o tridente em direção ao horizonte — o leviatã se vira e avança criando uma esteira maciça. A câmera aérea se afasta mostrando-os cortando o oceano iluminado pela lua em direção à costa distante. Algo antigo se dirigindo para a praia. O mar pertence a ela.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] GPT prompt: Uma folha de design de personagem altamente detalhada e realista para "MARA" — uma cavaleira de leviatã do mar profundo amaldiçoada. Vista frontal, lateral, traseira. Idade 26, porte atlético alto, parcialmente transformada — parte inferior do corpo com manchas de escamas bioluminescentes, dedos levemente palmados, guelras visíveis no pescoço. Vestindo armadura escura incrustada de cracas, couro de criatura do mar profundo, luzes de organismos do mar profundo embutidas no traje. Armas: tridente de metal negro do mar profundo, espada de presa de leviatã. Acessórios: marcas bioluminescentes azuis no rosto e braços que brilham no escuro, coroa de coral do mar profundo, um olho azul oceano profundo e um olho totalmente negro. Paleta de cores: preto abissal profundo, azul bioluminescente, verde-azulado escuro, espuma do mar pálida, roxo abissal. Painel de estatísticas do personagem. Fundo branco. Estilo de renderização 3D realista.
+
+[Thread 2] Seedance 2.0 Prompt:- [0-3s] Ocean surface at night. Absolute black water. Massive bioluminescent shapes moving far below — something enormous ascending. Camera at water surface looking down into abyss.
+[3-7s] Mara erupts from ocean surface riding the neck of a colossal leviathan sea creature — water explosion in every direction. She stands on its head, trident raised, bioluminescent markings blazing electric blue against night sky. Slow motion water cascade.
+[7-11s] The leviathan roars — ancient terrible sound. Mara and creature move as one — her markings sync with its bioluminescence, pulsing together. Camera circles them both in moonlight, capturing scale of creature vs tiny figure commanding it.
+[11-15s] She points trident toward horizon — leviathan turns and charges forward creating massive wake. Camera aerial pulls back showing them cutting across moonlit ocean toward distant coastline. Something ancient heading for the shore. The sea belongs to her.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059907274932621764.json)
+
+```text
+---
+[0-3秒] 夜晚的海面。绝对黑暗的水面。巨大的生物发光形状在深处移动——某种巨大的东西正在上升。镜头在水面上向下看入深渊。
+[3-7秒] 玛拉从海面爆发而出，骑在巨型利维坦海洋生物的脖子上——水花四溅。她站在它的头上，三叉戟高举，生物发光的标记在夜空中闪耀着电蓝色。慢动作的水流瀑布。
+[7-11秒] 利维坦咆哮——古老而可怕的声音。玛拉与生物合为一体——她的标记与它的生物发光同步，脉动在一起。镜头在月光下环绕他们，捕捉生物的规模与指挥它的小身影的对比。
+[11-15秒] 她用三叉戟指向地平线——利维坦转身向前冲去，激起巨大的浪花。航拍镜头拉远，显示他们在月光照耀的海洋上切割前行，朝向遥远的海岸线。某种古老的东西正向岸边驶去。海洋属于她。
+
+--- 线程继续 ---
+[线程 1] GPT 提示：为“玛拉”设计一个高度详细的现实角色设计图——一个被诅咒的深海利维坦骑士。正面、侧面、背面视图。年龄26岁，高大健美的身材，部分变形——下半身有生物发光的鳞片，手指略微蹼化，颈部可见鳃。穿着附有藤壶的黑暗盔甲，深海生物皮革，嵌入了发光的深海生物灯。武器：黑色深海金属的三叉戟，利维坦獠牙剑。配饰：面部和手臂上有在黑暗中发光的生物发光蓝色标记，深海珊瑚皇冠，一只眼睛是深海蓝色，另一只眼睛是纯黑色。色彩调色板：深渊黑色，生物发光蓝色，深青色，浅海泡色，深渊紫色。角色状态面板。白色背景。现实的3D渲染风格。
+
+[线程 2] Seedance 2.0 提示：- [0-3秒] 夜晚的海面。绝对黑暗的水面。巨大的生物发光形状在深处移动——某种巨大的东西正在上升。镜头在水面上向下看入深渊。
+[3-7秒] 玛拉从海面爆发而出，骑在巨型利维坦海洋生物的脖子上——水花四溅。她站在它的头上，三叉戟高举，生物发光的标记在夜空中闪耀着电蓝色。慢动作的水流瀑布。
+[7-11秒] 利维坦咆哮——古老而可怕的声音。玛拉与生物合为一体——她的标记与它的生物发光同步，脉动在一起。镜头在月光下环绕他们，捕捉生物的规模与指挥它的小身影的对比。
+[11-15秒] 她用三叉戟指向地平线——利维坦转身向前冲去，激起巨大的浪花。航拍镜头拉远，显示他们在月光照耀的海洋上切割前行，朝向遥远的海岸线。某种古老的东西正向岸边驶去。海洋属于她。
+---
+```
+
+## 出处与许可
+
+- 原作者：[𝐌](https://x.com/Strength04_X) · 原帖：<https://x.com/Strength04_X/status/2059907274932621764>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059907274932621764.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

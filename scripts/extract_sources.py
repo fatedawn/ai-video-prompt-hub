@@ -76,7 +76,7 @@ YM_LANG = {"English": "en", "中文": "zh", "日本語": "ja"}
 YM_FILE = {"en": "README.md", "zh": "README_zh.md", "ja": "README_ja-JP.md"}
 
 
-def parse_youmind_text(text_all):
+def parse_youmind_text(text_all, id_re=r"seedance-2-0-prompts\?id=(\d+)"):
     lines = text_all.split("\n")
     heads = [i for i, l in enumerate(lines) if l.startswith("### ")]
     out = {}
@@ -88,7 +88,7 @@ def parse_youmind_text(text_all):
                 break
         block = lines[h:end]
         text = "\n".join(block)
-        idm = re.search(r"seedance-2-0-prompts\?id=(\d+)", text)
+        idm = re.search(id_re, text)
         fences = list(iter_fences(block))
         if not idm or not fences:
             continue
@@ -104,10 +104,12 @@ def parse_youmind_text(text_all):
                 desc = nxt[0].strip() if nxt else None; break
         links = re.findall(r"\*\*([^*\[\]]+?)[:：]\*\*\s*\[([^\]]*)\]\(([^)\s]*)\)", text)
         pub = re.search(r"\*\*[^*\[\]]+?[:：]\*\*\s*((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]* \d{1,2}, \d{4})", text)
+        page_m = re.search(r"\((https://youmind\.com/[^)\s]*prompts\?id=\d+)\)", text)
+        page = page_m.group(1) if page_m else None
         out[idm.group(1)] = dict(title=title, lang=YM_LANG.get(lang.group(1)) if lang else None, desc=desc,
                                  prompt="\n".join(content), line=h + 1, author=links[0] if links else None,
                                  source=links[1] if len(links) > 1 else None, published=pub.group(1) if pub else None,
-                                 page=re.search(r"\((https://youmind\.com/[^)]*seedance-2-0-prompts\?id=\d+)\)", text).group(1))
+                                 page=page)
     return out
 
 
@@ -118,7 +120,7 @@ def parse_youmind_readme(ctx, rel):
     return out
 
 
-def youmind_history(repo, rel, head_commit):
+def youmind_history(repo, rel, head_commit, id_re=None):
     """YouMind regenerates its README several times a day from its CMS and shows a different set of 100 prompts each
     time. Every committed version is published under the repo's CC BY 4.0 licence, so we walk the README history (newest
     first) and keep, per prompt id, the most recent committed version, with a permalink to that commit."""
@@ -134,7 +136,7 @@ def youmind_history(repo, rel, head_commit):
         if blob in seen_blobs:
             continue
         seen_blobs.add(blob)
-        for pid, v in parse_youmind_text(subprocess.check_output(G + ["cat-file", "-p", blob], text=True)).items():
+        for pid, v in parse_youmind_text(subprocess.check_output(G + ["cat-file", "-p", blob], text=True), **({"id_re": id_re} if id_re else {})).items():
             if pid not in out:
                 v["commit"] = c
                 out[pid] = v

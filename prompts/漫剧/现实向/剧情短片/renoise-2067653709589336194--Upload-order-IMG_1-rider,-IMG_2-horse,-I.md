@@ -1,0 +1,441 @@
+---
+id: "renoise-2067653709589336194"
+title: "Upload order: @IMG_1 rider, @IMG_2 horse, @IMG_3 lariat, @IMG_4 charging steer…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "漫剧"
+direction: "现实向"
+genre: "剧情短片"
+art_style: "2D日漫"
+tags: ["Seedance 2.0", "Renoise", "Action", "Chase", "Anime 2D", "Realistic World", "FPV & Aerial", "Slow-Mo"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067653709589336194.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Mike Miller"
+original_author_url: "https://x.com/pt5films"
+original_post_url: "https://x.com/pt5films/status/2067653709589336194"
+published: "2026-06-18"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Upload order: @IMG_1 rider, @IMG_2 horse, @IMG_3 lariat, @IMG_4 charging steer…
+
+## 提示词（English）
+
+```text
+Upload order: @IMG_1 rider, @IMG_2 horse, @IMG_3 lariat, @IMG_4 charging steer, @IMG_5 salt flat.
+FORMAT: 15s / 6 shots / breathless, kinetic, explosive / no dialogue
+SUBJECTS: @IMG_1 The Rider: dust-caked leather chaps and vest, bandana over the mouth; @IMG_2 The Horse: lean working horse mid-gallop, lathered coat
+PROPS: @IMG_3 braided rawhide lariat mid-throw; @IMG_4 charging longhorn steer, wide horns, hooves throwing dust
+ENVIRONMENT: @IMG_5 vast cracked salt flat under a swollen blood-red sun, churning wall of stampeding cattle, heat haze
+COLOR LOGIC: painterly 2D animation, hand-inked linework, heavy chiaroscuro, blood-red sky and salt-white ground with dust-amber and deep umber
+
+[00:00-00:02] [WIDE AERIAL] @IMG_5 under the blood-red sun, the herd thundering, @IMG_1 on @IMG_2 small in frame charging in.
+[00:02-00:04] [LOW TRACKING, ALONGSIDE] @IMG_2 galloping flat-out, hooves hammering, @IMG_1 rising in the stirrups.
+[00:04-00:07] [MEDIUM, OVERHEAD SWING] @IMG_1 swings @IMG_3 overhead in fast loops.
+[00:07-00:09] [FOLLOW THE ROPE] He hurls @IMG_3 and it snaps taut around @IMG_4.
+[00:09-00:11] [HARD CUT SIDEWAYS] @IMG_2 cuts violently sideways as the rider is wrenched against the pull.
+[00:11-00:15] [SPEED BLUR, LOW] The herd surges past in a blur of horns and dust as the rider hauls back hard under the blood-red sun.
+No music. Ambient: thundering hooves, bellowing cattle, snapping rope and creaking leather, wind, the rider’s grunts.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067653709589336194.json)
+
+```text
+Ordre de téléchargement : @IMG_1 cavalier, @IMG_2 cheval, @IMG_3 lasso, @IMG_4 bouvillon en charge, @IMG_5 plaine salée.
+FORMAT : 15s / 6 plans / haletant, cinétique, explosif / pas de dialogue
+SUJETS : @IMG_1 Le Cavalier : chaps et gilet en cuir couverts de poussière, bandana sur la bouche ; @IMG_2 Le Cheval : cheval de travail élancé en plein galop, pelage en sueur
+ACCESSOIRES : @IMG_3 lasso en cuir brut tressé en plein lancer ; @IMG_4 bouvillon longhorn en charge, larges cornes, sabots soulevant la poussière
+ENVIRONNEMENT : @IMG_5 vaste plaine salée craquelée sous un soleil rouge sang gonflé, mur tourbillonnant de bétail en stampede, brume de chaleur
+LOGIQUE DE COULEUR : animation 2D picturale, encrage à la main, fort clair-obscur, ciel rouge sang et sol blanc sel avec ambre poussiéreux et ombre profonde
+
+[00:00-00:02] [VUE AÉRIENNE LARGE] @IMG_5 sous le soleil rouge sang, le troupeau tonnant, @IMG_1 sur @IMG_2 petit dans le cadre en charge.
+[00:02-00:04] [SUIVI BAS, À CÔTÉ] @IMG_2 galopant à fond, sabots martelant, @IMG_1 se levant dans les étriers.
+[00:04-00:07] [MOYEN, BALANCEMENT AU-DESSUS] @IMG_1 balance @IMG_3 au-dessus de la tête en boucles rapides.
+[00:07-00:09] [SUIVRE LA CORDE] Il lance @IMG_3 et elle se tend autour de @IMG_4.
+[00:09-00:11] [COUPE BRUSQUE LATÉRALE] @IMG_2 coupe violemment sur le côté alors que le cavalier est tiré contre la traction.
+[00:11-00:15] [FLUO VITESSE, BAS] Le troupeau passe dans un flou de cornes et de poussière alors que le cavalier tire fort sous le soleil rouge sang.
+Pas de musique. Ambiance : sabots tonnants, bétail beuglant, corde claquant et cuir grinçant, vent, grognements du cavalier.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Flux de travail :
+1. Créé les fiches de personnages dans Midjourney, cavalier et cheval, multiples angles sur fond blanc pour que les designs restent cohérents.
+2. Créé chaque objet comme sa propre fiche de référence dans Midjourney, fond blanc, pas de mains, pour que les accessoires soient clairs.
+3. Créé le lieu dans Midjourney sans personnes dans le cadre.
+4. Animé dans Seedance 2.0. Téléchargé les deux personnages, les deux objets et le lieu comme références, les a tagués dans l'ordre, et a exécuté un prompt de quinze secondes en six plans sur eux.
+5. Enfin, créé la musique dans Suno.
+
+Prompts :
+
+Fiches de personnages (Midjourney) :
+fiche de référence de personnage, cavalier endurci de la prairie, chaps et gilet en cuir couverts de poussière, bandana noué sur la bouche, lasso enroulé, mains gantées, peau craquelée par le soleil, vue complète du corps sous plusieurs angles, vues de face, de côté et de dos, plus une pose dynamique en se tenant dans les étriers balançant une corde au-dessus de la tête, fond blanc uni, design de personnage cohérent, animation 2D picturale, encrage à la main, fort clair-obscur, rouge sang et blanc sel avec ambre poussiéreux et ombre profonde, grain et mouvement, influence Takeshi Koike Redline –v 8.1 –style raw –ar 16:9
+
+fiche de référence de personnage, cheval de travail élancé en plein galop, pelage en sueur, narines évasées et oreilles plaquées, selle et harnais usés, vue complète du corps sous plusieurs angles, vues de face, de côté et de dos, plus une pose dynamique coupant fort sur le côté, fond blanc uni, animation 2D picturale, encrage à la main, fort clair-obscur, ambre poussiéreux et ombre profonde avec lumière de bord rouge sang, puissance et vitesse, influence Takeshi Koike Redline –v 8.1 –style raw –ar 16:9
+
+Objets (Midjourney) :
+
+fiche de référence d'objet, lasso en cuir brut tressé en plein lancer, boucle enroulée figée en mouvement, fibres usées effilochées, multiples angles, vues de face, de côté, de dos et trois-quarts, isolé sur fond blanc uni, pas de mains ou de parties du corps, animation 2D picturale, encrage à la main, fort clair-obscur, ambre poussiéreux et blanc os avec lueur rouge sang, mouvement et tension, influence Takeshi Koike Redline –v 8.1 –style raw –ar 16:9 –pas de mains, doigts, personnes, corps
+
+fiche de référence d'objet, bouvillon longhorn en charge, tête baissée et larges cornes, muscles tendus, sabots soulevant la poussière, multiples angles, vues de face, de côté, de dos et trois-quarts, isolé sur fond blanc uni, pas de mains ou de parties du corps, animation 2D picturale, encrage à la main, fort clair-obscur, ombre profonde et ambre poussiéreux avec lumière de bord rouge sang, puissance brute, influence Takeshi Koike Redline –v 8.1 –style raw –ar 16:9 –pas de mains, doigts, personnes, corps
+
+Lieu (Midjourney) :
+
+vaste plaine salée craquelée sous un soleil rouge sang gonflé, horizon plat sans fin, mur tourbillonnant de bétail en stampede soulevant la poussière, lumière brûlante basse rasant le sol, pas de personnes, échelle immense et brume de chaleur, animation 2D picturale, encrage à la main, fort clair-obscur, ciel rouge sang et sol blanc sel avec ambre poussiéreux et ombre profonde, brut et cinétique, influence Takeshi Koike Redline –v 8.1 –style raw –ar 16:9 –pas de personnes
+
+Seedance 2.0 :
+
+Ordre de téléchargement : @IMG_1 cavalier, @IMG_2 cheval, @IMG_3 lasso, @IMG_4 bouvillon en charge, @IMG_5 plaine salée.
+FORMAT : 15s / 6 plans / haletant, cinétique, explosif / pas de dialogue
+SUJETS : @IMG_1 Le Cavalier : chaps et gilet en cuir couverts de poussière, bandana sur la bouche ; @IMG_2 Le Cheval : cheval de travail élancé en plein galop, pelage en sueur
+ACCESSOIRES : @IMG_3 lasso en cuir brut tressé en plein lancer ; @IMG_4 bouvillon longhorn en charge, larges cornes, sabots soulevant la poussière
+ENVIRONNEMENT : @IMG_5 vaste plaine salée craquelée sous un soleil rouge sang gonflé, mur tourbillonnant de bétail en stampede, brume de chaleur
+LOGIQUE DE COULEUR : animation 2D picturale, encrage à la main, fort clair-obscur, ciel rouge sang et sol blanc sel avec ambre poussiéreux et ombre profonde
+
+[Fil 2] CHRONOLOGIE :
+[00:00-00:02] [VUE AÉRIENNE LARGE] @IMG_5 sous le soleil rouge sang, le troupeau tonnant, @IMG_1 sur @IMG_2 petit dans le cadre en charge.
+[00:02-00:04] [SUIVI BAS, À CÔTÉ] @IMG_2 galopant à fond, sabots martelant, @IMG_1 se levant dans les étriers.
+[00:04-00:07] [MOYEN, BALANCEMENT AU-DESSUS] @IMG_1 balance @IMG_3 au-dessus de la tête en boucles rapides.
+[00:07-00:09] [SUIVRE LA CORDE] Il lance @IMG_3 et elle se tend autour de @IMG_4.
+[00:09-00:11] [COUPE BRUSQUE LATÉRALE] @IMG_2 coupe violemment sur le côté alors que le cavalier est tiré contre la traction.
+[00:11-00:15] [FLUO VITESSE, BAS] Le troupeau passe dans un flou de cornes et de poussi
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067653709589336194.json)
+
+```text
+---
+アップロード順序: @IMG_1 ライダー, @IMG_2 馬, @IMG_3 ラリアット, @IMG_4 突進する牛, @IMG_5 塩の平原。
+フォーマット: 15秒 / 6ショット / 息を呑むような、動的で爆発的 / セリフなし
+被写体: @IMG_1 ライダー: ほこりまみれの革のチャップスとベスト、口元にバンダナ; @IMG_2 馬: 疲れたコートの痩せた作業馬、全速力で走る
+小道具: @IMG_3 編み込まれた生皮のラリアット、投げる途中; @IMG_4 突進するロングホーン牛、広い角、ほこりを巻き上げる蹄
+環境: @IMG_5 広大なひび割れた塩の平原、膨れ上がった血のように赤い太陽の下、突進する牛の壁、熱のかげろう
+色の論理: 絵画的な2Dアニメーション、手描きのインクライン、重厚な明暗法、血のように赤い空と塩のように白い地面、ほこりの琥珀色と深い焦げ茶色
+
+[00:00-00:02] [ワイドエアリアル] @IMG_5 血のように赤い太陽の下、群れが轟音を立てて、@IMG_1 が @IMG_2 に乗ってフレーム内で小さく突進。
+[00:02-00:04] [低い追跡、横並び] @IMG_2 が全速力で駆け、蹄が地面を叩き、@IMG_1 が鐙に立ち上がる。
+[00:04-00:07] [中間、頭上スイング] @IMG_1 が @IMG_3 を頭上で速く回す。
+[00:07-00:09] [ロープを追う] 彼が @IMG_3 を投げ、それが @IMG_4 にピンと張る。
+[00:09-00:11] [横に激しくカット] @IMG_2 が激しく横に切り込み、ライダーが引っ張られる。
+[00:11-00:15] [スピードブラー、低い] 群れが角とほこりのぼやけた中を通り過ぎ、ライダーが血のように赤い太陽の下で激しく引き戻す。
+音楽なし。環境音: 轟音を立てる蹄、吠える牛、鳴るロープときしむ革、風、ライダーのうめき声。
+
+--- スレッド継続 ---
+[スレッド1] ワークフロー:
+1. Midjourneyでキャラクターシートを作成し、ライダーと馬、デザインを固定するために白背景で複数の角度から。
+2. 各オブジェクトをMidjourneyで独自の参照シートとして作成し、白背景で手や体の部分がないようにして小道具を明確に。
+3. Midjourneyで人がフレームに入らないようにしてロケーションを作成。
+4. Seedance 2.0でアニメーション化。両キャラクター、両オブジェクト、ロケーションを参照としてアップロードし、順番にタグ付けし、6ショット15秒のプロンプトを実行。
+5. 最後に、Sunoで音楽を作成。
+
+プロンプト:
+
+キャラクターシート (Midjourney):
+キャラクター参照シート、硬化したレンジライダー、ほこりまみれの革のチャップスとベスト、口元に結ばれたバンダナ、巻かれたラリアット、手袋をはめた手、日焼けした肌、複数の角度からの全身ターンアラウンド、正面、側面、背面ビュー、さらに鐙に立ってロープを頭上で振る動的なアクションポーズ1つ、白背景、一貫したキャラクターデザイン、絵画的な2Dアニメーション、手描きのインクライン、重厚な明暗法、血のように赤と塩のように白、ほこりの琥珀色と深い焦げ茶色、砂塵と動き、Takeshi Koike Redlineの影響 –v 8.1 –style raw –ar 16:9
+
+キャラクター参照シート、全速力で走る痩せた作業馬、泡立つコート、広がった鼻孔とピンと立った耳、使い古された鞍と馬具、複数の角度からの全身ターンアラウンド、正面、側面、背面ビュー、さらに横に激しく切り込む動的なポーズ1つ、白背景、絵画的な2Dアニメーション、手描きのインクライン、重厚な明暗法、ほこりの琥珀色と深い焦げ茶色、血のように赤い縁取りの光、力と速度、Takeshi Koike Redlineの影響 –v 8.1 –style raw –ar 16:9
+
+オブジェクト (Midjourney):
+
+オブジェクト参照シート、編み込まれた生皮のラリアット、投げる途中の巻かれたループ、擦り切れた繊維、複数の角度、正面、側面、背面、三四分の一ビュー、白背景に孤立、手や体の部分なし、絵画的な2Dアニメーション、手描きのインクライン、重厚な明暗法、ほこりの琥珀色と骨のように白い色、血のように赤い輝き、動きと緊張、Takeshi Koike Redlineの影響 –v 8.1 –style raw –ar 16:9 –手、指、人、体なし
+
+オブジェクト参照シート、単一の突進するロングホーン牛、下げた頭と広い角、緊張した筋肉、ほこりを巻き上げる蹄、複数の角度、正面、側面、背面、三四分の一ビュー、白背景に孤立、手や体の部分なし、絵画的な2Dアニメーション、手描きのインクライン、重厚な明暗法、深い焦げ茶色とほこりの琥珀色、血のように赤い縁取りの光、原始的な力、Takeshi Koike Redlineの影響 –v 8.1 –style raw –ar 16:9 –手、指、人、体なし
+
+ロケーション (Midjourney):
+
+膨れ上がった血のように赤い太陽の下の広大なひび割れた塩の平原、果てしない平らな地平線、ほこりを巻き上げる突進する牛の壁、低く燃える光が地面を横切る、人物なし、巨大なスケールと熱のかげろう、絵画的な2Dアニメーション、手描きのインクライン、重厚な明暗法、血のように赤い空と塩のように白い地面、ほこりの琥珀色と深い焦げ茶色、生々しく動的、Takeshi Koike Redlineの影響 –v 8.1 –style raw –ar 16:9 –人物なし
+
+Seedance 2.0:
+
+アップロード順序: @IMG_1 ライダー, @IMG_2 馬, @IMG_3 ラリアット, @IMG_4 突進する牛, @IMG_5 塩の平原。
+フォーマット: 15秒 / 6ショット / 息を呑むような、動的で爆発的 / セリフなし
+被写体: @IMG_1 ライダー: ほこりまみれの革のチャップスとベスト、口元にバンダナ; @IMG_2 馬: 疲れたコートの痩せた作業馬、全速力で走る
+小道具
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067653709589336194.json)
+
+```text
+---
+Ordem de upload: @IMG_1 cavaleiro, @IMG_2 cavalo, @IMG_3 laço, @IMG_4 boi em disparada, @IMG_5 planície salgada.
+FORMATO: 15s / 6 cenas / ofegante, cinético, explosivo / sem diálogo
+SUJEITOS: @IMG_1 O Cavaleiro: calças e colete de couro cobertos de poeira, bandana sobre a boca; @IMG_2 O Cavalo: cavalo de trabalho esguio em pleno galope, pelagem suada
+ACESSÓRIOS: @IMG_3 laço de couro cru trançado em meio ao arremesso; @IMG_4 boi longhorn em disparada, chifres largos, cascos levantando poeira
+AMBIENTE: @IMG_5 vasta planície salgada rachada sob um sol inchado e vermelho-sangue, parede de gado em disparada levantando poeira, miragem de calor
+LÓGICA DE CORES: animação 2D pictórica, traços desenhados à mão, forte chiaroscuro, céu vermelho-sangue e chão branco-sal com âmbar empoeirado e umbra profunda
+
+[00:00-00:02] [AÉREA AMPLA] @IMG_5 sob o sol vermelho-sangue, a manada trovejando, @IMG_1 em @IMG_2 pequeno no quadro avançando.
+[00:02-00:04] [RASTREIO BAIXO, AO LADO] @IMG_2 galopando a toda, cascos martelando, @IMG_1 levantando-se nos estribos.
+[00:04-00:07] [MÉDIO, BALANÇO POR CIMA] @IMG_1 balança @IMG_3 por cima em voltas rápidas.
+[00:07-00:09] [SIGA O LAÇO] Ele lança @IMG_3 e ele se estica ao redor de @IMG_4.
+[00:09-00:11] [CORTE LATERAL BRUSCO] @IMG_2 vira violentamente de lado enquanto o cavaleiro é puxado contra a tensão.
+[00:11-00:15] [DESFOQUE DE VELOCIDADE, BAIXO] A manada passa em um borrão de chifres e poeira enquanto o cavaleiro puxa com força sob o sol vermelho-sangue.
+Sem música. Ambiente: cascos trovejantes, gado berrando, laço estalando e couro rangendo, vento, grunhidos do cavaleiro.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] Fluxo de Trabalho:
+1. Construí as fichas de personagens no Midjourney, cavaleiro e cavalo, múltiplos ângulos em fundo branco para manter os designs fixos.
+2. Construí cada objeto como sua própria ficha de referência no Midjourney, fundo branco, sem mãos, para que os acessórios sejam claros.
+3. Construí o local no Midjourney sem pessoas no quadro.
+4. Animação no Seedance 2.0. Carreguei ambos os personagens, ambos os objetos e o local como referências, marquei-os na ordem e executei um prompt de seis cenas e quinze segundos sobre eles.
+5. Finalmente, criei a música no Suno.
+
+Prompts:
+
+Fichas de personagens (Midjourney):
+character reference sheet, hardened range rider, dust-caked leather chaps and vest, knotted bandana over the mouth, coiled lariat, gloved hands, sun-cracked skin, full body turnaround from multiple angles, front side and back views, plus one dynamic action pose standing in the stirrups swinging a rope overhead, plain white background, consistent character design, painterly 2D animation, hand-inked linework, heavy chiaroscuro, blood-red and salt-white with dust-amber and deep umber, grit and motion, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9
+
+character reference sheet, lean working horse mid-gallop, lathered coat, flared nostrils and pinned ears, worn saddle and tack, full body turnaround from multiple angles, front side and back views, plus one dynamic pose cutting hard to the side, plain white background, painterly 2D animation, hand-inked linework, heavy chiaroscuro, dust-amber and deep umber with blood-red rim light, power and speed, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9
+
+Objetos (Midjourney):
+
+object reference sheet, braided rawhide lariat mid-throw, coiled loop frozen in motion, frayed worn fibers, multiple angles, front side back and three-quarter views, isolated on plain white background, no hands or body parts, painterly 2D animation, hand-inked linework, heavy chiaroscuro, dust-amber and bone-white with blood-red glow, motion and tension, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9 –no hands, fingers, people, body
+
+object reference sheet, single charging longhorn steer, lowered head and wide horns, straining muscles, hooves throwing dust, multiple angles, front side back and three-quarter views, isolated on plain white background, no hands or body parts, painterly 2D animation, hand-inked linework, heavy chiaroscuro, deep umber and dust-amber with blood-red rim light, raw power, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9 –no hands, fingers, people, body
+
+Localização (Midjourney):
+
+vast cracked salt flat under a swollen blood-red sun, endless flat horizon, a churning wall of stampeding cattle kicking up dust, low burning light raking across the ground, no people, immense scale and heat haze, painterly 2D animation, hand-inked linework, heavy chiaroscuro, blood-red sky and salt-white ground with dust-amber and deep umber, raw and kinetic, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9 –no people
+
+Seedance 2.0:
+
+Ordem de upload: @IMG_1 cavaleiro, @IMG_2 cavalo, @IMG_3 laço, @IMG_4 boi em disparada, @IMG_5 planície salgada.
+FORMATO: 15s / 6 cenas / ofegante, cinético, explosivo / sem diálogo
+SUJEITOS: @IMG_1 O Cavaleiro: calças e colete de couro cobertos de poeira, bandana sobre a boca; @IMG_2 O Cavalo: cavalo de trabalho esguio em pleno galope, pelagem suada
+ACESSÓRIOS: @IMG_3 laço de couro cru trançado em meio ao arremesso; @IMG_4 boi longhorn em disparada, chifres largos, cascos levantando poeira
+AMBIENTE: @IMG_5 vasta planície salgada rachada sob um sol inchado e vermelho-sangue, parede de gado em disparada levantando poeira, miragem de calor
+LÓGICA DE CORES: animação 2D pictórica, traços desenhados à mão, forte chiaroscuro, céu vermelho-sangue e chão branco-sal com âmbar empoeirado e umbra profunda
+
+[Thread 2] CRONOGRAMA:
+[00:00-00:02] [AÉREA AMPLA] @IMG_5 sob o sol vermelho-sangue, a manada trovejando, @IMG_1 em @IMG_2 pequeno no quadro avançando.
+[00:02-00:04] [RASTREIO BAIXO, AO LADO] @IMG_2 galopando a toda, cascos martelando, @IMG_1 levantando-se nos estribos.
+[00:04-00:07] [MÉDIO, BALANÇO POR CIMA] @IMG_1 balança @IMG_3 por cima em voltas rápidas.
+[00:07-00:09] [SIGA O LAÇO] Ele lança @IMG_3 e ele se estica ao redor de @IMG_4.
+[00:09-00:11] [CORTE LATERAL BRUSCO] @IMG_2 vira violentamente de lado enquanto o cavaleiro é puxado contra a tensão.
+[00:11-00:15] [DESFOQUE DE VELOCIDADE, BAIXO] A manada passa em um borrão de chifres e poeira enquanto o cavaleiro puxa com força sob o sol vermelho-sangue.
+Sem música. Ambiente: cascos trovejantes, gado berrando, laço estalando e couro rangendo, vento, grunhidos do cavaleiro.
+
+Suno:
+trilha sonora de ação western de alta energia, percussão galopante e intensa, guitarra acústica frenética dedilhada, metais ascendentes, tambores baixos ressoantes, impulso incessante e intensidade crescente, rápida e of
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067653709589336194.json)
+
+```text
+上传顺序：@IMG_1 骑手, @IMG_2 马, @IMG_3 套索, @IMG_4 冲锋的公牛, @IMG_5 盐滩。
+格式：15秒 / 6个镜头 / 令人屏息、动感十足、爆炸性 / 无对话
+主题：@IMG_1 骑手：布满灰尘的皮革护腿和背心，嘴上系着头巾；@IMG_2 马：瘦削的工作马在全速奔跑，汗水淋漓的皮毛
+道具：@IMG_3 编织生牛皮套索在投掷中；@IMG_4 冲锋的长角公牛，宽大的牛角，蹄子扬起尘土
+环境：@IMG_5 在膨胀的血红色太阳下广阔的龟裂盐滩，奔腾的牛群形成的尘土墙，热浪
+色彩逻辑：绘画风格的二维动画，手绘墨线，强烈的明暗对比，血红色的天空和盐白色的地面，伴随尘土琥珀色和深棕色
+
+[00:00-00:02] [广角航拍] @IMG_5 在血红色的太阳下，牛群轰鸣，@IMG_1 骑在 @IMG_2 上在画面中小小地冲锋。
+[00:02-00:04] [低角度跟拍，旁边] @IMG_2 全速奔跑，蹄声如雷，@IMG_1 在马镫上站起。
+[00:04-00:07] [中景，俯视旋转] @IMG_1 在头顶快速旋转 @IMG_3。
+[00:07-00:09] [跟随绳索] 他投掷 @IMG_3，绳索紧紧缠绕在 @IMG_4 上。
+[00:09-00:11] [侧面硬切] @IMG_2 猛烈地侧向切入，骑手被拉扯。
+[00:11-00:15] [速度模糊，低角度] 牛群在角和尘土的模糊中冲过，骑手在血红色的太阳下用力拉回。
+无音乐。环境音：雷鸣般的蹄声，牛群的吼叫，绳索的啪声和皮革的吱嘎声，风声，骑手的喘息。
+
+--- 线程延续 ---
+[线程1] 工作流程：
+1. 在 Midjourney 中建立角色表，骑手和马，多个角度在白色背景上，以保持设计一致。
+2. 在 Midjourney 中为每个物体建立自己的参考表，白色背景，无手，以便道具清晰。
+3. 在 Midjourney 中建立没有人出现的场景。
+4. 在 Seedance 2.0 中动画化。上传两个角色、两个物体和场景作为参考，按顺序标记，并在其上运行一个六镜头十五秒的 prompt。
+5. 最后，在 Suno 中创作音乐。
+
+Prompts:
+
+角色表（Midjourney）：
+character reference sheet, hardened range rider, dust-caked leather chaps and vest, knotted bandana over the mouth, coiled lariat, gloved hands, sun-cracked skin, full body turnaround from multiple angles, front side and back views, plus one dynamic action pose standing in the stirrups swinging a rope overhead, plain white background, consistent character design, painterly 2D animation, hand-inked linework, heavy chiaroscuro, blood-red and salt-white with dust-amber and deep umber, grit and motion, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9
+
+character reference sheet, lean working horse mid-gallop, lathered coat, flared nostrils and pinned ears, worn saddle and tack, full body turnaround from multiple angles, front side and back views, plus one dynamic pose cutting hard to the side, plain white background, painterly 2D animation, hand-inked linework, heavy chiaroscuro, dust-amber and deep umber with blood-red rim light, power and speed, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9
+
+物体（Midjourney）：
+
+object reference sheet, braided rawhide lariat mid-throw, coiled loop frozen in motion, frayed worn fibers, multiple angles, front side back and three-quarter views, isolated on plain white background, no hands or body parts, painterly 2D animation, hand-inked linework, heavy chiaroscuro, dust-amber and bone-white with blood-red glow, motion and tension, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9 –no hands, fingers, people, body
+
+object reference sheet, single charging longhorn steer, lowered head and wide horns, straining muscles, hooves throwing dust, multiple angles, front side back and three-quarter views, isolated on plain white background, no hands or body parts, painterly 2D animation, hand-inked linework, heavy chiaroscuro, deep umber and dust-amber with blood-red rim light, raw power, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9 –no hands, fingers, people, body
+
+场景（Midjourney）：
+
+vast cracked salt flat under a swollen blood-red sun, endless flat horizon, a churning wall of stampeding cattle kicking up dust, low burning light raking across the ground, no people, immense scale and heat haze, painterly 2D animation, hand-inked linework, heavy chiaroscuro, blood-red sky and salt-white ground with dust-amber and deep umber, raw and kinetic, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9 –no people
+
+Seedance 2.0:
+
+上传顺序：@IMG_1 骑手, @IMG_2 马, @IMG_3 套索, @IMG_4 冲锋的公牛, @IMG_5 盐滩。
+格式：15秒 / 6个镜头 / 令人屏息、动感十足、爆炸性 / 无对话
+主题：@IMG_1 骑手：布满灰尘的皮革护腿和背心，嘴上系着头巾；@IMG_2 马：瘦削的工作马在全速奔跑，汗水淋漓的皮毛
+道具：@IMG_3 编织生牛皮套索在投掷中；@IMG_4 冲锋的长角公牛，宽大的牛角，蹄子扬起尘土
+环境：@IMG_5 在膨胀的血红色太阳下广阔的龟裂盐滩，奔腾的牛群形成的尘土墙，热浪
+色彩逻辑：绘画风格的二维动画，手绘墨线，强烈的明暗对比，血红色的天空和盐白色的地面，伴随尘土琥珀色和深棕色
+
+[线程2] 时间线：
+[00:00-00:02] [广角航拍] @IMG_5 在血红色的太阳下，牛群轰鸣，@IMG_1 骑在 @IMG_2 上在画面中小小地冲锋。
+[00:02-00:04] [低角度跟拍，旁边] @IMG_2 全速奔跑，蹄声如雷，@IMG_1 在马镫上站起。
+[00:04-00:07] [中景，俯视旋转] @IMG_1 在头顶快速旋转 @IMG_3。
+[00:07-00:09] [跟随绳索] 他投掷 @IMG_3，绳索紧紧缠绕在 @IMG_4 上。
+[00:09-00:11] [侧面硬切] @IMG_2 猛烈地侧向切入，骑手被拉扯。
+[00:11-00:15] [速度模糊，低角度] 牛群在角和尘土的模糊中冲过，骑手在血红色的太阳下用力拉回。
+无音乐。环境音：雷鸣般的蹄声，牛群的吼叫，绳索的啪声和皮革的吱嘎声，风声，骑手的喘息。
+
+Suno:
+high-energy western action score, driving galloping percussion, frantic strummed acoustic guitar, soaring brass, pounding low toms, relentless forward momentum and rising intensity, fast and breathless, around 150 bpm, cinematic, instrumental
+```
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067653709589336194.json)
+
+```text
+---
+Orden de carga: @IMG_1 jinete, @IMG_2 caballo, @IMG_3 lazo, @IMG_4 toro cargando, @IMG_5 salar.
+FORMATO: 15s / 6 tomas / sin aliento, cinético, explosivo / sin diálogo
+SUJETOS: @IMG_1 El Jinete: chaparreras y chaleco de cuero cubiertos de polvo, pañuelo sobre la boca; @IMG_2 El Caballo: caballo de trabajo delgado a medio galope, pelaje sudoroso
+ACCESORIOS: @IMG_3 lazo de cuero crudo trenzado a medio lanzamiento; @IMG_4 toro de cuernos largos cargando, cuernos anchos, pezuñas levantando polvo
+ENTORNO: @IMG_5 vasto salar agrietado bajo un sol rojo sangre hinchado, muro de ganado en estampida, neblina de calor
+LÓGICA DE COLOR: animación 2D pictórica, líneas entintadas a mano, fuerte claroscuro, cielo rojo sangre y suelo blanco sal con ámbar polvoriento y umber profundo
+
+[00:00-00:02] [AÉREA AMPLIA] @IMG_5 bajo el sol rojo sangre, la manada retumbando, @IMG_1 sobre @IMG_2 pequeño en el cuadro cargando.
+[00:02-00:04] [SEGUIMIENTO BAJO, AL LADO] @IMG_2 galopando a toda velocidad, pezuñas martillando, @IMG_1 levantándose en los estribos.
+[00:04-00:07] [MEDIO, BALANCEO SOBRE LA CABEZA] @IMG_1 balancea @IMG_3 sobre la cabeza en rápidos giros.
+[00:07-00:09] [SIGUE LA CUERDA] Lanza @IMG_3 y se tensa alrededor de @IMG_4.
+[00:09-00:11] [CORTE LATERAL BRUSCO] @IMG_2 corta violentamente de lado mientras el jinete es tirado contra el tirón.
+[00:11-00:15] [DESENFOQUE DE VELOCIDAD, BAJO] La manada pasa en un borrón de cuernos y polvo mientras el jinete tira con fuerza bajo el sol rojo sangre.
+Sin música. Ambiente: pezuñas retumbantes, ganado bramando, cuerda chasqueando y cuero crujiendo, viento, gruñidos del jinete.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Flujo de trabajo:
+1. Construí las hojas de personajes en Midjourney, jinete y caballo, múltiples ángulos sobre un fondo blanco para que los diseños se mantengan fijos.
+2. Construí cada objeto como su propia hoja de referencia en Midjourney, fondo blanco, sin manos, para que los accesorios se lean claramente.
+3. Construí la ubicación en Midjourney sin personas en el cuadro.
+4. Animado en Seedance 2.0. Subí ambos personajes, ambos objetos y la ubicación como referencias, los etiqueté en orden y ejecuté un prompt de seis tomas de quince segundos sobre ellos.
+5. Finalmente, creé la música en Suno.
+
+Prompts:
+
+Hojas de personajes (Midjourney):
+hoja de referencia de personaje, jinete endurecido del campo, chaparreras y chaleco de cuero cubiertos de polvo, pañuelo anudado sobre la boca, lazo enrollado, manos enguantadas, piel agrietada por el sol, giro completo del cuerpo desde múltiples ángulos, vistas frontal, lateral y trasera, más una pose de acción dinámica de pie en los estribos balanceando una cuerda sobre la cabeza, fondo blanco liso, diseño de personaje consistente, animación 2D pictórica, líneas entintadas a mano, fuerte claroscuro, rojo sangre y blanco sal con ámbar polvoriento y umber profundo, grano y movimiento, influencia de Takeshi Koike Redline –v 8.1 –estilo crudo –ar 16:9
+
+hoja de referencia de personaje, caballo de trabajo delgado a medio galope, pelaje sudoroso, fosas nasales dilatadas y orejas pegadas, silla y arreos desgastados, giro completo del cuerpo desde múltiples ángulos, vistas frontal, lateral y trasera, más una pose dinámica cortando fuerte hacia un lado, fondo blanco liso, animación 2D pictórica, líneas entintadas a mano, fuerte claroscuro, ámbar polvoriento y umber profundo con luz de borde rojo sangre, poder y velocidad, influencia de Takeshi Koike Redline –v 8.1 –estilo crudo –ar 16:9
+
+Objetos (Midjourney):
+
+hoja de referencia de objeto, lazo de cuero crudo trenzado a medio lanzamiento, bucle enrollado congelado en movimiento, fibras desgastadas y deshilachadas, múltiples ángulos, vistas frontal, lateral, trasera y de tres cuartos, aislado sobre fondo blanco liso, sin manos ni partes del cuerpo, animación 2D pictórica, líneas entintadas a mano, fuerte claroscuro, ámbar polvoriento y blanco hueso con resplandor rojo sangre, movimiento y tensión, influencia de Takeshi Koike Redline –v 8.1 –estilo crudo –ar 16:9 –sin manos, dedos, personas, cuerpo
+
+hoja de referencia de objeto, toro de cuernos largos cargando, cabeza baja y cuernos anchos, músculos tensos, pezuñas levantando polvo, múltiples ángulos, vistas frontal, lateral, trasera y de tres cuartos, aislado sobre fondo blanco liso, sin manos ni partes del cuerpo, animación 2D pictórica, líneas entintadas a mano, fuerte claroscuro, umber profundo y ámbar polvoriento con luz de borde rojo sangre, poder bruto, influencia de Takeshi Koike Redline –v 8.1 –estilo crudo –ar 16:9 –sin manos, dedos, personas, cuerpo
+
+Ubicación (Midjourney):
+
+vasto salar agrietado bajo un sol rojo sangre hinchado, horizonte plano interminable, un muro de ganado en estampida levantando polvo, luz baja quemando sobre el suelo, sin personas, escala inmensa y neblina de calor, animación 2D pictórica, líneas entintadas a mano, fuerte claroscuro, cielo rojo sangre y suelo blanco sal con ámbar polvoriento y umber profundo, crudo y cinético, influencia de Takeshi Koike Redline –v 8.1 –estilo crudo –ar 16:9 –sin personas
+
+Seedance 2.0:
+
+Orden de carga: @IMG_1 jinete, @IMG_2 caballo, @IMG_3 lazo, @IMG_4 toro cargando, @IMG_5 salar.
+FORMATO: 15s / 6 tomas / sin aliento, cinético, explosivo / sin diálogo
+SUJETOS: @IMG_1 El Jinete: chaparreras y chaleco de cuero cubiertos de polvo, pañuelo sobre la boca; @IMG_2 El Caballo: caballo de trabajo delgado a medio galope, pelaje sudoroso
+ACCESORIOS: @IMG_3 lazo de cuero crudo trenzado a medio lanzamiento; @IMG_4 toro de cuernos largos cargando, cuernos anchos, pezuñas levantando polvo
+ENTORNO: @IMG_5 vasto salar agrietado bajo un sol rojo sangre hinchado, muro de ganado en estampida, neblina de calor
+LÓGICA DE COLOR: animación 2D pictórica, líneas entintadas a mano, fuerte claroscuro, cielo rojo sangre y suelo blanco sal con ámbar polvoriento y umber profundo
+
+[Hilo 2] CRONOGRAMA:
+[00:00-00:02] [AÉREA AMPLIA] @IMG_5 bajo el sol rojo sangre, la manada retumbando, @IMG_1 sobre @IMG_2 pequeño en el cuadro cargando.
+[00:02-00:04] [SEGUIMIENTO BAJO, AL LADO] @IMG_2 galopando a toda velocidad, pezuñas martillando, @IMG_1 levantándose en los estribos.
+[00:04-00:07] [MEDIO, BALANCEO SOBRE LA CABEZA] @IMG_1 balancea @IMG_3 sobre la cabeza en rápidos giros.
+[00:07-00:09] [SIGUE LA CUERDA] Lanza @IMG_3 y se tensa alrededor de @IMG_4.
+[00:09-00:11] [CORTE LATERAL BRUSCO] @IMG_2 corta violentamente de lado mientras el jinete es tirado contra el tirón.
+[00:11-00:15] [DESENFOQUE DE VELOCIDAD, BAJO] La manada pasa en un borrón de cuernos y polvo mientras el jinete tira con fuerza bajo el sol rojo sangre.
+Sin música. Ambiente: pezuñas retumb
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067653709589336194.json)
+
+```text
+---
+업로드 순서: @IMG_1 라이더, @IMG_2 말, @IMG_3 라리엇, @IMG_4 돌진하는 소, @IMG_5 소금 평원.
+형식: 15초 / 6 샷 / 숨막히고, 역동적이며, 폭발적 / 대사 없음
+주제: @IMG_1 라이더: 먼지로 덮인 가죽 챕스와 조끼, 입을 가린 반다나; @IMG_2 말: 전속력으로 달리는 마른 작업용 말, 땀에 젖은 털
+소품: @IMG_3 던지는 중인 꼬인 가죽 라리엇; @IMG_4 돌진하는 롱혼 소, 넓은 뿔, 먼지를 일으키는 발굽
+환경: @IMG_5 부풀어 오른 핏빛 태양 아래 광활한 갈라진 소금 평원, 몰아치는 소 떼의 벽, 열기 아지랑이
+색상 논리: 화가의 2D 애니메이션, 손으로 잉크를 칠한 선화, 강한 명암 대비, 핏빛 하늘과 소금처럼 하얀 땅, 먼지 호박색과 깊은 갈색
+
+[00:00-00:02] [와이드 항공] @IMG_5 핏빛 태양 아래, 몰아치는 소 떼, @IMG_1이 @IMG_2에 타고 작게 프레임 안으로 돌진.
+[00:02-00:04] [낮은 추적, 나란히] @IMG_2 전속력으로 달리며, 발굽이 땅을 치고, @IMG_1이 등자에서 일어남.
+[00:04-00:07] [중간, 머리 위로 휘두름] @IMG_1이 @IMG_3을 머리 위로 빠르게 휘두름.
+[00:07-00:09] [로프를 따라가며] 그가 @IMG_3을 던지고 그것이 @IMG_4 주위에 팽팽하게 감김.
+[00:09-00:11] [측면으로 강하게 컷] @IMG_2가 강하게 측면으로 꺾이며 라이더가 당겨짐.
+[00:11-00:15] [속도 흐림, 낮게] 소 떼가 뿔과 먼지의 흐림 속에서 지나가며 라이더가 핏빛 태양 아래 강하게 뒤로 당김.
+음악 없음. 환경음: 천둥 같은 발굽 소리, 울부짖는 소, 팽팽한 로프와 삐걱거리는 가죽 소리, 바람, 라이더의 신음.
+
+--- 스레드 계속 ---
+
+[스레드 1] 워크플로우:
+1. Midjourney에서 캐릭터 시트를 제작, 라이더와 말, 디자인이 고정되도록 흰 배경에서 여러 각도로.
+2. 각 객체를 Midjourney에서 자체 참조 시트로 제작, 흰 배경, 손 없음, 소품이 명확하게 읽히도록.
+3. Midjourney에서 사람 없는 프레임으로 장소 제작.
+4. Seedance 2.0에서 애니메이션 제작. 두 캐릭터, 두 객체, 장소를 참조로 업로드, 순서대로 태그하고 6샷 15초 프롬프트를 실행.
+5. 마지막으로 Suno에서 음악 제작.
+
+프롬프트:
+
+캐릭터 시트 (Midjourney):
+character reference sheet, hardened range rider, dust-caked leather chaps and vest, knotted bandana over the mouth, coiled lariat, gloved hands, sun-cracked skin, full body turnaround from multiple angles, front side and back views, plus one dynamic action pose standing in the stirrups swinging a rope overhead, plain white background, consistent character design, painterly 2D animation, hand-inked linework, heavy chiaroscuro, blood-red and salt-white with dust-amber and deep umber, grit and motion, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9
+
+character reference sheet, lean working horse mid-gallop, lathered coat, flared nostrils and pinned ears, worn saddle and tack, full body turnaround from multiple angles, front side and back views, plus one dynamic pose cutting hard to the side, plain white background, painterly 2D animation, hand-inked linework, heavy chiaroscuro, dust-amber and deep umber with blood-red rim light, power and speed, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9
+
+객체 (Midjourney):
+
+object reference sheet, braided rawhide lariat mid-throw, coiled loop frozen in motion, frayed worn fibers, multiple angles, front side back and three-quarter views, isolated on plain white background, no hands or body parts, painterly 2D animation, hand-inked linework, heavy chiaroscuro, dust-amber and bone-white with blood-red glow, motion and tension, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9 –no hands, fingers, people, body
+
+object reference sheet, single charging longhorn steer, lowered head and wide horns, straining muscles, hooves throwing dust, multiple angles, front side back and three-quarter views, isolated on plain white background, no hands or body parts, painterly 2D animation, hand-inked linework, heavy chiaroscuro, deep umber and dust-amber with blood-red rim light, raw power, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9 –no hands, fingers, people, body
+
+장소 (Midjourney):
+
+vast cracked salt flat under a swollen blood-red sun, endless flat horizon, a churning wall of stampeding cattle kicking up dust, low burning light raking across the ground, no people, immense scale and heat haze, painterly 2D animation, hand-inked linework, heavy chiaroscuro, blood-red sky and salt-white ground with dust-amber and deep umber, raw and kinetic, Takeshi Koike Redline influence –v 8.1 –style raw –ar 16:9 –no people
+
+Seedance 2.0:
+
+업로드 순서: @IMG_1 라이더, @IMG_2 말, @IMG_3 라리엇, @IMG_4 돌진하는 소, @IMG_5 소금 평원.
+형식: 15초 / 6 샷 / 숨막히고, 역동적이며, 폭발적 / 대사 없음
+주제: @IMG_1 라이더: 먼지로 덮인 가죽 챕스와 조끼, 입을 가린 반다나; @IMG_2 말: 전속력으로 달리는 마른 작업용 말, 땀에 젖은 털
+소품: @IMG_3 던지는 중인 꼬인 가죽 라리엇; @IMG_4 돌진하는 롱혼 소, 넓은 뿔, 먼지를 일으키는 발굽
+환경: @IMG_5 부풀어 오른 핏빛 태양 아래 광활한 갈라진 소금 평원, 몰아치는 소 떼의 벽, 열기 아지랑이
+색상 논리: 화가의 2D 애니메이션, 손으로 잉크를 칠한 선화, 강한 명암 대비, 핏빛 하늘과 소금처럼 하얀 땅, 먼지 호박색과 깊은 갈색
+
+[스레드 2] 타임라인:
+[00:00-00:02] [와이드 항공] @IMG_5 핏빛 태양 아래, 몰아치는 소 떼, @IMG_1이 @IMG_2에 타고 작게 프레임 안으로 돌진.
+[00:02-00:04] [낮은 추적, 나란히] @IMG_2 전속력으로 달리며, 발굽이 땅을 치고, @IMG_1이 등자에서 일어남.
+[00:04-00:07] [중간, 머리 위로 휘두름] @IMG_1이 @IMG_3을 머리 위로 빠르게 휘두름.
+[00:07-00:09] [로프를 따라가며] 그가 @IMG_3을 던지고 그것이 @IMG_4 주위에 팽팽하게 감김.
+[00:09-00:11] [측면으로 강하게 컷] @IMG_2가 강하게 측면으로 꺾이며 라이더가 당겨짐.
+[00:11-00:15] [속도 흐림, 낮게] 소 떼가 뿔과 먼지의 흐림 속에서 지나가며 라이더가 핏빛 태양
+```
+
+## 出处与许可
+
+- 原作者：[Mike Miller](https://x.com/pt5films) · 原帖：<https://x.com/pt5films/status/2067653709589336194>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067653709589336194.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

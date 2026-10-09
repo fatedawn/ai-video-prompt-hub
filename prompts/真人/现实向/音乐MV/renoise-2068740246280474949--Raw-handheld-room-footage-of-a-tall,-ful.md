@@ -1,0 +1,100 @@
+---
+id: "renoise-2068740246280474949"
+title: "Raw handheld room footage of a tall, fully adult 44-year-old woman wearing the…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "音乐MV"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Music & Dance", "MV", "Photoreal", "Realistic World", "POV"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068740246280474949.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Brent Lynch"
+original_author_url: "https://x.com/BrentLynch"
+original_post_url: "https://x.com/BrentLynch/status/2068740246280474949"
+published: "2026-06-21"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Raw handheld room footage of a tall, fully adult 44-year-old woman wearing the…
+
+## 提示词（English）
+
+```text
+Raw handheld room footage of a tall, fully adult 44-year-old woman wearing the exact outfit from Image 1, performing energetic rock star poses and singing passionately to loud rock music. She lip-syncs precisely to the lyrics: "I am an AI Lady Heck Yeah Baby Yeah Yeah Yeah" with full commitment and emotion. Dynamic camera movement captures her from multiple angles as she strikes iconic rock poses—air guitar, fist pumps, head bangs, microphone stand lean. Use Video1 as reference for her mature adult appearance and movement style. Natural bedroom or living room setting with casual lighting. Authentic, unpolished documentary feel with slight camera shake. High energy, rebellious attitude. She moves with confidence and theatrical flair, fully embodying the rock star persona.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068740246280474949.json)
+
+```text
+---
+Metraje en bruto de una habitación filmado a mano de una mujer alta, completamente adulta de 44 años, vistiendo el mismo atuendo de la Imagen 1, realizando poses energéticas de estrella de rock y cantando apasionadamente al ritmo de música rock fuerte. Hace lip-sync con precisión a la letra: "I am an AI Lady Heck Yeah Baby Yeah Yeah Yeah" con total compromiso y emoción. El movimiento dinámico de la cámara la captura desde múltiples ángulos mientras adopta poses icónicas de rock: guitarra de aire, puños al aire, sacudidas de cabeza, inclinación con el soporte del micrófono. Usa el Video1 como referencia para su apariencia adulta madura y estilo de movimiento. Escenario natural de dormitorio o sala de estar con iluminación casual. Sensación auténtica y sin pulir de documental con un ligero temblor de cámara. Alta energía, actitud rebelde. Se mueve con confianza y un toque teatral, encarnando completamente la personalidad de estrella de rock.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068740246280474949.json)
+
+```text
+---
+Séquence brute à main levée d'une pièce montrant une femme adulte de 44 ans, grande, portant exactement la tenue de l'Image 1, exécutant des poses énergiques de rock star et chantant avec passion sur de la musique rock forte. Elle synchronise précisément ses lèvres avec les paroles : "I am an AI Lady Heck Yeah Baby Yeah Yeah Yeah" avec un engagement et une émotion totale. Un mouvement de caméra dynamique la capture sous plusieurs angles alors qu'elle adopte des poses rock emblématiques—air guitar, coups de poing, head bangs, inclinaison sur le pied de micro. Utilisez la Vidéo1 comme référence pour son apparence adulte mature et son style de mouvement. Cadre naturel de chambre ou salon avec un éclairage décontracté. Sensation documentaire authentique et non polie avec un léger tremblement de caméra. Énergie élevée, attitude rebelle. Elle se déplace avec confiance et flair théâtral, incarnant pleinement le personnage de rock star.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068740246280474949.json)
+
+```text
+---
+Image 1と全く同じ衣装を着た44歳の大人の女性が、エネルギッシュなロックスターのポーズを取り、激しいロック音楽に合わせて情熱的に歌っている、手持ちカメラで撮影された部屋の映像。彼女は歌詞に正確にリップシンクし、全力で感情を込めて「I am an AI Lady Heck Yeah Baby Yeah Yeah Yeah」と歌う。ダイナミックなカメラの動きが、彼女がエアギター、拳を突き上げる、ヘッドバンギング、マイクスタンドに寄りかかるなどの象徴的なロックポーズを取る様子を多角的に捉える。Video1を参考に、彼女の成熟した大人の外見と動きのスタイルを確認。自然な寝室やリビングルームの設定で、カジュアルな照明。少しカメラが揺れる、本物のドキュメンタリーのような未加工の感覚。高いエネルギーと反抗的な態度。彼女は自信を持って劇的な演技をし、ロックスターのペルソナを完全に体現している。
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068740246280474949.json)
+
+```text
+---
+키가 크고 완전히 성숙한 44세 여성이 이미지 1의 정확한 의상을 입고, 열정적으로 록 스타 포즈를 취하며 큰 소리의 록 음악에 맞춰 열정적으로 노래하는 생생한 핸드헬드 룸 영상. 그녀는 가사 "I am an AI Lady Heck Yeah Baby Yeah Yeah Yeah"를 정확하게 립싱크하며 완전한 몰입과 감정을 보여줍니다. 역동적인 카메라 움직임이 그녀를 여러 각도에서 포착하며, 에어 기타, 주먹 펌프, 헤드 뱅, 마이크 스탠드 기대기 등 상징적인 록 포즈를 취합니다. 그녀의 성숙한 외모와 움직임 스타일은 Video1을 참조하십시오. 자연스러운 침실 또는 거실 환경에서 캐주얼한 조명. 약간의 카메라 흔들림이 있는 진정성 있고 다듬어지지 않은 다큐멘터리 느낌. 높은 에너지와 반항적인 태도. 그녀는 자신감과 극적인 매력을 가지고 움직이며, 록 스타의 페르소나를 완전히 구현합니다.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068740246280474949.json)
+
+```text
+---
+一段原始手持房间视频，拍摄一位身高高挑、44岁成年女性，穿着与图片1中完全相同的服装，充满活力地摆出摇滚明星姿势，并激情演唱响亮的摇滚音乐。她精准地对口型唱着歌词：“I am an AI Lady Heck Yeah Baby Yeah Yeah Yeah”，全情投入，情感充沛。动态的摄像机运动从多个角度捕捉她摆出标志性的摇滚姿势——空气吉他、挥拳、甩头、麦克风架倾斜。使用视频1作为参考，展示她成熟的成年外貌和动作风格。自然的卧室或客厅环境，灯光随意。真实、未经修饰的纪录片风格，带有轻微的摄像机抖动。高能量、叛逆的态度。她自信而富有戏剧性地移动，完全展现了摇滚明星的风采。
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068740246280474949.json)
+
+```text
+Filmagem crua e manual de uma sala com uma mulher alta, completamente adulta de 44 anos, vestindo exatamente a mesma roupa da Imagem 1, realizando poses energéticas de estrela do rock e cantando apaixonadamente ao som de música rock alta. Ela faz lip-sync com precisão à letra: "I am an AI Lady Heck Yeah Baby Yeah Yeah Yeah" com total comprometimento e emoção. O movimento dinâmico da câmera a captura de múltiplos ângulos enquanto ela faz poses icônicas de rock—guitarra de ar, socos no ar, balançar de cabeça, inclinação no pedestal do microfone. Use o Vídeo1 como referência para sua aparência e estilo de movimento de adulta madura. Cenário natural de quarto ou sala de estar com iluminação casual. Sensação autêntica e não polida de documentário com leve tremor de câmera. Alta energia, atitude rebelde. Ela se move com confiança e um toque teatral, incorporando completamente a persona de estrela do rock.
+```
+
+## 出处与许可
+
+- 原作者：[Brent Lynch](https://x.com/BrentLynch) · 原帖：<https://x.com/BrentLynch/status/2068740246280474949>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068740246280474949.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

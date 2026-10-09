@@ -1,0 +1,346 @@
+---
+id: "renoise-2066377466319712611"
+title: "Pixar-Inspired 3D Animated Comedy Short"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "漫剧"
+direction: "特效向"
+genre: "特效综合"
+art_style: "3D卡通"
+tags: ["Seedance 2.0", "Renoise", "Action", "Chase", "Story", "Heartwarming", "3D Animation", "Realistic World"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066377466319712611.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Smiling Khan"
+original_author_url: "https://x.com/AIwithkhan"
+original_post_url: "https://x.com/AIwithkhan/status/2066377466319712611"
+published: "2026-06-15"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Pixar-Inspired 3D Animated Comedy Short
+
+## 提示词（English）
+
+```text
+Pixar-Inspired 3D Animated Comedy Short
+
+Create a fast-paced Pixar-style 3D animated comedy set in a vibrant modern city during golden hour. A cheerful pizza delivery boy rides through busy streets carrying a large pizza box for an important delivery. Nearby, a hungry and mischievous thief notices the pizza and immediately becomes obsessed with stealing it. His stomach growls as he imagines the delicious meal waiting inside.
+
+Without warning, the thief snatches the pizza box and sprints away. The delivery boy notices instantly and chases after him. A hilarious city-wide pursuit begins. They race through crowded markets, outdoor cafés, fountains, traffic-filled streets, festivals, narrow alleyways, and busy plazas. People jump aside, pigeons scatter into the sky, scooters narrowly miss them, and both characters barely avoid countless obstacles. The chase becomes bigger, faster, and more ridiculous with every turn.
+
+The thief finally reaches a rooftop overlooking the city skyline at sunset. Exhausted but victorious, he laughs proudly and slowly opens the pizza box, expecting a delicious reward after the wild chase.
+
+Silence.
+
+The box is completely empty.
+
+The thief stares inside in disbelief.
+
+Moments later, the exhausted delivery boy arrives. Both stand there breathing heavily. The delivery boy shrugs and says:
+
+"It's for a pizza photoshoot."
+
+The thief freezes.
+
+Long awkward silence.
+
+Then the delivery boy opens his delivery bag and reveals a real slice of pizza. He offers it to the thief. Surprised, the thief accepts.
+
+The music shifts from action-comedy to warm friendship. Both sit on the rooftop watching the sunset while eating pizza together. The empty pizza box sits beside them as they laugh about the absurd chase.
+
+Final cinematic shot: wide view of the city skyline at sunset, the delivery boy and thief sharing pizza on the rooftop.
+
+Final Text: "Sometimes the chase is bigger than the prize."
+
+Pixar-quality 3D animation, expressive facial reactions, cinematic camera movement, dynamic action sequences, colorful city environments, exaggerated comedy timing, warm emotional ending, golden-hour lighting, ultra-detailed rendering, movie-quality visuals, smooth scene transitions, 16:9 widescreen.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066377466319712611.json)
+
+```text
+Corto de Comedia Animado en 3D Inspirado en Pixar
+
+Crea una comedia animada en 3D al estilo Pixar, ambientada en una vibrante ciudad moderna durante la hora dorada. Un alegre repartidor de pizzas recorre las concurridas calles llevando una gran caja de pizza para una entrega importante. Cerca, un ladrón hambriento y travieso nota la pizza y de inmediato se obsesiona con robarla. Su estómago ruge mientras imagina la deliciosa comida que le espera dentro.
+
+Sin previo aviso, el ladrón arrebata la caja de pizza y sale corriendo. El repartidor lo nota al instante y lo persigue. Comienza una hilarante persecución por toda la ciudad. Corren a través de mercados abarrotados, cafés al aire libre, fuentes, calles llenas de tráfico, festivales, callejones estrechos y plazas concurridas. La gente salta a un lado, las palomas se dispersan hacia el cielo, los scooters casi los golpean, y ambos personajes apenas evitan innumerables obstáculos. La persecución se vuelve más grande, más rápida y más ridícula con cada giro.
+
+El ladrón finalmente llega a una azotea con vista al horizonte de la ciudad al atardecer. Exhausto pero victorioso, se ríe con orgullo y abre lentamente la caja de pizza, esperando una deliciosa recompensa después de la salvaje persecución.
+
+Silencio.
+
+La caja está completamente vacía.
+
+El ladrón mira dentro con incredulidad.
+
+Momentos después, llega el exhausto repartidor. Ambos se quedan allí respirando con dificultad. El repartidor se encoge de hombros y dice:
+
+"Es para una sesión de fotos de pizza."
+
+El ladrón se congela.
+
+Largo silencio incómodo.
+
+Luego, el repartidor abre su bolsa de entrega y revela una verdadera porción de pizza. Se la ofrece al ladrón. Sorprendido, el ladrón acepta.
+
+La música cambia de acción-comedia a una cálida amistad. Ambos se sientan en la azotea viendo el atardecer mientras comen pizza juntos. La caja de pizza vacía se encuentra a su lado mientras se ríen de la absurda persecución.
+
+Toma cinematográfica final: vista amplia del horizonte de la ciudad al atardecer, el repartidor y el ladrón compartiendo pizza en la azotea.
+
+Texto final: "A veces la persecución es más grande que el premio."
+
+Animación en 3D de calidad Pixar, reacciones faciales expresivas, movimiento de cámara cinematográfico, secuencias de acción dinámicas, entornos urbanos coloridos, sincronización cómica exagerada, final emocional cálido, iluminación de hora dorada, renderizado ultra detallado, visuales de calidad cinematográfica, transiciones de escena suaves, pantalla ancha 16:9.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Puedes probarlo aquí
+
+https://t.co/L8M3fUYoxt
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066377466319712611.json)
+
+```text
+---
+
+Court-métrage comique en 3D inspiré par Pixar
+
+Créez un court-métrage comique en 3D de style Pixar, rythmé et se déroulant dans une ville moderne et vibrante à l'heure dorée. Un livreur de pizza joyeux traverse les rues animées avec une grande boîte à pizza pour une livraison importante. Non loin de là, un voleur affamé et espiègle remarque la pizza et devient immédiatement obsédé par l'idée de la voler. Son estomac gronde alors qu'il imagine le délicieux repas qui l'attend à l'intérieur.
+
+Sans prévenir, le voleur s'empare de la boîte à pizza et s'enfuit en courant. Le livreur le remarque instantanément et se lance à sa poursuite. Une poursuite hilarante à travers la ville commence. Ils traversent des marchés bondés, des cafés en plein air, des fontaines, des rues encombrées de trafic, des festivals, des ruelles étroites et des places animées. Les gens s'écartent, les pigeons s'envolent dans le ciel, les scooters les frôlent de justesse, et les deux personnages évitent de justesse d'innombrables obstacles. La poursuite devient de plus en plus grande, rapide et ridicule à chaque tournant.
+
+Le voleur atteint finalement un toit surplombant la ligne d'horizon de la ville au coucher du soleil. Épuisé mais victorieux, il rit fièrement et ouvre lentement la boîte à pizza, s'attendant à une délicieuse récompense après cette folle poursuite.
+
+Silence.
+
+La boîte est complètement vide.
+
+Le voleur regarde à l'intérieur, incrédule.
+
+Quelques instants plus tard, le livreur épuisé arrive. Tous deux restent là, respirant lourdement. Le livreur hausse les épaules et dit :
+
+"C'est pour une séance photo de pizza."
+
+Le voleur se fige.
+
+Long silence gênant.
+
+Puis le livreur ouvre son sac de livraison et révèle une vraie part de pizza. Il la propose au voleur. Surpris, le voleur accepte.
+
+La musique passe de l'action-comédie à une amitié chaleureuse. Tous deux s'assoient sur le toit en regardant le coucher de soleil tout en mangeant de la pizza ensemble. La boîte à pizza vide est à côté d'eux alors qu'ils rient de la poursuite absurde.
+
+Plan cinématographique final : vue large de la ligne d'horizon de la ville au coucher du soleil, le livreur et le voleur partageant une pizza sur le toit.
+
+Texte final : "Parfois, la poursuite est plus grande que le prix."
+
+Animation 3D de qualité Pixar, réactions faciales expressives, mouvements de caméra cinématographiques, séquences d'action dynamiques, environnements urbains colorés, timing comique exagéré, fin émotionnelle chaleureuse, éclairage à l'heure dorée, rendu ultra-détaillé, visuels de qualité cinématographique, transitions de scène fluides, format large 16:9.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Vous pouvez l'essayer ici
+
+https://t.co/L8M3fUYoxt
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066377466319712611.json)
+
+```text
+---
+ピクサー風3Dアニメーション・コメディ短編
+
+ゴールデンアワーの活気ある現代都市を舞台にした、テンポの速いピクサースタイルの3Dアニメーションコメディを作成してください。陽気なピザ配達員が、大きなピザボックスを持って重要な配達のために忙しい通りを駆け抜けます。近くで、空腹でいたずら好きな泥棒がピザに気づき、すぐにそれを盗むことに夢中になります。彼の胃が鳴り、箱の中に待っている美味しい食事を想像します。
+
+突然、泥棒はピザボックスを奪い、走り去ります。配達員はすぐに気づき、彼を追いかけます。面白い都市全体での追跡が始まります。彼らは混雑した市場、屋外カフェ、噴水、交通で混雑した通り、祭り、狭い路地、忙しい広場を駆け抜けます。人々は脇に飛び、鳩は空に散り、スクーターは彼らをかすめ、両者は無数の障害物をかろうじて避けます。追跡は曲がるたびに大きく、速く、そしてより馬鹿げたものになります。
+
+泥棒はついに夕焼けの都市のスカイラインを見渡す屋上に到達します。疲れ果てながらも勝利を収めた彼は、誇らしげに笑いながらピザボックスをゆっくりと開け、激しい追跡の後の美味しい報酬を期待します。
+
+静寂。
+
+箱は完全に空です。
+
+泥棒は信じられない思いで中を見つめます。
+
+その後すぐに、疲れ果てた配達員が到着します。二人は息を切らして立っています。配達員は肩をすくめて言います：
+
+「それはピザの写真撮影用です。」
+
+泥棒は固まります。
+
+長い気まずい沈黙。
+
+その後、配達員は配達バッグを開けて、本物のピザの一切れを見せます。彼はそれを泥棒に差し出します。驚いた泥棒はそれを受け取ります。
+
+音楽はアクションコメディから温かい友情へと変わります。二人は屋上に座り、ピザを食べながら夕日を眺めます。空のピザボックスが彼らの横に置かれ、彼らは馬鹿げた追跡について笑います。
+
+最後のシネマティックショット：夕焼けの都市のスカイラインを広く見渡す、屋上でピザを分け合う配達員と泥棒。
+
+最後のテキスト：「時には追跡が賞品よりも大きい。」
+
+ピクサークオリティの3Dアニメーション、表情豊かな顔のリアクション、シネマティックなカメラの動き、ダイナミックなアクションシーケンス、カラフルな都市環境、誇張されたコメディタイミング、温かい感情的なエンディング、ゴールデンアワーの照明、超詳細なレンダリング、映画品質のビジュアル、スムーズなシーンの移行、16:9ワイドスクリーン。
+
+--- THREAD CONTINUATION ---
+[Thread 1] You can try it here
+
+https://t.co/L8M3fUYoxt
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066377466319712611.json)
+
+```text
+---
+皮克斯风格的3D动画喜剧短片
+
+创作一部节奏快速的皮克斯风格3D动画喜剧，背景设定在金色时刻的现代繁华城市。一位快乐的披萨外卖小哥骑着车穿过繁忙的街道，手里拿着一个大披萨盒，准备进行一次重要的送餐。附近，一个饥饿又淘气的小偷注意到了披萨，立刻对偷走它产生了执念。他的肚子咕咕叫，想象着盒子里等待着的美味佳肴。
+
+没等反应过来，小偷就抢走了披萨盒并飞奔而去。外卖小哥立刻注意到，随即展开追逐。一场滑稽的全城追逐战开始了。他们穿过拥挤的市场、露天咖啡馆、喷泉、车水马龙的街道、节日庆典、狭窄的小巷和繁忙的广场。人们纷纷躲避，鸽子惊飞上天，摩托车险些撞到他们，两人勉强避开无数障碍。追逐随着每一次转弯变得更大、更快、更荒诞。
+
+小偷最终到达一个俯瞰城市天际线的屋顶，夕阳西下。他筋疲力尽但胜利在望，得意地笑着，慢慢打开披萨盒，期待着在这场疯狂追逐后得到美味的奖励。
+
+寂静。
+
+盒子是空的。
+
+小偷不敢相信地盯着里面。
+
+片刻之后，筋疲力尽的外卖小哥赶到。两人站在那里，喘着粗气。外卖小哥耸耸肩说：
+
+“这是为披萨拍摄准备的。”
+
+小偷愣住了。
+
+长时间的尴尬沉默。
+
+然后外卖小哥打开他的送餐包，拿出一片真正的披萨。他递给小偷。小偷惊讶地接受了。
+
+音乐从动作喜剧转为温暖的友谊。两人坐在屋顶上，一边看着日落一边一起吃披萨。空披萨盒放在他们旁边，他们笑谈这场荒唐的追逐。
+
+最终的电影镜头：夕阳下城市天际线的广角视图，外卖小哥和小偷在屋顶上分享披萨。
+
+最终文字：“有时候追逐比奖品更重要。”
+
+皮克斯级别的3D动画，富有表现力的面部反应，电影般的镜头运动，动态的动作场景，色彩丰富的城市环境，夸张的喜剧节奏，温暖的情感结局，金色时刻的灯光，超细致的渲染，电影级视觉效果，流畅的场景过渡，16:9宽屏。
+
+--- 线程继续 ---
+[Thread 1] 你可以在这里试试
+
+https://t.co/L8M3fUYoxt
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066377466319712611.json)
+
+```text
+---
+픽사 스타일의 3D 애니메이션 코미디 단편
+
+황금 시간대의 활기찬 현대 도시를 배경으로 빠르게 진행되는 픽사 스타일의 3D 애니메이션 코미디를 만들어보세요. 명랑한 피자 배달 소년이 중요한 배달을 위해 큰 피자 상자를 들고 바쁜 거리를 달립니다. 근처에서 배고프고 장난기 많은 도둑이 피자를 보고 즉시 그것을 훔치려는 집착에 빠집니다. 그의 배는 안에 기다리고 있는 맛있는 식사를 상상하며 꼬르륵 소리를 냅니다.
+
+갑자기 도둑은 피자 상자를 낚아채고 도망칩니다. 배달 소년은 즉시 알아채고 그를 쫓습니다. 웃음을 자아내는 도시 전역의 추격전이 시작됩니다. 그들은 붐비는 시장, 야외 카페, 분수대, 교통이 혼잡한 거리, 축제, 좁은 골목길, 바쁜 광장을 질주합니다. 사람들이 옆으로 피하고, 비둘기들이 하늘로 흩어지며, 스쿠터가 아슬아슬하게 그들을 비껴가고, 두 캐릭터는 수많은 장애물을 간신히 피합니다. 추격전은 매번 더 커지고, 더 빨라지고, 더 우스꽝스러워집니다.
+
+도둑은 마침내 도시 스카이라인을 내려다보는 옥상에 도착합니다. 지쳤지만 승리한 그는 자랑스럽게 웃으며 피자 상자를 천천히 열어, 야생의 추격전 후에 맛있는 보상을 기대합니다.
+
+정적.
+
+상자는 완전히 비어 있습니다.
+
+도둑은 믿을 수 없다는 듯 안을 들여다봅니다.
+
+잠시 후, 지친 배달 소년이 도착합니다. 둘 다 숨을 헐떡이며 서 있습니다. 배달 소년은 어깨를 으쓱하며 말합니다:
+
+"피자 사진 촬영용이에요."
+
+도둑은 얼어붙습니다.
+
+길고 어색한 침묵.
+
+그러다 배달 소년은 배달 가방을 열어 진짜 피자 한 조각을 보여줍니다. 그는 그것을 도둑에게 건넵니다. 놀란 도둑은 받아들입니다.
+
+음악은 액션 코미디에서 따뜻한 우정으로 바뀝니다. 둘은 옥상에 앉아 함께 피자를 먹으며 일몰을 바라봅니다. 빈 피자 상자는 그들 옆에 놓여 있고, 그들은 우스꽝스러운 추격전을 웃으며 이야기합니다.
+
+마지막 시네마틱 샷: 일몰의 도시 스카이라인을 넓게 보여주며, 옥상에서 피자를 나누는 배달 소년과 도둑.
+
+마지막 텍스트: "때로는 추격이 보상보다 더 크다."
+
+픽사 품질의 3D 애니메이션, 표현력 있는 얼굴 반응, 시네마틱 카메라 움직임, 역동적인 액션 시퀀스, 다채로운 도시 환경, 과장된 코미디 타이밍, 따뜻한 감정적 결말, 황금 시간대 조명, 초정밀 렌더링, 영화 품질의 비주얼, 부드러운 장면 전환, 16:9 와이드스크린.
+
+--- THREAD CONTINUATION ---
+[Thread 1] You can try it here
+
+https://t.co/L8M3fUYoxt
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066377466319712611.json)
+
+```text
+---
+
+Curta de Comédia Animada em 3D Inspirada na Pixar
+
+Crie uma comédia animada em 3D no estilo Pixar, ambientada em uma vibrante cidade moderna durante a hora dourada. Um alegre entregador de pizza percorre ruas movimentadas carregando uma grande caixa de pizza para uma entrega importante. Perto dali, um ladrão faminto e travesso nota a pizza e imediatamente fica obcecado em roubá-la. Seu estômago ronca enquanto ele imagina a deliciosa refeição que o espera.
+
+Sem aviso, o ladrão agarra a caixa de pizza e sai correndo. O entregador percebe instantaneamente e começa a persegui-lo. Uma perseguição hilária por toda a cidade começa. Eles correm por mercados lotados, cafés ao ar livre, fontes, ruas cheias de trânsito, festivais, becos estreitos e praças movimentadas. Pessoas pulam para o lado, pombos se espalham pelo céu, scooters quase os atingem, e ambos os personagens mal evitam inúmeros obstáculos. A perseguição se torna maior, mais rápida e mais ridícula a cada curva.
+
+O ladrão finalmente chega a um telhado com vista para o horizonte da cidade ao pôr do sol. Exausto, mas vitorioso, ele ri orgulhosamente e lentamente abre a caixa de pizza, esperando uma deliciosa recompensa após a perseguição selvagem.
+
+Silêncio.
+
+A caixa está completamente vazia.
+
+O ladrão olha para dentro, incrédulo.
+
+Momentos depois, o exausto entregador chega. Ambos ficam ali, respirando pesadamente. O entregador dá de ombros e diz:
+
+"É para uma sessão de fotos de pizza."
+
+O ladrão congela.
+
+Longo silêncio constrangedor.
+
+Então o entregador abre sua bolsa de entregas e revela uma fatia real de pizza. Ele oferece ao ladrão. Surpreso, o ladrão aceita.
+
+A música muda de ação-comédia para uma amizade calorosa. Ambos se sentam no telhado assistindo ao pôr do sol enquanto comem pizza juntos. A caixa de pizza vazia fica ao lado deles enquanto riem da perseguição absurda.
+
+Tomada cinematográfica final: visão ampla do horizonte da cidade ao pôr do sol, o entregador e o ladrão compartilhando pizza no telhado.
+
+Texto final: "Às vezes, a perseguição é maior que o prêmio."
+
+Animação 3D de qualidade Pixar, reações faciais expressivas, movimento de câmera cinematográfico, sequências de ação dinâmicas, ambientes urbanos coloridos, timing cômico exagerado, final emocional caloroso, iluminação da hora dourada, renderização ultra-detalhada, visuais de qualidade cinematográfica, transições de cena suaves, widescreen 16:9.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Você pode tentar aqui
+
+https://t.co/L8M3fUYoxt
+---
+```
+
+## 出处与许可
+
+- 原作者：[Smiling Khan](https://x.com/AIwithkhan) · 原帖：<https://x.com/AIwithkhan/status/2066377466319712611>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2066377466319712611.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

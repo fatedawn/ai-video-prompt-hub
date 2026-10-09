@@ -1,0 +1,369 @@
+---
+id: "renoise-2047993220194504800"
+title: "Ultra-realistic cinematic video, 4K–8K resolution, 24fps, epic fantasy war…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "动作大片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Military", "Animals", "Creatures", "Photoreal", "Fantasy"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2047993220194504800.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Ai Doctor"
+original_author_url: "https://x.com/DoctorAmna11"
+original_post_url: "https://x.com/DoctorAmna11/status/2047993220194504800"
+published: "2026-04-25"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Ultra-realistic cinematic video, 4K–8K resolution, 24fps, epic fantasy war…
+
+## 提示词（English）
+
+```text
+Ultra-realistic cinematic video, 4K–8K resolution, 24fps, epic fantasy war style. Wide-angle lens (24–35mm) for establishing shots and telephoto close-ups for combat intensity. Highly detailed VFX, physically accurate motion, realistic fire, smoke, wind, and magical energy simulation. Dramatic volumetric lighting and atmospheric depth.
+Scene setup:
+A massive ancient battlefield spread across shattered mountains and burning plains during a violent storm. The sky is dark with heavy storm clouds, constant lightning flashes, drifting ash, and turbulent wind. The environment is extremely detailed with scorched الأرض, broken stone structures, and faint glowing magical remnants on the ground.
+Action sequence:
+0–3 seconds: Aerial battlefield reveal
+The camera opens with a wide cinematic aerial shot of a colossal dragon army dominating the storm-filled sky. The lead dragon is enormous with molten lava-like scales, glowing cracks across its body, and massive wings that generate hurricane-force winds with every movement. Lightning strikes around its body as it roars, shaking the atmosphere.
+3–6 seconds: Human army formation
+Cut to ground level. A disciplined human warrior army stands in tight battle formations across the battlefield. Armored commanders lead the forces with glowing magical weapons and energy-infused shields. The ground trembles as dragon shadows pass overhead. Wind pressure and debris intensify as the battle approaches.
+6–8 seconds: Full-scale clash begins
+The molten dragon dives toward the battlefield, unleashing streams of fire and lightning. Human commanders activate magical defenses and coordinated counterattacks. Explosions of fire, dust clouds, and magical shockwaves collide in the air and across the ground. The camera alternates between fast ground impact shots and sweeping aerial chaos.
+8–10 seconds: Cinematic climax and freeze
+A slow-motion wide cinematic shot shows the battlefield engulfed in fire, lightning, and magical energy. The molten dragon hovers above with wings fully extended, dominating the sky. Below, human warriors stand firm behind glowing shields amid rising dust and embers. The scene freezes into an epic war tableau before fading out.
+Camera movement:
+Wide aerial establishing shot → smooth descending tracking shot → ground-level dynamic combat perspective → rapid cut to dragon dive sequence → slow-motion final wide cinematic freeze.
+Lighting:
+Dark storm lighting with intense lightning flashes. Orange-red fire glow from dragon breath. Cool blue and white magical energy from human forces. Strong volumetric fog, smoke layers, and cinematic contrast between fire and storm light.
+Environment details:
+Ultra-detailed dragon scales with molten glowing fissures, realistic wing physics generating wind shockwaves, human armor reflecting fire and lightning, particle-based fire, smoke, and ash simulation, dust turbulence reacting to movement, large-scale battlefield destruction effects.
+Voice-over (deep cinematic narration):
+“The skies burned with ancient fury.”
+“Dragons ruled the storm above.”
+“But beneath them stood humanity.”
+“Unyielding in the face of destruction.”
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2047993220194504800.json)
+
+```text
+Video cinematográfico ultra-realista, resolución 4K–8K, 24fps, estilo épico de guerra fantástica. Lente gran angular (24–35mm) para tomas de establecimiento y teleobjetivo para primeros planos de intensidad en combate. VFX altamente detallados, movimiento físicamente preciso, simulación realista de fuego, humo, viento y energía mágica. Iluminación volumétrica dramática y profundidad atmosférica.
+
+Configuración de la escena:
+Un enorme campo de batalla antiguo se extiende a través de montañas destrozadas y llanuras ardientes durante una tormenta violenta. El cielo está oscuro con nubes de tormenta pesadas, relámpagos constantes, cenizas flotantes y viento turbulento. El entorno está extremadamente detallado con tierra chamuscada, estructuras de piedra rotas y restos mágicos brillantes en el suelo.
+
+Secuencia de acción:
+0–3 segundos: Revelación aérea del campo de batalla
+La cámara se abre con una amplia toma aérea cinematográfica de un colosal ejército de dragones dominando el cielo lleno de tormentas. El dragón líder es enorme, con escamas similares a lava fundida, grietas brillantes a lo largo de su cuerpo y alas masivas que generan vientos huracanados con cada movimiento. Los relámpagos golpean alrededor de su cuerpo mientras ruge, sacudiendo la atmósfera.
+
+3–6 segundos: Formación del ejército humano
+Corte al nivel del suelo. Un disciplinado ejército de guerreros humanos se mantiene en formaciones de batalla ajustadas a lo largo del campo de batalla. Comandantes blindados lideran las fuerzas con armas mágicas brillantes y escudos infundidos con energía. El suelo tiembla mientras las sombras de los dragones pasan por encima. La presión del viento y los escombros se intensifican a medida que se acerca la batalla.
+
+6–8 segundos: Comienza el choque a gran escala
+El dragón fundido se lanza hacia el campo de batalla, desatando corrientes de fuego y relámpagos. Los comandantes humanos activan defensas mágicas y contraataques coordinados. Explosiones de fuego, nubes de polvo y ondas de choque mágicas chocan en el aire y a lo largo del suelo. La cámara alterna entre tomas rápidas de impacto en el suelo y caos aéreo barrido.
+
+8–10 segundos: Clímax cinematográfico y congelación
+Una toma cinematográfica amplia en cámara lenta muestra el campo de batalla envuelto en fuego, relámpagos y energía mágica. El dragón fundido se cierne sobre él con las alas completamente extendidas, dominando el cielo. Abajo, los guerreros humanos se mantienen firmes detrás de escudos brillantes en medio de polvo y brasas en ascenso. La escena se congela en un épico cuadro de guerra antes de desvanecerse.
+
+Movimiento de cámara:
+Toma aérea amplia de establecimiento → toma de seguimiento descendente suave → perspectiva dinámica de combate a nivel del suelo → corte rápido a la secuencia de inmersión del dragón → congelación cinematográfica final en cámara lenta.
+
+Iluminación:
+Iluminación de tormenta oscura con intensos destellos de relámpagos. Resplandor de fuego naranja-rojo del aliento del dragón. Energía mágica azul fría y blanca de las fuerzas humanas. Fuerte niebla volumétrica, capas de humo y contraste cinematográfico entre el fuego y la luz de la tormenta.
+
+Detalles del entorno:
+Escamas de dragón ultra detalladas con fisuras brillantes de lava fundida, física realista de alas generando ondas de choque de viento, armadura humana reflejando fuego y relámpagos, simulación de fuego, humo y cenizas basada en partículas, turbulencia de polvo reaccionando al movimiento, efectos de destrucción a gran escala del campo de batalla.
+
+Narración en off (narración cinematográfica profunda):
+"Los cielos ardían con furia antigua."
+"Los dragones gobernaban la tormenta arriba."
+"Pero debajo de ellos estaba la humanidad."
+"Inquebrantable ante la destrucción."
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2047993220194504800.json)
+
+```text
+Vidéo cinématographique ultra-réaliste, résolution 4K–8K, 24fps, style guerre épique fantastique. Objectif grand angle (24–35mm) pour les plans d'ensemble et téléobjectif pour les gros plans intenses de combat. VFX hautement détaillés, mouvement physiquement précis, simulation réaliste de feu, fumée, vent et énergie magique. Éclairage volumétrique dramatique et profondeur atmosphérique.
+
+Configuration de la scène :
+Un champ de bataille ancien massif s'étend à travers des montagnes brisées et des plaines en feu pendant une tempête violente. Le ciel est sombre avec de lourds nuages d'orage, des éclairs constants, des cendres flottantes et un vent turbulent. L'environnement est extrêmement détaillé avec une terre brûlée, des structures en pierre brisées et de faibles rémanences magiques brillantes au sol.
+
+Séquence d'action :
+0–3 secondes : Révélation aérienne du champ de bataille
+La caméra s'ouvre sur un large plan aérien cinématographique d'une armée de dragons colossale dominant le ciel orageux. Le dragon de tête est énorme avec des écailles semblables à de la lave en fusion, des fissures lumineuses sur son corps et des ailes massives générant des vents de force ouragan à chaque mouvement. Des éclairs frappent autour de son corps tandis qu'il rugit, secouant l'atmosphère.
+
+3–6 secondes : Formation de l'armée humaine
+Coupe au niveau du sol. Une armée de guerriers humains disciplinés se tient en formations de bataille serrées sur le champ de bataille. Des commandants en armure dirigent les forces avec des armes magiques lumineuses et des boucliers infusés d'énergie. Le sol tremble alors que les ombres des dragons passent au-dessus. La pression du vent et les débris s'intensifient à l'approche de la bataille.
+
+6–8 secondes : Le choc à grande échelle commence
+Le dragon en fusion plonge vers le champ de bataille, déchaînant des torrents de feu et d'éclairs. Les commandants humains activent des défenses magiques et des contre-attaques coordonnées. Des explosions de feu, des nuages de poussière et des ondes de choc magiques se heurtent dans l'air et sur le sol. La caméra alterne entre des plans d'impact au sol rapides et un chaos aérien balayé.
+
+8–10 secondes : Climax cinématographique et gel
+Un plan cinématographique large au ralenti montre le champ de bataille englouti dans le feu, les éclairs et l'énergie magique. Le dragon en fusion plane au-dessus avec ses ailes entièrement déployées, dominant le ciel. En dessous, les guerriers humains restent fermes derrière des boucliers lumineux au milieu de la poussière et des braises montantes. La scène se fige en un tableau de guerre épique avant de s'estomper.
+
+Mouvement de la caméra :
+Plan d'ensemble aérien large → plan de suivi descendant fluide → perspective de combat dynamique au niveau du sol → coupe rapide à la séquence de plongée du dragon → gel cinématographique final au ralenti.
+
+Éclairage :
+Éclairage de tempête sombre avec des éclairs intenses. Lueur de feu orange-rouge du souffle du dragon. Énergie magique bleu froid et blanche des forces humaines. Brouillard volumétrique fort, couches de fumée et contraste cinématographique entre le feu et la lumière de la tempête.
+
+Détails de l'environnement :
+Écailles de dragon ultra-détaillées avec des fissures lumineuses en fusion, physique réaliste des ailes générant des ondes de choc de vent, armure humaine reflétant le feu et les éclairs, simulation de feu, fumée et cendres à base de particules, turbulence de poussière réagissant au mouvement, effets de destruction à grande échelle du champ de bataille.
+
+Voix off (narration cinématographique profonde) :
+« Les cieux brûlaient d'une fureur ancienne. »
+« Les dragons régnaient sur la tempête au-dessus. »
+« Mais en dessous d'eux se tenait l'humanité. »
+« Inébranlable face à la destruction. »
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2047993220194504800.json)
+
+```text
+---
+초현실적인 시네마틱 비디오, 4K–8K 해상도, 24fps, 서사적 판타지 전쟁 스타일. 설정 샷을 위한 광각 렌즈(24–35mm)와 전투의 강렬함을 위한 망원 클로즈업. 매우 정교한 VFX, 물리적으로 정확한 움직임, 현실적인 불, 연기, 바람, 마법 에너지 시뮬레이션. 극적인 볼륨 조명과 대기 깊이.
+
+장면 설정:
+격렬한 폭풍 속에 산산조각난 산과 불타는 평원을 가로지르는 거대한 고대 전장. 하늘은 짙은 폭풍 구름으로 어두워지고, 번개가 끊임없이 번쩍이며, 재가 흩날리고, 바람이 거세다. 환경은 불타버린 땅, 부서진 돌 구조물, 땅에 희미하게 빛나는 마법의 잔재들로 매우 상세하게 묘사된다.
+
+액션 시퀀스:
+0–3초: 공중 전장 공개
+카메라는 폭풍으로 가득 찬 하늘을 지배하는 거대한 용 군대의 넓은 시네마틱 공중 샷으로 시작한다. 선두 용은 용암 같은 비늘과 몸 전체에 빛나는 균열을 가진 거대한 존재로, 움직일 때마다 허리케인급 바람을 일으키는 거대한 날개를 가지고 있다. 번개가 몸 주변을 치며 포효할 때 대기가 흔들린다.
+
+3–6초: 인간 군대 형성
+지상으로 전환. 규율 있는 인간 전사 군대가 전장에 걸쳐 단단한 전투 대형을 이루고 있다. 갑옷을 입은 지휘관들이 빛나는 마법 무기와 에너지가 주입된 방패로 군대를 이끈다. 용의 그림자가 머리 위로 지나가면서 땅이 떨린다. 전투가 다가오면서 바람의 압력과 파편이 강해진다.
+
+6–8초: 전면 충돌 시작
+용암 용이 전장으로 급강하하며 불과 번개의 흐름을 방출한다. 인간 지휘관들은 마법 방어를 활성화하고 조율된 반격을 시작한다. 불꽃, 먼지 구름, 마법 충격파가 공중과 지상에서 충돌한다. 카메라는 빠른 지상 충격 샷과 휩쓸리는 공중 혼돈 사이를 번갈아 가며 보여준다.
+
+8–10초: 시네마틱 클라이맥스와 정지
+슬로우 모션의 넓은 시네마틱 샷이 불, 번개, 마법 에너지로 뒤덮인 전장을 보여준다. 용암 용이 날개를 완전히 펼친 채 하늘을 지배하며 위에 떠 있다. 아래에서는 인간 전사들이 빛나는 방패 뒤에서 먼지와 불꽃이 치솟는 가운데 굳건히 서 있다. 장면은 서사적인 전쟁 장면으로 정지되었다가 사라진다.
+
+카메라 움직임:
+넓은 공중 설정 샷 → 부드러운 하강 추적 샷 → 지상 수준의 역동적인 전투 관점 → 용 급강하 시퀀스로의 빠른 컷 → 슬로우 모션의 최종 넓은 시네마틱 정지.
+
+조명:
+강렬한 번개가 번쩍이는 어두운 폭풍 조명. 용의 숨결에서 나오는 주황색-빨간색 불빛. 인간 군대에서 나오는 시원한 파란색과 흰색의 마법 에너지. 강한 볼륨 안개, 연기 층, 불과 폭풍 빛 사이의 시네마틱 대비.
+
+환경 세부 사항:
+용암처럼 빛나는 균열이 있는 초정밀 용 비늘, 바람 충격파를 생성하는 현실적인 날개 물리학, 불과 번개를 반사하는 인간 갑옷, 입자 기반의 불, 연기, 재 시뮬레이션, 움직임에 반응하는 먼지 난류, 대규모 전장 파괴 효과.
+
+내레이션 (깊은 시네마틱 내레이션):
+“하늘은 고대의 분노로 불타올랐다.”
+“용들은 위에서 폭풍을 지배했다.”
+“그러나 그 아래에는 인류가 서 있었다.”
+“파괴에 맞서 굴하지 않고.”
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt:
+Ultra-realistic cinematic video, 4K–8K resolution, 24fps, epic fantasy war style. Wide-angle lens (24–35mm) for establishing shots and telephoto close-ups for combat intensity. Highly detailed VFX, physically accurate motion, realistic fire, smoke, wind, and magical energy simulation. Dramatic volumetric lighting and atmospheric depth.
+Scene setup:
+A massive ancient battlefield spread across shattered mountains and burning plains during a violent storm. The sky is dark with heavy storm clouds, constant lightning flashes, drifting ash, and turbulent wind. The environment is extremely detailed with scorched الأرض, broken stone structures, and faint glowing magical remnants on the ground.
+Action sequence:
+0–3 seconds: Aerial battlefield reveal
+The camera opens with a wide cinematic aerial shot of a colossal dragon army dominating the storm-filled sky. The lead dragon is enormous with molten lava-like scales, glowing cracks across its body, and massive wings that generate hurricane-force winds with every movement. Lightning strikes around its body as it roars, shaking the atmosphere.
+3–6 seconds: Human army formation
+Cut to ground level. A disciplined human warrior army stands in tight battle formations across the battlefield. Armored commanders lead the forces with glowing magical weapons and energy-infused shields. The ground trembles as dragon shadows pass overhead. Wind pressure and debris intensify as the battle approaches.
+6–8 seconds: Full-scale clash begins
+The molten dragon dives toward the battlefield, unleashing streams of fire and lightning. Human commanders activate magical defenses and coordinated counterattacks. Explosions of fire, dust clouds, and magical shockwaves collide in the air and across the ground. The camera alternates between fast ground impact shots and sweeping aerial chaos.
+8–10 seconds: Cinematic climax and freeze
+A slow-motion wide cinematic shot shows the battlefield engulfed in fire, lightning, and magical energy. The molten dragon hovers above with wings fully extended, dominating the sky. Below, human warriors stand firm behind glowing shields amid rising dust and embers. The scene freezes into an epic war tableau before fading out.
+Camera movement:
+Wide aerial establishing shot → smooth descending tracking shot → ground-level dynamic combat perspective → rapid cut to dragon dive sequence → slow-motion final wide cinematic freeze.
+Lighting:
+Dark storm lighting with intense lightning flashes. Orange-red fire glow from dragon breath. Cool blue and white magical energy from human forces. Strong volumetric fog, smoke layers, and cinematic contrast between fire and storm light.
+Environment details:
+Ultra-detailed dragon scales with molten glowing fissures, realistic wing physics generating wind shockwaves, human armor reflecting fire and lightning, particle-based fire, smoke, and ash simulation, dust turbulence reacting to movement, large-scale battlefield destruction effects.
+Voice-over (deep cinematic narration):
+“The skies burned with ancient fury.”
+“Dragons ruled the storm above.”
+“But beneath them stood humanity.”
+“Unyielding in the face of destruction.”
+https://t.co/05YdxdeSqT
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2047993220194504800.json)
+
+```text
+Vídeo cinematográfico ultra-realista, resolução 4K–8K, 24fps, estilo épico de guerra de fantasia. Lente grande angular (24–35mm) para tomadas de estabelecimento e teleobjetiva para close-ups de intensidade de combate. VFX altamente detalhados, movimento fisicamente preciso, simulação realista de fogo, fumaça, vento e energia mágica. Iluminação volumétrica dramática e profundidade atmosférica.
+
+Configuração da cena:
+Um campo de batalha antigo e massivo espalhado por montanhas destruídas e planícies em chamas durante uma tempestade violenta. O céu está escuro com nuvens de tempestade pesadas, relâmpagos constantes, cinzas flutuantes e vento turbulento. O ambiente é extremamente detalhado com أرض queimada, estruturas de pedra quebradas e restos mágicos brilhantes no chão.
+
+Sequência de ação:
+0–3 segundos: Revelação aérea do campo de batalha
+A câmera abre com uma ampla tomada aérea cinematográfica de um exército colossal de dragões dominando o céu cheio de tempestades. O dragão líder é enorme, com escamas semelhantes a lava derretida, rachaduras brilhantes em seu corpo e asas maciças que geram ventos de força de furacão a cada movimento. Relâmpagos atingem ao redor de seu corpo enquanto ele ruge, sacudindo a atmosfera.
+
+3–6 segundos: Formação do exército humano
+Corte para o nível do solo. Um exército disciplinado de guerreiros humanos está em formações de batalha apertadas pelo campo de batalha. Comandantes armados lideram as forças com armas mágicas brilhantes e escudos infundidos com energia. O chão treme enquanto sombras de dragões passam por cima. A pressão do vento e os detritos se intensificam à medida que a batalha se aproxima.
+
+6–8 segundos: O confronto em grande escala começa
+O dragão derretido mergulha em direção ao campo de batalha, liberando correntes de fogo e relâmpagos. Comandantes humanos ativam defesas mágicas e contra-ataques coordenados. Explosões de fogo, nuvens de poeira e ondas de choque mágicas colidem no ar e pelo chão. A câmera alterna entre rápidas tomadas de impacto no solo e caos aéreo varrido.
+
+8–10 segundos: Clímax cinematográfico e congelamento
+Uma tomada cinematográfica ampla em câmera lenta mostra o campo de batalha envolto em fogo, relâmpagos e energia mágica. O dragão derretido paira acima com asas totalmente estendidas, dominando o céu. Abaixo, guerreiros humanos permanecem firmes atrás de escudos brilhantes em meio a poeira e brasas crescentes. A cena congela em um épico tableau de guerra antes de desaparecer.
+
+Movimento da câmera:
+Tomada aérea ampla de estabelecimento → tomada de rastreamento descendente suave → perspectiva de combate dinâmica ao nível do solo → corte rápido para sequência de mergulho do dragão → congelamento cinematográfico final em câmera lenta.
+
+Iluminação:
+Iluminação de tempestade escura com intensos flashes de relâmpagos. Brilho de fogo laranja-avermelhado do sopro do dragão. Energia mágica azul e branca fria das forças humanas. Forte névoa volumétrica, camadas de fumaça e contraste cinematográfico entre luz de fogo e tempestade.
+
+Detalhes do ambiente:
+Escamas de dragão ultra-detalhadas com fissuras brilhantes de lava derretida, física realista das asas gerando ondas de choque de vento, armaduras humanas refletindo fogo e relâmpagos, simulação de fogo, fumaça e cinzas baseada em partículas, turbulência de poeira reagindo ao movimento, efeitos de destruição em grande escala no campo de batalha.
+
+Narração em off (narração cinematográfica profunda):
+“O céu queimava com fúria antiga.”
+“Dragões governavam a tempestade acima.”
+“Mas abaixo deles estava a humanidade.”
+“Indomável diante da destruição.”
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2047993220194504800.json)
+
+```text
+超现实主义电影视频，4K–8K分辨率，24fps，史诗奇幻战争风格。使用广角镜头（24–35mm）进行全景拍摄，使用长焦镜头进行战斗特写以增强战斗强度。高度细致的视觉特效，物理精确的运动，逼真的火焰、烟雾、风和魔法能量模拟。戏剧性的体积光和大气深度。
+
+场景设置：
+在暴风雨中，广阔的古战场横跨破碎的山脉和燃烧的平原。天空阴暗，乌云密布，闪电不断，灰烬飘散，狂风肆虐。环境极其细致，焦土、破碎的石结构和地面上微弱发光的魔法残迹。
+
+动作序列：
+0–3秒：空中战场揭示
+镜头以宽广的电影空中镜头开场，展示一支庞大的龙军主宰着充满风暴的天空。领头的巨龙体型庞大，鳞片如熔岩般炽热，身体上有发光的裂缝，巨大的翅膀每次挥动都能产生飓风般的风力。闪电在它周围击打，它的咆哮震撼了整个大气。
+
+3–6秒：人类军队阵型
+切换到地面。纪律严明的人类战士军队在战场上排列成紧密的战斗阵型。身披铠甲的指挥官带领部队，手持发光的魔法武器和充能的盾牌。当龙的阴影掠过头顶时，地面颤抖。随着战斗的临近，风压和碎片加剧。
+
+6–8秒：全面冲突开始
+熔岩巨龙俯冲向战场，喷射出火焰和闪电。人类指挥官启动魔法防御并进行协调反击。火焰爆炸、尘云和魔法冲击波在空中和地面上碰撞。镜头在快速的地面冲击镜头和扫荡的空中混乱之间交替。
+
+8–10秒：电影高潮和冻结
+慢动作的宽广电影镜头展示了被火焰、闪电和魔法能量吞噬的战场。熔岩巨龙悬停在上空，翅膀完全展开，主宰着天空。下方，人类战士在发光的盾牌后坚定不移，尘土和火星升腾。场景冻结成史诗般的战争画面，然后淡出。
+
+镜头运动：
+宽广的空中全景镜头 → 平滑的下降跟踪镜头 → 地面动态战斗视角 → 快速切换到龙俯冲序列 → 慢动作最终宽广电影冻结。
+
+灯光：
+黑暗的风暴灯光伴随强烈的闪电。龙息的橙红色火焰光辉。人类力量的冷蓝色和白色魔法能量。强烈的体积雾、烟雾层和火焰与风暴光之间的电影对比。
+
+环境细节：
+超细致的龙鳞，带有熔岩般的发光裂缝，逼真的翅膀物理产生风力冲击波，人类盔甲反射火焰和闪电，基于粒子的火焰、烟雾和灰烬模拟，尘土湍流随运动反应，大规模战场破坏效果。
+
+旁白（深沉的电影解说）：
+“天空燃烧着古老的愤怒。”
+“龙统治着上方的风暴。”
+“但在它们之下，人类屹立不倒。”
+“在毁灭面前毫不动摇。”
+
+--- 线程继续 ---
+[线程 1] Prompt:
+Ultra-realistic cinematic video, 4K–8K resolution, 24fps, epic fantasy war style. Wide-angle lens (24–35mm) for establishing shots and telephoto close-ups for combat intensity. Highly detailed VFX, physically accurate motion, realistic fire, smoke, wind, and magical energy simulation. Dramatic volumetric lighting and atmospheric depth.
+Scene setup:
+A massive ancient battlefield spread across shattered mountains and burning plains during a violent storm. The sky is dark with heavy storm clouds, constant lightning flashes, drifting ash, and turbulent wind. The environment is extremely detailed with scorched الأرض, broken stone structures, and faint glowing magical remnants on the ground.
+Action sequence:
+0–3 seconds: Aerial battlefield reveal
+The camera opens with a wide cinematic aerial shot of a colossal dragon army dominating the storm-filled sky. The lead dragon is enormous with molten lava-like scales, glowing cracks across its body, and massive wings that generate hurricane-force winds with every movement. Lightning strikes around its body as it roars, shaking the atmosphere.
+3–6 seconds: Human army formation
+Cut to ground level. A disciplined human warrior army stands in tight battle formations across the battlefield. Armored commanders lead the forces with glowing magical weapons and energy-infused shields. The ground trembles as dragon shadows pass overhead. Wind pressure and debris intensify as the battle approaches.
+6–8 seconds: Full-scale clash begins
+The molten dragon dives toward the battlefield, unleashing streams of fire and lightning. Human commanders activate magical defenses and coordinated counterattacks. Explosions of fire, dust clouds, and magical shockwaves collide in the air and across the ground. The camera alternates between fast ground impact shots and sweeping aerial chaos.
+8–10 seconds: Cinematic climax and freeze
+A slow-motion wide cinematic shot shows the battlefield engulfed in fire, lightning, and magical energy. The molten dragon hovers above with wings fully extended, dominating the sky. Below, human warriors stand firm behind glowing shields amid rising dust and embers. The scene freezes into an epic war tableau before fading out.
+Camera movement:
+Wide aerial establishing shot → smooth descending tracking shot → ground-level dynamic combat perspective → rapid cut to dragon dive sequence → slow-motion final wide cinematic freeze.
+Lighting:
+Dark storm lighting with intense lightning flashes. Orange-red fire glow from dragon breath. Cool blue and white magical energy from human forces. Strong volumetric fog, smoke layers, and cinematic contrast between fire and storm light.
+Environment details:
+Ultra-detailed dragon scales with molten glowing fissures, realistic wing physics generating wind shockwaves, human armor reflecting fire and lightning, particle-based fire, smoke, and ash simulation, dust turbulence reacting to movement, large-scale battlefield destruction effects.
+Voice-over (deep cinematic narration):
+“The skies burned with ancient fury.”
+“Dragons ruled the storm above.”
+“But beneath them stood humanity.”
+“Unyielding in the face of destruction.”
+https://t.co/05YdxdeSqT
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2047993220194504800.json)
+
+```text
+---
+超リアルなシネマティックビデオ、4K–8K解像度、24fps、壮大なファンタジー戦争スタイル。広角レンズ（24–35mm）でのエスタブリッシングショットと、戦闘の激しさを捉える望遠クローズアップ。非常に詳細なVFX、物理的に正確な動き、リアルな火、煙、風、魔法エネルギーのシミュレーション。劇的なボリュメトリックライティングと大気の深み。
+シーン設定：
+激しい嵐の中、砕けた山々と燃える平原に広がる巨大な古代の戦場。空は重い嵐雲で暗く、絶え間ない稲妻の閃光、漂う灰、激しい風が吹き荒れる。環境は非常に詳細で、焦げた地面、壊れた石の構造物、地面に微かに輝く魔法の残骸がある。
+アクションシークエンス：
+0–3秒: 空中戦場の公開
+カメラは、嵐に満ちた空を支配する巨大なドラゴン軍の広大なシネマティック空中ショットで始まる。先頭のドラゴンは溶岩のような鱗を持ち、その体には輝く亀裂が走り、巨大な翼は動くたびにハリケーンのような風を生み出す。稲妻がその体の周りに落ち、咆哮するたびに大気を揺るがす。
+3–6秒: 人間の軍隊の編成
+地上レベルにカット。規律ある人間の戦士軍が戦場に緊密な戦闘隊形で立つ。装甲をまとった指揮官たちは、輝く魔法の武器とエネルギーを注入された盾で軍を率いる。ドラゴンの影が頭上を通過するたびに地面が震える。戦いが近づくにつれて、風圧と破片が激しくなる。
+6–8秒: 本格的な衝突の開始
+溶岩のドラゴンが戦場に向かって突進し、火と稲妻の流れを解き放つ。人間の指揮官たちは魔法の防御を発動し、協調した反撃を行う。火の爆発、塵の雲、魔法の衝撃波が空中と地上で衝突する。カメラは速い地上インパクトショットと広がる空中の混乱を交互に映し出す。
+8–10秒: シネマティックなクライマックスとフリーズ
+スローモーションの広いシネマティックショットが、火、稲妻、魔法のエネルギーに包まれた戦場を映し出す。溶岩のドラゴンは翼を完全に広げて空を支配しながら上空に浮かぶ。下では、人間の戦士たちが輝く盾の後ろにしっかりと立ち、上昇する塵と火の粉の中にいる。シーンは壮大な戦争のタブローに凍結し、フェードアウトする。
+カメラの動き：
+広い空中のエスタブリッシングショット → 滑らかな下降トラッキングショット → 地上レベルのダイナミックな戦闘視点 → ドラゴンのダイブシーケンスへの急速なカット → スローモーションの最終広いシネマティックフリーズ。
+ライティング：
+暗い嵐のライティングと激しい稲妻の閃光。ドラゴンの息からのオレンジ赤の火の輝き。人間の力からのクールな青と白の魔法エネルギー。強いボリュメトリックフォグ、煙の層、火と嵐の光のシネマティックなコントラスト。
+環境の詳細：
+溶岩のように輝く亀裂を持つ超詳細なドラゴンの鱗、風の衝撃波を生み出すリアルな翼の物理学、火と稲妻を反射する人間の鎧、粒子ベースの火、煙、灰のシミュレーション、動きに反応する塵の乱流、大規模な戦場破壊効果。
+ナレーション（深いシネマティックな語り）：
+「空は古代の怒りで燃えた。」
+「ドラゴンは上空の嵐を支配した。」
+「しかし、その下には人類が立っていた。」
+「破壊に直面しても屈しない。」
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt:
+Ultra-realistic cinematic video, 4K–8K resolution, 24fps, epic fantasy war style. Wide-angle lens (24–35mm) for establishing shots and telephoto close-ups for combat intensity. Highly detailed VFX, physically accurate motion, realistic fire, smoke, wind, and magical energy simulation. Dramatic volumetric lighting and atmospheric depth.
+Scene setup:
+A massive ancient battlefield spread across shattered mountains and burning plains during a violent storm. The sky is dark with heavy storm clouds, constant lightning flashes, drifting ash, and turbulent wind. The environment is extremely detailed with scorched الأرض, broken stone structures, and faint glowing magical remnants on the ground.
+アクションシークエンス：
+0–3秒: 空中戦場の公開
+カメラは、嵐に満ちた空を支配する巨大なドラゴン軍の広大なシネマティック空中ショットで始まる。先頭のドラゴンは溶岩のような鱗を持ち、その体には輝く亀裂が走り、巨大な翼は動くたびにハリケーンのような風を生み出す。稲妻がその体の周りに落ち、咆哮するたびに大気を揺るがす。
+3–6秒: 人間の軍隊の編成
+地上レベルにカット。規律ある人間の戦士軍が戦場に緊密な戦闘隊形で立つ。装甲をまとった指揮官たちは、輝く魔法の武器とエネルギーを注入された盾で軍を率いる。ドラゴンの影が頭上を通過するたびに地面が震える。戦いが近づくにつれて、風圧と破片が激しくなる。
+6–8秒: 本格的な衝突の開始
+溶岩のドラゴンが戦場に向かって突進し、火と稲妻の流れを解き放つ。人間の指揮官たちは魔法の防御を発動し、協調した反撃を行う。火の爆発、塵の雲、魔法の衝撃波が空中と地上で衝突する。カメラは速い地上インパクトショットと広がる空中の混乱を交互に映し出す。
+8–10秒: シネマティックなクライマックスとフリーズ
+スローモーションの広いシネマティックショットが、火、稲妻、魔法のエネルギーに包まれた戦場を映し出す。溶岩のドラゴンは翼を完全に広げて空を支配しながら上空に浮かぶ。下では、人間の戦士たちが輝く盾の後ろにしっかりと立ち、上昇する塵と火の粉の中にいる。シーンは壮大な戦争のタブローに凍結し、フェードアウトする。
+カメラの動き：
+広い空中のエスタブリッシングショット → 滑らかな下降トラッキングショット → 地上レベルのダイナミックな戦闘視点 → ドラゴンのダイブシーケンスへの急速なカット → スローモーションの最終広いシネマティックフリーズ。
+ライティング：
+暗い嵐のライティングと激しい稲妻の閃光。ドラ
+```
+
+## 出处与许可
+
+- 原作者：[Ai Doctor](https://x.com/DoctorAmna11) · 原帖：<https://x.com/DoctorAmna11/status/2047993220194504800>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2047993220194504800.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

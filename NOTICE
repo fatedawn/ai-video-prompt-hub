@@ -4,7 +4,7 @@ Copyright 2026 天机
 This product includes software and content developed by 天机 (the "Tianji" channel),
 licensed under the Apache License, Version 2.0 (see LICENSE). The Apache-2.0 licence
 covers ONLY this repository's own work: code (scripts/, animator/ excluding
-animator/vendor/, videogen/, router/), the external-project catalog's own
+animator/vendor/, videogen/, router/, mcp/), the external-project catalog's own
 descriptions and tags (catalog/), AGENTS.md, CLAUDE.md and skills/ai-video-director/,
 documentation, the handbook, templates, examples and prompts written for this
 repository, the edits made to the animator style presets, the characters 「天机」 and
@@ -35,6 +35,11 @@ copyright lines are in LICENSES/. Details: NOTICE.md and ATTRIBUTION.md.
 * lixiaoxiao9888-create/manju-laoli-skill — MIT,
   Copyright (c) 2026 Short-Drama Director Suite contributors
 * HBAI-Ltd/Toonflow-app — MIT, Copyright (c) 2026 HBAI-Ltd
+* renoise-ai/awesome-seedance-prompts — CC BY 4.0 (LICENSE re-read 2026-10-09)
+* YouMind-OpenLab/awesome-grok-imagine-prompts — CC BY 4.0, Copyright (c) 2026 YouMind
+* hanshs474/seedance-prompts-mcp — MIT, Copyright (c) 2026 Emaki
+* f/awesome-chatgpt-prompts — prompt text CC0 1.0; code MIT
+* liu-kaining/Awesome-Veo3-Prompts — MIT, Copyright (c) 2025 liu-kaining
 * animator/presets/handdrawn-styles.json — upstream entries MIT:
   gnipbao/story-to-handdrawn-video, Copyright (c) 2026 gnipbao;
   yang0/handraw-style, Copyright (c) 2026 yang0;

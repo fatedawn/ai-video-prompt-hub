@@ -1,0 +1,426 @@
+---
+id: "renoise-2060802196816457914"
+title: "Pixar-inspired cyber architect character sheet showing Vector, a teenage hacker…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "漫剧"
+direction: "现实向"
+genre: "剧情短片"
+art_style: "3D卡通"
+tags: ["Seedance 2.0", "Renoise", "Scenery & Spectacle", "Worldbuilding", "3D Animation", "Sci-Fi", "Creative Asset"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060802196816457914.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Dheepan Ratnam"
+original_author_url: "https://x.com/Dheepanratnam"
+original_post_url: "https://x.com/Dheepanratnam/status/2060802196816457914"
+published: "2026-05-30"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Pixar-inspired cyber architect character sheet showing Vector, a teenage hacker…
+
+## 提示词（English）
+
+```text
+Pixar-inspired cyber architect character sheet showing Vector, a teenage hacker in a retro jacket with glowing holographic pixel overlays and virtual building goggles. Expressive cybernetic emotions, dynamic pixel-building poses, front side back views, polished 3D animated style, clean white background, 16:9.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060802196816457914.json)
+
+```text
+---
+Hoja de personaje de arquitecto cibernético inspirado en Pixar mostrando a Vector, un hacker adolescente con una chaqueta retro con superposiciones de píxeles holográficos brillantes y gafas virtuales de construcción. Emociones cibernéticas expresivas, poses dinámicas de construcción de píxeles, vistas de frente, lado y espalda, estilo animado 3D pulido, fondo blanco limpio, 16:9.
+
+--- TWEET CITADO ---
+Imágenes de GPT 2 y Seedance 2.0 para animaciones 🔥😍
+
+hojas de personajes creativos y secuencias de animación multi-shot completas de Seedance 2.0.
+
+detallado plano por plano con marcas de tiempo precisas, direcciones de cámara, iluminación, audio y restricciones
+
+Prompts en el hilo 🧵👇👇 pruébalo
+@openart_ai
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Arquitecto de Píxeles (Vector)
+
+Prompt de Hoja de Personaje:
+
+Hoja de personaje de arquitecto cibernético inspirado en Pixar mostrando a Vector, un hacker adolescente con una chaqueta retro con superposiciones de píxeles holográficos brillantes y gafas virtuales de construcción. Emociones cibernéticas expresivas, poses dinámicas de construcción de píxeles, vistas de frente, lado y espalda, estilo animado 3D pulido, fondo blanco limpio, 16:9.
+
+Secuencia de Animación de 15 Segundos (10 Tiros)
+
+Tiro 1 (0.0s - 1.5s): Vector desliza su mano, iluminando una proyección de cuadrícula verde en una mesa. Escena: sala de servidores oscura. Cámara: plano medio. Estilo: iluminación fresca de neón verde, Pixar 3D. Sonido: zumbido de inicio digital. Restricciones: preservar la chaqueta y las superposiciones faciales de Vector de [Imagen1] exactamente.
+Tiro 2 (1.5s - 3.0s): Las manos de Vector agarran cubos voxel azules brillantes del aire y los apilan. Cámara: primer plano de las manos. Estilo: efectos de partículas de neón azul. Sonido: pitidos digitales.
+Tiro 3 (3.0s - 4.5s): Los cubos azules brillantes se multiplican, formando un modelo de ciudad holográfica giratoria. Cámara: primer plano en la mesa. Estilo: estructuras de neón detalladas. Sonido: zumbido de transferencia de datos.
+Tiro 4 (4.5s - 6.0s): Un gato mecánico ayudante parpadea con estática azul junto al modelo. Cámara: plano medio. Estilo: superposiciones de ruido digital. Sonido: crujido de estática.
+Tiro 5 (6.0s - 7.5s): El gato golpea un edificio voxel, su pata se pixela en bloques flotantes. Cámara: primer plano de la pata del gato. Estilo: efecto de pixelación. Sonido: ping de juego retro.
+Tiro 6 (7.5s - 9.0s): El gato salta al aire, girando con fallos cómicos, partes del cuerpo pixelándose. Cámara: paneo de seguimiento. Estilo: física de dibujos animados cibernéticos. Sonido: campanilla de error.
+Tiro 7 (9.0s - 10.5s): Vector atrapa al gato parpadeante en sus brazos, luciendo divertido. Cámara: plano medio. Estilo: reflejos de neón en la cara de Vector. Sonido: ronroneo digital. Restricciones: preservar las gafas de Vector.
+Tiro 8 (10.5s - 12.0s): Vector toca un botón, un efecto de reinicio ondulante convierte al gato bloqueado de nuevo a la normalidad. Cámara: primer plano. Estilo: onda de ondulación digital. Sonido: barrido de escaneo.
+Tiro 9 (12.0s - 13.5s): La ciudad voxel brilla intensamente en azul, proyectando cuadrículas arquitectónicas complejas. Cámara: paneo de ángulo amplio. Estilo: brillo de neón intenso. Sonido: música cibernética majestuosa.
+Tiro 10 (13.5s - 15.0s): Vector y el gato miran con orgullo la ciudad voxel brillante. Cámara: zoom lento. Estilo: realismo cibernético. Sonido: outro electrónico feliz. Restricciones: preservar el diseño del personaje de Vector exactamente.
+
+Tejedor de Ondas Sonoras (Maestro Lyric)
+
+Prompt de Hoja de Personaje:
+
+Hoja de personaje de científico musical ciego inspirado en DreamWorks mostrando a Maestro Lyric, un hombre con gafas sensoriales de audio brillantes y guantes de tejido de ondas sonoras. Poses dinámicas tejiendo notas musicales brillantes físicas en el aire, vistas de frente, lado y espalda, estilo animado 3D pulido, fondo blanco limpio, 16:9.
+
+Secuencia de Animación de 15 Segundos (9 Tiros)
+
+Tiro 1 (0.0s - 1.6s): Lyric chasquea los dedos, lanzando ondas doradas brillantes. Escena: laboratorio de domo de sonido circular. Cámara: plano medio. Estilo: iluminación de partículas doradas, DreamWorks 3D. Sonido: chasquido agudo, zumbido de resonancia. Restricciones: preservar las gafas de audio y los guantes de Lyric de [Imagen1] exactamente.
+Tiro 2 (1.6s - 3.2s): Las manos de Lyric tejiendo hilos de sonido dorados brillantes en el aire. Cámara: primer plano de las manos. Estilo: texturas detalladas de tela y luz. Sonido: campanilla suave de arpa.
+Tiro 3 (3.2s - 4.8s): Los hilos dorados se cristalizan en notas musicales brillantes flotantes. Cámara: primer plano de las notas. Estilo: símbolos volumétricos brillantes. Sonido: acorde de violín hermoso.
+Tiro 4 (4.8s - 6.4s): Un metrónomo de latón de relojería hace tictac frenéticamente en un estante de madera en el fondo. Cámara: cambio de enfoque. Estilo: texturas de latón reflectantes. Sonido: tictac rápido de madera.
+Tiro 5 (6.4s - 8.0s): El metrónomo tambalea salvajemente, pierde el equilibrio y cae del estante de madera. Cámara: seguimiento de la caída. Estilo: física de dibujos animados. Sonido: traqueteo mecánico tambaleante.
+Tiro 6 (8.0s - 9.6s): Lyric barre su mano a ciegas, luciendo concentrado, usando ondas sonoras para ralentizar la caída. Cámara: plano medio siguiendo el brazo. Estilo: onda de choque dorada. Sonido: barrido de whoosh.
+Tiro 7 (9.6s - 11.2s): El metrónomo aterriza suavemente en una almohada de terciopelo rojo, haciendo tictac lentamente. Cámara: primer plano. Estilo: detalle de tela suave. Sonido: tictac suave, suspiro suave.
+Tiro 8 (11.2s - 12.8s): Notas doradas brillantes giran alrededor de Lyric en un majestuoso anillo musical. Cámara: paneo orbital. Estilo: iluminación volumétrica, brillo dorado. Sonido: armonía orquestal creciente.
+Tiro 9 (12.8s - 15.0s): Lyric sonríe, extendiendo sus manos, gafas brillantes resplandeciendo. Cámara: zoom lento. Estilo: brillo de audio mágico. Sonido: resolución musical pacífica. Restricciones: preservar el diseño del personaje de Lyric exactamente.
+
+Titiritero de Sombras (Shade)
+
+Prompt de Hoja de Personaje:
+Hoja de personaje de titiritero de sombras inspirado en Pixar mostrando a Shade, un hombre delgado con un sombrero de copa de terciopelo y anillos que doblan la luz. Emociones teatrales expresivas, poses dinámicas haciendo que las sombras en la pared cobren vida como monstruos de sombra 3D, vistas de frente, lado y espalda, estilo animado 3D pulido, fondo blanco limpio, 16:9.
+
+Secuencia de Animación de 15 Segundos (9 Tiros)
+
+Tiro 1 (0.0s - 1.6s): Shade ajusta los puños de su abrigo. Escena: escenario de teatro oscuro, foco brillante. Cámara: plano medio. Estilo: iluminación de escenario de alto contraste, Pixar 3D. Sonido: murmullo bajo de la multitud del teatro. Restricciones: preservar el sombrero de copa de terciopelo y el abrigo de Shade de [Imagen1] exactamente.
+Tiro 2 (1.6s - 3.2s): Shade levantando sus manos, anillos que doblan
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060802196816457914.json)
+
+```text
+---
+Fiche de personnage de cyber architecte inspirée par Pixar montrant Vector, un adolescent hacker avec une veste rétro et des superpositions de pixels holographiques lumineux et des lunettes de construction virtuelle. Émotions cybernétiques expressives, poses dynamiques de construction de pixels, vues de face, de côté et de dos, style d'animation 3D poli, fond blanc épuré, 16:9.
+
+--- TWEET CITÉ ---
+Images GPT 2 et Seedance 2.0 pour des animations 🔥😍
+
+fiches de personnages créatives et séquences d'animation multi-plans Seedance 2.0 complètes.
+
+détaillé plan par plan avec des horodatages précis, directions de caméra, éclairage, audio et contraintes
+
+Prompts dans le fil 🧵👇👇 essayez-le
+@openart_ai
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Architecte de Pixels (Vector)
+
+Prompt de Fiche de Personnage :
+
+Pixar-inspired cyber architect character sheet showing Vector, a teenage hacker in a retro jacket with glowing holographic pixel overlays and virtual building goggles. Expressive cybernetic emotions, dynamic pixel-building poses, front side back views, polished 3D animated style, clean white background, 16:9.
+
+Séquence d'Animation de 15 Secondes (10 Plans)
+
+Plan 1 (0,0s - 1,5s) : Vector passe sa main, illuminant une projection de grille verte sur une table. Scène : salle de serveurs sombre. Caméra : plan moyen. Style : éclairage néon-vert cool, Pixar 3D. Son : bourdonnement de démarrage numérique. Contraintes : conserver exactement la veste et les superpositions faciales de Vector de [Image1].
+Plan 2 (1,5s - 3,0s) : Les mains de Vector attrapent des cubes voxel bleus lumineux dans l'air et les empilent. Caméra : gros plan sur les mains. Style : effets de particules néon-bleues. Son : bips numériques.
+Plan 3 (3,0s - 4,5s) : Les cubes bleus lumineux se multiplient, formant un modèle de ville holographique tournant. Caméra : gros plan sur la table. Style : structures néon détaillées. Son : bourdonnement de transfert de données.
+Plan 4 (4,5s - 6,0s) : Un chat mécanique assistant glitchant avec de la statique bleue est assis à côté du modèle. Caméra : plan moyen. Style : superpositions de bruit numérique. Son : crépitement statique.
+Plan 5 (6,0s - 7,5s) : Le chat frappe un bâtiment voxel, sa patte se pixelisant en blocs flottants. Caméra : gros plan sur la patte du chat. Style : effet de pixelisation. Son : ping de jeu rétro.
+Plan 6 (7,5s - 9,0s) : Le chat saute dans les airs, glitchant en tournant de manière comique, les parties du corps se pixelisant. Caméra : panoramique de suivi. Style : physique de dessin animé cybernétique. Son : carillon d'erreur.
+Plan 7 (9,0s - 10,5s) : Vector attrape le chat glitchant dans ses bras, l'air amusé. Caméra : plan moyen. Style : reflets néon sur le visage de Vector. Son : ronronnement numérique. Contraintes : conserver les lunettes de Vector.
+Plan 8 (10,5s - 12,0s) : Vector appuie sur un bouton, un effet de réinitialisation en ondulation transforme le chat en blocs de retour à la normale. Caméra : gros plan. Style : onde de vague numérique. Son : balayage de scan.
+Plan 9 (12,0s - 13,5s) : La ville voxel brille d'un bleu vif, projetant des grilles architecturales complexes. Caméra : panoramique grand angle. Style : lueur néon intense. Son : musique cyber majestueuse.
+Plan 10 (13,5s - 15,0s) : Vector et le chat regardent fièrement la ville voxel lumineuse. Caméra : zoom lent. Style : réalisme cybernétique. Son : outro électronique joyeux. Contraintes : conserver exactement le design du personnage de Vector.
+
+Tisseur d'Ondes Sonores (Maestro Lyric)
+
+Prompt de Fiche de Personnage :
+
+DreamWorks-inspired blind music scientist character sheet showing Maestro Lyric, a man with glowing sensory audio glasses and sound-wave weaving gauntlets. Dynamic posing weaving physical glowing musical notes in the air, front side back views, polished 3D animated style, clean white background, 16:9.
+
+Séquence d'Animation de 15 Secondes (9 Plans)
+
+Plan 1 (0,0s - 1,6s) : Lyric claque des doigts, lançant des ondulations dorées lumineuses. Scène : laboratoire en dôme sonore circulaire. Caméra : plan moyen. Style : éclairage de particules dorées, DreamWorks 3D. Son : claquement net, bourdonnement de résonance. Contraintes : conserver exactement les lunettes audio et les gantelets de Lyric de [Image1].
+Plan 2 (1,6s - 3,2s) : Les mains de Lyric tissent des fils sonores dorés lumineux dans l'air. Caméra : gros plan sur les mains. Style : textures détaillées de tissu et de lumière. Son : carillon de harpe doux.
+Plan 3 (3,2s - 4,8s) : Les fils dorés se cristallisent en notes musicales lumineuses flottantes. Caméra : gros plan sur les notes. Style : symboles volumétriques lumineux. Son : accord de violon magnifique.
+Plan 4 (4,8s - 6,4s) : Un métronome en laiton à engrenages tique frénétiquement sur une étagère en bois en arrière-plan. Caméra : changement de mise au point. Style : textures réfléchissantes en laiton. Son : tic-tac rapide en bois.
+Plan 5 (6,4s - 8,0s) : Le métronome vacille sauvagement, perd l'équilibre et tombe de l'étagère en bois. Caméra : suivi de la chute. Style : physique de dessin animé. Son : cliquetis mécanique vacillant.
+Plan 6 (8,0s - 9,6s) : Lyric balaie sa main à l'aveuglette, l'air concentré, utilisant des ondes sonores pour ralentir la chute. Caméra : plan moyen suivant le bras. Style : onde de choc dorée. Son : balayage de souffle.
+Plan 7 (9,6s - 11,2s) : Le métronome atterrit doucement sur un coussin de velours rouge, tic-tac lentement. Caméra : gros plan. Style : détail de tissu doux. Son : tic-tac doux, soupir léger.
+Plan 8 (11,2s - 12,8s) : Des notes dorées lumineuses tourbillonnent autour de Lyric dans un anneau musical majestueux. Caméra : panoramique orbital. Style : éclairage volumétrique, lueur dorée. Son : harmonie orchestrale enflée.
+Plan 9 (12,8s - 15,0s) : Lyric sourit, tendant ses mains, ses lunettes lumineuses brillant. Caméra : zoom lent. Style : lueur audio magique. Son : résolution musicale paisible. Contraintes : conserver exactement le design du personnage de Lyric.
+
+Marionnettiste d'Ombres (Shade)
+
+Prompt de Fiche de Personnage :
+Pixar-inspired shadow puppeteer character sheet showing Shade, a slender man in a velvet top hat and light-bending rings. Expressive theatrical emotions, dynamic posing making wall shadows come to life as 3D shadow monsters, front side back views, polished 3D animated style, clean white background, 16:9.
+
+Séquence d'Animation de 15 Secondes (9 Plans)
+
+Plan 1 (0,0s - 1,6s) : Shade ajuste les poignets de son manteau. Scène : scène de théâtre sombre, projecteur lumineux. Caméra : plan moyen. Style : éclairage de scène à contraste élevé, Pixar 3D. Son : murmure bas de la foule du théâtre. Contraintes : conserver exactement le haut-de-forme en velours et le manteau de Shade de [Image1].
+Plan 2 (1,6s - 3,2s) : Shade levant ses mains, les anneaux déformant le faisceau du projecteur. Caméra : gros plan sur les mains. Style : effets de lumière réfractive. Son : bourdonnement magique bas.
+Plan 3 (3,2s - 4,8s) : Une ombre de main plate sur l'écran de la scène se lève comme un dragon d'ombre translucide en 3D. Caméra : angle bas regardant vers l'écran. Style : effets de fumée sombre. Son : grondement bas, grognement de dragon.
+Plan 4 (4,8s - 6,4s) : Le dragon
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060802196816457914.json)
+
+```text
+---
+ピクサー風のサイバー建築家キャラクターシート。ベクターは、レトロなジャケットを着たティーンエイジャーのハッカーで、輝くホログラフィックピクセルオーバーレイとバーチャルビルディングゴーグルを装備しています。表情豊かなサイバネティックな感情、ダイナミックなピクセルビルディングポーズ、前面・側面・背面ビュー、洗練された3Dアニメーションスタイル、クリーンな白背景、16:9。
+
+--- 引用ツイート ---
+GPT 2 画像と Seedance 2.0 アニメーション用 🔥😍
+
+クリエイティブなキャラクターシートと包括的な Seedance 2.0 マルチショットアニメーションシーケンス。
+
+詳細なショットごとのタイムスタンプ、カメラ方向、照明、音声、および制約。
+
+スレッド内のプロンプト 🧵👇👇 試してみて
+@openart_ai
+
+--- スレッドの続き ---
+[スレッド 1] ピクセルアーキテクト（ベクター）
+
+キャラクターシートプロンプト:
+
+ピクサー風のサイバー建築家キャラクターシート。ベクターは、レトロなジャケットを着たティーンエイジャーのハッカーで、輝くホログラフィックピクセルオーバーレイとバーチャルビルディングゴーグルを装備しています。表情豊かなサイバネティックな感情、ダイナミックなピクセルビルディングポーズ、前面・側面・背面ビュー、洗練された3Dアニメーションスタイル、クリーンな白背景、16:9。
+
+15秒のアニメーションシーケンス（10ショット）
+
+ショット1 (0.0s - 1.5s): ベクターが手をスワイプし、テーブルに緑のグリッドプロジェクションを点灯させる。シーン: 暗いサーバールーム。カメラ: ミディアムショット。スタイル: クールなネオングリーンの照明、ピクサー3D。音声: デジタルスタートアップのハム音。制約: [Image1]からベクターのジャケットと顔のオーバーレイを正確に保持。
+ショット2 (1.5s - 3.0s): ベクターの手が空中から輝く青いボクセルキューブを掴み、積み重ねる。カメラ: 手のクローズアップ。スタイル: ネオンブルーのパーティクルエフェクト。音声: デジタルブリップ。
+ショット3 (3.0s - 4.5s): 輝く青いキューブが増殖し、回転するホログラフィックな都市モデルを形成する。カメラ: テーブルのクローズアップ。スタイル: 詳細なネオン構造。音声: データ転送のハム音。
+ショット4 (4.5s - 6.0s): 機械的な猫の助手が青い静電気でグリッチし、モデルの隣に座る。カメラ: ミディアムショット。スタイル: デジタルノイズオーバーレイ。音声: 静電気のパチパチ音。
+ショット5 (6.0s - 7.5s): 猫がボクセルビルディングを叩き、その足が浮遊するブロックにピクセル化する。カメラ: 猫の足のクローズアップ。スタイル: ピクセル化エフェクト。音声: レトロゲームのピン音。
+ショット6 (7.5s - 9.0s): 猫が空中に飛び込み、コミカルにスピングリッチし、体の一部がピクセル化する。カメラ: トラッキングパン。スタイル: サイバネティックなカートゥーンフィジックス。音声: エラーチャイム。
+ショット7 (9.0s - 10.5s): ベクターがグリッチする猫を腕に抱え、楽しそうに見つめる。カメラ: ミディアムショット。スタイル: ベクターの顔にネオンの反射。音声: デジタルなゴロゴロ音。制約: ベクターのゴーグルを保持。
+ショット8 (10.5s - 12.0s): ベクターがボタンをタップし、リップルリセット効果でブロック状の猫を元に戻す。カメラ: クローズアップ。スタイル: デジタルリップルウェーブ。音声: スイープスキャン。
+ショット9 (12.0s - 13.5s): ボクセルシティが明るい青に輝き、複雑な建築グリッドを投影する。カメラ: ワイドアングルパン。スタイル: 強烈なネオングロー。音声: 壮大なサイバーミュージック。
+ショット10 (13.5s - 15.0s): ベクターと猫が輝くボクセルシティを誇らしげに見つめる。カメラ: スローズームイン。スタイル: サイバネティックリアリズム。音声: ハッピーな電子アウトロ。制約: ベクターのキャラクターデザインを正確に保持。
+
+サウンドウェーブウィーバー（マエストロ・リリック）
+
+キャラクターシートプロンプト:
+
+ドリームワークス風の盲目の音楽科学者キャラクターシート。マエストロ・リリックは、輝く感覚オーディオグラスとサウンドウェーブウィービングガントレットを装備した男性です。空中に物理的な輝く音符を織り成すダイナミックなポージング、前面・側面・背面ビュー、洗練された3Dアニメーションスタイル、クリーンな白背景、16:9。
+
+15秒のアニメーションシーケンス（9ショット）
+
+ショット1 (0.0s - 1.6s): リリックが指を鳴らし、輝く金色のリップルを発生させる。シーン: 円形のサウンドドームラボ。カメラ: ミディアムショット。スタイル: 金色のパーティクルライティング、ドリームワークス3D。音声: シャープなスナップ、共鳴のハム音。制約: [Image1]からリリックのオーディオグラスとガントレットを正確に保持。
+ショット2 (1.6s - 3.2s): リリックの手が空中で輝く金色のサウンドスレッドを織り成す。カメラ: 手のクローズアップ。スタイル: 詳細なファブリックとライトテクスチャ。音声: ソフトなハープのチャイム。
+ショット3 (3.2s - 4.8s): 金色のスレッドが結晶化し、浮遊する輝く音符になる。カメラ: 音符のクローズアップ。スタイル: 輝くボリュメトリックシンボル。音声: 美しいバイオリンのコード。
+ショット4 (4.8s - 6.4s): 背景の木製の棚にある真鍮の時計仕掛けのメトロノームが激しく刻む。カメラ: フォーカスシフト。スタイル: 反射する真鍮のテクスチャ。音声: 急速な木の刻み音。
+ショット5 (6.4s - 8.0s): メトロノームが激しく揺れ、バランスを失い、木製の棚から落ちる。カメラ: 落下を追う。スタイル: カートゥーンフィジックス。音声: 揺れる機械的なガタガタ音。
+ショット6 (8.0s - 9.6s): リリックが手を盲目的に
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060802196816457914.json)
+
+```text
+---
+픽사 스타일의 사이버 건축가 캐릭터 시트: 빛나는 홀로그램 픽셀 오버레이와 가상 건축 고글을 착용한 레트로 재킷의 십대 해커 벡터를 보여줍니다. 표현력 있는 사이버 감정, 역동적인 픽셀 빌딩 포즈, 앞면, 측면, 뒷면 보기, 세련된 3D 애니메이션 스타일, 깨끗한 흰색 배경, 16:9.
+
+--- 인용된 트윗 ---
+GPT 2 이미지와 Seedance 2.0 애니메이션 🔥😍
+
+창의적인 캐릭터 시트와 포괄적인 Seedance 2.0 멀티샷 애니메이션 시퀀스.
+
+정확한 타임스탬프, 카메라 방향, 조명, 오디오 및 제약 조건이 포함된 상세한 샷별 설명
+
+스레드에 있는 프롬프트 🧵👇👇 시도해 보세요
+@openart_ai
+
+--- 스레드 계속 ---
+[스레드 1] 픽셀 건축가 (벡터)
+
+캐릭터 시트 프롬프트:
+
+픽사 스타일의 사이버 건축가 캐릭터 시트: 빛나는 홀로그램 픽셀 오버레이와 가상 건축 고글을 착용한 레트로 재킷의 십대 해커 벡터를 보여줍니다. 표현력 있는 사이버 감정, 역동적인 픽셀 빌딩 포즈, 앞면, 측면, 뒷면 보기, 세련된 3D 애니메이션 스타일, 깨끗한 흰색 배경, 16:9.
+
+15초 애니메이션 시퀀스 (10 샷)
+
+샷 1 (0.0초 - 1.5초): 벡터가 손을 휘저으며 테이블 위에 녹색 그리드 프로젝션을 켭니다. 장면: 어두운 서버룸. 카메라: 중간 샷. 스타일: 멋진 네온 그린 조명, 픽사 3D. 사운드: 디지털 시작음. 제약 조건: [Image1]에서 벡터의 재킷과 얼굴 오버레이를 정확히 유지합니다.
+샷 2 (1.5초 - 3.0초): 벡터의 손이 공중에서 빛나는 파란색 복셀 큐브를 잡아 쌓습니다. 카메라: 손 클로즈업. 스타일: 네온 블루 입자 효과. 사운드: 디지털 블립.
+샷 3 (3.0초 - 4.5초): 빛나는 파란색 큐브가 증가하여 회전하는 홀로그램 도시 모델을 형성합니다. 카메라: 테이블 클로즈업. 스타일: 상세한 네온 구조. 사운드: 데이터 전송 소리.
+샷 4 (4.5초 - 6.0초): 파란색 정전기로 글리치가 있는 기계 고양이가 모델 옆에 앉아 있습니다. 카메라: 중간 샷. 스타일: 디지털 노이즈 오버레이. 사운드: 정전기 소리.
+샷 5 (6.0초 - 7.5초): 고양이가 복셀 건물을 툭툭 치며, 발이 떠다니는 블록으로 픽셀화됩니다. 카메라: 고양이 발 클로즈업. 스타일: 픽셀화 효과. 사운드: 레트로 게임 핑.
+샷 6 (7.5초 - 9.0초): 고양이가 공중으로 뛰어올라 코믹하게 회전하며, 신체 부위가 픽셀화됩니다. 카메라: 추적 팬. 스타일: 사이버네틱 만화 물리학. 사운드: 오류 벨소리.
+샷 7 (9.0초 - 10.5초): 벡터가 글리치가 있는 고양이를 팔에 안고 즐거워합니다. 카메라: 중간 샷. 스타일: 벡터 얼굴에 네온 반사. 사운드: 디지털 고양이 소리. 제약 조건: 벡터의 고글을 유지합니다.
+샷 8 (10.5초 - 12.0초): 벡터가 버튼을 눌러 리플 리셋 효과로 블록 고양이를 정상으로 되돌립니다. 카메라: 클로즈업. 스타일: 디지털 리플 웨이브. 사운드: 스윕 스캔.
+샷 9 (12.0초 - 13.5초): 복셀 도시가 밝은 파란색으로 빛나며 복잡한 건축 그리드를 투영합니다. 카메라: 와이드 앵글 팬닝. 스타일: 강렬한 네온 빛. 사운드: 장엄한 사이버 음악.
+샷 10 (13.5초 - 15.0초): 벡터와 고양이가 빛나는 복셀 도시를 자랑스럽게 바라봅니다. 카메라: 느린 줌인. 스타일: 사이버네틱 리얼리즘. 사운드: 행복한 전자 아웃트로. 제약 조건: 벡터의 캐릭터 디자인을 정확히 유지합니다.
+
+사운드 웨이브 위버 (마에스트로 리릭)
+
+캐릭터 시트 프롬프트:
+
+드림웍스 스타일의 시각 장애 음악 과학자 캐릭터 시트: 빛나는 감각 오디오 안경과 사운드 웨이브 위빙 건틀릿을 착용한 마에스트로 리릭을 보여줍니다. 공중에서 물리적으로 빛나는 음악 노트를 짜는 역동적인 포즈, 앞면, 측면, 뒷면 보기, 세련된 3D 애니메이션 스타일, 깨끗한 흰색 배경, 16:9.
+
+15초 애니메이션 시퀀스 (9 샷)
+
+샷 1 (0.0초 - 1.6초): 리릭이 손가락을 튕기며 빛나는 금색 리플을 발사합니다. 장면: 원형 사운드 돔 실험실. 카메라: 중간 샷. 스타일: 금색 입자 조명, 드림웍스 3D. 사운드: 날카로운 스냅, 공명 소리. 제약 조건: [Image1]에서 리릭의 오디오 안경과 건틀릿을 정확히 유지합니다.
+샷 2 (1.6초 - 3.2초): 리릭의 손이 공중에서 빛나는 금색 사운드 스레드를 짭니다. 카메라: 손 클로즈업. 스타일: 상세한 직물 및 빛 텍스처. 사운드: 부드러운 하프 소리.
+샷 3 (3.2초 - 4.8초): 금색 스레드가 결정화되어 떠다니는 빛나는 음악 노트로 변합니다. 카메라: 노트 클로즈업. 스타일: 빛나는 볼륨 기호. 사운드: 아름다운 바이올린 코드.
+샷 4 (4.8초 - 6.4초): 배경의 나무 선반 위에서 황동 시계추가 급하게 움직입니다. 카메라: 초점 이동. 스타일: 반사 황동 텍스처. 사운드: 빠른 나무 틱 소리.
+샷 5 (6.4초 - 8.0초): 시계추가 심하게 흔들리며 균형을 잃고 나무 선반에서 떨어집니다. 카메라: 추적 낙하. 스타일: 만화 물리학. 사운드: 흔들리는 기계 소리.
+샷 6 (8.0초 - 9.6초): 리릭이 손을 휘저으며 집중한 표정으로 소리 파동을 사용하여 낙하를 늦춥니다. 카메라: 팔 추적 중간 샷. 스타일: 금색 충격파. 사운드: 휙 소리.
+샷 7 (9.6초 - 11.2초): 시계추가 빨간 벨벳 베개 위에 부드럽게 착지하며 천천히 틱 소리를 냅니다. 카메라: 클로즈업. 스타일: 부드러운 직물 디테일. 사운드: 부드러운 틱, 부드러운 한숨.
+샷 8 (11.2초 - 12.8초): 빛나는 금색 노트가 리릭 주위를 웅장한 음악 링으로 회전합니다. 카메라: 궤도 팬. 스타일: 볼륨 조명, 금색 �
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060802196816457914.json)
+
+```text
+---
+Ficha de personagem de arquiteto cibernético inspirado na Pixar mostrando Vector, um hacker adolescente com uma jaqueta retrô com sobreposições de pixels holográficos brilhantes e óculos virtuais de construção. Emoções cibernéticas expressivas, poses dinâmicas de construção de pixels, vistas de frente, lado e costas, estilo animado 3D polido, fundo branco limpo, 16:9.
+
+--- TWEET CITADO ---
+Imagens GPT 2 e Seedance 2.0 para animações 🔥😍
+
+fichas de personagens criativas e sequências de animação multi-shot abrangentes do Seedance 2.0.
+
+detalhado quadro a quadro com timestamps precisos, direções de câmera, iluminação, áudio e restrições
+
+Prompts no Thread 🧵👇👇 experimente
+@openart_ai
+
+--- CONTINUAÇÃO DO THREAD ---
+[Thread 1] Arquiteto de Pixels (Vector)
+
+Prompt da Ficha de Personagem:
+
+Pixar-inspired cyber architect character sheet showing Vector, a teenage hacker in a retro jacket with glowing holographic pixel overlays and virtual building goggles. Expressive cybernetic emotions, dynamic pixel-building poses, front side back views, polished 3D animated style, clean white background, 16:9.
+
+Sequência de Animação de 15 Segundos (10 Cenas)
+
+Cena 1 (0.0s - 1.5s): Vector desliza a mão, iluminando uma projeção de grade verde em uma mesa. Cena: sala de servidores escura. Câmera: plano médio. Estilo: iluminação neon-verde legal, Pixar 3D. Som: zumbido de inicialização digital. Restrições: preservar a jaqueta e as sobreposições faciais de Vector de [Imagem1] exatamente.
+Cena 2 (1.5s - 3.0s): Mãos de Vector pegando cubos de voxel azuis brilhantes do ar e empilhando-os. Câmera: close-up nas mãos. Estilo: efeitos de partículas neon-azuis. Som: bipes digitais.
+Cena 3 (3.0s - 4.5s): Cubos azuis brilhantes se multiplicam, formando um modelo de cidade holográfica giratória. Câmera: close-up na mesa. Estilo: estruturas neon detalhadas. Som: zumbido de transferência de dados.
+Cena 4 (4.5s - 6.0s): Um gato mecânico ajudante falhando com estática azul senta-se ao lado do modelo. Câmera: plano médio. Estilo: sobreposições de ruído digital. Som: estalo de estática.
+Cena 5 (6.0s - 7.5s): Gato bate em um edifício voxel, sua pata pixelizando em blocos flutuantes. Câmera: close-up na pata do gato. Estilo: efeito de pixelização. Som: ping de jogo retrô.
+Cena 6 (7.5s - 9.0s): O gato salta no ar, girando com falhas cômicas, partes do corpo pixelizando. Câmera: pan de rastreamento. Estilo: física de desenho animado cibernética. Som: chime de erro.
+Cena 7 (9.0s - 10.5s): Vector pega o gato com falhas nos braços, parecendo divertido. Câmera: plano médio. Estilo: reflexos neon no rosto de Vector. Som: ronronar digital. Restrições: preservar os óculos de Vector.
+Cena 8 (10.5s - 12.0s): Vector toca um botão, um efeito de reset ondulante transforma o gato pixelado de volta ao normal. Câmera: close-up. Estilo: onda de ondulação digital. Som: varredura.
+Cena 9 (12.0s - 13.5s): A cidade voxel brilha intensamente em azul, projetando grades arquitetônicas complexas. Câmera: pan em ângulo amplo. Estilo: brilho neon intenso. Som: música cibernética majestosa.
+Cena 10 (13.5s - 15.0s): Vector e o gato olham orgulhosos para a cidade voxel brilhante. Câmera: zoom-in lento. Estilo: realismo cibernético. Som: final feliz eletrônico. Restrições: preservar exatamente o design do personagem de Vector.
+
+Tecelão de Ondas Sonoras (Maestro Lyric)
+
+Prompt da Ficha de Personagem:
+
+DreamWorks-inspired blind music scientist character sheet showing Maestro Lyric, a man with glowing sensory audio glasses and sound-wave weaving gauntlets. Dynamic posing weaving physical glowing musical notes in the air, front side back views, polished 3D animated style, clean white background, 16:9.
+
+Sequência de Animação de 15 Segundos (9 Cenas)
+
+Cena 1 (0.0s - 1.6s): Lyric estala os dedos, lançando ondulações douradas brilhantes. Cena: laboratório circular de cúpula sonora. Câmera: plano médio. Estilo: iluminação de partículas douradas, DreamWorks 3D. Som: estalo agudo, zumbido de ressonância. Restrições: preservar os óculos de áudio e as manoplas de Lyric de [Imagem1] exatamente.
+Cena 2 (1.6s - 3.2s): Mãos de Lyric tecendo fios sonoros dourados brilhantes no ar. Câmera: close-up nas mãos. Estilo: texturas detalhadas de tecido e luz. Som: chime suave de harpa.
+Cena 3 (3.2s - 4.8s): Fios dourados cristalizam em notas musicais brilhantes flutuantes. Câmera: close-up nas notas. Estilo: símbolos volumétricos brilhantes. Som: acorde de violino bonito.
+Cena 4 (4.8s - 6.4s): Um metrônomo de latão com engrenagens tica freneticamente em uma prateleira de madeira ao fundo. Câmera: mudança de foco. Estilo: texturas de latão reflexivas. Som: tique-taque rápido de madeira.
+Cena 5 (6.4s - 8.0s): Metrônomo balança descontroladamente, perde o equilíbrio e cai da prateleira de madeira. Câmera: rastreamento da queda. Estilo: física de desenho animado. Som: chocalho mecânico instável.
+Cena 6 (8.0s - 9.6s): Lyric varre a mão cegamente, parecendo focado, usando ondas sonoras para desacelerar a queda. Câmera: plano médio rastreando o braço. Estilo: onda de choque dourada. Som: varredura de whoosh.
+Cena 7 (9.6s - 11.2s): Metrônomo pousa suavemente em um travesseiro de veludo vermelho, tique-taque lentamente. Câmera: close-up. Estilo: detalhe de tecido macio. Som: tique suave, suspiro suave.
+Cena 8 (11.2s - 12.8s): Notas douradas brilhantes giram ao redor de Lyric em um anel musical majestoso. Câmera: pan orbital. Estilo: iluminação volumétrica, brilho dourado. Som: harmonia orquestral crescente.
+Cena 9 (12.8s - 15.0s): Lyric sorri, estendendo as mãos, óculos brilhantes reluzindo. Câmera: zoom-in lento. Estilo: brilho de áudio mágico. Som: resolução musical pacífica. Restrições: preservar exatamente o design do personagem de Lyric.
+
+Marionetista de Sombras (Shade)
+
+Prompt da Ficha de Personagem:
+Pixar-inspired shadow puppeteer character sheet showing Shade, a slender man in a velvet top hat and light-bending rings. Expressive theatrical emotions, dynamic posing making wall shadows come to life as 3D shadow monsters, front side back views, polished 3D animated style, clean white background, 16:9.
+
+Sequência de Animação de 15 Segundos (9 Cenas)
+
+Cena 1 (0.0s - 1.6s): Shade ajusta os punhos do casaco. Cena: palco de teatro escuro, holofote brilhante. Câmera: plano médio. Estilo: iluminação de palco de alto contraste, Pixar 3D. Som: murmúrio baixo da plateia do teatro. Restrições: preservar o chapéu de veludo e o casaco de Shade de [Imagem1] exatamente.
+Cena 2 (1.6s - 3.2s): Shade levantando as mãos, anéis que dobram a luz distorcendo o feixe do holofote. Câmera: close-up nas mãos. Estilo: efeitos de luz refrativa. Som: zumbido mágico baixo.
+Cena 3 (3.2s - 4.8s): Uma sombra de mão plana na tela do palco se ergue como um dragão sombra translúcido 3D. Câmera: ângulo baixo olhando para a tela. Estilo: efeitos de fumaça escura. Som: estrondo
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060802196816457914.json)
+
+```text
+皮克斯风格的网络建筑师角色设定展示了Vector，一个穿着复古夹克的少年黑客，夹克上有发光的全息像素覆盖和虚拟建筑护目镜。表现出丰富的网络情感，动态的像素建筑姿势，正面、侧面、背面视图，精致的3D动画风格，干净的白色背景，16:9。
+
+--- 引用推文 ---
+GPT 2图像和Seedance 2.0动画 🔥😍
+
+创意角色设定和全面的Seedance 2.0多镜头动画序列。
+
+详细的逐镜头说明，精确的时间戳、摄像机方向、灯光、音频和限制条件。
+
+推文中的提示 🧵👇👇 试试看
+@openart_ai
+
+--- 线程继续 ---
+[线程 1] 像素建筑师 (Vector)
+
+角色设定提示：
+
+皮克斯风格的网络建筑师角色设定展示了Vector，一个穿着复古夹克的少年黑客，夹克上有发光的全息像素覆盖和虚拟建筑护目镜。表现出丰富的网络情感，动态的像素建筑姿势，正面、侧面、背面视图，精致的3D动画风格，干净的白色背景，16:9。
+
+15秒动画序列（10个镜头）
+
+镜头1 (0.0s - 1.5s): Vector挥手，在桌子上点亮一个绿色网格投影。场景：黑暗的服务器室。摄像机：中景。风格：酷炫的霓虹绿色灯光，皮克斯3D。声音：数字启动嗡嗡声。限制条件：完全保留Vector的夹克和面部覆盖物来自[Image1]。
+镜头2 (1.5s - 3.0s): Vector的手从空气中抓取发光的蓝色体素立方体并堆叠。摄像机：手部特写。风格：霓虹蓝色粒子效果。声音：数字哔哔声。
+镜头3 (3.0s - 4.5s): 发光的蓝色立方体倍增，形成一个旋转的全息城市模型。摄像机：桌面特写。风格：详细的霓虹结构。声音：数据传输嗡嗡声。
+镜头4 (4.5s - 6.0s): 一个机械猫助手在模型旁边闪烁着蓝色静电。摄像机：中景。风格：数字噪声覆盖。声音：静电噼啪声。
+镜头5 (6.0s - 7.5s): 猫拍打一个体素建筑，它的爪子像素化成漂浮的方块。摄像机：猫爪特写。风格：像素化效果。声音：复古游戏叮当声。
+镜头6 (7.5s - 9.0s): 猫跳到空中，滑稽地旋转故障，身体部位像素化。摄像机：跟踪平移。风格：网络卡通物理。声音：错误提示音。
+镜头7 (9.0s - 10.5s): Vector在怀里接住故障的猫，面露愉悦。摄像机：中景。风格：Vector脸上的霓虹反射。声音：数字咕噜声。限制条件：保留Vector的护目镜。
+镜头8 (10.5s - 12.0s): Vector按下一个按钮，一个波纹重置效果将块状猫恢复正常。摄像机：特写。风格：数字波纹波。声音：扫描扫过。
+镜头9 (12.0s - 13.5s): 体素城市发出明亮的蓝光，投射出复杂的建筑网格。摄像机：广角平移。风格：强烈的霓虹光芒。声音：宏伟的网络音乐。
+镜头10 (13.5s - 15.0s): Vector和猫自豪地看着发光的体素城市。摄像机：慢慢放大。风格：网络现实主义。声音：快乐的电子结尾。限制条件：完全保留Vector的角色设计。
+
+声波编织者 (Maestro Lyric)
+
+角色设定提示：
+
+梦工厂风格的盲人音乐科学家角色设定展示了Maestro Lyric，一个戴着发光感官音频眼镜和声波编织护臂的男人。动态的姿势在空中编织发光的音乐符号，正面、侧面、背面视图，精致的3D动画风格，干净的白色背景，16:9。
+
+15秒动画序列（9个镜头）
+
+镜头1 (0.0s - 1.6s): Lyric打响指，发出发光的金色波纹。场景：圆形声波穹顶实验室。摄像机：中景。风格：金色粒子灯光，梦工厂3D。声音：清脆的响指声，回响嗡嗡声。限制条件：完全保留Lyric的音频眼镜和护臂来自[Image1]。
+镜头2 (1.6s - 3.2s): Lyric的手在空中编织发光的金色声线。摄像机：手部特写。风格：详细的织物和光线纹理。声音：柔和的竖琴声。
+镜头3 (3.2s - 4.8s): 金色线条结晶成漂浮的发光音乐符号。摄像机：符号特写。风格：发光的体积符号。声音：美丽的小提琴和弦。
+镜头4 (4.8s - 6.4s): 背景中一个黄铜发条节拍器在木架上疯狂地滴答作响。摄像机：焦点转移。风格：反光的黄铜纹理。声音：快速的木头滴答声。
+镜头5 (6.4s - 8.0s): 节拍器剧烈摇晃，失去平衡，从木架上掉下来。摄像机：跟踪下落。风格：卡通物理。声音：摇晃的机械响声。
+镜头6 (8.0s - 9.6s): Lyric盲目地挥手，专注地用声波减缓下落。摄像机：中景跟踪手臂。风格：金色冲击波。声音：呼啸扫过。
+镜头7 (9.6s - 11.2s): 节拍器轻轻地落在红色天鹅绒枕头上，慢慢滴答作响。摄像机：特写。风格：柔软的织物细节。声音：轻柔的滴答声，轻轻的叹息。
+镜头8 (11.2s - 12.8s): 发光的金色音符在Lyric周围旋转，形成一个宏伟的音乐环。摄像机：轨道平移。风格：体积照明，金色光芒。声音：激昂的管弦乐和声。
+镜头9 (12.8s - 15.0s): Lyric微笑着伸出双手，发光的眼镜闪闪发光。摄像机：慢慢放大。风格：神奇的音频光芒。声音：平和的音乐结尾。限制条件：完全保留Lyric的角色设计。
+
+影子木偶师 (Shade)
+
+角色设定提示：
+皮克斯风格的影子木偶师角色设定展示了Shade，一个戴着天鹅绒高顶礼帽和光线弯曲戒指的瘦长男人。表现出丰富的戏剧情感，动态的姿势使墙上的影子变成3D影子怪物，正面、侧面、背面视图，精致的3D动画风格，干净的白色背景，16:9。
+
+15秒动画序列（9个镜头）
+
+镜头1 (0.0s - 1.6s): Shade调整他的外套袖口。场景：黑暗的剧院舞台，明亮的聚光灯。摄像机：中景。风格：高对比度舞台灯光，皮克斯3D。声音：低声的剧院人群喧哗。限制条件：完全保留Shade的天鹅绒高顶礼帽和外套来自[Image1]。
+镜头2 (1.6s - 3.2
+```
+
+## 出处与许可
+
+- 原作者：[Dheepan Ratnam](https://x.com/Dheepanratnam) · 原帖：<https://x.com/Dheepanratnam/status/2060802196816457914>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060802196816457914.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

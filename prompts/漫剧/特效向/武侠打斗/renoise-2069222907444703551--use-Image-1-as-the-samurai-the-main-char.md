@@ -1,0 +1,541 @@
+---
+id: "renoise-2069222907444703551"
+title: "use @ Image 1 as the samurai the main character"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "漫剧"
+direction: "特效向"
+genre: "武侠打斗"
+art_style: "2D日漫"
+tags: ["Seedance 2.0", "Renoise", "Action", "Wuxia", "Anime 2D", "Fantasy", "VFX"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069222907444703551.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "MD"
+original_author_url: "https://x.com/mdmadeit"
+original_post_url: "https://x.com/mdmadeit/status/2069222907444703551"
+published: "2026-06-23"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# use @ Image 1 as the samurai the main character
+
+## 提示词（English）
+
+```text
+use @ Image 1 as the samurai the main character
+use @ Image 3 as the evil crane
+use @ Image 2 as the storyboard, dont render any text, numbers or arrows.
+
+Create a cinematic 15-second anime short about a young samurai standing guard at a lonely mountain shrine
+
+STYLE: minimalist painterly anime concept art, soft matte shading, muted dusty earth tones, pale blue background, peach-pink sun disc, elegant silhouette-driven character design, sparse environmental detail, dry grass accents, sculpted rock forms, subtle brush texture, clean shapes, slightly stylized proportions, calm Japanese-inspired visual poetry, cinematic framing, gentle wind motion, refined action choreography, quiet but dramatic atmosphere
+
+0:00 - 0:03
+Wide establishing shot. A young samurai balances on top of a tall stone pillar in an open field of dry grass. Behind him sits a large peach-pink sun disc against a pale blue sky. His loose kimono top and small hair tuft sway in the wind. One hand rests near his sword. He is still, focused, and calm.
+
+0:03 - 0:06
+Slow push in. Close-up of the young samurai’s eyes beneath a straw hat. The wind lifts the edge of the hat slightly. Cut to a small shrine charm tied to a thin wooden pole nearby. The paper charm suddenly flickers with a strange blue flame.
+
+0:06 - 0:09
+The samurai senses it instantly. He shifts his stance on the narrow rock, feet adjusting with precision. The dry grass bends harder in the wind. A dark shape glides across the peach sun disc in the background, passing silently behind him.
+
+0:09 - 0:12
+Reveal the threat: a shadowy crane-like demon made of torn prayer papers and smoke sweeps across the sky. It circles with eerie grace. The samurai turns sharply, draws his sword in one clean motion, and crouches low on the rock, preparing to strike.
+
+0:12 - 0:15
+He launches forward in a fast, elegant leap, attempting one decisive slash. The camera tracks dynamically with him. His blade cuts through the demon’s form, but it explodes into fluttering paper feathers instead of falling. As he lands on the edge of the stone, his footing slips slightly — his first attack has failed.
+
+CAMERA / MOTION NOTES:
+cinematic push-ins, elegant side profile compositions, low-angle hero framing, close-up eye shot, fast tracking action shot during the leap, light handheld energy only during the sword strike, otherwise composed and graceful
+
+IMPORTANT: no text, no subtitles, no dialogue, no storyboard borders, no panel layout, no extra characters, keep the environment sparse and atmospheric
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069222907444703551.json)
+
+```text
+---
+utiliser @ Image 1 comme le samouraï, le personnage principal
+utiliser @ Image 3 comme la grue maléfique
+utiliser @ Image 2 comme le storyboard, ne pas rendre de texte, de chiffres ou de flèches.
+
+Créer un court-métrage d'animation de 15 secondes sur un jeune samouraï gardant un sanctuaire de montagne isolé
+
+STYLE : concept art d'anime minimaliste et pictural, ombrage mat doux, tons terreux poussiéreux et atténués, fond bleu pâle, disque solaire pêche-rose, design de personnage élégant basé sur la silhouette, détails environnementaux rares, accents d'herbe sèche, formes rocheuses sculptées, texture de pinceau subtile, formes épurées, proportions légèrement stylisées, poésie visuelle inspirée du Japon, cadrage cinématographique, mouvement de vent doux, chorégraphie d'action raffinée, atmosphère calme mais dramatique
+
+0:00 - 0:03
+Plan d'ensemble. Un jeune samouraï en équilibre au sommet d'un haut pilier de pierre dans un champ ouvert d'herbe sèche. Derrière lui, un grand disque solaire pêche-rose contre un ciel bleu pâle. Son kimono ample et sa petite mèche de cheveux flottent au vent. Une main repose près de son épée. Il est immobile, concentré et calme.
+
+0:03 - 0:06
+Zoom lent. Gros plan sur les yeux du jeune samouraï sous un chapeau de paille. Le vent soulève légèrement le bord du chapeau. Coupe vers un petit charme de sanctuaire attaché à un fin poteau en bois à proximité. Le charme en papier scintille soudainement d'une étrange flamme bleue.
+
+0:06 - 0:09
+Le samouraï le sent instantanément. Il change sa position sur le rocher étroit, ajustant ses pieds avec précision. L'herbe sèche se plie plus fort sous le vent. Une forme sombre glisse à travers le disque solaire pêche en arrière-plan, passant silencieusement derrière lui.
+
+0:09 - 0:12
+Révéler la menace : un démon semblable à une grue, fait de papiers de prière déchirés et de fumée, balaie le ciel. Il tourne avec une grâce inquiétante. Le samouraï se retourne brusquement, tire son épée en un mouvement fluide et s'accroupit bas sur le rocher, prêt à frapper.
+
+0:12 - 0:15
+Il s'élance en avant dans un saut rapide et élégant, tentant une coupe décisive. La caméra suit dynamiquement avec lui. Sa lame traverse la forme du démon, mais elle explose en plumes de papier flottantes au lieu de tomber. Alors qu'il atterrit au bord de la pierre, son pied glisse légèrement — sa première attaque a échoué.
+
+NOTES DE CAMÉRA / MOUVEMENT :
+zoom cinématographique, compositions élégantes de profil latéral, cadrage de héros en contre-plongée, gros plan sur les yeux, prise de vue d'action rapide pendant le saut, énergie légère à main levée uniquement pendant le coup d'épée, sinon composé et gracieux
+
+IMPORTANT : pas de texte, pas de sous-titres, pas de dialogue, pas de bordures de storyboard, pas de mise en page de panneau, pas de personnages supplémentaires, garder l'environnement rare et atmosphérique
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Prompt 1 :
+
+utiliser @ Image 1 comme le samouraï, le personnage principal
+utiliser @ Image 3 comme la grue maléfique
+utiliser @ Image 2 comme le storyboard, ne pas rendre de texte, de chiffres ou de flèches.
+
+Créer un court-métrage d'animation de 15 secondes sur un jeune samouraï gardant un sanctuaire de montagne isolé
+
+STYLE : concept art d'anime minimaliste et pictural, ombrage mat doux, tons terreux poussiéreux et atténués, fond bleu pâle, disque solaire pêche-rose, design de personnage élégant basé sur la silhouette, détails environnementaux rares, accents d'herbe sèche, formes rocheuses sculptées, texture de pinceau subtile, formes épurées, proportions légèrement stylisées, poésie visuelle inspirée du Japon, cadrage cinématographique, mouvement de vent doux, chorégraphie d'action raffinée, atmosphère calme mais dramatique
+
+0:00 - 0:03
+Plan d'ensemble. Un jeune samouraï en équilibre au sommet d'un haut pilier de pierre dans un champ ouvert d'herbe sèche. Derrière lui, un grand disque solaire pêche-rose contre un ciel bleu pâle. Son kimono ample et sa petite mèche de cheveux flottent au vent. Une main repose près de son épée. Il est immobile, concentré et calme.
+
+0:03 - 0:06
+Zoom lent. Gros plan sur les yeux du jeune samouraï sous un chapeau de paille. Le vent soulève légèrement le bord du chapeau. Coupe vers un petit charme de sanctuaire attaché à un fin poteau en bois à proximité. Le charme en papier scintille soudainement d'une étrange flamme bleue.
+
+0:06 - 0:09
+Le samouraï le sent instantanément. Il change sa position sur le rocher étroit, ajustant ses pieds avec précision. L'herbe sèche se plie plus fort sous le vent. Une forme sombre glisse à travers le disque solaire pêche en arrière-plan, passant silencieusement derrière lui.
+
+0:09 - 0:12
+Révéler la menace : un démon semblable à une grue, fait de papiers de prière déchirés et de fumée, balaie le ciel. Il tourne avec une grâce inquiétante. Le samouraï se retourne brusquement, tire son épée en un mouvement fluide et s'accroupit bas sur le rocher, prêt à frapper.
+
+0:12 - 0:15
+Il s'élance en avant dans un saut rapide et élégant, tentant une coupe décisive. La caméra suit dynamiquement avec lui. Sa lame traverse la forme du démon, mais elle explose en plumes de papier flottantes au lieu de tomber. Alors qu'il atterrit au bord de la pierre, son pied glisse légèrement — sa première attaque a échoué.
+
+NOTES DE CAMÉRA / MOUVEMENT :
+zoom cinématographique, compositions élégantes de profil latéral, cadrage de héros en contre-plongée, gros plan sur les yeux, prise de vue d'action rapide pendant le saut, énergie légère à main levée uniquement pendant le coup d'épée, sinon composé et gracieux
+
+IMPORTANT : pas de texte, pas de sous-titres, pas de dialogue, pas de bordures de storyboard, pas de mise en page de panneau, pas de personnages supplémentaires, garder l'environnement rare et atmosphérique
+
+[Fil 2] utiliser @ Image 1 comme le samouraï, le personnage principal
+utiliser @ Image 2 comme la grue maléfique
+utiliser @ Image 3 comme le storyboard mais ne pas rendre de texte, de chiffres ou de flèches.
+
+STYLE : concept art d'anime minimaliste et pictural, ombrage mat doux, tons terreux poussiéreux et atténués, ciel bleu ouvert, disque solaire pêche-rose, design de personnage élégant basé sur la silhouette, détails environnementaux rares, accents d'herbe sèche, formes rocheuses sculptées, texture de pinceau subtile, formes épurées, proportions légèrement stylisées, poésie visuelle inspirée du Japon, cadrage cinématographique, mouvement de vent doux mais dramatique, chorégraphie d'action raffinée, atmosphère calme et émotionnelle
+0:15 - 0:18
+Continuer après la coupe échouée. Le jeune samouraï atterrit maladroitement sur le bord du pilier de pierre étroit et glisse un moment, se rattrapant avant de tomber. Autour de lui, des fragments de plumes de papier tourbillonnent dans le vent. Derrière lui, le démon grue se reforme dans l'air, élégant et intact. Il ne l'attaque pas directement. Au lieu de cela, il tourne son regard lumineux vers le petit charme de sanctuaire sur le poteau en bois.
+0:18 - 0:21
+Le démon plonge devant lui vers le charme du sanctuaire. Le samouraï regarde et comprend instantanément le véritable danger. Ce n'est pas un duel pour l'honneur. Il pivote brusquement sur la pierre, abaisse son centre de gravité et coupe à travers l'herbe sèche haute autour du rocher en plusieurs mouvements rapides et contrôlés. Des brins et des tiges fins éclatent dans le vent, créant un voile flottant à travers l'espace ouvert.
+
+0:21 - 0:24
+L'herbe et les fragments de papier remplissent l'air devant le disque solaire pêche. Le démon grue glisse à travers eux, et pour la première fois, son véritable corps devient lisible à travers les débris — un noyau sombre et solide caché à l'intérieur de l'illusion élégante de plumes de papier. Le samouraï cesse de bouger
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069222907444703551.json)
+
+```text
+---
+use @ Image 1 as the samurai the main character
+use @ Image 3 as the evil crane
+use @ Image 2 as the storyboard, dont render any text, numbers or arrows.
+
+Crie um curta de anime cinematográfico de 15 segundos sobre um jovem samurai de guarda em um santuário solitário na montanha
+
+ESTILO: arte conceitual de anime minimalista e pintada, sombreamento suave e fosco, tons de terra empoeirados e suaves, fundo azul pálido, disco solar pêssego-rosa, design de personagem elegante baseado em silhuetas, detalhes ambientais esparsos, acentos de grama seca, formas de rochas esculpidas, textura sutil de pincel, formas limpas, proporções levemente estilizadas, poesia visual calma inspirada no Japão, enquadramento cinematográfico, movimento suave do vento, coreografia de ação refinada, atmosfera tranquila mas dramática
+
+0:00 - 0:03
+Plano geral de estabelecimento. Um jovem samurai equilibra-se no topo de um alto pilar de pedra em um campo aberto de grama seca. Atrás dele, um grande disco solar pêssego-rosa contra um céu azul pálido. Seu quimono solto e um pequeno tufo de cabelo balançam ao vento. Uma mão repousa perto de sua espada. Ele está imóvel, focado e calmo.
+
+0:03 - 0:06
+Aproximação lenta. Close-up dos olhos do jovem samurai sob um chapéu de palha. O vento levanta ligeiramente a borda do chapéu. Corte para um pequeno amuleto de santuário amarrado a um fino poste de madeira próximo. O amuleto de papel de repente tremula com uma estranha chama azul.
+
+0:06 - 0:09
+O samurai percebe instantaneamente. Ele muda sua postura na rocha estreita, ajustando os pés com precisão. A grama seca se curva mais forte ao vento. Uma forma escura desliza pelo disco solar pêssego ao fundo, passando silenciosamente por trás dele.
+
+0:09 - 0:12
+Revele a ameaça: um demônio sombrio semelhante a um guindaste feito de papéis de oração rasgados e fumaça varre o céu. Ele circula com uma graça assustadora. O samurai se vira bruscamente, puxa sua espada em um movimento limpo e se agacha na rocha, preparando-se para atacar.
+
+0:12 - 0:15
+Ele avança em um salto rápido e elegante, tentando um golpe decisivo. A câmera acompanha dinamicamente com ele. Sua lâmina corta a forma do demônio, mas ela explode em penas de papel flutuantes em vez de cair. Ao pousar na borda da pedra, seu equilíbrio escorrega ligeiramente — seu primeiro ataque falhou.
+
+NOTAS DE CÂMERA / MOVIMENTO:
+aproximações cinematográficas, composições elegantes de perfil lateral, enquadramento de herói em ângulo baixo, close-up dos olhos, ação de rastreamento rápido durante o salto, energia leve de câmera na mão apenas durante o golpe de espada, caso contrário, composta e graciosa
+
+IMPORTANTE: sem texto, sem legendas, sem diálogo, sem bordas de storyboard, sem layout de painel, sem personagens extras, mantenha o ambiente esparso e atmosférico
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] Prompt 1:
+
+use @ Image 1 as the samurai the main character
+use @ Image 3 as the evil crane
+use @ Image 2 as the storyboard, dont render any text, numbers or arrows.
+
+Crie um curta de anime cinematográfico de 15 segundos sobre um jovem samurai de guarda em um santuário solitário na montanha
+
+ESTILO: arte conceitual de anime minimalista e pintada, sombreamento suave e fosco, tons de terra empoeirados e suaves, fundo azul pálido, disco solar pêssego-rosa, design de personagem elegante baseado em silhuetas, detalhes ambientais esparsos, acentos de grama seca, formas de rochas esculpidas, textura sutil de pincel, formas limpas, proporções levemente estilizadas, poesia visual calma inspirada no Japão, enquadramento cinematográfico, movimento suave do vento, coreografia de ação refinada, atmosfera tranquila mas dramática
+
+0:00 - 0:03
+Plano geral de estabelecimento. Um jovem samurai equilibra-se no topo de um alto pilar de pedra em um campo aberto de grama seca. Atrás dele, um grande disco solar pêssego-rosa contra um céu azul pálido. Seu quimono solto e um pequeno tufo de cabelo balançam ao vento. Uma mão repousa perto de sua espada. Ele está imóvel, focado e calmo.
+
+0:03 - 0:06
+Aproximação lenta. Close-up dos olhos do jovem samurai sob um chapéu de palha. O vento levanta ligeiramente a borda do chapéu. Corte para um pequeno amuleto de santuário amarrado a um fino poste de madeira próximo. O amuleto de papel de repente tremula com uma estranha chama azul.
+
+0:06 - 0:09
+O samurai percebe instantaneamente. Ele muda sua postura na rocha estreita, ajustando os pés com precisão. A grama seca se curva mais forte ao vento. Uma forma escura desliza pelo disco solar pêssego ao fundo, passando silenciosamente por trás dele.
+
+0:09 - 0:12
+Revele a ameaça: um demônio sombrio semelhante a um guindaste feito de papéis de oração rasgados e fumaça varre o céu. Ele circula com uma graça assustadora. O samurai se vira bruscamente, puxa sua espada em um movimento limpo e se agacha na rocha, preparando-se para atacar.
+
+0:12 - 0:15
+Ele avança em um salto rápido e elegante, tentando um golpe decisivo. A câmera acompanha dinamicamente com ele. Sua lâmina corta a forma do demônio, mas ela explode em penas de papel flutuantes em vez de cair. Ao pousar na borda da pedra, seu equilíbrio escorrega ligeiramente — seu primeiro ataque falhou.
+
+NOTAS DE CÂMERA / MOVIMENTO:
+aproximações cinematográficas, composições elegantes de perfil lateral, enquadramento de herói em ângulo baixo, close-up dos olhos, ação de rastreamento rápido durante o salto, energia leve de câmera na mão apenas durante o golpe de espada, caso contrário, composta e graciosa
+
+IMPORTANTE: sem texto, sem legendas, sem diálogo, sem bordas de storyboard, sem layout de painel, sem personagens extras, mantenha o ambiente esparso e atmosférico
+
+[Thread 2] use @ Image 1 as the samurai the main character
+use @ Image 2 as the evil crane
+use @ Image 3 as the storyboard but do not render any text, numbers or arrows.
+
+ESTILO: arte conceitual de anime minimalista e pintada, sombreamento suave e fosco, tons de terra empoeirados e suaves, céu aberto azul pálido, disco solar pêssego-rosa, design de personagem elegante baseado em silhuetas, detalhes ambientais esparsos, acentos de grama seca, formas de rochas esculpidas, textura sutil de pincel, formas limpas, proporções levemente estilizadas, poesia visual calma inspirada no Japão, enquadramento cinematográfico, movimento suave mas dramático do vento, coreografia de ação refinada, atmosfera tranquila e emocional
+
+0:15 - 0:18
+Continue do golpe falhado. O jovem samurai pousa desajeitadamente na borda do estreito pilar de pedra e escorrega por um momento, segurando-se antes de cair. Ao seu redor, fragmentos de penas de papel giram ao vento. Atrás dele, o demônio guindaste se reforma no ar, elegante e intacto. Ele não o ataca diretamente. Em vez disso, ele vira seu olhar brilhante para o pequeno amuleto de santuário no poste de madeira.
+
+0:18 - 0:21
+O demônio mergulha em direção ao amuleto do santuário. O samurai olha e entende instantaneamente o verdadeiro perigo. Isto não é um duelo por orgulho. Ele gira bruscamente na pedra, abaixa seu centro de gravidade e corta a grama seca alta ao redor da rocha em vários movimentos rápidos e controlados. Fios finos e hastes explodem ao vento, criando um véu flutuante no espaço aberto.
+
+0:21 - 0:24
+A grama e os fragmentos de papel preenchem o ar em frente ao disco solar pêssego. O demônio guindaste desliza por eles, e pela primeira vez seu verdadeiro corpo se torna legível através dos destroços — um núcleo escuro e sólido escondido dentro da ilusão elegante de penas de papel. O samurai para de se mover imprudentemente. Ele observa. Ele rastreia o centro exato
+```
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069222907444703551.json)
+
+```text
+---
+use @ Image 1 como el samurái, el personaje principal
+use @ Image 3 como la grulla malvada
+use @ Image 2 como el storyboard, no renderice ningún texto, números o flechas.
+
+Crea un corto de anime cinematográfico de 15 segundos sobre un joven samurái que hace guardia en un solitario santuario de montaña
+
+ESTILO: arte conceptual de anime minimalista y pictórico, sombreado suave mate, tonos tierra apagados y polvorientos, fondo azul pálido, disco solar melocotón-rosado, diseño de personajes impulsado por siluetas elegantes, detalle ambiental escaso, acentos de hierba seca, formas de roca esculpidas, textura de pincel sutil, formas limpias, proporciones ligeramente estilizadas, poesía visual inspirada en Japón, encuadre cinematográfico, movimiento de viento suave, coreografía de acción refinada, atmósfera tranquila pero dramática
+
+0:00 - 0:03
+Toma de establecimiento amplia. Un joven samurái se equilibra en la cima de un alto pilar de piedra en un campo abierto de hierba seca. Detrás de él se encuentra un gran disco solar melocotón-rosado contra un cielo azul pálido. Su kimono suelto y un pequeño mechón de cabello se balancean con el viento. Una mano descansa cerca de su espada. Está quieto, enfocado y tranquilo.
+
+0:03 - 0:06
+Acercamiento lento. Primer plano de los ojos del joven samurái bajo un sombrero de paja. El viento levanta ligeramente el borde del sombrero. Corte a un pequeño amuleto del santuario atado a un delgado poste de madera cercano. El amuleto de papel parpadea repentinamente con una extraña llama azul.
+
+0:06 - 0:09
+El samurái lo percibe instantáneamente. Cambia su postura en la estrecha roca, ajustando sus pies con precisión. La hierba seca se dobla más fuerte con el viento. Una forma oscura se desliza a través del disco solar melocotón en el fondo, pasando silenciosamente detrás de él.
+
+0:09 - 0:12
+Revela la amenaza: un demonio en forma de grulla sombría hecho de papeles de oración rasgados y humo barre el cielo. Circula con una gracia inquietante. El samurái gira bruscamente, desenfunda su espada en un solo movimiento limpio y se agacha en la roca, preparándose para atacar.
+
+0:12 - 0:15
+Se lanza hacia adelante en un salto rápido y elegante, intentando un corte decisivo. La cámara lo sigue dinámicamente. Su espada corta a través de la forma del demonio, pero explota en plumas de papel que revolotean en lugar de caer. Al aterrizar en el borde de la piedra, su pie resbala ligeramente: su primer ataque ha fallado.
+
+NOTAS DE CÁMARA / MOVIMIENTO:
+acercamientos cinematográficos, composiciones elegantes de perfil lateral, encuadre heroico de ángulo bajo, toma de primer plano de ojos, toma de acción de seguimiento rápido durante el salto, energía ligera de cámara en mano solo durante el golpe de espada, de lo contrario, compuesto y elegante
+
+IMPORTANTE: sin texto, sin subtítulos, sin diálogo, sin bordes de storyboard, sin diseño de panel, sin personajes adicionales, mantén el entorno escaso y atmosférico
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Prompt 1:
+
+use @ Image 1 como el samurái, el personaje principal
+use @ Image 3 como la grulla malvada
+use @ Image 2 como el storyboard, no renderice ningún texto, números o flechas.
+
+Crea un corto de anime cinematográfico de 15 segundos sobre un joven samurái que hace guardia en un solitario santuario de montaña
+
+ESTILO: arte conceptual de anime minimalista y pictórico, sombreado suave mate, tonos tierra apagados y polvorientos, fondo azul pálido, disco solar melocotón-rosado, diseño de personajes impulsado por siluetas elegantes, detalle ambiental escaso, acentos de hierba seca, formas de roca esculpidas, textura de pincel sutil, formas limpias, proporciones ligeramente estilizadas, poesía visual inspirada en Japón, encuadre cinematográfico, movimiento de viento suave, coreografía de acción refinada, atmósfera tranquila pero dramática
+
+0:00 - 0:03
+Toma de establecimiento amplia. Un joven samurái se equilibra en la cima de un alto pilar de piedra en un campo abierto de hierba seca. Detrás de él se encuentra un gran disco solar melocotón-rosado contra un cielo azul pálido. Su kimono suelto y un pequeño mechón de cabello se balancean con el viento. Una mano descansa cerca de su espada. Está quieto, enfocado y tranquilo.
+
+0:03 - 0:06
+Acercamiento lento. Primer plano de los ojos del joven samurái bajo un sombrero de paja. El viento levanta ligeramente el borde del sombrero. Corte a un pequeño amuleto del santuario atado a un delgado poste de madera cercano. El amuleto de papel parpadea repentinamente con una extraña llama azul.
+
+0:06 - 0:09
+El samurái lo percibe instantáneamente. Cambia su postura en la estrecha roca, ajustando sus pies con precisión. La hierba seca se dobla más fuerte con el viento. Una forma oscura se desliza a través del disco solar melocotón en el fondo, pasando silenciosamente detrás de él.
+
+0:09 - 0:12
+Revela la amenaza: un demonio en forma de grulla sombría hecho de papeles de oración rasgados y humo barre el cielo. Circula con una gracia inquietante. El samurái gira bruscamente, desenfunda su espada en un solo movimiento limpio y se agacha en la roca, preparándose para atacar.
+
+0:12 - 0:15
+Se lanza hacia adelante en un salto rápido y elegante, intentando un corte decisivo. La cámara lo sigue dinámicamente. Su espada corta a través de la forma del demonio, pero explota en plumas de papel que revolotean en lugar de caer. Al aterrizar en el borde de la piedra, su pie resbala ligeramente: su primer ataque ha fallado.
+
+NOTAS DE CÁMARA / MOVIMIENTO:
+acercamientos cinematográficos, composiciones elegantes de perfil lateral, encuadre heroico de ángulo bajo, toma de primer plano de ojos, toma de acción de seguimiento rápido durante el salto, energía ligera de cámara en mano solo durante el golpe de espada, de lo contrario, compuesto y elegante
+
+IMPORTANTE: sin texto, sin subtítulos, sin diálogo, sin bordes de storyboard, sin diseño de panel, sin personajes adicionales, mantén el entorno escaso y atmosférico
+
+[Hilo 2] use @ Image 1 como el samurái, el personaje principal
+use @ Image 2 como la grulla malvada
+use @ Image 3 como el storyboard pero no renderice ningún texto, números o flechas.
+
+ESTILO: arte conceptual de anime minimalista y pictórico, sombreado suave mate, tonos tierra apagados y polvorientos, cielo abierto azul pálido, disco solar melocotón-rosado, diseño de personajes impulsado por siluetas elegantes, detalle ambiental escaso, acentos de hierba seca, formas de roca esculpidas, textura de pincel sutil, formas limpias, proporciones ligeramente estilizadas, poesía visual inspirada en Japón, encuadre cinematográfico, movimiento de viento suave pero dramático, coreografía de acción refinada, atmósfera tranquila y emocional
+0:15 - 0:18
+Continúa desde el corte fallido. El joven samurái aterriza torpemente en el borde del estrecho pilar de piedra y resbala por un momento, recuperándose antes de caer. A su alrededor, fragmentos de plumas de papel giran en el viento. Detrás de él, el demonio grulla se reforma en el aire, elegante e intacto. No lo ataca directamente. En cambio, dirige su mirada luminosa hacia el pequeño amuleto del santuario en el poste de madera.
+0:18 - 0:21
+El demonio se lanza hacia el amuleto del santuario. El samurái mira y entiende instantáneamente el verdadero peligro. Esto no es un duelo por orgullo. Gira bruscamente sobre la piedra, baja su centro de gravedad y corta la alta hierba seca alrededor de la roca en varios movimientos rápidos y controlados. Finas hebras y tallos estallan en el viento, creando un velo flotante en el espacio abierto.
+
+0:21 - 0:24
+La hierba y los fragmentos de papel llenan el aire frente al disco solar melocotón. El demonio grulla se desliza a través de ellos, y por primera vez su verdadero cuerpo se hace visible a través de los escombros: un núcleo oscuro y sólido escondido dentro de la elegante ilusión de plumas de papel. El sam
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069222907444703551.json)
+
+```text
+---
+use @ Image 1 as the samurai the main character
+use @ Image 3 as the evil crane
+use @ Image 2 as the storyboard, dont render any text, numbers or arrows.
+
+孤独な山の神社を守る若い侍を描いた15秒のシネマティックなアニメショートを作成してください。
+
+STYLE: ミニマリストなペインタリーアニメコンセプトアート、ソフトなマットシェーディング、くすんだ土色のトーン、淡い青の背景、桃色の太陽円盤、エレガントなシルエット重視のキャラクターデザイン、環境の詳細は控えめ、乾いた草のアクセント、彫刻のような岩の形状、微妙なブラシテクスチャ、クリーンな形状、ややスタイライズされたプロポーション、静かな日本風の視覚詩、シネマティックなフレーミング、穏やかな風の動き、洗練されたアクション振付、静かでドラマチックな雰囲気
+
+0:00 - 0:03
+広いエスタブリッシングショット。若い侍が乾いた草原の中の高い石柱の上でバランスを取っている。彼の背後には、淡い青空に対して大きな桃色の太陽円盤がある。彼のゆったりとした着物の上部と小さな髪の房が風に揺れる。片手は剣の近くに置かれ、彼は静かで集中し、落ち着いている。
+
+0:03 - 0:06
+スロープッシュイン。麦わら帽子の下の若い侍の目のクローズアップ。風が帽子の縁を少し持ち上げる。近くの細い木の棒に結ばれた小さな神社のお守りにカット。紙のお守りが突然奇妙な青い炎でちらつく。
+
+0:06 - 0:09
+侍はそれを瞬時に感じ取る。彼は狭い岩の上で姿勢を変え、足を正確に調整する。乾いた草が風でさらに強く曲がる。背後の桃色の太陽円盤を暗い形が静かに通り過ぎる。
+
+0:09 - 0:12
+脅威を明らかにする：破れた祈りの紙と煙でできた影の鶴のような悪魔が空を横切る。それは不気味な優雅さで旋回する。侍は鋭く振り向き、一瞬で剣を抜き、岩の上で低く身をかがめ、攻撃の準備をする。
+
+0:12 - 0:15
+彼は素早く優雅な跳躍で前方に飛び出し、一撃を試みる。カメラは彼と共にダイナミックに追跡する。彼の刃は悪魔の形を切り裂くが、それは落ちる代わりに紙の羽に爆発する。彼が石の縁に着地すると、足元が少し滑る—彼の最初の攻撃は失敗した。
+
+CAMERA / MOTION NOTES:
+シネマティックなプッシュイン、エレガントな横顔の構図、低角度のヒーローフレーミング、目のクローズアップショット、跳躍中の速い追跡アクションショット、剣の一撃中のみ軽い手持ちのエネルギー、それ以外は構成的で優雅
+
+IMPORTANT: テキストなし、字幕なし、対話なし、ストーリーボードの境界なし、パネルレイアウトなし、追加キャラクターなし、環境は控えめで雰囲気を重視
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt 1:
+
+use @ Image 1 as the samurai the main character
+use @ Image 3 as the evil crane
+use @ Image 2 as the storyboard, dont render any text, numbers or arrows.
+
+孤独な山の神社を守る若い侍を描いた15秒のシネマティックなアニメショートを作成してください。
+
+STYLE: ミニマリストなペインタリーアニメコンセプトアート、ソフトなマットシェーディング、くすんだ土色のトーン、淡い青の背景、桃色の太陽円盤、エレガントなシルエット重視のキャラクターデザイン、環境の詳細は控えめ、乾いた草のアクセント、彫刻のような岩の形状、微妙なブラシテクスチャ、クリーンな形状、ややスタイライズされたプロポーション、静かな日本風の視覚詩、シネマティックなフレーミング、穏やかな風の動き、洗練されたアクション振付、静かでドラマチックな雰囲気
+
+0:00 - 0:03
+広いエスタブリッシングショット。若い侍が乾いた草原の中の高い石柱の上でバランスを取っている。彼の背後には、淡い青空に対して大きな桃色の太陽円盤がある。彼のゆったりとした着物の上部と小さな髪の房が風に揺れる。片手は剣の近くに置かれ、彼は静かで集中し、落ち着いている。
+
+0:03 - 0:06
+スロープッシュイン。麦わら帽子の下の若い侍の目のクローズアップ。風が帽子の縁を少し持ち上げる。近くの細い木の棒に結ばれた小さな神社のお守りにカット。紙のお守りが突然奇妙な青い炎でちらつく。
+
+0:06 - 0:09
+侍はそれを瞬時に感じ取る。彼は狭い岩の上で姿勢を変え、足を正確に調整する。乾いた草が風でさらに強く曲がる。背後の桃色の太陽円盤を暗い形が静かに通り過ぎる。
+
+0:09 - 0:12
+脅威を明らかにする：破れた祈りの紙と煙でできた影の鶴のような悪魔が空を横切る。それは不気味な優雅さで旋回する。侍は鋭く振り向き、一瞬で剣を抜き、岩の上で低く身をかがめ、攻撃の準備をする。
+
+0:12 - 0:15
+彼は素早く優雅な跳躍で前方に飛び出し、一撃を試みる。カメラは彼と共にダイナミックに追跡する。彼の刃は悪魔の形を切り裂くが、それは落ちる代わりに紙の羽に爆発する。彼が石の縁に着地すると、足元が少し滑る—彼の最初の攻撃は失敗した。
+
+CAMERA / MOTION NOTES:
+シネマティックなプッシュイン、エレガントな横顔の構図、低角度のヒーローフレーミング、目のクローズアップショット、跳躍中の速い追跡アクションショット、剣の一撃中のみ軽い手持ちのエネルギー、それ以外は構成的で優雅
+
+IMPORTANT: テキストなし、字幕なし、対話なし、ストーリーボードの境界なし、パネルレイアウトなし、追加キャラクターなし、環境は控えめで雰囲気を重視
+
+[Thread 2] use @ Image 1 as the samurai the main character
+use @ Image 2 as the evil crane
+use @ Image 3  as the storyboard but do not render any text, numbers or arrows.
+
+STYLE: ミニマリストなペインタリーアニメコンセプトアート、ソフトなマットシェーディング、くすんだ土色のトーン、淡い青の空、桃色の太陽円盤、エレガントなシルエット重視のキャラクターデザイン、環
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069222907444703551.json)
+
+```text
+---
+use @ Image 1 as the samurai the main character
+use @ Image 3 as the evil crane
+use @ Image 2 as the storyboard, dont render any text, numbers or arrows.
+
+외로운 산사에서 경비를 서는 젊은 사무라이에 대한 15초 길이의 시네마틱 애니메이션 단편을 만드세요.
+
+스타일: 미니멀리스트 페인터리 애니메이션 콘셉트 아트, 부드러운 매트 음영, muted dusty earth tones, pale blue background, peach-pink sun disc, 우아한 실루엣 중심의 캐릭터 디자인, 드문드문한 환경적 디테일, 마른 풀 악센트, 조각된 바위 형태, subtle brush texture, clean shapes, 약간 스타일화된 비율, calm Japanese-inspired visual poetry, cinematic framing, gentle wind motion, refined action choreography, quiet but dramatic atmosphere
+
+0:00 - 0:03
+넓은 설정 샷. 젊은 사무라이가 마른 풀밭의 높은 돌기둥 위에 균형을 잡고 서 있다. 그의 뒤에는 옅은 파란 하늘을 배경으로 큰 복숭아빛 태양 원반이 자리 잡고 있다. 그의 헐렁한 기모노 상의와 작은 머리카락이 바람에 흔들린다. 한 손은 그의 칼 근처에 있다. 그는 여전히 집중하고 차분하다.
+
+0:03 - 0:06
+천천히 밀어 들어간다. 밀짚모자 아래 젊은 사무라이의 눈을 클로즈업. 바람이 모자의 가장자리를 살짝 들어 올린다. 근처의 얇은 나무 기둥에 묶인 작은 사당 부적을 컷. 종이 부적이 갑자기 이상한 파란 불꽃으로 깜빡인다.
+
+0:06 - 0:09
+사무라이는 즉시 그것을 감지한다. 그는 좁은 바위 위에서 자세를 바꾸고, 발을 정밀하게 조정한다. 마른 풀이 바람에 더 강하게 휘어진다. 어두운 형체가 배경의 복숭아빛 태양 원반을 가로질러 조용히 그의 뒤를 지나간다.
+
+0:09 - 0:12
+위협을 드러낸다: 찢어진 기도문과 연기로 이루어진 그림자 같은 학 모양의 악마가 하늘을 가로지른다. 그것은 기묘한 우아함으로 원을 그린다. 사무라이는 날카롭게 돌아서서, 한 번의 깨끗한 동작으로 칼을 뽑고, 바위 위에서 낮게 웅크려 공격을 준비한다.
+
+0:12 - 0:15
+그는 빠르고 우아한 도약으로 앞으로 나아가, 결정적인 한 번의 베기를 시도한다. 카메라는 그와 함께 역동적으로 추적한다. 그의 칼날은 악마의 형체를 가르지만, 그것은 떨어지지 않고 펄럭이는 종이 깃털로 폭발한다. 그가 돌의 가장자리에 착지할 때, 그의 발판이 약간 미끄러진다 — 그의 첫 번째 공격은 실패했다.
+
+카메라 / 모션 노트:
+cinematic push-ins, elegant side profile compositions, low-angle hero framing, close-up eye shot, fast tracking action shot during the leap, light handheld energy only during the sword strike, otherwise composed and graceful
+
+중요: 텍스트 없음, 자막 없음, 대화 없음, 스토리보드 경계 없음, 패널 레이아웃 없음, 추가 캐릭터 없음, 환경을 드문드문하고 분위기 있게 유지
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt 1:
+
+use @ Image 1 as the samurai the main character
+use @ Image 3 as the evil crane
+use @ Image 2 as the storyboard, dont render any text, numbers or arrows.
+
+외로운 산사에서 경비를 서는 젊은 사무라이에 대한 15초 길이의 시네마틱 애니메이션 단편을 만드세요.
+
+스타일: 미니멀리스트 페인터리 애니메이션 콘셉트 아트, 부드러운 매트 음영, muted dusty earth tones, pale blue background, peach-pink sun disc, 우아한 실루엣 중심의 캐릭터 디자인, 드문드문한 환경적 디테일, 마른 풀 악센트, 조각된 바위 형태, subtle brush texture, clean shapes, 약간 스타일화된 비율, calm Japanese-inspired visual poetry, cinematic framing, gentle wind motion, refined action choreography, quiet but dramatic atmosphere
+
+0:00 - 0:03
+넓은 설정 샷. 젊은 사무라이가 마른 풀밭의 높은 돌기둥 위에 균형을 잡고 서 있다. 그의 뒤에는 옅은 파란 하늘을 배경으로 큰 복숭아빛 태양 원반이 자리 잡고 있다. 그의 헐렁한 기모노 상의와 작은 머리카락이 바람에 흔들린다. 한 손은 그의 칼 근처에 있다. 그는 여전히 집중하고 차분하다.
+
+0:03 - 0:06
+천천히 밀어 들어간다. 밀짚모자 아래 젊은 사무라이의 눈을 클로즈업. 바람이 모자의 가장자리를 살짝 들어 올린다. 근처의 얇은 나무 기둥에 묶인 작은 사당 부적을 컷. 종이 부적이 갑자기 이상한 파란 불꽃으로 깜빡인다.
+
+0:06 - 0:09
+사무라이는 즉시 그것을 감지한다. 그는 좁은 바위 위에서 자세를 바꾸고, 발을 정밀하게 조정한다. 마른 풀이 바람에 더 강하게 휘어진다. 어두운 형체가 배경의 복숭아빛 태양 원반을 가로질러 조용히 그의 뒤를 지나간다.
+
+0:09 - 0:12
+위협을 드러낸다: 찢어진 기도문과 연기로 이루어진 그림자 같은 학 모양의 악마가 하늘을 가로지른다. 그것은 기묘한 우아함으로 원을 그린다. 사무라이는 날카롭게 돌아서서, 한 번의 깨끗한 동작으로 칼을 뽑고, 바위 위에서 낮게 웅크려 공격을 준비한다.
+
+0:12 - 0:15
+그는 빠르고 우아한 도약으로 앞으로 나아가, 결정적인 한 번의 베기를 시도한다. 카메라는 그와 함께 역동적으로 추적한다. 그의 칼날은 악마의 형체를 가르지만, 그것은 떨어지지 않고 펄럭이는 종이 깃털로 폭발한다. 그가 돌의 가장자리에 착지할 때, 그의 발판이 약간 미끄러진다 — 그의 첫 번째 공격은 실패했다.
+
+카메라 / 모션 노트:
+cinematic push-ins, elegant side profile compositions, low-angle hero framing, close-up eye shot, fast tracking action shot during the leap, light handheld energy only during the sword strike, otherwise composed and graceful
+
+중요: 텍스트 없음, 자막 없음, 대화 없음, 스토리보드 경계 없음, 패널 레이아웃 없음, 추가 캐릭터 없음, 환경을 드문드문하고 분위기 있게 유지
+
+[Thread 2] use @ Image 1 as the samurai the main character
+use @ Image 2 as the evil crane
+use @ Image 3 as the storyboard but do not render any text, numbers or arrows.
+
+스타일: 미니멀리스트 페인터리 애니메이션 콘셉트 아트, 부드러운 매트 음영, muted dusty earth tones, pale blue open sky, peach-pink sun disc, 우아한 실루엣 중심의 캐릭터 디자인, 드문드문한 환경적 디테일, 마른 풀 악센트, 조각된 바위 형태, subtle brush texture, clean shapes, 약간 스타일화된 비율, calm Japanese-inspired visual poetry, cinematic framing, gentle but dramatic wind motion, refined action choreography, quiet and emotional atmosphere
+0:15 - 0:18
+실패한 베기에서 계속. 젊은 사무라이는 좁은 돌기둥 가장자리에 어색하게 착지하고 잠시 미끄러지지만, 떨어지기 전에 자신을 잡는다. 그의 주위로 종이 깃털 조각들이 바람에 휘날린다. 그의 뒤에서 학 악마가 공중에서 우아하고 온전하게 다시 형성된다. 그것은 그를 직접 공격하지 않는다. 대신, 그것은 나무 기둥 위의 작은 사당 부적으로 빛나는 시선을 돌린다.
+0:18 - 0:
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069222907444703551.json)
+
+```text
+---
+使用 @ Image 1 作为武士主角
+使用 @ Image 3 作为邪恶的鹤
+使用 @ Image 2 作为分镜，不渲染任何文字、数字或箭头。
+
+创作一个关于年轻武士在孤独山神社守卫的15秒电影感动漫短片
+
+风格：极简画风的动漫概念艺术，柔和的哑光阴影，柔和的尘土色调，淡蓝色背景，桃粉色太阳圆盘，优雅的剪影驱动角色设计，稀疏的环境细节，干草点缀，雕塑般的岩石形态，细腻的笔触纹理，干净的形状，略微风格化的比例，宁静的日式视觉诗意，电影感构图，轻柔的风动，精致的动作编排，安静但戏剧性的氛围
+
+0:00 - 0:03
+广角建立镜头。一个年轻的武士在一片干草地的高石柱上保持平衡。身后是一轮大桃粉色太阳圆盘，映衬着淡蓝色的天空。他宽松的和服上衣和小发束在风中摇曳。一只手靠近他的剑。他静止、专注、平静。
+
+0:03 - 0:06
+慢慢推进。特写年轻武士草帽下的眼睛。风轻轻掀起帽檐。切换到附近绑在细木杆上的小神社护身符。纸制护身符突然闪烁着奇异的蓝色火焰。
+
+0:06 - 0:09
+武士立刻感知到了。他在狭窄的岩石上调整姿势，脚步精准地调整。干草在风中更猛烈地弯曲。一个黑暗的形状在背景中的桃色太阳圆盘上滑过，静静地从他身后经过。
+
+0:09 - 0:12
+揭示威胁：一个由撕裂的祈祷纸和烟雾组成的阴影鹤状恶魔在空中扫过。它以诡异的优雅盘旋。武士迅速转身，一气呵成地拔剑，低身在岩石上准备攻击。
+
+0:12 - 0:15
+他以快速优雅的跳跃向前冲去，试图进行一次决定性的斩击。镜头动态跟随他。他的刀刃穿过恶魔的形态，但它爆裂成飘飞的纸羽而不是坠落。当他落在石头边缘时，脚步稍微滑了一下——他的第一次攻击失败了。
+
+镜头/运动说明：
+电影感推进，优雅的侧面构图，低角度英雄构图，眼睛特写，跳跃时快速跟踪动作镜头，只有在剑击时轻微手持能量，其他时候保持构图优雅
+
+重要：无文字，无字幕，无对话，无分镜边框，无面板布局，无额外角色，保持环境稀疏和富有氛围
+
+--- 线程继续 ---
+[线程1] 提示1：
+
+使用 @ Image 1 作为武士主角
+使用 @ Image 3 作为邪恶的鹤
+使用 @ Image 2 作为分镜，不渲染任何文字、数字或箭头。
+
+创作一个关于年轻武士在孤独山神社守卫的15秒电影感动漫短片
+
+风格：极简画风的动漫概念艺术，柔和的哑光阴影，柔和的尘土色调，淡蓝色背景，桃粉色太阳圆盘，优雅的剪影驱动角色设计，稀疏的环境细节，干草点缀，雕塑般的岩石形态，细腻的笔触纹理，干净的形状，略微风格化的比例，宁静的日式视觉诗意，电影感构图，轻柔的风动，精致的动作编排，安静但戏剧性的氛围
+
+0:00 - 0:03
+广角建立镜头。一个年轻的武士在一片干草地的高石柱上保持平衡。身后是一轮大桃粉色太阳圆盘，映衬着淡蓝色的天空。他宽松的和服上衣和小发束在风中摇曳。一只手靠近他的剑。他静止、专注、平静。
+
+0:03 - 0:06
+慢慢推进。特写年轻武士草帽下的眼睛。风轻轻掀起帽檐。切换到附近绑在细木杆上的小神社护身符。纸制护身符突然闪烁着奇异的蓝色火焰。
+
+0:06 - 0:09
+武士立刻感知到了。他在狭窄的岩石上调整姿势，脚步精准地调整。干草在风中更猛烈地弯曲。一个黑暗的形状在背景中的桃色太阳圆盘上滑过，静静地从他身后经过。
+
+0:09 - 0:12
+揭示威胁：一个由撕裂的祈祷纸和烟雾组成的阴影鹤状恶魔在空中扫过。它以诡异的优雅盘旋。武士迅速转身，一气呵成地拔剑，低身在岩石上准备攻击。
+
+0:12 - 0:15
+他以快速优雅的跳跃向前冲去，试图进行一次决定性的斩击。镜头动态跟随他。他的刀刃穿过恶魔的形态，但它爆裂成飘飞的纸羽而不是坠落。当他落在石头边缘时，脚步稍微滑了一下——他的第一次攻击失败了。
+
+镜头/运动说明：
+电影感推进，优雅的侧面构图，低角度英雄构图，眼睛特写，跳跃时快速跟踪动作镜头，只有在剑击时轻微手持能量，其他时候保持构图优雅
+
+重要：无文字，无字幕，无对话，无分镜边框，无面板布局，无额外角色，保持环境稀疏和富有氛围
+
+[线程2] 使用 @ Image 1 作为武士主角
+使用 @ Image 2 作为邪恶的鹤
+使用 @ Image 3 作为分镜，但不渲染任何文字、数字或箭头。
+
+风格：极简画风的动漫概念艺术，柔和的哑光阴影，柔和的尘土色调，淡蓝色开放天空，桃粉色太阳圆盘，优雅的剪影驱动角色设计，稀疏的环境细节，干草点缀，雕塑般的岩石形态，细腻的笔触纹理，干净的形状，略微风格化的比例，宁静的日式视觉诗意，电影感构图，轻柔但戏剧性的风动，精致的动作编排，安静而情感丰富的氛围
+0:15 - 0:18
+从失败的斩击继续。年轻的武士尴尬地落在狭窄石柱的边缘，滑了一下，但在跌落前稳住了自己。周围，纸羽碎片在风中旋转。身后，鹤状恶魔在空中重新形成，优雅而完整。它没有直接攻击他，而是将发光的目光转向木杆上的小神社护身符。
+
+0:18 - 0:21
+恶魔向神社护身符俯冲而去。武士看过去，立刻明白了真正的危险。这不是为了荣誉的决斗。他在石头上迅速转身，降低重心，以几次快速、精准的动作切割岩石周围的高干草。细长的草叶和茎在风中爆发，形成一个漂浮的面纱。
+
+0:21 - 0:24
+草叶和纸屑在桃色太阳圆盘前的空气中飘荡。鹤状恶魔穿过它们，第一次它的真实身体通过碎片显现出来——一个隐藏在优雅纸羽幻象中的黑暗实心核心。武士停止鲁莽地移动。他观察着，冷静地跟踪恶魔的确切中心。
+
+0:24 - 0:27
+低角度镜头。武士弯曲膝盖，完全控制地向上跃起，干净利落地在巨大太阳圆盘前升起。他的姿势平静、居中、精准。在空中，他以一个干净的斩击穿过鹤状恶魔
+```
+
+## 出处与许可
+
+- 原作者：[MD](https://x.com/mdmadeit) · 原帖：<https://x.com/mdmadeit/status/2069222907444703551>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069222907444703551.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

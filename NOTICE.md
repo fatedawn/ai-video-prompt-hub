@@ -7,7 +7,7 @@
 版权人：**天机**（Copyright 2026 天机）。许可：**[Apache License 2.0](LICENSE)**（全文见根目录 `LICENSE`，简短声明见根目录 `NOTICE`）。
 
 Apache-2.0 **只覆盖本仓库自己的作品**，包括：
-- 代码：`scripts/`、`animator/`（代码、Schema、`tts/`、`tools/`；**不含** `animator/vendor/` 下的第三方代码，见第 2.1 节）、`videogen/`、`router/`（AI 导演路由器，含测试与 `examples/` 示例方案）、`catalog/tools/`；
+- 代码：`scripts/`、`animator/`（代码、Schema、`tts/`、`tools/`；**不含** `animator/vendor/` 下的第三方代码，见第 2.1 节）、`videogen/`、`router/`（AI 导演路由器，含测试与 `examples/` 示例方案）、`mcp/`（只读 MCP 服务，尚未发布到 npm）、`catalog/tools/`；
 - AI Agent 说明与技能：`AGENTS.md`、`CLAUDE.md`、`skills/ai-video-director/SKILL.md`；
 - 外部项目目录 `catalog/`：`registry.json` 中本仓库自写的中文简介、标签、接入说明与许可证备注，生成的分类页面，以及 `catalog/methodology.md`（用本仓库自己的话归纳的方法论，未摘录第三方原文）。目录里列出的外部项目**只是链接**，它们各自的代码、文档、模板仍归原作者并适用其自己的许可证，见第 4 节；
 - 文档：README、NOTICE、ATTRIBUTION、CONTRIBUTING、SECURITY 等，`animator/README.md`、`videogen/README.md`，分类体系、各级索引与统计，`tools/漫剧漫画代码项目.md` 链接清单；
@@ -23,7 +23,7 @@ Apache-2.0 **只覆盖本仓库自己的作品**，包括：
 
 ## 2. 第三方内容：保持上游许可
 
-`prompts/` 与 `templates/` 中的文字转录自以下上游仓库，**不受本仓库 Apache-2.0 约束**，以各自上游许可（MIT / CC BY 4.0）为准，并逐条保留原作者署名。完整许可文本和版权行见 `LICENSES/`。
+`prompts/` 与 `templates/` 中的文字转录自以下上游仓库，**不受本仓库 Apache-2.0 约束**，以各自上游许可（MIT / CC BY 4.0 / CC0）为准，并逐条保留原作者署名。完整许可文本和版权行见 `LICENSES/`。
 
 | 上游 | 许可 | 版权行 | 许可文本 |
 |---|---|---|---|
@@ -33,6 +33,11 @@ Apache-2.0 **只覆盖本仓库自己的作品**，包括：
 | Emily2040/seedance-2.0 | MIT | Copyright (c) 2026 Iamemily2050 (@iamemily2050) | `LICENSES/Emily2040_seedance-2.0-MIT.txt` |
 | lixiaoxiao9888-create/manju-laoli-skill | MIT | Copyright (c) 2026 Short-Drama Director Suite contributors | `LICENSES/lixiaoxiao9888-create_manju-laoli-skill-MIT.txt` |
 | HBAI-Ltd/Toonflow-app | MIT | Copyright (c) 2026 HBAI-Ltd | `LICENSES/HBAI-Ltd_Toonflow-app-MIT.txt` |
+| renoise-ai/awesome-seedance-prompts | CC BY 4.0 | 上游 LICENSE 为 CC BY 4.0 法律文本（2026-10-09 重读） | `LICENSES/renoise-ai_awesome-seedance-prompts-CC-BY-4.0.txt` |
+| YouMind-OpenLab/awesome-grok-imagine-prompts | CC BY 4.0 | Copyright (c) 2026 YouMind | `LICENSES/YouMind-OpenLab_awesome-grok-imagine-prompts-CC-BY-4.0.txt` |
+| hanshs474/seedance-prompts-mcp | MIT | Copyright (c) 2026 Emaki | `LICENSES/hanshs474_seedance-prompts-mcp-MIT.txt` |
+| f/awesome-chatgpt-prompts | 提示词 CC0；代码 MIT | 见上游 LICENSE 的双许可说明 | `LICENSES/f_awesome-chatgpt-prompts-CC0-NOTE.md` |
+| liu-kaining/Awesome-Veo3-Prompts | MIT | Copyright (c) 2025 liu-kaining | `LICENSES/liu-kaining_Awesome-Veo3-Prompts-MIT.txt` |
 
 **第三方原作者的提示词**
 

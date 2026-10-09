@@ -85,6 +85,58 @@
 
 ---
 
+
+## 6b. 2026-10-09 增补（许可证均于当天用 GitHub API 重读 LICENSE 原文）
+
+以下条目的 `verification` 为 `attribution_checked`，`output_status` 为 `output_unverified`：核对了仓库许可证和每条的作者/来源字段，**没有逐条打开原帖**。内容审核（`scripts/audit.py`）命中的改为仅链接；涉及未成年人性化的不收录。
+
+### renoise-ai / awesome-seedance-prompts
+
+| 项目 | 内容 |
+|---|---|
+| 许可 | CC BY 4.0（`LICENSE` 为 CC BY 4.0 法律文本）。文本见 `LICENSES/renoise-ai_awesome-seedance-prompts-CC-BY-4.0.txt` |
+| 版本 | commit `904b6caffa21c2b114bb93e1bd0e37ba80b3dd10` |
+| 取用 | `data/prompts/*.json` 的 `content` 与 `translations`。不收录 thumbnail / videoUrl |
+| 去重 | 按 X 帖 id 去掉已在库中的 1,932 条；再按规范化正文去掉与现有提示词相同的文本 |
+| 结果 | 新写入 3,940 条（其中仅链接 571）。社区收集，`third_party_author: true`，保留 author 与 sourceLink |
+
+### YouMind-OpenLab / awesome-grok-imagine-prompts
+
+| 项目 | 内容 |
+|---|---|
+| 许可 | CC BY 4.0，Copyright (c) 2026 YouMind（GitHub SPDX 显示 NOASSERTION，以 LICENSE 原文为准） |
+| 版本 | commit `26f21c011757ebacda29516bcbef65dcf5053f23`，并遍历 README / README_zh / README_ja-JP 的历史版本 |
+| 取用 | 与 Seedance 库相同的 README 历史抽取。不抓 youmind.com，不收录视频 |
+| 结果 | 历史版本中 2,433 个 id（README 徽章写 3,027，差额没有出现在这三份 README 的已提交版本里，未从网站补）。新写入 2,432 条（仅链接 127）。model 为 Grok Imagine |
+
+### hanshs474 / seedance-prompts-mcp（Emaki）
+
+| 项目 | 内容 |
+|---|---|
+| 许可 | MIT，Copyright (c) 2026 Emaki。作者声明这些提示词可复用 |
+| 版本 | commit `05917c359eeeefd3bfbc37fe9b18c56018d22ebc` |
+| 取用 | `src/prompts.json` 的英文/日文正文。示例视频留在上游，不收录 |
+| 结果 | 150 条中与现有正文重复的已跳过，新写入 118 条（仅链接 5） |
+
+### f / awesome-chatgpt-prompts（prompts.chat）
+
+| 项目 | 内容 |
+|---|---|
+| 许可 | 提示词 CC0 1.0；代码 MIT。见 `LICENSES/f_awesome-chatgpt-prompts-CC0-NOTE.md` |
+| 版本 | commit `7d3f248962d1dca209d59e033524bcb86c2b26b8` |
+| 取用 | 只收「正文本身就是视频生成提示」的 10 条，不收「你是一个视频分析师」这类对话角色 |
+| 结果 | 10 条，均全文。贡献者名记在 `original_author` |
+
+### liu-kaining / Awesome-Veo3-Prompts
+
+| 项目 | 内容 |
+|---|---|
+| 许可 | MIT，Copyright (c) 2025 liu-kaining。抽查为仓库作者自写的 Veo 3 场景，不是转载帖 |
+| 版本 | commit `366773db63827e07a09386a86fd0bbc9fd08eb39` |
+| 结果 | 31 个文件中新写入 30 条（仅链接 1，品牌/角色审核）。model 为 Veo 3 |
+
+未收录（许可证未能按「作者自写 + 允许全文」重新确认，或上游明确排除第三方正文）：BeatAPI 的第三方提示词、Semonxue（无 LICENSE）、lanshu 引文、nyuuzyou/klingai、CC BY-NC 数据集、ishandutta2007/veo_prompts（自述为 curated / 已并入其他目录）、hr98w 与 SoraEase（CC0 但看不出是仓库作者自写，且夹杂联盟营销）、VoidLight00 的生成模板（未在本次确认作者性）。这些若出现在 catalog，也只是链接。
+
 ## 暂缓收录：dexhunter / seedance2-skill
 
 - 仓库：https://github.com/dexhunter/seedance2-skill

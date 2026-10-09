@@ -1,0 +1,314 @@
+---
+id: "renoise-2059873027236503617"
+title: "Use @Image1 as opening frame. NAPOLEON left, ALEXANDER THE GREAT right…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "动作大片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Ring Fight", "Photoreal", "Historical", "VFX", "Slow-Mo"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059873027236503617.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Yurii Yeltsov"
+original_author_url: "https://x.com/yura_elkin"
+original_post_url: "https://x.com/yura_elkin/status/2059873027236503617"
+published: "2026-05-28"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Use @Image1 as opening frame. NAPOLEON left, ALEXANDER THE GREAT right…
+
+## 提示词（English）
+
+```text
+Use @Image1 as opening frame. NAPOLEON left, ALEXANDER THE GREAT right. Fighting game HUD: gold health bars top, portraits in diamond frames, names, timer 99, SUPER bars bottom. Arena: Mediterranean harbor — warship with sails behind Napoleon, cannons, French tricolor. Greek temple behind Alexander, golden sun banner. Blue sea, mountains, mosaic floor. Ship rocks on waves throughout. Sea ambient sound. Mortal Kombat / Tekken 8 / SF6 photorealistic quality. Golden hour cinematic lighting.
+
+NAPOLEON (left): short, black bicorne hat, navy coat gold epaulettes red trim, white vest, white pants, black boots, cavalry sabre.
+ALEXANDER (right): young athletic, golden curly hair, bronze Greek cuirass gold details, leather pteruges, bronze greaves, sandals, white cape, shield with sun emblem.
+
+SHOT 1 (00:00–00:03) — CANNON BARRAGE
+Start @Image1. Gold text ROUND 1. Voice: ROUND ONE — FIGHT!
+CLOSE UP Napoleon — fierce eyes. DRAWS sabre — blade gleams. SWINGS overhead pointing at Alexander. Camera PULLS BACK to WIDE SHOT — full arena visible: ship, cannons, sea, temple. Three cannons FIRE — massive smoke, orange flash, ship rocks, water splashes. Camera LOCKS ONTO cannonball — RIDES WITH IT across arena. Cannonball POV — floor blurring, wind distortion. SLOW MOTION 10% approaching Alexander — ball rotating, smoke trail. IMPACT chest. SLOW MOTION 5%: dust, stone fragments, golden sparks all directions. Alexander LAUNCHES backward 5 meters. Camera 180 degree ORBIT explosion frozen. Speed ramp 5% to 800%. Alexander CRASHES mosaic, slides. HUD: Alexander drops 60% FLASHES. Screen shake.
+
+SHOT 2A (00:03–00:04.5) — ELEPHANT SUMMON
+Alexander one knee. CLOSE UP face — determined. Pulls curved bronze WAR HORN from cape. BLOWS — deep resonating horn echoes arena, temple columns vibrate, ship masts shake. Camera RAPIDLY ZOOMS OUT EXTREME WIDE AERIAL — entire arena from above: tiny fighters, ship, temple, sea, mountains. Behind temple — FOUR MASSIVE WAR ELEPHANTS full bronze armor, red war paint, iron blade tusks, howdahs on backs, CHARGING. Dust clouds rising. Ground SHAKING camera vibrates. Elephants enormous scale. Trumpeting.
+
+SHOT 2B (00:04.5–00:06) — ELEPHANT STRIKE
+Camera DIVES DOWN to MEDIUM SHOT — Napoleon looking up horror at elephants. Shadow over him. WHIP PAN to charging elephant — CLOSE UP armored head, iron tusks. Lead elephant REACHES Napoleon. SLOW MOTION 15%: tusk SWINGS sideways connects torso. Camera 360 degree ORBIT impact frozen. Hat shifts. Body LIFTS off ground. Speed ramp 15% to 600%. Napoleon FLIES 4 meters, crashes mosaic. HUD: Napoleon drops 55%. Elephant TRUMPETS. Napoleon crumpled, elephants towering.
+
+SHOT 3 (00:06–00:09) — SABRE VS ARMOR
+LOW ANGLE ground level — Napoleon looks up at elephant legs like pillars. GRABS sabre. CLOSE UP fingers grip white knuckles. RISES teeth gritted, uniform torn dusty. CHARGES elephant leg. SWINGS full force at bronze armor — SLOW MOTION 15%: blade CONNECTS. SPARKS shower explosion orange white. Metal CLANG. Camera 180 degree ORBIT sparks. Sabre BOUNCES — arm vibrates recoil. Elephant does not flinch. Does not notice. Camera TILTS UP from Napoleon past elephant body to Alexander atop looking down — enormous scale difference. Alexander shakes head. HUD: zero damage.
+
+SHOT 4 (00:09–00:12) — TRAMPLED
+WIDE SHOT: Alexander atop elephant raises hand — commands forward. Elephant CHARGES Napoleon. Camera TRACKS alongside — ground shaking dust flying. Napoleon turns to run — too late. Elephant LOWERS head — armored forehead RAMS Napoleon behind. SLOW MOTION 10%: impact — BICORNE HAT flies off tumbling air. Camera FOLLOWS hat spinning slow motion against blue sky and ship masts. Speed ramp 10% to 500%. Napoleon LAUNCHES forward SKIDS mosaic face down. Rests near his cannon. Camera 360 degree ORBIT fallen Napoleon — hat landing stone floor. HUD: Napoleon 10% CRITICAL RED flashing.
+
+SHOT 5 (00:12–00:15) — ALEXANDER WINS
+Alexander LEAPS from elephant — cape flowing slow motion. Lands heavy thud. WALKS toward Napoleon. Sees BICORNE HAT on ground. CLOSE UP: hand picks up black hat. MEDIUM SHOT: places bicorne ON TOP golden curls — wearing it over his hair. Smirk. Camera SLOW EPIC 360 ORBIT PULLING BACK to WIDE: Alexander center wearing hat, elephants behind, temple right, Napoleon defeated left, warship rocking on waves, sea sparkling, mountains. Golden hour light. Cape in wind. Voice deep: ALEXANDER WINS. Gold text center: ALEXANDER WINS metallic shimmer. Freeze. Black. End.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059873027236503617.json)
+
+```text
+---
+Usa @Image1 como cuadro de apertura. NAPOLEÓN a la izquierda, ALEJANDRO MAGNO a la derecha. HUD de juego de lucha: barras de salud doradas arriba, retratos en marcos de diamante, nombres, temporizador 99, barras SUPER abajo. Arena: puerto mediterráneo — barco de guerra con velas detrás de Napoleón, cañones, tricolor francés. Templo griego detrás de Alejandro, estandarte de sol dorado. Mar azul, montañas, suelo de mosaico. Barco se balancea en las olas todo el tiempo. Sonido ambiental del mar. Calidad fotorrealista Mortal Kombat / Tekken 8 / SF6. Iluminación cinematográfica de hora dorada.
+
+NAPOLEÓN (izquierda): bajo, sombrero bicornio negro, abrigo de marina con charreteras doradas y ribetes rojos, chaleco blanco, pantalones blancos, botas negras, sable de caballería.
+ALEJANDRO (derecha): joven atlético, cabello rizado dorado, coraza griega de bronce con detalles dorados, pteruges de cuero, grebas de bronce, sandalias, capa blanca, escudo con emblema de sol.
+
+TOMA 1 (00:00–00:03) — BARRAGE DE CAÑONES
+Comienza @Image1. Texto dorado ROUND 1. Voz: ROUND ONE — FIGHT!
+PRIMER PLANO Napoleón — ojos feroces. DESENFUNDA sable — la hoja brilla. BALANCEA sobre la cabeza apuntando a Alejandro. La cámara SE ALEJA a TOMA AMPLIA — arena completa visible: barco, cañones, mar, templo. Tres cañones DISPARAN — humo masivo, destello naranja, barco se balancea, salpicaduras de agua. La cámara SE FIJA EN la bala de cañón — VIAJA CON ELLA a través de la arena. POV de la bala de cañón — suelo desenfocado, distorsión del viento. CÁMARA LENTA 10% acercándose a Alejandro — bola girando, estela de humo. IMPACTO en el pecho. CÁMARA LENTA 5%: polvo, fragmentos de piedra, chispas doradas en todas direcciones. Alejandro SE LANZA hacia atrás 5 metros. Cámara ORBITA 180 grados explosión congelada. Aceleración de velocidad 5% a 800%. Alejandro SE ESTRELLA en el mosaico, se desliza. HUD: Alejandro baja 60% PARPADEA. Sacudida de pantalla.
+
+TOMA 2A (00:03–00:04.5) — INVOCACIÓN DE ELEFANTE
+Alejandro una rodilla. PRIMER PLANO rostro — determinado. Saca un CUERNO DE GUERRA de bronce curvado de la capa. SOPLA — el profundo eco del cuerno resuena en la arena, las columnas del templo vibran, los mástiles del barco se sacuden. La cámara ZOOM RÁPIDO AÉREO EXTREMO — toda la arena desde arriba: luchadores diminutos, barco, templo, mar, montañas. Detrás del templo — CUATRO MASIVOS ELEFANTES DE GUERRA con armadura completa de bronce, pintura de guerra roja, colmillos de hierro, howdahs en la espalda, CARGANDO. Nubes de polvo se levantan. El suelo TIEMBLA, la cámara vibra. Elefantes de escala enorme. Trompeteo.
+
+TOMA 2B (00:04.5–00:06) — GOLPE DE ELEFANTE
+La cámara SE LANZA HACIA ABAJO a TOMA MEDIA — Napoleón mirando horrorizado a los elefantes. Sombra sobre él. PANORÁMICA RÁPIDA al elefante cargando — PRIMER PLANO cabeza blindada, colmillos de hierro. Elefante líder ALCANZA a Napoleón. CÁMARA LENTA 15%: colmillo BALANCEA de lado conecta con el torso. Cámara ORBITA 360 grados impacto congelado. Sombrero se desplaza. Cuerpo SE LEVANTA del suelo. Aceleración de velocidad 15% a 600%. Napoleón VUELA 4 metros, se estrella en el mosaico. HUD: Napoleón baja 55%. Elefante TROMPETEA. Napoleón desplomado, elefantes imponentes.
+
+TOMA 3 (00:06–00:09) — SABLE VS ARMADURA
+ÁNGULO BAJO a nivel del suelo — Napoleón mira hacia arriba las piernas del elefante como pilares. AGARRA sable. PRIMER PLANO dedos agarran nudillos blancos. SE LEVANTA dientes apretados, uniforme rasgado polvoriento. CARGA contra la pierna del elefante. BALANCEA con toda su fuerza contra la armadura de bronce — CÁMARA LENTA 15%: la hoja CONECTA. CHISPAS lluvia explosión naranja blanca. CLANG de metal. Cámara ORBITA 180 grados chispas. Sable REBOTA — brazo vibra por el retroceso. Elefante no se inmuta. No se da cuenta. La cámara SE INCLINA HACIA ARRIBA desde Napoleón pasando el cuerpo del elefante hasta Alejandro en la cima mirando hacia abajo — diferencia de escala enorme. Alejandro sacude la cabeza. HUD: cero daño.
+
+TOMA 4 (00:09–00:12) — PISOTEADO
+TOMA AMPLIA: Alejandro en la cima del elefante levanta la mano — ordena avanzar. Elefante CARGA contra Napoleón. La cámara SIGUE al lado — suelo temblando polvo volando. Napoleón se da vuelta para correr — demasiado tarde. Elefante BAJA la cabeza — frente blindado EMBISTE a Napoleón por detrás. CÁMARA LENTA 10%: impacto — SOMBRERO BICORNIO vuela girando en el aire. La cámara SIGUE el sombrero girando en cámara lenta contra el cielo azul y los mástiles del barco. Aceleración de velocidad 10% a 500%. Napoleón SE LANZA hacia adelante PATINA en el mosaico boca abajo. Descansa cerca de su cañón. Cámara ORBITA 360 grados Napoleón caído — sombrero aterrizando en el suelo de piedra. HUD: Napoleón 10% CRÍTICO ROJO parpadeante.
+
+TOMA 5 (00:12–00:15) — ALEJANDRO GANA
+Alejandro SALTA del elefante — capa fluyendo en cámara lenta. Aterriza con un golpe pesado. CAMINA hacia Napoleón. Ve el SOMBRERO BICORNIO en el suelo. PRIMER PLANO: mano recoge el sombrero negro. TOMA MEDIA: coloca el bicornio ENCIMA de los rizos dorados — llevándolo sobre su cabello. Sonrisa. Cámara ORBITA ÉPICA LENTA 360 RETIRÁNDOSE a AMPLIA: Alejandro en el centro llevando el sombrero, elefantes detrás, templo a la derecha, Napoleón derrotado a la izquierda, barco de guerra balanceándose en las olas, mar brillando, montañas. Luz de hora dorada. Capa en el viento. Voz profunda: ALEJANDRO GANA. Texto dorado en el centro: ALEJANDRO GANA brillo metálico. Congelar. Negro. Fin.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] @yapper_so Ejecutar: https://t.co/QCxbEWXW9W
+
+[Hilo 2] ROUND 1
+Usa @Image1 como cuadro de apertura. NAPOLEÓN a la izquierda, ALEJANDRO MAGNO a la derecha. HUD de juego de lucha: barras de salud doradas arriba, retratos en marcos de diamante, nombres, temporizador 99, barras SUPER abajo. Arena: puerto mediterráneo — barco de guerra con velas detrás de Napoleón, cañones, tricolor francés. Templo griego detrás de Alejandro, estandarte de sol dorado. Mar azul, montañas, suelo de mosaico. Barco se balancea en las olas todo el tiempo. Sonido ambiental del mar. Calidad fotorrealista Mortal Kombat / Tekken 8 / SF6. Iluminación cinematográfica de hora dorada.
+
+NAPOLEÓN (izquierda): bajo, sombrero bicornio negro, abrigo de marina con charreteras doradas y ribetes rojos, chaleco blanco, pantalones blancos, botas negras, sable de caballería.
+ALEJANDRO (derecha): joven atlético, cabello rizado dorado, coraza griega de bronce con detalles dorados, pteruges de cuero, grebas de bronce, sandalias, capa blanca, escudo con emblema de sol.
+
+TOMA 1 (00:00–00:03) — BARRAGE DE CAÑONES
+Comienza @Image1. Texto dorado ROUND 1. Voz: ROUND ONE
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059873027236503617.json)
+
+```text
+---
+Utilisez @Image1 comme cadre d'ouverture. NAPOLÉON à gauche, ALEXANDRE LE GRAND à droite. HUD de jeu de combat : barres de santé dorées en haut, portraits dans des cadres en diamant, noms, minuteur 99, barres SUPER en bas. Arène : port méditerranéen — navire de guerre avec voiles derrière Napoléon, canons, tricolore français. Temple grec derrière Alexandre, bannière soleil doré. Mer bleue, montagnes, sol en mosaïque. Le navire tangue sur les vagues en continu. Bruit ambiant de la mer. Qualité photoréaliste Mortal Kombat / Tekken 8 / SF6. Éclairage cinématographique de l'heure dorée.
+
+NAPOLÉON (gauche) : petit, chapeau bicorne noir, manteau bleu marine avec épaulettes dorées et bordure rouge, gilet blanc, pantalon blanc, bottes noires, sabre de cavalerie.
+ALEXANDRE (droite) : jeune athlétique, cheveux bouclés dorés, cuirasse grecque en bronze avec détails dorés, pteruges en cuir, cnémides en bronze, sandales, cape blanche, bouclier avec emblème du soleil.
+
+PLAN 1 (00:00–00:03) — BARRAGE DE CANONS
+Commencez @Image1. Texte doré ROUND 1. Voix : ROUND ONE — FIGHT!
+GROS PLAN Napoléon — regard féroce. DÉGAINE le sabre — la lame brille. BALANCE au-dessus en pointant vers Alexandre. La caméra RECULE pour un PLAN LARGE — arène complète visible : navire, canons, mer, temple. Trois canons TIRENT — fumée massive, flash orange, le navire tangue, éclaboussures d'eau. La caméra SE FIXE SUR le boulet de canon — L'ACCOMPAGNE à travers l'arène. POV du boulet de canon — sol flou, distorsion du vent. RALENTI 10% approchant Alexandre — boule tournant, traînée de fumée. IMPACT poitrine. RALENTI 5% : poussière, fragments de pierre, étincelles dorées dans toutes les directions. Alexandre EST PROJETÉ en arrière de 5 mètres. Caméra ORBITE 180 degrés explosion figée. Accélération 5% à 800%. Alexandre S'ÉCRASE sur la mosaïque, glisse. HUD : Alexandre chute de 60% CLIGNOTE. Tremblement d'écran.
+
+PLAN 2A (00:03–00:04.5) — INVOCATION D'ÉLÉPHANT
+Alexandre à genou. GROS PLAN visage — déterminé. Tire une CORNE DE GUERRE en bronze courbée de sa cape. SOUFFLE — écho profond résonnant dans l'arène, colonnes du temple vibrent, mâts du navire tremblent. Caméra ZOOM RAPIDE EN EXTREME LARGE AÉRIEN — toute l'arène vue d'en haut : petits combattants, navire, temple, mer, montagnes. Derrière le temple — QUATRE ÉLÉPHANTS DE GUERRE MASSIFS en armure complète de bronze, peinture de guerre rouge, défenses en fer, howdahs sur le dos, CHARGEANT. Nuages de poussière s'élevant. Sol TREMBLANT caméra vibre. Échelle énorme des éléphants. Trompettes.
+
+PLAN 2B (00:04.5–00:06) — FRAPPE D'ÉLÉPHANT
+La caméra PLONGE VERS UN PLAN MOYEN — Napoléon levant les yeux horrifié vers les éléphants. Ombre sur lui. PANORAMIQUE RAPIDE vers l'éléphant chargeant — GROS PLAN tête blindée, défenses en fer. L'éléphant de tête ATTEINT Napoléon. RALENTI 15% : la défense BALAYE latéralement connecte le torse. Caméra ORBITE 360 degrés impact figé. Chapeau se déplace. Corps S'ÉLÈVE du sol. Accélération 15% à 600%. Napoléon VOLE 4 mètres, s'écrase sur la mosaïque. HUD : Napoléon chute de 55%. Éléphant TROMPETTE. Napoléon effondré, éléphants imposants.
+
+PLAN 3 (00:06–00:09) — SABRE CONTRE ARMURE
+ANGLE BAS niveau du sol — Napoléon regarde les jambes de l'éléphant comme des piliers. SAISIT le sabre. GROS PLAN doigts serrant les jointures blanches. SE LÈVE dents serrées, uniforme déchiré poussiéreux. CHARGE la jambe de l'éléphant. BALANCE de toutes ses forces contre l'armure en bronze — RALENTI 15% : la lame CONNECTE. ÉTINCELLES explosion orange blanc. CLANG métallique. Caméra ORBITE 180 degrés étincelles. Sabre REBONDIT — bras vibre du recul. L'éléphant ne bronche pas. Ne remarque pas. Caméra S'INCLINE VERS LE HAUT de Napoléon au-delà du corps de l'éléphant vers Alexandre au sommet regardant en bas — différence d'échelle énorme. Alexandre secoue la tête. HUD : zéro dommage.
+
+PLAN 4 (00:09–00:12) — PIÉTINÉ
+PLAN LARGE : Alexandre au sommet de l'éléphant lève la main — commande d'avancer. L'éléphant CHARGE Napoléon. La caméra SUIVIT à côté — sol tremblant poussière volant. Napoléon se tourne pour courir — trop tard. L'éléphant ABAISSE la tête — front blindé ENFONCE Napoléon par derrière. RALENTI 10% : impact — CHAPEAU BICORNE s'envole en tournoyant dans les airs. La caméra SUIVIT le chapeau tournant au ralenti contre le ciel bleu et les mâts du navire. Accélération 10% à 500%. Napoléon EST PROJETÉ en avant GLISSE sur la mosaïque face contre terre. Se repose près de son canon. Caméra ORBITE 360 degrés Napoléon tombé — chapeau atterrissant sur le sol en pierre. HUD : Napoléon 10% CRITIQUE ROUGE clignotant.
+
+PLAN 5 (00:12–00:15) — ALEXANDRE GAGNE
+Alexandre SAUTE de l'éléphant — cape flottant au ralenti. Atterrit lourdement. MARCHE vers Napoléon. Voit le CHAPEAU BICORNE au sol. GROS PLAN : main ramasse le chapeau noir. PLAN MOYEN : place le bicorne SUR LES boucles dorées — le portant sur ses cheveux. Sourire en coin. Caméra ORBITE ÉPIQUE LENTE 360 TIRANT EN ARRIÈRE vers un PLAN LARGE : Alexandre au centre portant le chapeau, éléphants derrière, temple à droite, Napoléon vaincu à gauche, navire de guerre tanguant sur les vagues, mer scintillante, montagnes. Lumière de l'heure dorée. Cape dans le vent. Voix profonde : ALEXANDRE GAGNE. Texte doré au centre : ALEXANDRE GAGNE scintillement métallique. Gel. Noir. Fin.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] @yapper_so Exécuter : https://t.co/QCxbEWXW9W
+
+[Fil 2] ROUND 1
+Utilisez @Image1 comme cadre d'ouverture. NAPOLÉON à gauche, ALEXANDRE LE GRAND à droite. HUD de jeu de combat : barres de santé dorées en haut, portraits dans des cadres en diamant, noms, minuteur 99, barres SUPER en bas. Arène : port méditerranéen — navire de guerre avec voiles derrière Napoléon, canons, tricolore français. Temple grec derrière Alexandre, bannière soleil doré. Mer bleue, montagnes, sol en mosaïque. Le navire tangue sur les vagues en continu. Bruit ambiant de la mer. Qualité photoréaliste Mortal Kombat / Tekken 8 / SF6. Éclairage cinématographique de l'heure dorée.
+
+NAPOLÉON (gauche) : petit, chapeau bicorne noir, manteau bleu marine avec épaulettes dorées et bordure rouge, gilet blanc, pantalon blanc, bottes noires, sabre de cavalerie.
+ALEXANDRE (droite) : jeune athlétique, cheveux bouclés dorés, cuirasse grecque en bronze avec détails dorés, pteruges en cuir, cnémides en bronze, sandales, cape blanche, bouclier avec emblème du soleil.
+
+PLAN 1 (00:00–00:03) — BARRAGE DE CANONS
+Commencez @Image1. Texte doré ROUND 1. Voix : ROUND ONE — FIGHT!
+GROS PLAN Nap
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059873027236503617.json)
+
+```text
+---
+@Image1をオープニングフレームとして使用。ナポレオン左、アレクサンダー大王右。格闘ゲームのHUD：上部に金の体力バー、ダイヤモンドフレームのポートレート、名前、タイマー99、下部にSUPERバー。アリーナ：地中海の港—ナポレオンの背後に帆船、砲台、フランスの三色旗。アレクサンダーの背後にギリシャ神殿、金の太陽の旗。青い海、山々、モザイクの床。船は波に揺れる。海の環境音。Mortal Kombat / Tekken 8 / SF6のフォトリアリスティックな品質。ゴールデンアワーのシネマティックな照明。
+
+ナポレオン（左）：短い黒いバイコーンハット、金の肩章と赤いトリムのネイビーコート、白いベスト、白いパンツ、黒いブーツ、騎兵のサーベル。
+アレクサンダー（右）：若くてアスレチック、金色の巻き毛、金のディテールが施された青銅のギリシャのキュイラス、革のペルテュゲス、青銅のグリーブ、サンダル、白いケープ、太陽の紋章が付いた盾。
+
+SHOT 1 (00:00–00:03) — CANNON BARRAGE
+@Image1から開始。金のテキストROUND 1。声：ROUND ONE — FIGHT!
+ナポレオンのクローズアップ — 激しい目。サーベルを抜く — 刃が輝く。アレクサンダーを指して頭上で振る。カメラが引いてワイドショットに — アリーナ全体が見える：船、砲台、海、神殿。3つの砲台が発射 — 大量の煙、オレンジの閃光、船が揺れ、水しぶき。カメラが砲弾にロックオン — アリーナを横切って一緒に移動。砲弾視点 — 床がぼやけ、風の歪み。スローモーション10%でアレクサンダーに接近 — 弾が回転し、煙の跡。胸に衝撃。スローモーション5%：ほこり、石の破片、金の火花が四方に飛び散る。アレクサンダーが5メートル後方に飛ばされる。カメラが180度オービットし、爆発が凍結。速度が5%から800%に急上昇。アレクサンダーがモザイクに衝突し、滑る。HUD：アレクサンダーが60%減少し、点滅。画面が揺れる。
+
+SHOT 2A (00:03–00:04.5) — ELEPHANT SUMMON
+アレクサンダーが片膝をつく。顔のクローズアップ — 決意。ケープから曲がった青銅の戦争ホーンを取り出す。吹く — 深く響くホーンがアリーナにこだまし、神殿の柱が振動し、船のマストが揺れる。カメラが急速にズームアウトし、極端なワイドエアリアル — 上空からアリーナ全体：小さな戦士たち、船、神殿、海、山々。神殿の背後に — 青銅のフルアーマーをまとった4頭の巨大な戦象、赤い戦争ペイント、鉄の刃の牙、背中にハウダ、突進。ほこりの雲が上がる。地面が揺れ、カメラが振動。象の巨大なスケール。トランペットの音。
+
+SHOT 2B (00:04.5–00:06) — ELEPHANT STRIKE
+カメラが中間ショットにダイブ — ナポレオンが象を見上げて恐怖。彼の上に影。チャージする象にウィップパン — 装甲された頭、鉄の牙のクローズアップ。先頭の象がナポレオンに到達。スローモーション15%：牙が横に振られ、胴体に接触。カメラが360度オービットし、衝撃が凍結。帽子がずれる。体が地面から持ち上がる。速度が15%から600%に急上昇。ナポレオンが4メートル飛び、モザイクに衝突。HUD：ナポレオンが55%減少。象がトランペットを鳴らす。ナポレオンが崩れ、象がそびえ立つ。
+
+SHOT 3 (00:06–00:09) — SABRE VS ARMOR
+低角度の地面レベル — ナポレオンが象の脚を柱のように見上げる。サーベルをつかむ。指のクローズアップが白くなるほど握る。歯を食いしばり、制服が破れ、ほこりまみれ。象の脚に向かって突進。青銅の鎧に全力で振る — スローモーション15%：刃が接触。火花がオレンジと白の爆発をシャワーのように降らせる。金属の音。カメラが180度オービットし、火花を捉える。サーベルが跳ね返り — 腕が反動で振動。象は微動だにせず。気づかない。カメラがナポレオンから象の体を通り過ぎてアレクサンダーを見上げる — 巨大なスケールの違い。アレクサンダーが首を振る。HUD：ダメージゼロ。
+
+SHOT 4 (00:09–00:12) — TRAMPLED
+ワイドショット：象の上のアレクサンダーが手を上げ — 前進を命じる。象がナポレオンに突進。カメラが並走し — 地面が揺れ、ほこりが舞う。ナポレオンが走ろうとする — 遅すぎる。象が頭を下げ — 装甲された額がナポレオンを後ろから突く。スローモーション10%：衝撃 — バイコーンハットが空中で回転しながら飛ぶ。カメラが帽子を追い、青空と船のマストを背景にスローモーションで回転。速度が10%から500%に急上昇。ナポレオンが前方に飛び、モザイクに顔を下にして滑る。彼の砲台の近くで休む。カメラが360度オービットし、倒れたナポレオンを捉える — 石の床に着地する帽子。HUD：ナポレオン10%クリティカル赤点滅。
+
+SHOT 5 (00:12–00:15) — ALEXANDER WINS
+アレクサンダーが象から飛び降りる — ケープがスローモーションで流れる。重い音を立てて着地。ナポレオンに向かって歩く。地面にあるバイコーンハットを見る。クローズアップ：黒い帽子を拾う手。ミディアムショット：金の巻き毛の上にバイコーンを置く — 髪の上にかぶる。微笑。カメラがスローで壮大な360度オービットし、ワイドに引く：中央に帽子をかぶったアレクサンダー、背後に象、右に神殿、左に敗れたナポレオン、波に揺れる戦艦、輝く海、山々。ゴールデンアワーの光。風に揺れるケープ。深い声：ALEXANDER WINS。中央に金のテキスト：ALEXANDER WINSメタリックな輝き。フリーズ。ブラック。終了。
+
+--- THREAD CONTINUATION ---
+[Thread 1] @yapper_so Run: https://t.co/QCxbEWX
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059873027236503617.json)
+
+```text
+---
+@Image1을 오프닝 프레임으로 사용. NAPOLEON 왼쪽, ALEXANDER THE GREAT 오른쪽. 격투 게임 HUD: 상단에 금색 체력 바, 다이아몬드 프레임의 초상화, 이름, 타이머 99, 하단에 SUPER 바. 아레나: 지중해 항구 — 나폴레옹 뒤에 돛을 단 전함, 대포, 프랑스 삼색기. 알렉산더 뒤에 그리스 신전, 황금 태양 깃발. 푸른 바다, 산, 모자이크 바닥. 배가 파도 위에서 흔들림. 바다 환경 소리. Mortal Kombat / Tekken 8 / SF6 포토리얼리즘 품질. 황금 시간대의 시네마틱 조명.
+
+NAPOLEON (왼쪽): 키 작고, 검은 비코른 모자, 금색 견장을 단 해군 코트 빨간 트림, 흰 조끼, 흰 바지, 검은 부츠, 기병 사브르.
+ALEXANDER (오른쪽): 젊고 운동적, 황금 곱슬머리, 금색 디테일의 청동 그리스 큐이라스, 가죽 페르기스, 청동 그리브, 샌들, 흰 망토, 태양 문양의 방패.
+
+SHOT 1 (00:00–00:03) — CANNON BARRAGE
+@Image1에서 시작. 금색 텍스트 ROUND 1. 목소리: ROUND ONE — FIGHT!
+나폴레옹 클로즈업 — 날카로운 눈. 사브르를 뽑음 — 칼날이 빛남. 알렉산더를 가리키며 머리 위로 휘두름. 카메라가 풀 샷으로 뒤로 당겨짐 — 전체 아레나가 보임: 배, 대포, 바다, 신전. 세 대포 발사 — 거대한 연기, 주황색 섬광, 배가 흔들리고, 물이 튀김. 카메라가 대포알에 고정 — 아레나를 가로질러 함께 이동. 대포알 시점 — 바닥이 흐려지고, 바람 왜곡. 슬로우 모션 10%로 알렉산더에게 접근 — 공이 회전하고, 연기 자국. 가슴에 충격. 슬로우 모션 5%: 먼지, 돌 조각, 황금 불꽃이 모든 방향으로. 알렉산더가 5미터 뒤로 날아감. 카메라 180도 궤도 폭발 정지. 속도 증가 5%에서 800%로. 알렉산더가 모자이크에 충돌, 미끄러짐. HUD: 알렉산더가 60% 감소 깜빡임. 화면 흔들림.
+
+SHOT 2A (00:03–00:04.5) — ELEPHANT SUMMON
+알렉산더 한쪽 무릎. 얼굴 클로즈업 — 결의에 찬. 망토에서 구부러진 청동 전쟁 뿔을 꺼냄. 불어넣음 — 깊고 울리는 뿔 소리가 아레나에 울려 퍼지고, 신전 기둥이 진동하고, 배의 돛대가 흔들림. 카메라가 빠르게 줌 아웃하여 극단적인 와이드 항공 촬영 — 위에서 본 전체 아레나: 작은 전사들, 배, 신전, 바다, 산. 신전 뒤에서 — 네 마리의 거대한 전쟁 코끼리가 청동 갑옷을 입고, 붉은 전쟁 페인트, 철제 칼날 상아, 등에 하우다를 달고 돌진. 먼지 구름이 올라옴. 땅이 흔들리고 카메라가 진동. 코끼리의 거대한 규모. 트럼펫 소리.
+
+SHOT 2B (00:04.5–00:06) — ELEPHANT STRIKE
+카메라가 중간 샷으로 내려감 — 나폴레옹이 코끼리를 보고 공포에 질림. 그 위로 그림자. 돌진하는 코끼리로 휙 팬 — 갑옷을 입은 머리, 철제 상아 클로즈업. 선두 코끼리가 나폴레옹에게 도달. 슬로우 모션 15%: 상아가 옆으로 휘둘러 몸통에 닿음. 카메라 360도 궤도 충격 정지. 모자가 움직임. 몸이 땅에서 들림. 속도 증가 15%에서 600%로. 나폴레옹이 4미터 날아가 모자이크에 충돌. HUD: 나폴레옹이 55% 감소. 코끼리가 트럼펫 소리. 나폴레옹이 구겨지고, 코끼리가 우뚝 섬.
+
+SHOT 3 (00:06–00:09) — SABRE VS ARMOR
+낮은 각도 지면 수준 — 나폴레옹이 코끼리 다리를 기둥처럼 올려다봄. 사브르를 잡음. 손가락 클로즈업 흰 관절. 이를 악물고 일어남, 제복이 찢어지고 먼지투성이. 코끼리 다리로 돌진. 청동 갑옷에 전력을 다해 휘두름 — 슬로우 모션 15%: 칼날이 닿음. 불꽃이 주황색과 흰색으로 폭발. 금속 소리. 카메라 180도 궤도 불꽃. 사브르가 튕김 — 팔이 반동으로 진동. 코끼리는 미동도 하지 않음. 알아차리지 못함. 카메라가 나폴레옹에서 코끼리 몸을 지나 알렉산더 위로 기울어 내려다봄 — 거대한 규모 차이. 알렉산더가 고개를 흔듦. HUD: 피해 없음.
+
+SHOT 4 (00:09–00:12) — TRAMPLED
+와이드 샷: 알렉산더가 코끼리 위에서 손을 들어 올림 — 앞으로 명령. 코끼리가 나폴레옹을 향해 돌진. 카메라가 옆에서 따라감 — 땅이 흔들리고 먼지가 날림. 나폴레옹이 도망치려 돌아섬 — 너무 늦음. 코끼리가 머리를 낮춤 — 갑옷을 입은 이마가 나폴레옹 뒤를 들이받음. 슬로우 모션 10%: 충격 — 비코른 모자가 공중에서 회전하며 날아감. 카메라가 모자를 따라가며 파란 하늘과 배의 돛대 배경으로 슬로우 모션. 속도 증가 10%에서 500%로. 나폴레옹이 앞으로 날아가 모자이크에 얼굴을 대고 미끄러짐. 그의 대포 근처에 멈춤. 카메라 360도 궤도 쓰러진 나폴레옹 — 모자가 돌 바닥에 착지. HUD: 나폴레옹 10% 치명적 빨간색 깜빡임.
+
+SHOT 5 (00:12–00:15) — ALEXANDER WINS
+알렉산더가 코끼리에서 뛰어내림 — 망토가 슬로우 모션으로 흐름. 무겁게 착지. 나폴레옹을 향해 걸어감. 땅에 있는 비코른 모자를 봄. 클로즈업: 손이 검은 모자를 집어 듦. 중간 샷: 금발 위에 비코른을 씌움 — 머리 위에 착용. 미소. 카메라가 느리고 장엄하게 360도 궤도를 그리며 뒤로 당겨 와이드로: 중앙에 모자를 쓴 알렉산더, 뒤에 코끼리, 오른쪽에 신전, 왼쪽에 패배한 나폴레옹, 파도 위에서 흔들리는 전함, 반짝이는 바다, 산. 황금 시간대의 빛. 바람에 휘날리는 망토. 깊은 목소리: ALEXANDER WINS. 중앙에 금색 텍스트: ALEXANDER WINS 금속 반짝임. 정지. 검정. 끝.
+
+--- THREAD CONTINUATION ---
+[Thread 1] @yapper_so Run: https://t.co/QCxbEWXW9W
+
+[Thread 2] ROUND 1
+@Image1을 오프닝 프레임으로 사용. NAPOLEON 왼쪽, ALEXANDER THE GREAT 오른쪽. 격투 게임 HUD: 상단에 금색 체력 바, 다이아몬드 프레임의 초상화, 이름, 타
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059873027236503617.json)
+
+```text
+---
+Use @Image1 como quadro de abertura. NAPOLEÃO à esquerda, ALEXANDRE O GRANDE à direita. HUD de jogo de luta: barras de saúde douradas no topo, retratos em molduras de diamante, nomes, cronômetro 99, barras SUPER na parte inferior. Arena: porto mediterrâneo — navio de guerra com velas atrás de Napoleão, canhões, tricolor francês. Templo grego atrás de Alexandre, bandeira dourada do sol. Mar azul, montanhas, piso de mosaico. Navio balança nas ondas o tempo todo. Som ambiente do mar. Qualidade fotorrealista Mortal Kombat / Tekken 8 / SF6. Iluminação cinematográfica da hora dourada.
+
+NAPOLEÃO (esquerda): baixo, chapéu bicorne preto, casaco naval com dragonas douradas e detalhes vermelhos, colete branco, calças brancas, botas pretas, sabre de cavalaria.
+ALEXANDRE (direita): jovem atlético, cabelo encaracolado dourado, couraça grega de bronze com detalhes dourados, pteruges de couro, grevas de bronze, sandálias, capa branca, escudo com emblema do sol.
+
+CENA 1 (00:00–00:03) — BARRAGEM DE CANHÕES
+Começa @Image1. Texto dourado ROUND 1. Voz: ROUND ONE — FIGHT!
+CLOSE UP em Napoleão — olhos ferozes. SACA o sabre — lâmina brilha. BALANÇA por cima apontando para Alexandre. A câmera RETIRA para WIDE SHOT — arena completa visível: navio, canhões, mar, templo. Três canhões DISPARAM — fumaça massiva, flash laranja, navio balança, água espirra. A câmera TRAVA NO projétil — ACOMPANHA-O pela arena. POV do projétil — chão borrando, distorção do vento. SLOW MOTION 10% aproximando-se de Alexandre — bola girando, rastro de fumaça. IMPACTO no peito. SLOW MOTION 5%: poeira, fragmentos de pedra, faíscas douradas em todas as direções. Alexandre LANÇADO para trás 5 metros. Câmera ORBITA 180 graus explosão congelada. Aceleração de 5% para 800%. Alexandre CAI no mosaico, desliza. HUD: Alexandre cai 60% PISCA. Tela treme.
+
+CENA 2A (00:03–00:04.5) — INVOCAR ELEFANTE
+Alexandre de um joelho. CLOSE UP no rosto — determinado. Puxa um CORNO DE GUERRA de bronze curvado da capa. SOPRA — som profundo ressoa na arena, colunas do templo vibram, mastros do navio tremem. A câmera ZOOMA RAPIDAMENTE PARA FORA em AÉREA EXTREMA — arena inteira de cima: lutadores minúsculos, navio, templo, mar, montanhas. Atrás do templo — QUATRO ELEFANTES DE GUERRA MASSIVOS com armadura completa de bronze, pintura de guerra vermelha, presas de lâmina de ferro, howdahs nas costas, AVANÇANDO. Nuvens de poeira subindo. Chão TREME câmera vibra. Elefantes de escala enorme. Trombetas.
+
+CENA 2B (00:04.5–00:06) — ATAQUE DO ELEFANTE
+A câmera MERGULHA para MÉDIO — Napoleão olhando horrorizado para os elefantes. Sombra sobre ele. PAN RÁPIDO para o elefante em carga — CLOSE UP na cabeça blindada, presas de ferro. Elefante líder ALCANÇA Napoleão. SLOW MOTION 15%: presa BALANÇA lateralmente conecta no torso. Câmera ORBITA 360 graus impacto congelado. Chapéu desloca. Corpo LEVANTA do chão. Aceleração de 15% para 600%. Napoleão VOA 4 metros, cai no mosaico. HUD: Napoleão cai 55%. Elefante TROMBETA. Napoleão amassado, elefantes imponentes.
+
+CENA 3 (00:06–00:09) — SABRE VS ARMADURA
+ÂNGULO BAIXO ao nível do chão — Napoleão olha para cima para as pernas do elefante como pilares. PEGA o sabre. CLOSE UP dedos apertam nós dos dedos brancos. LEVANTA dentes cerrados, uniforme rasgado empoeirado. AVANÇA na perna do elefante. BALANÇA com força total na armadura de bronze — SLOW MOTION 15%: lâmina CONECTA. FAÍSCAS explodem laranja e branco. CLANG de metal. Câmera ORBITA 180 graus faíscas. Sabre REBATE — braço vibra com o recuo. Elefante não se move. Não percebe. Câmera INCLINA PARA CIMA de Napoleão passando pelo corpo do elefante até Alexandre no topo olhando para baixo — diferença de escala enorme. Alexandre balança a cabeça. HUD: zero dano.
+
+CENA 4 (00:09–00:12) — PISOTEADO
+WIDE SHOT: Alexandre no topo do elefante levanta a mão — comanda para frente. Elefante AVANÇA em Napoleão. Câmera ACOMPANHA ao lado — chão tremendo poeira voando. Napoleão se vira para correr — tarde demais. Elefante ABAIXA a cabeça — testa blindada ATINGE Napoleão por trás. SLOW MOTION 10%: impacto — CHAPÉU BICORNE voa girando no ar. Câmera SEGUE chapéu girando em câmera lenta contra o céu azul e mastros do navio. Aceleração de 10% para 500%. Napoleão LANÇADO para frente DESLIZA no mosaico de cara para baixo. Descansa perto de seu canhão. Câmera ORBITA 360 graus Napoleão caído — chapéu pousando no chão de pedra. HUD: Napoleão 10% CRÍTICO VERMELHO piscando.
+
+CENA 5 (00:12–00:15) — ALEXANDRE VENCE
+Alexandre SALTA do elefante — capa esvoaçando em câmera lenta. Aterrissa com um baque pesado. CAMINHA em direção a Napoleão. Vê CHAPÉU BICORNE no chão. CLOSE UP: mão pega o chapéu preto. MÉDIO: coloca o bicorne NO TOPO dos cachos dourados — usando-o sobre o cabelo. Sorriso. Câmera ORBITA EPICAMENTE 360 LENTAMENTE RETIRANDO para WIDE: Alexandre no centro usando o chapéu, elefantes atrás, templo à direita, Napoleão derrotado à esquerda, navio de guerra balançando nas ondas, mar cintilando, montanhas. Luz da hora dourada. Capa ao vento. Voz profunda: ALEXANDRE VENCE. Texto dourado no centro: ALEXANDRE VENCE brilho metálico. Congela. Preto. Fim.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] @yapper_so Run: https://t.co/QCxbEWXW9W
+
+[Thread 2] ROUND 1
+Use @Image1 como quadro de abertura. NAPOLEÃO à esquerda, ALEXANDRE O GRANDE à direita. HUD de jogo de luta: barras de saúde douradas no topo, retratos em molduras de diamante, nomes, cronômetro 99, barras SUPER na parte inferior. Arena: porto mediterrâneo — navio de guerra com velas atrás de Napoleão, canhões, tricolor francês. Templo grego atrás de Alexandre, bandeira dourada do sol. Mar azul, montanhas, piso de mosaico. Navio balança nas ondas o tempo todo. Som ambiente do mar. Qualidade fotorrealista Mortal Kombat / Tekken 8 / SF6. Iluminação cinematográfica da hora dourada.
+
+NAPOLEÃO (esquerda): baixo, chapéu bicorne preto, casaco naval com dragonas douradas e detalhes vermelhos, colete branco, calças brancas, botas pretas, sabre de cavalaria.
+ALEXANDRE (direita): jovem atlético, cabelo encaracolado dourado, couraça grega de bronze com detalhes dourados, pteruges de couro, grevas de bronze, sandálias, capa branca, escudo com emblema do sol.
+
+CENA 1 (00:00–00:03) — BARRAGEM DE CANHÕES
+Começa @Image1. Texto dourado ROUND 1. Voz: ROUND ONE — FIGHT!
+CLOSE UP em Napoleão — olhos ferozes. SACA o sabre — lâmina brilha. BALANÇA por cima apontando para Alexandre. A câmera RETIRA para WIDE SHOT — arena completa visível: navio, canhões, mar,
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059873027236503617.json)
+
+```text
+---
+使用@Image1作为开场画面。拿破仑在左，亚历山大大帝在右。格斗游戏HUD：顶部金色生命条，菱形框中的肖像，名字，计时器99，底部SUPER条。竞技场：地中海港口——拿破仑身后有帆的战舰，大炮，法国三色旗。亚历山大身后是希腊神庙，金色太阳旗帜。蓝色大海，山脉，马赛克地板。船在波浪中摇晃。海洋环境音。真人快打/铁拳8/SF6照片级真实质量。黄金时刻电影灯光。
+
+拿破仑（左）：矮小，黑色双角帽，海军外套金肩章红饰边，白色背心，白色裤子，黑色靴子，骑兵军刀。
+亚历山大（右）：年轻健壮，金色卷发，青铜希腊胸甲金色细节，皮革裙甲，青铜护胫，凉鞋，白色斗篷，带太阳徽章的盾牌。
+
+镜头1（00:00–00:03）— 炮火齐射
+从@Image1开始。金色文字ROUND 1。声音：ROUND ONE — FIGHT!
+特写拿破仑——凶狠的眼神。拔出军刀——刀刃闪光。挥舞过头指向亚历山大。镜头拉回到广角镜头——整个竞技场可见：船，大炮，大海，神庙。三门大炮开火——巨大的烟雾，橙色闪光，船摇晃，水花四溅。镜头锁定炮弹——随之穿越竞技场。炮弹视角——地板模糊，风的扭曲。慢动作10%接近亚历山大——球旋转，烟雾尾迹。撞击胸部。慢动作5%：尘土，石块碎片，金色火花四散。亚历山大向后弹出5米。镜头180度环绕爆炸冻结。速度从5%加速到800%。亚历山大撞上马赛克，滑动。HUD：亚历山大下降60%闪烁。屏幕震动。
+
+镜头2A（00:03–00:04.5）— 大象召唤
+亚历山大单膝跪地。特写面部——坚定。斗篷中抽出弯曲的青铜战号。吹响——深沉的号角声回荡竞技场，神庙柱子震动，船桅杆摇晃。镜头快速拉远到极宽航拍——从上方看到整个竞技场：小小的战士，船，神庙，大海，山脉。神庙后面——四头巨大的战象，全身青铜盔甲，红色战斗涂料，铁刃象牙，背上有象轿，冲锋。尘土飞扬。地面震动镜头震动。大象巨大规模。号角声。
+
+镜头2B（00:04.5–00:06）— 大象袭击
+镜头俯冲到中景——拿破仑惊恐地仰望大象。阴影笼罩他。快速摇摄到冲锋的大象——特写装甲头部，铁象牙。领头象到达拿破仑。慢动作15%：象牙横扫连接躯干。镜头360度环绕撞击冻结。帽子移动。身体离地。速度从15%加速到600%。拿破仑飞出4米，撞上马赛克。HUD：拿破仑下降55%。大象号角声。拿破仑蜷缩，大象高耸。
+
+镜头3（00:06–00:09）— 军刀对抗盔甲
+低角度地面水平——拿破仑仰望如柱的大象腿。抓住军刀。特写手指紧握白色指关节。站起牙齿紧咬，制服撕裂尘土飞扬。冲向大象腿。全力挥击青铜盔甲——慢动作15%：刀刃连接。火花四溅橙白爆炸。金属撞击声。镜头180度环绕火花。军刀反弹——手臂震动反冲。大象毫无反应。没有注意。镜头从拿破仑向上倾斜经过大象身体到亚历山大在上方俯视——巨大规模差异。亚历山大摇头。HUD：零伤害。
+
+镜头4（00:09–00:12）— 被践踏
+广角镜头：亚历山大在大象上举手——命令前进。大象冲向拿破仑。镜头跟踪旁边——地面震动尘土飞扬。拿破仑转身逃跑——太晚了。大象低下头——装甲额头撞击拿破仑背后。慢动作10%：撞击——双角帽飞出在空中翻滚。镜头跟随帽子慢动作旋转在蓝天和船桅杆之间。速度从10%加速到500%。拿破仑向前飞出滑倒在马赛克上脸朝下。停在他的炮旁。镜头360度环绕倒下的拿破仑——帽子落在石地板上。HUD：拿破仑10%危急红色闪烁。
+
+镜头5（00:12–00:15）— 亚历山大胜利
+亚历山大从大象上跳下——斗篷慢动作飘动。重重落地。走向拿破仑。看到地上的双角帽。特写：手捡起黑帽。中景：将双角帽戴在金色卷发上——戴在头发上。微笑。镜头慢速史诗般360度环绕拉回到广角：亚历山大居中戴着帽子，大象在后，神庙在右，拿破仑在左被击败，战舰在波浪中摇晃，海面闪烁，山脉。黄金时刻光线。斗篷在风中。深沉的声音：亚历山大胜利。金色文字居中：亚历山大胜利金属闪光。冻结。黑屏。结束。
+
+--- 线程继续 ---
+[线程1] @yapper_so 运行: https://t.co/QCxbEWXW9W
+
+[线程2] ROUND 1
+使用@Image1作为开场画面。拿破仑在左，亚历山大大帝在右。格斗游戏HUD：顶部金色生命条，菱形框中的肖像，名字，计时器99，底部SUPER条。竞技场：地中海港口——拿破仑身后有帆的战舰，大炮，法国三色旗。亚历山大身后是希腊神庙，金色太阳旗帜。蓝色大海，山脉，马赛克地板。船在波浪中摇晃。海洋环境音。真人快打/铁拳8/SF6照片级真实质量。黄金时刻电影灯光。
+
+拿破仑（左）：矮小，黑色双角帽，海军外套金肩章红饰边，白色背心，白色裤子，黑色靴子，骑兵军刀。
+亚历山大（右）：年轻健壮，金色卷发，青铜希腊胸甲金色细节，皮革裙甲，青铜护胫，凉鞋，白色斗篷，带太阳徽章的盾牌。
+
+镜头1（00:00–00:03）— 炮火齐射
+从@Image1开始。金色文字ROUND 1。声音：ROUND ONE — FIGHT!
+特写拿破仑——凶狠的眼神。拔出军刀——刀刃闪光。挥舞过头指向亚历山大。镜头拉回到广角镜头——整个竞技场可见：船，大炮，大海，神庙。三门大炮开火——巨大的烟雾，橙色闪光，船摇晃，水花四溅。镜头锁定炮弹——随之穿越竞技场。炮弹视角——地板模糊，风的扭曲。慢动作10%接近亚历山大——球旋转，烟雾尾迹。撞击胸部。慢动作5%：
+```
+
+## 出处与许可
+
+- 原作者：[Yurii Yeltsov](https://x.com/yura_elkin) · 原帖：<https://x.com/yura_elkin/status/2059873027236503617>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2059873027236503617.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

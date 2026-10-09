@@ -1,0 +1,154 @@
+---
+id: "renoise-2055209224742019371"
+title: "Expression transition from cold to shy smile, slow and natural, 8 seconds…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "运动"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Sports", "Crowd & Fans", "Photoreal", "Realistic World", "Slow-Mo"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055209224742019371.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Aneeza Ai"
+original_author_url: "https://x.com/Aneeza__S"
+original_post_url: "https://x.com/Aneeza__S/status/2055209224742019371"
+published: "2026-05-15"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Expression transition from cold to shy smile, slow and natural, 8 seconds…
+
+## 提示词（English）
+
+```text
+Expression transition from cold to shy smile, slow and natural, 8 seconds. Start: The young woman sits courtside, poker-faced, cold and aloof expression, staring straight ahead, completely unaware of the camera. No smile, very calm. Middle: She slowly turns her head toward the camera. Her eyes shift softly. Her facial expression begins to soften. End: She notices the camera. Her cold expression breaks into a shy, subtle, gentle smile. Lips slightly parted. A natural blush appears on her cheeks. She makes brief eye contact with the camera, then looks down shyly before glancing back up with a soft smile. Camera: Static broadcast camera, slight depth of field, ESPN live TV texture. Style: Ultra-realistic, natural skin texture, authentic human micro-expressions, organic facial muscle movement, no AI smoothing, no morphing, no flickering, no distortion. Live arena lighting, broadcast color grading, subtle compression artifacts. 16:9. Negative prompt: Exaggerated smile, laughing, open mouth wide, crying, anger, robotic movement, CGI, cartoon, overacting, unnatural blinking, face swapping, glitching.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055209224742019371.json)
+
+```text
+---
+Transición de expresión de fría a sonrisa tímida, lenta y natural, 8 segundos. Inicio: La joven está sentada al lado de la cancha, con cara de póker, expresión fría y distante, mirando fijamente hacia adelante, completamente ajena a la cámara. Sin sonrisa, muy tranquila. Medio: Lentamente gira la cabeza hacia la cámara. Sus ojos se mueven suavemente. Su expresión facial comienza a suavizarse. Fin: Nota la cámara. Su expresión fría se transforma en una sonrisa tímida, sutil y gentil. Labios ligeramente entreabiertos. Un rubor natural aparece en sus mejillas. Hace un breve contacto visual con la cámara, luego baja la mirada tímidamente antes de volver a mirar hacia arriba con una suave sonrisa. Cámara: Cámara de transmisión estática, ligera profundidad de campo, textura de TV en vivo de ESPN. Estilo: Ultra-realista, textura de piel natural, microexpresiones humanas auténticas, movimiento orgánico de los músculos faciales, sin suavizado de IA, sin morphing, sin parpadeo, sin distorsión. Iluminación de arena en vivo, gradación de color de transmisión, sutiles artefactos de compresión. 16:9. Negative prompt: Sonrisa exagerada, risa, boca abierta de par en par, llanto, ira, movimiento robótico, CGI, caricatura, sobreactuación, parpadeo antinatural, intercambio de caras, fallos.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Pruébalo aquí:
+https://t.co/SZlWwarcjv
+
+[Hilo 2] Prompt:
+
+Expression transition from cold to shy smile, slow and natural, 8 seconds. Start: The young woman sits courtside, poker-faced, cold and aloof expression, staring straight ahead, completely unaware of the camera. No smile, very calm. Middle: She slowly turns her head toward the camera. Her eyes shift softly. Her facial expression begins to soften. End: She notices the camera. Her cold expression breaks into a shy, subtle, gentle smile. Lips slightly parted. A natural blush appears on her cheeks. She makes brief eye contact with the camera, then looks down shyly before glancing back up with a soft smile. Camera: Static broadcast camera, slight depth of field, ESPN live TV texture. Style: Ultra-realistic, natural skin texture, authentic human micro-expressions, organic facial muscle movement, no AI smoothing, no morphing, no flickering, no distortion. Live arena lighting, broadcast color grading, subtle compression artifacts. 16:9. Negative prompt: Exaggerated smile, laughing, open mouth wide, crying, anger, robotic movement, CGI, cartoon, overacting, unnatural blinking, face swapping, glitching.
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055209224742019371.json)
+
+```text
+---
+Transition d'expression de froide à sourire timide, lent et naturel, 8 secondes. Début : La jeune femme est assise au bord du terrain, impassible, expression froide et distante, regardant droit devant elle, complètement inconsciente de la caméra. Pas de sourire, très calme. Milieu : Elle tourne lentement la tête vers la caméra. Ses yeux se déplacent doucement. Son expression faciale commence à s'adoucir. Fin : Elle remarque la caméra. Son expression froide se transforme en un sourire timide, subtil et doux. Lèvres légèrement entrouvertes. Un rougissement naturel apparaît sur ses joues. Elle établit un bref contact visuel avec la caméra, puis baisse les yeux timidement avant de les relever avec un doux sourire. Caméra : Caméra de diffusion statique, légère profondeur de champ, texture de la télévision en direct d'ESPN. Style : Ultra-réaliste, texture de peau naturelle, micro-expressions humaines authentiques, mouvement organique des muscles faciaux, pas de lissage par IA, pas de morphing, pas de scintillement, pas de distorsion. Éclairage d'arène en direct, étalonnage des couleurs de diffusion, artefacts de compression subtils. 16:9. Negative prompt: Sourire exagéré, rire, bouche grande ouverte, pleurer, colère, mouvement robotique, CGI, dessin animé, surjeu, clignement non naturel, échange de visage, glitching.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Essayez-le ici :
+https://t.co/SZlWwarcjv
+
+[Fil 2] Prompt :
+
+Expression transition from cold to shy smile, slow and natural, 8 seconds. Start: The young woman sits courtside, poker-faced, cold and aloof expression, staring straight ahead, completely unaware of the camera. No smile, very calm. Middle: She slowly turns her head toward the camera. Her eyes shift softly. Her facial expression begins to soften. End: She notices the camera. Her cold expression breaks into a shy, subtle, gentle smile. Lips slightly parted. A natural blush appears on her cheeks. She makes brief eye contact with the camera, then looks down shyly before glancing back up with a soft smile. Camera: Static broadcast camera, slight depth of field, ESPN live TV texture. Style: Ultra-realistic, natural skin texture, authentic human micro-expressions, organic facial muscle movement, no AI smoothing, no morphing, no flickering, no distortion. Live arena lighting, broadcast color grading, subtle compression artifacts. 16:9. Negative prompt: Exaggerated smile, laughing, open mouth wide, crying, anger, robotic movement, CGI, cartoon, overacting, unnatural blinking, face swapping, glitching.
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055209224742019371.json)
+
+```text
+---
+冷たい表情から恥ずかしそうな微笑みへの表情の移行、ゆっくりと自然に、8秒間。開始: 若い女性がコートサイドに座っている。無表情で冷たくよそよそしい表情をしており、まっすぐ前を見つめ、カメラに全く気づいていない。微笑みはなく、とても落ち着いている。中間: 彼女はゆっくりとカメラの方に頭を向ける。彼女の目が柔らかく動く。彼女の表情が徐々に和らぎ始める。終了: 彼女はカメラに気づく。冷たい表情が恥ずかしそうな、控えめで優しい微笑みに変わる。唇が少し開く。頬に自然な赤みが差す。彼女はカメラと短いアイコンタクトを取り、その後、恥ずかしそうに目を伏せてから、柔らかい微笑みを浮かべて再び見上げる。カメラ: 静止した放送カメラ、わずかな被写界深度、ESPNのライブTVテクスチャ。スタイル: 超リアルな、自然な肌の質感、本物の人間の微表情、有機的な顔の筋肉の動き、AIのスムージングなし、モーフィングなし、ちらつきなし、歪みなし。ライブアリーナの照明、放送用の色調整、微妙な圧縮アーティファクト。16:9。ネガティブプロンプト: 誇張された微笑み、笑い、大きく開いた口、泣き、怒り、ロボットの動き、CGI、アニメ、過剰演技、不自然なまばたき、顔の入れ替え、グリッチ。
+
+--- THREAD CONTINUATION ---
+[Thread 1] Try it here :
+https://t.co/SZlWwarcjv
+
+[Thread 2] Prompt :
+
+Expression transition from cold to shy smile, slow and natural, 8 seconds. Start: The young woman sits courtside, poker-faced, cold and aloof expression, staring straight ahead, completely unaware of the camera. No smile, very calm. Middle: She slowly turns her head toward the camera. Her eyes shift softly. Her facial expression begins to soften. End: She notices the camera. Her cold expression breaks into a shy, subtle, gentle smile. Lips slightly parted. A natural blush appears on her cheeks. She makes brief eye contact with the camera, then looks down shyly before glancing back up with a soft smile. Camera: Static broadcast camera, slight depth of field, ESPN live TV texture. Style: Ultra-realistic, natural skin texture, authentic human micro-expressions, organic facial muscle movement, no AI smoothing, no morphing, no flickering, no distortion. Live arena lighting, broadcast color grading, subtle compression artifacts. 16:9. Negative prompt: Exaggerated smile, laughing, open mouth wide, crying, anger, robotic movement, CGI, cartoon, overacting, unnatural blinking, face swapping, glitching.
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055209224742019371.json)
+
+```text
+---
+표정 전환: 차가운 표정에서 수줍은 미소로, 느리고 자연스럽게, 8초. 시작: 젊은 여성이 코트 옆에 앉아 포커페이스, 차갑고 무관심한 표정으로 정면을 응시하며 카메라를 전혀 의식하지 않는다. 미소 없이 매우 차분하다. 중간: 그녀는 천천히 머리를 카메라 쪽으로 돌린다. 그녀의 눈이 부드럽게 움직인다. 그녀의 얼굴 표정이 부드러워지기 시작한다. 끝: 그녀는 카메라를 인식한다. 그녀의 차가운 표정이 수줍고 은은하며 부드러운 미소로 바뀐다. 입술이 약간 벌어진다. 그녀의 볼에 자연스러운 홍조가 나타난다. 그녀는 카메라와 잠시 눈을 마주친 후 수줍게 아래를 보고, 다시 부드러운 미소로 위를 본다. 카메라: 고정 방송 카메라, 약간의 심도, ESPN 라이브 TV 질감. 스타일: 초현실적, 자연스러운 피부 질감, 진정한 인간의 미세 표정, 유기적인 얼굴 근육 움직임, AI 스무딩 없음, 변형 없음, 깜박임 없음, 왜곡 없음. 라이브 경기장 조명, 방송 색상 보정, 미세한 압축 아티팩트. 16:9. 부정적 프롬프트: 과장된 미소, 웃음, 입을 크게 벌림, 울음, 분노, 로봇 같은 움직임, CGI, 만화, 과잉 연기, 부자연스러운 눈 깜박임, 얼굴 교체, 글리칭.
+
+--- THREAD CONTINUATION ---
+[Thread 1] 여기서 시도해보세요:
+https://t.co/SZlWwarcjv
+
+[Thread 2] Prompt :
+
+Expression transition from cold to shy smile, slow and natural, 8 seconds. Start: The young woman sits courtside, poker-faced, cold and aloof expression, staring straight ahead, completely unaware of the camera. No smile, very calm. Middle: She slowly turns her head toward the camera. Her eyes shift softly. Her facial expression begins to soften. End: She notices the camera. Her cold expression breaks into a shy, subtle, gentle smile. Lips slightly parted. A natural blush appears on her cheeks. She makes brief eye contact with the camera, then looks down shyly before glancing back up with a soft smile. Camera: Static broadcast camera, slight depth of field, ESPN live TV texture. Style: Ultra-realistic, natural skin texture, authentic human micro-expressions, organic facial muscle movement, no AI smoothing, no morphing, no flickering, no distortion. Live arena lighting, broadcast color grading, subtle compression artifacts. 16:9. Negative prompt: Exaggerated smile, laughing, open mouth wide, crying, anger, robotic movement, CGI, cartoon, overacting, unnatural blinking, face swapping, glitching.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055209224742019371.json)
+
+```text
+---
+Transição de expressão de fria para sorriso tímido, lenta e natural, 8 segundos. Início: A jovem está sentada à beira da quadra, com expressão impassível, fria e distante, olhando fixamente para frente, completamente alheia à câmera. Sem sorriso, muito calma. Meio: Ela lentamente vira a cabeça em direção à câmera. Seus olhos se movem suavemente. Sua expressão facial começa a suavizar. Fim: Ela percebe a câmera. Sua expressão fria se transforma em um sorriso tímido, sutil e gentil. Lábios ligeiramente entreabertos. Um rubor natural aparece em suas bochechas. Ela faz um breve contato visual com a câmera, depois olha para baixo timidamente antes de olhar novamente para cima com um sorriso suave. Câmera: Câmera de transmissão estática, leve profundidade de campo, textura de TV ao vivo da ESPN. Estilo: Ultra-realista, textura natural da pele, microexpressões humanas autênticas, movimento orgânico dos músculos faciais, sem suavização por IA, sem morphing, sem cintilação, sem distorção. Iluminação de arena ao vivo, gradação de cor de transmissão, artefatos sutis de compressão. 16:9. Negative prompt: Sorriso exagerado, rindo, boca aberta, chorando, raiva, movimento robótico, CGI, desenho animado, atuação exagerada, piscar de olhos não natural, troca de rosto, falhas.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Experimente aqui:
+https://t.co/SZlWwarcjv
+
+[Tópico 2] Prompt :
+
+Expression transition from cold to shy smile, slow and natural, 8 seconds. Start: The young woman sits courtside, poker-faced, cold and aloof expression, staring straight ahead, completely unaware of the camera. No smile, very calm. Middle: She slowly turns her head toward the camera. Her eyes shift softly. Her facial expression begins to soften. End: She notices the camera. Her cold expression breaks into a shy, subtle, gentle smile. Lips slightly parted. A natural blush appears on her cheeks. She makes brief eye contact with the camera, then looks down shyly before glancing back up with a soft smile. Camera: Static broadcast camera, slight depth of field, ESPN live TV texture. Style: Ultra-realistic, natural skin texture, authentic human micro-expressions, organic facial muscle movement, no AI smoothing, no morphing, no flickering, no distortion. Live arena lighting, broadcast color grading, subtle compression artifacts. 16:9. Negative prompt: Exaggerated smile, laughing, open mouth wide, crying, anger, robotic movement, CGI, cartoon, overacting, unnatural blinking, face swapping, glitching.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055209224742019371.json)
+
+```text
+---
+表情从冷漠到害羞微笑的过渡，缓慢而自然，8秒。开始：年轻女子坐在场边，面无表情，冷漠而孤傲，直视前方，完全没有注意到摄像机。没有微笑，非常平静。中间：她慢慢地把头转向摄像机。她的眼神轻柔地移动。她的面部表情开始变得柔和。结束：她注意到了摄像机。她的冷漠表情转变为害羞、微妙、温柔的微笑。嘴唇微微张开。她的脸颊自然泛起红晕。她与摄像机短暂地眼神交流，然后害羞地低下头，再抬头时带着柔和的微笑。摄像机：静态广播摄像机，略有景深，ESPN直播电视质感。风格：超现实主义，自然的皮肤质感，真实的人类微表情，有机的面部肌肉运动，没有AI平滑处理，没有变形，没有闪烁，没有失真。现场竞技场照明，广播色彩分级，细微的压缩伪影。16:9。负面提示：夸张的微笑，大笑，嘴巴大张，哭泣，愤怒，机械运动，CGI，卡通，过度表演，不自然的眨眼，面部交换，故障。
+
+--- 线程继续 ---
+[线程 1] 在这里试试：
+https://t.co/SZlWwarcjv
+
+[线程 2] 提示：
+
+Expression transition from cold to shy smile, slow and natural, 8 seconds. Start: The young woman sits courtside, poker-faced, cold and aloof expression, staring straight ahead, completely unaware of the camera. No smile, very calm. Middle: She slowly turns her head toward the camera. Her eyes shift softly. Her facial expression begins to soften. End: She notices the camera. Her cold expression breaks into a shy, subtle, gentle smile. Lips slightly parted. A natural blush appears on her cheeks. She makes brief eye contact with the camera, then looks down shyly before glancing back up with a soft smile. Camera: Static broadcast camera, slight depth of field, ESPN live TV texture. Style: Ultra-realistic, natural skin texture, authentic human micro-expressions, organic facial muscle movement, no AI smoothing, no morphing, no flickering, no distortion. Live arena lighting, broadcast color grading, subtle compression artifacts. 16:9. Negative prompt: Exaggerated smile, laughing, open mouth wide, crying, anger, robotic movement, CGI, cartoon, overacting, unnatural blinking, face swapping, glitching.
+---
+```
+
+## 出处与许可
+
+- 原作者：[Aneeza Ai](https://x.com/Aneeza__S) · 原帖：<https://x.com/Aneeza__S/status/2055209224742019371>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055209224742019371.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

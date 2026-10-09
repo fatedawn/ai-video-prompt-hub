@@ -1,0 +1,737 @@
+---
+id: "renoise-2054918026265510389"
+title: "Use the provided 12-panel storyboard sheet @storyboard.png as the direct…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "动作大片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Kaiju", "Photoreal", "Sci-Fi", "VFX", "FPV & Aerial"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054918026265510389.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Kiki"
+original_author_url: "https://x.com/Mayz1169"
+original_post_url: "https://x.com/Mayz1169/status/2054918026265510389"
+published: "2026-05-14"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Use the provided 12-panel storyboard sheet @storyboard.png as the direct…
+
+## 提示词（English）
+
+```text
+Use the provided 12-panel storyboard sheet @storyboard.png as the direct sequential visual keyframe reference for the entire 15-second cinematic monster disaster sequence. Follow the exact storyboard pacing, composition flow, escalation structure, and action continuity from panel to panel. Expand the storyboard poses into smooth cinematic motion with aggressive camera energy, realistic destruction transitions, and uninterrupted visual momentum.
+
+Maintain the exact same creature throughout every shot — identical anatomy, same glowing eyes, same layered armored skin texture, same mouth structure, same limb proportions, same glowing cracks under the skin, same tendril behavior, same movement style, same scale consistency across the full sequence. Preserve complete continuity of the flooded nighttime highway, military convoy placement, damaged vehicles, rain density, smoke direction, emergency lighting, debris fields, and fire spread throughout all shots.
+
+STYLE:
+ultra-cinematic Hollywood creature disaster film, original sci-fi kaiju horror design, hyper-realistic cinematic destruction, practical explosion realism, violent storm atmosphere, large-scale military panic, dark sci-fi realism, grounded physics, wet asphalt reflections, intense volumetric rain, realistic fire simulations, dense cinematic smoke, dramatic emergency lighting, anamorphic lens feel, handheld disaster cinematography, aggressive motion blur, dynamic debris interaction, cinematic environmental storytelling, large-scale creature animation, terrifying creature weight and momentum.
+
+FOCUS:
+fast escalation from frame one, overwhelming chaos, military convoy collapse, realistic destruction choreography, aggressive cinematic pacing, creature silhouette readability in rain, powerful impact timing, large-scale environmental destruction, believable creature locomotion, cinematic action continuity, high-intensity pursuit energy, visually readable chaos.
+
+CREATURE DESIGN:
+An original nightmare bio-mechanical apex predator. Massive quadrupedal monster with asymmetrical anatomy, layered volcanic-black armor skin, glowing molten-orange fissures beneath cracked skin plates, multiple glowing predator eyes embedded unevenly across its skull and shoulders, enormous jaw lined with irregular blade-like teeth, oversized muscular forelimbs for aggressive lunging movement, long whip-like tendrils extending from its spine and arms, glowing saliva, steaming body heat visible through rain, heavy animalistic breathing, movement inspired by predatory insects + deep sea creatures + large cats. NOT humanoid. NOT flower-headed. Completely original cinematic monster design.
+
+[0s – 2s]
+SHOT 1 — OPENING HOOK.
+Wide aerial cinematic shot above a flooded highway during an extreme midnight rainstorm. Military convoy speeding through dense traffic. One armored transport truck carries a gigantic reinforced containment container. At frame one, the container violently smashes into the highway guardrail, showering sparks across the wet road. The convoy swerves in panic. Suddenly, a gigantic armored claw bursts through the side of the container, tearing metal outward.
+
+Dialogue:
+Soldier (radio): “Containment breach! Repeat, containment breach!”
+
+SFX:
+Metal grinding, thunder, rain impacts, screeching steel.
+
+Camera:
+Fast descending aerial tracking shot moving toward the damaged convoy.
+
+[2s – 5s]
+SHOT 2 — INTERNAL PANIC.
+Close side tracking shot beside the convoy. Military jeeps drift violently through floodwater to avoid the unstable transport truck. Inside the shaking container, enormous chains snap one after another. Red emergency lights pulse through cracks in the metal walls. The creature slams against the container from inside, causing the entire trailer to tilt unnaturally.
+
+Dialogue:
+Soldier: “The restraints are failing!”
+Driver: “MOVE MOVE MOVE!”
+
+SFX:
+Chain snaps, creature impacts, alarms, radio static.
+
+Camera:
+Aggressive handheld tracking with violent vehicle shake.
+
+[5s – 8s]
+SHOT 3 — FULL REVEAL.
+The transport truck jackknifes sideways across the flooded highway. Massive chain-reaction crashes erupt behind it. Cars collide through walls of rain and water spray. The container doors bulge outward repeatedly from overwhelming internal force. Through torn steel, several glowing predator eyes appear in darkness. Suddenly the doors explode outward as the creature violently tears itself free.
+
+The monster crawls onto the highway with terrifying speed and weight.
+
+SFX:
+Explosive metal rupture, creature roar, vehicle crashes.
+
+Camera:
+Slow push-in followed by explosive handheld shake during breakout.
+
+[8s – 11s]
+SHOT 4 — HIGHWAY MASSACRE.
+The creature lands heavily onto the flooded highway, sending massive water shockwaves outward. It roars while charging directly through traffic. Military vehicles scatter chaotically. One jeep flips after colliding with another vehicle. The monster swings a massive armored forelimb, smashing a Humvee across multiple lanes. Tendrils whip violently through rain and smoke.
+
+Dialogue:
+Soldier: “OH GOD—RUN!”
+
+SFX:
+Creature roar, exploding glass, collapsing metal, screaming tires.
+
+Camera:
+Low-angle tracking shot weaving through moving vehicles beside the creature.
+
+[11s – 13s]
+SHOT 5 — FULL PURSUIT.
+A terrified soldier hangs from the side of a speeding military jeep holding a rocket launcher. Behind them, the monster sprints through burning wreckage at terrifying speed. Its glowing eyes cut through heavy rain and smoke. Fire reflects across its wet armored skin while molten cracks pulse brighter during movement. The creature lunges toward the jeep, jaws snapping inches from the rear bumper.
+
+Dialogue:
+Soldier: “FASTER! FASTER!”
+
+SFX:
+Heavy creature footsteps, roaring fire, screaming engines, monster breathing.
+
+Camera:
+Rear-mounted pursuit camera shaking violently during the chase.
+
+[13s – 15s]
+SHOT 6 — FINAL CLIMAX.
+The creature bites into a massive armored vehicle and violently throws it across the opposite highway lane. A gigantic explosion erupts on impact. Fireballs, debris, smoke, shattered concrete, sparks, and overturned vehicles consume the flooded highway. Emergency lights flash through thick black smoke.
+
+FINAL SHOT:
+The creature stands in the center of the destroyed highway surrounded by burning military wreckage. Rain pours over its massive armored body while molten-orange cracks glow through the darkness. It unleashes one final earth-shaking roar toward the stormy sky as emergency lights flicker around the devastation.
+
+SFX:
+Massive explosion, collapsing metal, final roar, distant sirens.
+
+Camera:
+Slow cinematic crane pullback revealing the full scale of destruction and chaos.
+NO SUBTITLES.
+NO TEXT ON SCREEN.
+NO CAPTIONS.
+NO OPENING TITLES.
+NO END TITLES.
+NO LOWER THIRDS.
+NO WATERMARKS.
+NO UI ELEMENTS.
+NO TIME COUNTERS.
+NO COMIC PANEL LABELS.
+NO SPEECH BUBBLES.
+NO CHINESE OR ENGLISH CHARACTERS ANYWHERE IN FRAME.
+All dialogue must exist only as natural in-scene audio.
+The final video must look like a clean cinematic film sequence with purely visual storytelling and environmental audio only.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054918026265510389.json)
+
+```text
+---
+Utiliza la hoja de storyboard de 12 paneles proporcionada @storyboard.png como la referencia visual secuencial directa para toda la secuencia cinematográfica de desastre de monstruo de 15 segundos. Sigue el ritmo exacto del storyboard, el flujo de composición, la estructura de escalada y la continuidad de la acción de panel a panel. Expande las poses del storyboard en un movimiento cinematográfico fluido con energía de cámara agresiva, transiciones de destrucción realistas y un impulso visual ininterrumpido.
+
+Mantén la misma criatura en cada toma: anatomía idéntica, mismos ojos brillantes, misma textura de piel acorazada en capas, misma estructura de boca, mismas proporciones de extremidades, mismas grietas brillantes bajo la piel, mismo comportamiento de tentáculos, mismo estilo de movimiento, misma consistencia de escala a lo largo de toda la secuencia. Preserva la continuidad completa de la autopista nocturna inundada, la colocación del convoy militar, los vehículos dañados, la densidad de la lluvia, la dirección del humo, la iluminación de emergencia, los campos de escombros y la propagación del fuego en todas las tomas.
+
+ESTILO:
+película de desastre de criatura ultra-cinematográfica de Hollywood, diseño original de horror kaiju de ciencia ficción, destrucción cinematográfica hiperrealista, realismo de explosiones prácticas, atmósfera de tormenta violenta, pánico militar a gran escala, realismo oscuro de ciencia ficción, física fundamentada, reflejos de asfalto mojado, lluvia volumétrica intensa, simulaciones de fuego realistas, humo cinematográfico denso, iluminación de emergencia dramática, sensación de lente anamórfica, cinematografía de desastre en mano, desenfoque de movimiento agresivo, interacción dinámica de escombros, narración ambiental cinematográfica, animación de criatura a gran escala, peso y momento aterrador de la criatura.
+
+ENFOQUE:
+escalada rápida desde el primer cuadro, caos abrumador, colapso del convoy militar, coreografía de destrucción realista, ritmo cinematográfico agresivo, legibilidad de la silueta de la criatura bajo la lluvia, sincronización de impacto poderosa, destrucción ambiental a gran escala, locomoción de criatura creíble, continuidad de acción cinematográfica, energía de persecución de alta intensidad, caos visualmente legible.
+
+DISEÑO DE LA CRIATURA:
+Un depredador ápice bio-mecánico de pesadilla original. Monstruo cuadrúpedo masivo con anatomía asimétrica, piel acorazada en capas de negro volcánico, fisuras incandescentes de color naranja fundido bajo placas de piel agrietadas, múltiples ojos depredadores brillantes incrustados de manera desigual en su cráneo y hombros, mandíbula enorme con dientes irregulares en forma de cuchilla, extremidades delanteras musculosas sobredimensionadas para un movimiento de embestida agresivo, largos tentáculos en forma de látigo que se extienden desde su columna vertebral y brazos, saliva brillante, calor corporal visible a través de la lluvia, respiración animal pesada, movimiento inspirado en insectos depredadores + criaturas de aguas profundas + grandes felinos. NO humanoide. NO con cabeza de flor. Diseño de monstruo cinematográfico completamente original.
+
+[0s – 2s]
+TOMA 1 — GANCHO INICIAL.
+Toma aérea cinematográfica amplia sobre una autopista inundada durante una tormenta de lluvia extrema a medianoche. Convoy militar acelerando a través del tráfico denso. Un camión de transporte blindado lleva un contenedor de contención reforzado gigante. En el primer cuadro, el contenedor se estrella violentamente contra la barandilla de la autopista, esparciendo chispas por la carretera mojada. El convoy se desvía en pánico. De repente, una garra acorazada gigante irrumpe a través del costado del contenedor, desgarrando el metal hacia afuera.
+
+Diálogo:
+Soldado (radio): "¡Brecha de contención! ¡Repito, brecha de contención!"
+
+SFX:
+Chirrido de metal, trueno, impactos de lluvia, acero chirriante.
+
+Cámara:
+Toma de seguimiento aérea descendente rápida moviéndose hacia el convoy dañado.
+
+[2s – 5s]
+TOMA 2 — PÁNICO INTERNO.
+Toma de seguimiento lateral cercana al lado del convoy. Jeeps militares derrapan violentamente a través del agua de la inundación para evitar el camión de transporte inestable. Dentro del contenedor tembloroso, enormes cadenas se rompen una tras otra. Luces de emergencia rojas pulsan a través de grietas en las paredes de metal. La criatura se estrella contra el contenedor desde dentro, causando que todo el remolque se incline de manera antinatural.
+
+Diálogo:
+Soldado: "¡Las restricciones están fallando!"
+Conductor: "¡MUÉVETE MUÉVETE MUÉVETE!"
+
+SFX:
+Ruptura de cadenas, impactos de la criatura, alarmas, estática de radio.
+
+Cámara:
+Seguimiento en mano agresivo con sacudidas violentas del vehículo.
+
+[5s – 8s]
+TOMA 3 — REVELACIÓN COMPLETA.
+El camión de transporte se cruza de lado a lado en la autopista inundada. Erupciones masivas de choques en cadena detrás de él. Los coches chocan a través de paredes de lluvia y salpicaduras de agua. Las puertas del contenedor se abultan repetidamente hacia afuera por la fuerza interna abrumadora. A través del acero desgarrado, varios ojos depredadores brillantes aparecen en la oscuridad. De repente, las puertas explotan hacia afuera mientras la criatura se libera violentamente.
+
+El monstruo se arrastra hacia la autopista con velocidad y peso aterradores.
+
+SFX:
+Ruptura explosiva de metal, rugido de la criatura, choques de vehículos.
+
+Cámara:
+Empuje lento seguido de sacudida en mano explosiva durante la fuga.
+
+[8s – 11s]
+TOMA 4 — MASACRE EN LA AUTOPISTA.
+La criatura aterriza pesadamente en la autopista inundada, enviando ondas de choque masivas de agua hacia afuera. Ruge mientras carga directamente a través del tráfico. Los vehículos militares se dispersan caóticamente. Un jeep vuelca tras colisionar con otro vehículo. El monstruo balancea una enorme extremidad delantera acorazada, aplastando un Humvee a través de múltiples carriles. Los tentáculos azotan violentamente a través de la lluvia y el humo.
+
+Diálogo:
+Soldado: "¡OH DIOS—CORRAN!"
+
+SFX:
+Rugido de la criatura, vidrio explotando, metal colapsando, llantas chillando.
+
+Cámara:
+Toma de seguimiento en ángulo bajo entrelazándose a través de vehículos en movimiento junto a la criatura.
+
+[11s – 13s]
+TOMA 5 — PERSECUCIÓN COMPLETA.
+Un soldado aterrorizado cuelga del costado de un jeep militar a toda velocidad sosteniendo un lanzacohetes. Detrás de ellos, el monstruo corre a través de los restos en llamas a una velocidad aterradora. Sus ojos brillantes cortan a través de la lluvia intensa y el humo. El fuego se refleja en su piel acorazada mojada mientras las grietas fundidas pulsan más brillantes durante el movimiento. La criatura se lanza hacia el jeep, sus mandíbulas chasqueando a centímetros del parachoques trasero.
+
+Diálogo:
+Soldado: "¡MÁS RÁPIDO! ¡MÁS RÁPIDO!"
+
+SFX:
+Pesados pasos de la criatura, fuego rugiente, motores chillando, respiración del monstruo.
+
+Cámara:
+Cámara de persecución montada en la parte trasera sacudiéndose violentamente durante la persecución.
+
+[13s – 15s]
+TOMA 6 — CLÍMAX FINAL.
+La criatura muerde un vehículo blindado masivo y lo lanza violentamente a través del carril opuesto de la autopista. Una explosión gigantesca estalla al impactar. Bolas de fuego, escombros, humo, concreto destrozado, chispas y vehículos volcados consumen la autopista inundada. Las luces de emergencia parpadean a través del denso humo negro.
+
+TOMA FINAL:
+La criatura se encuentra en el centro de la autopista destruida rodeada de restos militares en llamas. La lluvia cae sobre su cuerpo acorazado masivo mientras las grietas de color naranja fundido brillan a través de la oscuridad. Desata un último rugido estremecedor hacia el cielo tormentoso mientras las luces de emergencia parpadean alrededor de la devastación.
+
+SFX:
+Explosión masiva, metal colapsando, rugido final, sirenas distantes.
+
+Cámara:
+Retiro lento de grúa cinematográfica revelando la escala completa de la destrucción y el caos.
+SIN SUBTÍTULOS.
+SIN TEXTO EN PANTALLA.
+SIN CAPTIONS.
+SIN TÍTULOS DE APERTURA.
+SIN TÍTULOS DE CIERRE.
+SIN TERCEROS INFERIORES.
+SIN MARCAS DE AGUA.
+SIN ELEMENTOS DE INTERFAZ DE USUARIO.
+SIN CONTADORES DE TIEMPO.
+SIN ETIQUETAS DE PANEL DE C
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054918026265510389.json)
+
+```text
+Utilisez la feuille de storyboard à 12 panneaux fournie @storyboard.png comme référence visuelle séquentielle directe pour l'ensemble de la séquence cinématographique de 15 secondes de catastrophe monstrueuse. Suivez exactement le rythme du storyboard, le flux de composition, la structure d'escalade et la continuité de l'action de panneau en panneau. Développez les poses du storyboard en un mouvement cinématographique fluide avec une énergie de caméra agressive, des transitions de destruction réalistes et un élan visuel ininterrompu.
+
+Maintenez exactement la même créature tout au long de chaque plan — anatomie identique, mêmes yeux lumineux, même texture de peau blindée en couches, même structure de bouche, mêmes proportions de membres, mêmes fissures lumineuses sous la peau, même comportement des tentacules, même style de mouvement, même cohérence d'échelle sur toute la séquence. Préservez la continuité complète de l'autoroute inondée de nuit, du placement du convoi militaire, des véhicules endommagés, de la densité de la pluie, de la direction de la fumée, de l'éclairage d'urgence, des champs de débris et de la propagation du feu dans tous les plans.
+
+STYLE :
+film catastrophe de créature ultra-cinématographique hollywoodien, design original de kaiju d'horreur de science-fiction, destruction cinématographique hyperréaliste, réalisme pratique des explosions, atmosphère de tempête violente, panique militaire à grande échelle, réalisme sombre de science-fiction, physique ancrée, reflets sur asphalte mouillé, pluie volumétrique intense, simulations de feu réalistes, fumée cinématographique dense, éclairage d'urgence dramatique, sensation d'objectif anamorphique, cinématographie de catastrophe à main levée, flou de mouvement agressif, interaction dynamique des débris, narration environnementale cinématographique, animation de créature à grande échelle, poids et élan terrifiants de la créature.
+
+FOCUS :
+escalade rapide dès le premier cadre, chaos accablant, effondrement du convoi militaire, chorégraphie de destruction réaliste, rythme cinématographique agressif, lisibilité de la silhouette de la créature sous la pluie, timing d'impact puissant, destruction environnementale à grande échelle, locomotion crédible de la créature, continuité de l'action cinématographique, énergie de poursuite à haute intensité, chaos visuellement lisible.
+
+DESIGN DE LA CRÉATURE :
+Un prédateur biomécanique cauchemardesque original. Monstre quadrupède massif avec une anatomie asymétrique, peau blindée noire volcanique en couches, fissures incandescentes orange fondues sous des plaques de peau fissurées, plusieurs yeux de prédateur lumineux incrustés de manière inégale sur son crâne et ses épaules, mâchoire énorme bordée de dents irrégulières en forme de lame, membres antérieurs musclés surdimensionnés pour un mouvement de bond agressif, longs tentacules en forme de fouet s'étendant de sa colonne vertébrale et de ses bras, salive lumineuse, chaleur corporelle visible à travers la pluie, respiration animale lourde, mouvement inspiré par les insectes prédateurs + créatures des grands fonds + grands félins. PAS humanoïde. PAS à tête de fleur. Design de monstre cinématographique complètement original.
+
+[0s – 2s]
+PLAN 1 — ACCROCHE D'OUVERTURE.
+Plan cinématographique aérien large au-dessus d'une autoroute inondée pendant une tempête de pluie extrême à minuit. Convoi militaire filant à travers un trafic dense. Un camion de transport blindé transporte un gigantesque conteneur de confinement renforcé. Au premier cadre, le conteneur s'écrase violemment contre la glissière de sécurité de l'autoroute, projetant des étincelles sur la route mouillée. Le convoi dévie dans la panique. Soudain, une gigantesque griffe blindée éclate à travers le côté du conteneur, déchirant le métal vers l'extérieur.
+
+Dialogue :
+Soldat (radio) : « Brèche de confinement ! Je répète, brèche de confinement ! »
+
+SFX :
+Grincement de métal, tonnerre, impacts de pluie, acier crissant.
+
+Caméra :
+Plan de suivi aérien descendant rapidement vers le convoi endommagé.
+
+[2s – 5s]
+PLAN 2 — PANIQUE INTERNE.
+Plan de suivi latéral rapproché à côté du convoi. Les jeeps militaires dérivent violemment à travers l'eau de crue pour éviter le camion de transport instable. À l'intérieur du conteneur secoué, d'énormes chaînes se cassent l'une après l'autre. Les lumières d'urgence rouges pulsent à travers les fissures des parois métalliques. La créature frappe contre le conteneur de l'intérieur, faisant basculer toute la remorque de manière anormale.
+
+Dialogue :
+Soldat : « Les contraintes échouent ! »
+Conducteur : « BOUGEZ BOUGEZ BOUGEZ ! »
+
+SFX :
+Claquement de chaînes, impacts de la créature, alarmes, statique radio.
+
+Caméra :
+Suivi à main levée agressif avec secousse violente du véhicule.
+
+[5s – 8s]
+PLAN 3 — RÉVÉLATION COMPLÈTE.
+Le camion de transport se met en portefeuille à travers l'autoroute inondée. D'énormes collisions en chaîne éclatent derrière lui. Les voitures se percutent à travers des murs de pluie et de projections d'eau. Les portes du conteneur se gonflent vers l'extérieur de manière répétée sous une force interne écrasante. À travers l'acier déchiré, plusieurs yeux de prédateur lumineux apparaissent dans l'obscurité. Soudain, les portes explosent vers l'extérieur alors que la créature se libère violemment.
+
+Le monstre rampe sur l'autoroute avec une vitesse et un poids terrifiants.
+
+SFX :
+Rupture explosive de métal, rugissement de la créature, collisions de véhicules.
+
+Caméra :
+Zoom lent suivi d'une secousse à main levée explosive lors de la sortie.
+
+[8s – 11s]
+PLAN 4 — MASSACRE SUR L'AUTOROUTE.
+La créature atterrit lourdement sur l'autoroute inondée, envoyant d'énormes ondes de choc d'eau vers l'extérieur. Elle rugit en chargeant directement à travers le trafic. Les véhicules militaires se dispersent de manière chaotique. Une jeep se retourne après avoir percuté un autre véhicule. Le monstre balance un énorme membre antérieur blindé, écrasant un Humvee à travers plusieurs voies. Les tentacules fouettent violemment à travers la pluie et la fumée.
+
+Dialogue :
+Soldat : « OH MON DIEU—COUREZ ! »
+
+SFX :
+Rugissement de la créature, verre explosant, métal s'effondrant, pneus hurlants.
+
+Caméra :
+Plan de suivi en contre-plongée se faufilant à travers les véhicules en mouvement à côté de la créature.
+
+[11s – 13s]
+PLAN 5 — POURSUITE COMPLÈTE.
+Un soldat terrifié s'accroche au côté d'une jeep militaire en vitesse tenant un lance-roquettes. Derrière eux, le monstre sprinte à travers les débris en feu à une vitesse terrifiante. Ses yeux lumineux traversent la pluie et la fumée épaisses. Le feu se reflète sur sa peau blindée mouillée tandis que les fissures fondues pulsent plus fort pendant le mouvement. La créature se jette vers la jeep, ses mâchoires claquant à quelques centimètres du pare-chocs arrière.
+
+Dialogue :
+Soldat : « PLUS VITE ! PLUS VITE ! »
+
+SFX :
+Pas lourds de la créature, feu rugissant, moteurs hurlants, respiration du monstre.
+
+Caméra :
+Caméra de poursuite montée à l'arrière tremblant violemment pendant la course.
+
+[13s – 15s]
+PLAN 6 — CLIMAX FINAL.
+La créature mord dans un véhicule blindé massif et le projette violemment à travers la voie opposée de l'autoroute. Une explosion gigantesque éclate à l'impact. Des boules de feu, des débris, de la fumée, du béton éclaté, des étincelles et des véhicules renversés envahissent l'autoroute inondée. Les lumières d'urgence clignotent à travers la fumée noire épaisse.
+
+PLAN FINAL :
+La créature se tient au centre de l'autoroute détruite entourée d'épaves militaires en feu. La pluie tombe sur son corps blindé massif tandis que des fissures orange fondues brillent à travers l'obscurité. Elle pousse un dernier rugissement terrifiant vers le ciel orageux alors que les lumières d'urgence clignotent autour de la dévastation.
+
+SFX :
+Explosion massive, métal s'effondrant, rugissement final, sirènes lointaines.
+
+Caméra :
+Retrait cinématographique lent en grue révélant l'ampleur
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054918026265510389.json)
+
+```text
+---
+提供された12パネルのストーリーボードシート @storyboard.png を、15秒間のシネマティックなモンスター災害シーケンス全体の直接的な連続ビジュアルキーフレームの参照として使用してください。ストーリーボードのペース、構成の流れ、エスカレーションの構造、アクションの連続性をパネルからパネルへと正確に追従してください。ストーリーボードのポーズを滑らかなシネマティックな動きに拡張し、攻撃的なカメラエネルギー、リアルな破壊の移行、途切れないビジュアルの勢いを持たせてください。
+
+すべてのショットで同じクリーチャーを維持してください — 同一の解剖学、同じ輝く目、同じ層状の装甲肌の質感、同じ口の構造、同じ四肢の比率、同じ肌の下の輝く亀裂、同じ触手の動作、同じ動きのスタイル、シーケンス全体で同じスケールの一貫性を保ちます。すべてのショットで、洪水の夜間高速道路、軍の車列の配置、損傷した車両、雨の密度、煙の方向、緊急照明、破片のフィールド、火の広がりの完全な連続性を維持してください。
+
+スタイル:
+ウルトラシネマティックなハリウッドのクリーチャー災害映画、オリジナルのSF怪獣ホラーデザイン、ハイパーリアリスティックなシネマティック破壊、実際の爆発のリアリズム、暴力的な嵐の雰囲気、大規模な軍のパニック、ダークSFリアリズム、地に足のついた物理学、濡れたアスファルトの反射、強烈なボリュメトリックな雨、リアルな火のシミュレーション、濃密なシネマティックな煙、劇的な緊急照明、アナモルフィックレンズの感触、手持ちの災害撮影、攻撃的なモーションブラー、動的な破片の相互作用、シネマティックな環境ストーリーテリング、大規模なクリーチャーアニメーション、恐ろしいクリーチャーの重さと勢い。
+
+フォーカス:
+フレーム1からの急速なエスカレーション、圧倒的な混乱、軍の車列の崩壊、リアルな破壊の振り付け、攻撃的なシネマティックペース、雨の中でのクリーチャーのシルエットの読みやすさ、強力なインパクトのタイミング、大規模な環境破壊、信じられるクリーチャーの移動、シネマティックなアクションの連続性、高強度の追跡エネルギー、視覚的に読みやすい混乱。
+
+クリーチャーデザイン:
+オリジナルの悪夢のバイオメカニカルな頂点捕食者。非対称の解剖学を持つ巨大な四足のモンスター、層状の火山のような黒い装甲肌、ひび割れた肌の下に輝く溶岩オレンジの亀裂、頭蓋骨と肩に不均等に埋め込まれた複数の輝く捕食者の目、不規則な刃のような歯で並んだ巨大な顎、攻撃的な突進運動のための過剰な筋肉質の前肢、背骨と腕から伸びる長い鞭のような触手、輝く唾液、雨を通して見える蒸気を発する体温、重い動物的な呼吸、捕食昆虫＋深海生物＋大型猫にインスパイアされた動き。人型ではない。花の頭ではない。完全にオリジナルのシネマティックモンスターデザイン。
+
+[0s – 2s]
+ショット1 — オープニングフック。
+極端な真夜中の雨嵐の中、洪水の高速道路上空の広い空中シネマティックショット。軍の車列が密集した交通を駆け抜ける。1台の装甲輸送トラックが巨大な強化コンテナを運んでいる。フレーム1で、コンテナが激しく高速道路のガードレールに衝突し、火花が濡れた道路に飛び散る。車列はパニックに陥る。突然、巨大な装甲の爪がコンテナの側面を突き破り、金属を外側に引き裂く。
+
+ダイアログ:
+兵士（無線）: 「コンテナの破損！繰り返す、コンテナの破損！」
+
+SFX:
+金属の研磨音、雷、雨の衝撃音、鋼の悲鳴。
+
+カメラ:
+損傷した車列に向かって移動する高速降下空中追跡ショット。
+
+[2s – 5s]
+ショット2 — 内部のパニック。
+車列の横を追跡するクローズサイドショット。軍のジープが不安定な輸送トラックを避けるために洪水の中を激しくドリフトする。揺れるコンテナの中で、巨大な鎖が次々と切れる。赤い緊急ライトが金属の壁の亀裂を通して脈打つ。クリーチャーが内部からコンテナにぶつかり、トレーラー全体が不自然に傾く。
+
+ダイアログ:
+兵士: 「拘束具が壊れそうだ！」
+運転手: 「動け動け動け！」
+
+SFX:
+鎖の破裂音、クリーチャーの衝撃音、警報音、無線の雑音。
+
+カメラ:
+激しい車両の揺れを伴う攻撃的な手持ち追跡。
+
+[5s – 8s]
+ショット3 — フルリビール。
+輸送トラックが洪水の高速道路を横切ってジャックナイフする。背後で大規模な連鎖反応の衝突が発生する。車が雨と水の壁を通り抜けて衝突する。コンテナのドアが圧倒的な内部の力で何度も外側に膨らむ。裂けた鋼を通して、いくつかの輝く捕食者の目が暗闇に現れる。突然、ドアが外側に爆発し、クリーチャーが激しく自らを解放する。
+
+モンスターは恐ろしい速さと重さで高速道路に這い出る。
+
+SFX:
+爆発的な金属の破裂音、クリーチャーの咆哮、車両の衝突音。
+
+カメラ:
+スロープッシュインの後、爆発的な手持ちの揺れがブレイクアウト中に発生。
+
+[8s – 11s]
+ショット4 — 高速道路の虐殺。
+クリーチャーが洪水の高速道路に重く着地し、巨大な水の衝撃波を外側に送り出す。交通を直接突き抜けて突進しながら咆哮する。軍の車両が混乱して散らばる。1台のジープが他の車両と衝突してひっくり返る。モンスターが巨大な装甲の前肢を振り回し、ハンヴィーを複数の車線に渡って叩きつける。触手が雨と煙の中で激しく鞭打つ。
+
+ダイアログ:
+兵士: 「神よ—逃げろ！」
+
+SFX:
+クリーチャーの咆哮、ガラスの爆発音、金属の崩壊音、タイヤの悲鳴。
+
+カメラ:
+クリーチャーの横を移動する車両の間を織り交ぜる低角度
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054918026265510389.json)
+
+```text
+---
+제공된 12패널 스토리보드 시트 @storyboard.png를 15초 시네마틱 몬스터 재난 시퀀스의 직접적인 순차적 비주얼 키프레임 참조로 사용하세요. 패널 간의 스토리보드 속도, 구성 흐름, 고조 구조, 액션 연속성을 정확히 따르세요. 스토리보드 포즈를 부드러운 시네마틱 모션으로 확장하여 강렬한 카메라 에너지, 현실적인 파괴 전환, 끊김 없는 비주얼 모멘텀을 구현하세요.
+
+모든 샷에서 동일한 생물을 유지하세요 — 동일한 해부학, 같은 빛나는 눈, 같은 층층이 쌓인 갑옷 피부 질감, 같은 입 구조, 같은 팔다리 비율, 같은 피부 아래 빛나는 균열, 같은 촉수 행동, 같은 움직임 스타일, 전체 시퀀스에서 동일한 규모 일관성을 유지하세요. 모든 샷에서 침수된 야간 고속도로, 군사 호송대 배치, 손상된 차량, 비의 밀도, 연기의 방향, 비상 조명, 파편 필드, 화재 확산의 완전한 연속성을 유지하세요.
+
+스타일:
+초시네마틱 할리우드 생물 재난 영화, 오리지널 SF 카이주 호러 디자인, 하이퍼리얼리즘 시네마틱 파괴, 실용적인 폭발 리얼리즘, 폭력적인 폭풍우 분위기, 대규모 군사 패닉, 어두운 SF 리얼리즘, 현실적인 물리학, 젖은 아스팔트 반사, 강렬한 볼류메트릭 비, 현실적인 화재 시뮬레이션, 밀도 높은 시네마틱 연기, 극적인 비상 조명, 아나모픽 렌즈 느낌, 핸드헬드 재난 촬영, 공격적인 모션 블러, 동적 파편 상호작용, 시네마틱 환경 스토리텔링, 대규모 생물 애니메이션, 무시무시한 생물의 무게와 모멘텀.
+
+포커스:
+첫 프레임부터 빠른 고조, 압도적인 혼돈, 군사 호송대 붕괴, 현실적인 파괴 안무, 공격적인 시네마틱 속도, 비 속에서 생물 실루엣 가독성, 강력한 충격 타이밍, 대규모 환경 파괴, 믿을 수 있는 생물 이동, 시네마틱 액션 연속성, 고강도 추격 에너지, 시각적으로 읽을 수 있는 혼돈.
+
+생물 디자인:
+오리지널 악몽의 생체 기계적 최상위 포식자. 비대칭 해부학을 가진 거대한 사족보행 몬스터, 층층이 쌓인 화산 검은 갑옷 피부, 갈라진 피부 판 아래 빛나는 용암 오렌지 균열, 두개골과 어깨에 불규칙하게 박힌 여러 개의 빛나는 포식자 눈, 불규칙한 칼날 같은 이빨로 늘어선 거대한 턱, 공격적인 돌진 움직임을 위한 과도하게 발달된 근육질의 앞다리, 척추와 팔에서 뻗어 나오는 긴 채찍 같은 촉수, 빛나는 침, 비를 통해 보이는 뜨거운 체온, 무거운 동물적 호흡, 포식성 곤충 + 심해 생물 + 대형 고양이에서 영감을 받은 움직임. 인간형 아님. 꽃 모양 머리 아님. 완전히 오리지널 시네마틱 몬스터 디자인.
+
+[0초 – 2초]
+샷 1 — 오프닝 훅.
+극심한 자정 폭우 동안 침수된 고속도로 위의 넓은 항공 시네마틱 샷. 군사 호송대가 밀집된 교통 속을 빠르게 이동합니다. 하나의 장갑 수송 트럭이 거대한 강화 격리 컨테이너를 운반합니다. 첫 프레임에서 컨테이너가 고속도로 가드레일에 강하게 부딪히며 젖은 도로에 불꽃을 뿌립니다. 호송대가 공포에 휩싸여 방향을 틀고, 갑자기 거대한 장갑 발톱이 컨테이너 옆면을 뚫고 나와 금속을 밖으로 찢어냅니다.
+
+대사:
+병사 (라디오): “격리 실패! 반복, 격리 실패!”
+
+SFX:
+금속 갈림, 천둥, 비 충돌, 강철 긁힘.
+
+카메라:
+손상된 호송대를 향해 빠르게 하강하는 항공 추적 샷.
+
+[2초 – 5초]
+샷 2 — 내부 패닉.
+호송대 옆을 따라가는 근접 측면 추적 샷. 군용 지프가 불안정한 수송 트럭을 피하기 위해 홍수 속에서 격렬하게 드리프트합니다. 흔들리는 컨테이너 내부에서 거대한 체인이 하나씩 끊어집니다. 금속 벽의 균열을 통해 붉은 비상등이 깜박입니다. 생물이 내부에서 컨테이너를 세게 때리며 트레일러 전체가 비정상적으로 기울어집니다.
+
+대사:
+병사: “구속 장치가 실패하고 있어!”
+운전자: “움직여! 움직여!”
+
+SFX:
+체인 끊어짐, 생물 충격, 경보, 라디오 잡음.
+
+카메라:
+격렬한 차량 흔들림과 함께 공격적인 핸드헬드 추적.
+
+[5초 – 8초]
+샷 3 — 완전 공개.
+수송 트럭이 침수된 고속도로를 가로질러 옆으로 꺾입니다. 그 뒤로 거대한 연쇄 충돌이 발생합니다. 차량들이 비와 물보라의 벽을 뚫고 충돌합니다. 컨테이너 문이 압도적인 내부 힘에 의해 반복적으로 바깥쪽으로 부풀어 오릅니다. 찢어진 강철을 통해 여러 개의 빛나는 포식자 눈이 어둠 속에서 나타납니다. 갑자기 문이 바깥쪽으로 폭발하며 생물이 스스로를 폭력적으로 해방합니다.
+
+몬스터가 무시무시한 속도와 무게로 고속도로에 기어 올라옵니다.
+
+SFX:
+폭발적인 금속 파열, 생물 포효, 차량 충돌.
+
+카메라:
+탈출 중 폭발적인 핸드헬드 흔들림을 동반한 느린 푸시인.
+
+[8초 – 11초]
+샷 4 — 고속도로 학살.
+생물이 침수된 고속도로에 무겁게 착지하며 거대한 물 충격파를 바깥으로 보냅니다. 그것은 포효하며 교통을 직접 돌파합니다. 군용 차량들이 혼란스럽게 흩어집니다. 한 지프가 다른 차량과 충돌한 후 뒤집힙니다. 몬스터가 거대한 장갑 앞다리를 휘둘러 험비를 여러 차선에 걸쳐 부숩니다. 촉수들이 비와 연기 속에서 격렬하게 휘둘립니다.
+
+대사:
+병사: “오 신이여—도망쳐!”
+
+SFX:
+생물 포효, 폭발하는 유리, 붕괴하는 금속, 비명 지르는 타이어.
+
+카메라:
+생물 옆에서 움직이는 차량 사이를 엮어가는 저각 추적 샷.
+
+[11초 – 13초]
+샷 5 — 완전 추격.
+공포에 질린 병사가 로켓 발사기를 들고 빠르게 달리는 군용 지프 옆에 매달려 있습니다. 그들 뒤로 몬스터가 불타는 잔해를 통해 무시무시한 속도로 질주합니다. 그것의 빛나는 눈이 무거운 비와 연기를 가릅니다. 불이 젖은 장갑 피부에 반사되며 용암 균열이 움직임 중에 더 밝게 맥동합니다. 생물이 지프를 향해 돌진하며 턱이 후방 범퍼에서 몇 인치 떨어진 곳에서 스냅합니다.
+
+대사:
+병사: “더 빨리! 더 빨리!”
+
+SFX:
+무거운 생물 발걸음, 포효하는 불, 비명 지르는 엔진, 몬스터의 숨소리.
+
+카메라:
+추격 중 격렬하게 흔들리는 후방 장착 추적 카메라.
+
+[13초 – 15초]
+샷 6 — 최종 클라이맥스.
+생물이 거대한 장갑 차량을 물어뜯고 반대편 고속도로 차선으로
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054918026265510389.json)
+
+```text
+---
+Use a folha de storyboard de 12 quadros fornecida @storyboard.png como referência visual sequencial direta para toda a sequência cinematográfica de desastre de monstros de 15 segundos. Siga exatamente o ritmo do storyboard, o fluxo de composição, a estrutura de escalada e a continuidade de ação de quadro a quadro. Expanda as poses do storyboard em um movimento cinematográfico suave com energia agressiva de câmera, transições de destruição realistas e um impulso visual ininterrupto.
+
+Mantenha a mesma criatura em todos os takes — anatomia idêntica, mesmos olhos brilhantes, mesma textura de pele blindada em camadas, mesma estrutura de boca, mesmas proporções de membros, mesmas rachaduras brilhantes sob a pele, mesmo comportamento de tentáculos, mesmo estilo de movimento, mesma consistência de escala em toda a sequência. Preserve a continuidade completa da rodovia noturna inundada, posicionamento do comboio militar, veículos danificados, densidade da chuva, direção da fumaça, iluminação de emergência, campos de destroços e propagação do fogo em todos os takes.
+
+ESTILO:
+filme de desastre de criatura ultra-cinematográfico de Hollywood, design original de horror kaiju sci-fi, destruição cinematográfica hiper-realista, realismo de explosão prática, atmosfera de tempestade violenta, pânico militar em grande escala, realismo sci-fi sombrio, física fundamentada, reflexos de asfalto molhado, chuva volumétrica intensa, simulações de fogo realistas, fumaça cinematográfica densa, iluminação de emergência dramática, sensação de lente anamórfica, cinematografia de desastre com câmera na mão, desfoque de movimento agressivo, interação dinâmica de destroços, narrativa ambiental cinematográfica, animação de criatura em grande escala, peso e impulso aterrorizantes da criatura.
+
+FOCO:
+escalada rápida desde o primeiro quadro, caos avassalador, colapso do comboio militar, coreografia de destruição realista, ritmo cinematográfico agressivo, legibilidade da silhueta da criatura na chuva, tempo de impacto poderoso, destruição ambiental em grande escala, locomoção crível da criatura, continuidade de ação cinematográfica, energia de perseguição de alta intensidade, caos visualmente legível.
+
+DESIGN DA CRIATURA:
+Um predador ápice bio-mecânico de pesadelo original. Monstro quadrúpede maciço com anatomia assimétrica, pele blindada em camadas de preto vulcânico, fissuras incandescentes de laranja derretido sob placas de pele rachadas, múltiplos olhos predadores brilhantes embutidos de forma desigual em seu crânio e ombros, mandíbula enorme com dentes irregulares em forma de lâmina, membros anteriores musculosos e superdimensionados para movimentos agressivos de salto, longos tentáculos semelhantes a chicotes se estendendo de sua espinha e braços, saliva brilhante, calor corporal visível através da chuva, respiração animal pesada, movimento inspirado por insetos predadores + criaturas do mar profundo + grandes felinos. NÃO humanoide. NÃO com cabeça de flor. Design de monstro cinematográfico completamente original.
+
+[0s – 2s]
+TAKE 1 — GANCHO DE ABERTURA.
+Plano aéreo cinematográfico amplo acima de uma rodovia inundada durante uma tempestade extrema à meia-noite. Comboio militar acelerando através do tráfego denso. Um caminhão de transporte blindado carrega um enorme contêiner de contenção reforçado. No primeiro quadro, o contêiner colide violentamente com a mureta da rodovia, espalhando faíscas pela estrada molhada. O comboio desvia em pânico. De repente, uma garra blindada gigante irrompe pelo lado do contêiner, rasgando o metal para fora.
+
+Diálogo:
+Soldado (rádio): “Ruptura de contenção! Repito, ruptura de contenção!”
+
+SFX:
+Metal rangendo, trovão, impactos de chuva, aço rangendo.
+
+Câmera:
+Plano aéreo de rastreamento descendente rápido movendo-se em direção ao comboio danificado.
+
+[2s – 5s]
+TAKE 2 — PÂNICO INTERNO.
+Plano de rastreamento lateral próximo ao comboio. Jipes militares derrapam violentamente através da água da enchente para evitar o caminhão de transporte instável. Dentro do contêiner em movimento, enormes correntes se rompem uma após a outra. Luzes de emergência vermelhas pulsando através de rachaduras nas paredes de metal. A criatura se lança contra o contêiner por dentro, fazendo com que todo o trailer se incline de forma antinatural.
+
+Diálogo:
+Soldado: “As amarras estão falhando!”
+Motorista: “MOVA-SE, MOVA-SE, MOVA-SE!”
+
+SFX:
+Correntes se rompendo, impactos da criatura, alarmes, estática de rádio.
+
+Câmera:
+Rastreamento agressivo com câmera na mão e tremor violento do veículo.
+
+[5s – 8s]
+TAKE 3 — REVELAÇÃO COMPLETA.
+O caminhão de transporte faz um "L" na rodovia inundada. Enormes colisões em cadeia ocorrem atrás dele. Carros colidem através de paredes de chuva e spray de água. As portas do contêiner se projetam para fora repetidamente devido à força interna avassaladora. Através do aço rasgado, vários olhos predadores brilhantes aparecem na escuridão. De repente, as portas explodem para fora enquanto a criatura se liberta violentamente.
+
+O monstro rasteja para a rodovia com velocidade e peso aterrorizantes.
+
+SFX:
+Ruptura explosiva de metal, rugido da criatura, colisões de veículos.
+
+Câmera:
+Empurrão lento seguido de tremor explosivo com câmera na mão durante a fuga.
+
+[8s – 11s]
+TAKE 4 — MASSACRE NA RODOVIA.
+A criatura aterrissa pesadamente na rodovia inundada, enviando ondas de choque massivas de água para fora. Ela ruge enquanto avança diretamente através do tráfego. Veículos militares se dispersam caoticamente. Um jipe capota após colidir com outro veículo. O monstro balança um enorme membro anterior blindado, esmagando um Humvee através de várias faixas. Tentáculos chicoteiam violentamente através da chuva e fumaça.
+
+Diálogo:
+Soldado: “OH DEUS—CORRAM!”
+
+SFX:
+Rugido da criatura, vidro explodindo, metal colapsando, pneus gritando.
+
+Câmera:
+Plano de rastreamento em ângulo baixo entrelaçando-se através de veículos em movimento ao lado da criatura.
+
+[11s – 13s]
+TAKE 5 — PERSEGUIÇÃO COMPLETA.
+Um soldado aterrorizado se pendura do lado de um jipe militar em alta velocidade segurando um lançador de foguetes. Atrás deles, o monstro corre através dos destroços em chamas a uma velocidade aterrorizante. Seus olhos brilhantes cortam a chuva pesada e a fumaça. O fogo reflete em sua pele blindada molhada enquanto as rachaduras incandescentes pulsando mais brilhantes durante o movimento. A criatura avança em direção ao jipe, mandíbulas estalando a centímetros do para-choque traseiro.
+
+Diálogo:
+Soldado: “MAIS RÁPIDO! MAIS RÁPIDO!”
+
+SFX:
+Passos pesados da criatura, fogo rugindo, motores gritando, respiração do monstro.
+
+Câmera:
+Câmera de perseguição montada na traseira tremendo violentamente durante a perseguição.
+
+[13s – 15s]
+TAKE 6 — CLÍMAX FINAL.
+A criatura morde um veículo blindado maciço e o arremessa violentamente através da faixa oposta da rodovia. Uma explosão gigantesca ocorre no impacto. Bolas de fogo, destroços, fumaça, concreto despedaçado, faíscas e veículos capotados consomem a rodovia inundada. Luzes de emergência piscam através da fumaça preta espessa.
+
+TAKE FINAL:
+A criatura fica no centro da rodovia destruída cercada por destroços militares em chamas. A chuva cai sobre seu corpo blindado maciço enquanto rachaduras incandescentes laranja brilham através da escuridão. Ela solta um último rugido que estremece a terra em direção ao céu tempestuoso enquanto luzes de emergência piscam ao redor da devastação.
+
+SFX:
+Explosão massiva, metal colapsando, rugido final, sirenes distantes.
+
+Câmera:
+Recuo cinematográfico lento com guindaste revelando toda a escala de destruição e caos.
+SEM LEGENDAS.
+SEM TEXTO NA TELA.
+SEM LEGENDAS.
+SEM TÍTULOS DE ABERTURA.
+SEM TÍTULOS FINAIS.
+SEM TERÇOS INFERIORES.
+SEM MARCAS D'ÁGUA.
+SEM ELEMENTOS DE INTERFACE.
+SEM CONTADORES DE TEMPO.
+SEM RÓTULOS DE PAINEL DE QUADRINHOS.
+SEM BALÕES DE FALA.
+SEM CARACTERES CHINESES OU INGLESES EM QUALQUER PARTE DO QUADRO.
+Todo o diálogo deve existir apenas como áudio natural na cena.
+O vídeo final deve parecer uma sequência de filme cinematográfico limpa com
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054918026265510389.json)
+
+```text
+使用提供的12格分镜表@storyboard.png作为整个15秒电影级怪兽灾难序列的直接顺序视觉关键帧参考。遵循分镜的精确节奏、构图流动、升级结构和动作连续性，从一个面板到另一个面板。将分镜中的姿势扩展为流畅的电影级运动，具有强烈的镜头能量、逼真的破坏过渡和不间断的视觉动感。
+
+在每个镜头中保持完全相同的生物——相同的解剖结构、相同的发光眼睛、相同的分层装甲皮肤纹理、相同的嘴部结构、相同的四肢比例、相同的皮肤下发光裂缝、相同的触须行为、相同的运动风格、相同的比例一致性贯穿整个序列。保持所有镜头中被淹没的夜间高速公路、军事车队位置、损坏的车辆、雨量密度、烟雾方向、紧急照明、碎片场和火焰蔓延的完全连续性。
+
+风格：
+超电影级好莱坞生物灾难电影，原创科幻怪兽恐怖设计，超现实电影级破坏，实用爆炸真实感，猛烈的风暴氛围，大规模军事恐慌，黑暗科幻真实感，扎实的物理效果，湿沥青反射，强烈的体积雨，逼真的火焰模拟，浓密的电影烟雾，戏剧性的紧急照明，变形镜头感，手持灾难摄影，激进的运动模糊，动态碎片互动，电影级环境叙事，大规模生物动画，令人恐惧的生物重量和动量。
+
+重点：
+从第一帧开始快速升级，压倒性的混乱，军事车队崩溃，逼真的破坏编排，激进的电影节奏，雨中生物轮廓可读性，强大的冲击时机，大规模环境破坏，可信的生物运动，电影级动作连续性，高强度追逐能量，视觉上可读的混乱。
+
+生物设计：
+一个原创的噩梦生物机械顶级掠食者。巨大的四足怪物，具有不对称的解剖结构，层叠的火山黑色装甲皮肤，裂开的皮肤板下发光的熔岩橙色裂缝，多个发光的掠食者眼睛不规则地嵌入其头骨和肩膀，巨大的下颚排列着不规则的刀状牙齿，过大的肌肉前肢用于激进的扑击运动，从脊柱和手臂延伸出的长鞭状触须，发光的唾液，透过雨水可见的蒸汽体热，沉重的动物呼吸，运动灵感来自掠食性昆虫+深海生物+大型猫科动物。不是人形。不是花头。完全原创的电影级怪物设计。
+
+[0s – 2s]
+镜头1 — 开场钩子。
+在极端午夜暴雨中，俯瞰被淹没的高速公路的广角航拍镜头。军事车队在密集的交通中疾驰。一辆装甲运输卡车载着一个巨大的加固容器。在第一帧，容器猛烈撞击高速公路护栏，火花四溅在湿滑的道路上。车队惊慌失措地转向。突然，一个巨大的装甲爪从容器侧面爆裂出来，撕开金属。
+
+对话：
+士兵（无线电）：“容器破裂！重复，容器破裂！”
+
+音效：
+金属磨擦声，雷声，雨水撞击声，钢铁尖叫声。
+
+镜头：
+快速下降的航拍跟踪镜头，向受损的车队移动。
+
+[2s – 5s]
+镜头2 — 内部恐慌。
+车队旁边的近距离侧面跟踪镜头。军用吉普车在洪水中剧烈漂移，以避开不稳定的运输卡车。在摇晃的容器内，巨大的链条一个接一个地断裂。红色紧急灯光通过金属墙上的裂缝闪烁。生物从内部撞击容器，导致整个拖车不自然地倾斜。
+
+对话：
+士兵：“束缚装置失效了！”
+司机：“快走快走快走！”
+
+音效：
+链条断裂声，生物撞击声，警报声，无线电静电声。
+
+镜头：
+激进的手持跟踪，伴随剧烈的车辆摇晃。
+
+[5s – 8s]
+镜头3 — 完全揭示。
+运输卡车在被淹没的高速公路上侧滑。其后爆发大规模连锁反应的撞车事故。汽车在雨水和水雾中相撞。容器门因内部的巨大力量而反复向外膨胀。通过撕裂的钢板，几个发光的掠食者眼睛在黑暗中出现。突然，门爆炸开来，生物猛烈地撕裂自己逃出。
+
+怪物以可怕的速度和重量爬上高速公路。
+
+音效：
+爆炸性的金属破裂声，生物咆哮声，车辆撞击声。
+
+镜头：
+缓慢推进，随后在突破时爆发性的手持摇晃。
+
+[8s – 11s]
+镜头4 — 高速公路大屠杀。
+生物重重地落在被淹没的高速公路上，向外发出巨大的水波。它咆哮着直接穿过交通。军用车辆混乱地四散。一个吉普车在与另一辆车相撞后翻转。怪物挥动巨大的装甲前肢，将一辆悍马车撞过多个车道。触须在雨中和烟雾中猛烈挥舞。
+
+对话：
+士兵：“天啊——快跑！”
+
+音效：
+生物咆哮声，玻璃爆裂声，金属崩塌声，轮胎尖叫声。
+
+镜头：
+低角度跟踪镜头，在生物旁边穿梭于移动的车辆之间。
+
+[11s – 13s]
+镜头5 — 全速追击。
+一个惊恐的士兵挂在一辆高速行驶的军用吉普车侧面，手持火箭发射器。在他们身后，怪物以可怕的速度穿过燃烧的残骸。它的发光眼睛穿透浓密的雨水和烟雾。火焰在其湿滑的装甲皮肤上反射，而熔岩裂缝在运动中脉动得更亮。生物向吉普车扑去，颚部在后保险杠几英寸处咬合。
+
+对话：
+士兵：“更快！更快！”
+
+音效：
+沉重的生物脚步声，火焰咆哮声，发动机尖叫声，怪物呼吸声。
+
+镜头：
+追逐时剧烈摇晃的后置追踪镜头。
+
+[13s – 15s]
+镜头6 — 最终高潮。
+生物咬住一辆巨大的装甲车辆，猛烈地将其抛向对面的高速公路车道。撞击时爆发出巨大的爆炸。火球、碎片、烟雾、破碎的混凝土、火花和翻倒的车辆吞噬了被淹没的高速公路。紧急灯光在浓密的黑烟中闪烁。
+
+最终镜头：
+生物站在被毁坏的高速公路中央，周围是燃烧的军事残骸。雨水倾泻在其巨大的装甲身体上，而熔岩橙色的裂缝在黑暗中发光。它向暴风雨的天空发出最后一次震撼大地的咆哮，紧急灯光在毁灭中闪烁。
+
+音效：
+巨大的爆炸声，金属崩塌声，最后的咆哮声，远处的警笛声。
+
+镜头：
+缓慢的电影级起重机拉远镜头，揭示破坏和混乱的全貌。
+无字幕。
+无屏幕文字。
+无字幕。
+无开场标题。
+无结束标题。
+无下三分之一。
+无水印。
+无用户界面元素。
+无时间计数器。
+无漫画面板标签。
+无对话气泡。
+画面中无中文或英文字符。
+所有对话必须仅作为自然场景音频存在。
+```
+
+## 出处与许可
+
+- 原作者：[Kiki](https://x.com/Mayz1169) · 原帖：<https://x.com/Mayz1169/status/2054918026265510389>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054918026265510389.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

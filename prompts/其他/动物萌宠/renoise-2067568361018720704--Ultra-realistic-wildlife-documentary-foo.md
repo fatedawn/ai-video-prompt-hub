@@ -1,0 +1,184 @@
+---
+id: "renoise-2067568361018720704"
+title: "Ultra-realistic wildlife documentary footage filmed from a moving safari jeep…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "其他"
+direction: null
+genre: "动物萌宠"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Animals", "Wildlife", "Story", "Twist", "Photoreal", "Realistic World"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067568361018720704.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Rahul Nanda"
+original_author_url: "https://x.com/rahulnanda86"
+original_post_url: "https://x.com/rahulnanda86/status/2067568361018720704"
+published: "2026-06-18"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Ultra-realistic wildlife documentary footage filmed from a moving safari jeep…
+
+## 提示词（English）
+
+```text
+Ultra-realistic wildlife documentary footage filmed from a moving safari jeep in a vast African savanna similar to the Masai Mara. Handheld telephoto lens, natural camera shake from the vehicle bouncing across rough terrain, rapid reframing, autofocus hunting, realistic documentary sound, engine noise, wind, distant radio chatter from crew members.
+
+A terrified deer sprints across open grassland while a massive tiger chases it at full speed. The camera operator struggles to keep both animals in frame as the jeep races alongside the chase. Dust trails fill the air. The cameraman zooms aggressively, nearly losing focus several times. The pursuit feels raw, dangerous, and completely unscripted.
+
+The tiger rapidly closes the gap. Crew members can be heard reacting off-camera. The tiger launches forward and grabs the deer around the neck. Both tumble violently through dust and grass. The camera operator rushes to zoom tighter as the tiger positions itself for the killing bite.
+
+Suddenly a voice shouts:
+
+“CUT!”
+
+Instantly the camera zooms out and pulls back.
+
+The shocking reveal: dozens of production tents, camera cranes, lighting trucks, crew members, catering tables, directors, assistants, and wildlife documentary equipment surround the entire area. The tiger and deer calmly separate as handlers walk into frame. Crew members begin discussing the take. What looked like a once-in-a-lifetime wildlife kill is revealed to be a massive documentary production set.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067568361018720704.json)
+
+```text
+---
+Imágenes de documental de vida salvaje ultra-realistas filmadas desde un jeep de safari en movimiento en una vasta sabana africana similar al Masai Mara. Lente telefoto de mano, movimiento natural de la cámara por el vehículo rebotando en terreno accidentado, reenfoque rápido, búsqueda de enfoque automático, sonido documental realista, ruido del motor, viento, charla de radio distante de los miembros del equipo.
+
+Un ciervo aterrorizado corre a toda velocidad por la pradera abierta mientras un tigre enorme lo persigue a toda velocidad. El operador de cámara lucha por mantener a ambos animales en el encuadre mientras el jeep corre junto a la persecución. Nubes de polvo llenan el aire. El camarógrafo hace zoom agresivamente, casi perdiendo el enfoque varias veces. La persecución se siente cruda, peligrosa y completamente improvisada.
+
+El tigre cierra rápidamente la distancia. Se pueden escuchar las reacciones de los miembros del equipo fuera de cámara. El tigre se lanza hacia adelante y agarra al ciervo por el cuello. Ambos ruedan violentamente a través del polvo y la hierba. El operador de cámara se apresura a hacer un zoom más cerrado mientras el tigre se posiciona para la mordida mortal.
+
+De repente, una voz grita:
+
+“¡CORTEN!”
+
+Instantáneamente la cámara hace un zoom hacia afuera y se retira.
+
+La revelación impactante: docenas de tiendas de producción, grúas de cámara, camiones de iluminación, miembros del equipo, mesas de catering, directores, asistentes y equipo de documental de vida salvaje rodean toda el área. El tigre y el ciervo se separan tranquilamente mientras los manejadores entran en el encuadre. Los miembros del equipo comienzan a discutir la toma. Lo que parecía ser una caza de vida salvaje única en la vida se revela como un enorme set de producción documental.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067568361018720704.json)
+
+```text
+---
+Des images ultra-réalistes d'un documentaire sur la faune sauvage filmées depuis une jeep de safari en mouvement dans une vaste savane africaine semblable au Masai Mara. Objectif téléphoto à main, tremblement naturel de la caméra dû aux secousses du véhicule sur un terrain accidenté, recadrage rapide, autofocus en quête, son documentaire réaliste, bruit du moteur, vent, bavardage radio lointain des membres de l'équipe.
+
+Un cerf terrifié s'élance à travers la prairie ouverte tandis qu'un tigre massif le poursuit à pleine vitesse. L'opérateur de la caméra lutte pour garder les deux animaux dans le cadre alors que la jeep file à côté de la poursuite. Des traînées de poussière remplissent l'air. Le caméraman zoome de manière agressive, perdant presque la mise au point à plusieurs reprises. La poursuite semble brute, dangereuse et totalement improvisée.
+
+Le tigre réduit rapidement l'écart. On entend les membres de l'équipe réagir hors champ. Le tigre bondit en avant et attrape le cerf par le cou. Les deux roulent violemment à travers la poussière et l'herbe. L'opérateur de la caméra se précipite pour resserrer le zoom alors que le tigre se positionne pour la morsure fatale.
+
+Soudain, une voix crie :
+
+“CUT!”
+
+Instantanément, la caméra dézoome et recule.
+
+La révélation choquante : des dizaines de tentes de production, grues de caméra, camions d'éclairage, membres de l'équipe, tables de restauration, réalisateurs, assistants et équipements de documentaire sur la faune entourent toute la zone. Le tigre et le cerf se séparent calmement alors que les dresseurs entrent dans le cadre. Les membres de l'équipe commencent à discuter de la prise. Ce qui semblait être une scène de chasse unique en son genre se révèle être un immense plateau de production de documentaire.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067568361018720704.json)
+
+```text
+---
+マサイマラに似た広大なアフリカのサバンナで、動くサファリジープから撮影された超リアルな野生動物ドキュメンタリー映像。手持ちの望遠レンズ、荒れた地形を走る車両からの自然なカメラの揺れ、急速なリフレーミング、オートフォーカスのハンティング、リアルなドキュメンタリーサウンド、エンジン音、風、クルーメンバーの遠くからの無線のやり取り。
+
+恐怖に駆られた鹿が広い草原を全速力で走り抜け、それを巨大な虎が追いかける。カメラオペレーターはジープが追走する中、両方の動物をフレームに収めようと奮闘する。空中に舞い上がる砂埃。カメラマンは激しくズームし、何度もフォーカスを失いかける。追跡は生々しく、危険で、完全に台本なしのように感じられる。
+
+虎は急速に距離を詰める。クルーメンバーがカメラ外で反応する声が聞こえる。虎は前方に飛び出し、鹿の首を掴む。両者は砂埃と草の中を激しく転がる。カメラオペレーターは虎が致命的な噛みつきをするための位置を取る様子をズームして捉えようと急ぐ。
+
+突然、声が叫ぶ：
+
+「カット！」
+
+瞬時にカメラはズームアウトし、引いていく。
+
+衝撃の明かし：数十のプロダクションテント、カメラクレーン、照明トラック、クルーメンバー、ケータリングテーブル、ディレクター、アシスタント、野生動物ドキュメンタリー機材が周囲を取り囲んでいる。虎と鹿は落ち着いて離れ、ハンドラーがフレームに入ってくる。クルーメンバーはテイクについて話し始める。一生に一度の野生動物の捕食シーンに見えたものが、巨大なドキュメンタリー制作セットであることが明らかになる。
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067568361018720704.json)
+
+```text
+---
+마사이 마라와 유사한 광활한 아프리카 사바나에서 이동 중인 사파리 지프에서 촬영한 초현실적인 야생동물 다큐멘터리 영상. 핸드헬드 망원 렌즈, 거친 지형을 가로지르는 차량의 흔들림으로 인한 자연스러운 카메라 흔들림, 빠른 재구성, 자동 초점 사냥, 현실적인 다큐멘터리 사운드, 엔진 소음, 바람, 승무원들의 먼 라디오 잡음.
+
+겁에 질린 사슴이 열린 초원을 질주하고, 거대한 호랑이가 전속력으로 뒤쫓는다. 카메라 오퍼레이터는 지프가 추격과 나란히 달리면서 두 동물을 프레임에 담기 위해 고군분투한다. 먼지 자국이 공중에 가득하다. 카메라맨은 공격적으로 줌을 당겨 몇 번이나 초점을 잃을 뻔한다. 추격은 거칠고 위험하며 완전히 즉흥적인 느낌이다.
+
+호랑이는 빠르게 거리를 좁힌다. 카메라 밖에서 승무원들의 반응이 들린다. 호랑이는 앞으로 뛰어올라 사슴의 목을 잡는다. 둘은 먼지와 풀 속에서 격렬하게 구른다. 카메라 오퍼레이터는 호랑이가 치명적인 물기를 준비하는 동안 줌을 더 당기기 위해 서두른다.
+
+갑자기 누군가가 외친다:
+
+“컷!”
+
+즉시 카메라는 줌 아웃하고 뒤로 물러난다.
+
+충격적인 반전: 수십 개의 제작 텐트, 카메라 크레인, 조명 트럭, 승무원, 케이터링 테이블, 감독, 조수, 야생동물 다큐멘터리 장비가 전체 지역을 둘러싸고 있다. 호랑이와 사슴은 조련사들이 프레임 안으로 들어오면서 차분히 분리된다. 승무원들은 촬영에 대해 논의하기 시작한다. 일생에 한 번 있을 법한 야생동물의 사냥으로 보였던 장면이 거대한 다큐멘터리 제작 세트로 드러난다.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067568361018720704.json)
+
+```text
+Filmagem ultra-realista de documentário sobre vida selvagem, capturada de um jipe de safári em movimento em uma vasta savana africana semelhante ao Masai Mara. Lente teleobjetiva de mão, tremor natural da câmera devido ao veículo balançando em terreno acidentado, reenquadramento rápido, foco automático buscando, som documental realista, ruído do motor, vento, conversas distantes no rádio dos membros da equipe.
+
+Um cervo aterrorizado corre pela planície aberta enquanto um tigre enorme o persegue a toda velocidade. O operador de câmera luta para manter ambos os animais no enquadramento enquanto o jipe corre ao lado da perseguição. Trilhas de poeira enchem o ar. O cinegrafista dá zoom agressivamente, quase perdendo o foco várias vezes. A perseguição parece crua, perigosa e completamente não roteirizada.
+
+O tigre rapidamente diminui a distância. Membros da equipe podem ser ouvidos reagindo fora da câmera. O tigre avança e agarra o cervo pelo pescoço. Ambos rolam violentamente pela poeira e pela grama. O operador de câmera se apressa para dar um zoom mais fechado enquanto o tigre se posiciona para a mordida fatal.
+
+De repente, uma voz grita:
+
+"CORTA!"
+
+Instantaneamente, a câmera dá zoom para fora e se afasta.
+
+A revelação chocante: dezenas de tendas de produção, guindastes de câmera, caminhões de iluminação, membros da equipe, mesas de catering, diretores, assistentes e equipamentos de documentário sobre vida selvagem cercam toda a área. O tigre e o cervo se separam calmamente enquanto os tratadores entram em cena. Os membros da equipe começam a discutir a tomada. O que parecia ser uma cena de caça única na vida selvagem é revelado como um enorme set de produção de documentário.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067568361018720704.json)
+
+```text
+---
+超现实的野生动物纪录片镜头，从一辆移动的狩猎吉普车上拍摄，背景是广阔的非洲大草原，类似于马赛马拉。手持长焦镜头，车辆在崎岖地形上颠簸导致自然的镜头抖动，快速重新构图，自动对焦追踪，逼真的纪录片声音，发动机噪音，风声，远处工作人员的无线电交谈声。
+
+一只惊恐的鹿在开阔的草原上狂奔，而一只巨大的老虎全速追赶。摄影师努力将两只动物保持在画面中，同时吉普车在追逐中并驾齐驱。尘土飞扬。摄影师激烈地变焦，几乎多次失去焦点。追逐感觉原始、危险且完全没有剧本。
+
+老虎迅速缩小差距。可以听到工作人员在镜头外的反应。老虎向前扑去，咬住鹿的脖子。两者在尘土和草地中剧烈翻滚。摄影师急忙拉近镜头，老虎准备致命一击。
+
+突然，一个声音喊道：
+
+“CUT!”
+
+镜头立刻拉远并后退。
+
+令人震惊的揭示：数十个制作帐篷、摄像机吊臂、照明卡车、工作人员、餐饮桌、导演、助理和野生动物纪录片设备包围了整个区域。老虎和鹿平静地分开，驯兽师走入镜头。工作人员开始讨论这次拍摄。看似千载难逢的野生动物捕杀被揭示为一个庞大的纪录片制作现场。
+```
+
+## 出处与许可
+
+- 原作者：[Rahul Nanda](https://x.com/rahulnanda86) · 原帖：<https://x.com/rahulnanda86/status/2067568361018720704>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2067568361018720704.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

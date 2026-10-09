@@ -1,0 +1,174 @@
+---
+id: "renoise-2065953961564160020"
+title: "Hyper-realistic cinematic action, 15 seconds, 16:9. Night, futuristic city."
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "动作大片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Chase", "Photoreal", "Sci-Fi"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065953961564160020.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "DeCat"
+original_author_url: "https://x.com/DeCat2025"
+original_post_url: "https://x.com/DeCat2025/status/2065953961564160020"
+published: "2026-06-14"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Hyper-realistic cinematic action, 15 seconds, 16:9. Night, futuristic city.
+
+## 提示词（English）
+
+```text
+Hyper-realistic cinematic action, 15 seconds, 16:9. Night, futuristic city.
+
+A courier in a sleek helmeted suit runs across a transparent glass bridge between two skyscrapers. Neon city lights glow far below. Light rain, reflections, mist. Three pursuit drones chase behind. Wide shot: the courier bursts onto the glass bridge at full speed.
+Drones enter behind, closing fast. Low foot-level tracking shot: glass cracks under each step. Panels break and fall away into the city.
+
+The courier jumps over the gaps without stopping. Side exterior shot: the bridge collapses behind him panel by panel. Glass falls, metal frames bend, warning lights flicker. The courier uses the narrow frame for balance while drones weave through debris. Final 5 seconds: collapse becomes insane. A chain reaction shatters the bridge.
+
+Huge sections drop away, leaving only thin metal beams. The courier sprints across the exposed frame, jumps one massive gap, slips for a split second, recovers, then makes a final desperate leap to the far platform.
+
+Final moment: he crashes onto the platform and slides safely into the next skyscraper as the bridge breaks apart behind him.
+
+Style: hyper-realistic, cinematic, intense, fast but readable, strong height, transparent glass, neon reflections, no visible face, no text, no logos, no cartoon style, no slow motion. Keep proportions. Keep style and features. Aspect ratio 16:9.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065953961564160020.json)
+
+```text
+Acción cinematográfica hiperrealista, 15 segundos, 16:9. Noche, ciudad futurista.
+
+Un mensajero con un traje elegante y casco corre a través de un puente de vidrio transparente entre dos rascacielos. Las luces de neón de la ciudad brillan muy por debajo. Lluvia ligera, reflejos, niebla. Tres drones de persecución lo siguen detrás. Toma amplia: el mensajero irrumpe en el puente de vidrio a toda velocidad. Los drones entran detrás, cerrando rápidamente. Toma de seguimiento a nivel del pie: el vidrio se agrieta bajo cada paso. Los paneles se rompen y caen hacia la ciudad.
+
+El mensajero salta sobre los huecos sin detenerse. Toma exterior lateral: el puente se colapsa detrás de él panel por panel. El vidrio cae, los marcos de metal se doblan, las luces de advertencia parpadean. El mensajero utiliza el marco estrecho para mantener el equilibrio mientras los drones se entrelazan entre los escombros. Últimos 5 segundos: el colapso se vuelve insano. Una reacción en cadena destroza el puente.
+
+Grandes secciones caen, dejando solo delgadas vigas de metal. El mensajero corre a través del marco expuesto, salta un enorme hueco, resbala por un instante, se recupera, y luego hace un último salto desesperado hacia la plataforma lejana.
+
+Momento final: se estrella en la plataforma y se desliza con seguridad hacia el siguiente rascacielos mientras el puente se desintegra detrás de él.
+
+Estilo: hiperrealista, cinematográfico, intenso, rápido pero legible, gran altura, vidrio transparente, reflejos de neón, sin rostro visible, sin texto, sin logotipos, sin estilo de caricatura, sin cámara lenta. Mantener proporciones. Mantener estilo y características. Relación de aspecto 16:9.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065953961564160020.json)
+
+```text
+Action cinématographique hyper-réaliste, 15 secondes, 16:9. Nuit, ville futuriste.
+
+Un coursier en combinaison élégante avec casque court sur un pont de verre transparent entre deux gratte-ciel. Les lumières néon de la ville brillent loin en dessous. Pluie légère, reflets, brume. Trois drones de poursuite le suivent. Plan large : le coursier surgit sur le pont de verre à pleine vitesse. Les drones entrent derrière, se rapprochant rapidement. Plan de suivi au niveau des pieds : le verre se fissure sous chaque pas. Les panneaux se brisent et tombent dans la ville.
+
+Le coursier saute par-dessus les trous sans s'arrêter. Plan extérieur latéral : le pont s'effondre derrière lui panneau par panneau. Le verre tombe, les cadres métalliques se plient, les lumières d'avertissement clignotent. Le coursier utilise le cadre étroit pour garder son équilibre tandis que les drones se faufilent à travers les débris. Dernières 5 secondes : l'effondrement devient fou. Une réaction en chaîne brise le pont.
+
+D'énormes sections tombent, ne laissant que de fines poutres métalliques. Le coursier court sur le cadre exposé, saute un énorme trou, glisse un instant, se reprend, puis effectue un dernier saut désespéré vers la plateforme éloignée.
+
+Moment final : il s'écrase sur la plateforme et glisse en toute sécurité dans le prochain gratte-ciel alors que le pont se désintègre derrière lui.
+
+Style : hyper-réaliste, cinématographique, intense, rapide mais lisible, grande hauteur, verre transparent, reflets néon, pas de visage visible, pas de texte, pas de logos, pas de style cartoon, pas de ralenti. Garder les proportions. Garder le style et les caractéristiques. Format d'image 16:9.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065953961564160020.json)
+
+```text
+---
+ハイパーリアリスティックなシネマティックアクション、15秒、16:9。夜、未来的な都市。
+
+スリムなヘルメット付きスーツを着たクーリエが、2つの高層ビルをつなぐ透明なガラスの橋を駆け抜ける。遠く下にはネオンの街灯が輝いている。小雨、反射、霧。3台の追跡ドローンが後ろから追いかける。ワイドショット：クーリエが全速力でガラスの橋に飛び出す。
+ドローンが後ろから入り、急速に迫る。低い足元のトラッキングショット：一歩ごとにガラスがひび割れる。パネルが壊れ、街に落ちていく。
+
+クーリエは止まらずに隙間を飛び越える。外側からのサイドショット：橋が彼の後ろでパネルごとに崩壊していく。ガラスが落ち、金属フレームが曲がり、警告灯がちらつく。クーリエは狭いフレームをバランスに使いながら、ドローンが瓦礫を縫って進む。最後の5秒：崩壊が激化する。連鎖反応で橋が粉々になる。
+
+巨大なセクションが落ち、細い金属の梁だけが残る。クーリエは露出したフレームを駆け抜け、大きな隙間を飛び越え、一瞬滑るが、持ち直して、最後の必死のジャンプで遠くのプラットフォームに到達する。
+
+最後の瞬間：彼はプラットフォームに飛び込み、次の高層ビルに安全に滑り込むと、橋は彼の後ろで崩壊する。
+
+スタイル：ハイパーリアリスティック、シネマティック、激しい、速いが読みやすい、高さが強調された、透明なガラス、ネオンの反射、顔が見えない、テキストなし、ロゴなし、カートゥーンスタイルなし、スローモーションなし。プロポーションを保つ。スタイルと特徴を維持。アスペクト比16:9。
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065953961564160020.json)
+
+```text
+Ação cinematográfica hiper-realista, 15 segundos, 16:9. Noite, cidade futurista.
+
+Um mensageiro em um traje elegante com capacete corre por uma ponte de vidro transparente entre dois arranha-céus. As luzes de néon da cidade brilham muito abaixo. Chuva leve, reflexos, névoa. Três drones de perseguição o seguem. Plano geral: o mensageiro irrompe na ponte de vidro a toda velocidade. Drones entram atrás, fechando rapidamente. Plano de rastreamento ao nível dos pés: o vidro racha a cada passo. Painéis quebram e caem na cidade.
+
+O mensageiro salta sobre as lacunas sem parar. Plano lateral externo: a ponte desmorona atrás dele painel por painel. Vidro cai, estruturas metálicas se dobram, luzes de aviso piscam. O mensageiro usa a estrutura estreita para se equilibrar enquanto os drones se desviam dos destroços. Últimos 5 segundos: o colapso se torna insano. Uma reação em cadeia destrói a ponte.
+
+Grandes seções caem, restando apenas finas vigas de metal. O mensageiro corre pela estrutura exposta, salta um enorme vão, escorrega por um instante, se recupera e então faz um salto final desesperado para a plataforma distante.
+
+Momento final: ele cai na plataforma e desliza em segurança para o próximo arranha-céu enquanto a ponte se desfaz atrás dele.
+
+Estilo: hiper-realista, cinematográfico, intenso, rápido mas legível, grande altura, vidro transparente, reflexos de néon, sem rosto visível, sem texto, sem logos, sem estilo de desenho animado, sem câmera lenta. Manter proporções. Manter estilo e características. Proporção de aspecto 16:9.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065953961564160020.json)
+
+```text
+---
+超现实主义电影动作，15秒，16:9。夜晚，未来城市。
+
+一名快递员穿着流线型头盔套装，奔跑在两座摩天大楼之间的透明玻璃桥上。远处霓虹灯光闪烁。细雨，反射，薄雾。三架追踪无人机在后面追赶。广角镜头：快递员全速冲上玻璃桥。
+无人机紧随其后，迅速逼近。低角度脚步追踪镜头：玻璃在每一步下开裂。面板破裂，坠落到城市中。
+
+快递员不停地跳过裂缝。侧面外部镜头：桥在他身后逐块崩塌。玻璃掉落，金属框架弯曲，警示灯闪烁。快递员利用狭窄的框架保持平衡，而无人机在碎片中穿梭。最后5秒：崩塌变得疯狂。连锁反应使桥梁破碎。
+
+巨大的部分掉落，只剩下细金属梁。快递员在暴露的框架上飞奔，跳过一个巨大的裂缝，滑了一瞬间，恢复平衡，然后做出最后一次绝望的跳跃到远处的平台。
+
+最后一刻：他撞上平台，安全滑入下一个摩天大楼，而桥在他身后崩溃。
+
+风格：超现实主义，电影感，紧张，快速但可读，强烈的高度，透明玻璃，霓虹反射，没有可见的面孔，没有文字，没有标志，没有卡通风格，没有慢动作。保持比例。保持风格和特征。宽高比16:9。
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065953961564160020.json)
+
+```text
+---
+초현실적인 시네마틱 액션, 15초, 16:9. 밤, 미래 도시.
+
+세련된 헬멧을 쓴 배달원이 두 마천루 사이의 투명한 유리 다리를 달린다. 네온 도시의 불빛이 아래에서 빛난다. 가벼운 비, 반사, 안개. 세 대의 추격 드론이 뒤쫓는다. 와이드 샷: 배달원이 유리 다리 위로 전속력으로 뛰어든다.
+드론들이 뒤따라 들어오며 빠르게 접근한다. 낮은 발레벨 추적 샷: 유리가 발 아래에서 갈라진다. 패널이 부서져 도시로 떨어진다.
+
+배달원은 멈추지 않고 틈을 뛰어넘는다. 측면 외부 샷: 다리가 패널 하나씩 무너진다. 유리가 떨어지고 금속 프레임이 휘어지며 경고등이 깜빡인다. 배달원은 좁은 프레임을 이용해 균형을 잡으며 드론은 파편 사이를 누빈다. 마지막 5초: 붕괴가 미쳐간다. 연쇄 반응으로 다리가 산산조각 난다.
+
+거대한 부분이 떨어져 나가고 얇은 금속 빔만 남는다. 배달원은 노출된 프레임을 가로질러 달리고, 거대한 틈을 뛰어넘고, 잠시 미끄러지지만 회복하여 마지막으로 절박하게 먼 플랫폼으로 뛰어든다.
+
+마지막 순간: 그가 플랫폼에 부딪혀 안전하게 다음 마천루로 미끄러져 들어가고, 다리는 그 뒤에서 부서진다.
+
+스타일: 초현실적, 시네마틱, 강렬함, 빠르지만 읽기 쉬움, 높은 높이, 투명한 유리, 네온 반사, 얼굴 보이지 않음, 텍스트 없음, 로고 없음, 만화 스타일 없음, 슬로우 모션 없음. 비율 유지. 스타일과 특징 유지. 화면 비율 16:9.
+---
+```
+
+## 出处与许可
+
+- 原作者：[DeCat](https://x.com/DeCat2025) · 原帖：<https://x.com/DeCat2025/status/2065953961564160020>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065953961564160020.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

@@ -1,0 +1,335 @@
+---
+id: "renoise-2043188961775063214"
+title: "15-second cinematic Japanese drama pure love ambiguous short film…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "甜宠恋爱"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Story", "Drama", "Photoreal", "Realistic World", "Slow-Mo"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2043188961775063214.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "aditii"
+original_author_url: "https://x.com/aditiitwt"
+original_post_url: "https://x.com/aditiitwt/status/2043188961775063214"
+published: "2026-04-12"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# 15-second cinematic Japanese drama pure love ambiguous short film…
+
+## 提示词（English）
+
+```text
+15-second cinematic Japanese drama pure love ambiguous short film, ultra-realistic photorealistic quality. Afternoon empty classroom bathed in warm golden sunlight streaming through Venetian blinds onto rows of old wooden desks. Delicate dust particles drift slowly in the light beams. Extremely natural micro-movements, breathing, and eye contact tension. Characters maintain perfect facial consistency, clothing, and hairstyle throughout
+no deformation, no drifting, no artifacts. Subtle realistic chest rises and falls synchronized with breathing. Shallow depth of field with creamy bokeh background, warm film grain, razor-sharp 8K. Japanese youth-style restrained, heart-fluttering, almost suffocating romantic atmosphere.0-4 seconds: Extremely slow push-in shot from medium desk view to side-profile close-up of the two students sitting side by side. Pure and innocent girl in summer school uniform, head slightly lowered as she focuses on writing notes. Long black hair with soft strands gently lifted by a breeze near her ear. Long eyelashes casting delicate shadows. Naturally flushed, soft skin. Corners of her mouth unconsciously curve upward in quiet concentration. Light, even breathing.4-9 seconds: Cut to the boy in close-up. School uniform collar slightly loosened, elbow on the desk, secretly turning his head to gaze at her. Eyes full of gentle, restrained affection and tenderness. Pupils slightly dilated. Adam’s apple bobs softly. Suddenly noticing her pen pause, he panics and quickly turns back to pretend to look at his own notes. Ear tips flush with a faint red. Fingertips tremble slightly as he grips the pen. Occasionally steals a glance at her from under his bangs. Breathing becomes slightly unsteady, lips pressed tightly as he tries to stay calm.9-15 seconds: Extreme dual close-up of both faces in the same frame, slow-motion. Their eyes suddenly meet. The girl slowly turns her head, first with a hazy, surprised expression, then quickly lowers her gaze in embarrassment for 0.3 seconds, gently biting her lower lip. Cheeks and earlobes instantly bloom with cherry-blossom pink. Moist eyelashes timidly lift as she looks back at him. At the same time, she shyly whispers in a soft voice, “……What are you looking at?” The boy freezes completely, pupils dilating, stunned for 0.4 seconds, then stammers in a flustered whisper, “N… nothing.” The girl bites her lip again, steals another glance at him, and whispers even softer, “……You’re lying.” The boy pauses, then lets out a gentle sigh and replies tenderly, “……Just looking at you.” His mouth slowly curves into a shy, gentle, lopsided smile. Fine smile lines appear at the corners of his eyes. Breathing noticeably deeper.  An invisible electric current seems to crackle between their faces, pulling them together with thick, ambiguous tension. They share each other’s breath and warmth. The background completely melts into layered creamy dreamlike light spots and a warm glowing haze filled with floating fine particles.Lip sync is perfectly natural and precise. Emotional micro-expressions and breathing are synchronized. Dialogue delivered in low-energy, shy whispers with natural pauses of 200 - 400 milliseconds. Mouths move only when speaking
+no exaggeration, no robotic feel, perfectly natural lip-sync with authentic emotion.Overall audio: Distant summer cicada sounds faintly in the background, soft scratching of pen on paper, almost inaudible low-frequency heartbeats from both, and finally a gentle fade-in of airy piano. Dialogue is completely natural whispered lines embedded in the scene. Girl’s voice is soft, sweet, and shy. Boy’s voice shifts from panicked stuttering to gentle warmth.Throughout the entire clip, characters remain fully consistent in identity. Realistic subtle head tilts, eye movements, and synchronized breathing. No text, watermarks, or subtitles. Pure Japanese teenage secret crush, heart-fluttering suspense.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2043188961775063214.json)
+
+```text
+---
+Corto cinematográfico japonés de 15 segundos de drama de amor puro y ambiguo, calidad ultra-realista y fotorrealista. Aula vacía por la tarde bañada por la cálida luz dorada del sol que se filtra a través de persianas venecianas sobre filas de viejos escritorios de madera. Delicadas partículas de polvo flotan lentamente en los rayos de luz. Micro-movimientos extremadamente naturales, tensión en la respiración y el contacto visual. Los personajes mantienen una consistencia facial perfecta, así como en la ropa y el peinado durante toda la escena, sin deformaciones, sin desplazamientos, sin artefactos. Sutiles elevaciones del pecho realistas sincronizadas con la respiración. Profundidad de campo reducida con un fondo de bokeh cremoso, grano de película cálido, 8K nítido. Estilo juvenil japonés contenido, romántico y casi asfixiante.0-4 segundos: Toma de acercamiento extremadamente lenta desde una vista media del escritorio hasta un primer plano de perfil lateral de los dos estudiantes sentados uno al lado del otro. Chica pura e inocente con uniforme escolar de verano, cabeza ligeramente inclinada mientras se concentra en escribir notas. Cabello negro largo con mechones suaves levantados suavemente por una brisa cerca de su oreja. Pestañas largas proyectando sombras delicadas. Piel naturalmente sonrojada y suave. Las comisuras de su boca se curvan inconscientemente hacia arriba en una concentración tranquila. Respiración ligera y uniforme.4-9 segundos: Corte al chico en primer plano. Cuello del uniforme escolar ligeramente desabrochado, codo sobre el escritorio, girando secretamente la cabeza para mirarla. Ojos llenos de afecto y ternura contenida. Pupilas ligeramente dilatadas. La nuez de Adán se mueve suavemente. Al notar que su bolígrafo se detiene, entra en pánico y rápidamente gira de nuevo para fingir que mira sus propias notas. Las puntas de las orejas se sonrojan con un leve rojo. Las yemas de los dedos tiemblan ligeramente mientras sostiene el bolígrafo. Ocasionalmente le lanza una mirada furtiva desde debajo de su flequillo. La respiración se vuelve ligeramente inestable, los labios se presionan firmemente mientras intenta mantenerse calmado.9-15 segundos: Primer plano extremo dual de ambos rostros en el mismo encuadre, cámara lenta. Sus ojos se encuentran de repente. La chica gira lentamente la cabeza, primero con una expresión nebulosa y sorprendida, luego rápidamente baja la mirada con vergüenza durante 0.3 segundos, mordiendo suavemente su labio inferior. Las mejillas y los lóbulos de las orejas florecen instantáneamente con un rosa de flor de cerezo. Las pestañas húmedas se levantan tímidamente mientras lo mira de nuevo. Al mismo tiempo, susurra tímidamente con una voz suave, "……¿Qué estás mirando?" El chico se congela completamente, las pupilas se dilatan, aturdido durante 0.4 segundos, luego balbucea en un susurro nervioso, "N… nada." La chica muerde su labio de nuevo, le lanza otra mirada furtiva y susurra aún más suave, "……Estás mintiendo." El chico se detiene, luego deja escapar un suave suspiro y responde tiernamente, "……Solo te estoy mirando." Su boca se curva lentamente en una tímida y gentil sonrisa ladeada. Finas líneas de sonrisa aparecen en las comisuras de sus ojos. Respiración notablemente más profunda. Una corriente eléctrica invisible parece chisporrotear entre sus rostros, atrayéndolos con una tensión espesa y ambigua. Comparten el aliento y el calor del otro. El fondo se derrite completamente en manchas de luz cremosas y oníricas en capas y una neblina cálida resplandeciente llena de finas partículas flotantes. La sincronización labial es perfectamente natural y precisa. Las micro-expresiones emocionales y la respiración están sincronizadas. El diálogo se entrega en susurros tímidos y de baja energía con pausas naturales de 200 - 400 milisegundos. Las bocas se mueven solo al hablar, sin exageración, sin sensación robótica, sincronización labial perfectamente natural con emoción auténtica. Audio general: Sonidos distantes de cigarras de verano se escuchan débilmente en el fondo, suave rasguño de bolígrafo sobre papel, latidos del corazón de baja frecuencia casi inaudibles de ambos, y finalmente una suave entrada de piano aéreo. El diálogo son líneas susurradas completamente naturales incrustadas en la escena. La voz de la chica es suave, dulce y tímida. La voz del chico cambia de tartamudeo nervioso a calidez gentil. Durante todo el clip, los personajes permanecen completamente consistentes en identidad. Sutiles inclinaciones de cabeza realistas, movimientos oculares y respiración sincronizada. Sin texto, marcas de agua o subtítulos. Puro enamoramiento secreto adolescente japonés, suspense que hace latir el corazón.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2043188961775063214.json)
+
+```text
+---
+Film dramatique japonais cinématographique de 15 secondes, amour pur, film court ambigu, qualité ultra-réaliste photoréaliste. Salle de classe vide l'après-midi baignée de la chaude lumière dorée du soleil traversant des stores vénitiens sur des rangées de vieux bureaux en bois. Des particules de poussière délicates dérivent lentement dans les faisceaux lumineux. Micro-mouvements extrêmement naturels, respiration et tension du contact visuel. Les personnages conservent une cohérence parfaite du visage, des vêtements et de la coiffure tout au long
+pas de déformation, pas de dérive, pas d'artefacts. Subtils mouvements réalistes de la poitrine synchronisés avec la respiration. Faible profondeur de champ avec arrière-plan bokeh crémeux, grain de film chaud, 8K d'une netteté incroyable. Style de jeunesse japonaise retenu, atmosphère romantique palpitante, presque suffocante.0-4 secondes : Plan de poussée extrêmement lent de la vue moyenne du bureau à un gros plan de profil des deux étudiants assis côte à côte. Fille pure et innocente en uniforme d'été scolaire, tête légèrement baissée alors qu'elle se concentre sur la prise de notes. Longs cheveux noirs avec des mèches douces doucement soulevées par une brise près de son oreille. Longs cils projetant des ombres délicates. Peau naturellement rosée et douce. Les coins de sa bouche se courbent inconsciemment vers le haut dans une concentration silencieuse. Respiration légère et régulière.4-9 secondes : Coupure sur le garçon en gros plan. Col de l'uniforme scolaire légèrement desserré, coude sur le bureau, tournant secrètement la tête pour la regarder. Yeux pleins d'affection douce et retenue. Pupilles légèrement dilatées. Pomme d'Adam qui bouge doucement. Remarquant soudain que son stylo s'arrête, il panique et se retourne rapidement pour faire semblant de regarder ses propres notes. Les pointes des oreilles rougissent légèrement. Les bouts des doigts tremblent légèrement alors qu'il tient le stylo. Il jette de temps en temps un coup d'œil à elle sous sa frange. La respiration devient légèrement instable, les lèvres serrées alors qu'il essaie de rester calme.9-15 secondes : Gros plan extrême des deux visages dans le même cadre, au ralenti. Leurs yeux se rencontrent soudainement. La fille tourne lentement la tête, d'abord avec une expression floue et surprise, puis baisse rapidement le regard avec embarras pendant 0,3 seconde, mordillant doucement sa lèvre inférieure. Joues et lobes d'oreilles s'épanouissent instantanément d'un rose fleur de cerisier. Les cils humides se soulèvent timidement alors qu'elle le regarde à nouveau. En même temps, elle murmure timidement d'une voix douce, «……Qu'est-ce que tu regardes ?» Le garçon se fige complètement, les pupilles dilatées, stupéfait pendant 0,4 seconde, puis balbutie dans un murmure paniqué, «R… rien.» La fille mord à nouveau sa lèvre, lui jette un autre coup d'œil et murmure encore plus doucement, «……Tu mens.» Le garçon s'arrête, puis laisse échapper un doux soupir et répond tendrement, «……Juste te regarder.» Sa bouche se courbe lentement en un sourire timide, doux et en coin. De fines rides de sourire apparaissent aux coins de ses yeux. Respiration sensiblement plus profonde. Un courant électrique invisible semble crépiter entre leurs visages, les attirant ensemble avec une tension épaisse et ambiguë. Ils partagent leur souffle et leur chaleur. L'arrière-plan se fond complètement en taches lumineuses crémeuses superposées et une brume chaude et lumineuse remplie de fines particules flottantes. La synchronisation labiale est parfaitement naturelle et précise. Les micro-expressions émotionnelles et la respiration sont synchronisées. Dialogue livré en chuchotements timides à faible énergie avec des pauses naturelles de 200 à 400 millisecondes. Les bouches ne bougent que lorsqu'elles parlent
+pas d'exagération, pas de sensation robotique, synchronisation labiale parfaitement naturelle avec une émotion authentique. Audio global : Sons lointains de cigales d'été faiblement en arrière-plan, doux grattement de stylo sur papier, battements de cœur à basse fréquence presque inaudibles des deux, et enfin une douce montée de piano aérien. Dialogue composé de répliques chuchotées complètement naturelles intégrées dans la scène. La voix de la fille est douce, sucrée et timide. La voix du garçon passe du bégaiement paniqué à une chaleur douce. Tout au long du clip, les personnages restent pleinement cohérents dans leur identité. Inclinaisons subtiles de la tête réalistes, mouvements des yeux et respiration synchronisée. Pas de texte, de filigranes ou de sous-titres. Pur béguin secret d'adolescents japonais, suspense palpitant.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] 1️⃣ Commencez ici
+
+Allez à → https://t.co/7MuYdWisZN
+
+Depuis le tableau de bord du modèle, choisissez Seedance 2.0.
+
+2️⃣ Définissez votre personnage
+
+Téléchargez jusqu'à 9 images + 3 références vidéo.
+
+Cela permet de garder le personnage cohérent et aligné avec votre idée.
+
+3️⃣ Dirigez la scène
+
+Écrivez votre prompt comme une description de scène de film.
+
+Exemple :
+
+“Transformation de tenue d'espion, éclairage cinématographique, révélation au ralenti, rue de ville couverte de pluie, qualité IMAX.”
+
+4️⃣ Générez → peaufinez
+
+Générez la vidéo.
+
+Puis peaufinez les résultats simplement en éditant le prompt en anglais simple
+
+[Fil 2] Les outils de conception vous aident à créer
+@lovart_ai va un pas plus loin
+il livre lui-même le design
+
+Construit comme le premier agent de conception IA alimenté par l'intuition créative
+
+Et maintenant Seedance 2, leur dernier modèle vidéo, pousse la création vidéo IA à un niveau supérieur.
+
+Allez l'essayer maintenant sur https://t.co/7MuYdWisZN
+
+Taguez @lovart_ai dans ce que vous créez
+
+#Lovart #Seedance2
+
+[Fil 3] Prompt :
+
+15-second cinematic Japanese drama pure love ambiguous short film, ultra-realistic photorealistic quality. Afternoon empty classroom bathed in warm golden sunlight streaming through Venetian blinds onto rows of old wooden desks. Delicate dust particles drift slowly in the light beams. Extremely natural micro-movements, breathing, and eye contact tension. Characters maintain perfect facial consistency, clothing, and hairstyle throughout
+no deformation, no drifting, no artifacts. Subtle realistic chest rises and falls synchronized with breathing. Shallow depth of field with creamy bokeh background, warm film grain, razor-sharp 8K. Japanese youth-style restrained, heart-fluttering, almost suffocating romantic atmosphere.0-4 seconds: Extremely slow push-in shot from medium desk view to side-profile close-up of the two students sitting side by side. Pure and innocent girl in summer school uniform, head slightly lowered as she focuses on writing notes. Long black hair with soft strands gently lifted by a breeze near her ear. Long eyelashes casting delicate shadows. Naturally flushed, soft skin. Corners of her mouth unconsciously curve upward in quiet concentration. Light, even breathing.4-9 seconds: Cut to the boy in close-up. School uniform collar slightly loosened, elbow on the desk, secretly turning his head to gaze at her. Eyes full of gentle, restrained affection and tenderness. Pupils slightly dilated. Adam’s apple bobs softly. Suddenly noticing her pen pause, he panics and quickly turns back to pretend to look at his own notes. Ear tips flush with a faint red. Fingertips tremble slightly as he grips the pen. Occasionally steals a glance at her from under his bangs. Breathing becomes slightly unsteady, lips pressed tightly as he tries to stay calm.9-15 seconds: Extreme dual close-up of both faces in the same frame, slow-motion. Their eyes suddenly meet. The girl slowly turns her head, first with a hazy, surprised expression, then quickly lowers her gaze in embarrassment for 0.3 seconds, gently biting her lower lip. Cheeks and earlobes instantly bloom with cherry-blossom pink. Moist eyelashes timidly lift as she looks back at him. At the same time, she shyly whispers in a soft voice, “……What are you looking at?” The boy freezes completely, pupils dilating, stunned for 0.4 seconds, then stammers in a flustered whisper, “N… nothing.” The girl bites her lip again, steals another glance at him, and whispers even softer, “……You’re lying.” The boy pauses, then lets out a gentle sigh and replies tenderly, “……Just looking at you.” His mouth slowly curves into a shy, gentle, lopsided smile. Fine smile lines appear at the corners of his eyes. Breathing noticeably deeper.  An invisible electric current seems to crackle between their faces, pulling them together with thick, ambiguous tension. They share each other’s
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2043188961775063214.json)
+
+```text
+---
+15秒のシネマティックな日本のドラマ、純愛の曖昧な短編映画、超リアルなフォトリアリスティック品質。午後の空っぽの教室に、ベネチアンブラインドを通して暖かい黄金の陽光が差し込み、古い木製の机の列に照らされる。光の中で繊細な埃の粒子がゆっくりと漂う。極めて自然な微細な動き、呼吸、そして目の接触の緊張感。キャラクターは完璧な顔の一貫性、服装、髪型を維持し、変形や漂流、アーティファクトは一切なし。呼吸に同期した微妙なリアルな胸の上下。浅い被写界深度とクリーミーなボケの背景、暖かいフィルムグレイン、シャープな8K。日本の若者スタイルの抑制された、心がときめく、ほとんど息が詰まるようなロマンチックな雰囲気。0-4秒：中程度の机の視点から、並んで座る二人の学生の横顔のクローズアップへの非常にスローなプッシュインショット。夏の制服を着た純粋で無垢な少女、ノートを書くことに集中して頭を少し下げている。長い黒髪が耳の近くでそよ風にそっと持ち上げられる。長いまつげが繊細な影を落とす。自然に赤らんだ柔らかい肌。口角が無意識に静かに上がる集中。軽やかで均一な呼吸。4-9秒：少年のクローズアップにカット。制服の襟が少し緩み、机に肘をついて、彼女をこっそりと見つめる。目には優しく抑えられた愛情と優しさが満ちている。瞳孔がわずかに拡大。喉仏が柔らかく動く。彼女のペンが止まるのに気づき、慌てて自分のノートを見ているふりをする。耳の先がかすかに赤くなる。ペンを握る指先がわずかに震える。時折、前髪の下から彼女を盗み見る。呼吸が少し不安定になり、落ち着こうと唇をきつく結ぶ。9-15秒：同じフレーム内の両方の顔の極端なクローズアップ、スローモーション。彼らの目が突然合う。少女はゆっくりと頭を回し、最初はぼんやりと驚いた表情を浮かべ、次に0.3秒間恥ずかしそうに視線を下げ、そっと下唇を噛む。頬と耳たぶが瞬時に桜色に染まる。湿ったまつげが恥ずかしそうに持ち上がり、彼を見返す。同時に、彼女は柔らかい声で恥ずかしそうにささやく。「……何を見ているの？」少年は完全に凍りつき、瞳孔が拡大し、0.4秒間驚いてどもりながらささやく。「な…何でもない。」少女は再び唇を噛み、彼をもう一度盗み見て、さらに柔らかくささやく。「……嘘つき。」少年は一瞬止まり、優しくため息をついて優しく答える。「……ただ君を見ているだけ。」彼の口元はゆっくりと恥ずかしそうに優しく歪んだ笑顔に変わる。目の端に細かい笑いじわが現れる。呼吸が明らかに深くなる。彼らの顔の間に見えない電流が流れ、濃厚で曖昧な緊張感で引き寄せられる。彼らはお互いの息と温もりを共有する。背景は完全にクリーミーな夢のような光のスポットと、浮遊する細かい粒子で満たされた暖かい輝く霞に溶け込む。リップシンクは完全に自然で正確。感情的な微細な表情と呼吸が同期している。対話は低エネルギーで恥ずかしそうなささやき声で、200 - 400ミリ秒の自然な間隔で行われる。口は話すときだけ動く
+誇張なし、ロボット的な感じなし、完璧に自然なリップシンクで本物の感情。全体のオーディオ：背景にかすかに聞こえる夏の蝉の音、紙にペンが擦れる柔らかな音、ほとんど聞こえない低周波の心拍音、そして最後に空気のようなピアノの穏やかなフェードイン。対話はシーンに埋め込まれた完全に自然なささやき声。少女の声は柔らかく、甘く、恥ずかしそう。少年の声は慌てたどもりから優しい温かさに変わる。クリップ全体を通して、キャラクターは完全に一貫したアイデンティティを保つ。リアルな微細な頭の傾き、目の動き、同期した呼吸。テキスト、透かし、字幕なし。純粋な日本のティーンエイジャーの秘密の片思い、心がときめくサスペンス。
+
+--- THREAD CONTINUATION ---
+[Thread 1] 1️⃣ Start here
+
+Go to → https://t.co/7MuYdWisZN
+
+From the model dashboard, pick Seedance 2.0.
+
+2️⃣ Define your character
+
+Upload up to 9 images + 3 video references.
+
+This keeps the character consistent and aligned with your idea.
+
+3️⃣ Direct the scene
+
+Write your prompt like a movie scene description.
+
+Example:
+
+“Spy outfit transformation, cinematic lighting, slow motion reveal, rain-covered city street, IMAX quality.”
+
+4️⃣ Generate → refine
+
+Generate the video.
+
+Then refine the results simply by editing the prompt in plain English
+
+[Thread 2] Design tools help you create
+@lovart_ai goes a step further
+it delivers the design itself
+
+Built as the first AI design agent powered by creative intuition
+
+And now Seedance 2, their latest video model, is pushing AI video creation to the next level.
+
+Go try it now at https://t.co/7MuYdWisZN
+
+Tag @lovart_ai in what you make
+
+#Lovart #Seedance2
+
+[Thread 3] Prompt :
+
+15-second cinematic Japanese drama pure love ambiguous short film, ultra-realistic photorealistic quality. Afternoon empty classroom bathed in warm golden sunlight streaming through Venetian blinds onto rows of old wooden desks. Delicate dust particles drift slowly in the light beams. Extremely natural micro-movements, breathing, and eye contact tension. Characters maintain perfect facial consistency, clothing, and hairstyle throughout
+no deformation, no drifting, no artifacts. Subtle realistic chest rises and falls synchronized with breathing. Shallow depth of field with creamy bokeh background, warm film grain, razor-sharp 8K. Japanese youth-style restrained, heart-fluttering, almost suffocating romantic atmosphere.0-4 seconds: Extremely slow push-in shot from medium desk view to side-profile close-up of the two students sitting side by side. Pure and innocent girl in summer school uniform, head slightly lowered as she focuses on writing notes. Long black hair with soft strands gently lifted by a breeze near her ear. Long eyelashes casting delicate shadows. Naturally flushed, soft skin. Corners of her mouth unconsciously curve upward in quiet concentration. Light, even breathing.4-9 seconds: Cut to the boy in close-up. School uniform collar slightly loosened, elbow on the desk, secretly turning his head to gaze at her. Eyes full of gentle, restrained affection and tenderness. Pupils slightly dilated. Adam’s apple bobs softly. Suddenly noticing her pen pause, he panics and quickly turns back to pretend to look at his own notes. Ear tips flush with a faint red. Fingertips tremble slightly as he grips the pen. Occasionally steals a glance at her from under his bangs. Breathing becomes slightly unsteady, lips pressed tightly as he tries to stay calm.9-15 seconds: Extreme dual close-up of both faces in the same frame, slow-motion. Their eyes suddenly meet. The girl slowly
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2043188961775063214.json)
+
+```text
+---
+15초 시네마틱 일본 드라마 순수한 사랑의 애매한 단편 영화, 초현실적이고 포토리얼리스틱한 품질. 오후의 빈 교실에 베네치아 블라인드를 통해 따뜻한 황금빛 햇살이 오래된 나무 책상 줄에 비추고 있다. 섬세한 먼지 입자가 빛 속에서 천천히 떠다닌다. 극도로 자연스러운 미세 움직임, 호흡, 그리고 눈맞춤의 긴장감. 캐릭터들은 얼굴, 의상, 헤어스타일의 완벽한 일관성을 유지하며 변형, 드리프트, 아티팩트가 없다. 호흡과 동기화된 미세한 가슴의 오르내림. 얕은 심도의 크리미한 보케 배경, 따뜻한 필름 그레인, 레이저처럼 선명한 8K. 일본 청소년 스타일의 절제된, 가슴 설레는, 거의 숨막히는 로맨틱한 분위기.0-4초: 중간 책상 뷰에서 두 학생이 나란히 앉아 있는 측면 프로필 클로즈업으로 극도로 느린 푸시인 샷. 여름 교복을 입은 순수하고 순진한 소녀가 노트 필기에 집중하며 머리를 약간 숙이고 있다. 긴 검은 머리카락이 귀 근처에서 부드럽게 바람에 날린다. 긴 속눈썹이 섬세한 그림자를 드리운다. 자연스럽게 붉어진 부드러운 피부. 입꼬리가 조용히 집중하며 무의식적으로 올라간다. 가벼운, 고른 호흡.4-9초: 소년의 클로즈업으로 컷. 교복 칼라가 약간 느슨해지고, 책상에 팔꿈치를 올리고, 몰래 그녀를 바라본다. 부드럽고 절제된 애정과 부드러움이 가득한 눈. 동공이 약간 확장된다. 아담스 애플이 부드럽게 움직인다. 그녀의 펜이 멈추는 것을 갑자기 알아차리고, 당황하여 재빨리 자신의 노트를 보는 척 돌아선다. 귀 끝이 희미하게 붉어진다. 펜을 쥐고 있는 손끝이 약간 떨린다. 가끔 앞머리 아래로 그녀를 몰래 훔쳐본다. 호흡이 약간 불안정해지고, 입술을 꽉 다물며 침착하려고 한다.9-15초: 두 얼굴이 같은 프레임에 극도로 가까운 클로즈업, 슬로우 모션. 그들의 눈이 갑자기 마주친다. 소녀는 천천히 고개를 돌리며 처음에는 흐릿하고 놀란 표정을 짓다가 0.3초 동안 당황하여 시선을 빠르게 내리고 아랫입술을 살짝 깨문다. 볼과 귓불이 즉시 벚꽃 핑크로 물든다. 촉촉한 속눈썹이 수줍게 들리며 그를 다시 바라본다. 동시에 그녀는 부드러운 목소리로 수줍게 속삭인다, “……뭘 보고 있어?” 소년은 완전히 얼어붙고, 동공이 확장되며, 0.4초 동안 놀라서 더듬거리며 속삭인다, “아… 아무것도.” 소녀는 다시 입술을 깨물고, 그를 다시 훔쳐보며 더 부드럽게 속삭인다, “……거짓말이야.” 소년은 잠시 멈추고, 부드럽게 한숨을 내쉬며 다정하게 대답한다, “……그냥 너를 보고 있어.” 그의 입은 천천히 수줍고 부드러운, 한쪽으로 기운 미소로 굽어진다. 눈가에 미세한 웃음 주름이 생긴다. 호흡이 눈에 띄게 깊어진다. 보이지 않는 전류가 그들의 얼굴 사이에서 튀어 나와 두 사람을 두꺼운, 애매한 긴장감으로 끌어당긴다. 그들은 서로의 숨결과 따뜻함을 공유한다. 배경은 완전히 층층이 쌓인 크리미한 꿈같은 빛의 점과 떠다니는 미세 입자로 가득 찬 따뜻한 빛의 안개로 녹아든다. 립싱크는 완벽하게 자연스럽고 정확하다. 감정적인 미세 표정과 호흡이 동기화된다. 대화는 자연스러운 200 - 400 밀리초의 멈춤이 있는 낮은 에너지의 수줍은 속삭임으로 전달된다. 입은 말할 때만 움직인다
+과장되지 않고, 로봇 같은 느낌 없이, 완벽하게 자연스러운 립싱크와 진정한 감정.전체 오디오: 배경에서 희미하게 들리는 여름 매미 소리, 종이에 펜이 긁히는 부드러운 소리, 거의 들리지 않는 두 사람의 저주파 심장 박동, 그리고 마침내 공기 같은 피아노의 부드러운 페이드 인. 대화는 장면에 자연스럽게 녹아든 속삭임으로 완전히 자연스럽다. 소녀의 목소리는 부드럽고 달콤하며 수줍다. 소년의 목소리는 당황한 더듬거림에서 부드러운 따뜻함으로 변한다.전체 클립 동안 캐릭터들은 정체성을 완전히 일관되게 유지한다. 현실적인 미세한 머리 기울임, 눈 움직임, 그리고 동기화된 호흡. 텍스트, 워터마크, 자막이 없다. 순수한 일본 청소년의 비밀 짝사랑, 가슴 설레는 서스펜스.
+
+--- THREAD CONTINUATION ---
+[Thread 1] 1️⃣ Start here
+
+Go to → https://t.co/7MuYdWisZN
+
+From the model dashboard, pick Seedance 2.0.
+
+2️⃣ Define your character
+
+Upload up to 9 images + 3 video references.
+
+This keeps the character consistent and aligned with your idea.
+
+3️⃣ Direct the scene
+
+Write your prompt like a movie scene description.
+
+Example:
+
+“Spy outfit transformation, cinematic lighting, slow motion reveal, rain-covered city street, IMAX quality.”
+
+4️⃣ Generate → refine
+
+Generate the video.
+
+Then refine the results simply by editing the prompt in plain English
+
+[Thread 2] Design tools help you create
+@lovart_ai goes a step further
+it delivers the design itself
+
+Built as the first AI design agent powered by creative intuition
+
+And now Seedance 2, their latest video model, is pushing AI video creation to the next level.
+
+Go try it now at https://t.co/7MuYdWisZN
+
+Tag @lovart_ai in what you make
+
+#Lovart #Seedance2
+
+[Thread 3] Prompt :
+
+15-second cinematic Japanese drama pure love ambiguous short film, ultra-realistic photorealistic quality. Afternoon empty classroom bathed in warm golden sunlight streaming through Venetian blinds onto rows of old wooden desks. Delicate dust particles drift slowly in the light beams. Extremely natural micro-movements, breathing, and eye contact tension. Characters maintain perfect facial consistency, clothing, and hairstyle throughout
+no deformation, no drifting, no artifacts. Subtle realistic chest rises and falls synchronized with breathing. Shallow depth of field with creamy bokeh background, warm film grain, razor-sharp 8K. Japanese youth-style restrained, heart-fluttering, almost suffocating romantic atmosphere.0-4 seconds: Extremely slow push-in shot from medium desk view to side-profile close-up of the two students sitting side by side. Pure and innocent girl in summer school uniform, head slightly lowered as she focuses on writing notes. Long black hair with soft strands gently lifted by a breeze near her ear. Long eyelashes casting delicate shadows. Naturally flushed, soft skin. Corners of her mouth unconsciously curve upward in quiet concentration. Light, even breathing.4-9 seconds: Cut to the boy in close-up. School uniform collar slightly loosened, elbow on the desk, secretly turning his head to gaze at her. Eyes full of gentle, restrained affection and tenderness. Pupils slightly dilated. Adam’s apple bobs softly. Suddenly noticing her pen pause, he panics and quickly turns back to pretend to look at his own notes. Ear tips flush with a faint red. Fingertips tremble slightly as he grips the pen. Occasionally steals a glance at her from under his bangs. Breathing becomes slightly unsteady, lips pressed tightly as he tries to stay calm.9-15 seconds: Extreme dual close-up of both faces in the same frame, slow-motion. Their eyes suddenly meet. The girl slowly turns her head, first with a hazy, surprised expression, then quickly lowers her gaze in embarrassment for 0.3 seconds, gently biting her lower lip. Cheeks and earlobes instantly bloom with cherry-blossom pink. Moist eyelashes timidly lift as she looks
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2043188961775063214.json)
+
+```text
+---
+Drama japonês cinematográfico de 15 segundos, amor puro, filme curto ambíguo, qualidade ultra-realista e fotorrealista. Sala de aula vazia à tarde, banhada pela luz dourada quente do sol que atravessa as persianas venezianas sobre fileiras de antigas mesas de madeira. Partículas de poeira delicadas flutuam lentamente nos feixes de luz. Micro-movimentos extremamente naturais, respiração e tensão no contato visual. Personagens mantêm consistência facial perfeita, roupas e penteado ao longo de toda a cena, sem deformações, sem desvios, sem artefatos. Movimentos sutis e realistas do peito sincronizados com a respiração. Profundidade de campo rasa com fundo bokeh cremoso, granulação de filme quente, 8K nítido como uma navalha. Estilo juvenil japonês contido, atmosfera romântica de fazer o coração disparar, quase sufocante.0-4 segundos: Tomada de aproximação extremamente lenta da visão média da mesa para um close-up de perfil lateral dos dois estudantes sentados lado a lado. Garota pura e inocente em uniforme escolar de verão, cabeça ligeiramente abaixada enquanto se concentra em escrever notas. Cabelos longos e pretos com mechas suaves gentilmente levantadas por uma brisa perto de sua orelha. Cílios longos lançando sombras delicadas. Pele naturalmente corada e macia. Cantos da boca se curvam inconscientemente para cima em concentração silenciosa. Respiração leve e uniforme.4-9 segundos: Corte para o garoto em close-up. Gola do uniforme escolar ligeiramente afrouxada, cotovelo sobre a mesa, virando a cabeça secretamente para olhá-la. Olhos cheios de afeto gentil e contido e ternura. Pupilas ligeiramente dilatadas. O pomo de Adão se move suavemente. De repente, ao notar a pausa da caneta dela, ele entra em pânico e rapidamente se vira para fingir olhar suas próprias notas. Pontas das orelhas ficam levemente vermelhas. Pontas dos dedos tremem ligeiramente enquanto segura a caneta. Ocasionalmente, rouba um olhar para ela por baixo da franja. Respiração torna-se ligeiramente instável, lábios pressionados firmemente enquanto tenta manter a calma.9-15 segundos: Close-up extremo duplo de ambos os rostos no mesmo quadro, em câmera lenta. Seus olhos de repente se encontram. A garota lentamente vira a cabeça, primeiro com uma expressão nebulosa e surpresa, depois rapidamente abaixa o olhar em embaraço por 0,3 segundos, mordendo suavemente o lábio inferior. Bochechas e lóbulos das orelhas instantaneamente florescem com um rosa de flor de cerejeira. Cílios úmidos levantam-se timidamente enquanto ela olha de volta para ele. Ao mesmo tempo, ela sussurra timidamente em uma voz suave, “……O que você está olhando?” O garoto congela completamente, pupilas dilatadas, atordoado por 0,4 segundos, então gagueja em um sussurro atrapalhado, “N… nada.” A garota morde o lábio novamente, rouba outro olhar para ele e sussurra ainda mais suave, “……Você está mentindo.” O garoto faz uma pausa, então solta um suspiro suave e responde ternamente, “……Apenas olhando para você.” Sua boca lentamente se curva em um sorriso tímido, gentil e torto. Linhas finas de sorriso aparecem nos cantos dos olhos. Respiração visivelmente mais profunda. Uma corrente elétrica invisível parece crepitar entre seus rostos, puxando-os juntos com uma tensão espessa e ambígua. Eles compartilham a respiração e o calor um do outro. O fundo se dissolve completamente em manchas de luz cremosas e oníricas e uma névoa quente e brilhante cheia de partículas finas flutuantes. Sincronização labial é perfeitamente natural e precisa. Micro-expressões emocionais e respiração são sincronizadas. Diálogo entregue em sussurros de baixa energia e tímidos com pausas naturais de 200 - 400 milissegundos. Bocas se movem apenas ao falar, sem exagero, sem sensação robótica, sincronização labial perfeitamente natural com emoção autêntica.Áudio geral: Sons distantes de cigarras de verão ao fundo, leve arranhar de caneta no papel, batidas cardíacas de baixa frequência quase inaudíveis de ambos, e finalmente um suave fade-in de piano arejado. Diálogo são linhas sussurradas completamente naturais embutidas na cena. A voz da garota é suave, doce e tímida. A voz do garoto muda de gagueira apavorada para calor gentil.Durante todo o clipe, os personagens permanecem totalmente consistentes em identidade. Inclinações sutis e realistas da cabeça, movimentos dos olhos e respiração sincronizada. Sem texto, marcas d'água ou legendas. Paixão secreta adolescente japonesa pura, suspense de fazer o coração disparar.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] 1️⃣ Comece aqui
+
+Vá para → https://t.co/7MuYdWisZN
+
+No painel do modelo, escolha Seedance 2.0.
+
+2️⃣ Defina seu personagem
+
+Carregue até 9 imagens + 3 referências de vídeo.
+
+Isso mantém o personagem consistente e alinhado com sua ideia.
+
+3️⃣ Dirija a cena
+
+Escreva seu prompt como uma descrição de cena de filme.
+
+Exemplo:
+
+“Transformação de traje de espião, iluminação cinematográfica, revelação em câmera lenta, rua da cidade coberta de chuva, qualidade IMAX.”
+
+4️⃣ Gere → refine
+
+Gere o vídeo.
+
+Depois refine os resultados simplesmente editando o prompt em inglês simples
+
+[Tópico 2] Ferramentas de design ajudam você a criar
+@lovart_ai vai um passo além
+ele entrega o próprio design
+
+Construído como o primeiro agente de design de IA movido por intuição criativa
+
+E agora o Seedance 2, seu mais recente modelo de vídeo, está levando a criação de vídeo por IA para o próximo nível.
+
+Vá experimentar agora em https://t.co/7MuYdWisZN
+
+Marque @lovart_ai no que você criar
+
+#Lovart #Seedance2
+
+[Tópico 3] Prompt :
+
+15-second cinematic Japanese drama pure love ambiguous short film, ultra-realistic photorealistic quality. Afternoon empty classroom bathed in warm golden sunlight streaming through Venetian blinds onto rows of old wooden desks. Delicate dust particles drift slowly in the light beams. Extremely natural micro-movements, breathing, and eye contact tension. Characters maintain perfect facial consistency, clothing, and hairstyle throughout
+no deformation, no drifting, no artifacts. Subtle realistic chest rises and falls synchronized with breathing. Shallow depth of field with creamy bokeh background, warm film grain, razor-sharp 8K. Japanese youth-style restrained, heart-fluttering, almost suffocating romantic atmosphere.0-4 seconds: Extremely slow push-in shot from medium desk view to side-profile close-up of the two students sitting side by side. Pure and innocent girl in summer school uniform, head slightly lowered as she focuses on writing notes. Long black hair with soft strands gently lifted by a breeze near her ear. Long eyelashes casting delicate shadows. Naturally flushed, soft skin. Corners of her mouth unconsciously curve upward in quiet concentration. Light, even breathing.4-9 seconds: Cut to the boy in close-up. School uniform collar slightly loosened, elbow on the desk, secretly turning his head to gaze at her. Eyes full of gentle, restrained affection and tenderness. Pupils slightly dilated. Adam’s apple bobs softly. Suddenly noticing her pen pause, he panics and quickly turns back to pretend to look at his own notes. Ear tips flush with a faint red. Fingertips tremble slightly as he grips the pen. Occasionally steals a glance at her from under his bangs. Breathing becomes slightly unsteady, lips pressed tightly as he tries to stay calm.9-15 seconds: Extreme dual close-up of both faces in the same frame, slow-motion. Their eyes suddenly meet. The girl slowly turns her head, first with a hazy, surprised expression, then quickly lowers her gaze in embarrassment for 0.3 seconds, gently biting her lower lip. Cheeks and earlobes instantly bloom with cherry-blossom pink. Moist eyelashes timidly lift as she looks back at him. At the same time, she shyly whispers in a soft voice, “……What are you looking at?” The boy freezes completely, pupils dilating, stunned for 0.4 seconds, then stammers in a flustered whisper, “N… nothing.” The girl bites her lip again, steals another glance at him, and whispers even softer, “……You’re lying.” The boy pauses, then lets out a gentle sigh and replies tenderly, “……Just looking at you.” His mouth slowly curves into a shy, gentle, lopsided smile. Fine smile lines appear at the corners of his eyes. Breathing noticeably deeper.  An invisible electric current seems to crackle between their faces, pulling them together with thick, ambiguous tension. They share each other’s breath and warmth. The background completely melts into layered creamy dreamlike light spots and a warm glowing haze filled with floating fine
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2043188961775063214.json)
+
+```text
+---
+15秒的电影级日本纯爱暧昧短片，超现实的照片级画质。下午空荡荡的教室，温暖的金色阳光透过百叶窗洒在一排排旧木桌上。细微的尘埃在光束中缓缓漂浮。极其自然的微动作、呼吸和眼神接触的紧张感。角色在整个过程中保持完美的面部一致性、服装和发型，无变形、无漂移、无瑕疵。细微的真实胸部起伏与呼吸同步。浅景深，背景呈现奶油般的散景，温暖的胶片颗粒，锐利的8K画质。日本青春风格的克制，令人心动，几乎令人窒息的浪漫氛围。0-4秒：从中景桌面视角极慢推入到两名并肩而坐的学生侧脸特写。纯洁无瑕的女孩穿着夏季校服，微微低头专注于写笔记。长长的黑发，柔软的发丝在耳边被微风轻轻拂起。长长的睫毛投下细腻的阴影。自然红润的柔嫩肌肤。嘴角不自觉地微微上扬，专注而宁静。轻柔均匀的呼吸。4-9秒：切换到男孩的特写。校服领口微微松开，手肘撑在桌上，偷偷转头凝视她。眼中充满温柔克制的爱意和柔情。瞳孔微微放大。喉结轻轻上下移动。突然注意到她的笔停下，他慌忙转回去假装看自己的笔记。耳尖泛起淡淡的红色。握笔的指尖微微颤抖。偶尔从刘海下偷看她。呼吸变得略微不稳，紧抿的嘴唇努力保持冷静。9-15秒：两张脸在同一画面中的极致双重特写，慢动作。他们的目光突然相遇。女孩缓缓转头，先是迷茫惊讶的表情，然后迅速低下目光，害羞地轻咬下唇。脸颊和耳垂瞬间绽放樱花般的粉色。湿润的睫毛羞怯地抬起，回望着他。同时，她羞涩地轻声低语：“……你在看什么？”男孩完全愣住，瞳孔放大，惊讶了0.4秒，然后结结巴巴地低声说：“没……没什么。”女孩再次咬唇，又偷看了他一眼，声音更轻地低语：“……你在撒谎。”男孩停顿了一下，然后轻轻叹了口气，温柔地回答：“……只是看着你。”他的嘴角慢慢弯成一个害羞而温柔的微笑。眼角出现细微的笑纹。呼吸明显加深。一股无形的电流似乎在他们的脸庞间噼啪作响，将他们拉近，充满浓厚的暧昧紧张感。他们共享彼此的呼吸和温暖。背景完全融化成层层奶油般的梦幻光斑和漂浮的细微颗粒构成的温暖光晕。唇同步自然精准。情感微表情和呼吸同步。对话以低能量、害羞的低语呈现，带有200-400毫秒的自然停顿。嘴巴只在说话时移动，无夸张，无机械感，完美自然的唇同步，真实情感。整体音效：背景中隐约传来夏日蝉鸣，笔在纸上轻轻划过的声音，几乎听不见的低频心跳，最后是轻柔的钢琴声渐入。对话完全是嵌入场景中的自然低语。女孩的声音柔和、甜美而害羞。男孩的声音从慌乱结巴转为温柔。整个片段中，角色在身份上保持完全一致。真实的细微头部倾斜、眼神动作和同步呼吸。无文字、水印或字幕。纯粹的日本青少年暗恋，令人心动的悬念。
+
+--- 线程继续 ---
+[线程1] 1️⃣ 从这里开始
+
+前往 → https://t.co/7MuYdWisZN
+
+从模型仪表板中选择 Seedance 2.0。
+
+2️⃣ 定义你的角色
+
+上传最多9张图片 + 3个视频参考。
+
+这可以保持角色的一致性并与您的想法保持一致。
+
+3️⃣ 指导场景
+
+像电影场景描述一样写下你的prompt。
+
+例子：
+
+“间谍装扮变身，电影级灯光，慢动作揭示，雨中的城市街道，IMAX画质。”
+
+4️⃣ 生成 → 精炼
+
+生成视频。
+
+然后只需通过用简单的英语编辑prompt来精炼结果
+
+[线程2] 设计工具帮助你创造
+@lovart_ai 更进一步
+它提供了设计本身
+
+作为第一个由创造性直觉驱动的AI设计代理构建
+
+现在，Seedance 2，他们最新的视频模型，将AI视频创作推向了新的高度。
+
+现在就去试试吧 https://t.co/7MuYdWisZN
+
+在你制作的作品中标记 @lovart_ai
+
+#Lovart #Seedance2
+
+[线程3] Prompt :
+
+15秒的电影级日本纯爱暧昧短片，超现实的照片级画质。下午空荡荡的教室，温暖的金色阳光透过百叶窗洒在一排排旧木桌上。细微的尘埃在光束中缓缓漂浮。极其自然的微动作、呼吸和眼神接触的紧张感。角色在整个过程中保持完美的面部一致性、服装和发型，无变形、无漂移、无瑕疵。细微的真实胸部起伏与呼吸同步。浅景深，背景呈现奶油般的散景，温暖的胶片颗粒，锐利的8K画质。日本青春风格的克制，令人心动，几乎令人窒息的浪漫氛围。0-4秒：从中景桌面视角极慢推入到两名并肩而坐的学生侧脸特写。纯洁无瑕的女孩穿着夏季校服，微微低头专注于写笔记。长长的黑发，柔软的发丝在耳边被微风轻轻拂起。长长的睫毛投下细腻的阴影。自然红润的柔嫩肌肤。嘴角不自觉地微微上扬，专注而宁静。轻柔均匀的呼吸。4-9秒：切换到男孩的特写。校服领口微微松开，手肘撑在桌上，偷偷转头凝视她。眼中充满温柔克制的爱意和柔情。瞳孔微微放大。喉结轻轻上下移动。突然注意到她的笔停下，他慌忙转回去假装看自己的笔记。耳尖泛起淡淡的红色。握笔的指尖微微颤抖。偶尔从刘海下偷看她。呼吸变得略微不稳，紧抿的嘴唇努力保持冷静。9-15秒：两张脸在同一画面中的极致双重特写，慢动作。他们的目光突然相遇。女孩缓缓转头，先是迷茫惊讶的表情，然后迅速低下目光，害羞地轻咬下唇。脸颊和耳垂瞬间绽放樱花般的粉色。湿润的睫毛羞怯地抬起，回望着他。同时，她羞涩地轻声低语：“……你在看什么？”男孩完全愣住，瞳孔放大，惊讶了0.4秒，然后结结巴巴地低声说：“没……没什么。”女孩再次咬唇，又偷看了他一眼，声音更轻地低语：“……你在撒谎。”男孩停顿了一下，然后轻轻叹了口气，温柔地回答：“……只是看着你。”他的嘴角慢慢弯成一个害羞而温柔的微笑。眼角出现细微的笑纹。呼吸明显加深。一股无形的电流似乎在他们的脸庞间噼啪作响，将他们拉近，充
+```
+
+## 出处与许可
+
+- 原作者：[aditii](https://x.com/aditiitwt) · 原帖：<https://x.com/aditiitwt/status/2043188961775063214>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2043188961775063214.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

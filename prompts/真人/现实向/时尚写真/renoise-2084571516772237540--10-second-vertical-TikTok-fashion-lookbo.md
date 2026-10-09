@@ -1,0 +1,298 @@
+---
+id: "renoise-2084571516772237540"
+title: "10-second vertical TikTok fashion lookbook — one fixed-camera full-body shot of…"
+title_en: null
+model: "Seedance 2.0"
+language: "ko"
+medium: "真人"
+direction: "现实向"
+genre: "时尚写真"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Portrait & Fashion", "Fashion", "Photoreal", "Realistic World", "Transformation"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084571516772237540.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "1p(1mpal)"
+original_author_url: "https://x.com/impalementd"
+original_post_url: "https://x.com/impalementd/status/2084571516772237540"
+published: "2026-08-04"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# 10-second vertical TikTok fashion lookbook — one fixed-camera full-body shot of…
+
+## 提示词（한국어）
+
+```text
+10-second vertical TikTok fashion lookbook — one fixed-camera full-body shot of a young female model posing on a city sidewalk in front of a modern building facade, warm natural sunlight streaming in from one side and washing over her, soft contact shadows at her feet, the building and street behind her softly blurred with shallow depth of field, crisp photographic realism matching <이미지1>.
+
+<비디오1> is a depth-map motion reference containing one model — reproduce its silhouette, body pose and every motion beat one-to-one on the same timeline, in the same full-body fixed framing. The camera stays completely fixed for all 10 seconds — it never moves, zooms or reframes; every change on screen comes from her own body and her outfits.
+
+She is the girl from <이미지1> — same face, hairstyle, hair color, skin and body held identical in every frame. <이미지2>, <이미지3>, <이미지4> and <이미지5> are flat-lay outfit breakdown sheets — product photos of clothes, shoes and accessories laid out on a plain backdrop, containing no person. For each look, dress her in the exact garments and accessories from that sheet, fitted naturally on her body — she keeps @이미지1's face, hair and body in every look. She is naturally lit by the scene's sunlight with contact shadows grounding her; the background, sunlight direction and color grade stay identical from first frame to last.
+
+This is a TikTok outfit-change edit: at each beat below her entire outfit HARD-SWAPS in a single instant cut between two frames — the clothing changes completely from one frame to the next while her pose keeps flowing continuously through the swap, with face, hair, background and light untouched. The bag swaps with the look: wherever <비디오1>'s silhouette carries a bag shape, that shape IS the current look's single bag — render the current sheet's bag exactly there. The previous look's bag vanishes in the same cut, and she carries at most ONE bag at any moment.
+
+0–3.2s — LOOK 1: she wears the full outfit shown in <이미지1>, posing playfully, one hand lifting toward her head.
+At exactly 3.2s the outfit hard-swaps to LOOK 2, the full look of <이미지2>: white open-knit crochet cardigan slipping loosely off the shoulders over a white cami top, light-wash denim shorts, and its single light-blue shoulder bag — every garment, color and material exactly as shown.
+At exactly 5.0s it hard-swaps to LOOK 3, the full look of <이미지3>: white polka-dot tee and white tiered lace ruffle mini skirt with sheer socks and ballet flats, its single light-blue shoulder bag on one shoulder, the skirt swaying with her weight shifts.
+At exactly 6.7s it hard-swaps to LOOK 4, the full look of <이미지4>: white Nike sports bra, high-waist frayed denim shorts, white knee socks and chunky white slides, its single lavender shoulder bag resting at her hip; this swap too lands as one instant hard cut.
+At exactly 8.6s it hard-swaps to LOOK 5, the full look of <이미지5>: white short-sleeve shirt with slim black necktie, black satin balloon mini skirt, white socks and black sneakers, its single polka-dot tote bag carried in her hand as she strikes the final pose.
+
+Fabric on every look reacts naturally to her motion. Natural skin texture, natural human hands with slender fingers and bare nails. Motion is smooth, fluid and continuous at full frame rate, flowing naturally between every beat. Clean text-free frame.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的English版本（translations.en）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084571516772237540.json)
+
+```text
+10-second vertical TikTok fashion lookbook — one fixed-camera full-body shot of a young female model posing on a city sidewalk in front of a modern building facade, warm natural sunlight streaming in from one side and washing over her, soft contact shadows at her feet, the building and street behind her softly blurred with shallow depth of field, crisp photographic realism matching <이미지1>.
+
+<비디오1> is a depth-map motion reference containing one model — reproduce its silhouette, body pose and every motion beat one-to-one on the same timeline, in the same full-body fixed framing. The camera stays completely fixed for all 10 seconds — it never moves, zooms or reframes; every change on screen comes from her own body and her outfits.
+
+She is the girl from <이미지1> — same face, hairstyle, hair color, skin and body held identical in every frame. <이미지2>, <이미지3>, <이미지4> and <이미지5> are flat-lay outfit breakdown sheets — product photos of clothes, shoes and accessories laid out on a plain backdrop, containing no person. For each look, dress her in the exact garments and accessories from that sheet, fitted naturally on her body — she keeps @이미지1's face, hair and body in every look. She is naturally lit by the scene's sunlight with contact shadows grounding her; the background, sunlight direction and color grade stay identical from first frame to last.
+
+This is a TikTok outfit-change edit: at each beat below her entire outfit HARD-SWAPS in a single instant cut between two frames — the clothing changes completely from one frame to the next while her pose keeps flowing continuously through the swap, with face, hair, background and light untouched. The bag swaps with the look: wherever <비디오1>'s silhouette carries a bag shape, that shape IS the current look's single bag — render the current sheet's bag exactly there. The previous look's bag vanishes in the same cut, and she carries at most ONE bag at any moment.
+
+0–3.2s — LOOK 1: she wears the full outfit shown in <이미지1>, posing playfully, one hand lifting toward her head.
+At exactly 3.2s the outfit hard-swaps to LOOK 2, the full look of <이미지2>: white open-knit crochet cardigan slipping loosely off the shoulders over a white cami top, light-wash denim shorts, and its single light-blue shoulder bag — every garment, color and material exactly as shown.
+At exactly 5.0s it hard-swaps to LOOK 3, the full look of <이미지3>: white polka-dot tee and white tiered lace ruffle mini skirt with sheer socks and ballet flats, its single light-blue shoulder bag on one shoulder, the skirt swaying with her weight shifts.
+At exactly 6.7s it hard-swaps to LOOK 4, the full look of <이미지4>: white Nike sports bra, high-waist frayed denim shorts, white knee socks and chunky white slides, its single lavender shoulder bag resting at her hip; this swap too lands as one instant hard cut.
+At exactly 8.6s it hard-swaps to LOOK 5, the full look of <이미지5>: white short-sleeve shirt with slim black necktie, black satin balloon mini skirt, white socks and black sneakers, its single polka-dot tote bag carried in her hand as she strikes the final pose.
+
+Fabric on every look reacts naturally to her motion. Natural skin texture, natural human hands with slender fingers and bare nails. Motion is smooth, fluid and continuous at full frame rate, flowing naturally between every beat. Clean text-free frame.
+
+--- THREAD CONTINUATION ---
+[Thread 1] <영상에 사용한 프롬프트>
+
+10-second vertical TikTok fashion lookbook — one fixed-camera full-body shot of a young female model posing on a city sidewalk in front of a modern building facade, warm natural sunlight streaming in from one side and washing over her, soft contact shadows at her feet, the building and street behind her softly blurred with shallow depth of field, crisp photographic realism matching <이미지1>.
+
+<비디오1> is a depth-map motion reference containing one model — reproduce its silhouette, body pose and every motion beat one-to-one on the same timeline, in the same full-body fixed framing. The camera stays completely fixed for all 10 seconds — it never moves, zooms or reframes; every change on screen comes from her own body and her outfits.
+
+She is the girl from <이미지1> — same face, hairstyle, hair color, skin and body held identical in every frame. <이미지2>, <이미지3>, <이미지4> and <이미지5> are flat-lay outfit breakdown sheets — product photos of clothes, shoes and accessories laid out on a plain backdrop, containing no person. For each look, dress her in the exact garments and accessories from that sheet, fitted naturally on her body — she keeps @이미지1's face, hair and body in every look. She is naturally lit by the scene's sunlight with contact shadows grounding her; the background, sunlight direction and color grade stay identical from first frame to last.
+
+This is a TikTok outfit-change edit: at each beat below her entire outfit HARD-SWAPS in a single instant cut between two frames — the clothing changes completely from one frame to the next while her pose keeps flowing continuously through the swap, with face, hair, background and light untouched. The bag swaps with the look: wherever <비디오1>'s silhouette carries a bag shape, that shape IS the current look's single bag — render the current sheet's bag exactly there. The previous look's bag vanishes in the same cut, and she carries at most ONE bag at any moment.
+
+0–3.2s — LOOK 1: she wears the full outfit shown in <이미지1>, posing playfully, one hand lifting toward her head.
+At exactly 3.2s the outfit hard-swaps to LOOK 2, the full look of <이미지2>: white open-knit crochet cardigan slipping loosely off the shoulders over a white cami top, light-wash denim shorts, and its single light-blue shoulder bag — every garment, color and material exactly as shown.
+At exactly 5.0s it hard-swaps to LOOK 3, the full look of <이미지3>: white polka-dot tee and white tiered lace ruffle mini skirt with sheer socks and ballet flats, its single light-blue shoulder bag on one shoulder, the skirt swaying with her weight shifts.
+At exactly 6.7s it hard-swaps to LOOK 4, the full look of <이미지4>: white Nike sports bra, high-waist frayed denim shorts, white knee socks and chunky white slides, its single lavender shoulder bag resting at her hip; this swap too lands as one instant hard cut.
+At exactly 8.6s it hard-swaps to LOOK 5, the full look of <이미지5>: white short-sleeve shirt with slim black necktie, black satin balloon mini skirt, white socks and black sneakers, its single polka-dot tote bag carried in her hand as she strikes the final pose.
+
+Fabric on every look reacts naturally to her motion. Natural skin texture, natural human hands with slender fingers and bare nails. Motion is smooth, fluid and continuous at full frame rate, flowing naturally between every beat. Clean text-free frame.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084571516772237540.json)
+
+```text
+Lookbook mode TikTok vertical de 10 secondes — un seul plan plein pied à caméra fixe d’un jeune mannequin féminin posant sur un trottoir de ville devant la façade d’un bâtiment moderne, avec une lumière naturelle chaude entrant d’un côté et l’enveloppant, de douces ombres de contact à ses pieds, l’arrière-plan avec le bâtiment et la rue derrière elle légèrement floutés par une faible profondeur de champ, un réalisme photographique net correspondant à <이미지1>.
+
+<비디오1> est une référence de mouvement en carte de profondeur contenant un seul modèle — reproduire sa silhouette, sa pose corporelle et chaque battement de mouvement à l’identique, sur la même timeline, dans le même cadrage plein pied fixe. La caméra reste complètement fixe pendant les 10 secondes — elle ne bouge jamais, ne zoome jamais et ne recadre jamais ; chaque changement à l’écran vient uniquement de son propre corps et de ses tenues.
+
+C’est la fille de <이미지1> — même visage, même coiffure, même couleur de cheveux, même peau et même corps, conservés identiques dans chaque frame. <이미지2>, <이미지3>, <이미지4> et <이미지5> sont des fiches de décomposition de tenues en flat lay — des photos produit de vêtements, chaussures et accessoires disposés sur un fond uni, sans personne. Pour chaque look, habille-la avec les vêtements et accessoires exacts de cette fiche, ajustés naturellement à son corps — elle conserve le visage, les cheveux et le corps de @이미지1 dans chaque look. Elle est éclairée naturellement par la lumière du soleil de la scène, avec des ombres de contact qui l’ancrent au sol ; l’arrière-plan, la direction de la lumière et le color grading restent identiques de la première à la dernière frame.
+
+Ceci est un montage de changement de tenue TikTok : à chaque battement ci-dessous, sa tenue entière HARD-SWAP en une seule coupe instantanée entre deux frames — les vêtements changent complètement d’une frame à l’autre tandis que sa pose continue de se dérouler sans interruption à travers le swap, sans toucher au visage, aux cheveux, à l’arrière-plan ni à la lumière. Le sac change avec le look : partout où la silhouette de <비디오1> comporte une forme de sac, cette forme EST le sac unique du look actuel — rendre exactement à cet endroit le sac de la fiche correspondante. Le sac du look précédent disparaît dans la même coupe, et elle ne porte jamais plus d’UN sac à la fois.
+
+0–3.2s — LOOK 1 : elle porte la tenue complète montrée dans <이미지1>, posant de manière joueuse, une main se levant vers sa tête.
+À exactement 3.2s, la tenue hard-swap vers LOOK 2, le look complet de <이미지2> : cardigan crochet blanc ajouré glissant souplement des épaules sur un top cami blanc, short en denim délavé clair, et son unique sac bandoulière bleu clair — chaque vêtement, couleur et matière exactement comme montré.
+À exactement 5.0s, elle hard-swap vers LOOK 3, le look complet de <이미지3> : tee blanc à pois et mini-jupe blanche à volants en dentelle à étages avec chaussettes transparentes et ballerines, son unique sac bandoulière bleu clair sur une épaule, la jupe ondulant avec ses changements d’appui.
+À exactement 6.7s, elle hard-swap vers LOOK 4, le look complet de <이미지4> : brassière de sport Nike blanche, short en denim effiloché taille haute, chaussettes blanches montantes et slides blanches épaisses, son unique sac bandoulière lavande reposant sur sa hanche ; ce swap se fait lui aussi en une coupe hard instantanée.
+À exactement 8.6s, elle hard-swap vers LOOK 5, le look complet de <이미지5> : chemise blanche à manches courtes avec fine cravate noire, mini-jupe ballon en satin noir, chaussettes blanches et baskets noires, son unique tote bag à pois porté à la main alors qu’elle prend la pose finale.
+
+Le tissu de chaque look réagit naturellement à ses mouvements. Texture de peau naturelle, mains humaines naturelles avec doigts fins et ongles nus. Le mouvement est fluide, souple et continu à pleine fréquence d’images, s’écoulant naturellement entre chaque battement. Frame propre sans texte.
+
+--- CONTINUATION DU FIL ---
+[Thread 1] <영상에 사용한 프롬프트>
+
+Lookbook mode TikTok vertical de 10 secondes — un seul plan plein pied à caméra fixe d’un jeune mannequin féminin posant sur un trottoir de ville devant la façade d’un bâtiment moderne, avec une lumière naturelle chaude entrant d’un côté et l’enveloppant, de douces ombres de contact à ses pieds, l’arrière-plan avec le bâtiment et la rue derrière elle légèrement floutés par une faible profondeur de champ, un réalisme photographique net correspondant à <이미지1>.
+
+<비디오1> est une référence de mouvement en carte de profondeur contenant un seul modèle — reproduire sa silhouette, sa pose corporelle et chaque battement de mouvement à l’identique, sur la même timeline, dans le même cadrage plein pied fixe. La caméra reste complètement fixe pendant les 10 secondes — elle ne bouge jamais, ne zoome jamais et ne recadre jamais ; chaque changement à l’écran vient uniquement de son propre corps et de ses tenues.
+
+C’est la fille de <이미지1> — même visage, même coiffure, même couleur de cheveux, même peau et même corps, conservés identiques dans chaque frame. <이미지2>, <이미지3>, <이미지4> et <이미지5> sont des fiches de décomposition de tenues en flat lay — des photos produit de vêtements, chaussures et accessoires disposés sur un fond uni, sans personne. Pour chaque look, habille-la avec les vêtements et accessoires exacts de cette fiche, ajustés naturellement à son corps — elle conserve le visage, les cheveux et le corps de @이미지1 dans chaque look. Elle est éclairée naturellement par la lumière du soleil de la scène, avec des ombres de contact qui l’ancrent au sol ; l’arrière-plan, la direction de la lumière et le color grading restent identiques de la première à la dernière frame.
+
+Ceci est un montage de changement de tenue TikTok : à chaque battement ci-dessous, sa tenue entière HARD-SWAP en une seule coupe instantanée entre deux frames — les vêtements changent complètement d’une frame à l’autre tandis que sa pose continue de se dérouler sans interruption à travers le swap, sans toucher au visage, aux cheveux, à l’arrière-plan ni à la lumière. Le sac change avec le look : partout où la silhouette de <비디오1> comporte une forme de sac, cette forme EST le sac unique du look actuel — rendre exactement à cet endroit le sac de la fiche correspondante. Le sac du look précédent disparaît dans la même coupe, et elle ne porte jamais plus d’UN sac à la fois.
+
+0–3.2s — LOOK 1 : elle porte la tenue complète montrée dans <이미지1>, posant de manière joueuse, une main se levant vers sa tête.
+À exactement 3.2s, la tenue hard-swap vers LOOK 2, le look complet de <이미지2> : cardigan crochet blanc ajouré glissant souplement des épaules sur un top cami blanc, short en denim délavé clair, et son unique sac bandoulière bleu clair — chaque vêtement, couleur et matière exactement comme montré.
+À exactement 5.0s, elle hard-swap vers LOOK 3, le look complet de <이미지3> : tee blanc à pois et mini-jupe blanche à volants en dentelle à étages avec chaussettes transparentes et ballerines, son unique sac bandoulière bleu clair sur une épaule, la jupe ondulant avec ses changements d’appui.
+À exactement 6.7s, elle hard-swap vers LOOK 4, le look complet de <이미지4> : brassière de sport Nike blanche, short en denim effiloché taille haute, chaussettes blanches montantes et slides blanches épaisses, son unique sac bandoulière lavande reposant sur sa hanche ; ce swap se fait lui aussi en une coupe hard instantanée.
+À exactement 8.6s, elle hard-swap vers LOOK 5, le look complet de <이미지5> : chemise blanche à manches courtes avec fine cravate noire, mini-jupe ballon en satin noir, chaussettes blanches et baskets noires, son unique tote bag à pois porté à la main alors qu’elle prend la pose finale.
+
+Le tissu de chaque look réagit naturellement à ses mouvements. Texture de peau naturelle, mains humaines naturelles avec doigts fins et ongles nus. Le mouvement est fluide, souple et continu à pleine fréquence d’images, s’écoulant naturellement entre chaque battement. Frame propre sans texte.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084571516772237540.json)
+
+```text
+10秒の縦型TikTokファッションルックブック — 若い女性モデルが都会の歩道でポーズを取る、固定カメラの全身ショット1カット。モダンな建物のファサードを背景に、片側から暖かな自然光が差し込み彼女を包み込み、足元には柔らかな接地影。背後の建物と通りは浅い被写界深度でやわらかくぼけ、<이미지1>に一致するシャープな写真リアリズム。
+
+<비디오1>は1人のモデルを含む深度マップのモーションリファレンスです — そのシルエット、身体のポーズ、そしてすべてのモーションビートを、同じタイムライン上で、同じ全身固定フレーミングのまま1対1で再現してください。カメラは10秒間ずっと完全に固定され、動かない、ズームしない、リフレームもしない。画面上の変化はすべて、彼女自身の身体と衣装によって生じるものです。
+
+彼女は<이미지1>の女の子です — 顔、髪型、髪色、肌、体型はすべて各フレームで同一に保ってください。<이미지2>、<이미지3>、<이미지4>、<이미지5>はフラットレイの衣装分解シートです — 無地の背景に衣服、靴、アクセサリーを並べた商品写真で、人は写っていません。各ルックごとに、そのシートにある正確な衣服とアクセサリーを彼女に自然にフィットする形で着せてください — 彼女はどのルックでも@이미지1の顔、髪、体型を保ちます。彼女はシーンの自然光で照らされ、接地影が足元を支えます。背景、光の方向、カラーグレーディングは最初のフレームから最後のフレームまで同一です。
+
+これはTikTokの衣装チェンジ編集です。以下の各ビートで、彼女の衣装全体が2フレーム間の単一の瞬間カットでHARD-SWAPします — 顔、髪、背景、光は一切変えず、ポーズはスワップをまたいで連続的に流れながら、服だけが次のフレームで完全に切り替わります。バッグもルックに合わせて切り替わります。<비디오1>のシルエットにバッグの形がある箇所では、その形が現在のルックの単一バッグそのものです — 現在のシートのバッグをその位置に正確に描画してください。前のルックのバッグは同じカットで消え、彼女が同時に持てるバッグは最大1つです。
+
+0–3.2秒 — LOOK 1: <이미지1>に示されたフルコーデを着用し、遊び心のあるポーズで、片手を頭の方へ上げる。
+ちょうど3.2秒で衣装がLOOK 2にハードスワップする。<이미지2>のフルルック: 白のオープンニットのクロシェカーディガンを肩からゆるく落とし、白のキャミトップの上に重ね、ライトウォッシュのデニムショーツ、そして単体のライトブルーのショルダーバッグ — すべての衣服、色、素材を表示どおり正確に。
+ちょうど5.0秒でLOOK 3にハードスワップする。<이미지3>のフルルック: 白のドット柄Tシャツ、白のティアードレースフリルミニスカート、シアーソックスとバレエフラット、片肩に単体のライトブルーのショルダーバッグ。体重移動に合わせてスカートが揺れる。
+ちょうど6.7秒でLOOK 4にハードスワップする。<이미지4>のフルルック: 白のNikeスポーツブラ、ハイウエストの切りっぱなしデニムショーツ、白のニーハイソックス、厚底の白いスライドサンダル、腰の位置に単体のラベンダー色ショルダーバッグ。このスワップも一瞬のハードカットとして成立させる。
+ちょうど8.6秒でLOOK 5にハードスワップする。<이미지5>のフルルック: 白の半袖シャツに細身の黒いネクタイ、黒のサテンのバルーンミニスカート、白いソックス、黒いスニーカー。最後のポーズを取る際、単体のドット柄トートバッグを手に持つ。
+
+各ルックの生地は彼女の動きに自然に反応すること。自然な肌の質感、細い指と素の爪を持つ自然な人間の手。モーションはフルフレームレートで滑らか、流動的、連続的で、各ビートの間も自然に流れる。クリーンで文字のないフレーム。
+
+--- THREAD CONTINUATION ---
+[Thread 1] <영상에 사용한 프롬프트>
+
+10秒の縦型TikTokファッションルックブック — 若い女性モデルが都会の歩道でポーズを取る、固定カメラの全身ショット1カット。モダンな建物のファサードを背景に、片側から暖かな自然光が差し込み彼女を包み込み、足元には柔らかな接地影。背後の建物と通りは浅い被写界深度でやわらかくぼけ、<이미지1>に一致するシャープな写真リアリズム。
+
+<비디오1>は1人のモデルを含む深度マップのモーションリファレンスです — そのシルエット、身体のポーズ、そしてすべてのモーションビートを、同じタイムライン上で、同じ全身固定フレーミングのまま1対1で再現してください。カメラは10秒間ずっと完全に固定され、動かない、ズームしない、リフレームもしない。画面上の変化はすべて、彼女自身の身体と衣装によって生じるものです。
+
+彼女は<이미지1>の女の子です — 顔、髪型、髪色、肌、体型はすべて各フレームで同一に保ってください。<이미지2>、<이미지3>、<이미지4>、<이미지5>はフラットレイの衣装分解シートです — 無地の背景に衣服、靴、アクセサリーを並べた商品写真で、人は写っていません。各ルックごとに、そのシートにある正確な衣服とアクセサリーを彼女に自然にフィットする形で着せてください — 彼女はどのルックでも@이미지1の顔、髪、体型を保ちます。彼女はシーンの自然光で照らされ、接地影が足元を支えます。背景、光の方向、カラーグレーディングは最初のフレームから最後のフレームまで同一です。
+
+これはTikTokの衣装チェンジ編集です。以下の各ビートで、彼女の衣装全体が2フレーム間の単一の瞬間カットでHARD-SWAPします — 顔、髪、背景、光は一切変えず、ポーズはスワップをまたいで連続的に流れながら、服だけが次のフレームで完全に切り替わります。バッグもルックに合わせて切り替わります。<비디오1>のシルエットにバッグの形がある箇所では、その形が現在のルックの単一バッグそのものです — 現在のシートのバッグをその位置に正確に描画してください。前のルックのバッグは同じカットで消え、彼女が同時に持てるバッグは最大1つです。
+
+0–3.2秒 — LOOK 1: <이미지1>に示されたフルコーデを着用し、遊び心のあるポーズで、片手を頭の方へ
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084571516772237540.json)
+
+```text
+Lookbook de moda vertical para TikTok de 10 segundos — uma única tomada de corpo inteiro com câmera fixa de uma jovem modelo posando na calçada de uma cidade, em frente à fachada de um prédio moderno, com luz natural quente entrando de um lado e banhando-a, sombras suaves de contato aos seus pés, o prédio e a rua atrás dela levemente desfocados com profundidade de campo rasa, realismo fotográfico nítido correspondente a <이미지1>.
+
+<비디오1> é uma referência de movimento em mapa de profundidade contendo uma modelo — reproduza sua silhueta, pose corporal e cada batida de movimento um a um, na mesma linha do tempo, no mesmo enquadramento fixo de corpo inteiro. A câmera permanece completamente fixa durante todos os 10 segundos — ela nunca se move, dá zoom nem reencadra; toda mudança na tela vem do próprio corpo dela e de suas roupas.
+
+Ela é a garota de <이미지1> — mesmo rosto, penteado, cor do cabelo, pele e corpo mantidos idênticos em cada frame. <이미지2>, <이미지3>, <이미지4> e <이미지5> são folhas de breakdown de looks em flat lay — fotos de produto de roupas, sapatos e acessórios dispostos sobre um fundo liso, sem nenhuma pessoa. Para cada look, vista-a com as peças e acessórios exatos daquela folha, ajustados naturalmente ao corpo dela — ela mantém o rosto, cabelo e corpo de @이미지1 em todos os looks. Ela é iluminada naturalmente pela luz solar da cena, com sombras de contato ancorando-a; o fundo, a direção da luz solar e a gradação de cor permanecem idênticos do primeiro ao último frame.
+
+Este é um edit de troca de look para TikTok: em cada batida abaixo, o look inteiro dela faz HARD-SWAP em um único corte instantâneo entre dois frames — a roupa muda completamente de um frame para o seguinte enquanto a pose continua fluindo de forma contínua através da troca, sem alterar rosto, cabelo, fundo e luz. A bolsa troca junto com o look: onde quer que a silhueta de <비디오1> carregue o formato de uma bolsa, esse formato É a bolsa única do look atual — renderize a bolsa da folha atual exatamente ali. A bolsa do look anterior desaparece no mesmo corte, e ela carrega no máximo UMA bolsa por vez.
+
+0–3.2s — LOOK 1: ela usa o look completo mostrado em <이미지1>, posando de forma divertida, com uma mão levantando em direção à cabeça.
+Exatamente em 3.2s, o look faz hard-swap para o LOOK 2, o look completo de <이미지2>: cardigan de crochê branco vazado, caindo solto dos ombros sobre uma regata branca, shorts jeans de lavagem clara e sua única bolsa de ombro azul-clara — cada peça, cor e material exatamente como mostrado.
+Exatamente em 5.0s, faz hard-swap para o LOOK 3, o look completo de <이미지3>: camiseta branca com poás e minissaia branca de babados em camadas com renda, com meias translúcidas e sapatilhas de balé, sua única bolsa de ombro azul-clara em um ombro, a saia balançando com as mudanças de peso.
+Exatamente em 6.7s, faz hard-swap para o LOOK 4, o look completo de <이미지4>: top esportivo branco da Nike, shorts jeans de cintura alta com barra desfiada, meias brancas até o joelho e slides brancos robustos, sua única bolsa de ombro lilás apoiada no quadril; essa troca também acontece como um corte duro instantâneo.
+Exatamente em 8.6s, faz hard-swap para o LOOK 5, o look completo de <이미지5>: camisa branca de manga curta com gravata preta fina, minissaia balloon de cetim preta, meias brancas e tênis pretos, sua única bolsa tote com poás carregada na mão enquanto ela faz a pose final.
+
+O tecido de cada look reage naturalmente ao movimento dela. Textura de pele natural, mãos humanas naturais com dedos finos e unhas sem esmalte. O movimento é suave, fluido e contínuo em taxa de quadros total, fluindo naturalmente entre cada batida. Frame limpo, sem texto.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] <영상에 사용한 프롬프트>
+
+Lookbook de moda vertical para TikTok de 10 segundos — uma única tomada de corpo inteiro com câmera fixa de uma jovem modelo posando na calçada de uma cidade, em frente à fachada de um prédio moderno, com luz natural quente entrando de um lado e banhando-a, sombras suaves de contato aos seus pés, o prédio e a rua atrás dela levemente desfocados com profundidade de campo rasa, realismo fotográfico nítido correspondente a <이미지1>.
+
+<비디오1> é uma referência de movimento em mapa de profundidade contendo uma modelo — reproduza sua silhueta, pose corporal e cada batida de movimento um a um, na mesma linha do tempo, no mesmo enquadramento fixo de corpo inteiro. A câmera permanece completamente fixa durante todos os 10 segundos — ela nunca se move, dá zoom nem reencadra; toda mudança na tela vem do próprio corpo dela e de suas roupas.
+
+Ela é a garota de <이미지1> — mesmo rosto, penteado, cor do cabelo, pele e corpo mantidos idênticos em cada frame. <이미지2>, <이미지3>, <이미지4> e <이미지5> são folhas de breakdown de looks em flat lay — fotos de produto de roupas, sapatos e acessórios dispostos sobre um fundo liso, sem nenhuma pessoa. Para cada look, vista-a com as peças e acessórios exatos daquela folha, ajustados naturalmente ao corpo dela — ela mantém o rosto, cabelo e corpo de @이미지1 em todos os looks. Ela é iluminada naturalmente pela luz solar da cena, com sombras de contato ancorando-a; o fundo, a direção da luz solar e a gradação de cor permanecem idênticos do primeiro ao último frame.
+
+Este é um edit de troca de look para TikTok: em cada batida abaixo, o look inteiro dela faz HARD-SWAP em um único corte instantâneo entre dois frames — a roupa muda completamente de um frame para o seguinte enquanto a pose continua fluindo de forma contínua através da troca, sem alterar rosto, cabelo, fundo e luz. A bolsa troca junto com o look: onde quer que a silhueta de <비디오1> carregue o formato de uma bolsa, esse formato É a bolsa única do look atual — renderize a bolsa da folha atual exatamente ali. A bolsa do look anterior desaparece no mesmo corte, e ela carrega no máximo UMA bolsa por vez.
+
+0–3.2s — LOOK 1: ela usa o look completo mostrado em <이미지1>, posando de forma divertida, com uma mão levantando em direção à cabeça.
+Exatamente em 3.2s, o look faz hard-swap para o LOOK 2, o look completo de <이미지2>: cardigan de crochê branco vazado, caindo solto dos ombros sobre uma regata branca, shorts jeans de lavagem clara e sua única bolsa de ombro azul-clara — cada peça, cor e material exatamente como mostrado.
+Exatamente em 5.0s, faz hard-swap para o LOOK 3, o look completo de <이미지3>: camiseta branca com poás e minissaia branca de babados em camadas com renda, com meias translúcidas e sapatilhas de balé, sua única bolsa de ombro azul-clara em um ombro, a saia balançando com as mudanças de peso.
+Exatamente em 6.7s, faz hard-swap para o LOOK 4, o look completo de <이미지4>: top esportivo branco da Nike, shorts jeans de cintura alta com barra desfiada, meias brancas até o joelho e slides brancos robustos, sua única bolsa de ombro lilás apoiada no quadril; essa troca também acontece como um corte duro instantâneo.
+Exatamente em 8.6s, faz hard-swap para o LOOK 5, o look completo de <이미지5>: camisa branca de manga curta com gravata preta fina, minissaia balloon de cetim preta, meias brancas e tênis pretos, sua única bolsa tote com poás carregada na mão enquanto ela faz a pose final.
+
+O tecido de cada look reage naturalmente ao movimento dela. Textura de pele natural, mãos humanas naturais com dedos finos e unhas sem esmalte. O movimento é suave, fluido e contínuo em taxa de quadros total, fluindo naturalmente entre cada batida. Frame limpo, sem texto.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084571516772237540.json)
+
+```text
+10秒竖屏 TikTok 时尚 lookbook——一个固定机位的全身镜头，年轻女性模特站在城市人行道上、现代建筑立面前摆姿势，温暖的自然阳光从一侧洒入并笼罩她，脚边有柔和的接触阴影，身后的建筑和街道以浅景深轻微虚化，呈现与 <이미지1> 一致的清晰摄影级真实感。
+
+<비디오1> 是一个包含单一模特的深度图运动参考——请在同一时间线上、同样的全身固定构图中，一比一复现她的轮廓、身体姿势以及每一个动作节拍。摄像机在完整 10 秒内保持完全固定——绝不移动、变焦或重构画面；屏幕上的所有变化都来自她自身的身体和服装。
+
+她就是 <이미지1> 里的女孩——脸、发型、发色、肤色和身体在每一帧都保持完全一致。<이미지2>、<이미지3>、<이미지4> 和 <이미지5> 是平铺式 outfit breakdown sheets——把衣服、鞋子和配饰摆放在纯色背景上的产品图，不包含任何人物。每个造型都要让她穿上该图中精确对应的服装和配饰，并自然贴合她的身体——她在每个造型里都保持 @이미지1 的脸、头发和身体。她被场景中的阳光自然照亮，接触阴影让她与地面产生真实落点；背景、阳光方向和色彩分级从第一帧到最后一帧都保持一致。
+
+这是一个 TikTok 换装剪辑：在下面每个节拍点，她的整套服装都会在两帧之间以一次瞬间硬切 HARD-SWAP——衣服从上一帧到下一帧完全更换，而她的姿势在切换过程中保持连续流动，脸、头发、背景和光线都不受影响。包包会随造型一起切换：凡是 <비디오1> 的轮廓中出现包包形状的地方，那一形状就是当前造型的唯一包包——请把当前图中的包包准确渲染在那个位置。上一套造型的包包会在同一次切换中消失，她在任何时刻最多只携带一个包。
+
+0–3.2s — LOOK 1：她穿着 <이미지1> 中展示的完整造型，俏皮地摆姿势，一只手抬向头部。
+在 3.2s 的准确时刻，服装硬切换为 LOOK 2，即 <이미지2> 的完整造型：白色镂空钩针开衫松垮地滑落肩头，内搭白色 cami top，浅色水洗牛仔短裤，以及其唯一的浅蓝色单肩包——每件服装、颜色和材质都与图中完全一致。
+在 5.0s 的准确时刻，服装硬切换为 LOOK 3，即 <이미지3> 的完整造型：白色波点 T 恤、白色分层蕾丝荷叶边迷你裙，搭配薄纱袜和芭蕾平底鞋，单个浅蓝色单肩包挎在一侧肩上，裙摆随着她重心变化轻轻摆动。
+在 6.7s 的准确时刻，服装硬切换为 LOOK 4，即 <이미지4> 的完整造型：白色 Nike 运动内衣、高腰毛边牛仔短裤、白色及膝袜和厚底白色拖鞋，单个淡紫色单肩包停在她髋侧；这次切换同样是一次瞬间硬切。
+在 8.6s 的准确时刻，服装硬切换为 LOOK 5，即 <이미지5> 的完整造型：白色短袖衬衫搭配细黑领带、黑色缎面气球迷你裙、白色袜子和黑色运动鞋，单个波点托特包被她拿在手中，她摆出最终姿势。
+
+每套造型的面料都会随着她的动作自然反应。皮肤质感自然，双手为真实人类手部，手指纤细，指甲素净无涂色。动作在全帧率下平滑、流畅、连续，在每个节拍之间自然过渡。干净、无文字的画面。
+
+--- THREAD CONTINUATION ---
+[Thread 1] <영상에 사용한 프롬프트>
+
+10秒竖屏 TikTok 时尚 lookbook——一个固定机位的全身镜头，年轻女性模特站在城市人行道上、现代建筑立面前摆姿势，温暖的自然阳光从一侧洒入并笼罩她，脚边有柔和的接触阴影，身后的建筑和街道以浅景深轻微虚化，呈现与 <이미지1> 一致的清晰摄影级真实感。
+
+<비디오1> 是一个包含单一模特的深度图运动参考——请在同一时间线上、同样的全身固定构图中，一比一复现她的轮廓、身体姿势以及每一个动作节拍。摄像机在完整 10 秒内保持完全固定——绝不移动、变焦或重构画面；屏幕上的所有变化都来自她自身的身体和服装。
+
+她就是 <이미지1> 里的女孩——脸、发型、发色、肤色和身体在每一帧都保持完全一致。<이미지2>、<이미지3>、<이미지4> 和 <이미지5> 是平铺式 outfit breakdown sheets——把衣服、鞋子和配饰摆放在纯色背景上的产品图，不包含任何人物。每个造型都要让她穿上该图中精确对应的服装和配饰，并自然贴合她的身体——她在每个造型里都保持 @이미지1 的脸、头发和身体。她被场景中的阳光自然照亮，接触阴影让她与地面产生真实落点；背景、阳光方向和色彩分级从第一帧到最后一帧都保持一致。
+
+这是一个 TikTok 换装剪辑：在下面每个节拍点，她的整套服装都会在两帧之间以一次瞬间硬切 HARD-SWAP——衣服从上一帧到下一帧完全更换，而她的姿势在切换过程中保持连续流动，脸、头发、背景和光线都不受影响。包包会随造型一起切换：凡是 <비디오1> 的轮廓中出现包包形状的地方，那一形状就是当前造型的唯一包包——请把当前图中的包包准确渲染在那个位置。上一套造型的包包会在同一次切换中消失，她在任何时刻最多只携带一个包。
+
+0–3.2s — LOOK 1：她穿着 <이미지1> 中展示的完整造型，俏皮地摆姿势，一只手抬向头部。
+在 3.2s 的准确时刻，服装硬切换为 LOOK 2，即 <이미지2> 的完整造型：白色镂空钩针开衫松垮地滑落肩头，内搭白色 cami top，浅色水洗牛仔短裤，以及其唯一的浅蓝色单肩包——每件服装、颜色和材质都与图中完全一致。
+在 5.0s 的准确时刻，服装硬切换为 LOOK 3，即 <이미지3> 的完整造型：白色波点 T 恤、白色分层蕾丝荷叶边迷你裙，搭配薄纱袜和芭蕾平底鞋，单个浅蓝色单肩包挎在一侧肩上，裙摆随着她重心变化轻轻摆动。
+在 6.7s 的准确时刻，服装硬切换为 LOOK 4，即 <이미지4> 的完整造型：白色 Nike 运动内衣、高腰毛边牛仔短裤、白色及膝袜和厚底白色拖鞋，单个淡紫色单肩包停在她髋侧；这次切换同样是一次瞬间硬切。
+在 8.6s 的准确时刻，服装硬切换为 LOOK 5，即 <이미지5> 的完整造型：白色短袖衬衫搭配细黑领带、黑色缎面气球迷你裙、白色袜子和
+```
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084571516772237540.json)
+
+```text
+Lookbook de moda vertical de TikTok de 10 segundos: una toma fija de cuerpo entero con cámara inmóvil de una joven modelo posando en una acera de la ciudad frente a la fachada de un edificio moderno, con cálida luz natural entrando desde un lado y bañándola, sombras de contacto suaves a sus pies, y el edificio y la calle detrás de ella suavemente desenfocados con poca profundidad de campo, con un realismo fotográfico nítido que coincide con <이미지1>.
+
+<비디오1> es una referencia de movimiento con mapa de profundidad que contiene una modelo: reproduce su silueta, pose corporal y cada beat de movimiento uno a uno en la misma línea temporal, con el mismo encuadre fijo de cuerpo entero. La cámara permanece completamente fija durante los 10 segundos: nunca se mueve, hace zoom ni reencuadra; cada cambio en pantalla proviene de su propio cuerpo y de sus outfits.
+
+Ella es la chica de <이미지1>: mismo rostro, peinado, color de cabello, piel y cuerpo mantenidos idénticos en cada fotograma. <이미지2>, <이미지3>, <이미지4> y <이미5> son hojas de desglose de outfits en flat lay: fotos de producto de ropa, zapatos y accesorios dispuestos sobre un fondo liso, sin ninguna persona. Para cada look, vístela con las prendas y accesorios exactos de esa hoja, ajustados de forma natural a su cuerpo: conserva el rostro, el cabello y el cuerpo de @이미지1 en cada look. Está iluminada de forma natural por la luz solar de la escena, con sombras de contacto que la anclan; el fondo, la dirección de la luz solar y la gradación de color permanecen idénticos desde el primer fotograma hasta el último.
+
+Este es un edit de cambio de outfit para TikTok: en cada beat de abajo, su outfit completo HACE HARD-SWAP en un único corte instantáneo entre dos fotogramas: la ropa cambia por completo de un fotograma al siguiente mientras su pose continúa fluyendo de forma continua a través del cambio, sin alterar el rostro, el cabello, el fondo ni la luz. El bolso cambia con el look: dondequiera que la silueta de <비디오1> lleve la forma de un bolso, esa forma ES el bolso único del look actual: renderiza exactamente ahí el bolso de la hoja actual. El bolso del look anterior desaparece en el mismo corte, y ella lleva como máximo UN bolso en cualquier momento.
+
+0–3.2s — LOOK 1: lleva el outfit completo mostrado en <이미지1>, posando de forma juguetona, con una mano levantándose hacia su cabeza.
+Exactamente a los 3.2s el outfit hace hard-swap a LOOK 2, el look completo de <이미지2>: cárdigan blanco de crochet de punto abierto, cayendo holgadamente de los hombros sobre un top cami blanco, shorts vaqueros de lavado claro y su único bolso de hombro azul claro — cada prenda, color y material exactamente como se muestra.
+Exactamente a los 5.0s hace hard-swap a LOOK 3, el look completo de <이미지3>: camiseta blanca con lunares y minifalda blanca de volantes de encaje en capas con calcetines translúcidos y bailarinas, su único bolso de hombro azul claro en un hombro, con la falda balanceándose con sus cambios de peso.
+Exactamente a los 6.7s hace hard-swap a LOOK 4, el look completo de <이미지4>: sujetador deportivo blanco Nike, shorts vaqueros deshilachados de tiro alto, calcetines blancos hasta la rodilla y slides blancos gruesos, su único bolso de hombro lila descansando en la cadera; este cambio también cae como un hard cut instantáneo.
+Exactamente a las 8.6s hace hard-swap a LOOK 5, el look completo de <이미5>: camisa blanca de manga corta con corbata negra estrecha, minifalda globo de satén negro, calcetines blancos y zapatillas negras, su único bolso tote de lunares llevado en la mano mientras adopta la pose final.
+
+La tela de cada look reacciona de forma natural a su movimiento. Textura natural de la piel, manos humanas naturales con dedos delgados y uñas sin pintar. El movimiento es suave, fluido y continuo a la tasa de fotogramas completa, fluyendo de forma natural entre cada beat. Fotograma limpio, sin texto.
+
+--- CONTINUACIÓN DEL HILO ---
+[Thread 1] <영상에 사용한 프롬프트>
+
+Lookbook de moda vertical de TikTok de 10 segundos: una toma fija de cuerpo entero con cámara inmóvil de una joven modelo posando en una acera de la ciudad frente a la fachada de un edificio moderno, con cálida luz natural entrando desde un lado y bañándola, sombras de contacto suaves a sus pies, y el edificio y la calle detrás de ella suavemente desenfocados con poca profundidad de campo, con un realismo fotográfico nítido que coincide con <이미지1>.
+
+<비디오1> es una referencia de movimiento con mapa de profundidad que contiene una modelo: reproduce su silueta, pose corporal y cada beat de movimiento uno a uno en la misma línea temporal, con el mismo encuadre fijo de cuerpo entero. La cámara permanece completamente fija durante los 10 segundos: nunca se mueve, hace zoom ni reencuadra; cada cambio en pantalla proviene de su propio cuerpo y de sus outfits.
+
+Ella es la chica de <이미지1>: mismo rostro, peinado, color de cabello, piel y cuerpo mantenidos idénticos en cada fotograma. <이미지2>, <이미지3>, <이미지4> y <이미5> son hojas de desglose de outfits en flat lay: fotos de producto de ropa, zapatos y accesorios dispuestos sobre un fondo liso, sin ninguna persona. Para cada look, vístela con las prendas y accesorios exactos de esa hoja, ajustados de forma natural a su cuerpo: conserva el rostro, el cabello y el cuerpo de @이미지1 en cada look. Está iluminada de forma natural por la luz solar de la escena, con sombras de contacto que la anclan; el fondo, la dirección de la luz solar y la gradación de color permanecen idénticos desde el primer fotograma hasta el último.
+
+Este es un edit de cambio de outfit para TikTok: en cada beat de abajo, su outfit completo HACE HARD-SWAP en un único corte instantáneo entre dos fotogramas: la ropa cambia por completo de un fotograma al siguiente mientras su pose continúa fluyendo de forma continua a través del cambio, sin alterar el rostro, el cabello, el fondo ni la luz. El bolso cambia con el look: dondequiera que la silueta de <비디오1> lleve la forma de un bolso, esa forma ES el bolso único del look actual: renderiza exactamente ahí el bolso de la hoja actual. El bolso del look anterior desaparece en el mismo corte, y ella lleva como máximo UN bolso en cualquier momento.
+
+0–3.2s — LOOK 1: lleva el outfit completo mostrado en <이미지1>, posando de forma juguetona, con una mano levantándose hacia su cabeza.
+Exactamente a los 3.2s el outfit hace hard-swap a LOOK 2, el look completo de <이미지2>: cárdigan blanco de crochet de punto abierto, cayendo holgadamente de los hombros sobre un top cami blanco, shorts vaqueros de lavado claro y su único bolso de hombro azul claro — cada prenda, color y material exactamente como se muestra.
+Exactamente a los 5.0s hace hard-swap a LOOK 3, el look completo de <이미지3>: camiseta blanca con lunares y minifalda blanca de volantes de encaje en capas con calcetines translúcidos y bailarinas, su único bolso de hombro azul claro en un hombro, con la falda balanceándose con sus cambios de peso.
+Exactamente a los 6.7s hace hard-swap a LOOK 4, el look completo de <이미지4>: sujetador deportivo blanco Nike, shorts vaqueros deshilachados de tiro alto, calcetines blancos hasta la rodilla y slides blancos gruesos, su único bolso de hombro lila descansando en la cadera; este cambio también cae como un hard cut instantáneo.
+Exactamente a las 8.6s hace hard-swap a LOOK 5, el look completo de <이미5>: camisa blanca de manga corta con corbata negra estrecha, minifalda globo de satén negro, calcetines blancos y zapatillas negras, su único bolso tote de lunares llevado en la mano mientras adopta la pose final.
+
+La tela de cada look reacciona de forma natural a su movimiento. Textura natural de la piel, manos humanas naturales con dedos delgados y uñas sin pintar. El movimiento es suave, fluido y continuo a la tasa de fotogramas completa, fluyendo de forma natural entre cada beat. Fotograma limpio, sin texto.
+```
+
+## 出处与许可
+
+- 原作者：[1p(1mpal)](https://x.com/impalementd) · 原帖：<https://x.com/impalementd/status/2084571516772237540>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2084571516772237540.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

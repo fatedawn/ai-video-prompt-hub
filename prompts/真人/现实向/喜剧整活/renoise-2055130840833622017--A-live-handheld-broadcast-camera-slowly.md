@@ -1,0 +1,253 @@
+---
+id: "renoise-2055130840833622017"
+title: "A live handheld broadcast camera slowly moves closer toward 2 people casually…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "喜剧整活"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Sports", "Football", "Meme & Comedy", "Internet Meme", "Photoreal", "Realistic World"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055130840833622017.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Zoraiz Ai"
+original_author_url: "https://x.com/YaZoraiz"
+original_post_url: "https://x.com/YaZoraiz/status/2055130840833622017"
+published: "2026-05-15"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# A live handheld broadcast camera slowly moves closer toward 2 people casually…
+
+## 提示词（English）
+
+```text
+A live handheld broadcast camera slowly moves closer toward 2 people casually sitting in the middle of a huge crowd during a live football match inside a night stadium. The thin black-haired man looks calm and serious while watching the game, while his glasses-wearing friend reacts excitedly. Supporters around them react wildly, screaming, waving their hands, and jumping passionately. The camera captures a natural candid moment like a crowd close-up accidentally selected by a professional TV operator.
+
+Realistic crowd movement, dramatic stadium lighting, LED light reflections on faces, shallow depth of field, slight handheld shake, realistic autofocus, subtle motion blur from the crowd, imperfect framing like a real sports broadcast, cinematic broadcast camera aesthetic.
+
+The thin black-haired man looks shy because he realizes the camera is capturing his face, while the white-haired man raises his hand. As the camera gets closer and focuses on the black-haired man’s face, suddenly a small wild yellow ball flies extremely fast from the field toward the stands and hits his face hard in a funny and shocking way. His head gets thrown backward with a hilarious shocked expression, while the glasses-wearing man laughs after seeing the incident. People around them instantly react with chaotic laughter, panic, and surprise. Then the man who got hit hurriedly runs down toward the field and chases the football players until he accidentally falls down in a funny way. The audience erupts in laughter.
+
+The background remains softly blurred with a lively stadium atmosphere. In the top-left corner there is a realistic live match score overlay, while the top-right corner contains the TV channel logo and LIVE indicator.
+
+The entire video should feel like a real viral television broadcast clip because of the unexpected funny moment. Ultra-realistic live TV realism, comedic accident timing, believable crowd reactions, cinematic sports broadcast aesthetic, authentic viral television moment.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055130840833622017.json)
+
+```text
+---
+Una cámara de transmisión en vivo, de mano, se mueve lentamente hacia 2 personas sentadas casualmente en medio de una gran multitud durante un partido de fútbol en vivo dentro de un estadio nocturno. El hombre delgado de cabello negro se ve calmado y serio mientras observa el juego, mientras que su amigo con gafas reacciona emocionado. Los seguidores a su alrededor reaccionan de manera salvaje, gritando, agitando las manos y saltando con pasión. La cámara captura un momento natural y espontáneo, como un primer plano de la multitud seleccionado accidentalmente por un operador de televisión profesional.
+
+Movimiento realista de la multitud, iluminación dramática del estadio, reflejos de luces LED en los rostros, poca profundidad de campo, ligero temblor de mano, enfoque automático realista, sutil desenfoque de movimiento de la multitud, encuadre imperfecto como una transmisión deportiva real, estética de cámara de transmisión cinematográfica.
+
+El hombre delgado de cabello negro se ve tímido porque se da cuenta de que la cámara está capturando su rostro, mientras que el hombre de cabello blanco levanta la mano. A medida que la cámara se acerca y se enfoca en el rostro del hombre de cabello negro, de repente una pequeña bola amarilla salvaje vuela extremadamente rápido desde el campo hacia las gradas y golpea su cara de manera divertida y sorprendente. Su cabeza se echa hacia atrás con una expresión de sorpresa hilarante, mientras que el hombre con gafas se ríe al ver el incidente. La gente a su alrededor reacciona instantáneamente con risas caóticas, pánico y sorpresa. Luego, el hombre que fue golpeado corre apresuradamente hacia el campo y persigue a los jugadores de fútbol hasta que accidentalmente se cae de manera divertida. El público estalla en carcajadas.
+
+El fondo permanece suavemente desenfocado con una atmósfera animada de estadio. En la esquina superior izquierda hay una superposición realista del marcador del partido en vivo, mientras que la esquina superior derecha contiene el logo del canal de TV y el indicador de "LIVE".
+
+Todo el video debería sentirse como un clip de transmisión televisiva viral real debido al momento inesperado y divertido. Realismo ultra-realista de TV en vivo, sincronización cómica del accidente, reacciones creíbles de la multitud, estética de transmisión deportiva cinematográfica, momento auténtico de televisión viral.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Image Prompt:
+Ultra-realistic screenshot from a live beIN Sports broadcast during an international football match between the Indonesia National Football Team vs the Argentina National Football Team inside a massive packed stadium at night. The scene captures a completely natural candid moment of two people whose faces are based on the reference photo, sitting side by side among Indonesia National Team supporters while watching the match very seriously. Both are wearing authentic red and white Indonesia National Team jerseys, sitting naturally in the middle of a dense crowd, fully focused on the field with tense expressions, reacting to the flow of the match. Around them, other emotional supporters are reacting intensely. The image must feel exactly like a real paused television broadcast screenshot during a live match. On the screen there are realistic beIN Sports score graphics (example: INDONESIA vs ARGENTINA, score 2-2, 75:23), beIN Sports logo, and a “LIVE” banner. 8K resolution.
+
+---------------------------------------
+Video Prompt:
+Una cámara de transmisión en vivo, de mano, se mueve lentamente hacia 2 personas sentadas casualmente en medio de una gran multitud durante un partido de fútbol en vivo dentro de un estadio nocturno. El hombre delgado de cabello negro se ve calmado y serio mientras observa el juego, mientras que su amigo con gafas reacciona emocionado. Los seguidores a su alrededor reaccionan de manera salvaje, gritando, agitando las manos y saltando con pasión. La cámara captura un momento natural y espontáneo, como un primer plano de la multitud seleccionado accidentalmente por un operador de televisión profesional.
+
+Movimiento realista de la multitud, iluminación dramática del estadio, reflejos de luces LED en los rostros, poca profundidad de campo, ligero temblor de mano, enfoque automático realista, sutil desenfoque de movimiento de la multitud, encuadre imperfecto como una transmisión deportiva real, estética de cámara de transmisión cinematográfica.
+
+El hombre delgado de cabello negro se ve tímido porque se da cuenta de que la cámara está capturando su rostro, mientras que el hombre de cabello blanco levanta la mano. A medida que la cámara se acerca y se enfoca en el rostro del hombre de cabello negro, de repente una pequeña bola amarilla salvaje vuela extremadamente rápido desde el campo hacia las gradas y golpea su cara de manera divertida y sorprendente. Su cabeza se echa hacia atrás con una expresión de sorpresa hilarante, mientras que el hombre con gafas se ríe al ver el incidente. La gente a su alrededor reacciona instantáneamente con risas caóticas, pánico y sorpresa. Luego, el hombre que fue golpeado corre apresuradamente hacia el campo y persigue a los jugadores de fútbol hasta que accidentalmente se cae de manera divertida. El público estalla en carcajadas.
+
+El fondo permanece suavemente desenfocado con una atmósfera animada de estadio. En la esquina superior izquierda hay una superposición realista del marcador del partido en vivo, mientras que la esquina superior derecha contiene el logo del canal de TV y el indicador de "LIVE".
+
+Todo el video debería sentirse como un clip de transmisión televisiva viral real debido al momento inesperado y divertido. Realismo ultra-realista de TV en vivo, sincronización cómica del accidente, reacciones creíbles de la multitud, estética de transmisión deportiva cinematográfica, momento auténtico de televisión viral.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055130840833622017.json)
+
+```text
+---
+Une caméra de diffusion en direct à main levée se rapproche lentement de deux personnes assises de manière décontractée au milieu d'une immense foule lors d'un match de football en direct dans un stade nocturne. L'homme mince aux cheveux noirs a l'air calme et sérieux en regardant le match, tandis que son ami portant des lunettes réagit avec excitation. Les supporters autour d'eux réagissent de manière effrénée, criant, agitant les mains et sautant avec passion. La caméra capture un moment naturel et spontané, comme un gros plan de foule sélectionné accidentellement par un opérateur TV professionnel.
+
+Mouvement réaliste de la foule, éclairage dramatique du stade, reflets des lumières LED sur les visages, faible profondeur de champ, léger tremblement de la caméra à main levée, mise au point automatique réaliste, flou de mouvement subtil de la foule, cadrage imparfait comme une véritable diffusion sportive, esthétique cinématographique de caméra de diffusion.
+
+L'homme mince aux cheveux noirs a l'air timide car il réalise que la caméra capture son visage, tandis que l'homme aux cheveux blancs lève la main. Alors que la caméra se rapproche et se concentre sur le visage de l'homme aux cheveux noirs, soudainement une petite balle jaune sauvage vole extrêmement vite du terrain vers les gradins et frappe son visage avec force de manière drôle et choquante. Sa tête est projetée en arrière avec une expression hilarante de choc, tandis que l'homme portant des lunettes rit après avoir vu l'incident. Les personnes autour d'eux réagissent instantanément avec des rires chaotiques, de la panique et de la surprise. Puis l'homme qui a été frappé court précipitamment vers le terrain et poursuit les joueurs de football jusqu'à ce qu'il tombe accidentellement de manière amusante. Le public éclate de rire.
+
+L'arrière-plan reste légèrement flou avec une atmosphère de stade animée. Dans le coin supérieur gauche, il y a une superposition réaliste du score du match en direct, tandis que le coin supérieur droit contient le logo de la chaîne TV et l'indicateur LIVE.
+
+La vidéo entière devrait donner l'impression d'un véritable clip de diffusion télévisée viral en raison du moment drôle et inattendu. Réalisme télévisuel en direct ultra-réaliste, timing comique de l'accident, réactions crédibles de la foule, esthétique cinématographique de diffusion sportive, moment télévisuel viral authentique.
+
+--- THREAD CONTINUATION ---
+[Thread 1] Image Prompt:
+Ultra-realistic screenshot from a live beIN Sports broadcast during an international football match between the Indonesia National Football Team vs the Argentina National Football Team inside a massive packed stadium at night. The scene captures a completely natural candid moment of two people whose faces are based on the reference photo, sitting side by side among Indonesia National Team supporters while watching the match very seriously. Both are wearing authentic red and white Indonesia National Team jerseys, sitting naturally in the middle of a dense crowd, fully focused on the field with tense expressions, reacting to the flow of the match. Around them, other emotional supporters are reacting intensely. The image must feel exactly like a real paused television broadcast screenshot during a live match. On the screen there are realistic beIN Sports score graphics (example: INDONESIA vs ARGENTINA, score 2-2, 75:23), beIN Sports logo, and a “LIVE” banner. 8K resolution.
+
+---------------------------------------
+Video Prompt:
+Une caméra de diffusion en direct à main levée se rapproche lentement de deux personnes assises de manière décontractée au milieu d'une immense foule lors d'un match de football en direct dans un stade nocturne. L'homme mince aux cheveux noirs a l'air calme et sérieux en regardant le match, tandis que son ami portant des lunettes réagit avec excitation. Les supporters autour d'eux réagissent de manière effrénée, criant, agitant les mains et sautant avec passion. La caméra capture un moment naturel et spontané, comme un gros plan de foule sélectionné accidentellement par un opérateur TV professionnel.
+
+Mouvement réaliste de la foule, éclairage dramatique du stade, reflets des lumières LED sur les visages, faible profondeur de champ, léger tremblement de la caméra à main levée, mise au point automatique réaliste, flou de mouvement subtil de la foule, cadrage imparfait comme une véritable diffusion sportive, esthétique cinématographique de caméra de diffusion.
+
+L'homme mince aux cheveux noirs a l'air timide car il réalise que la caméra capture son visage, tandis que l'homme aux cheveux blancs lève la main. Alors que la caméra se rapproche et se concentre sur le visage de l'homme aux cheveux noirs, soudainement une petite balle jaune sauvage vole extrêmement vite du terrain vers les gradins et frappe son visage avec force de manière drôle et choquante. Sa tête est projetée en arrière avec une expression hilarante de choc, tandis que l'homme portant des lunettes rit après avoir vu l'incident. Les personnes autour d'eux réagissent instantanément avec des rires chaotiques, de la panique et de la surprise. Puis l'homme qui a été frappé court précipitamment vers le terrain et poursuit les joueurs de football jusqu'à ce qu'il tombe accidentellement de manière amusante. Le public éclate de rire.
+
+L'arrière-plan reste légèrement flou avec une atmosphère de stade animée. Dans le coin supérieur gauche, il y a une superposition réaliste du score du match en direct, tandis que le coin supérieur droit contient le logo de la chaîne TV et l'indicateur LIVE.
+
+La vidéo entière devrait donner l'impression d'un véritable clip de diffusion télévisée viral en raison du moment drôle et inattendu. Réalisme télévisuel en direct ultra-réaliste, timing comique de l'accident, réactions crédibles de la foule, esthétique cinématographique de diffusion sportive, moment télévisuel viral authentique.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055130840833622017.json)
+
+```text
+---
+夜のスタジアム内で行われているライブのサッカー試合中、巨大な観客の中にカジュアルに座っている2人の人物に向かって、ライブの手持ち放送カメラがゆっくりと近づいていく。黒髪の細身の男性は試合を見ながら落ち着いて真剣な表情をしており、メガネをかけた友人は興奮して反応している。周囲のサポーターたちは熱狂的に反応し、叫び、手を振り、情熱的にジャンプしている。カメラはプロのテレビオペレーターによって偶然選ばれた群衆のクローズアップのような自然なカンディッドモーメントを捉える。
+
+リアルな群衆の動き、劇的なスタジアムの照明、顔に映るLEDライトの反射、浅い被写界深度、わずかな手持ちの揺れ、リアルなオートフォーカス、群衆からの微妙なモーションブラー、実際のスポーツ放送のような不完全なフレーミング、シネマティックな放送カメラの美学。
+
+黒髪の細身の男性は、カメラが自分の顔を捉えていることに気づいて恥ずかしそうにしているが、白髪の男性は手を挙げる。カメラが近づいて黒髪の男性の顔にフォーカスすると、突然、小さな野生の黄色いボールがフィールドからスタンドに向かって非常に速く飛んできて、彼の顔に強く当たる。彼の頭は後ろに投げ出され、面白く驚いた表情を浮かべる。メガネをかけた男性はその出来事を見て笑う。周囲の人々はすぐに混乱した笑い声、パニック、驚きで反応する。その後、ボールに当たった男性は急いでフィールドに向かって走り、サッカー選手を追いかけるが、面白い形で転んでしまう。観客は笑いに包まれる。
+
+背景は活気あるスタジアムの雰囲気で柔らかくぼかされている。左上にはリアルなライブ試合のスコアオーバーレイがあり、右上にはテレビチャンネルのロゴとLIVEインジケーターがある。
+
+このビデオ全体は、予期せぬ面白い瞬間のおかげで、本物のバイラルテレビ放送クリップのように感じられるべきだ。超リアルなライブテレビのリアリズム、コメディ的な事故のタイミング、信じられる群衆の反応、シネマティックなスポーツ放送の美学、本物のバイラルテレビの瞬間。
+
+--- THREAD CONTINUATION ---
+[Thread 1] Image Prompt:
+Ultra-realistic screenshot from a live beIN Sports broadcast during an international football match between the Indonesia National Football Team vs the Argentina National Football Team inside a massive packed stadium at night. The scene captures a completely natural candid moment of two people whose faces are based on the reference photo, sitting side by side among Indonesia National Team supporters while watching the match very seriously. Both are wearing authentic red and white Indonesia National Team jerseys, sitting naturally in the middle of a dense crowd, fully focused on the field with tense expressions, reacting to the flow of the match. Around them, other emotional supporters are reacting intensely. The image must feel exactly like a real paused television broadcast screenshot during a live match. On the screen there are realistic beIN Sports score graphics (example: INDONESIA vs ARGENTINA, score 2-2, 75:23), beIN Sports logo, and a “LIVE” banner. 8K resolution.
+
+---------------------------------------
+Video Prompt:
+A live handheld broadcast camera slowly moves closer toward 2 people casually sitting in the middle of a huge crowd during a live football match inside a night stadium. The thin black-haired man looks calm and serious while watching the game, while his glasses-wearing friend reacts excitedly. Supporters around them react wildly, screaming, waving their hands, and jumping passionately. The camera captures a natural candid moment like a crowd close-up accidentally selected by a professional TV operator.
+
+Realistic crowd movement, dramatic stadium lighting, LED light reflections on faces, shallow depth of field, slight handheld shake, realistic autofocus, subtle motion blur from the crowd, imperfect framing like a real sports broadcast, cinematic broadcast camera aesthetic.
+
+The thin black-haired man looks shy because he realizes the camera is capturing his face, while the white-haired man raises his hand. As the camera gets closer and focuses on the black-haired man’s face, suddenly a small wild yellow ball flies extremely fast from the field toward the stands and hits his face hard in a funny and shocking way. His head gets thrown backward with a hilarious shocked expression, while the glasses-wearing man laughs after seeing the incident. People around them instantly react with chaotic laughter, panic, and surprise. Then the man who got hit hurriedly runs down toward the field and chases the football players until he accidentally falls down in a funny way. The audience erupts in laughter.
+
+The background remains softly blurred with a lively stadium atmosphere. In the top-left corner there is a realistic live match score overlay, while the top-right corner contains the TV channel logo and LIVE indicator.
+
+The entire video should feel like a real viral television broadcast clip because of the unexpected funny moment. Ultra-realistic live TV realism, comedic accident timing, believable crowd reactions, cinematic sports broadcast aesthetic, authentic viral television moment.
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055130840833622017.json)
+
+```text
+---
+라이브 핸드헬드 방송 카메라가 천천히 야간 경기장에서 열리는 축구 경기 중 거대한 관중 속에 편안히 앉아 있는 두 사람에게 가까워집니다. 검은 머리의 마른 남자는 경기를 보며 차분하고 진지한 표정을 짓고 있고, 안경을 쓴 친구는 흥분된 반응을 보입니다. 그들 주위의 관중들은 열광적으로 반응하며 소리 지르고 손을 흔들고 열정적으로 뛰어오릅니다. 카메라는 마치 전문 TV 오퍼레이터가 우연히 선택한 군중 클로즈업처럼 자연스러운 순간을 포착합니다.
+
+현실적인 군중 움직임, 극적인 경기장 조명, 얼굴에 비치는 LED 조명 반사, 얕은 심도, 약간의 핸드헬드 흔들림, 현실적인 자동 초점, 군중의 미세한 모션 블러, 실제 스포츠 방송 같은 불완전한 프레이밍, 시네마틱 방송 카메라 미학.
+
+검은 머리의 마른 남자는 카메라가 자신의 얼굴을 포착하고 있다는 것을 깨닫고 수줍어 보이고, 흰 머리의 남자는 손을 듭니다. 카메라가 가까워져 검은 머리 남자의 얼굴에 초점을 맞추는 순간, 갑자기 작은 노란 공이 필드에서 관중석으로 매우 빠르게 날아와 그의 얼굴을 강하게 때립니다. 그의 머리는 놀랍고 웃긴 표정으로 뒤로 젖혀지고, 안경을 쓴 남자는 그 사건을 보고 웃습니다. 그들 주위의 사람들은 즉시 혼란스러운 웃음과 당황, 놀라움으로 반응합니다. 그런 다음 맞은 남자는 서둘러 필드로 달려가 축구 선수들을 쫓다가 우스꽝스럽게 넘어집니다. 관중들은 웃음으로 폭발합니다.
+
+배경은 활기찬 경기장 분위기로 부드럽게 흐려져 있습니다. 왼쪽 상단 모서리에는 현실적인 라이브 경기 점수 오버레이가 있고, 오른쪽 상단 모서리에는 TV 채널 로고와 LIVE 표시가 있습니다.
+
+전체 비디오는 예상치 못한 웃긴 순간 때문에 실제 바이럴 TV 방송 클립처럼 느껴져야 합니다. 초현실적인 라이브 TV 리얼리즘, 코믹한 사고 타이밍, 믿을 수 있는 군중 반응, 시네마틱 스포츠 방송 미학, 진정한 바이럴 TV 순간.
+
+--- THREAD CONTINUATION ---
+[Thread 1] 이미지 프롬프트:
+Ultra-realistic screenshot from a live beIN Sports broadcast during an international football match between the Indonesia National Football Team vs the Argentina National Football Team inside a massive packed stadium at night. The scene captures a completely natural candid moment of two people whose faces are based on the reference photo, sitting side by side among Indonesia National Team supporters while watching the match very seriously. Both are wearing authentic red and white Indonesia National Team jerseys, sitting naturally in the middle of a dense crowd, fully focused on the field with tense expressions, reacting to the flow of the match. Around them, other emotional supporters are reacting intensely. The image must feel exactly like a real paused television broadcast screenshot during a live match. On the screen there are realistic beIN Sports score graphics (example: INDONESIA vs ARGENTINA, score 2-2, 75:23), beIN Sports logo, and a “LIVE” banner. 8K resolution.
+
+---------------------------------------
+비디오 프롬프트:
+라이브 핸드헬드 방송 카메라가 천천히 야간 경기장에서 열리는 축구 경기 중 거대한 관중 속에 편안히 앉아 있는 두 사람에게 가까워집니다. 검은 머리의 마른 남자는 경기를 보며 차분하고 진지한 표정을 짓고 있고, 안경을 쓴 친구는 흥분된 반응을 보입니다. 그들 주위의 관중들은 열광적으로 반응하며 소리 지르고 손을 흔들고 열정적으로 뛰어오릅니다. 카메라는 마치 전문 TV 오퍼레이터가 우연히 선택한 군중 클로즈업처럼 자연스러운 순간을 포착합니다.
+
+현실적인 군중 움직임, 극적인 경기장 조명, 얼굴에 비치는 LED 조명 반사, 얕은 심도, 약간의 핸드헬드 흔들림, 현실적인 자동 초점, 군중의 미세한 모션 블러, 실제 스포츠 방송 같은 불완전한 프레이밍, 시네마틱 방송 카메라 미학.
+
+검은 머리의 마른 남자는 카메라가 자신의 얼굴을 포착하고 있다는 것을 깨닫고 수줍어 보이고, 흰 머리의 남자는 손을 듭니다. 카메라가 가까워져 검은 머리 남자의 얼굴에 초점을 맞추는 순간, 갑자기 작은 노란 공이 필드에서 관중석으로 매우 빠르게 날아와 그의 얼굴을 강하게 때립니다. 그의 머리는 놀랍고 웃긴 표정으로 뒤로 젖혀지고, 안경을 쓴 남자는 그 사건을 보고 웃습니다. 그들 주위의 사람들은 즉시 혼란스러운 웃음과 당황, 놀라움으로 반응합니다. 그런 다음 맞은 남자는 서둘러 필드로 달려가 축구 선수들을 쫓다가 우스꽝스럽게 넘어집니다. 관중들은 웃음으로 폭발합니다.
+
+배경은 활기찬 경기장 분위기로 부드럽게 흐려져 있습니다. 왼쪽 상단 모서리에는 현실적인 라이브 경기 점수 오버레이가 있고, 오른쪽 상단 모서리에는 TV 채널 로고와 LIVE 표시가 있습니다.
+
+전체 비디오는 예상치 못한 웃긴 순간 때문에 실제 바이럴 TV 방송 클립처럼 느껴져야 합니다. 초현실적인 라이브 TV 리얼리즘, 코믹한 사고 타이밍, 믿을 수 있는 군중 반응, 시네마틱 스포츠 방송 미학, 진정한 바이럴 TV 순간.
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055130840833622017.json)
+
+```text
+---
+Uma câmera de transmissão ao vivo, portátil, se move lentamente em direção a 2 pessoas sentadas casualmente no meio de uma enorme multidão durante uma partida de futebol ao vivo em um estádio noturno. O homem magro de cabelo preto parece calmo e sério enquanto assiste ao jogo, enquanto seu amigo de óculos reage animadamente. Os torcedores ao redor reagem de forma selvagem, gritando, acenando com as mãos e pulando apaixonadamente. A câmera captura um momento espontâneo natural, como um close-up da multidão selecionado acidentalmente por um operador de TV profissional.
+
+Movimento realista da multidão, iluminação dramática do estádio, reflexos de luz LED nos rostos, pouca profundidade de campo, leve tremor de câmera portátil, foco automático realista, leve desfoque de movimento da multidão, enquadramento imperfeito como uma transmissão esportiva real, estética de câmera de transmissão cinematográfica.
+
+O homem magro de cabelo preto parece tímido porque percebe que a câmera está capturando seu rosto, enquanto o homem de cabelo branco levanta a mão. À medida que a câmera se aproxima e foca no rosto do homem de cabelo preto, de repente uma pequena bola amarela selvagem voa extremamente rápido do campo em direção às arquibancadas e acerta seu rosto de forma engraçada e chocante. Sua cabeça é jogada para trás com uma expressão hilária de choque, enquanto o homem de óculos ri ao ver o incidente. As pessoas ao redor reagem instantaneamente com risadas caóticas, pânico e surpresa. Então o homem que foi atingido corre apressadamente em direção ao campo e persegue os jogadores de futebol até que ele cai de forma engraçada. A plateia explode em risadas.
+
+O fundo permanece suavemente desfocado com uma atmosfera animada de estádio. No canto superior esquerdo há uma sobreposição realista de pontuação ao vivo da partida, enquanto no canto superior direito está o logotipo do canal de TV e o indicador LIVE.
+
+Todo o vídeo deve parecer um clipe real de transmissão de televisão viral devido ao momento engraçado inesperado. Realismo ultra-realista de TV ao vivo, timing cômico do acidente, reações críveis da multidão, estética de transmissão esportiva cinematográfica, momento autêntico de televisão viral.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Prompt de Imagem:
+Ultra-realistic screenshot from a live beIN Sports broadcast during an international football match between the Indonesia National Football Team vs the Argentina National Football Team inside a massive packed stadium at night. The scene captures a completely natural candid moment of two people whose faces are based on the reference photo, sitting side by side among Indonesia National Team supporters while watching the match very seriously. Both are wearing authentic red and white Indonesia National Team jerseys, sitting naturally in the middle of a dense crowd, fully focused on the field with tense expressions, reacting to the flow of the match. Around them, other emotional supporters are reacting intensely. The image must feel exactly like a real paused television broadcast screenshot during a live match. On the screen there are realistic beIN Sports score graphics (example: INDONESIA vs ARGENTINA, score 2-2, 75:23), beIN Sports logo, and a “LIVE” banner. 8K resolution.
+
+---------------------------------------
+Prompt de Vídeo:
+Uma câmera de transmissão ao vivo, portátil, se move lentamente em direção a 2 pessoas sentadas casualmente no meio de uma enorme multidão durante uma partida de futebol ao vivo em um estádio noturno. O homem magro de cabelo preto parece calmo e sério enquanto assiste ao jogo, enquanto seu amigo de óculos reage animadamente. Os torcedores ao redor reagem de forma selvagem, gritando, acenando com as mãos e pulando apaixonadamente. A câmera captura um momento espontâneo natural, como um close-up da multidão selecionado acidentalmente por um operador de TV profissional.
+
+Movimento realista da multidão, iluminação dramática do estádio, reflexos de luz LED nos rostos, pouca profundidade de campo, leve tremor de câmera portátil, foco automático realista, leve desfoque de movimento da multidão, enquadramento imperfeito como uma transmissão esportiva real, estética de câmera de transmissão cinematográfica.
+
+O homem magro de cabelo preto parece tímido porque percebe que a câmera está capturando seu rosto, enquanto o homem de cabelo branco levanta a mão. À medida que a câmera se aproxima e foca no rosto do homem de cabelo preto, de repente uma pequena bola amarela selvagem voa extremamente rápido do campo em direção às arquibancadas e acerta seu rosto de forma engraçada e chocante. Sua cabeça é jogada para trás com uma expressão hilária de choque, enquanto o homem de óculos ri ao ver o incidente. As pessoas ao redor reagem instantaneamente com risadas caóticas, pânico e surpresa. Então o homem que foi atingido corre apressadamente em direção ao campo e persegue os jogadores de futebol até que ele cai de forma engraçada. A plateia explode em risadas.
+
+O fundo permanece suavemente desfocado com uma atmosfera animada de estádio. No canto superior esquerdo há uma sobreposição realista de pontuação ao vivo da partida, enquanto no canto superior direito está o logotipo do canal de TV e o indicador LIVE.
+
+Todo o vídeo deve parecer um clipe real de transmissão de televisão viral devido ao momento engraçado inesperado. Realismo ultra-realista de TV ao vivo, timing cômico do acidente, reações críveis da multidão, estética de transmissão esportiva cinematográfica, momento autêntico de televisão viral.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055130840833622017.json)
+
+```text
+---
+在一个夜间体育场内的现场足球比赛中，一台手持直播摄像机缓慢地靠近坐在巨大人群中间的两个人。那个瘦削的黑发男子在观看比赛时显得冷静而严肃，而他戴眼镜的朋友则兴奋地反应。周围的支持者们疯狂地反应，尖叫、挥手、热情地跳跃。摄像机捕捉到一个自然的抓拍瞬间，就像是被专业电视操作员意外选中的人群特写。
+
+逼真的人群运动，戏剧性的体育场灯光，LED灯光在脸上的反射，浅景深，轻微的手持抖动，逼真的自动对焦，人群的微妙运动模糊，不完美的构图如同真实的体育直播，电影级的广播摄像机美学。
+
+瘦削的黑发男子因为意识到摄像机正在拍摄他的脸而显得害羞，而白发男子则举起了他的手。当摄像机靠近并聚焦在黑发男子的脸上时，突然一个小小的黄色野球从场地飞速朝看台飞来，狠狠地击中他的脸，以一种滑稽而令人震惊的方式。他的头被猛地向后甩去，露出一个滑稽的震惊表情，而戴眼镜的男子在看到这一幕后大笑。周围的人立刻以混乱的笑声、惊慌和惊讶反应。然后被击中的男子匆忙跑向场地，追逐足球运动员，直到他以滑稽的方式意外摔倒。观众爆发出笑声。
+
+背景保持柔和模糊，充满活力的体育场氛围。在左上角有一个逼真的现场比赛比分叠加，而右上角则有电视台标志和“LIVE”指示器。
+
+整个视频应该因为意外的滑稽时刻而感觉像一个真实的病毒电视直播片段。超现实的现场电视真实感，喜剧事故时机，可信的人群反应，电影级体育广播美学，真实的病毒电视时刻。
+
+--- THREAD CONTINUATION ---
+[Thread 1] Image Prompt:
+Ultra-realistic screenshot from a live beIN Sports broadcast during an international football match between the Indonesia National Football Team vs the Argentina National Football Team inside a massive packed stadium at night. The scene captures a completely natural candid moment of two people whose faces are based on the reference photo, sitting side by side among Indonesia National Team supporters while watching the match very seriously. Both are wearing authentic red and white Indonesia National Team jerseys, sitting naturally in the middle of a dense crowd, fully focused on the field with tense expressions, reacting to the flow of the match. Around them, other emotional supporters are reacting intensely. The image must feel exactly like a real paused television broadcast screenshot during a live match. On the screen there are realistic beIN Sports score graphics (example: INDONESIA vs ARGENTINA, score 2-2, 75:23), beIN Sports logo, and a “LIVE” banner. 8K resolution.
+
+---------------------------------------
+Video Prompt:
+A live handheld broadcast camera slowly moves closer toward 2 people casually sitting in the middle of a huge crowd during a live football match inside a night stadium. The thin black-haired man looks calm and serious while watching the game, while his glasses-wearing friend reacts excitedly. Supporters around them react wildly, screaming, waving their hands, and jumping passionately. The camera captures a natural candid moment like a crowd close-up accidentally selected by a professional TV operator.
+
+Realistic crowd movement, dramatic stadium lighting, LED light reflections on faces, shallow depth of field, slight handheld shake, realistic autofocus, subtle motion blur from the crowd, imperfect framing like a real sports broadcast, cinematic broadcast camera aesthetic.
+
+The thin black-haired man looks shy because he realizes the camera is capturing his face, while the white-haired man raises his hand. As the camera gets closer and focuses on the black-haired man’s face, suddenly a small wild yellow ball flies extremely fast from the field toward the stands and hits his face hard in a funny and shocking way. His head gets thrown backward with a hilarious shocked expression, while the glasses-wearing man laughs after seeing the incident. People around them instantly react with chaotic laughter, panic, and surprise. Then the man who got hit hurriedly runs down toward the field and chases the football players until he accidentally falls down in a funny way. The audience erupts in laughter.
+
+背景保持柔和模糊，充满活力的体育场氛围。在左上角有一个逼真的现场比赛比分叠加，而右上角则有电视台标志和“LIVE”指示器。
+
+整个视频应该因为意外的滑稽时刻而感觉像一个真实的病毒电视直播片段。超现实的现场电视真实感，喜剧事故时机，可信的人群反应，电影级体育广播美学，真实的病毒电视时刻。
+```
+
+## 出处与许可
+
+- 原作者：[Zoraiz Ai](https://x.com/YaZoraiz) · 原帖：<https://x.com/YaZoraiz/status/2055130840833622017>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055130840833622017.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

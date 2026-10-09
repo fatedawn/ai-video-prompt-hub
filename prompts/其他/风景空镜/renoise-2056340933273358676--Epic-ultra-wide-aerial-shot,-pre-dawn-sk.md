@@ -1,0 +1,124 @@
+---
+id: "renoise-2056340933273358676"
+title: "Epic ultra-wide aerial shot, pre-dawn sky transitioning from dark blue to pink…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "其他"
+direction: null
+genre: "风景空镜"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Scenery & Spectacle", "Nature", "Photoreal", "Realistic World", "VFX", "FPV & Aerial"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056340933273358676.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Umesh"
+original_author_url: "https://x.com/umesh_ai"
+original_post_url: "https://x.com/umesh_ai/status/2056340933273358676"
+published: "2026-05-18"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Epic ultra-wide aerial shot, pre-dawn sky transitioning from dark blue to pink…
+
+## 提示词（English）
+
+```text
+Epic ultra-wide aerial shot, pre-dawn sky transitioning from dark blue to pink at the horizon, photorealistic landscape of green rolling hills and a calm lake. Camera moves forward rapidly at high altitude. A bright burning meteorite with a long orange trail streaks across the upper frame, descending toward the ground. Camera banks hard and accelerates to follow its trajectory downward. The meteorite strikes the lake with a blinding white flash, shockwave ring expanding outward across the water surface at extreme speed, trees flattening radially, earth and water launching upward in a towering mushroom-shaped column. Camera orbits the impact at high speed as the shockwave passes underneath. Photorealistic, volumetric explosion, atmospheric distortion, rim lighting.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056340933273358676.json)
+
+```text
+---
+Toma aérea épica ultra-ancha, cielo antes del amanecer que transiciona de azul oscuro a rosa en el horizonte, paisaje fotorrealista de colinas verdes ondulantes y un lago tranquilo. La cámara avanza rápidamente a gran altitud. Un meteorito brillante en llamas con una larga estela naranja cruza rápidamente la parte superior del encuadre, descendiendo hacia el suelo. La cámara gira bruscamente y acelera para seguir su trayectoria descendente. El meteorito impacta el lago con un destello blanco cegador, un anillo de onda expansiva se expande hacia afuera a través de la superficie del agua a velocidad extrema, los árboles se aplanan radialmente, tierra y agua se lanzan hacia arriba en una columna en forma de hongo imponente. La cámara orbita el impacto a alta velocidad mientras la onda expansiva pasa por debajo. Explosión fotorrealista, volumétrica, distorsión atmosférica, iluminación de contorno.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Prompt : Epic ultra-wide aerial shot, pre-dawn sky transitioning from dark blue to pink at the horizon, photorealistic landscape of green rolling hills and a calm lake. Camera moves forward rapidly at high altitude. A bright burning meteorite with a long orange trail streaks across the upper frame, descending toward the ground. Camera banks hard and accelerates to follow its trajectory downward. The meteorite strikes the lake with a blinding white flash, shockwave ring expanding outward across the water surface at extreme speed, trees flattening radially, earth and water launching upward in a towering mushroom-shaped column. Camera orbits the impact at high speed as the shockwave passes underneath. Photorealistic, volumetric explosion, atmospheric distortion, rim lighting.
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056340933273358676.json)
+
+```text
+---
+Plan aérien épique ultra-large, ciel avant l'aube passant du bleu foncé au rose à l'horizon, paysage photoréaliste de collines verdoyantes et d'un lac calme. La caméra avance rapidement à haute altitude. Un météorite brillant enflammé avec une longue traînée orange traverse le cadre supérieur, descendant vers le sol. La caméra vire brusquement et accélère pour suivre sa trajectoire vers le bas. Le météorite frappe le lac avec un flash blanc aveuglant, un anneau d'onde de choc s'étend vers l'extérieur à travers la surface de l'eau à une vitesse extrême, les arbres s'aplatissant radialement, la terre et l'eau s'élançant vers le haut en une colonne en forme de champignon imposante. La caméra orbite autour de l'impact à grande vitesse alors que l'onde de choc passe en dessous. Explosion photoréaliste, volumétrique, distorsion atmosphérique, éclairage de contour.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Prompt : Epic ultra-wide aerial shot, pre-dawn sky transitioning from dark blue to pink at the horizon, photorealistic landscape of green rolling hills and a calm lake. Camera moves forward rapidly at high altitude. A bright burning meteorite with a long orange trail streaks across the upper frame, descending toward the ground. Camera banks hard and accelerates to follow its trajectory downward. The meteorite strikes the lake with a blinding white flash, shockwave ring expanding outward across the water surface at extreme speed, trees flattening radially, earth and water launching upward in a towering mushroom-shaped column. Camera orbits the impact at high speed as the shockwave passes underneath. Photorealistic, volumetric explosion, atmospheric distortion, rim lighting.
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056340933273358676.json)
+
+```text
+---
+壮大な超広角の空撮、夜明け前の空が暗い青から地平線のピンクに移り変わる、緑のなだらかな丘と静かな湖のフォトリアリスティックな風景。カメラは高高度で急速に前進する。明るく燃える隕石が長いオレンジの尾を引いて上部フレームを横切り、地面に向かって降下する。カメラは急旋回し、その軌道を追って加速する。隕石が湖に衝突し、目をくらませる白い閃光を放ち、衝撃波のリングが水面を極端な速度で外側に広がり、木々が放射状に倒れ、地面と水が上方に打ち上げられ、巨大なキノコ型の柱を形成する。カメラは衝撃波が下を通過する中、高速で衝撃地点を周回する。フォトリアリスティックなボリュメトリック爆発、気象の歪み、リムライティング。
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt : Epic ultra-wide aerial shot, pre-dawn sky transitioning from dark blue to pink at the horizon, photorealistic landscape of green rolling hills and a calm lake. Camera moves forward rapidly at high altitude. A bright burning meteorite with a long orange trail streaks across the upper frame, descending toward the ground. Camera banks hard and accelerates to follow its trajectory downward. The meteorite strikes the lake with a blinding white flash, shockwave ring expanding outward across the water surface at extreme speed, trees flattening radially, earth and water launching upward in a towering mushroom-shaped column. Camera orbits the impact at high speed as the shockwave passes underneath. Photorealistic, volumetric explosion, atmospheric distortion, rim lighting.
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056340933273358676.json)
+
+```text
+---
+장엄한 초광각 항공 촬영, 새벽 전 하늘이 짙은 파란색에서 지평선의 분홍색으로 변하는 모습, 초현실적인 녹색 구릉지대와 잔잔한 호수의 풍경. 카메라는 높은 고도에서 빠르게 앞으로 이동합니다. 밝게 타오르는 유성이 긴 주황색 꼬리를 그리며 화면 상단을 가로질러 지면을 향해 내려옵니다. 카메라는 급격히 방향을 틀고 유성의 궤적을 따라가며 가속합니다. 유성이 호수에 눈부신 흰색 섬광과 함께 충돌하고, 충격파 고리가 물 표면을 가로질러 극도로 빠르게 확장되며 나무들이 방사형으로 눕고, 땅과 물이 거대한 버섯 모양의 기둥으로 솟아오릅니다. 카메라는 충격파가 아래를 지나가는 동안 충돌 지점을 고속으로 회전합니다. 초현실적인, 볼륨감 있는 폭발, 대기 왜곡, 림 조명.
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt : Epic ultra-wide aerial shot, pre-dawn sky transitioning from dark blue to pink at the horizon, photorealistic landscape of green rolling hills and a calm lake. Camera moves forward rapidly at high altitude. A bright burning meteorite with a long orange trail streaks across the upper frame, descending toward the ground. Camera banks hard and accelerates to follow its trajectory downward. The meteorite strikes the lake with a blinding white flash, shockwave ring expanding outward across the water surface at extreme speed, trees flattening radially, earth and water launching upward in a towering mushroom-shaped column. Camera orbits the impact at high speed as the shockwave passes underneath. Photorealistic, volumetric explosion, atmospheric distortion, rim lighting.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056340933273358676.json)
+
+```text
+---
+Imagem aérea épica ultra-wide, céu antes do amanhecer transicionando de azul escuro para rosa no horizonte, paisagem fotorrealista de colinas verdes ondulantes e um lago calmo. A câmera avança rapidamente em alta altitude. Um meteoro brilhante em chamas com uma longa trilha laranja risca a parte superior do quadro, descendo em direção ao solo. A câmera faz uma curva acentuada e acelera para seguir sua trajetória descendente. O meteoro atinge o lago com um flash branco ofuscante, anel de onda de choque se expandindo para fora na superfície da água em velocidade extrema, árvores se achatando radialmente, terra e água sendo lançadas para cima em uma coluna em forma de cogumelo imponente. A câmera orbita o impacto em alta velocidade enquanto a onda de choque passa por baixo. Explosão fotorrealista, volumétrica, distorção atmosférica, iluminação de contorno.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] Prompt : Epic ultra-wide aerial shot, pre-dawn sky transitioning from dark blue to pink at the horizon, photorealistic landscape of green rolling hills and a calm lake. Camera moves forward rapidly at high altitude. A bright burning meteorite with a long orange trail streaks across the upper frame, descending toward the ground. Camera banks hard and accelerates to follow its trajectory downward. The meteorite strikes the lake with a blinding white flash, shockwave ring expanding outward across the water surface at extreme speed, trees flattening radially, earth and water launching upward in a towering mushroom-shaped column. Camera orbits the impact at high speed as the shockwave passes underneath. Photorealistic, volumetric explosion, atmospheric distortion, rim lighting.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056340933273358676.json)
+
+```text
+---
+史诗般的超宽幅航拍镜头，黎明前的天空从深蓝色过渡到地平线的粉色，逼真的绿色起伏山丘和宁静湖泊景观。相机在高空快速向前移动。一颗明亮燃烧的流星带着长长的橙色尾迹划过画面上方，向地面下降。相机急转并加速跟随其向下的轨迹。流星以刺眼的白光击中湖面，冲击波环以极快的速度向外扩展，树木径向倒下，泥土和水被抛向空中，形成一个高耸的蘑菇状柱体。相机以高速环绕撞击点，冲击波从下方掠过。逼真的体积爆炸，气氛扭曲，边缘光照。
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt : Epic ultra-wide aerial shot, pre-dawn sky transitioning from dark blue to pink at the horizon, photorealistic landscape of green rolling hills and a calm lake. Camera moves forward rapidly at high altitude. A bright burning meteorite with a long orange trail streaks across the upper frame, descending toward the ground. Camera banks hard and accelerates to follow its trajectory downward. The meteorite strikes the lake with a blinding white flash, shockwave ring expanding outward across the water surface at extreme speed, trees flattening radially, earth and water launching upward in a towering mushroom-shaped column. Camera orbits the impact at high speed as the shockwave passes underneath. Photorealistic, volumetric explosion, atmospheric distortion, rim lighting.
+---
+```
+
+## 出处与许可
+
+- 原作者：[Umesh](https://x.com/umesh_ai) · 原帖：<https://x.com/umesh_ai/status/2056340933273358676>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2056340933273358676.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

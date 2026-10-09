@@ -192,7 +192,7 @@ export function rankExternal(data, c, route, opts) {
   const keys = new Set([ROUTES[route.primary]?.key, ...route.secondary.map((r) => ROUTES[r]?.key)]);
   const scored = [];
   for (const e of data.registry.entries) {
-    if (opts.commercial && ['noncommercial', 'none'].includes(e.license_class)) continue;
+    if (opts.commercial && (['noncommercial', 'none'].includes(e.license_class) || e.commercial_block)) continue;
     const real = e.use_for.filter((u) => want.has(u)).length;
     const anyOk = e.use_for.includes('any') && e.routes.includes(ROUTES[route.primary].key);
     const uf = real + (anyOk ? 0.5 : 0);
@@ -206,6 +206,7 @@ export function rankExternal(data, c, route, opts) {
     s += costScore(e.cost, opts.budget);
     s += e.zh === 'native' ? 1.5 : e.zh === 'bilingual' ? 0.7 : 0;
     s += { permissive: 1, copyleft: 0, 'source-available': 0, noncommercial: -1.5, none: -1.5 }[e.license_class] ?? 0;
+    if (e.warning || e.commercial_block) s -= 1.5;
     s += { archived: -3, research: opts.budget === 'gpu' ? 0 : -1.5, experimental: -0.5 }[e.maturity] ?? 0;
     s += Math.min(2, Math.log10((e.stars || 0) + 1) * 0.5);
     if (c.medium === '真人' && e.styles.length && e.styles.every((x) => ['anime', 'xianxia', 'guofeng', 'comic'].includes(x)) && c.scenario.drama) s -= 1.5;
@@ -214,7 +215,8 @@ export function rankExternal(data, c, route, opts) {
   }
   scored.sort((a, b) => b.s - a.s || b.e.stars - a.e.stars);
   const fmt = ({ e, s }) => ({ id: e.id, repo: e.repo, url: e.url, kind: e.kind, intro_zh: e.intro_zh, stars: e.stars, license: e.license,
-    license_class: e.license_class, license_note: e.license_note, cost: e.cost, zh: e.zh, plugs_into: e.plugs_into, score: +s.toFixed(2) });
+    license_class: e.license_class, license_note: e.license_note, cost: e.cost, zh: e.zh, plugs_into: e.plugs_into, score: +s.toFixed(2),
+    ...(e.commercial_block ? { commercial_block: true } : {}), ...(e.warning ? { warning: e.warning } : {}) });
   const methods = scored.filter((x) => x.e.routes.includes('M-method') && x.e.routes.length <= 2 && x.e.category !== 'handdrawn');
   const tools = scored.filter((x) => !methods.includes(x));
   return { tools: tools.slice(0, opts.limitTools || 8).map(fmt), methods: methods.slice(0, c.scenario.drama ? 5 : 3).map(fmt) };

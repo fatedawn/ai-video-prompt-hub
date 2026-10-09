@@ -36,6 +36,10 @@ def main():
             if e.get(k) != v:
                 e[k] = v
                 changed += 1
+        today = datetime.date.today().isoformat()
+        if e.get("verified_at") != today:
+            e["verified_at"] = today
+            changed += 1
         if new["archived"]:
             e["maturity"] = "archived"
     reg["checked_at"] = datetime.date.today().isoformat()

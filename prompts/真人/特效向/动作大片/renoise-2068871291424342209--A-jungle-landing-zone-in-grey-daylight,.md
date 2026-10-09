@@ -1,0 +1,204 @@
+---
+id: "renoise-2068871291424342209"
+title: "A jungle landing zone in grey daylight, a cleared patch of mud and grass ringed…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "动作大片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Military", "Horror", "Monster Chase", "Photoreal", "Sci-Fi"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068871291424342209.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Rahul Nanda"
+original_author_url: "https://x.com/rahulnanda86"
+original_post_url: "https://x.com/rahulnanda86/status/2068871291424342209"
+published: "2026-06-22"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# A jungle landing zone in grey daylight, a cleared patch of mud and grass ringed…
+
+## 提示词（English）
+
+```text
+A jungle landing zone in grey daylight, a cleared patch of mud and grass ringed by thick rainforest. A helicopter is trying to lift off with wounded men aboard, a heavy cargo sling hanging below it. A giant alien — brownish-black, slimy, with long whipping tentacles — has dropped into the zone and grabbed the helicopter's skids, dragging it back down. At the tree line, a soldier runs to the anti-air gun. Sound: straining rotor blades, wet tentacles slapping, shouting men, the alien's low roar, radio voices.
+
+Shot 1 (0–3s) — THE HOOK: Low shot up at the landing zone. The helicopter is a few meters off the ground, engine screaming, fighting to climb — but the giant alien's slimy tentacles are wrapped around the skids, pulling it back down toward the mud, the chopper tilting and spinning. The pilot wrestles the controls and shouts into his radio: IT WON'T LET ME UP!
+
+Shot 2 (3–6s): At the tree-line anti-air gun. A soldier drops behind the big gun, loads it, and swings the barrel toward the alien — but holds his fire, the chopper still in its grip. He calls on the radio: Dump the sling! Break loose!
+
+Shot 3 (6–9s): At the helicopter. The pilot hits the release and the heavy cargo sling drops away — the tentacles, caught on the falling sling, are dragged down with it. The alien slides off the skids and drops onto the open landing zone with the sling, rearing up tall and clear in the mud. The freed helicopter lurches upward.
+
+Shot 4 (9–13s) — BIG SLOW-MOTION MOMENT: The alien is out in the open now, away from the chopper. The soldier fires the anti-air gun. Bullet time — a stream of glowing shells flies across the zone in slow motion, smoke and shell cases hanging in the air, smashing into the alien, slime and mud bursting off its body as its tentacles fling outward.
+
+Shot 5 (13–15s): Time snaps back. A big burst of fire and slime blows the alien backward into the mud, where it drops and lies still. The helicopter steadies, climbs up out of the zone, and pulls away over the trees. Smoke drifts across the landing zone.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068871291424342209.json)
+
+```text
+---
+Una zona de aterrizaje en la jungla bajo una luz gris, un claro de barro y hierba rodeado por una densa selva tropical. Un helicóptero intenta despegar con hombres heridos a bordo, una eslinga de carga pesada colgando debajo. Un alienígena gigante — de color marrón-negro, viscoso, con largos tentáculos que se agitan — ha caído en la zona y ha agarrado los patines del helicóptero, arrastrándolo de nuevo hacia abajo. En la línea de árboles, un soldado corre hacia el cañón antiaéreo. Sonido: palas del rotor esforzándose, tentáculos húmedos golpeando, hombres gritando, el rugido bajo del alienígena, voces de radio.
+
+Toma 1 (0–3s) — EL GANCHO: Toma baja hacia la zona de aterrizaje. El helicóptero está a unos metros del suelo, el motor gritando, luchando por subir — pero los tentáculos viscosos del alienígena están envueltos alrededor de los patines, tirándolo de nuevo hacia el barro, el helicóptero inclinándose y girando. El piloto lucha con los controles y grita por su radio: ¡NO ME DEJA SUBIR!
+
+Toma 2 (3–6s): En el cañón antiaéreo en la línea de árboles. Un soldado se agacha detrás del gran cañón, lo carga y apunta el cañón hacia el alienígena — pero no dispara, el helicóptero todavía está en su agarre. Llama por la radio: ¡Suelta la eslinga! ¡Libérate!
+
+Toma 3 (6–9s): En el helicóptero. El piloto presiona el botón de liberación y la pesada eslinga de carga cae — los tentáculos, atrapados en la eslinga que cae, son arrastrados hacia abajo con ella. El alienígena se desliza de los patines y cae en la zona de aterrizaje abierta con la eslinga, levantándose alto y claro en el barro. El helicóptero liberado se eleva hacia arriba.
+
+Toma 4 (9–13s) — GRAN MOMENTO A CÁMARA LENTA: El alienígena está ahora al descubierto, lejos del helicóptero. El soldado dispara el cañón antiaéreo. Tiempo bala — una ráfaga de proyectiles brillantes cruza la zona en cámara lenta, humo y casquillos flotando en el aire, impactando en el alienígena, el lodo y la baba estallando de su cuerpo mientras sus tentáculos se lanzan hacia afuera.
+
+Toma 5 (13–15s): El tiempo vuelve a la normalidad. Una gran explosión de fuego y baba lanza al alienígena hacia atrás en el barro, donde cae y queda inmóvil. El helicóptero se estabiliza, asciende fuera de la zona y se aleja sobre los árboles. El humo se desplaza por la zona de aterrizaje.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Seedance 2 regular generation below for comparison.
+
+https://t.co/oHr5XEGB8C
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068871291424342209.json)
+
+```text
+---
+Une zone d'atterrissage dans la jungle sous une lumière grise, une clairière de boue et d'herbe entourée par une forêt tropicale dense. Un hélicoptère tente de décoller avec des hommes blessés à bord, une élingue de chargement lourde suspendue en dessous. Un alien géant — brun-noir, visqueux, avec de longs tentacules fouettants — est tombé dans la zone et a attrapé les patins de l'hélicoptère, le tirant vers le bas. À la lisière des arbres, un soldat court vers le canon anti-aérien. Son : pales de rotor tendues, tentacules mouillés claquant, hommes criant, rugissement sourd de l'alien, voix radio.
+
+Plan 1 (0–3s) — L'ACCROCHE : Plan bas vers la zone d'atterrissage. L'hélicoptère est à quelques mètres du sol, moteur hurlant, luttant pour monter — mais les tentacules visqueux de l'alien géant sont enroulés autour des patins, le tirant vers le bas dans la boue, l'hélicoptère basculant et tournant. Le pilote lutte avec les commandes et crie dans sa radio : IT WON'T LET ME UP!
+
+Plan 2 (3–6s) : Au canon anti-aérien à la lisière des arbres. Un soldat se glisse derrière le gros canon, le charge, et oriente le canon vers l'alien — mais retient son tir, l'hélicoptère étant toujours pris. Il appelle à la radio : Dump the sling! Break loose!
+
+Plan 3 (6–9s) : À l'hélicoptère. Le pilote appuie sur le déclencheur et l'élingue de chargement lourde tombe — les tentacules, accrochés à l'élingue qui tombe, sont entraînés vers le bas avec elle. L'alien glisse des patins et tombe sur la zone d'atterrissage ouverte avec l'élingue, se dressant haut et clair dans la boue. L'hélicoptère libéré monte brusquement.
+
+Plan 4 (9–13s) — GRAND MOMENT AU RALENTI : L'alien est maintenant à découvert, loin de l'hélicoptère. Le soldat tire avec le canon anti-aérien. Bullet time — un flot de projectiles lumineux traverse la zone au ralenti, fumée et douilles flottant dans l'air, s'écrasant sur l'alien, la boue et la bave éclatant de son corps alors que ses tentacules s'élancent vers l'extérieur.
+
+Plan 5 (13–15s) : Le temps reprend son cours. Une grande explosion de feu et de bave repousse l'alien en arrière dans la boue, où il tombe et reste immobile. L'hélicoptère se stabilise, monte hors de la zone et s'éloigne au-dessus des arbres. La fumée dérive à travers la zone d'atterrissage.
+
+--- THREAD CONTINUATION ---
+[Thread 1] Seedance 2 regular generation below for comparison.
+
+https://t.co/oHr5XEGB8C
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068871291424342209.json)
+
+```text
+---
+灰色の昼間のジャングルの着陸ゾーン、厚い熱帯雨林に囲まれた泥と草の開けた場所。負傷した兵士を乗せたヘリコプターが離陸しようとしており、その下には重い貨物スリングがぶら下がっている。巨大なエイリアン—茶色がかった黒色でぬめぬめしており、長い触手を振り回している—がゾーンに降り立ち、ヘリコプターのスキッドを掴んで引き戻している。木の境界線では、兵士が対空砲に向かって走っている。音: 苦しむローターブレード、湿った触手の音、叫ぶ男たち、エイリアンの低い咆哮、無線の声。
+
+ショット1 (0–3秒) — フック: 着陸ゾーンを見上げる低いショット。ヘリコプターは地面から数メートル離れており、エンジンが悲鳴を上げ、上昇しようと奮闘している—しかし、巨大なエイリアンのぬめぬめした触手がスキッドに巻きつき、泥に向かって引き戻している。ヘリコプターは傾き、回転している。パイロットはコントロールを奮闘し、無線で叫ぶ: IT WON'T LET ME UP!
+
+ショット2 (3–6秒): 木の境界線の対空砲で。兵士が大砲の後ろに飛び込み、装填し、銃口をエイリアンに向ける—しかし、まだ発砲しない。ヘリコプターがまだそのグリップにあるからだ。彼は無線で呼びかける: Dump the sling! Break loose!
+
+ショット3 (6–9秒): ヘリコプターで。パイロットがリリースを押し、重い貨物スリングが落ちる—触手が落ちるスリングに引っかかり、一緒に引きずり下ろされる。エイリアンはスキッドから滑り落ち、スリングと共に開けた着陸ゾーンに落ち、泥の中で高く立ち上がる。解放されたヘリコプターは上昇する。
+
+ショット4 (9–13秒) — 大きなスローモーションの瞬間: エイリアンは今や開けた場所に出ており、ヘリコプターから離れている。兵士が対空砲を発射する。バレットタイム—光る弾丸の流れがゾーンを横切り、スローモーションで飛び、煙と薬莢が空中に漂い、エイリアンにぶつかり、ぬめりと泥がその体から飛び散り、触手が外側に投げ出される。
+
+ショット5 (13–15秒): 時間が戻る。大きな火とぬめりの爆発がエイリアンを泥の中に吹き飛ばし、そこで静かに横たわる。ヘリコプターは安定し、ゾーンから上昇し、木々の上を越えて離れていく。煙が着陸ゾーンを漂う。
+
+--- THREAD CONTINUATION ---
+[Thread 1] Seedance 2 regular generation below for comparison.
+
+https://t.co/oHr5XEGB8C
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068871291424342209.json)
+
+```text
+---
+회색빛 낮의 정글 착륙 지대, 두꺼운 열대우림으로 둘러싸인 진흙과 풀로 된 빈 공간. 헬리콥터가 부상자를 태우고 이륙하려고 하지만, 아래에는 무거운 화물 슬링이 매달려 있다. 갈색-검정색의 거대한 외계 생명체가 착륙 지대에 떨어져 헬리콥터의 스키드를 잡아당기며 다시 끌어내리고 있다. 나무 경계선에서 한 병사가 대공포로 달려간다. 소리: 힘겹게 돌아가는 로터 블레이드, 젖은 촉수가 때리는 소리, 외치는 남자들, 외계 생명체의 낮은 포효, 무전기 소리.
+
+샷 1 (0–3초) — THE HOOK: 착륙 지대를 향한 낮은 앵글. 헬리콥터가 지상에서 몇 미터 떠 있으며, 엔진이 비명을 지르며 상승하려고 애쓰고 있다 — 그러나 거대한 외계 생명체의 끈적한 촉수가 스키드를 감싸고 진흙 쪽으로 다시 끌어내리고 있어, 헬리콥터가 기울고 회전하고 있다. 조종사는 조종간을 잡고 무전기에 외친다: IT WON'T LET ME UP!
+
+샷 2 (3–6초): 나무 경계선의 대공포. 한 병사가 큰 포 뒤로 몸을 숨기고, 장전한 후 포신을 외계 생명체 쪽으로 돌린다 — 그러나 발사하지 않고, 헬리콥터가 아직 잡혀 있다. 그는 무전기로 외친다: Dump the sling! Break loose!
+
+샷 3 (6–9초): 헬리콥터에서. 조종사가 해제 버튼을 누르고 무거운 화물 슬링이 떨어진다 — 떨어지는 슬링에 걸린 촉수가 함께 끌려 내려간다. 외계 생명체는 스키드에서 미끄러져 착륙 지대에 떨어지고, 슬링과 함께 진흙 속에서 높이 솟아오른다. 자유로워진 헬리콥터가 위로 급상승한다.
+
+샷 4 (9–13초) — BIG SLOW-MOTION MOMENT: 외계 생명체가 이제 헬리콥터에서 떨어져 열린 공간에 있다. 병사가 대공포를 발사한다. 총알 시간 — 빛나는 포탄이 느린 동작으로 지대를 가로질러 날아가고, 연기와 탄피가 공중에 떠다니며 외계 생명체에 부딪히고, 촉수가 바깥으로 뻗어나가며 몸에서 점액과 진흙이 터져 나온다.
+
+샷 5 (13–15초): 시간이 다시 흐른다. 큰 불꽃과 점액이 외계 생명체를 진흙 속으로 뒤로 날려버리고, 그곳에 떨어져 움직이지 않는다. 헬리콥터는 안정되며, 착륙 지대에서 올라가 나무 위로 멀어져 간다. 연기가 착륙 지대를 가로질러 떠다닌다.
+
+--- THREAD CONTINUATION ---
+[Thread 1] Seedance 2 regular generation below for comparison.
+
+https://t.co/oHr5XEGB8C
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068871291424342209.json)
+
+```text
+Uma zona de pouso na selva em plena luz do dia cinzenta, um pedaço de lama e grama cercado por uma densa floresta tropical. Um helicóptero tenta decolar com homens feridos a bordo, uma carga pesada pendurada abaixo dele. Um alienígena gigante — marrom-escuro, viscoso, com longos tentáculos chicoteando — caiu na zona e agarrou os esquis do helicóptero, puxando-o de volta para baixo. Na linha das árvores, um soldado corre para a arma antiaérea. Som: lâminas do rotor tensionadas, tentáculos molhados batendo, homens gritando, o rugido baixo do alienígena, vozes no rádio.
+
+Cena 1 (0–3s) — O GANCHO: Baixa filmagem da zona de pouso. O helicóptero está a poucos metros do chão, motor gritando, lutando para subir — mas os tentáculos viscosos do alienígena gigante estão enrolados nos esquis, puxando-o de volta para a lama, o helicóptero inclinando e girando. O piloto luta com os controles e grita no rádio: NÃO CONSIGO SUBIR!
+
+Cena 2 (3–6s): Na linha das árvores, arma antiaérea. Um soldado se abaixa atrás da grande arma, carrega-a e gira o cano em direção ao alienígena — mas segura o fogo, o helicóptero ainda está em seu domínio. Ele chama no rádio: Solte a carga! Liberte-se!
+
+Cena 3 (6–9s): No helicóptero. O piloto aciona a liberação e a pesada carga cai — os tentáculos, presos na carga em queda, são arrastados com ela. O alienígena desliza dos esquis e cai na zona de pouso aberta com a carga, erguendo-se alto e claro na lama. O helicóptero libertado sobe abruptamente.
+
+Cena 4 (9–13s) — GRANDE MOMENTO EM CÂMERA LENTA: O alienígena está agora ao ar livre, longe do helicóptero. O soldado dispara a arma antiaérea. Tempo de bala — uma corrente de projéteis brilhantes voa pela zona em câmera lenta, fumaça e cartuchos flutuando no ar, atingindo o alienígena, lodo e lama explodindo de seu corpo enquanto seus tentáculos se lançam para fora.
+
+Cena 5 (13–15s): O tempo volta ao normal. Uma grande explosão de fogo e lodo empurra o alienígena para trás na lama, onde cai e fica imóvel. O helicóptero se estabiliza, sobe para fora da zona e se afasta sobre as árvores. Fumaça deriva pela zona de pouso.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Seedance 2 geração regular abaixo para comparação.
+
+https://t.co/oHr5XEGB8C
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068871291424342209.json)
+
+```text
+---
+在灰色白昼中的丛林降落区，一片被厚重雨林环绕的泥地和草地。直升机正试图起飞，机上载有伤员，重型货物吊索悬挂在下方。一只巨大的外星生物——棕黑色、黏滑，长长的触须挥舞——降落在区域内，抓住直升机的起落架，将其拖回地面。在树线处，一名士兵奔向防空炮。声音：紧张的旋翼声、湿滑的触须拍打声、士兵的喊叫声、外星生物的低吼声、无线电的声音。
+
+镜头1（0–3秒）——引入：低角度拍摄降落区。直升机离地几米，发动机尖叫，奋力爬升——但巨大的外星生物的黏滑触须缠绕着起落架，将其拉回泥地，直升机倾斜旋转。飞行员奋力操控并对着无线电喊道：它不让我上去！
+
+镜头2（3–6秒）：在树线处的防空炮。一名士兵趴在大炮后面，装弹并将炮口对准外星生物——但没有开火，直升机仍在其掌控中。他通过无线电呼叫：放掉吊索！挣脱！
+
+镜头3（6–9秒）：在直升机处。飞行员按下释放按钮，重型货物吊索掉落——触须被下落的吊索拖住，随之被拉下。外星生物滑离起落架，连同吊索一起掉落在开放的降落区，直立在泥地中。解放的直升机猛然上升。
+
+镜头4（9–13秒）——大慢动作时刻：外星生物现在暴露在外，远离直升机。士兵开火防空炮。子弹时间——一串发光的炮弹在慢动作中飞过区域，烟雾和弹壳悬在空中，击中外星生物，黏液和泥土从其身体上爆裂开来，触须向外甩动。
+
+镜头5（13–15秒）：时间恢复正常。一大团火焰和黏液将外星生物向后吹入泥地，落下后静止不动。直升机稳定下来，爬升出区域，飞过树顶。烟雾飘过降落区。
+
+--- 线程继续 ---
+[线程1] Seedance 2常规生成如下以供比较。
+
+https://t.co/oHr5XEGB8C
+---
+```
+
+## 出处与许可
+
+- 原作者：[Rahul Nanda](https://x.com/rahulnanda86) · 原帖：<https://x.com/rahulnanda86/status/2068871291424342209>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068871291424342209.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

@@ -1,0 +1,442 @@
+---
+id: "renoise-2069707232040915276"
+title: "Create a 16-panel storyboard for a 15-second vertical K-pop dance music video…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "音乐MV"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Music & Dance", "MV", "Photoreal", "Realistic World", "Creative Asset", "Slow-Mo"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069707232040915276.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "apob"
+original_author_url: "https://x.com/apob_ai"
+original_post_url: "https://x.com/apob_ai/status/2069707232040915276"
+published: "2026-06-24"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Create a 16-panel storyboard for a 15-second vertical K-pop dance music video…
+
+## 提示词（English）
+
+```text
+Create a 16-panel storyboard for a 15-second vertical K-pop dance music video featuring a fictional original five-member girl group on a neon Seoul rooftop at night. Keep the same dancers, outfits, location, and lighting across all panels. High-energy choreography, glossy K-pop MV style, cinematic camera movement, pink and cyan neon reflections, wet rooftop floor, sharp synchronized poses.
+
+Panel 1: Wide shot, the group starts in a V formation, heads lowered, neon skyline glowing behind them.
+Panel 2: Beat hits, all five raise their heads sharply and snap their arms outward in sync.
+Panel 3: Camera pushes in, center dancer steps forward, others angle their shoulders with confident expressions.
+Panel 4: Low-angle shot, group performs a powerful hip-hop inspired arm wave, wet floor reflecting their silhouettes.
+Panel 5: Side tracking shot, dancers slide to the right in perfect formation, hair and jackets moving with the motion.
+Panel 6: Close-up on center dancer, hand gesture near face, intense eye contact, neon bokeh behind her.
+Panel 7: Fast cut to full body shot, all dancers execute a synchronized body roll and step-back move.
+Panel 8: Overhead slightly tilted shot, formation changes from V shape into a straight diagonal line.
+Panel 9: Camera orbit begins, dancers perform quick footwork and sharp hand accents.
+Panel 10: Medium shot, two dancers in front switch positions while the back line mirrors the movement.
+Panel 11: Dramatic low-angle shot, group hits a strong chorus pose, one arm up, one arm across the body.
+Panel 12: Camera whip pan, dancers spin once and land facing camera with confident smiles.
+Panel 13: Wide shot, neon signs flicker, group performs a synchronized jump and lands on the beat.
+Panel 14: Slow-motion moment, hair and outfit details flowing, glossy reflections on the floor.
+Panel 15: Camera pulls back, group returns to a tight V formation, final hand sequence building energy.
+Panel 16: Final freeze-like hero pose, center dancer forward, all five locked in a powerful ending stance, neon skyline blazing.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069707232040915276.json)
+
+```text
+Crea un storyboard de 16 paneles para un video musical de baile K-pop vertical de 15 segundos, presentando a un grupo ficticio original de cinco chicas en una azotea de neón en Seúl por la noche. Mantén las mismas bailarinas, atuendos, ubicación e iluminación en todos los paneles. Coreografía de alta energía, estilo brillante de MV de K-pop, movimiento de cámara cinematográfico, reflejos de neón rosa y cian, piso de azotea mojado, poses sincronizadas y precisas.
+
+Panel 1: Toma amplia, el grupo comienza en formación en V, cabezas inclinadas, el horizonte de neón brillando detrás de ellas.
+Panel 2: Golpe del ritmo, las cinco levantan la cabeza bruscamente y extienden los brazos hacia afuera en sincronía.
+Panel 3: La cámara se acerca, la bailarina del centro avanza, las demás inclinan los hombros con expresiones confiadas.
+Panel 4: Toma en ángulo bajo, el grupo realiza una poderosa ola de brazos inspirada en el hip-hop, el piso mojado refleja sus siluetas.
+Panel 5: Toma de seguimiento lateral, las bailarinas se deslizan hacia la derecha en perfecta formación, el cabello y las chaquetas se mueven con el movimiento.
+Panel 6: Primer plano de la bailarina del centro, gesto de mano cerca del rostro, contacto visual intenso, bokeh de neón detrás de ella.
+Panel 7: Corte rápido a toma de cuerpo completo, todas las bailarinas ejecutan un movimiento sincronizado de rollo corporal y paso hacia atrás.
+Panel 8: Toma aérea ligeramente inclinada, la formación cambia de forma V a una línea diagonal recta.
+Panel 9: Comienza la órbita de la cámara, las bailarinas realizan pasos rápidos y acentos de manos precisos.
+Panel 10: Toma media, dos bailarinas al frente cambian de posición mientras la línea trasera refleja el movimiento.
+Panel 11: Toma dramática en ángulo bajo, el grupo adopta una pose fuerte del coro, un brazo arriba, otro cruzado sobre el cuerpo.
+Panel 12: Cámara con movimiento rápido, las bailarinas giran una vez y aterrizan mirando a la cámara con sonrisas confiadas.
+Panel 13: Toma amplia, los letreros de neón parpadean, el grupo realiza un salto sincronizado y aterriza al ritmo.
+Panel 14: Momento en cámara lenta, detalles de cabello y atuendo fluyendo, reflejos brillantes en el piso.
+Panel 15: La cámara se aleja, el grupo regresa a una formación en V ajustada, secuencia final de manos acumulando energía.
+Panel 16: Pose final congelada como de héroe, bailarina del centro adelante, las cinco en una postura final poderosa, el horizonte de neón resplandeciente.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Chat para Editar Prompt: Storyboard de Baile de 16 Paneles
+
+Crea un storyboard de 16 paneles para un video musical de baile K-pop vertical de 15 segundos, presentando a un grupo ficticio original de cinco chicas en una azotea de neón en Seúl por la noche. Mantén las mismas bailarinas, atuendos, ubicación e iluminación en todos los paneles. Coreografía de alta energía, estilo brillante de MV de K-pop, movimiento de cámara cinematográfico, reflejos de neón rosa y cian, piso de azotea mojado, poses sincronizadas y precisas.
+
+Panel 1: Toma amplia, el grupo comienza en formación en V, cabezas inclinadas, el horizonte de neón brillando detrás de ellas.
+Panel 2: Golpe del ritmo, las cinco levantan la cabeza bruscamente y extienden los brazos hacia afuera en sincronía.
+Panel 3: La cámara se acerca, la bailarina del centro avanza, las demás inclinan los hombros con expresiones confiadas.
+Panel 4: Toma en ángulo bajo, el grupo realiza una poderosa ola de brazos inspirada en el hip-hop, el piso mojado refleja sus siluetas.
+Panel 5: Toma de seguimiento lateral, las bailarinas se deslizan hacia la derecha en perfecta formación, el cabello y las chaquetas se mueven con el movimiento.
+Panel 6: Primer plano de la bailarina del centro, gesto de mano cerca del rostro, contacto visual intenso, bokeh de neón detrás de ella.
+Panel 7: Corte rápido a toma de cuerpo completo, todas las bailarinas ejecutan un movimiento sincronizado de rollo corporal y paso hacia atrás.
+Panel 8: Toma aérea ligeramente inclinada, la formación cambia de forma V a una línea diagonal recta.
+Panel 9: Comienza la órbita de la cámara, las bailarinas realizan pasos rápidos y acentos de manos precisos.
+Panel 10: Toma media, dos bailarinas al frente cambian de posición mientras la línea trasera refleja el movimiento.
+Panel 11: Toma dramática en ángulo bajo, el grupo adopta una pose fuerte del coro, un brazo arriba, otro cruzado sobre el cuerpo.
+Panel 12: Cámara con movimiento rápido, las bailarinas giran una vez y aterrizan mirando a la cámara con sonrisas confiadas.
+Panel 13: Toma amplia, los letreros de neón parpadean, el grupo realiza un salto sincronizado y aterriza al ritmo.
+Panel 14: Momento en cámara lenta, detalles de cabello y atuendo fluyendo, reflejos brillantes en el piso.
+Panel 15: La cámara se aleja, el grupo regresa a una formación en V ajustada, secuencia final de manos acumulando energía.
+Panel 16: Pose final congelada como de héroe, bailarina del centro adelante, las cinco en una postura final poderosa, el horizonte de neón resplandeciente.
+
+[Hilo 2] Imagen a Video Ultra S Prompt: Seedance 2.0 Dance Video
+
+Anima el primer fotograma proporcionado en un video musical de baile K-pop vertical de 15 segundos en formato 9:16 cinematográfico. Mantén las mismas cinco bailarinas ficticias originales, mismas caras, mismos atuendos, misma ubicación en la azotea, mismo horizonte de neón de Seúl, mismo piso mojado y reflectante, y mismo estilo de iluminación rosa/cian en todo el video.
+
+El video comienza exactamente desde la pose del primer fotograma: cinco bailarinas en una formación en V afilada, la bailarina del centro ligeramente adelantada, todas mirando a la cámara con expresiones confiadas. En el primer golpe, levantan la cabeza, mueven los hombros y extienden los brazos hacia afuera en perfecta sincronización. La coreografía debe sentirse pulida, poderosa y lista para el escenario de ídolos, mezclando acentos de brazos afilados de K-pop, rollos corporales controlados, pasos limpios, gestos de manos inspirados en el hip-hop, cambios de formación, giros y una pose final fuerte.
+
+Cronograma:
+0–2s: Comienza desde el primer fotograma estático. Lenta aproximación cinematográfica mientras las bailarinas mantienen la pose por un breve momento, luego levantan la cabeza y abren los brazos bruscamente al ritmo.
+2–4s: La bailarina del centro avanza medio paso mientras las bailarinas laterales inclinan sus cuerpos hacia afuera. Las cinco realizan ondas de brazos sincronizadas y golpes de hombros. La cámara permanece centrada con una sutil aproximación en ángulo bajo.
+4–6s: El grupo se desliza lateralmente hacia la derecha en formación, luego inmediatamente cambia hacia la izquierda con pasos rápidos. Chaquetas, cabello, cadenas y accesorios se mueven naturalmente con el baile. Las reflexiones en el piso mojado siguen el movimiento con precisión.
+6–8s: La cámara corta o transiciona suavemente a una toma media. La bailarina del centro realiza un gesto de mano confiado cerca del rostro mientras las demás reflejan acentos menores detrás de ella. Mantén la identidad facial clara y sin deformaciones faciales.
+8–10s: La cámara se aleja mientras el grupo cambia de formación de forma V a una línea diagonal, luego de nuevo a una formación compacta. Las bailarinas realizan un rollo corporal sincronizado seguido de un movimiento de paso hacia atrás afilado.
+10–12s: Añade una órbita de cámara suave de frente-izquierda a centro mientras las bailarinas ejecutan pasos rápidos pero limpios, alternando golpes de brazos y un giro controlado. El movimiento debe ser enérgico pero legible, no caótico.
+12–14s: El pico del coro: las cinco bailarinas realizan un salto sincronizado o un cambio de nivel fuerte, aterrizan juntas, luego ejecutan dos acentos de manos afilados. Los letreros de neón parpadean sutilmente en el fondo, y el piso mojado captura reflejos brillantes de rosa y cian.
+14–15s: La cámara se asienta en una toma de héroe en ángulo bajo centrada. Las bailarinas regresan a una formación en V ajustada y terminan en una pose final poderosa mirando a la cámara, la bailarina del centro ligeramente adelantada, todas con expresiones confiadas y carismáticas.
+
+Estilo de cámara: video musical de K-pop de alto
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069707232040915276.json)
+
+```text
+---
+Créez un storyboard de 16 panneaux pour une vidéo musicale de danse K-pop verticale de 15 secondes mettant en vedette un groupe fictif original de cinq filles sur un toit néon de Séoul la nuit. Gardez les mêmes danseuses, tenues, lieu et éclairage sur tous les panneaux. Chorégraphie énergique, style MV K-pop brillant, mouvement de caméra cinématographique, reflets néon roses et cyan, sol du toit mouillé, poses synchronisées nettes.
+
+Panneau 1 : Plan large, le groupe commence en formation V, têtes baissées, la ligne d'horizon néon brillant derrière elles.
+Panneau 2 : Le rythme frappe, les cinq relèvent brusquement la tête et tendent les bras vers l'extérieur en synchronisation.
+Panneau 3 : La caméra s'approche, la danseuse centrale avance, les autres inclinent leurs épaules avec des expressions confiantes.
+Panneau 4 : Plan en contre-plongée, le groupe exécute une vague de bras inspirée du hip-hop, le sol mouillé reflétant leurs silhouettes.
+Panneau 5 : Plan de suivi latéral, les danseuses glissent vers la droite en formation parfaite, cheveux et vestes bougeant avec le mouvement.
+Panneau 6 : Gros plan sur la danseuse centrale, geste de la main près du visage, contact visuel intense, bokeh néon derrière elle.
+Panneau 7 : Coupe rapide sur un plan en pied, toutes les danseuses exécutent un roulement de corps synchronisé et un mouvement de recul.
+Panneau 8 : Plan légèrement incliné en plongée, la formation passe de la forme en V à une ligne diagonale droite.
+Panneau 9 : Début de l'orbite de la caméra, les danseuses exécutent des jeux de pieds rapides et des accents de main nets.
+Panneau 10 : Plan moyen, deux danseuses à l'avant changent de position tandis que la ligne arrière reflète le mouvement.
+Panneau 11 : Plan dramatique en contre-plongée, le groupe atteint une pose de refrain forte, un bras en l'air, un bras à travers le corps.
+Panneau 12 : Panoramique rapide de la caméra, les danseuses tournent une fois et atterrissent face à la caméra avec des sourires confiants.
+Panneau 13 : Plan large, les enseignes néon clignotent, le groupe effectue un saut synchronisé et atterrit sur le rythme.
+Panneau 14 : Moment au ralenti, détails des cheveux et des tenues flottant, reflets brillants sur le sol.
+Panneau 15 : La caméra recule, le groupe revient à une formation en V serrée, séquence finale de mains construisant l'énergie.
+Panneau 16 : Pose finale figée comme un héros, danseuse centrale en avant, les cinq figées dans une posture finale puissante, ligne d'horizon néon flamboyante.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Chat pour Éditer le Prompt : Storyboard de Danse en 16 Panneaux
+
+Créez un storyboard de 16 panneaux pour une vidéo musicale de danse K-pop verticale de 15 secondes mettant en vedette un groupe fictif original de cinq filles sur un toit néon de Séoul la nuit. Gardez les mêmes danseuses, tenues, lieu et éclairage sur tous les panneaux. Chorégraphie énergique, style MV K-pop brillant, mouvement de caméra cinématographique, reflets néon roses et cyan, sol du toit mouillé, poses synchronisées nettes.
+
+Panneau 1 : Plan large, le groupe commence en formation V, têtes baissées, la ligne d'horizon néon brillant derrière elles.
+Panneau 2 : Le rythme frappe, les cinq relèvent brusquement la tête et tendent les bras vers l'extérieur en synchronisation.
+Panneau 3 : La caméra s'approche, la danseuse centrale avance, les autres inclinent leurs épaules avec des expressions confiantes.
+Panneau 4 : Plan en contre-plongée, le groupe exécute une vague de bras inspirée du hip-hop, le sol mouillé reflétant leurs silhouettes.
+Panneau 5 : Plan de suivi latéral, les danseuses glissent vers la droite en formation parfaite, cheveux et vestes bougeant avec le mouvement.
+Panneau 6 : Gros plan sur la danseuse centrale, geste de la main près du visage, contact visuel intense, bokeh néon derrière elle.
+Panneau 7 : Coupe rapide sur un plan en pied, toutes les danseuses exécutent un roulement de corps synchronisé et un mouvement de recul.
+Panneau 8 : Plan légèrement incliné en plongée, la formation passe de la forme en V à une ligne diagonale droite.
+Panneau 9 : Début de l'orbite de la caméra, les danseuses exécutent des jeux de pieds rapides et des accents de main nets.
+Panneau 10 : Plan moyen, deux danseuses à l'avant changent de position tandis que la ligne arrière reflète le mouvement.
+Panneau 11 : Plan dramatique en contre-plongée, le groupe atteint une pose de refrain forte, un bras en l'air, un bras à travers le corps.
+Panneau 12 : Panoramique rapide de la caméra, les danseuses tournent une fois et atterrissent face à la caméra avec des sourires confiants.
+Panneau 13 : Plan large, les enseignes néon clignotent, le groupe effectue un saut synchronisé et atterrit sur le rythme.
+Panneau 14 : Moment au ralenti, détails des cheveux et des tenues flottant, reflets brillants sur le sol.
+Panneau 15 : La caméra recule, le groupe revient à une formation en V serrée, séquence finale de mains construisant l'énergie.
+Panneau 16 : Pose finale figée comme un héros, danseuse centrale en avant, les cinq figées dans une posture finale puissante, ligne d'horizon néon flamboyante.
+
+[Fil 2] Image à Vidéo Ultra S Prompt : Seedance 2.0 Dance Video
+
+Animez le premier cadre fourni en une vidéo musicale de danse K-pop cinématographique verticale de 15 secondes au format 9:16. Gardez les mêmes cinq danseuses fictives originales, mêmes visages, mêmes tenues, même lieu sur le toit, même ligne d'horizon néon de Séoul, même sol mouillé et réfléchissant, et même style d'éclairage rose/cyan tout au long de la vidéo.
+
+La vidéo commence exactement à partir de la pose du premier cadre : cinq danseuses en formation V nette, danseuse centrale légèrement en avant, toutes face à la caméra avec des expressions confiantes. Sur le premier temps, elles lèvent la tête, claquent les épaules et tendent les bras vers l'extérieur en parfaite synchronisation. La chorégraphie doit sembler polie, puissante et prête pour la scène d'idole, mélangeant des accents de bras K-pop nets, des roulements de corps contrôlés, des jeux de pieds propres, des gestes de main inspirés du hip-hop, des changements de formation, des tours et une pose finale forte.
+
+Chronologie :
+0–2s : Commencez à partir du premier cadre fixe. Lent zoom cinématographique alors que les danseuses tiennent la pose pendant un bref instant, puis lèvent brusquement la tête et ouvrent les bras sur le rythme.
+2–4s : La danseuse centrale avance d'un demi-pas tandis que les danseuses latérales inclinent leur corps vers l'extérieur. Les cinq exécutent des vagues de bras synchronisées et des coups d'épaule. La caméra reste centrée avec un léger zoom en contre-plongée.
+4–6s : Le groupe glisse latéralement vers la droite en formation, puis revient immédiatement à gauche avec des jeux de pieds rapides. Vestes, cheveux, chaînes et accessoires bougent naturellement avec la danse. Les reflets du sol mouillé suivent le mouvement avec précision.
+6–8s : La caméra coupe ou passe en douceur à un plan moyen. La danseuse centrale effectue un geste de la main confiant près du visage tandis que les autres reflètent de plus petits accents derrière elle. Maintenez une identité faciale claire et pas de morphing de visage.
+8–10s : La caméra s'élargit alors que le groupe change de formation de la forme en V à une ligne diagonale, puis revient à une formation compacte. Les danseuses exécutent un roulement de corps synchronisé suivi d'un mouvement de recul net.
+10–12s : Ajoutez une orbite de caméra fluide de l'avant-gauche au centre tandis que les danseuses exécutent des jeux de pieds rapides mais propres, alternant des coups de bras et un tour contrôlé. Le mouvement doit être énergique mais lisible, pas chaotique.
+12–14s : Le pic du refrain : les cinq danseuses effectuent un saut synchronisé ou un changement de niveau fort, atterrissent ensemble, puis effectuent deux accents de main nets. Les enseignes néon clignotent subtilement en arrière-plan, et le sol mouillé capte des reflets roses et cyan brillants.
+14–15s : La caméra se stabilise sur un
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069707232040915276.json)
+
+```text
+---
+架空のオリジナル5人組ガールグループが夜のネオン輝くソウルの屋上で踊る、15秒の縦型K-popダンスミュージックビデオの16パネルのストーリーボードを作成してください。全てのパネルで同じダンサー、衣装、場所、照明を維持してください。ハイエナジーな振り付け、光沢のあるK-pop MVスタイル、シネマティックなカメラの動き、ピンクとシアンのネオンの反射、濡れた屋上の床、鋭いシンクロポーズ。
+
+パネル1: ワイドショット、グループはV字フォーメーションでスタート、頭を下げ、背後にネオンのスカイラインが輝いている。
+パネル2: ビートが鳴り、5人全員が頭を鋭く上げ、腕をシンクロして外側にスナップ。
+パネル3: カメラが寄り、中央のダンサーが前に出て、他のメンバーは肩を自信満々に角度をつける。
+パネル4: ローアングルショット、グループが力強いヒップホップ風のアームウェーブを行い、濡れた床がシルエットを反射。
+パネル5: サイドトラッキングショット、ダンサーたちは完璧なフォーメーションで右にスライドし、髪とジャケットが動きに合わせて揺れる。
+パネル6: 中央のダンサーのクローズアップ、顔の近くでの手のジェスチャー、強いアイコンタクト、背後にネオンのボケ。
+パネル7: フルボディショットへのファストカット、全ダンサーがシンクロしたボディロールとステップバックムーブを実行。
+パネル8: 頭上からのやや傾いたショット、フォーメーションがV字から一直線の対角線に変わる。
+パネル9: カメラのオービットが始まり、ダンサーたちは素早いフットワークと鋭いハンドアクセントを行う。
+パネル10: ミディアムショット、前の2人のダンサーがポジションを入れ替え、後ろのラインがその動きをミラーリング。
+パネル11: ドラマチックなローアングルショット、グループが強いコーラスポーズを決め、片腕を上げ、もう片腕を体に横切る。
+パネル12: カメラのウィップパン、ダンサーたちは一度回転し、カメラに向かって自信満々の笑顔で着地。
+パネル13: ワイドショット、ネオンサインがちらつき、グループがシンクロしたジャンプを行い、ビートに合わせて着地。
+パネル14: スローモーションの瞬間、髪と衣装のディテールが流れ、床に光沢のある反射。
+パネル15: カメラが引き、グループがタイトなV字フォーメーションに戻り、エネルギーを高める最終的なハンドシーケンス。
+パネル16: 最終的なフリーズのようなヒーローポーズ、中央のダンサーが前に出て、5人全員が力強いエンディングスタンスでロックし、ネオンのスカイラインが燃え上がる。
+
+--- THREAD CONTINUATION ---
+[Thread 1] Chat to Edit Prompt: 16-Panel Dance Storyboard
+
+架空のオリジナル5人組ガールグループが夜のネオン輝くソウルの屋上で踊る、15秒の縦型K-popダンスミュージックビデオの16パネルのストーリーボードを作成してください。全てのパネルで同じダンサー、衣装、場所、照明を維持してください。ハイエナジーな振り付け、光沢のあるK-pop MVスタイル、シネマティックなカメラの動き、ピンクとシアンのネオンの反射、濡れた屋上の床、鋭いシンクロポーズ。
+
+パネル1: ワイドショット、グループはV字フォーメーションでスタート、頭を下げ、背後にネオンのスカイラインが輝いている。
+パネル2: ビートが鳴り、5人全員が頭を鋭く上げ、腕をシンクロして外側にスナップ。
+パネル3: カメラが寄り、中央のダンサーが前に出て、他のメンバーは肩を自信満々に角度をつける。
+パネル4: ローアングルショット、グループが力強いヒップホップ風のアームウェーブを行い、濡れた床がシルエットを反射。
+パネル5: サイドトラッキングショット、ダンサーたちは完璧なフォーメーションで右にスライドし、髪とジャケットが動きに合わせて揺れる。
+パネル6: 中央のダンサーのクローズアップ、顔の近くでの手のジェスチャー、強いアイコンタクト、背後にネオンのボケ。
+パネル7: フルボディショットへのファストカット、全ダンサーがシンクロしたボディロールとステップバックムーブを実行。
+パネル8: 頭上からのやや傾いたショット、フォーメーションがV字から一直線の対角線に変わる。
+パネル9: カメラのオービットが始まり、ダンサーたちは素早いフットワークと鋭いハンドアクセントを行う。
+パネル10: ミディアムショット、前の2人のダンサーがポジションを入れ替え、後ろのラインがその動きをミラーリング。
+パネル11: ドラマチックなローアングルショット、グループが強いコーラスポーズを決め、片腕を上げ、もう片腕を体に横切る。
+パネル12: カメラのウィップパン、ダンサーたちは一度回転し、カメラに向かって自信満々の笑顔で着地。
+パネル13: ワイドショット、ネオンサインがちらつき、グループがシンクロしたジャンプを行い、ビートに合わせて着地。
+パネル14: スローモーションの瞬間、髪と衣装のディテールが流れ、床に光沢のある反射。
+パネル15: カメラが引き、グループがタイトなV字フォーメーションに戻り、エネルギーを高める最終的なハンドシーケンス。
+パネル16: 最終的なフリーズのようなヒーローポーズ、中央のダンサーが前に出て、5人全員が力強いエンディングスタンスでロックし、ネオンのスカイラインが燃え上がる。
+
+[Thread 2] Image to Video Ultra S Prompt: Seedance 2.0 Dance Video
+
+Animate the provided first frame into a 15-second vertical 9:16 cinematic K-pop dance music video. Keep the same five fictional original dancers, same faces, same outfits, same rooftop location, same neon Seoul skyline, same wet reflective floor, and same pink/cyan lighting style throughout the entire video.
+
+The video begins exactly from the first-frame pose: five dancers in a sharp V formation, center dancer slightly forward, all facing camera with confident expressions. On the first beat, they lift their heads, snap their shoulders, and extend their arms outward in perfect synchronization. The choreography should feel polished, powerful, and idol-stage ready, mixing sharp K-pop arm accents, controlled body rolls, clean footwork, hip-hop inspired hand gestures, formation changes, spins, and a strong final pose.
+
+Timeline:
+0–2s: Start from the still first frame. Slow cinematic push-in as the dancers hold the pose for a brief moment, then snap their heads up and open their arms sharply on the beat.
+2–4s: Center dancer steps forward half a step while the side dancers angle their bodies outward. All five perform synchronized arm waves and shoulder hits. Camera remains centered with a subtle low-angle push-in.
+4–6s: The group slides laterally to the right in formation, then immediately shifts back left with quick footwork. Jackets
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069707232040915276.json)
+
+```text
+---
+16패널 스토리보드를 만들어보세요. 15초 분량의 세로 K-pop 댄스 뮤직 비디오로, 가상의 오리지널 5인조 걸그룹이 밤의 네온 서울 옥상에서 춤을 춥니다. 모든 패널에서 같은 댄서, 의상, 장소, 조명을 유지하세요. 에너지가 넘치는 안무, 광택 있는 K-pop MV 스타일, 시네마틱 카메라 움직임, 핑크와 시안 네온 반사, 젖은 옥상 바닥, 날카로운 동기화된 포즈.
+
+패널 1: 와이드 샷, 그룹이 V 포메이션으로 시작하며 머리를 숙이고, 뒤에는 네온 스카이라인이 빛납니다.
+패널 2: 비트가 시작되면, 다섯 명 모두 머리를 날카롭게 들어 올리고 팔을 동기화하여 밖으로 뻗습니다.
+패널 3: 카메라가 밀려 들어가며, 중앙 댄서가 앞으로 나서고, 다른 멤버들은 자신감 있는 표정으로 어깨를 각도 잡습니다.
+패널 4: 로우 앵글 샷, 그룹이 강력한 힙합 영감을 받은 팔 웨이브를 수행하며, 젖은 바닥이 그들의 실루엣을 반사합니다.
+패널 5: 사이드 트래킹 샷, 댄서들이 완벽한 포메이션으로 오른쪽으로 슬라이드하며, 머리카락과 재킷이 움직임에 따라 움직입니다.
+패널 6: 중앙 댄서의 클로즈업, 얼굴 근처의 손 제스처, 강렬한 눈맞춤, 그녀 뒤의 네온 보케.
+패널 7: 빠른 컷으로 풀 바디 샷, 모든 댄서가 동기화된 바디 롤과 스텝백 동작을 수행합니다.
+패널 8: 오버헤드 약간 기울어진 샷, 포메이션이 V 모양에서 직선 대각선으로 변경됩니다.
+패널 9: 카메라 오르빗 시작, 댄서들이 빠른 발놀림과 날카로운 손 악센트를 수행합니다.
+패널 10: 미디엄 샷, 앞의 두 댄서가 위치를 바꾸고, 뒷줄은 그 움직임을 반영합니다.
+패널 11: 극적인 로우 앵글 샷, 그룹이 강력한 코러스 포즈를 취하며, 한 팔은 위로, 다른 팔은 몸을 가로지릅니다.
+패널 12: 카메라 휩 팬, 댄서들이 한 번 회전하고 카메라를 향해 자신감 있는 미소로 착지합니다.
+패널 13: 와이드 샷, 네온 사인이 깜빡이고, 그룹이 동기화된 점프를 수행하고 비트에 착지합니다.
+패널 14: 슬로우 모션 순간, 머리카락과 의상 디테일이 흐르고, 바닥에 광택 있는 반사가 있습니다.
+패널 15: 카메라가 뒤로 당겨지며, 그룹이 타이트한 V 포메이션으로 돌아가고, 에너지를 쌓는 최종 손 시퀀스를 수행합니다.
+패널 16: 최종 프리즈 같은 히어로 포즈, 중앙 댄서가 앞으로, 다섯 명 모두 강력한 엔딩 자세로 고정, 네온 스카이라인이 빛납니다.
+
+--- THREAD CONTINUATION ---
+[Thread 1] Chat to Edit Prompt: 16-Panel Dance Storyboard
+
+16패널 스토리보드를 만들어보세요. 15초 분량의 세로 K-pop 댄스 뮤직 비디오로, 가상의 오리지널 5인조 걸그룹이 밤의 네온 서울 옥상에서 춤을 춥니다. 모든 패널에서 같은 댄서, 의상, 장소, 조명을 유지하세요. 에너지가 넘치는 안무, 광택 있는 K-pop MV 스타일, 시네마틱 카메라 움직임, 핑크와 시안 네온 반사, 젖은 옥상 바닥, 날카로운 동기화된 포즈.
+
+패널 1: 와이드 샷, 그룹이 V 포메이션으로 시작하며 머리를 숙이고, 뒤에는 네온 스카이라인이 빛납니다.
+패널 2: 비트가 시작되면, 다섯 명 모두 머리를 날카롭게 들어 올리고 팔을 동기화하여 밖으로 뻗습니다.
+패널 3: 카메라가 밀려 들어가며, 중앙 댄서가 앞으로 나서고, 다른 멤버들은 자신감 있는 표정으로 어깨를 각도 잡습니다.
+패널 4: 로우 앵글 샷, 그룹이 강력한 힙합 영감을 받은 팔 웨이브를 수행하며, 젖은 바닥이 그들의 실루엣을 반사합니다.
+패널 5: 사이드 트래킹 샷, 댄서들이 완벽한 포메이션으로 오른쪽으로 슬라이드하며, 머리카락과 재킷이 움직임에 따라 움직입니다.
+패널 6: 중앙 댄서의 클로즈업, 얼굴 근처의 손 제스처, 강렬한 눈맞춤, 그녀 뒤의 네온 보케.
+패널 7: 빠른 컷으로 풀 바디 샷, 모든 댄서가 동기화된 바디 롤과 스텝백 동작을 수행합니다.
+패널 8: 오버헤드 약간 기울어진 샷, 포메이션이 V 모양에서 직선 대각선으로 변경됩니다.
+패널 9: 카메라 오르빗 시작, 댄서들이 빠른 발놀림과 날카로운 손 악센트를 수행합니다.
+패널 10: 미디엄 샷, 앞의 두 댄서가 위치를 바꾸고, 뒷줄은 그 움직임을 반영합니다.
+패널 11: 극적인 로우 앵글 샷, 그룹이 강력한 코러스 포즈를 취하며, 한 팔은 위로, 다른 팔은 몸을 가로지릅니다.
+패널 12: 카메라 휩 팬, 댄서들이 한 번 회전하고 카메라를 향해 자신감 있는 미소로 착지합니다.
+패널 13: 와이드 샷, 네온 사인이 깜빡이고, 그룹이 동기화된 점프를 수행하고 비트에 착지합니다.
+패널 14: 슬로우 모션 순간, 머리카락과 의상 디테일이 흐르고, 바닥에 광택 있는 반사가 있습니다.
+패널 15: 카메라가 뒤로 당겨지며, 그룹이 타이트한 V 포메이션으로 돌아가고, 에너지를 쌓는 최종 손 시퀀스를 수행합니다.
+패널 16: 최종 프리즈 같은 히어로 포즈, 중앙 댄서가 앞으로, 다섯 명 모두 강력한 엔딩 자세로 고정, 네온 스카이라인이 빛납니다.
+
+[Thread 2] Image to Video Ultra S Prompt: Seedance 2.0 Dance Video
+
+Animate the provided first frame into a 15-second vertical 9:16 cinematic K-pop dance music video. Keep the same five fictional original dancers, same faces, same outfits, same rooftop location, same neon Seoul skyline, same wet reflective floor, and same pink/cyan lighting style throughout the entire video.
+
+The video begins exactly from the first-frame pose: five dancers in a sharp V formation, center dancer slightly forward, all facing camera with confident expressions. On the first beat, they lift their heads, snap their shoulders, and extend their arms outward in perfect synchronization. The choreography should feel polished, powerful, and idol-stage ready, mixing sharp K-pop arm accents, controlled body rolls, clean footwork, hip-hop inspired hand gestures, formation changes, spins, and a strong final pose.
+
+Timeline:
+0–2s: Start from the still first frame. Slow cinematic push-in as the dancers hold the pose for a brief moment, then snap their heads up and open their arms sharply on the beat.
+2–4s: Center dancer steps forward half a step while the side dancers angle their bodies outward. All five perform synchronized arm waves and shoulder hits. Camera remains centered with a subtle low-angle push-in.
+4–6s: The group slides laterally to the right in formation, then immediately shifts back left with quick footwork. Jackets, hair, chains, and accessories move naturally with the dance. Wet floor reflections follow the movement accurately.
+6–8s: Camera cuts or smoothly transitions to a medium shot. The center dancer performs a confident hand gesture near the face while the others mirror smaller accents behind her. Maintain clear facial identity and no face morphing.
+8–10s: Camera pulls wider as the group changes formation from V shape
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069707232040915276.json)
+
+```text
+---
+Crie um storyboard de 16 painéis para um videoclipe vertical de dança K-pop de 15 segundos, apresentando um grupo feminino original fictício de cinco membros em um telhado neon de Seul à noite. Mantenha as mesmas dançarinas, figurinos, localização e iluminação em todos os painéis. Coreografia de alta energia, estilo de MV K-pop brilhante, movimento de câmera cinematográfico, reflexos neon rosa e ciano, piso do telhado molhado, poses sincronizadas e nítidas.
+
+Painel 1: Plano geral, o grupo começa em formação em V, cabeças abaixadas, horizonte neon brilhando atrás delas.
+Painel 2: A batida toca, todas as cinco levantam suas cabeças rapidamente e estendem os braços para fora em sincronia.
+Painel 3: A câmera avança, a dançarina central avança, as outras inclinam os ombros com expressões confiantes.
+Painel 4: Plano de ângulo baixo, o grupo executa uma poderosa onda de braço inspirada no hip-hop, piso molhado refletindo suas silhuetas.
+Painel 5: Plano de rastreamento lateral, dançarinas deslizam para a direita em formação perfeita, cabelos e jaquetas se movendo com o movimento.
+Painel 6: Close na dançarina central, gesto de mão perto do rosto, contato visual intenso, bokeh neon atrás dela.
+Painel 7: Corte rápido para plano de corpo inteiro, todas as dançarinas executam um movimento sincronizado de rolar o corpo e recuar.
+Painel 8: Plano aéreo ligeiramente inclinado, a formação muda de forma V para uma linha diagonal reta.
+Painel 9: A órbita da câmera começa, dançarinas executam passos rápidos e acentos de mão nítidos.
+Painel 10: Plano médio, duas dançarinas na frente trocam de posição enquanto a linha de trás espelha o movimento.
+Painel 11: Plano dramático de ângulo baixo, o grupo atinge uma pose forte do refrão, um braço para cima, um braço cruzado sobre o corpo.
+Painel 12: Panorâmica rápida da câmera, dançarinas giram uma vez e pousam de frente para a câmera com sorrisos confiantes.
+Painel 13: Plano geral, letreiros neon piscam, o grupo executa um salto sincronizado e pousa na batida.
+Painel 14: Momento em câmera lenta, detalhes de cabelo e figurino fluindo, reflexos brilhantes no piso.
+Painel 15: A câmera se afasta, o grupo retorna a uma formação em V apertada, sequência final de mãos construindo energia.
+Painel 16: Pose final congelada como herói, dançarina central à frente, todas as cinco travadas em uma postura final poderosa, horizonte neon em chamas.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Chat para Editar Prompt: Storyboard de Dança de 16 Painéis
+
+Crie um storyboard de 16 painéis para um videoclipe vertical de dança K-pop de 15 segundos, apresentando um grupo feminino original fictício de cinco membros em um telhado neon de Seul à noite. Mantenha as mesmas dançarinas, figurinos, localização e iluminação em todos os painéis. Coreografia de alta energia, estilo de MV K-pop brilhante, movimento de câmera cinematográfico, reflexos neon rosa e ciano, piso do telhado molhado, poses sincronizadas e nítidas.
+
+Painel 1: Plano geral, o grupo começa em formação em V, cabeças abaixadas, horizonte neon brilhando atrás delas.
+Painel 2: A batida toca, todas as cinco levantam suas cabeças rapidamente e estendem os braços para fora em sincronia.
+Painel 3: A câmera avança, a dançarina central avança, as outras inclinam os ombros com expressões confiantes.
+Painel 4: Plano de ângulo baixo, o grupo executa uma poderosa onda de braço inspirada no hip-hop, piso molhado refletindo suas silhuetas.
+Painel 5: Plano de rastreamento lateral, dançarinas deslizam para a direita em formação perfeita, cabelos e jaquetas se movendo com o movimento.
+Painel 6: Close na dançarina central, gesto de mão perto do rosto, contato visual intenso, bokeh neon atrás dela.
+Painel 7: Corte rápido para plano de corpo inteiro, todas as dançarinas executam um movimento sincronizado de rolar o corpo e recuar.
+Painel 8: Plano aéreo ligeiramente inclinado, a formação muda de forma V para uma linha diagonal reta.
+Painel 9: A órbita da câmera começa, dançarinas executam passos rápidos e acentos de mão nítidos.
+Painel 10: Plano médio, duas dançarinas na frente trocam de posição enquanto a linha de trás espelha o movimento.
+Painel 11: Plano dramático de ângulo baixo, o grupo atinge uma pose forte do refrão, um braço para cima, um braço cruzado sobre o corpo.
+Painel 12: Panorâmica rápida da câmera, dançarinas giram uma vez e pousam de frente para a câmera com sorrisos confiantes.
+Painel 13: Plano geral, letreiros neon piscam, o grupo executa um salto sincronizado e pousa na batida.
+Painel 14: Momento em câmera lenta, detalhes de cabelo e figurino fluindo, reflexos brilhantes no piso.
+Painel 15: A câmera se afasta, o grupo retorna a uma formação em V apertada, sequência final de mãos construindo energia.
+Painel 16: Pose final congelada como herói, dançarina central à frente, todas as cinco travadas em uma postura final poderosa, horizonte neon em chamas.
+
+[Tópico 2] Imagem para Vídeo Ultra S Prompt: Seedance 2.0 Dance Video
+
+Anime o quadro inicial fornecido em um videoclipe vertical de dança K-pop cinematográfico de 15 segundos no formato 9:16. Mantenha as mesmas cinco dançarinas originais fictícias, os mesmos rostos, os mesmos figurinos, a mesma localização no telhado, o mesmo horizonte neon de Seul, o mesmo piso molhado e reflexivo, e o mesmo estilo de iluminação rosa/ciano durante todo o vídeo.
+
+O vídeo começa exatamente a partir da pose do primeiro quadro: cinco dançarinas em uma formação em V nítida, dançarina central ligeiramente à frente, todas de frente para a câmera com expressões confiantes. Na primeira batida, elas levantam as cabeças, estalam os ombros e estendem os braços para fora em perfeita sincronização. A coreografia deve parecer polida, poderosa e pronta para o palco de um ídolo, misturando acentos de braço nítidos do K-pop, movimentos controlados de rolar o corpo, passos limpos, gestos de mão inspirados no hip-hop, mudanças de formação, giros e uma pose final forte.
+
+Cronograma:
+0–2s: Comece a partir do quadro inicial estático. Avanço cinematográfico lento enquanto as dançarinas mantêm a pose por um breve momento, depois levantam as cabeças e abrem os braços rapidamente na batida.
+2–4s: A dançarina central avança meio passo enquanto as dançarinas laterais inclinam seus corpos para fora. Todas as cinco executam ondas de braço sincronizadas e batidas de ombro. A câmera permanece centralizada com um avanço sutil de ângulo baixo.
+4–6s: O grupo desliza lateralmente para a direita em formação, depois imediatamente volta para a esquerda com passos rápidos. Jaquetas, cabelos, correntes e acessórios se movem naturalmente com a dança. Reflexos no piso molhado seguem o movimento com precisão.
+6–8s: A câmera corta ou transita suavemente para um plano médio. A dançarina central faz um gesto de mão confiante perto do rosto enquanto as outras espelham acentos menores atrás dela. Mantenha a identidade facial clara e sem distorção de rosto.
+8–10s: A câmera se afasta enquanto o grupo muda de formação de forma V para uma linha diagonal, depois volta para uma formação compacta. As dançarinas executam um movimento sincronizado de rolar o corpo seguido por um movimento de recuo nítido.
+10–12s: Adicione uma órbita suave da câmera da frente-esquerda para o centro enquanto as dançarinas executam passos rápidos mas limpos, alternando batidas de braço e um giro controlado. O movimento deve ser energético mas legível, não caótico.
+12–14s: O pico do refrão: todas as cinco dançarinas executam um salto sincronizado ou uma mudança de nível forte, pousam juntas, depois fazem dois acentos de mão nítidos. Letreiros neon piscam sutilmente ao fundo, e o piso molhado captura reflexos brilhantes rosa e ciano.
+14–15s: A câmera se estabiliza em um plano heroico de ângulo baixo centralizado. As dançarinas retornam a uma formação em V apertada e terminam em uma pose final poderosa de frente para a câmera, dançarina central ligeiramente à frente, todas com expressões confiantes e carism
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069707232040915276.json)
+
+```text
+---
+为一个15秒的竖屏K-pop舞蹈音乐视频创建一个16格分镜头板，场景设定在夜晚霓虹灯照耀下的首尔屋顶，主角是一个虚构的五人女子组合。所有面板保持相同的舞者、服装、地点和灯光。高能量的编舞，光滑的K-pop MV风格，电影感的镜头运动，粉色和青色的霓虹反射，湿滑的屋顶地板，锐利的同步姿势。
+
+面板1：广角镜头，组合以V字形站立，低头，背后是发光的霓虹天际线。
+面板2：节拍响起，五人同时抬头，手臂同步向外甩出。
+面板3：镜头推进，中心舞者向前一步，其他人肩膀倾斜，表情自信。
+面板4：低角度镜头，组合进行强有力的嘻哈风格手臂波浪动作，湿地板反射出他们的剪影。
+面板5：侧面跟踪镜头，舞者完美地向右滑动，头发和夹克随着动作摆动。
+面板6：中心舞者的特写，手势靠近脸部，眼神强烈，背后是霓虹散景。
+面板7：快速切换到全身镜头，所有舞者执行同步的身体滚动和后退动作。
+面板8：俯视略微倾斜的镜头，队形从V字形变为直线。
+面板9：镜头开始环绕，舞者进行快速的脚步动作和锐利的手部强调。
+面板10：中景镜头，前排两名舞者交换位置，后排镜像移动。
+面板11：戏剧性的低角度镜头，组合摆出强烈的合唱姿势，一只手臂向上，一只手臂横过身体。
+面板12：镜头快速横移，舞者旋转一次并面向镜头落地，面带自信微笑。
+面板13：广角镜头，霓虹灯闪烁，组合进行同步跳跃并在节拍上落地。
+面板14：慢动作时刻，头发和服装细节飘动，地板上光滑的反射。
+面板15：镜头拉远，组合回到紧密的V字形，最后的手部动作积聚能量。
+面板16：最终定格的英雄姿势，中心舞者在前，五人锁定在一个强有力的结束姿势，霓虹天际线闪耀。
+
+--- 线程续集 ---
+[线程1] 聊天编辑提示：16格舞蹈分镜头板
+
+为一个15秒的竖屏K-pop舞蹈音乐视频创建一个16格分镜头板，场景设定在夜晚霓虹灯照耀下的首尔屋顶，主角是一个虚构的五人女子组合。所有面板保持相同的舞者、服装、地点和灯光。高能量的编舞，光滑的K-pop MV风格，电影感的镜头运动，粉色和青色的霓虹反射，湿滑的屋顶地板，锐利的同步姿势。
+
+面板1：广角镜头，组合以V字形站立，低头，背后是发光的霓虹天际线。
+面板2：节拍响起，五人同时抬头，手臂同步向外甩出。
+面板3：镜头推进，中心舞者向前一步，其他人肩膀倾斜，表情自信。
+面板4：低角度镜头，组合进行强有力的嘻哈风格手臂波浪动作，湿地板反射出他们的剪影。
+面板5：侧面跟踪镜头，舞者完美地向右滑动，头发和夹克随着动作摆动。
+面板6：中心舞者的特写，手势靠近脸部，眼神强烈，背后是霓虹散景。
+面板7：快速切换到全身镜头，所有舞者执行同步的身体滚动和后退动作。
+面板8：俯视略微倾斜的镜头，队形从V字形变为直线。
+面板9：镜头开始环绕，舞者进行快速的脚步动作和锐利的手部强调。
+面板10：中景镜头，前排两名舞者交换位置，后排镜像移动。
+面板11：戏剧性的低角度镜头，组合摆出强烈的合唱姿势，一只手臂向上，一只手臂横过身体。
+面板12：镜头快速横移，舞者旋转一次并面向镜头落地，面带自信微笑。
+面板13：广角镜头，霓虹灯闪烁，组合进行同步跳跃并在节拍上落地。
+面板14：慢动作时刻，头发和服装细节飘动，地板上光滑的反射。
+面板15：镜头拉远，组合回到紧密的V字形，最后的手部动作积聚能量。
+面板16：最终定格的英雄姿势，中心舞者在前，五人锁定在一个强有力的结束姿势，霓虹天际线闪耀。
+
+[线程2] 图像到视频超S提示：Seedance 2.0舞蹈视频
+
+将提供的第一帧动画化为一个15秒的竖屏9:16电影感K-pop舞蹈音乐视频。保持相同的五名虚构的原创舞者，相同的面孔，相同的服装，相同的屋顶位置，相同的霓虹首尔天际线，相同的湿滑反射地板，以及整个视频中相同的粉色/青色灯光风格。
+
+视频从第一帧的姿势开始：五名舞者以锐利的V字形站立，中心舞者稍微向前，所有人面向镜头，表情自信。在第一个节拍上，他们抬起头，甩肩，并完美同步地伸展手臂。编舞应感觉抛光、有力，并具备偶像舞台准备，混合锐利的K-pop手臂强调、控制的身体滚动、干净的脚步动作、嘻哈风格的手势、队形变化、旋转和强有力的最终姿势。
+
+时间线：
+0–2秒：从静止的第一帧开始。慢速电影感推进，舞者保持姿势片刻，然后在节拍上猛地抬头并锐利地张开手臂。
+2–4秒：中心舞者向前迈半步，而侧边舞者将身体向外倾斜。五人同步进行手臂波浪和肩部击打。镜头保持居中，轻微低角度推进。
+4–6秒：组合在队形中向右侧滑动，然后立即通过快速脚步动作向左侧移动。夹克、头发、链条和配饰随着舞蹈自然移动。湿地板反射准确地跟随动作。
+6–8秒：镜头切换或平滑过渡到中景镜头。中心舞者在脸部附近做出自信的手势，而其他人在她身后模仿较小的动作。保持清晰的面部身份，不进行面部变形。
+8–10秒：镜头拉宽，组合从V字形变为对角线，然后回到紧凑的队形。舞者进行同步的身体滚动，随后是锐利的后退动作。
+10–12秒：添加平滑的镜头环绕，从前左到中心，舞者执行快速但干净的脚步动作，交替的手臂击打和一次控制的旋转。动作应充满活力但可读，不混乱。
+12–14秒：合唱高潮：五名舞者进行同步跳跃或强烈的层次变化，齐落地，然后击打两个锐利的手部强调。背景中霓虹灯微微闪烁，湿地板捕捉到明亮的粉色和青色反射。
+14–15秒：镜头定格在居中的低角度英雄镜头。舞者回到紧密的V字形，并以一个强有力的最终姿势结束，面向镜头，中心舞者稍微向前，所有表情自信且富有魅力。
+
+镜头风格：光滑高预算的K-pop音乐视频，节奏感强但镜头运动平稳
+```
+
+## 出处与许可
+
+- 原作者：[apob](https://x.com/apob_ai) · 原帖：<https://x.com/apob_ai/status/2069707232040915276>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2069707232040915276.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

@@ -1,0 +1,118 @@
+---
+id: "renoise-2055233217154949510"
+title: "A cinematic 15-second emotional sci-fi sequence showing a robot slowly learning…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "科幻"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Story", "Heartwarming", "Photoreal", "Sci-Fi", "VFX", "Game UI"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055233217154949510.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "ayzalnoor"
+original_author_url: "https://x.com/ayzalnooor24521"
+original_post_url: "https://x.com/ayzalnooor24521/status/2055233217154949510"
+published: "2026-05-15"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# A cinematic 15-second emotional sci-fi sequence showing a robot slowly learning…
+
+## 提示词（English）
+
+```text
+A cinematic 15-second emotional sci-fi sequence showing a robot slowly learning human emotions in daily life. 0–3s: A clean modern apartment in soft morning light. A humanoid robot stands still near a window, observing humans laughing and talking in the distance. Its LED eyes softly flicker, showing curiosity. 3–6s: The robot sits at a dining table with a family. It tries to mimic a smile while watching their expressions. Subtle UI-like visual cues appear near its face as it analyzes emotions like happiness and confusion. 6–9s: In a park scene, children are laughing. The robot gently picks up a fallen leaf, tilts its head, and its eyes glow slightly warmer as it processes “joy” and “playfulness.” 9–12s: Close-up emotional moment. The robot watches a human crying on a bench. It hesitates, then slowly extends its hand in a comforting gesture, learning empathy for the first time. 12–15s: Final cinematic shot. The robot stands alone under soft sunset light, now showing a faint natural smile. Background shifts from cold tones to warm golden hues, symbolizing emotional growth. Style: ultra-realistic cinematic sci-fi, soft natural lighting, emotional storytelling, shallow depth of field, film-grade color grading, subtle futuristic UI elements, peaceful ambient tone.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055233217154949510.json)
+
+```text
+Una secuencia de ciencia ficción emocional de 15 segundos, de estilo cinematográfico, que muestra a un robot aprendiendo lentamente las emociones humanas en la vida diaria. 0–3s: Un apartamento moderno y limpio con suave luz matutina. Un robot humanoide está quieto cerca de una ventana, observando a los humanos reír y hablar a lo lejos. Sus ojos LED parpadean suavemente, mostrando curiosidad. 3–6s: El robot se sienta en una mesa de comedor con una familia. Intenta imitar una sonrisa mientras observa sus expresiones. Sutiles indicaciones visuales tipo interfaz de usuario aparecen cerca de su rostro mientras analiza emociones como felicidad y confusión. 6–9s: En una escena de parque, los niños ríen. El robot recoge suavemente una hoja caída, inclina su cabeza y sus ojos brillan ligeramente más cálidos mientras procesa “alegría” y “juguetón”. 9–12s: Momento emocional en primer plano. El robot observa a un humano llorando en un banco. Duda, luego lentamente extiende su mano en un gesto de consuelo, aprendiendo empatía por primera vez. 12–15s: Toma final cinematográfica. El robot está solo bajo la suave luz del atardecer, mostrando ahora una leve sonrisa natural. El fondo cambia de tonos fríos a cálidos dorados, simbolizando el crecimiento emocional. Estilo: ciencia ficción cinematográfica ultra-realista, iluminación natural suave, narración emocional, poca profundidad de campo, gradación de color de calidad cinematográfica, sutiles elementos de interfaz de usuario futurista, tono ambiental pacífico.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] https://t.co/h1vMaT9E2M
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055233217154949510.json)
+
+```text
+Une séquence cinématographique de 15 secondes dans un univers de science-fiction émotionnel montrant un robot apprenant lentement les émotions humaines dans la vie quotidienne. 0–3s : Un appartement moderne et épuré baigné d'une douce lumière matinale. Un robot humanoïde se tient immobile près d'une fenêtre, observant des humains rire et discuter au loin. Ses yeux à LED clignotent doucement, montrant de la curiosité. 3–6s : Le robot est assis à une table à manger avec une famille. Il essaie d'imiter un sourire en observant leurs expressions. Des indices visuels subtils de type interface utilisateur apparaissent près de son visage alors qu'il analyse des émotions comme le bonheur et la confusion. 6–9s : Dans une scène de parc, des enfants rient. Le robot ramasse doucement une feuille tombée, incline la tête, et ses yeux brillent légèrement plus chaudement alors qu'il traite les notions de « joie » et de « jeu ». 9–12s : Gros plan émotionnel. Le robot observe un humain pleurer sur un banc. Il hésite, puis tend lentement la main dans un geste réconfortant, apprenant l'empathie pour la première fois. 12–15s : Plan cinématographique final. Le robot se tient seul sous une douce lumière de coucher de soleil, affichant maintenant un léger sourire naturel. L'arrière-plan passe de tons froids à des teintes dorées chaudes, symbolisant la croissance émotionnelle. Style : science-fiction cinématographique ultra-réaliste, éclairage naturel doux, narration émotionnelle, faible profondeur de champ, étalonnage des couleurs de qualité cinématographique, éléments d'interface utilisateur futuristes subtils, ambiance paisible.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] https://t.co/h1vMaT9E2M
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055233217154949510.json)
+
+```text
+---
+映画のような15秒の感情的なSFシークエンスで、ロボットが日常生活の中で徐々に人間の感情を学んでいく様子を描く。0–3秒: 柔らかな朝の光が差し込む、清潔でモダンなアパート。ヒューマノイドロボットが窓の近くに立ち、遠くで笑ったり話したりしている人間を観察している。そのLEDの目が好奇心を示すように柔らかく点滅する。3–6秒: ロボットは家族と一緒にダイニングテーブルに座る。彼らの表情を見ながら笑顔を真似しようとする。幸福や混乱といった感情を分析する際、顔の近くにUIのような微妙なビジュアルキューが現れる。6–9秒: 公園のシーンで、子供たちが笑っている。ロボットは落ち葉を優しく拾い上げ、頭を傾け、「喜び」や「遊び心」を処理する際に目が少し暖かく光る。9–12秒: クローズアップの感情的な瞬間。ロボットはベンチで泣いている人間を見つめる。ためらいながらも、ゆっくりと手を伸ばし、初めて共感を学ぶ。12–15秒: 最後の映画のようなショット。ロボットは柔らかな夕日の光の下で一人立ち、今では自然な微笑を浮かべている。背景は冷たい色調から暖かい黄金色に変わり、感情の成長を象徴している。スタイル: 超リアルな映画的SF、柔らかな自然光、感情的なストーリーテリング、浅い被写界深度、映画グレードのカラーグレーディング、微妙な未来的UI要素、穏やかなアンビエントトーン。
+
+--- THREAD CONTINUATION ---
+[Thread 1] https://t.co/h1vMaT9E2M
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055233217154949510.json)
+
+```text
+---
+로봇이 일상 생활에서 인간의 감정을 천천히 배우는 15초의 감성적인 SF 시퀀스. 0–3초: 부드러운 아침 햇살이 비치는 깔끔한 현대식 아파트. 인간형 로봇이 창가에 서서 멀리서 웃고 이야기하는 사람들을 관찰한다. LED 눈이 부드럽게 깜빡이며 호기심을 드러낸다. 3–6초: 로봇이 가족과 함께 식탁에 앉아 있다. 그들의 표정을 보며 미소를 흉내 내려고 한다. 행복과 혼란 같은 감정을 분석하면서 얼굴 근처에 미묘한 UI 같은 시각적 신호가 나타난다. 6–9초: 공원 장면에서 아이들이 웃고 있다. 로봇은 떨어진 나뭇잎을 부드럽게 집어 들고 고개를 기울이며 "기쁨"과 "장난기"를 처리하면서 눈이 약간 더 따뜻하게 빛난다. 9–12초: 감정적인 순간의 클로즈업. 로봇은 벤치에서 울고 있는 사람을 지켜본다. 망설이다가 천천히 손을 내밀어 위로의 제스처를 취하며 처음으로 공감을 배운다. 12–15초: 마지막 영화적인 장면. 로봇이 부드러운 석양 아래 혼자 서 있으며 이제 희미한 자연스러운 미소를 짓고 있다. 배경은 차가운 색조에서 따뜻한 황금빛으로 변하며 감정적 성장을 상징한다. 스타일: 초현실적인 영화적 SF, 부드러운 자연 조명, 감성적인 스토리텔링, 얕은 심도, 영화급 색 보정, 미묘한 미래형 UI 요소, 평화로운 분위기.
+
+--- THREAD CONTINUATION ---
+[Thread 1] https://t.co/h1vMaT9E2M
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055233217154949510.json)
+
+```text
+Uma sequência emocional de ficção científica cinematográfica de 15 segundos mostrando um robô lentamente aprendendo emoções humanas na vida cotidiana. 0–3s: Um apartamento moderno e limpo sob a suave luz da manhã. Um robô humanoide está parado perto de uma janela, observando humanos rindo e conversando à distância. Seus olhos de LED piscam suavemente, mostrando curiosidade. 3–6s: O robô se senta à mesa de jantar com uma família. Ele tenta imitar um sorriso enquanto observa suas expressões. Sutilezas visuais semelhantes a uma interface de usuário aparecem perto de seu rosto enquanto analisa emoções como felicidade e confusão. 6–9s: Em uma cena no parque, crianças estão rindo. O robô gentilmente pega uma folha caída, inclina a cabeça, e seus olhos brilham levemente mais quentes enquanto processa “alegria” e “brincadeira”. 9–12s: Momento emocional em close-up. O robô observa um humano chorando em um banco. Ele hesita, então lentamente estende a mão em um gesto de conforto, aprendendo empatia pela primeira vez. 12–15s: Tomada cinematográfica final. O robô está sozinho sob a suave luz do pôr do sol, agora mostrando um leve sorriso natural. O fundo muda de tons frios para tons dourados quentes, simbolizando o crescimento emocional. Estilo: ficção científica cinematográfica ultra-realista, iluminação natural suave, narrativa emocional, profundidade de campo rasa, gradação de cor de qualidade cinematográfica, elementos sutis de interface de usuário futurista, tom ambiente pacífico.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] https://t.co/h1vMaT9E2M
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055233217154949510.json)
+
+```text
+---
+一个15秒的情感科幻电影片段，展示一个机器人在日常生活中慢慢学习人类情感。0–3秒：一个现代化的公寓在柔和的晨光中。一个类人机器人静静地站在窗边，观察远处人类的欢笑和交谈。它的LED眼睛轻轻闪烁，表现出好奇心。3–6秒：机器人坐在餐桌旁，与一家人共进晚餐。它试图模仿微笑，同时观察他们的表情。微妙的类似UI的视觉提示出现在它的脸旁，分析快乐和困惑等情感。6–9秒：在公园场景中，孩子们在欢笑。机器人轻轻捡起一片落叶，歪着头，它的眼睛微微变暖，处理“快乐”和“顽皮”。9–12秒：特写情感时刻。机器人看着一个人在长椅上哭泣。它犹豫了一下，然后慢慢伸出手，做出安慰的姿势，第一次学习同情心。12–15秒：最后的电影镜头。机器人独自站在柔和的夕阳下，现在露出淡淡的自然微笑。背景从冷色调转为温暖的金色，象征着情感的成长。风格：超现实的电影级科幻，柔和自然的光线，情感叙事，浅景深，电影级色彩分级，微妙的未来UI元素，宁静的环境音调。
+
+--- THREAD CONTINUATION ---
+[Thread 1] https://t.co/h1vMaT9E2M
+---
+```
+
+## 出处与许可
+
+- 原作者：[ayzalnoor](https://x.com/ayzalnooor24521) · 原帖：<https://x.com/ayzalnooor24521/status/2055233217154949510>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055233217154949510.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

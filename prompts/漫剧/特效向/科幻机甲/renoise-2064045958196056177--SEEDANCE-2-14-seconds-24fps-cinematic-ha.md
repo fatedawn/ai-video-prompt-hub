@@ -1,0 +1,373 @@
+---
+id: "renoise-2064045958196056177"
+title: "SEEDANCE 2 | 14 seconds | 24fps | cinematic hand-drawn animation | use the…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "漫剧"
+direction: "特效向"
+genre: "科幻机甲"
+art_style: "2D日漫"
+tags: ["Seedance 2.0", "Renoise", "Portrait & Fashion", "Portrait", "Anime 2D", "Sci-Fi"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064045958196056177.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Brent Lynch"
+original_author_url: "https://x.com/BrentLynch"
+original_post_url: "https://x.com/BrentLynch/status/2064045958196056177"
+published: "2026-06-08"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# SEEDANCE 2 | 14 seconds | 24fps | cinematic hand-drawn animation | use the…
+
+## 提示词（English）
+
+```text
+SEEDANCE 2 | 14 seconds | 24fps | cinematic hand-drawn animation | use the uploaded character sheet as the exact omni-reference | single continuous shot | one adult woman walks toward the viewer down a long retro-futuristic hallway while playfully singing “I like big prompts,” improvising humming and playful vocal noises in between, then at the end she smiles, gives a big musical finish, sings “I like big prompts!” and laughs | no text, no overlays, no captions, no subtitles, no logos, no watermark, no UI.
+
+REFERENCE LOCK:
+Use the uploaded character sheet as the exact character design reference. Preserve the same adult blonde woman, same layered blonde hair, same expressive blue eyes, same soft but sharp facial structure, same playful cheeky mouth shapes, same confident attitude, same white hooded sci-fi helmet/cowl, same rounded white shoulder armor, same white collar ring with circular rivet details, same orange-red fitted retro sci-fi suit, same white gloves, same white boots, and same clean 1980s anime proportions. Keep her consistent from every angle. She should feel like she stepped directly out of the character sheet into a finished animated scene.
+
+STYLE:
+Premium late-1970s / early-1980s theatrical sci-fi anime look. Hand-drawn cel animation, inked outlines, painted backgrounds, subtle paper texture, slight vintage film grain, warm cel shading, expressive face animation, stable anatomy, smooth walk cycle, and clean cinematic staging. No CGI, no 3D rendering, no glossy modern anime finish, no plastic digital shading, no AI smear, no morphing, no unstable face.
+
+SCENE:
+A long retro-futuristic corridor inside a starship, moon base, or space station. Curved metal walls, ribbed floor panels, pale cream and gray wall sections, analog control details, tiny blinking bulbs, soft amber overhead lights, muted blue-gray shadows, subtle floor reflections, and a very long vanishing-point perspective that makes the hallway feel comically endless. The mood is playful, adventurous, and charming.
+
+CAMERA:
+Single uninterrupted shot. Start with a wide shot showing her far away at the end of the corridor. She walks directly toward the camera the entire time. The camera slowly dollies backward to maintain framing as she approaches. No cuts, no shaky camera, no random zooms. End in a medium close-up so her smile and laugh are clearly visible.
+
+ACTION / PERFORMANCE:
+0.0-2.0s: Wide shot. She appears at the far end of the hallway already in motion, walking toward camera with relaxed confidence. She begins singing in a playful, tuneful way: “I like big prompts...” Her delivery is teasing, musical, and self-amused.
+
+2.0-5.0s: She keeps walking with a smooth, rhythmic stride. Her hair shifts lightly beneath the hood, and her shoulders and arms move naturally. Between sung phrases, she improvises playful humming, little melodic “mm-mm-mm,” “doo-doo,” and light comic vocal sounds. She looks entertained by herself, like she is making up the song as she goes.
+
+5.0-8.5s: Medium-wide shot. She continues toward the viewer, still singing fragments of “I like big prompts,” with playful pauses filled by humming, whistles, and silly melodic noises. She gives a tiny grin, maybe a slight eyebrow lift, enjoying the ridiculousness of the moment. Her performance is sassy, charismatic, and relaxed.
+
+8.5-11.5s: She gets closer. The hallway behind her stretches out dramatically, selling the joke that she has been walking for a very long time. She adds a few more playful musical sounds between lyrics, like she is making up her own little theme song while walking. Her face is highly expressive and charming.
+
+11.5-13.0s: She nears the camera and slows slightly, smiling directly at the viewer. Her expression says she is building to a punchline. She brightens, preparing for a final musical payoff.
+
+13.0-14.0s: She lands in a medium close-up, smiles broadly, and with a playful big-finish flourish sings clearly: “I like big prompts!” Immediately after, she laughs warmly and naturally. End on her amused, sassy smile.
+
+CHARACTER PERFORMANCE:
+She is playful, sassy, confident, cheeky, and likable. Not frantic, not childish, not overly exaggerated. She should feel like a charismatic retro anime heroine entertaining herself during a very long walk. Her singing is fun and light. The humming and silly in-between sounds should feel spontaneous and musical, not chaotic.
+
+AUDIO:
+Her voice is bright, musical, and expressive. She sings the repeated phrase “I like big prompts” in a catchy, playful way. Between sung phrases, include light humming and playful nonsense vocalizations such as “mm-mm,” “doo-doo,” or soft improvised melodic sounds. Add gentle boot footsteps on the metal floor and faint corridor ambience. At the end, the final sung line “I like big prompts!” must be clear, followed by an audible natural laugh.
+
+VISUAL DETAILS:
+Keep costume and colors faithful to the sheet. White hood/cowl, blonde hair visible around the face, orange-red bodysuit, white gloves and boots, white collar and shoulder armor. Her face must remain attractive, expressive, and consistent. Hands must be clean and readable. Background should remain stable and painterly.
+
+NEGATIVE PROMPT:
+No text, no subtitles, no captions, no speech bubbles, no logos, no watermark, no UI. No extra characters, no clones, no duplicate woman, no costume changes, no hair color change, no missing hood, no weapons, no monsters, no violence, no explosions, no magic, no holograms, no modern glossy CGI look, no photorealism, no live-action conversion, no warped hands, no broken anatomy, no jittery mouth shapes, no chaotic editing, no jump cuts.
+
+FINAL INTENT:
+A charming 14-second retro anime performance shot: the blonde sci-fi heroine from the uploaded character sheet walks down a long futuristic hallway toward the viewer, singing “I like big prompts,” filling the gaps with playful humming and funny musical noises, then ends close to camera with a big smiling finish—singing “I like big prompts!” and laughing.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064045958196056177.json)
+
+```text
+---
+SEEDANCE 2 | 14秒 | 24fps | シネマティックな手描きアニメーション | アップロードされたキャラクターシートを正確なオムニリファレンスとして使用 | 単一の連続ショット | 一人の大人の女性がレトロフューチャリスティックな長い廊下を歩きながら、遊び心たっぷりに「I like big prompts」と歌い、間に即興でハミングや遊び心のある声を出し、最後に笑顔で大きな音楽的フィニッシュを決め、「I like big prompts!」と歌って笑う | テキストなし、オーバーレイなし、キャプションなし、字幕なし、ロゴなし、ウォーターマークなし、UIなし。
+
+REFERENCE LOCK:
+アップロードされたキャラクターシートを正確なキャラクターデザインのリファレンスとして使用。成人の金髪女性、レイヤードの金髪、表情豊かな青い目、柔らかくも鋭い顔立ち、遊び心のある口元、確信に満ちた態度、白いフード付きのSFヘルメット/カウル、丸みを帯びた白いショルダーアーマー、円形のリベットディテールがある白い襟リング、オレンジレッドのフィットしたレトロSFスーツ、白い手袋、白いブーツ、そして1980年代のアニメのプロポーションをそのまま維持。どの角度から見ても一貫性を保つ。彼女はキャラクターシートから直接完成したアニメシーンに飛び出してきたように感じられるべき。
+
+STYLE:
+1970年代後半から1980年代初頭のプレミアムな劇場用SFアニメの外観。手描きのセルアニメーション、インクで描かれたアウトライン、ペイントされた背景、微妙な紙の質感、わずかなビンテージフィルムグレイン、暖かいセルシェーディング、表情豊かな顔のアニメーション、安定した解剖学、滑らかな歩行サイクル、そしてクリーンなシネマティックな演出。CGIなし、3Dレンダリングなし、現代のアニメの光沢仕上げなし、プラスチックのデジタルシェーディングなし、AIのスミアなし、モーフィングなし、不安定な顔なし。
+
+SCENE:
+宇宙船、月面基地、または宇宙ステーション内の長いレトロフューチャリスティックな廊下。曲がった金属の壁、リブ付きの床パネル、淡いクリーム色とグレーの壁セクション、アナログコントロールのディテール、小さな点滅する電球、柔らかいアンバーのオーバーヘッドライト、 muted blue-gray shadows、 subtle floor reflections、そして廊下がコミカルに終わりのないように感じられる非常に長い消失点のパースペクティブ。ムードは遊び心があり、冒険的で魅力的。
+
+CAMERA:
+単一の途切れないショット。廊下の端に遠くにいる彼女を示すワイドショットで始まる。彼女はずっとカメラに向かって歩く。彼女が近づくにつれてフレーミングを維持するためにカメラはゆっくりと後退する。カットなし、揺れるカメラなし、ランダムなズームなし。最後は中間クローズアップで彼女の笑顔と笑いがはっきり見えるように終わる。
+
+ACTION / PERFORMANCE:
+0.0-2.0秒: ワイドショット。彼女はすでに動いている廊下の遠くの端に現れ、リラックスした自信を持ってカメラに向かって歩く。彼女は遊び心のある、メロディックな方法で歌い始める：「I like big prompts...」彼女の演技はからかい、音楽的で、自分自身を楽しんでいる。
+
+2.0-5.0秒: 彼女は滑らかでリズミカルな歩調で歩き続ける。フードの下で髪が軽く揺れ、肩と腕が自然に動く。歌のフレーズの間に、彼女は遊び心のあるハミング、小さなメロディックな「mm-mm-mm」、「doo-doo」、そして軽いコミカルな声を即興で出す。彼女は自分自身を楽しんでいるようで、歌を即興で作っているように見える。
+
+5.0-8.5秒: 中間ワイドショット。彼女はまだ「I like big prompts」の断片を歌いながら視聴者に向かって進み、ハミング、口笛、そして愚かなメロディックな音で遊び心のあるポーズをとる。彼女は小さな笑みを浮かべ、眉を少し上げるかもしれない。彼女のパフォーマンスは生意気でカリスマ的でリラックスしている。
+
+8.5-11.5秒: 彼女はさらに近づく。彼女の後ろの廊下が劇的に伸び、彼女が非常に長い間歩いているというジョークを売り込む。彼女は歌詞の間にいくつかの遊び心のある音楽的な音を追加し、歩きながら自分の小さなテーマソングを作っているように見える。彼女の顔は非常に表情豊かで魅力的。
+
+11.5-13.0秒: 彼女はカメラに近づき、少し速度を落とし、視聴者に直接微笑む。彼女の表情は、パンチラインに向けて準備していることを示している。彼女は明るくなり、最後の音楽的なペイオフに備える。
+
+13.0-14.0秒: 彼女は中間クローズアップに入り、広く微笑み、遊び心のある大きなフィニッシュのフレーズで明確に歌う：「I like big prompts!」その直後に、彼女は暖かく自然に笑う。彼女の楽しんでいる、生意気な笑顔で終わる。
+
+CHARACTER PERFORMANCE:
+彼女は遊び心があり、生意気で、自信があり、茶目っ気があり、好感が持てる。慌てていない、子供っぽくない、過度に誇張されていない。彼女は非常に長い散歩の間に自分自身を楽しませているカリスマ的なレトロアニメのヒロインのように感じられるべき。彼女の歌は楽しく軽やか。ハミングや愚かな間の音は、混沌としていない、自然で音楽的に感じられるべき。
+
+AUDIO:
+彼女の声は明るく、音楽的で表情豊か。彼女は繰り返しのフレーズ「I like big prompts」をキャッチーで遊び心のある方法で歌う。歌のフレーズの間に、軽いハミングや遊び心のあるナンセンスな声の発声「mm-mm」、「doo-doo」、または柔らかい即興のメロディックな音を含める。金属の床での優しいブーツの足音と微かな廊下のアンビエンスを追加。最後に、最後の歌のフレーズ「I like big prompts!」が明確で、その後に聞こえる自然な笑い声が続く。
+
+VISUAL DETAILS:
+コスチュームと色をシートに忠実に保つ。白いフード/カウル、顔の周りに見える金髪、オレンジレッドのボディスーツ、白い手袋とブーツ、白い襟とショルダーアーマー。彼女の顔は魅力的で表情豊かで一貫性を保つ必要がある。手はクリーンで読みやすくなければならない。背景は安定していて絵画的であるべき。
+
+NEGATIVE PROMPT:
+テ
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064045958196056177.json)
+
+```text
+---
+SEEDANCE 2 | 14초 | 24fps | 시네마틱 핸드 드로잉 애니메이션 | 업로드된 캐릭터 시트를 정확한 옴니 레퍼런스로 사용 | 단일 연속 샷 | 한 성인 여성이 긴 레트로-퓨처리스틱 복도를 걸어오며 장난스럽게 "I like big prompts"를 노래하고, 중간에 즉흥적으로 허밍과 장난스러운 보컬 소리를 내며, 마지막에 미소를 짓고 큰 음악적 마무리를 하며 "I like big prompts!"를 노래하고 웃음 | 텍스트 없음, 오버레이 없음, 캡션 없음, 자막 없음, 로고 없음, 워터마크 없음, UI 없음.
+
+REFERENCE LOCK:
+업로드된 캐릭터 시트를 정확한 캐릭터 디자인 레퍼런스로 사용하세요. 동일한 성인 금발 여성, 동일한 레이어드 금발 머리, 동일한 표현력 있는 파란 눈, 동일한 부드럽지만 날카로운 얼굴 구조, 동일한 장난스러운 입 모양, 동일한 자신감 있는 태도, 동일한 흰색 후드형 SF 헬멧/카울, 동일한 둥근 흰색 어깨 갑옷, 동일한 원형 리벳 디테일이 있는 흰색 칼라 링, 동일한 오렌지-레드 피트된 레트로 SF 슈트, 동일한 흰색 장갑, 동일한 흰색 부츠, 동일한 깨끗한 1980년대 애니메이션 비율을 유지하세요. 모든 각도에서 일관되게 유지하세요. 그녀는 캐릭터 시트에서 직접 완성된 애니메이션 장면으로 걸어 나온 것처럼 느껴져야 합니다.
+
+STYLE:
+프리미엄 1970년대 후반 / 1980년대 초반 극장용 SF 애니메이션 룩. 핸드 드로잉 셀 애니메이션, 잉크 아웃라인, 페인트된 배경, 미묘한 종이 질감, 약간의 빈티지 필름 그레인, 따뜻한 셀 셰이딩, 표현력 있는 얼굴 애니메이션, 안정적인 해부학, 부드러운 워크 사이클, 깨끗한 시네마틱 스테이징. CGI 없음, 3D 렌더링 없음, 현대적인 광택 애니메이션 마무리 없음, 플라스틱 디지털 셰이딩 없음, AI 스미어 없음, 변형 없음, 불안정한 얼굴 없음.
+
+SCENE:
+우주선, 달 기지 또는 우주 정거장 내부의 긴 레트로-퓨처리스틱 복도. 곡선형 금속 벽, 리브드 바닥 패널, 창백한 크림색과 회색 벽 섹션, 아날로그 제어 디테일, 작은 깜박이는 전구, 부드러운 호박색 천장 조명, muted 블루-그레이 그림자, 미묘한 바닥 반사, 복도를 우스꽝스럽게 끝없이 느끼게 하는 매우 긴 소실점 관점. 분위기는 장난스럽고 모험적이며 매력적입니다.
+
+CAMERA:
+단일 중단 없는 샷. 복도 끝에 멀리 있는 그녀를 보여주는 와이드 샷으로 시작합니다. 그녀는 내내 카메라를 향해 걸어옵니다. 카메라가 그녀가 다가올 때 프레이밍을 유지하기 위해 천천히 뒤로 이동합니다. 컷 없음, 흔들리는 카메라 없음, 무작위 줌 없음. 그녀의 미소와 웃음이 명확히 보이도록 중간 클로즈업으로 끝납니다.
+
+ACTION / PERFORMANCE:
+0.0-2.0초: 와이드 샷. 그녀는 이미 움직이며 복도 끝에서 카메라를 향해 걸어옵니다. 그녀는 장난스럽고 멜로디컬한 방식으로 노래를 시작합니다: “I like big prompts...” 그녀의 전달은 장난스럽고, 음악적이며, 자기 만족적입니다.
+
+2.0-5.0초: 그녀는 부드럽고 리드미컬한 걸음걸이로 계속 걷습니다. 그녀의 머리는 후드 아래에서 가볍게 움직이고, 어깨와 팔은 자연스럽게 움직입니다. 노래 구절 사이에, 그녀는 장난스러운 허밍, 작은 멜로디컬한 “mm-mm-mm,” “doo-doo,” 그리고 가벼운 코믹 보컬 소리를 즉흥적으로 냅니다. 그녀는 자신에게 즐거워하는 것처럼 보이며, 마치 노래를 즉흥적으로 만들어내는 것 같습니다.
+
+5.0-8.5초: 중간 와이드 샷. 그녀는 여전히 “I like big prompts”의 조각들을 노래하며 시청자에게 다가옵니다. 장난스러운 멈춤은 허밍, 휘파람, 그리고 우스꽝스러운 멜로디 소리로 채워집니다. 그녀는 작은 미소를 짓고, 아마도 약간의 눈썹을 올리며, 순간의 우스꽝스러움을 즐깁니다. 그녀의 공연은 장난스럽고, 카리스마 있고, 편안합니다.
+
+8.5-11.5초: 그녀는 더 가까워집니다. 그녀 뒤의 복도는 극적으로 늘어나며, 그녀가 오랫동안 걸어왔다는 농담을 강조합니다. 그녀는 가사 사이에 몇 가지 더 장난스러운 음악 소리를 추가하며, 마치 걷는 동안 자신의 작은 테마곡을 만들어내는 것 같습니다. 그녀의 얼굴은 매우 표현력 있고 매력적입니다.
+
+11.5-13.0초: 그녀는 카메라에 가까워지며 약간 속도를 늦추고, 시청자를 직접 바라보며 미소를 짓습니다. 그녀의 표정은 펀치라인을 준비하고 있음을 나타냅니다. 그녀는 밝아지며, 마지막 음악적 보상을 준비합니다.
+
+13.0-14.0초: 그녀는 중간 클로즈업으로 도달하여, 크게 미소를 짓고, 장난스러운 큰 마무리로 명확하게 노래합니다: “I like big prompts!” 즉시 그 후, 그녀는 따뜻하고 자연스럽게 웃습니다. 그녀의 즐거운, 장난스러운 미소로 끝납니다.
+
+CHARACTER PERFORMANCE:
+그녀는 장난스럽고, 건방지며, 자신감 있고, 장난스럽고, 호감이 갑니다. 급하지 않고, 유치하지 않고, 과장되지 않습니다. 그녀는 긴 산책 중에 자신을 즐겁게 하는 카리스마 있는 레트로 애니메이션 여주인공처럼 느껴져야 합니다. 그녀의 노래는 재미있고 가볍습니다. 허밍과 장난스러운 중간 소리는 즉흥적이고 음악적으로 느껴져야 하며, 혼란스럽지 않아야 합니다.
+
+AUDIO:
+그녀의 목소리는 밝고, 음악적이며, 표현력이 있습니다. 그녀는 반복되는 구절 “I like big prompts”를 캐치하고 장난스러운 방식으로 노래합니다. 노래 구절 사이에는 가벼운 허밍과 장난스러운 무의미한 보컬 소리, 예를 들어 “mm-mm,” “doo-doo,” 또는 부드러운 즉흥 멜로디 소리를 포함합니다. 금속 바닥에서 부드러운 부츠 발소리와 희미한 복도 분위기를 추가합니다. 마지막에, 최종 노래 구절 “I like big prompts!”는 명확해야 하며, 그 후에는 들을 수 있는 자연스러운 웃음이 따라야 합니다.
+
+VISUAL DETAILS:
+의상과 색상을 시트에 충실하게 유지하세요. 흰색 후드/카울, 얼굴 주위로 보이는 금발 머리, 오렌지-레드 바디슈트, 흰색 장갑과 부츠, 흰색 칼라와 어깨 갑옷. 그녀의 얼굴은 매력적이고, 표현력 있으며, 일관되게 유지해야 합니다. 손은 깨끗하고 읽기 쉬워야 합니다. 배경은 안정적이고 화려해야 합니다.
+
+NEGATIVE PROMPT:
+텍스트 없음, 자막 없음, 캡션 없음, 말풍선 없음, 로고 없음, 워터마크 없음, UI 없음. 추가 캐릭터 없음, 클론 없음, 중복 여성 없음, 의상 변경 없음, 머리 색상 변경 없음, 후드 없음, 무기 없음, 괴물 없음, 폭력 없음, 폭발 없음, 마법 없음, 홀로그램 없음, 현대적인 광택 CGI 룩 없음, 포토리얼리즘 없음, 실사 변환 없음, 왜곡된 손 없음, 해부학적 결함 없음, 불안정한 입 모양 없음, 혼란스러운 편집 없음, 점
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064045958196056177.json)
+
+```text
+---
+SEEDANCE 2 | 14 segundos | 24fps | animação cinematográfica desenhada à mão | use a folha de personagem enviada como referência omni-exata | tomada única e contínua | uma mulher adulta caminha em direção ao espectador por um longo corredor retro-futurista enquanto canta de forma divertida “I like big prompts”, improvisando com murmúrios e ruídos vocais brincalhões entre as frases, então no final ela sorri, faz um grande final musical, canta “I like big prompts!” e ri | sem texto, sem sobreposições, sem legendas, sem subtítulos, sem logos, sem marca d'água, sem interface.
+
+BLOQUEIO DE REFERÊNCIA:
+Use a folha de personagem enviada como referência exata de design de personagem. Preserve a mesma mulher adulta loira, mesmo cabelo loiro em camadas, mesmos olhos azuis expressivos, mesma estrutura facial suave, mas marcante, mesmas formas de boca brincalhonas, mesma atitude confiante, mesmo capacete/capuz sci-fi branco, mesma armadura de ombro branca arredondada, mesmo colar branco com detalhes de rebites circulares, mesmo traje retro sci-fi ajustado laranja-avermelhado, mesmas luvas brancas, mesmas botas brancas e mesmas proporções limpas de anime dos anos 1980. Mantenha-a consistente de todos os ângulos. Ela deve parecer que saiu diretamente da folha de personagem para uma cena animada finalizada.
+
+ESTILO:
+Visual de anime sci-fi teatral premium do final dos anos 1970 / início dos anos 1980. Animação desenhada à mão, contornos com tinta, fundos pintados, textura sutil de papel, leve granulação de filme vintage, sombreamento quente de cel, animação facial expressiva, anatomia estável, ciclo de caminhada suave e encenação cinematográfica limpa. Sem CGI, sem renderização 3D, sem acabamento moderno de anime brilhante, sem sombreamento digital plástico, sem borrão de IA, sem morphing, sem rosto instável.
+
+CENA:
+Um longo corredor retro-futurista dentro de uma nave estelar, base lunar ou estação espacial. Paredes metálicas curvas, painéis de piso com nervuras, seções de parede em creme pálido e cinza, detalhes de controle analógico, pequenas lâmpadas piscando, luzes âmbar suaves no teto, sombras azul-cinza suaves, reflexos sutis no chão e uma perspectiva de ponto de fuga muito longa que faz o corredor parecer cômico e interminável. O clima é divertido, aventureiro e encantador.
+
+CÂMERA:
+Tomada única e ininterrupta. Comece com uma tomada ampla mostrando-a longe no final do corredor. Ela caminha diretamente em direção à câmera o tempo todo. A câmera se move lentamente para trás para manter o enquadramento à medida que ela se aproxima. Sem cortes, sem câmera trêmula, sem zooms aleatórios. Termine em um close médio para que seu sorriso e risada sejam claramente visíveis.
+
+AÇÃO / PERFORMANCE:
+0.0-2.0s: Tomada ampla. Ela aparece no final do corredor já em movimento, caminhando em direção à câmera com confiança relaxada. Ela começa a cantar de forma divertida e melódica: “I like big prompts...” Sua entrega é provocativa, musical e autossatisfeita.
+
+2.0-5.0s: Ela continua caminhando com um passo suave e rítmico. Seu cabelo se move levemente sob o capuz, e seus ombros e braços se movem naturalmente. Entre as frases cantadas, ela improvisa murmúrios brincalhões, pequenos sons melódicos “mm-mm-mm”, “doo-doo” e leves sons vocais cômicos. Ela parece entretida consigo mesma, como se estivesse inventando a música enquanto caminha.
+
+5.0-8.5s: Tomada média-ampla. Ela continua em direção ao espectador, ainda cantando fragmentos de “I like big prompts”, com pausas brincalhonas preenchidas por murmúrios, assobios e ruídos melódicos bobos. Ela dá um pequeno sorriso, talvez uma leve levantada de sobrancelha, aproveitando o ridículo do momento. Sua performance é atrevida, carismática e relaxada.
+
+8.5-11.5s: Ela se aproxima. O corredor atrás dela se estende dramaticamente, vendendo a piada de que ela está caminhando há muito tempo. Ela adiciona mais alguns sons musicais brincalhões entre as letras, como se estivesse inventando sua própria pequena música tema enquanto caminha. Seu rosto é altamente expressivo e encantador.
+
+11.5-13.0s: Ela se aproxima da câmera e diminui ligeiramente, sorrindo diretamente para o espectador. Sua expressão diz que ela está se preparando para uma piada final. Ela se ilumina, preparando-se para um desfecho musical final.
+
+13.0-14.0s: Ela chega a um close médio, sorri amplamente e com um floreio de grande final canta claramente: “I like big prompts!” Imediatamente após, ela ri calorosamente e naturalmente. Termine com seu sorriso divertido e atrevido.
+
+PERFORMANCE DO PERSONAGEM:
+Ela é brincalhona, atrevida, confiante, travessa e simpática. Não frenética, não infantil, não exagerada. Ela deve parecer uma heroína carismática de anime retro se entretendo durante uma caminhada muito longa. Seu canto é divertido e leve. Os murmúrios e sons bobos entre as frases devem parecer espontâneos e musicais, não caóticos.
+
+ÁUDIO:
+Sua voz é brilhante, musical e expressiva. Ela canta a frase repetida “I like big prompts” de uma maneira cativante e divertida. Entre as frases cantadas, inclua murmúrios leves e vocalizações brincalhonas sem sentido, como “mm-mm”, “doo-doo” ou sons melódicos suaves improvisados. Adicione passos suaves de botas no chão de metal e um leve ambiente de corredor. No final, a linha final cantada “I like big prompts!” deve ser clara, seguida por uma risada natural audível.
+
+DETALHES VISUAIS:
+Mantenha o traje e as cores fiéis à folha. Capuz/capacete branco, cabelo loiro visível ao redor do rosto, traje laranja-avermelhado, luvas e botas brancas, colar e armadura de ombro brancos. Seu rosto deve permanecer atraente, expressivo e consistente. As mãos devem ser limpas e legíveis. O fundo deve permanecer estável e pintado.
+
+PROMPT NEGATIVO:
+Sem texto, sem legendas, sem legendas, sem balões de fala, sem logos, sem marca d'água, sem interface. Sem personagens extras, sem clones, sem mulher duplicada, sem mudanças de traje, sem mudança de cor de cabelo, sem capuz ausente, sem armas, sem monstros, sem violência, sem explosões, sem magia, sem hologramas, sem visual moderno de CGI brilhante, sem fotorrealismo, sem conversão para live-action, sem mãos deformadas, sem anatomia quebrada, sem formas de boca trêmulas, sem edição caótica, sem cortes bruscos.
+
+INTENÇÃO FINAL:
+Uma performance encantadora de 14 segundos em anime retro: a heroína loira de sci-fi da folha de personagem enviada caminha por um longo corredor futurista em direção ao espectador, cantando “I like big prompts”, preenchendo as lacunas com murmúrios brincalhões e ruídos musicais engraçados, então termina perto da câmera com um grande final sorridente—cantando “I like big prompts!” e rindo.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064045958196056177.json)
+
+```text
+SEEDANCE 2 | 14秒 | 24fps | 电影感手绘动画 | 使用上传的角色表作为精确的全方位参考 | 单一连续镜头 | 一位成年女性在长长的复古未来主义走廊中朝观众走来，边走边俏皮地唱着“我喜欢大提示”，在中间即兴哼唱和发出俏皮的声音，然后在最后她微笑着，给出一个大的音乐结尾，唱“我喜欢大提示！”并笑了 | 无文字，无叠加，无字幕，无标志，无水印，无用户界面。
+
+参考锁定：
+使用上传的角色表作为精确的角色设计参考。保持同样的成年金发女性，同样层次分明的金发，同样富有表现力的蓝眼睛，同样柔和但锐利的面部结构，同样俏皮的嘴型，同样自信的态度，同样的白色连帽科幻头盔/斗篷，同样圆形的白色肩甲，同样带有圆形铆钉细节的白色领圈，同样的橙红色贴身复古科幻服装，同样的白色手套，同样的白色靴子，以及同样干净的1980年代动漫比例。从每个角度保持一致。她应该感觉像是直接从角色表中走进了完成的动画场景。
+
+风格：
+高级1970年代末/1980年代初的戏剧性科幻动漫风格。手绘赛璐珞动画，墨线勾勒，背景绘制，细微的纸张纹理，轻微的复古胶片颗粒，温暖的赛璐珞阴影，富有表现力的面部动画，稳定的解剖结构，流畅的行走循环，以及干净的电影级布景。无CGI，无3D渲染，无现代光滑动漫效果，无塑料数字阴影，无AI模糊，无变形，无不稳定的面部。
+
+场景：
+星舰、月球基地或空间站内的长长复古未来主义走廊。弯曲的金属墙壁，带肋的地板面板，浅奶油色和灰色的墙壁部分，模拟控制细节，微小的闪烁灯泡，柔和的琥珀色顶灯，柔和的蓝灰色阴影，细微的地板反射，以及一个非常长的消失点透视，使走廊感觉滑稽地无尽。氛围是俏皮、冒险和迷人的。
+
+摄像机：
+单一不间断镜头。以一个广角镜头开始，显示她在走廊尽头远处。她一直朝着摄像机走来。摄像机缓慢向后移动以保持构图随着她的接近。无剪切，无抖动摄像机，无随机变焦。以中近景结束，使她的微笑和笑声清晰可见。
+
+动作/表演：
+0.0-2.0秒：广角镜头。她已经在走廊尽头出现，向摄像机走来，表现出放松的自信。她开始以俏皮、悦耳的方式唱：“我喜欢大提示...”她的表达是调皮的、音乐的、自娱自乐的。
+
+2.0-5.0秒：她继续以平稳、节奏感的步伐行走。她的头发在兜帽下轻轻晃动，肩膀和手臂自然移动。在唱词之间，她即兴哼唱俏皮的“嗯嗯嗯”，“嘟嘟”，和轻松的喜剧声音。她看起来被自己逗乐了，像是在即兴创作这首歌。
+
+5.0-8.5秒：中广镜头。她继续朝观众走来，仍然唱着“我喜欢大提示”的片段，俏皮的停顿中夹杂着哼唱、口哨和滑稽的旋律声音。她露出微笑，可能微微抬眉，享受这一刻的荒谬。她的表演是调皮的、富有魅力的、放松的。
+
+8.5-11.5秒：她越来越近。她身后的走廊戏剧性地延伸，突显出她已经走了很长时间的笑话。她在歌词之间加入了更多俏皮的音乐声音，像是在为自己编写一个小主题曲。她的面部表情非常丰富和迷人。
+
+11.5-13.0秒：她接近摄像机，稍微放慢速度，直接对观众微笑。她的表情显示她正在为一个笑点做准备。她变得更加明亮，准备一个最终的音乐高潮。
+
+13.0-14.0秒：她进入中近景，露出灿烂的笑容，并以俏皮的大结尾唱出清晰的：“我喜欢大提示！”随后，她自然地笑了。以她愉快、调皮的微笑结束。
+
+角色表演：
+她是俏皮的、调皮的、自信的、顽皮的和讨人喜欢的。不急躁，不幼稚，不过于夸张。她应该像一个富有魅力的复古动漫女主角，在漫长的步行中自娱自乐。她的歌唱是有趣和轻松的。哼唱和滑稽的中间声音应该感觉自发和音乐化，而不是混乱的。
+
+音频：
+她的声音明亮、音乐化和富有表现力。她以朗朗上口、俏皮的方式唱着重复的短语“我喜欢大提示”。在唱词之间，加入轻松的哼唱和俏皮的无意义发声，如“嗯嗯”，“嘟嘟”，或柔和的即兴旋律声音。添加轻微的靴子在金属地板上的脚步声和微弱的走廊环境音。在最后，清晰地唱出最后一句“我喜欢大提示！”，随后是可听见的自然笑声。
+
+视觉细节：
+保持服装和颜色忠实于角色表。白色兜帽/斗篷，脸周围可见的金发，橙红色紧身衣，白色手套和靴子，白色领圈和肩甲。她的脸必须保持吸引力、表现力和一致性。手必须干净且易读。背景应保持稳定和绘画风格。
+
+负面提示：
+无文字，无字幕，无标题，无对话框，无标志，无水印，无用户界面。无额外角色，无克隆，无重复女性，无服装变化，无发色变化，无缺失兜帽，无武器，无怪物，无暴力，无爆炸，无魔法，无全息图，无现代光滑CGI外观，无写实主义，无真人转换，无扭曲的手，无破碎的解剖结构，无抖动的嘴型，无混乱的编辑，无跳剪。
+
+最终意图：
+一个迷人的14秒复古动漫表演镜头：上传角色表中的金发科幻女主角走在长长的未来主义走廊中朝观众走来，唱着“我喜欢大提示”，用俏皮的哼唱和滑稽的音乐声音填补空隙，然后在接近摄像机时以一个大笑容结束——唱着“我喜欢大提示！”并笑了。
+```
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064045958196056177.json)
+
+```text
+---
+SEEDANCE 2 | 14 segundos | 24fps | animación cinematográfica dibujada a mano | usa la hoja de personaje subida como referencia omni-exacta | toma continua única | una mujer adulta camina hacia el espectador por un largo pasillo retro-futurista mientras canta juguetonamente “I like big prompts,” improvisando tarareos y ruidos vocales juguetones entre medio, luego al final sonríe, da un gran final musical, canta “I like big prompts!” y ríe | sin texto, sin superposiciones, sin subtítulos, sin logotipos, sin marca de agua, sin interfaz de usuario.
+
+REFERENCIA FIJA:
+Usa la hoja de personaje subida como referencia exacta de diseño de personaje. Preserva la misma mujer adulta rubia, mismo cabello rubio en capas, mismos ojos azules expresivos, misma estructura facial suave pero definida, mismas formas de boca juguetonas y pícaras, misma actitud confiada, mismo casco/capucha blanca de ciencia ficción, misma armadura de hombros redondeados blanca, mismo anillo de cuello blanco con detalles de remaches circulares, mismo traje ajustado retro de ciencia ficción naranja-rojo, mismos guantes blancos, mismas botas blancas y mismas proporciones limpias de anime de los años 80. Mantén su consistencia desde todos los ángulos. Debe sentirse como si hubiera salido directamente de la hoja de personaje a una escena animada terminada.
+
+ESTILO:
+Estética de anime de ciencia ficción teatral de finales de los años 70 / principios de los 80. Animación dibujada a mano en celdas, contornos entintados, fondos pintados, textura sutil de papel, ligero grano de película vintage, sombreado cálido en celdas, animación facial expresiva, anatomía estable, ciclo de caminata suave y puesta en escena cinematográfica limpia. Sin CGI, sin renderizado 3D, sin acabado moderno de anime brillante, sin sombreado digital plástico, sin manchas de IA, sin morfing, sin rostro inestable.
+
+ESCENA:
+Un largo pasillo retro-futurista dentro de una nave estelar, base lunar o estación espacial. Paredes metálicas curvas, paneles de suelo acanalados, secciones de pared en crema pálido y gris, detalles de control analógicos, pequeñas luces parpadeantes, luces ámbar suaves en el techo, sombras azul-gris apagadas, reflejos sutiles en el suelo y una perspectiva de punto de fuga muy larga que hace que el pasillo parezca cómicamente interminable. El ambiente es juguetón, aventurero y encantador.
+
+CÁMARA:
+Toma única e ininterrumpida. Comienza con una toma amplia mostrando a ella lejos al final del pasillo. Camina directamente hacia la cámara todo el tiempo. La cámara se mueve lentamente hacia atrás para mantener el encuadre mientras se acerca. Sin cortes, sin cámara temblorosa, sin zooms aleatorios. Termina en un plano medio cercano para que su sonrisa y risa sean claramente visibles.
+
+ACCIÓN / RENDIMIENTO:
+0.0-2.0s: Toma amplia. Ella aparece al final del pasillo ya en movimiento, caminando hacia la cámara con confianza relajada. Comienza a cantar de manera juguetona y melódica: “I like big prompts...” Su entrega es burlona, musical y auto-divertida.
+
+2.0-5.0s: Sigue caminando con un paso suave y rítmico. Su cabello se mueve ligeramente bajo la capucha, y sus hombros y brazos se mueven naturalmente. Entre frases cantadas, improvisa tarareos juguetones, pequeños “mm-mm-mm” melódicos, “doo-doo” y sonidos vocales cómicos ligeros. Parece entretenida consigo misma, como si estuviera inventando la canción sobre la marcha.
+
+5.0-8.5s: Toma medio-amplia. Continúa hacia el espectador, todavía cantando fragmentos de “I like big prompts,” con pausas juguetonas llenas de tarareos, silbidos y ruidos melódicos tontos. Da una pequeña sonrisa, tal vez un ligero levantamiento de cejas, disfrutando de lo ridículo del momento. Su actuación es descarada, carismática y relajada.
+
+8.5-11.5s: Se acerca más. El pasillo detrás de ella se extiende dramáticamente, vendiendo la broma de que ha estado caminando durante mucho tiempo. Añade algunos sonidos musicales juguetones más entre las letras, como si estuviera inventando su propio pequeño tema musical mientras camina. Su rostro es altamente expresivo y encantador.
+
+11.5-13.0s: Se acerca a la cámara y disminuye ligeramente la velocidad, sonriendo directamente al espectador. Su expresión dice que está construyendo hacia un remate. Se ilumina, preparándose para un final musical.
+
+13.0-14.0s: Llega a un plano medio cercano, sonríe ampliamente y con un floreo juguetón de gran final canta claramente: “I like big prompts!” Inmediatamente después, ríe cálida y naturalmente. Termina con su sonrisa divertida y descarada.
+
+ACTUACIÓN DEL PERSONAJE:
+Es juguetona, descarada, confiada, pícara y simpática. No frenética, no infantil, no exagerada. Debe sentirse como una heroína de anime retro carismática entreteniéndose durante una caminata muy larga. Su canto es divertido y ligero. Los tarareos y sonidos tontos entre medio deben sentirse espontáneos y musicales, no caóticos.
+
+AUDIO:
+Su voz es brillante, musical y expresiva. Canta la frase repetida “I like big prompts” de manera pegajosa y juguetona. Entre frases cantadas, incluye tarareos ligeros y vocalizaciones de tonterías juguetonas como “mm-mm,” “doo-doo,” o sonidos melódicos improvisados suaves. Añade suaves pasos de botas sobre el suelo metálico y un ambiente de pasillo tenue. Al final, la línea final cantada “I like big prompts!” debe ser clara, seguida de una risa natural audible.
+
+DETALLES VISUALES:
+Mantén el vestuario y los colores fieles a la hoja. Capucha blanca, cabello rubio visible alrededor del rostro, traje de cuerpo naranja-rojo, guantes y botas blancas, collar y armadura de hombros blancos. Su rostro debe permanecer atractivo, expresivo y consistente. Las manos deben ser limpias y legibles. El fondo debe permanecer estable y pintoresco.
+
+PROMPT NEGATIVO:
+Sin texto, sin subtítulos, sin leyendas, sin burbujas de diálogo, sin logotipos, sin marca de agua, sin interfaz de usuario. Sin personajes extra, sin clones, sin mujer duplicada, sin cambios de vestuario, sin cambio de color de cabello, sin capucha faltante, sin armas, sin monstruos, sin violencia, sin explosiones, sin magia, sin hologramas, sin aspecto moderno brillante de CGI, sin fotorrealismo, sin conversión a acción real, sin manos deformadas, sin anatomía rota, sin formas de boca temblorosas, sin edición caótica, sin cortes abruptos.
+
+INTENCIÓN FINAL:
+Una encantadora toma de actuación de anime retro de 14 segundos: la heroína de ciencia ficción rubia de la hoja de personaje subida camina por un largo pasillo futurista hacia el espectador, cantando “I like big prompts,” llenando los huecos con tarareos juguetones y ruidos musicales divertidos, luego termina cerca de la cámara con un gran final sonriente—cantando “I like big prompts!” y riendo.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064045958196056177.json)
+
+```text
+---
+SEEDANCE 2 | 14 secondes | 24fps | animation cinématographique dessinée à la main | utiliser la feuille de personnage téléchargée comme référence omni-exacte | plan séquence unique | une femme adulte marche vers le spectateur dans un long couloir rétro-futuriste en chantant joyeusement “I like big prompts,” improvisant des fredonnements et des bruits vocaux ludiques entre les phrases, puis à la fin, elle sourit, donne une grande conclusion musicale, chante “I like big prompts!” et rit | pas de texte, pas de superpositions, pas de sous-titres, pas de légendes, pas de logos, pas de filigrane, pas d'interface utilisateur.
+
+VERROUILLAGE DE RÉFÉRENCE :
+Utiliser la feuille de personnage téléchargée comme référence exacte de conception de personnage. Préserver la même femme adulte blonde, les mêmes cheveux blonds en couches, les mêmes yeux bleus expressifs, la même structure faciale douce mais nette, les mêmes formes de bouche espiègles, la même attitude confiante, le même casque/capuchon de science-fiction blanc, la même armure d'épaule blanche arrondie, le même collier blanc avec détails de rivets circulaires, la même combinaison rétro sci-fi orange-rouge ajustée, les mêmes gants blancs, les mêmes bottes blanches, et les mêmes proportions d'anime des années 1980. Elle doit rester cohérente sous tous les angles. Elle doit donner l'impression d'être sortie directement de la feuille de personnage dans une scène animée finie.
+
+STYLE :
+Look d'anime de science-fiction théâtral de la fin des années 1970 / début des années 1980. Animation dessinée à la main, contours encrés, arrière-plans peints, texture subtile de papier, léger grain de film vintage, ombrage chaleureux des celluloïds, animation faciale expressive, anatomie stable, cycle de marche fluide, et mise en scène cinématographique propre. Pas de CGI, pas de rendu 3D, pas de finition d'anime moderne brillante, pas d'ombrage numérique plastique, pas de bavure AI, pas de morphing, pas de visage instable.
+
+SCÈNE :
+Un long couloir rétro-futuriste à l'intérieur d'un vaisseau spatial, d'une base lunaire ou d'une station spatiale. Murs métalliques incurvés, panneaux de sol nervurés, sections murales crème pâle et grises, détails de contrôle analogiques, petites ampoules clignotantes, lumières tamisées ambrées au plafond, ombres bleu-gris atténuées, reflets subtils au sol, et une perspective de point de fuite très longue qui donne l'impression que le couloir est interminablement comique. L'ambiance est ludique, aventureuse et charmante.
+
+CAMÉRA :
+Plan séquence unique. Commencez par un plan large montrant qu'elle est loin au bout du couloir. Elle marche directement vers la caméra tout le temps. La caméra recule lentement pour maintenir le cadrage à mesure qu'elle s'approche. Pas de coupures, pas de caméra tremblante, pas de zooms aléatoires. Terminer par un plan moyen rapproché pour que son sourire et son rire soient clairement visibles.
+
+ACTION / PERFORMANCE :
+0.0-2.0s : Plan large. Elle apparaît au bout du couloir déjà en mouvement, marchant vers la caméra avec une confiance détendue. Elle commence à chanter de manière ludique et mélodieuse : “I like big prompts...” Sa prestation est taquine, musicale et auto-amusée.
+
+2.0-5.0s : Elle continue de marcher avec une foulée fluide et rythmée. Ses cheveux bougent légèrement sous le capuchon, et ses épaules et bras se déplacent naturellement. Entre les phrases chantées, elle improvise des fredonnements ludiques, de petits “mm-mm-mm” mélodiques, “doo-doo,” et des sons vocaux comiques légers. Elle semble s'amuser elle-même, comme si elle inventait la chanson au fur et à mesure.
+
+5.0-8.5s : Plan moyen-large. Elle continue vers le spectateur, chantant toujours des fragments de “I like big prompts,” avec des pauses ludiques remplies de fredonnements, de sifflements, et de bruits mélodiques amusants. Elle esquisse un petit sourire, peut-être un léger soulèvement de sourcil, appréciant le ridicule du moment. Sa performance est impertinente, charismatique et détendue.
+
+8.5-11.5s : Elle se rapproche. Le couloir derrière elle s'étire de manière spectaculaire, accentuant la blague qu'elle marche depuis très longtemps. Elle ajoute quelques sons musicaux ludiques supplémentaires entre les paroles, comme si elle inventait son propre petit thème musical en marchant. Son visage est très expressif et charmant.
+
+11.5-13.0s : Elle s'approche de la caméra et ralentit légèrement, souriant directement au spectateur. Son expression indique qu'elle prépare une punchline. Elle s'illumine, se préparant pour un final musical.
+
+13.0-14.0s : Elle arrive en plan moyen rapproché, sourit largement, et avec une grande finition ludique chante clairement : “I like big prompts!” Immédiatement après, elle rit chaleureusement et naturellement. Finir sur son sourire amusé et impertinent.
+
+PERFORMANCE DU PERSONNAGE :
+Elle est ludique, impertinente, confiante, espiègle et sympathique. Pas frénétique, pas enfantine, pas trop exagérée. Elle doit ressembler à une héroïne d'anime rétro charismatique qui s'amuse pendant une très longue marche. Son chant est amusant et léger. Les fredonnements et les sons idiots entre les phrases doivent sembler spontanés et musicaux, pas chaotiques.
+
+AUDIO :
+Sa voix est lumineuse, musicale et expressive. Elle chante la phrase répétée “I like big prompts” de manière accrocheuse et ludique. Entre les phrases chantées, inclure des fredonnements légers et des vocalisations absurdes ludiques telles que “mm-mm,” “doo-doo,” ou des sons mélodiques improvisés doux. Ajouter des bruits de pas légers sur le sol métallique et une ambiance de couloir faible. À la fin, la dernière ligne chantée “I like big prompts!” doit être claire, suivie d'un rire naturel audible.
+
+DÉTAILS VISUELS :
+Garder le costume et les couleurs fidèles à la feuille. Capuchon blanc, cheveux blonds visibles autour du visage, combinaison orange-rouge, gants et bottes blancs, collier et armure d'épaule blancs. Son visage doit rester attrayant, expressif et cohérent. Les mains doivent être propres et lisibles. L'arrière-plan doit rester stable et peint.
+
+PROMPT NÉGATIF :
+Pas de texte, pas de sous-titres, pas de légendes, pas de bulles de dialogue, pas de logos, pas de filigrane, pas d'interface utilisateur. Pas de personnages supplémentaires, pas de clones, pas de femme dupliquée, pas de changements de costume, pas de changement de couleur de cheveux, pas de capuchon manquant, pas d'armes, pas de monstres, pas de violence, pas d'explosions, pas de magie, pas d'hologrammes, pas de look CGI moderne brillant, pas de photoréalisme, pas de conversion en live-action, pas de mains déformées, pas d'anatomie cassée, pas de formes de bouche saccadées, pas de montage chaotique, pas de coupes brusques.
+
+INTENTION FINALE :
+Une performance animée rétro charmante de 14 secondes : l'héroïne blonde de science-fiction de la feuille de personnage téléchargée marche dans un long couloir futuriste vers le spectateur, chantant “I like big prompts,” remplissant les espaces avec des fredonnements ludiques et des bruits musicaux amusants, puis termine près de la caméra avec une grande finition souriante—chantant “I like big prompts!” et riant.
+```
+
+## 出处与许可
+
+- 原作者：[Brent Lynch](https://x.com/BrentLynch) · 原帖：<https://x.com/BrentLynch/status/2064045958196056177>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064045958196056177.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。
