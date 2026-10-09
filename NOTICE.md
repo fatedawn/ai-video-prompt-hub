@@ -7,7 +7,7 @@
 版权人：**天机**（Copyright 2026 天机）。许可：**[Apache License 2.0](LICENSE)**（全文见根目录 `LICENSE`，简短声明见根目录 `NOTICE`）。
 
 Apache-2.0 **只覆盖本仓库自己的作品**，包括：
-- 代码：`scripts/`、`animator/`（代码、Schema、`tts/`、`tools/`；**不含** `animator/vendor/` 下的第三方代码，见第 2.1 节）、`videogen/`、`router/`（AI 导演路由器，含测试与 `examples/` 示例方案）、`mcp/`（只读 MCP 服务，尚未发布到 npm）、`catalog/tools/`；
+- 代码：`scripts/`、`animator/`（代码、Schema、`tts/`、`tools/`；**不含** `animator/vendor/` 下的第三方代码，见第 2.1 节）、`videogen/`、`stills2video/`（静图成片；**不含**两个改写自 MIT 模板的 Wan2.2 工作流 JSON，见第 2.2 节）、`router/`（AI 导演路由器，含测试与 `examples/` 示例方案）、`mcp/`（只读 MCP 服务，尚未发布到 npm）、`catalog/tools/`；
 - AI Agent 说明与技能：`AGENTS.md`、`CLAUDE.md`、`skills/ai-video-director/SKILL.md`；
 - 外部项目目录 `catalog/`：`registry.json` 中本仓库自写的中文简介、标签、接入说明与许可证备注，生成的分类页面，以及 `catalog/methodology.md`（用本仓库自己的话归纳的方法论，未摘录第三方原文）。目录里列出的外部项目**只是链接**，它们各自的代码、文档、模板仍归原作者并适用其自己的许可证，见第 4 节；
 - 文档：README、NOTICE、ATTRIBUTION、CONTRIBUTING、SECURITY 等，`animator/README.md`、`videogen/README.md`，分类体系、各级索引与统计，`tools/漫剧漫画代码项目.md` 链接清单；
@@ -86,6 +86,23 @@ YouMind、LearnPrompt、ZeroLu 三个上游都说明：所收提示词来自社�
 
 **TTS 模型与视频模型**：均不随仓库分发。`animator/tts/fetch_models.py` 从上游下载并校验 sha256（Kokoro / sherpa-onnx：Apache-2.0；MeloTTS、faster-whisper：MIT）；videogen 只调用用户自己的 API 账号或用户自己运行的 ComfyUI，模型许可见 `videogen/README.md`。**API 密钥**：本仓库不提供、不保管任何密钥，只从用户的环境变量或 `.env`（已被 git 忽略）读取。
 
+### 2.2 `stills2video/` 中的第三方内容
+
+`stills2video/` 的代码（Node 编排、CPU 视差渲染器、深度推理封装、配方库、出图提示词模板、测试）是本仓库从零写的。我们读了 19 个相关项目的源码（清单、commit 和取舍见 [`docs/i2v-对比.md`](docs/i2v-对比.md)），复制进来的第三方内容只有一处：
+
+| 文件 | 来源 | 许可 | 版权行 | 许可文本 |
+|---|---|---|---|---|
+| `stills2video/workflows/wan22_14b_i2v_4step.json`、`wan22_14b_flf2v_4step.json`（ComfyUI API 工作流） | Comfy-Org/workflow_templates `templates/video_wan2_2_14B_i2v.json`、`video_wan2_2_14B_flf2v.json` @ `8be1f8c` | MIT | Copyright (c) 2023-present Comfy Org | `LICENSES/Comfy-Org_workflow_templates-MIT.txt`；改动见 `stills2video/workflows/VENDOR.md` |
+
+**只借鉴思路、代码自写**（没有复制任何代码或文字）：
+- MIT / Apache-2.0：MoneyPrinterTurbo（亚像素缩放、整段缩放、EXIF / CMYK 图片清洗）、editly（缓动曲线、zoomDirection / zoomAmount 参数）、remko/kburns（先放大再裁切防抖）、Pixelle-Video（用 ComfyUI 节点标题 `$名字.输入` 绑定参数）、FramePack（按显存切换模式）、Depth-Anything-V2（预处理参数：短边 518、14 的倍数、ImageNet 均值方差）。
+- **GPL / AGPL 及自定义许可，只取思路、完全重写**：DepthFlow（AGPL-3.0：视差高度 / 焦平面 / 等距 / 推拉变焦等参数概念和预设命名思路）、OpenMontage（AGPL-3.0：「防幻灯片」出片前检查的想法，规则是我们自己写的）、Wan2GP（WanGP Community License：按显存档位给预设；只为它的 `wgp.py --process` 写 settings JSON）。ComfyUI（GPL-3.0）只作为外部程序通过 HTTP API 调用。
+- **非商用 / 无许可证 / 自定义限制，只给链接**：3d-ken-burns（CC BY-NC-SA 4.0）、Maestro（WanGP 非商用评估许可）、Waifu2x-Extension-GUI（仅个人）、TypeTale、story-flicks、ComfyUI-PainterI2V、ComfyUI-Wan22FMLF、super-video-maker-skill、comfyui-workflow-skill（均无 LICENSE）、hypit（修改版 Apache 2.0）、huobao-drama（CC BY-NC-SA 4.0）。
+
+**模型与二进制**：都不随仓库分发。深度模型 Depth-Anything-V2-Small（Apache-2.0，onnx-community 转换版，固定 revision）由 `stills2video/py/fetch_models.py` 下载并校验 sha256；Base / Large 权重是 CC-BY-NC-4.0，不使用。视频模型的许可各不相同：Wan2.2 为 Apache-2.0；LTX-2 / LTX-2.x 为 LTX 社区许可；HunyuanVideo 系列为腾讯混元社区许可（不适用于欧盟、英国、韩国）；MiniMax H3 为其社区许可（排除欧盟、英国、韩国、美国，营收超门槛需授权）。RIFE / Real-ESRGAN 只检测用户自己安装的 `rife-ncnn-vulkan`（MIT）/ `realesrgan-ncnn-vulkan`（BSD-3-Clause）二进制。
+
+**示例素材**：`docs/assets/stills2video-sample.mp4` 的第 1 张图是天机提供的仙侠示意图，其余由 `stills2video/examples/sample/make_stills.py` 程序绘制或裁自本仓库的 `docs/assets/tianji_sheet.png`，不含第三方图片、字体或音乐。
+
 ## 3. 仓库所有者自己的文档
 
 `docs/分镜提示词手册.md` 与 `docs/skill/SKILL.md` 是仓库所有者的原创作品，按 Apache-2.0 提供（见第 1 节）。
@@ -107,6 +124,7 @@ YouMind、LearnPrompt、ZeroLu 三个上游都说明：所收提示词来自社�
 - dexhunter/seedance2-skill 的示例：疑似转录自官方手册，暂缓收录；
 - YouMind / goodcase.ai 网站内容；
 - `tools/` 中列出的全部代码项目；
+- `stills2video/` 只借鉴思路或只链接的项目：见第 2.2 节；
 - `animator/` 只借鉴思路、未复制代码的项目：geeklee/srt-whiteboard-animation（MIT）、alexgreensh/anidoodle（Apache-2.0）、HKUDS/ViMax（MIT）、HBAI-Ltd/Toonflow-app（MIT）。（alchaincyf/huashu-art-motion 的 MIT 代码已移植，见第 2.1 节。）
 
 本仓库没有收录任何第三方图片、GIF 或视频。`animator/` 中的 SVG（角色「豆豆」与内置道具）是本仓库原创的矢量图。
