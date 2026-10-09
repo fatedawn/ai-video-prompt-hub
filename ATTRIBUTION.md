@@ -278,9 +278,35 @@
 
 ComfyUI 本体（GPL-3.0）只作为外部程序通过 HTTP API 调用。非商用、无许可证、自定义限制的项目只链接，清单见 NOTICE.md 第 2.2 节。
 
+## slides2video/（PPT 式科普，路线⑥）
+
+全部原创代码（Apache-2.0，© 2026 天机），**没有复制任何第三方代码**。下列项目于 2026-10-09 读过 README / 文档或源码，许可证读 LICENSE 原文；最近推送时间见 `catalog/registry.json`。
+
+| 项目 | 许可 | 本仓库怎么用 |
+|---|---|---|
+| [slidevjs/slidev](https://github.com/slidevjs/slidev) | MIT | 仅思路：`---` 分页 + 每页 frontmatter 的 Markdown 语法、`v-click` 逐条出现 → 我们的 `{at: 词}` / `build:` |
+| [hakimel/reveal.js](https://github.com/hakimel/reveal.js) | MIT | 仅思路：Auto-Animate（相邻页同 id 元素插值）→ `transition: morph` |
+| [rough-stuff/rough-notation](https://github.com/rough-stuff/rough-notation) | MIT | 仅思路：手绘圈注 / 下划线 / 荧光笔的笔画抖动 → `mark:`（自写 SVG 路径） |
+| [shikijs/shiki-magic-move](https://github.com/shikijs/shiki-magic-move) | MIT | 仅思路：按 token 匹配做代码变形 |
+| [ai-nuts/pptx2video](https://github.com/ai-nuts/pptx2video) | MIT | 仅思路 + 兼容：演讲者备注 `## [handle]` 对应形状替代文字、`[[Spotlight] …]`、按动画窗格顺序出现；我们的 pptx 读取器自写 |
+| [tungs/timecut](https://github.com/tungs/timecut) | BSD-3-Clause | 仅思路：虚拟时间、逐帧截图再交给 ffmpeg |
+| [vincentsch/explainroo](https://github.com/vincentsch/explainroo) | MIT | 仅思路：渲染前在浏览器里做版式检查（溢出 / 重叠）→ `lint --qa` |
+| [lewislulu/html-ppt-skill](https://github.com/lewislulu/html-ppt-skill) | MIT | 仅思路：HTML 幻灯片作为 Agent 产物的组织方式、版式清单 |
+| [showlab/Paper2Video](https://github.com/showlab/Paper2Video) | MIT | 仅思路：论文 → 幻灯片 + 讲稿 + 光标提示的流程 → 聚光灯 `spot:` |
+| [Agents365-ai/video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) | MIT | 仅思路：脚本验收（语速、段落时长）→ `lint` 的语速检查与 methods.md |
+| [Anionex/banana-slides](https://github.com/Anionex/banana-slides) | **AGPL-3.0** | **仅思路**：「每页一张 AI 生成示意图」的工作流 → `prompts` 命令；未读入或改写其代码 |
+| [KaTeX/KaTeX](https://github.com/KaTeX/KaTeX) | MIT（字体 SIL OFL 1.1） | npm 依赖，不入库；字体渲染时从 `node_modules/katex/dist/fonts` 加载 |
+| [shikijs/shiki](https://github.com/shikijs/shiki) | MIT | npm 依赖，不入库 |
+| [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | MIT | npm 依赖，不入库 |
+| [eemeli/yaml](https://github.com/eemeli/yaml) | ISC | npm 依赖，不入库 |
+| [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | MIT | 复用 `animator/vendor/` 里已移植的转场（第 10 节），运行时加载，未再复制；不使用其 Arphic 笔画数据、字体或花叔形象 / 画作 |
+
+注：rough-notation、shiki-magic-move、timecut 在 `catalog/` 里已归入「历史 / 不再推荐」（2026 年无推送或已归档），这里只是记录思路出处，不向用户推荐。
+
 ## catalog/ 与 router/（外部项目目录、AI 导演路由器）
 
 - **取用范围**：只用了公开元数据：仓库名、★、最后推送日期、archived 状态和 LICENSE 文件。这些数据于 2026-10-08 通过 GitHub REST API 读取，脚本是 `catalog/tools/refresh_registry.py`。**没有复制任何第三方代码、提示词、模板或文档文字。**
+- **活跃度与用途**：2026-10-09 重新读取全部条目的 `pushed_at` / archived；只推荐 `freshness.cutoff`（2026-01-01）之后仍有推送的项目，其余标 `status: stale` 并写明原因。`best_for`、`strengths`、`absorbed`、`how_to_use` 和 `docs/项目用途地图.md` 都是本仓库自写（Apache-2.0），由 `catalog/tools/usefor.py` 维护。
 - **简介与标签**：每个条目的中文简介、路线、画风、输入输出、成本、中文支持、成熟度和「怎么接入本仓库」都由本仓库自写，按 Apache-2.0 提供。
 - **方法论**：`catalog/methodology.md` 用本仓库自己的话归纳公开方法，每条附出处链接。主要出处有：
   - eternityspring/shuohao-skills（Apache-2.0）

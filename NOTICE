@@ -72,6 +72,20 @@ copyright lines are in LICENSES/. Details: NOTICE.md and ATTRIBUTION.md.
   downloaded by stills2video/py/fetch_models.py and verified by sha256; it is not
   distributed with this repository. ComfyUI (GPL-3.0) is only called over its HTTP API.
 
+* slides2video/ contains no third-party code; it is original work (Apache-2.0,
+  Copyright 2026 天机). At render time it loads, without copying, the huashu-art-motion
+  transitions already vendored under animator/vendor/ (MIT, see above) and these npm
+  dependencies installed into slides2video/node_modules (not committed): KaTeX (MIT;
+  its fonts are SIL Open Font License 1.1 and are served from node_modules at render
+  time - no font file is committed), Shiki (MIT), Mermaid (MIT), yaml (ISC). Browser
+  automation reuses animator's playwright-core (Apache-2.0). Ideas only (clean
+  reimplementation, no code copied): Slidev (MIT), reveal.js Auto-Animate (MIT),
+  rough-notation (MIT), shiki-magic-move (MIT), pptx2video (MIT; its speaker-notes
+  convention is read for compatibility), timecut (BSD-3-Clause), explainroo (MIT),
+  html-ppt-skill (MIT), Paper2Video (MIT), video-podcast-maker (MIT) and banana-slides
+  (AGPL-3.0, workflow idea only). Sample images in slides2video/examples/sky/ are
+  drawn procedurally by make-images.mjs; no third-party images, fonts or music.
+
 Projects listed in catalog/ are referenced by link only; none of their code or text is
 included, and each keeps its own licence (see NOTICE.md).
 

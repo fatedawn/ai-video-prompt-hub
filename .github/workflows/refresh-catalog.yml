@@ -17,12 +17,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Refresh stars, dates, verified_at
+      # refresh_registry.py also recomputes active/stale (catalog/tools/freshness.py). The cutoff lives in ONE place:
+      # catalog/registry.json → freshness.cutoff (default 2026-01-01).
+      - name: Refresh stars, dates, verified_at, active/stale
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 catalog/tools/refresh_registry.py
-      - name: Rebuild catalog pages
-        run: node router/cli.mjs build-catalog
+      - name: Fill best_for / strengths / how_to_use for newly active entries
+        run: python3 catalog/tools/usefor.py
+      - name: Rebuild catalog pages and docs/项目用途地图.md
+        run: |
+          node router/cli.mjs build-catalog
+          node router/cli.mjs check
       - name: Open pull request if the catalog changed
         env:
           GH_TOKEN: ${{ github.token }}
@@ -35,9 +41,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$branch"
-          git add catalog
-          git commit -m "目录周更：刷新 star、推送日期与 verified_at"
+          git add catalog docs
+          git commit -m "目录周更：刷新 star、推送日期、verified_at 与活跃状态"
           git push origin "$branch"
           gh pr create --base main --head "$branch" \
-            --title "目录周更：刷新 star / 日期 / verified_at" \
-            --body "由 .github/workflows/refresh-catalog.yml 自动打开。只更新 catalog/ 的核验字段和生成页，不直接推 main。请人看过再合并。"
+            --title "目录周更：刷新 star / 日期 / verified_at / active-stale" \
+            --body "由 .github/workflows/refresh-catalog.yml 自动打开。只更新 catalog/ 的核验字段、活跃状态（截止日见 registry.json freshness.cutoff）和生成页（含 docs/项目用途地图.md），不直接推 main。请人看过再合并。"

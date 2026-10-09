@@ -123,9 +123,16 @@ def main():
     reg = json.loads(REG.read_text(encoding="utf-8"))
     n_hand = n_der = 0
     for e in reg["entries"]:
+        if e["repo"] in ABSORBED:  # credits apply even when the project later went stale
+            t, w, *where = ABSORBED[e["repo"]]
+            e["absorbed"] = {"type": t, "what": w, "where": where[0] if where else ""}
         if e.get("status") != "active":
             continue
-        hand = "best_for" in e and "strengths" in e
+        # idempotent: an entry stays "hand" once written by hand (OVERRIDES / add_* scripts); derived ones are re-derived
+        hand = e.get("use_map") == "hand" or ("use_map" not in e and "best_for" in e and "strengths" in e)
+        if not hand and e.get("use_map") == "derived":
+            for k in ("best_for", "strengths", "how_to_use"):
+                e.pop(k, None)
         if e["id"] in OVERRIDES:
             e["best_for"], e["strengths"] = list(OVERRIDES[e["id"]][0]), OVERRIDES[e["id"]][1]
             hand = True
@@ -133,9 +140,6 @@ def main():
             b, s = derive(e)
             e.setdefault("best_for", b)
             e.setdefault("strengths", s)
-        if e["repo"] in ABSORBED:
-            t, w, *where = ABSORBED[e["repo"]]
-            e["absorbed"] = {"type": t, "what": w, "where": where[0] if where else ""}
         e.setdefault("absorbed", {"type": "none", "what": "没有拿代码或思路；作为外部项目推荐", "where": ""})
         e.setdefault("how_to_use", how(e))
         e["use_map"] = "hand" if hand else "derived"

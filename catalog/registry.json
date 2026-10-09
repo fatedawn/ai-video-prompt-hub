@@ -392,19 +392,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "儿童绘本",
     "故事短片",
     "知识科普 / 口播讲解"
    ],
    "strengths": "一张插图→连续落笔线稿→按原图回填颜色→停留展示的白板手绘片，支持批量合并（免费 CPU 可跑、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线① animator：把 AI 生的绘本插图转成「被画出来」的镜头，再交给 videogen assemble 合成配音字幕",
-   "use_map": "derived"
+   "how_to_use": "路线① animator：把 AI 生的绘本插图转成「被画出来」的镜头，再交给 videogen assemble 合成配音字幕"
   },
   {
    "id": "whiteboard-video-engine",
@@ -451,19 +451,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "故事短片",
     "儿童绘本"
    ],
    "strengths": "本地白板手绘视频引擎：SVG/线稿/插画/照片→逐笔绘制 MP4，骨架追踪、手势跟随、轮廓感上色、30 种画材风格，可用词级时间戳驱动节奏（免费 CPU 可跑、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线① animator：照片/插画→逐笔绘制的通用引擎，可产出单镜头片段交给 videogen assemble；配套 Skill 见 codex-whiteboard-video-skill",
-   "use_map": "derived"
+   "how_to_use": "路线① animator：照片/插画→逐笔绘制的通用引擎，可产出单镜头片段交给 videogen assemble；配套 Skill 见 codex-whiteboard-video-skill"
   },
   {
    "id": "codex-whiteboard-video-skill",
@@ -509,18 +509,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "故事短片"
-   ],
-   "strengths": "whiteboard-video-engine 的 Codex Skill 适配层：自然语言驱动本地白板引擎、选择/推荐 30 种风格（免费 CPU 可跑、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：给 Codex 用户的安装入口；渲染能力以 engine 仓库为准",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "故事短片"
+   ],
+   "strengths": "whiteboard-video-engine 的 Codex Skill 适配层：自然语言驱动本地白板引擎、选择/推荐 30 种风格（免费 CPU 可跑、中文原生）",
+   "how_to_use": "路线① animator：给 Codex 用户的安装入口；渲染能力以 engine 仓库为准"
   },
   {
    "id": "stickman-video-director",
@@ -567,19 +567,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "故事短片",
     "拆书 / 读书分享"
    ],
    "strengths": "文案→英文旁白→画面优先的导演提案→可直接投喂 Gemini Omni Flash 的火柴人视频提示词包（默认 60 秒），多种火柴人视觉流派（需要 API key、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "方法论 skill：「火柴人」风格的视频模型路线；想零成本时改用 animator 或 stix 用代码画火柴人",
-   "use_map": "derived"
+   "how_to_use": "方法论 skill：「火柴人」风格的视频模型路线；想零成本时改用 animator 或 stix 用代码画火柴人"
   },
   {
    "id": "hand-drawn-video-prompts",
@@ -626,19 +626,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "口播 / 数字人讲解",
     "GitHub 仓库推荐"
    ],
    "strengths": "中文口播稿→4–6 秒语义镜头→Q 版蜡笔手绘生图提示词 + 图生视频提示词，锁定纸色与线条防画风漂移（需要 API key、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "方法论 skill：口播类科普/科技解说的「AI 生图+图生视频」手绘路线；其「按语义节拍而非字数分镜」可用于 animator 台词拆分",
-   "use_map": "derived"
+   "how_to_use": "方法论 skill：口播类科普/科技解说的「AI 生图+图生视频」手绘路线；其「按语义节拍而非字数分镜」可用于 animator 台词拆分"
   },
   {
    "id": "hand-drawn-explainer-video-nikola",
@@ -687,18 +687,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "故事短片"
-   ],
-   "strengths": "中文手绘知识讲解 Codex Skill：逐笔故事动画（单场景/多幕/左右双语义岛，Q 版或「小黑」风格）+ 程序动画两条路线，交付 MP4/字幕/时间轴（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：「讲一部分画一部分」的中文讲解；双语义岛构图可直接借鉴到 animator 镜头布局",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "故事短片"
+   ],
+   "strengths": "中文手绘知识讲解 Codex Skill：逐笔故事动画（单场景/多幕/左右双语义岛，Q 版或「小黑」风格）+ 程序动画两条路线，交付 MP4/字幕/时间轴（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "路线① animator：「讲一部分画一部分」的中文讲解；双语义岛构图可直接借鉴到 animator 镜头布局"
   },
   {
    "id": "simon-skills",
@@ -746,19 +746,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "影视解说 / 复盘",
     "拆书 / 读书分享"
    ],
    "strengths": "不露脸账号的 skill 合集：手绘白板「边画边讲」讲解（Excalidraw 风逐笔）+ 商业调查长片，含事实核查、封面与各平台文案（需要 API key、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线① animator：白板讲解 + 发布文案全流程参考；事实核查/来源台账步骤可接到我们的口播稿环节",
-   "use_map": "derived"
+   "how_to_use": "路线① animator：白板讲解 + 发布文案全流程参考；事实核查/来源台账步骤可接到我们的口播稿环节"
   },
   {
    "id": "cs-board",
@@ -804,19 +804,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "口播 / 数字人讲解",
     "故事短片"
    ],
    "strengths": "本地 AI 白板声画工坊：参考音频 + 中文文案→音色克隆、内容拆解、插画、手绘动画、字幕与音画合成→MP4（免费 CPU 可跑、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线① animator：带音色克隆的「一站式白板口播」桌面方案；声音克隆务必使用本人或已授权声音",
-   "use_map": "derived"
+   "how_to_use": "路线① animator：带音色克隆的「一站式白板口播」桌面方案；声音克隆务必使用本人或已授权声音"
   },
   {
    "id": "handdraw-story-video",
@@ -862,19 +862,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "儿童绘本",
     "故事短片",
     "儿童内容"
    ],
    "strengths": "7–9 幅手绘故事母图→35–45 秒竖屏：线稿从左到右显现、再逐步上色（HyperFrames 渲染）（免费 CPU 可跑、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线① animator：与 story-to-handdrawn 同类的绘本揭示路线（HyperFrames 版）；不绑定生图服务",
-   "use_map": "derived"
+   "how_to_use": "路线① animator：与 story-to-handdrawn 同类的绘本揭示路线（HyperFrames 版）；不绑定生图服务"
   },
   {
    "id": "whiteboard-book-video-skill",
@@ -920,18 +920,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "拆书 / 读书分享",
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "白板火柴人「拆书」短视频工作流：脚本→分镜→火柴人信息图→配音→BGM→词级字幕→HyperFrames 渲染，慢版/高密版两种节奏（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：拆书/读书类选题的完整 SOP；节奏模式（6–8 画面 vs 16–20 画面）可直接用于 animator 分镜密度",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "拆书 / 读书分享",
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "白板火柴人「拆书」短视频工作流：脚本→分镜→火柴人信息图→配音→BGM→词级字幕→HyperFrames 渲染，慢版/高密版两种节奏（需要 API key、中文原生）",
+   "how_to_use": "路线① animator：拆书/读书类选题的完整 SOP；节奏模式（6–8 画面 vs 16–20 画面）可直接用于 animator 分镜密度"
   },
   {
    "id": "whiteboard-explainer",
@@ -975,18 +975,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "数理推导 / 公式讲解"
-   ],
-   "strengths": "白板讲解 skill：图形逐笔描出、文字逐笔写出、讲到哪画到哪（帧级音画对齐），支持单画布逐元素生长（免费 CPU 可跑、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：数学推导/流程图类讲解；注意其依赖包内 craft.onnx 文字检测模型为非商用",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "数理推导 / 公式讲解"
+   ],
+   "strengths": "白板讲解 skill：图形逐笔描出、文字逐笔写出、讲到哪画到哪（帧级音画对齐），支持单画布逐元素生长（免费 CPU 可跑、中文原生）",
+   "how_to_use": "路线① animator：数学推导/流程图类讲解；注意其依赖包内 craft.onnx 文字检测模型为非商用"
   },
   {
    "id": "musedock",
@@ -1034,19 +1034,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "GitHub 仓库推荐",
     "口播 / 数字人讲解"
    ],
    "strengths": "本地优先 AI 短视频工作台：HyperFrames 动态视频 / 线稿白板动画 / 旁白配图三种模式，支持 GitHub 链接作为输入（需要 API key、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线① animator：「GitHub 项目→短视频」可直接对照天机选题；需要自备模型 key",
-   "use_map": "derived"
+   "how_to_use": "路线① animator：「GitHub 项目→短视频」可直接对照天机选题；需要自备模型 key"
   },
   {
    "id": "code-poem-film",
@@ -1091,18 +1091,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "诗词国学",
-    "儿童内容"
-   ],
-   "strengths": "说一首诗→20–80 秒水墨手绘 2D 动画：红点角色走完全诗，题签随朗诵逐字写出，全部代码绘制与合成配乐（免费 CPU 可跑、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：古诗词题材的零素材方案；可与 animator 的 ink 画材互为备选",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "诗词国学",
+    "儿童内容"
+   ],
+   "strengths": "说一首诗→20–80 秒水墨手绘 2D 动画：红点角色走完全诗，题签随朗诵逐字写出，全部代码绘制与合成配乐（免费 CPU 可跑、中文原生）",
+   "how_to_use": "路线① animator：古诗词题材的零素材方案；可与 animator 的 ink 画材互为备选"
   },
   {
    "id": "lemo-opuscar",
@@ -1146,18 +1146,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "故事短片",
-    "产品发布片"
-   ],
-   "strengths": "43 种影片风格，每种附一支完全用代码做的示范短片（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：风格参考库：给 animator/Remotion 找视觉方向；演示素材另有许可",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "故事短片",
+    "产品发布片"
+   ],
+   "strengths": "43 种影片风格，每种附一支完全用代码做的示范短片（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：风格参考库：给 animator/Remotion 找视觉方向；演示素材另有许可"
   },
   {
    "id": "onetake",
@@ -1201,19 +1201,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "产品发布片",
     "产品带货 / 种草",
     "GitHub 仓库推荐"
    ],
    "strengths": "一镜到底的连贯动效发布片：每个画面从上一个画面中「长出来」，用 oracle 量化连续性（用编程 Agent 的额度）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线③ 代码动效：产品/项目发布片的高级镜头语言参考；PolyForm Noncommercial，商用需授权",
-   "use_map": "derived"
+   "how_to_use": "路线③ 代码动效：产品/项目发布片的高级镜头语言参考；PolyForm Noncommercial，商用需授权"
   },
   {
    "id": "stix",
@@ -1257,18 +1257,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "搞笑段子"
-   ],
-   "strengths": "一句自然语言→火柴人动画 GIF/MP4 的 agent skill（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：最轻量的「小人动起来」方案；可做 animator 之外的火柴人表情包/插段",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "搞笑段子"
+   ],
+   "strengths": "一句自然语言→火柴人动画 GIF/MP4 的 agent skill（免费 CPU 可跑）",
+   "how_to_use": "路线① animator：最轻量的「小人动起来」方案；可做 animator 之外的火柴人表情包/插段"
   },
   {
    "id": "stick-motion",
@@ -1310,17 +1310,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "火柴人角色动画 skill：用关节 2D 骨骼（FK 手臂、IK 腿、踩地走路循环）代替逐帧手绘坐标，输出单个 index.html（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：「骨骼而非逐帧坐标」的思路与 animator 角色骨骼一致，可参考其走路循环",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "火柴人角色动画 skill：用关节 2D 骨骼（FK 手臂、IK 腿、踩地走路循环）代替逐帧手绘坐标，输出单个 index.html（免费 CPU 可跑）",
+   "how_to_use": "路线① animator：「骨骼而非逐帧坐标」的思路与 animator 角色骨骼一致，可参考其走路循环"
   },
   {
    "id": "stickman-animation-skill",
@@ -1366,18 +1366,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "口播 / 数字人讲解"
-   ],
-   "strengths": "中文口播稿 + 任意主体图→白纸手绘火柴人讲解动画：语义测绘、逐幕质检、MiniMax 配音（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：中文火柴人口播；可把配音换成本仓库 Kokoro 本地 TTS",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "口播 / 数字人讲解"
+   ],
+   "strengths": "中文口播稿 + 任意主体图→白纸手绘火柴人讲解动画：语义测绘、逐幕质检、MiniMax 配音（需要 API key）",
+   "how_to_use": "路线① animator：中文火柴人口播；可把配音换成本仓库 Kokoro 本地 TTS"
   },
   {
    "id": "sketchling",
@@ -1423,18 +1423,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "故事短片",
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "给 LLM 用的「手绘插画与动画语言」：像 Manim 之于数学一样，为手绘插画和动作提供可编程词汇（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：手绘 DSL 的另一种设计，可借鉴其词汇表扩展 animator 道具/动作",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "故事短片",
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "给 LLM 用的「手绘插画与动画语言」：像 Manim 之于数学一样，为手绘插画和动作提供可编程词汇（免费 CPU 可跑）",
+   "how_to_use": "路线① animator：手绘 DSL 的另一种设计，可借鉴其词汇表扩展 animator 道具/动作"
   },
   {
    "id": "storyboard-ai",
@@ -1475,17 +1475,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "文本主题→研究→脚本→插画→白板逐笔绘制→配音的端到端白板动画生成器（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：英文白板解说端到端方案；GPL-3.0，二次分发需开源",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "文本主题→研究→脚本→插画→白板逐笔绘制→配音的端到端白板动画生成器（需要 API key）",
+   "how_to_use": "路线① animator：英文白板解说端到端方案；GPL-3.0，二次分发需开源"
   },
   {
    "id": "image-to-animation-offline",
@@ -1528,18 +1528,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "儿童绘本",
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "离线跨平台 App：图片→素描风「画出来」动画视频，可批量（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：手机/离线场景把单张图做成绘制镜头",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "儿童绘本",
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "离线跨平台 App：图片→素描风「画出来」动画视频，可批量（免费 CPU 可跑）",
+   "how_to_use": "路线① animator：手机/离线场景把单张图做成绘制镜头"
   },
   {
    "id": "vocaloid-style-mv-pipeline",
@@ -1583,17 +1583,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "音乐 MV"
-   ],
-   "strengths": "V 家手书（手書き）歌词 MV 管线：给歌和歌词，agent 产出 1920×1080 手书风歌词 MV（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：音乐/歌词类选题的手书风方案",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "音乐 MV"
+   ],
+   "strengths": "V 家手书（手書き）歌词 MV 管线：给歌和歌词，agent 产出 1920×1080 手书风歌词 MV（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：音乐/歌词类选题的手书风方案"
   },
   {
    "id": "hbg-classical-poem-silk-video",
@@ -1636,17 +1636,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "诗词国学"
-   ],
-   "strengths": "古诗词→逐句一景的竖屏中国画动态视频：静态锚点约束图生视频，让水纹飞鸟真正动起来，毛笔字逐字题写（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：古诗题材「视频模型」路线；零成本时改用 code-poem-film 或 animator ink",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "诗词国学"
+   ],
+   "strengths": "古诗词→逐句一景的竖屏中国画动态视频：静态锚点约束图生视频，让水纹飞鸟真正动起来，毛笔字逐字题写（需要 API key、中文原生）",
+   "how_to_use": "路线② videogen：古诗题材「视频模型」路线；零成本时改用 code-poem-film 或 animator ink"
   },
   {
    "id": "bilingual-kids-story-video",
@@ -1691,18 +1691,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "儿童绘本",
-    "儿童内容"
-   ],
-   "strengths": "一个主题→3–6 幕儿童故事→绘本插画→中文旁白 + 中英双语字幕→黑白转彩色→1080×1350 MP4（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：儿童绘本题材的完整参考；配音可换 Kokoro 本地 TTS",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "儿童绘本",
+    "儿童内容"
+   ],
+   "strengths": "一个主题→3–6 幕儿童故事→绘本插画→中文旁白 + 中英双语字幕→黑白转彩色→1080×1350 MP4（需要 API key、中文原生）",
+   "how_to_use": "路线① animator：儿童绘本题材的完整参考；配音可换 Kokoro 本地 TTS"
   },
   {
    "id": "hbg-life-simulation",
@@ -1745,17 +1745,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "故事短片"
-   ],
-   "strengths": "中文「模拟人生/人生副本」长文案→统一漫画 IP 的旁白视频：快闪开头、语义字幕、漫画推拉、成片质检（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：长文案旁白漫画视频（小说推文类）的低成本做法",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "故事短片"
+   ],
+   "strengths": "中文「模拟人生/人生副本」长文案→统一漫画 IP 的旁白视频：快闪开头、语义字幕、漫画推拉、成片质检（需要 API key、中文原生）",
+   "how_to_use": "路线③ 代码动效：长文案旁白漫画视频（小说推文类）的低成本做法"
   },
   {
    "id": "paper-cut-video-skill",
@@ -1799,17 +1799,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "中文口播→国风剪纸讲解视频：按文案设计人物/道具，拆成背景/后排/主角/前景纸片图层，字级对齐字幕（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：国风剪纸风科普；配音可换 Kokoro",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "中文口播→国风剪纸讲解视频：按文案设计人物/道具，拆成背景/后排/主角/前景纸片图层，字级对齐字幕（需要 API key、中文原生）",
+   "how_to_use": "路线③ 代码动效：国风剪纸风科普；配音可换 Kokoro"
   },
   {
    "id": "story-handdrawn-remotion",
@@ -1854,18 +1854,18 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "儿童绘本",
-    "故事短片"
-   ],
-   "strengths": "故事文本→「文字→黑白画稿→彩色插画」三阶段擦除的手绘日记漫画竖屏片，主打全免费工具链（免费 CPU 可跑、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：story-to-handdrawn 思路的免费工具链版本；无许可证，仅链接",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "儿童绘本",
+    "故事短片"
+   ],
+   "strengths": "故事文本→「文字→黑白画稿→彩色插画」三阶段擦除的手绘日记漫画竖屏片，主打全免费工具链（免费 CPU 可跑、中文原生）",
+   "how_to_use": "路线① animator：story-to-handdrawn 思路的免费工具链版本；无许可证，仅链接"
   },
   {
    "id": "smy-seedance-storyboard",
@@ -1913,19 +1913,19 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "仙侠玄幻",
     "故事短片",
     "儿童内容"
    ],
    "strengths": "上美影（复古手绘动画）风格短剧文档生成器：剧本 + 全剧色盘 + 资产出图提示词 + 每集 Seedance 时间轴分镜（需要 API key、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "方法论 skill：国风手绘漫剧的「色盘锁定 + 资产清单」方法；无许可证，仅链接，提示词可配合 videogen plan",
-   "use_map": "derived"
+   "how_to_use": "方法论 skill：国风手绘漫剧的「色盘锁定 + 资产清单」方法；无许可证，仅链接，提示词可配合 videogen plan"
   },
   {
    "id": "archscribe",
@@ -1971,18 +1971,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "GitHub 仓库推荐"
-   ],
-   "strengths": "手绘风动态架构/流程图：JSON 配置→可编辑 Excalidraw + PNG + 真动画 GIF，深色霓虹/浅色纸面两套（免费 CPU 可跑、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：GitHub 项目推荐里的「架构图」插段素材",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "GitHub 仓库推荐"
+   ],
+   "strengths": "手绘风动态架构/流程图：JSON 配置→可编辑 Excalidraw + PNG + 真动画 GIF，深色霓虹/浅色纸面两套（免费 CPU 可跑、中文原生）",
+   "how_to_use": "路线③ 代码动效：GitHub 项目推荐里的「架构图」插段素材"
   },
   {
    "id": "vox-director",
@@ -2081,18 +2081,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "故事短片",
-    "音乐 MV"
-   ],
-   "strengths": "用 Claude 给「手绘卡通角色」做动画的入门套件：p5.brush 笔刷、Clawd 角色、31 种表演情绪与给模型的指南（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：角色「表演情绪」清单可借鉴到天机/豆豆的表情动作设计",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "故事短片",
+    "音乐 MV"
+   ],
+   "strengths": "用 Claude 给「手绘卡通角色」做动画的入门套件：p5.brush 笔刷、Clawd 角色、31 种表演情绪与给模型的指南（免费 CPU 可跑）",
+   "how_to_use": "路线① animator：角色「表演情绪」清单可借鉴到天机/豆豆的表情动作设计"
   },
   {
    "id": "opus-video-skills",
@@ -2139,19 +2139,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "故事短片",
     "产品发布片",
     "音乐 MV"
    ],
    "strengths": "一风格一 skill 的代码视频合集（手绘动画、动态字幕等），画面与音乐全部代码生成，无生成模型（免费 CPU 可跑）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线③ 代码动效：代码作画路线的风格补充",
-   "use_map": "derived"
+   "how_to_use": "路线③ 代码动效：代码作画路线的风格补充"
   },
   {
    "id": "remotion-guofeng-starter",
@@ -2198,19 +2198,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "诗词国学",
     "故事短片",
     "儿童内容"
    ],
    "strengths": "国风纸片拼贴动画：Remotion 风格资产库 + 制作流程 Skill，给一首诗/成语从零出片（免费 CPU 可跑、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线③ 代码动效：国风/成语类选题的 Remotion 路线；演示素材不随 MIT 授予商用",
-   "use_map": "derived"
+   "how_to_use": "路线③ 代码动效：国风/成语类选题的 Remotion 路线；演示素材不随 MIT 授予商用"
   },
   {
    "id": "image-story-video-wizard",
@@ -2255,18 +2255,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "故事短片",
-    "儿童绘本"
-   ],
-   "strengths": "音频优先的图文故事视频分步向导：选题→对标→文案→配音→分镜→角色锚点→生图→质检→成片，每步需确认（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：「确认闸门」式工作流可直接借鉴到 ai-video-director 的执行计划",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "故事短片",
+    "儿童绘本"
+   ],
+   "strengths": "音频优先的图文故事视频分步向导：选题→对标→文案→配音→分镜→角色锚点→生图→质检→成片，每步需确认（需要 API key、中文原生）",
+   "how_to_use": "方法论 skill：「确认闸门」式工作流可直接借鉴到 ai-video-director 的执行计划"
   },
   {
    "id": "vivus",
@@ -2481,7 +2481,12 @@
    "license_source": "LICENSE",
    "active_2026": false,
    "status": "stale",
-   "stale_reason": "before-cutoff"
+   "stale_reason": "before-cutoff",
+   "absorbed": {
+    "type": "idea",
+    "what": "手绘圈注 / 下划线 / 高亮标注，slides2video 自写实现",
+    "where": "slides2video/runtime/slides.js（mark）"
+   }
   },
   {
    "id": "svg2roughjs",
@@ -2522,17 +2527,17 @@
    "license_source": "LICENSE.md",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "把任意 SVG 转成 rough.js 手绘风（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：把现成图标/图表一键手绘化",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "把任意 SVG 转成 rough.js 手绘风（免费 CPU 可跑）",
+   "how_to_use": "路线① animator：把现成图标/图表一键手绘化"
   },
   {
    "id": "svg-text-animate",
@@ -2574,17 +2579,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "把文字转成 SVG 描边动画（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：标题手写出现效果",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "把文字转成 SVG 描边动画（免费 CPU 可跑）",
+   "how_to_use": "路线① animator：标题手写出现效果"
   },
   {
    "id": "excalidraw-animate",
@@ -2685,18 +2690,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "GitHub 仓库推荐"
-   ],
-   "strengths": "Excalidraw 手绘图关键帧动画编辑器：时间线、相机、序列揭示，含 MCP 让 AI 创建动画，可导出 MP4/GIF（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：AI agent 通过 MCP 生成手绘架构图动画",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "GitHub 仓库推荐"
+   ],
+   "strengths": "Excalidraw 手绘图关键帧动画编辑器：时间线、相机、序列揭示，含 MCP 让 AI 创建动画，可导出 MP4/GIF（免费 CPU 可跑）",
+   "how_to_use": "路线① animator：AI agent 通过 MCP 生成手绘架构图动画"
   },
   {
    "id": "excalidraw",
@@ -2792,18 +2797,18 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "儿童内容",
-    "诗词国学"
-   ],
-   "strengths": "按正确笔顺逐笔绘制中日韩文字的 SVG 数据集（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：笔顺数据参考；无顶层 LICENSE 文件，使用前读仓库内说明",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "儿童内容",
+    "诗词国学"
+   ],
+   "strengths": "按正确笔顺逐笔绘制中日韩文字的 SVG 数据集（免费 CPU 可跑）",
+   "how_to_use": "路线① animator：笔顺数据参考；无顶层 LICENSE 文件，使用前读仓库内说明"
   },
   {
    "id": "animateddrawings",
@@ -3097,17 +3102,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "多模态指令→Lottie 矢量动画（CVPR 2026）（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：生成可编辑矢量动效素材",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "多模态指令→Lottie 矢量动画（CVPR 2026）（需要自己的显卡）",
+   "how_to_use": "路线③ 代码动效：生成可编辑矢量动效素材"
   },
   {
    "id": "remotion",
@@ -3264,18 +3269,18 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "口播 / 数字人讲解",
-    "vlog / 空镜头"
-   ],
-   "strengths": "官方模板：Whisper.cpp 生成 TikTok 式逐词字幕（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：口播/vlog 加逐词字幕；package.json 标注 UNLICENSED（Remotion License 管框架）",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "口播 / 数字人讲解",
+    "vlog / 空镜头"
+   ],
+   "strengths": "官方模板：Whisper.cpp 生成 TikTok 式逐词字幕（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：口播/vlog 加逐词字幕；package.json 标注 UNLICENSED（Remotion License 管框架）"
   },
   {
    "id": "template-prompt-to-video",
@@ -3316,17 +3321,17 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "故事短片"
-   ],
-   "strengths": "官方模板：一句提示→故事脚本 + 配图 + 配音→竖屏视频（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：「AI 图 + 配音」故事片的官方骨架；package.json 标注 UNLICENSED",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "故事短片"
+   ],
+   "strengths": "官方模板：一句提示→故事脚本 + 配图 + 配音→竖屏视频（需要 API key）",
+   "how_to_use": "路线③ 代码动效：「AI 图 + 配音」故事片的官方骨架；package.json 标注 UNLICENSED"
   },
   {
    "id": "template-prompt-to-motion-graphics-saas",
@@ -3370,18 +3375,18 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "数据故事 / 图表"
-   ],
-   "strengths": "官方模板：自然语言→Remotion 动效代码（含校验、技能检测、代码清洗、实时预览）（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：「提示词→动效代码」的参考实现",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "数据故事 / 图表"
+   ],
+   "strengths": "官方模板：自然语言→Remotion 动效代码（含校验、技能检测、代码清洗、实时预览）（需要 API key）",
+   "how_to_use": "路线③ 代码动效：「提示词→动效代码」的参考实现"
   },
   {
    "id": "template-code-hike",
@@ -3422,17 +3427,17 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "GitHub 仓库推荐"
-   ],
-   "strengths": "官方模板：漂亮的代码片段动画（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：天机 GitHub 项目推荐里的「代码讲解」插段",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "GitHub 仓库推荐"
+   ],
+   "strengths": "官方模板：漂亮的代码片段动画（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：天机 GitHub 项目推荐里的「代码讲解」插段"
   },
   {
    "id": "claude-code-video-toolkit",
@@ -3478,19 +3483,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "产品发布片",
     "产品带货 / 种草"
    ],
    "strengths": "Claude Code 视频制作工作区：脚本、配音、音乐、画面、渲染全流程的 skills/命令/模板（需要 API key）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线③ 代码动效：英文综合工具箱，可参考其目录结构与成本估算",
-   "use_map": "derived"
+   "how_to_use": "路线③ 代码动效：英文综合工具箱，可参考其目录结构与成本估算"
   },
   {
    "id": "video-shotcraft",
@@ -3790,17 +3795,17 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "Claude Code 的 Remotion 视频 skill：场景化架构、自动计时、字幕与音乐可视化（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：中文作者的 Remotion 入门 skill；无许可证，仅链接",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "Claude Code 的 Remotion 视频 skill：场景化架构、自动计时、字幕与音乐可视化（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：中文作者的 Remotion 入门 skill；无许可证，仅链接"
   },
   {
    "id": "claude-remotion-skill",
@@ -3844,18 +3849,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "产品带货 / 种草"
-   ],
-   "strengths": "教 Claude 用 Remotion 做专业动效：弹簧、错峰、调色、胶片颗粒、Ken Burns、逐词字幕（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：动效「质感」规则清单",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "产品带货 / 种草"
+   ],
+   "strengths": "教 Claude 用 Remotion 做专业动效：弹簧、错峰、调色、胶片颗粒、Ken Burns、逐词字幕（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：动效「质感」规则清单"
   },
   {
    "id": "remotion-superpowers",
@@ -3899,19 +3904,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "产品带货 / 种草",
     "口播 / 数字人讲解"
    ],
    "strengths": "Remotion 全功能制作插件：AI 配音、音乐、素材、图像/视频生成、TikTok 字幕、转场、AI 审片（需要 API key）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线③ 代码动效：需要什么就接什么的 Remotion 扩展包",
-   "use_map": "derived"
+   "how_to_use": "路线③ 代码动效：需要什么就接什么的 Remotion 扩展包"
   },
   {
    "id": "claude-video-kit",
@@ -3953,17 +3958,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "研究简报/JSON 脚本→审片回执→TTS + 字幕对齐→9:16 Remotion 解说片（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：「渲染前审稿闸门」可借鉴",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "研究简报/JSON 脚本→审片回执→TTS + 字幕对齐→9:16 Remotion 解说片（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：「渲染前审稿闸门」可借鉴"
   },
   {
    "id": "knowledge-explainer-skill",
@@ -4008,19 +4013,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "数理推导 / 公式讲解",
     "数据故事 / 图表"
    ],
    "strengths": "一份 markdown 文稿→讲解动画视频，含物理仿真、数据可视化组件（免费 CPU 可跑、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线③ 代码动效：知识科普的「真动画」组件（双摆、指数增长等）",
-   "use_map": "derived"
+   "how_to_use": "路线③ 代码动效：知识科普的「真动画」组件（双摆、指数增长等）"
   },
   {
    "id": "remotion-code-motion-explainer",
@@ -4066,19 +4071,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "产品带货 / 种草",
     "GitHub 仓库推荐"
    ],
    "strengths": "代码动画导演 skill：脚本/旁白/产品流程→可编辑、可参数化的 Remotion 动画，63 个镜头条目（免费 CPU 可跑、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线③ 代码动效：中文的 Remotion 解说镜头库",
-   "use_map": "derived"
+   "how_to_use": "路线③ 代码动效：中文的 Remotion 解说镜头库"
   },
   {
    "id": "remotion-subtitles",
@@ -4161,17 +4166,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "口播 / 数字人讲解"
-   ],
-   "strengths": "音频→逐词同步的动画字幕组件，14 种样式（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：口播逐词字幕",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "口播 / 数字人讲解"
+   ],
+   "strengths": "音频→逐词同步的动画字幕组件，14 种样式（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：口播逐词字幕"
   },
   {
    "id": "video-skills-toolkit",
@@ -4216,18 +4221,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "口播 / 数字人讲解",
-    "影视解说 / 复盘"
-   ],
-   "strengths": "自媒体视频 skills：爆款调研与转写→二创→配音字幕→导演稿→HyperFrames 口播成片→BGM 与封面（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "剪辑后期：中文自媒体口播全流程参考",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "口播 / 数字人讲解",
+    "影视解说 / 复盘"
+   ],
+   "strengths": "自媒体视频 skills：爆款调研与转写→二创→配音字幕→导演稿→HyperFrames 口播成片→BGM 与封面（需要 API key、中文原生）",
+   "how_to_use": "剪辑后期：中文自媒体口播全流程参考"
   },
   {
    "id": "claude-shorts",
@@ -4270,18 +4275,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "影视解说 / 复盘",
-    "口播 / 数字人讲解"
-   ],
-   "strengths": "长视频→短视频切条：AI 片段打分、词级转写、Remotion 动画字幕（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "剪辑后期：长视频切片路线",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "影视解说 / 复盘",
+    "口播 / 数字人讲解"
+   ],
+   "strengths": "长视频→短视频切条：AI 片段打分、词级转写、Remotion 动画字幕（需要自己的显卡）",
+   "how_to_use": "剪辑后期：长视频切片路线"
   },
   {
    "id": "openreels",
@@ -4323,17 +4328,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "主题→研究、脚本、配音、AI 画面、AI 音乐、动画字幕→竖屏短视频（Web UI/REST/CLI）（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：英文 topic-to-short 全自动方案",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "主题→研究、脚本、配音、AI 画面、AI 音乐、动画字幕→竖屏短视频（Web UI/REST/CLI）（需要 API key）",
+   "how_to_use": "路线③ 代码动效：英文 topic-to-short 全自动方案"
   },
   {
    "id": "datamagic",
@@ -4376,18 +4381,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "数据故事 / 图表",
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "139 张动态图表/数据故事配方卡，上传表格→带旁白的数据动画视频（IEEE VIS 2026）（免费 CPU 可跑、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：数据/财报/排行类选题首选",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "数据故事 / 图表",
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "139 张动态图表/数据故事配方卡，上传表格→带旁白的数据动画视频（IEEE VIS 2026）（免费 CPU 可跑、中文原生）",
+   "how_to_use": "路线③ 代码动效：数据/财报/排行类选题首选"
   },
   {
    "id": "motion-skills",
@@ -4435,19 +4440,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "数据故事 / 图表",
     "产品带货 / 种草"
    ],
    "strengths": "50+ 动效 skills：动态字幕、数据图表、解说、TikTok、WebGL、数学动画、代码绘制 Canvas（免费 CPU 可跑）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线③ 代码动效：按需挑选动效技能",
-   "use_map": "derived"
+   "how_to_use": "路线③ 代码动效：按需挑选动效技能"
   },
   {
    "id": "remotion-voicevox-template",
@@ -4489,18 +4494,18 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "搞笑段子"
-   ],
-   "strengths": "Remotion + VOICEVOX 双角色掛け合い视频模板：自动配音、口型、表情差分（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：「两个角色对话」口播格式参考（日文）；无许可证",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "搞笑段子"
+   ],
+   "strengths": "Remotion + VOICEVOX 双角色掛け合い视频模板：自动配音、口型、表情差分（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：「两个角色对话」口播格式参考（日文）；无许可证"
   },
   {
    "id": "erduo-broll-loop-engineering",
@@ -4542,18 +4547,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "口播 / 数字人讲解",
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "SRT 驱动的 B-roll skill：多角色接力（导演/创作/审美评审），自动路由 HyperFrames 或 Remotion（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：口播配动效 B-roll",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "口播 / 数字人讲解",
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "SRT 驱动的 B-roll skill：多角色接力（导演/创作/审美评审），自动路由 HyperFrames 或 Remotion（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "路线③ 代码动效：口播配动效 B-roll"
   },
   {
    "id": "3b1b-manim",
@@ -4702,18 +4707,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "数理推导 / 公式讲解",
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "Manim 配音插件：代码内加配音，动画按词触发（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：词级对齐的 Manim 讲解",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "数理推导 / 公式讲解",
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "Manim 配音插件：代码内加配音，动画按词触发（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：词级对齐的 Manim 讲解"
   },
   {
    "id": "manim-skill",
@@ -4756,18 +4761,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "数理推导 / 公式讲解",
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "Manim（社区版 + ManimGL）agent skills：最佳实践与示例（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：agent 写 Manim 前安装",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "数理推导 / 公式讲解",
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "Manim（社区版 + ManimGL）agent skills：最佳实践与示例（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：agent 写 Manim 前安装"
   },
   {
    "id": "code2video",
@@ -4810,18 +4815,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "数理推导 / 公式讲解",
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "多 agent 写 Manim 代码生成教学视频（ICML 2026）（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：教学视频自动化的研究参考",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "数理推导 / 公式讲解",
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "多 agent 写 Manim 代码生成教学视频（ICML 2026）（需要 API key）",
+   "how_to_use": "路线③ 代码动效：教学视频自动化的研究参考"
   },
   {
    "id": "theoremexplainagent",
@@ -4904,17 +4909,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "数理推导 / 公式讲解"
-   ],
-   "strengths": "文字/图片→数学物理动画与学习笔记（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：数学题讲解",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "数理推导 / 公式讲解"
+   ],
+   "strengths": "文字/图片→数学物理动画与学习笔记（需要 API key）",
+   "how_to_use": "路线③ 代码动效：数学题讲解"
   },
   {
    "id": "generative-manim",
@@ -4956,18 +4961,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "数理推导 / 公式讲解",
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "用 LLM 生成 Manim 视频的工具套件（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：文本→Manim 动画",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "数理推导 / 公式讲解",
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "用 LLM 生成 Manim 视频的工具套件（需要 API key）",
+   "how_to_use": "路线③ 代码动效：文本→Manim 动画"
   },
   {
    "id": "motion-canvas",
@@ -5062,18 +5067,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "产品带货 / 种草"
-   ],
-   "strengths": "用代码创建视频（Motion Canvas 分支，面向程序化批量渲染，MIT）（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：需要 MIT 许可的程序化渲染时替代 Remotion",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "产品带货 / 种草"
+   ],
+   "strengths": "用代码创建视频（Motion Canvas 分支，面向程序化批量渲染，MIT）（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：需要 MIT 许可的程序化渲染时替代 Remotion"
   },
   {
    "id": "hyperframes",
@@ -5312,19 +5317,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "产品带货 / 种草",
     "产品发布片"
    ],
    "strengths": "Text-to-Lottie：用 Claude Code/Codex 生成可投产的 Lottie 动画（免费 CPU 可跑）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线③ 代码动效：生成可复用的矢量动效素材",
-   "use_map": "derived"
+   "how_to_use": "路线③ 代码动效：生成可复用的矢量动效素材"
   },
   {
    "id": "pixel2motion",
@@ -5369,18 +5374,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "GitHub 仓库推荐",
-    "产品发布片"
-   ],
-   "strengths": "位图 logo→平滑 SVG→logo 动画 + HTML 演示 + GIF/视频预览（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：项目推荐开头的 logo 动效",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "GitHub 仓库推荐",
+    "产品发布片"
+   ],
+   "strengths": "位图 logo→平滑 SVG→logo 动画 + HTML 演示 + GIF/视频预览（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：项目推荐开头的 logo 动效"
   },
   {
    "id": "rive-wasm",
@@ -5421,17 +5426,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "产品带货 / 种草"
-   ],
-   "strengths": "Rive 交互动画的 Web 运行时（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：交互动画素材；创作需 Rive 编辑器",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "产品带货 / 种草"
+   ],
+   "strengths": "Rive 交互动画的 Web 运行时（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：交互动画素材；创作需 Rive 编辑器"
   },
   {
    "id": "ffcreator",
@@ -5518,7 +5523,12 @@
    "license_source": "LICENSE",
    "active_2026": false,
    "status": "stale",
-   "stale_reason": "before-cutoff"
+   "stale_reason": "before-cutoff",
+   "absorbed": {
+    "type": "idea",
+    "what": "缓动曲线、zoomDirection/zoomAmount 参数",
+    "where": "stills2video"
+   }
   },
   {
    "id": "janim",
@@ -5561,18 +5571,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "数理推导 / 公式讲解",
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "受 Manim 启发的程序化动画引擎，支持实时预览（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：Manim 替代（有中文文档）",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "数理推导 / 公式讲解",
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "受 Manim 启发的程序化动画引擎，支持实时预览（免费 CPU 可跑）",
+   "how_to_use": "路线③ 代码动效：Manim 替代（有中文文档）"
   },
   {
    "id": "fframes",
@@ -5615,18 +5625,18 @@
    "license_source": "LICENSE.txt",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "产品发布片",
-    "产品带货 / 种草"
-   ],
-   "strengths": "Rust/SVG 写视频、GPU 渲染的高速程序化视频框架（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：追求渲染速度时的选择",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "产品发布片",
+    "产品带货 / 种草"
+   ],
+   "strengths": "Rust/SVG 写视频、GPU 渲染的高速程序化视频框架（需要自己的显卡）",
+   "how_to_use": "路线③ 代码动效：追求渲染速度时的选择"
   },
   {
    "id": "openmontage",
@@ -5728,18 +5738,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "口播 / 数字人讲解",
-    "影视解说 / 复盘"
-   ],
-   "strengths": "创作者 AI 工作区（原 KrillinAI）：视频、图片、语音、数字人、视频翻译与剪辑（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：视频翻译/配音/剪辑的工作台",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "口播 / 数字人讲解",
+    "影视解说 / 复盘"
+   ],
+   "strengths": "创作者 AI 工作区（原 KrillinAI）：视频、图片、语音、数字人、视频翻译与剪辑（需要 API key）",
+   "how_to_use": "路线② videogen：视频翻译/配音/剪辑的工作台"
   },
   {
    "id": "firered-openstoryline",
@@ -5781,18 +5791,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "vlog / 空镜头",
-    "影视解说 / 复盘"
-   ],
-   "strengths": "AI 剪辑 agent：自然语言驱动剪辑决策（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "剪辑后期：已有素材的剪辑路线",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "vlog / 空镜头",
+    "影视解说 / 复盘"
+   ],
+   "strengths": "AI 剪辑 agent：自然语言驱动剪辑决策（需要 API key）",
+   "how_to_use": "剪辑后期：已有素材的剪辑路线"
   },
   {
    "id": "brag",
@@ -5944,17 +5954,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "口播 / 数字人讲解"
-   ],
-   "strengths": "口播视频剪辑 Agent（Codex 插件 + 本地工作台）（免费 CPU 可跑、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "剪辑后期：真人口播粗剪",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "口播 / 数字人讲解"
+   ],
+   "strengths": "口播视频剪辑 Agent（Codex 插件 + 本地工作台）（免费 CPU 可跑、中文原生）",
+   "how_to_use": "剪辑后期：真人口播粗剪"
   },
   {
    "id": "lanshu-create-ai-presenter-video",
@@ -6000,18 +6010,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "口播 / 数字人讲解",
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "主题或脚本 + 已授权人像→数字人讲解视频，或 9 种视觉风格的演示讲解（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：需要「真人出镜感」的口播；必须使用已授权肖像",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "口播 / 数字人讲解",
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "主题或脚本 + 已授权人像→数字人讲解视频，或 9 种视觉风格的演示讲解（需要 API key）",
+   "how_to_use": "路线② videogen：需要「真人出镜感」的口播；必须使用已授权肖像"
   },
   {
    "id": "heygen-com-skills",
@@ -6052,17 +6062,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "口播 / 数字人讲解"
-   ],
-   "strengths": "HeyGen 官方 agent skills：数字人创建与视频生成（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：商业数字人口播",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "口播 / 数字人讲解"
+   ],
+   "strengths": "HeyGen 官方 agent skills：数字人创建与视频生成（需要 API key）",
+   "how_to_use": "路线② videogen：商业数字人口播"
   },
   {
    "id": "guizang-product-video-skill",
@@ -6107,19 +6117,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "产品带货 / 种草",
     "产品发布片",
     "GitHub 仓库推荐"
    ],
    "strengths": "归藏：复用产品真实组件与设计语言，用代码做软件更新宣传片（含分镜文案、原创配乐、音效）（免费 CPU 可跑、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线③ 代码动效：软件/开源项目宣传片；AGPL-3.0",
-   "use_map": "derived"
+   "how_to_use": "路线③ 代码动效：软件/开源项目宣传片；AGPL-3.0"
   },
   {
    "id": "video-spec-builder",
@@ -6161,17 +6171,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "通用（任何题材的底座）"
-   ],
-   "strengths": "像导演一样追问，把「我想做个视频」逼成精确到秒的 video-spec.md，再交给 HyperFrames（用编程 Agent 的额度）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：需求澄清阶段：可与 ai-video-director 的 intake 互补",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "通用（任何题材的底座）"
+   ],
+   "strengths": "像导演一样追问，把「我想做个视频」逼成精确到秒的 video-spec.md，再交给 HyperFrames（用编程 Agent 的额度）",
+   "how_to_use": "方法论 skill：需求澄清阶段：可与 ai-video-director 的 intake 互补"
   },
   {
    "id": "hyperframes-motion-director",
@@ -6217,19 +6227,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "GitHub 仓库推荐",
     "产品带货 / 种草",
     "产品发布片"
    ],
    "strengths": "中文优先的 HyperFrames 动效视频导演：文章/产品/网站/README→9:16 宣传片，含审片（免费 CPU 可跑、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线③ 代码动效：README→竖屏宣传片；AGPL-3.0",
-   "use_map": "derived"
+   "how_to_use": "路线③ 代码动效：README→竖屏宣传片；AGPL-3.0"
   },
   {
    "id": "motion-video-kit",
@@ -6273,18 +6283,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "产品带货 / 种草",
-    "广告片"
-   ],
-   "strengths": "商业广告片 skill：独立评审回路、28 支发布片总结的动效原则、质量门槛与声音设计（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：广告片质量标准参考",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "产品带货 / 种草",
+    "广告片"
+   ],
+   "strengths": "商业广告片 skill：独立评审回路、28 支发布片总结的动效原则、质量门槛与声音设计（需要 API key）",
+   "how_to_use": "路线③ 代码动效：广告片质量标准参考"
   },
   {
    "id": "promo-creator-skills",
@@ -6328,18 +6338,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "产品带货 / 种草",
-    "产品发布片"
-   ],
-   "strengths": "产品宣传片 skills：先做产品判断，再叙事结构、视觉规划、HyperFrames 剪辑、BGM 设计（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：带货/宣传片的「先判断后画面」方法",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "产品带货 / 种草",
+    "产品发布片"
+   ],
+   "strengths": "产品宣传片 skills：先做产品判断，再叙事结构、视觉规划、HyperFrames 剪辑、BGM 设计（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "方法论 skill：带货/宣传片的「先判断后画面」方法"
   },
   {
    "id": "ecommerce-video-skills",
@@ -6386,19 +6396,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "电商详情 / 带货",
     "产品带货 / 种草",
     "广告片"
    ],
    "strengths": "电商短视频 skills：3 秒钩子、卖点分镜、图生视频提示词、配音字幕花字、ffmpeg 本地成片、多平台导出（免费 CPU 可跑、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线② videogen：产品带货零成本起步方案",
-   "use_map": "derived"
+   "how_to_use": "路线② videogen：产品带货零成本起步方案"
   },
   {
    "id": "book-sales-video",
@@ -6441,18 +6451,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "电商详情 / 带货",
-    "拆书 / 读书分享"
-   ],
-   "strengths": "中文图书带货视频 skill：书籍核验、语义分镜、配音、配图、双语字幕、可编辑初稿（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "剪辑后期：图书带货",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "电商详情 / 带货",
+    "拆书 / 读书分享"
+   ],
+   "strengths": "中文图书带货视频 skill：书籍核验、语义分镜、配音、配图、双语字幕、可编辑初稿（需要 API key、中文原生）",
+   "how_to_use": "剪辑后期：图书带货"
   },
   {
    "id": "avatar-forge",
@@ -6495,17 +6505,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "口播 / 数字人讲解"
-   ],
-   "strengths": "人物图片 + 参考声音 + 口播稿→数字人口播视频（含声音克隆）（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：数字人路线；仅限本人或已授权的肖像与声音",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "口播 / 数字人讲解"
+   ],
+   "strengths": "人物图片 + 参考声音 + 口播稿→数字人口播视频（含声音克隆）（需要 API key、中文原生）",
+   "how_to_use": "路线② videogen：数字人路线；仅限本人或已授权的肖像与声音"
   },
   {
    "id": "video-recap-skills",
@@ -6548,17 +6558,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "影视解说 / 复盘"
-   ],
-   "strengths": "视频→中文解说成片：场景检测、ASR、VLM、写稿、TTS、混音，可导出剪映草稿（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "剪辑后期：影视/短剧解说二创；注意素材版权",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "影视解说 / 复盘"
+   ],
+   "strengths": "视频→中文解说成片：场景检测、ASR、VLM、写稿、TTS、混音，可导出剪映草稿（需要 API key、中文原生）",
+   "how_to_use": "剪辑后期：影视/短剧解说二创；注意素材版权"
   },
   {
    "id": "self-media-compliance-review",
@@ -6602,17 +6612,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "电商详情 / 带货"
-   ],
-   "strengths": "自媒体视频发布前违规风险审核：画面/声音/文字/封面/带货/资质/引流，五级风险报告（免费 CPU 可跑、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：发布前合规质检，建议作为所有路线的最后一步",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "电商详情 / 带货"
+   ],
+   "strengths": "自媒体视频发布前违规风险审核：画面/声音/文字/封面/带货/资质/引流，五级风险报告（免费 CPU 可跑、中文原生）",
+   "how_to_use": "方法论 skill：发布前合规质检，建议作为所有路线的最后一步"
   },
   {
    "id": "comfyui-mcp",
@@ -6655,18 +6665,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "故事短片",
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "本地 ComfyUI 的 agent 控制面：MCP + 侧栏 agent 生成图像/视频、搭工作流（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：自有 GPU 时让 agent 驱动 ComfyUI，可与 videogen 路线 B 并用",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "故事短片",
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "本地 ComfyUI 的 agent 控制面：MCP + 侧栏 agent 生成图像/视频、搭工作流（需要自己的显卡）",
+   "how_to_use": "路线② videogen：自有 GPU 时让 agent 驱动 ComfyUI，可与 videogen 路线 B 并用"
   },
   {
    "id": "reelmimic",
@@ -6710,18 +6720,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "音乐 MV",
-    "故事短片"
-   ],
-   "strengths": "给一个喜欢的参考视频→AI 团队规划、制作、审片出同风格新视频（用编程 Agent 的额度）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：「照着参考片的风格做」场景",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "音乐 MV",
+    "故事短片"
+   ],
+   "strengths": "给一个喜欢的参考视频→AI 团队规划、制作、审片出同风格新视频（用编程 Agent 的额度）",
+   "how_to_use": "路线③ 代码动效：「照着参考片的风格做」场景"
   },
   {
    "id": "video-illustrator",
@@ -6766,19 +6776,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "知识科普 / 口播讲解",
     "拆书 / 读书分享",
     "产品带货 / 种草"
    ],
    "strengths": "用你自己的旁白和真实素材（封面、截图、logo）做 20–60 秒宣传/概念讲解，多种风格可选（免费 CPU 可跑）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "路线③ 代码动效：真人旁白 + 真实素材的讲解片",
-   "use_map": "derived"
+   "how_to_use": "路线③ 代码动效：真人旁白 + 真实素材的讲解片"
   },
   {
    "id": "hbg-douyin-code-explainer-video",
@@ -6821,18 +6831,18 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "口播 / 数字人讲解"
-   ],
-   "strengths": "中文观点/知识文案→双人对话式 9:16 HyperFrames 代码动画口播，全局语音对齐（免费 CPU 可跑、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线③ 代码动效：中文对话式口播；无许可证，仅链接",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "口播 / 数字人讲解"
+   ],
+   "strengths": "中文观点/知识文案→双人对话式 9:16 HyperFrames 代码动画口播，全局语音对齐（免费 CPU 可跑、中文原生）",
+   "how_to_use": "路线③ 代码动效：中文对话式口播；无许可证，仅链接"
   },
   {
    "id": "awesome-claude-video-skills",
@@ -6873,17 +6883,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "通用（任何题材的底座）"
-   ],
-   "strengths": "Agent 视频 skills 索引：200+ 仓库按类型分组并做安全分级（CC0）（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：找更多 skill 时的上游索引",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "通用（任何题材的底座）"
+   ],
+   "strengths": "Agent 视频 skills 索引：200+ 仓库按类型分组并做安全分级（CC0）（免费 CPU 可跑）",
+   "how_to_use": "方法论 skill：找更多 skill 时的上游索引"
   },
   {
    "id": "shuohao-skills",
@@ -7097,6 +7107,12 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "漫剧 / 短剧剧情",
     "甜宠恋爱",
@@ -7104,13 +7120,7 @@
     "小说改编"
    ],
    "strengths": "抖音/红果爆款短剧编剧系统：40 赛道、六母型钩子、五大断章、反转轮换，标准/长档/漫剧三档篇幅（用编程 Agent 的额度、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "方法论 skill：只产剧本层；剧本完成后再进分镜与 videogen",
-   "use_map": "derived"
+   "how_to_use": "方法论 skill：只产剧本层；剧本完成后再进分镜与 videogen"
   },
   {
    "id": "xuanhuan-combat-director",
@@ -7153,18 +7163,18 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "仙侠玄幻",
-    "打戏 / 动作"
-   ],
-   "strengths": "玄幻仙侠打斗分镜提示词智能体：三轮攻守骨架、镜头五要素、整数秒时间流，适配 Seedance 2.5/可灵/即梦（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：仙侠打戏镜头；无许可证，仅链接",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "仙侠玄幻",
+    "打戏 / 动作"
+   ],
+   "strengths": "玄幻仙侠打斗分镜提示词智能体：三轮攻守骨架、镜头五要素、整数秒时间流，适配 Seedance 2.5/可灵/即梦（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "方法论 skill：仙侠打戏镜头；无许可证，仅链接"
   },
   {
    "id": "short-drama",
@@ -7264,17 +7274,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "一句话→剧本/分镜/分镜图/视频/剪辑五步的 AI 短剧流水线，沉淀 17 种失败模式（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：失败模式清单可用于 videogen 返工",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "一句话→剧本/分镜/分镜图/视频/剪辑五步的 AI 短剧流水线，沉淀 17 种失败模式（需要 API key、中文原生）",
+   "how_to_use": "方法论 skill：失败模式清单可用于 videogen 返工"
   },
   {
    "id": "seedance2-storyboard-generator",
@@ -7318,18 +7328,18 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情",
-    "小说改编"
-   ],
-   "strengths": "小说/故事→多集剧本→Seedance 2.0 分镜提示词（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：小说转多集；无许可证，仅链接",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情",
+    "小说改编"
+   ],
+   "strengths": "小说/故事→多集剧本→Seedance 2.0 分镜提示词（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "方法论 skill：小说转多集；无许可证，仅链接"
   },
   {
    "id": "make-prompt-seedance2",
@@ -7373,6 +7383,12 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "漫剧 / 短剧剧情",
     "广告片",
@@ -7380,13 +7396,7 @@
     "vlog / 空镜头"
    ],
    "strengths": "Seedance 2.0 结构化提示词指南：16+ 模板、8+ 示例（带货、TVC、真人实拍）（用编程 Agent 的额度、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "方法论 skill：写法参考；无许可证，且 docs/ 收录他人文章，仅链接",
-   "use_map": "derived"
+   "how_to_use": "方法论 skill：写法参考；无许可证，且 docs/ 收录他人文章，仅链接"
   },
   {
    "id": "seedance-2-0",
@@ -7429,18 +7439,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情",
-    "产品带货 / 种草"
-   ],
-   "strengths": "Seedance 2.0 Skill OS：镜头规划、参考绑定、续写，多语言示例（用编程 Agent 的额度）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：本仓库 prompts/ 已收录其 MIT 示例提示词 104 条",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情",
+    "产品带货 / 种草"
+   ],
+   "strengths": "Seedance 2.0 Skill OS：镜头规划、参考绑定、续写，多语言示例（用编程 Agent 的额度）",
+   "how_to_use": "方法论 skill：本仓库 prompts/ 已收录其 MIT 示例提示词 104 条"
   },
   {
    "id": "manga-script-master",
@@ -7485,19 +7495,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "漫剧 / 短剧剧情",
     "甜宠恋爱",
     "悬疑推理"
    ],
    "strengths": "爆款漫剧（动态漫/条漫）脚本 + AI 分镜提示词：角色视觉锚点、四大赛道节奏模型（用编程 Agent 的额度、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "方法论 skill：漫剧赛道节奏",
-   "use_map": "derived"
+   "how_to_use": "方法论 skill：漫剧赛道节奏"
   },
   {
    "id": "xianxia-cinematic-video-director",
@@ -7541,17 +7551,17 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "仙侠玄幻"
-   ],
-   "strengths": "东方仙侠运镜导演：故事脊柱、连续性锁定卡、分镜总表、逐镜头运镜与稳定首尾状态（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：仙侠漫剧/真人的镜头连续性；无许可证，仅链接",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "仙侠玄幻"
+   ],
+   "strengths": "东方仙侠运镜导演：故事脊柱、连续性锁定卡、分镜总表、逐镜头运镜与稳定首尾状态（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "方法论 skill：仙侠漫剧/真人的镜头连续性；无许可证，仅链接"
   },
   {
    "id": "seedance-2-5-video-director",
@@ -7595,18 +7605,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情",
-    "甜宠恋爱"
-   ],
-   "strengths": "Seedance 2.5 视频导演：脚本、诊断、人物锁定、续写、编辑、转场、多格分镜动画（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：2.5 精确 30 秒时间轴与人物锁定",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情",
+    "甜宠恋爱"
+   ],
+   "strengths": "Seedance 2.5 视频导演：脚本、诊断、人物锁定、续写、编辑、转场、多格分镜动画（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "方法论 skill：2.5 精确 30 秒时间轴与人物锁定"
   },
   {
    "id": "novel-to-manju",
@@ -7650,18 +7660,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "小说改编",
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "小说→爆款改文→漫剧剧本→角色卡与音色→人物/场景/三视图提示词→分镜→MiniMax H3 视频提示词（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：小说转漫剧全流程（CC0）",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "小说改编",
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "小说→爆款改文→漫剧剧本→角色卡与音色→人物/场景/三视图提示词→分镜→MiniMax H3 视频提示词（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "方法论 skill：小说转漫剧全流程（CC0）"
   },
   {
    "id": "ai-film-skills",
@@ -7703,17 +7713,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "21 个独立影视 skill：故事、导演、视觉资产、摄影分镜、生成提示词、看片修复（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：按阶段调用的影视技能",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "21 个独立影视 skill：故事、导演、视觉资产、摄影分镜、生成提示词、看片修复（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "方法论 skill：按阶段调用的影视技能"
   },
   {
    "id": "directorskill",
@@ -7757,17 +7767,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "剧本/段落/关键帧→导演本、走位、分镜表、关键帧与图生视频提示词、声音计划、剪辑时间线、连续性圣经（用编程 Agent 的额度）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：电影级分镜的完整交付清单",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "剧本/段落/关键帧→导演本、走位、分镜表、关键帧与图生视频提示词、声音计划、剪辑时间线、连续性圣经（用编程 Agent 的额度）",
+   "how_to_use": "方法论 skill：电影级分镜的完整交付清单"
   },
   {
    "id": "martial-arts-director-cy",
@@ -7811,19 +7821,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "打戏 / 动作",
     "武侠",
     "仙侠玄幻"
    ],
    "strengths": "武术指导：一句话→16 宫格武打分镜海报 prompt + 15 秒视频 prompt，含招式语料与 IP 合规规避（用编程 Agent 的额度、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "方法论 skill：武侠/修真打戏",
-   "use_map": "derived"
+   "how_to_use": "方法论 skill：武侠/修真打戏"
   },
   {
    "id": "script-to-shootable-storyboard",
@@ -7865,17 +7875,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "剧本→忠实、可拍、可剪的原子分镜：连续性管理、声音计时、生成任务编译、风险评分（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：「原子镜头」规则可用于 videogen 镜头拆分",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "剧本→忠实、可拍、可剪的原子分镜：连续性管理、声音计时、生成任务编译、风险评分（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "方法论 skill：「原子镜头」规则可用于 videogen 镜头拆分"
   },
   {
    "id": "screenwriter-skill",
@@ -7916,17 +7926,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "短剧/漫剧编剧审稿 skill：37 条规则、第一集「生死线」、爽感清单（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：剧本自查",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "短剧/漫剧编剧审稿 skill：37 条规则、第一集「生死线」、爽感清单（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "方法论 skill：剧本自查"
   },
   {
    "id": "short-drama-production",
@@ -7969,17 +7979,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "AI 短剧生产总控：大纲→角色→美术→剧本→导演→技术分镜→H3 任务→声音→粗剪→QC 的有状态管线（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：生产管线状态管理参考",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "AI 短剧生产总控：大纲→角色→美术→剧本→导演→技术分镜→H3 任务→声音→粗剪→QC 的有状态管线（需要 API key、中文原生）",
+   "how_to_use": "方法论 skill：生产管线状态管理参考"
   },
   {
    "id": "ai-short-drama-skill",
@@ -8024,17 +8034,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "Dramake：文字→AI 短剧，串起剧本、分镜、Wan/Seedance/MiniMax、配音、剪辑与质检，含模型路由（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：多模型路由思路与本仓库 videogen 对照",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "Dramake：文字→AI 短剧，串起剧本、分镜、Wan/Seedance/MiniMax、配音、剪辑与质检，含模型路由（需要 API key、中文原生）",
+   "how_to_use": "方法论 skill：多模型路由思路与本仓库 videogen 对照"
   },
   {
    "id": "story-shot-agent",
@@ -8077,18 +8087,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情",
-    "小说改编"
-   ],
-   "strengths": "PenShot：剧本→分镜片段→Sora/Veo/Runway 提示词，三视图 + RAG 记忆保持角色一致（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：角色一致性的工程化做法",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情",
+    "小说改编"
+   ],
+   "strengths": "PenShot：剧本→分镜片段→Sora/Veo/Runway 提示词，三视图 + RAG 记忆保持角色一致（需要 API key）",
+   "how_to_use": "方法论 skill：角色一致性的工程化做法"
   },
   {
    "id": "ai-shortfilm-prompts",
@@ -8130,17 +8140,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "想法→Sora/Kling/Veo/Seedance 提示词：21 种类型模板、5 段结构、负面词（用编程 Agent 的额度）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：英文类型模板",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "想法→Sora/Kling/Veo/Seedance 提示词：21 种类型模板、5 段结构、负面词（用编程 Agent 的额度）",
+   "how_to_use": "方法论 skill：英文类型模板"
   },
   {
    "id": "h3-storyboard-skill",
@@ -8183,18 +8193,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情",
-    "甜宠恋爱"
-   ],
-   "strengths": "MiniMax H3 镜头拆分与表演指导：作者实测「只有带对白标签的镜头才渲染面部表情」等规则（用编程 Agent 的额度）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：情绪戏/表演镜头写法",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情",
+    "甜宠恋爱"
+   ],
+   "strengths": "MiniMax H3 镜头拆分与表演指导：作者实测「只有带对白标签的镜头才渲染面部表情」等规则（用编程 Agent 的额度）",
+   "how_to_use": "方法论 skill：情绪戏/表演镜头写法"
   },
   {
    "id": "seedance-shotdesign-skills",
@@ -8237,17 +8247,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "Seedance 2.5 镜头设计：30 秒标准、30–180 秒超长、延长与编辑模式（用编程 Agent 的额度）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：长片段规划（MIT-0）",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "Seedance 2.5 镜头设计：30 秒标准、30–180 秒超长、延长与编辑模式（用编程 Agent 的额度）",
+   "how_to_use": "方法论 skill：长片段规划（MIT-0）"
   },
   {
    "id": "director-skills",
@@ -8291,19 +8301,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "vlog / 空镜头",
     "打戏 / 动作",
     "漫剧 / 短剧剧情"
    ],
    "strengths": "导演 Skill 集：文旅视频、旅拍照片图生视频、影视资产提示词、动作打戏、角色情绪表演（用编程 Agent 的额度、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "方法论 skill：旅拍/vlog 与情绪表演",
-   "use_map": "derived"
+   "how_to_use": "方法论 skill：旅拍/vlog 与情绪表演"
   },
   {
    "id": "screenwriting-skills",
@@ -8344,17 +8354,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "26 个编剧/电视剧写作/戏剧构作 skills（正文中文）（用编程 Agent 的额度）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：编剧基本功",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "26 个编剧/电视剧写作/戏剧构作 skills（正文中文）（用编程 Agent 的额度）",
+   "how_to_use": "方法论 skill：编剧基本功"
   },
   {
    "id": "hook-lab",
@@ -8396,17 +8406,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "电商详情 / 带货"
-   ],
-   "strengths": "拆解短视频 hook、脚本结构与爆款逻辑，给出小红书/视频号改写方向（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：开头 3 秒钩子设计",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "电商详情 / 带货"
+   ],
+   "strengths": "拆解短视频 hook、脚本结构与爆款逻辑，给出小红书/视频号改写方向（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "方法论 skill：开头 3 秒钩子设计"
   },
   {
    "id": "ad-script-master",
@@ -8450,19 +8460,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "广告片",
     "产品带货 / 种草",
     "电商详情 / 带货"
    ],
    "strengths": "商业广告脚本生成器：合规审查→产品力→叙事脚本→AIGC 分镜参数（用编程 Agent 的额度、中文原生）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "方法论 skill：带货/广告脚本",
-   "use_map": "derived"
+   "how_to_use": "方法论 skill：带货/广告脚本"
   },
   {
    "id": "vimax",
@@ -8670,18 +8680,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情",
-    "故事短片"
-   ],
-   "strengths": "B 站开源动画专用视频模型（基于 Wan2.2）（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：有显卡时的漫剧运动先验；可接 videogen 路线 B",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情",
+    "故事短片"
+   ],
+   "strengths": "B 站开源动画专用视频模型（基于 Wan2.2）（需要自己的显卡）",
+   "how_to_use": "路线② videogen：有显卡时的漫剧运动先验；可接 videogen 路线 B"
   },
   {
    "id": "localminidrama",
@@ -8722,17 +8732,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "本地 AI 短剧 & 漫剧生成工具，数据不出本机（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：本地化短剧工作台",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "本地 AI 短剧 & 漫剧生成工具，数据不出本机（需要 API key、中文原生）",
+   "how_to_use": "路线② videogen：本地化短剧工作台"
   },
   {
    "id": "jellyfish",
@@ -8773,17 +8783,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "AI 短剧端到端工作台：结构化分镜、一致性管理到出片（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：一致性管理参考",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "AI 短剧端到端工作台：结构化分镜、一致性管理到出片（需要 API key、中文原生）",
+   "how_to_use": "路线② videogen：一致性管理参考"
   },
   {
    "id": "lumenx",
@@ -8825,18 +8835,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "小说改编",
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "LumenX Studio：小说→剧本分析、角色定制、分镜绘制→视频合成（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：小说转漫剧平台",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "小说改编",
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "LumenX Studio：小说→剧本分析、角色定制、分镜绘制→视频合成（需要 API key、中文原生）",
+   "how_to_use": "路线② videogen：小说转漫剧平台"
   },
   {
    "id": "arcreel",
@@ -8881,18 +8891,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "小说改编",
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "小说/剧本→角色场景道具资产→分镜→视频→剪映草稿（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：剪映草稿交付；AGPL-3.0",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "小说改编",
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "小说/剧本→角色场景道具资产→分镜→视频→剪映草稿（需要 API key、中文原生）",
+   "how_to_use": "路线② videogen：剪映草稿交付；AGPL-3.0"
   },
   {
    "id": "moneyprinterturbo",
@@ -8988,17 +8998,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "漫剧 / 短剧剧情"
-   ],
-   "strengths": "火宝短剧：一句话生成完整短剧（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：CC BY-NC-SA 4.0 非商用，仅作对比参考",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "漫剧 / 短剧剧情"
+   ],
+   "strengths": "火宝短剧：一句话生成完整短剧（需要 API key、中文原生）",
+   "how_to_use": "路线② videogen：CC BY-NC-SA 4.0 非商用，仅作对比参考"
   },
   {
    "id": "storydiffusion",
@@ -9083,18 +9093,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "成片剪辑 / 后期",
-    "长视频切片"
-   ],
-   "strengths": "用浏览器去操作网页剪辑/生成站点的自动化层，适合把重复的网页端出片步骤交给 Agent（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "剪辑后期：路线④网页端往返时，可把它当作「替人点网页」的外挂；不替代 videogen 的本地合成",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "成片剪辑 / 后期",
+    "长视频切片"
+   ],
+   "strengths": "用浏览器去操作网页剪辑/生成站点的自动化层，适合把重复的网页端出片步骤交给 Agent（免费 CPU 可跑）",
+   "how_to_use": "剪辑后期：路线④网页端往返时，可把它当作「替人点网页」的外挂；不替代 videogen 的本地合成"
   },
   {
    "archived": false,
@@ -9292,18 +9302,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "成片剪辑 / 后期",
-    "长视频切片"
-   ],
-   "strengths": "开源短视频流水线，把素材剪成竖屏短片（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "剪辑后期：竖屏切片的外部选项；接入前自己看它的依赖和模型要求",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "成片剪辑 / 后期",
+    "长视频切片"
+   ],
+   "strengths": "开源短视频流水线，把素材剪成竖屏短片（免费 CPU 可跑）",
+   "how_to_use": "剪辑后期：竖屏切片的外部选项；接入前自己看它的依赖和模型要求"
   },
   {
    "archived": false,
@@ -9343,18 +9353,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "成片剪辑 / 后期",
-    "长视频切片"
-   ],
-   "strengths": "浏览器里的开源视频编辑器，时间线剪辑，不依赖云端（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "剪辑后期：不想装剪映/达芬奇时的网页时间线；导出后再交给 videogen assemble 也可以",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "成片剪辑 / 后期",
+    "长视频切片"
+   ],
+   "strengths": "浏览器里的开源视频编辑器，时间线剪辑，不依赖云端（免费 CPU 可跑）",
+   "how_to_use": "剪辑后期：不想装剪映/达芬奇时的网页时间线；导出后再交给 videogen assemble 也可以"
   },
   {
    "archived": false,
@@ -9446,19 +9456,19 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
+   "absorbed": {
+    "type": "none",
+    "what": "没有拿代码或思路；作为外部项目推荐",
+    "where": ""
+   },
+   "use_map": "derived",
    "best_for": [
     "成片剪辑 / 后期",
     "长视频切片",
     "让 Agent 通过 MCP 调用"
    ],
    "strengths": "通过 MCP 操作本机 DaVinci Resolve 时间线，适合已经在用达芬奇的人（免费 CPU 可跑）",
-   "absorbed": {
-    "type": "none",
-    "what": "没有拿代码或思路；作为外部项目推荐",
-    "where": ""
-   },
-   "how_to_use": "剪辑后期：本机装了 Resolve 才能用；本仓库的 MCP 不转发它的工具，只作目录链接",
-   "use_map": "derived"
+   "how_to_use": "剪辑后期：本机装了 Resolve 才能用；本仓库的 MCP 不转发它的工具，只作目录链接"
   },
   {
    "archived": false,
@@ -9550,7 +9560,12 @@
    "license_source": "LICENSE",
    "active_2026": false,
    "status": "stale",
-   "stale_reason": "before-cutoff"
+   "stale_reason": "before-cutoff",
+   "absorbed": {
+    "type": "idea",
+    "what": "按显存切换模式",
+    "where": "stills2video/lib/hardware.mjs"
+   }
   },
   {
    "archived": false,
@@ -9590,17 +9605,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "HPC-AI 的 Open-Sora 视频扩散训练与推理代码，Apache-2.0（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：自训或本地推理的研究向选项；不替代 videogen 里现成的 Wan 工作流",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "HPC-AI 的 Open-Sora 视频扩散训练与推理代码，Apache-2.0（需要自己的显卡）",
+   "how_to_use": "路线② videogen：自训或本地推理的研究向选项；不替代 videogen 里现成的 Wan 工作流"
   },
   {
    "archived": false,
@@ -9680,17 +9695,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "Lightricks 的 LTX-Video 开源视频模型，Apache-2.0，强调较快的推理（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：显存较小、想本地出片时的候选；工作流不在本仓库内置",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "Lightricks 的 LTX-Video 开源视频模型，Apache-2.0，强调较快的推理（需要自己的显卡）",
+   "how_to_use": "路线② videogen：显存较小、想本地出片时的候选；工作流不在本仓库内置"
   },
   {
    "archived": false,
@@ -9732,17 +9747,17 @@
    "pushed": "2026-10-08",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "腾讯混元视频模型（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：仅作链接。商用或在受限地域使用前必须自己读完该 LICENSE，router --commercial 会排除",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "腾讯混元视频模型（需要自己的显卡）",
+   "how_to_use": "路线② videogen：仅作链接。商用或在受限地域使用前必须自己读完该 LICENSE，router --commercial 会排除"
   },
   {
    "archived": false,
@@ -9785,17 +9800,17 @@
    "pushed": "2026-10-07",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "在消费级显卡上跑 Wan 等模型的打包界面（需要自己的显卡）",
    "absorbed": {
     "type": "idea",
     "what": "按显存档位给预设（自定义许可，只取思路）",
     "where": "stills2video/lib/hardware.mjs"
    },
-   "how_to_use": "路线② videogen：低显存试 Wan 的第三方启动器。--commercial 排除，因为转售软件本身受限制；stills2video --backend wan2gp 写 settings JSON 交给 wgp.py --process",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "在消费级显卡上跑 Wan 等模型的打包界面（需要自己的显卡）",
+   "how_to_use": "路线② videogen：低显存试 Wan 的第三方启动器。--commercial 排除，因为转售软件本身受限制；stills2video --backend wan2gp 写 settings JSON 交给 wgp.py --process"
   },
   {
    "archived": false,
@@ -9929,17 +9944,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "让 Agent 通过 MCP 调用"
-   ],
-   "strengths": "本地 ComfyUI 的 MCP 服务器，Apache-2.0，用来提交和查看工作流（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：目录里另有其他 ComfyUI MCP；选一个即可，不要同时把 key 或工作流密钥提交到 git",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "让 Agent 通过 MCP 调用"
+   ],
+   "strengths": "本地 ComfyUI 的 MCP 服务器，Apache-2.0，用来提交和查看工作流（需要自己的显卡）",
+   "how_to_use": "路线② videogen：目录里另有其他 ComfyUI MCP；选一个即可，不要同时把 key 或工作流密钥提交到 git"
   },
   {
    "archived": false,
@@ -9978,17 +9993,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "让 Agent 通过 MCP 调用"
-   ],
-   "strengths": "mcp.film：影视相关 MCP 服务器的目录站点，不是我们内置的数据（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：要找更多影视 MCP 时去它的目录检索；本仓库不厂商化（vendor）它的 registry",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "让 Agent 通过 MCP 调用"
+   ],
+   "strengths": "mcp.film：影视相关 MCP 服务器的目录站点，不是我们内置的数据（免费 CPU 可跑）",
+   "how_to_use": "方法论 skill：要找更多影视 MCP 时去它的目录检索；本仓库不厂商化（vendor）它的 registry"
   },
   {
    "archived": false,
@@ -10027,17 +10042,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "让 Agent 通过 MCP 调用"
-   ],
-   "strengths": "第三方 Seedance API 的 MCP 封装，需要该服务的 key，不是字节官方客户端（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：没有官方 API、又接受第三方中转时的选项；key 放在你自己的环境变量里",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "让 Agent 通过 MCP 调用"
+   ],
+   "strengths": "第三方 Seedance API 的 MCP 封装，需要该服务的 key，不是字节官方客户端（需要 API key）",
+   "how_to_use": "路线② videogen：没有官方 API、又接受第三方中转时的选项；key 放在你自己的环境变量里"
   },
   {
    "archived": false,
@@ -10078,17 +10093,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "让 Agent 通过 MCP 调用"
-   ],
-   "strengths": "社区版 fal MCP，用 fal 的密钥调用其视频/图像模型（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：videogen 已有 fal provider；这是 MCP 形态的同类入口",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "让 Agent 通过 MCP 调用"
+   ],
+   "strengths": "社区版 fal MCP，用 fal 的密钥调用其视频/图像模型（需要 API key）",
+   "how_to_use": "路线② videogen：videogen 已有 fal provider；这是 MCP 形态的同类入口"
   },
   {
    "archived": false,
@@ -10128,17 +10143,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "让 Agent 通过 MCP 调用"
-   ],
-   "strengths": "Runway 官方 MCP 插件，给 Cursor 等客户端调用 Runway，需要 Runway 账号（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：官方插件，优先于非官方中转；本目录不代跑、不保存密钥",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "让 Agent 通过 MCP 调用"
+   ],
+   "strengths": "Runway 官方 MCP 插件，给 Cursor 等客户端调用 Runway，需要 Runway 账号（需要 API key）",
+   "how_to_use": "路线② videogen：官方插件，优先于非官方中转；本目录不代跑、不保存密钥"
   },
   {
    "archived": false,
@@ -10177,17 +10192,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "找提示词参考"
-   ],
-   "strengths": "CC BY 4.0 的 Seedance 提示词集合（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：全文在 prompts/，署名见每条 front matter；这里的条目只是资源链接",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "找提示词参考"
+   ],
+   "strengths": "CC BY 4.0 的 Seedance 提示词集合（免费 CPU 可跑）",
+   "how_to_use": "方法论 skill：全文在 prompts/，署名见每条 front matter；这里的条目只是资源链接"
   },
   {
    "archived": false,
@@ -10226,17 +10241,17 @@
    "pushed": "2026-10-08",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "找提示词参考"
-   ],
-   "strengths": "YouMind 的 Grok Imagine 提示词库，LICENSE 原文为 CC BY 4.0（GitHub 识别为 NOASSERTION）（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：新收录的 Grok Imagine 条目在 prompts/，model 字段为 Grok Imagine",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "找提示词参考"
+   ],
+   "strengths": "YouMind 的 Grok Imagine 提示词库，LICENSE 原文为 CC BY 4.0（GitHub 识别为 NOASSERTION）（免费 CPU 可跑）",
+   "how_to_use": "方法论 skill：新收录的 Grok Imagine 条目在 prompts/，model 字段为 Grok Imagine"
   },
   {
    "archived": false,
@@ -10276,17 +10291,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "找提示词参考"
-   ],
-   "strengths": "Emaki 自己编写并实际渲染过的约 150 条 Seedance 提示词，MIT，带一个小型 MCP（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：本仓库收录了其 prompts.json 的文字（不收录示例视频）。它自己的 MCP 与本仓库 MCP 是两个包",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "找提示词参考"
+   ],
+   "strengths": "Emaki 自己编写并实际渲染过的约 150 条 Seedance 提示词，MIT，带一个小型 MCP（免费 CPU 可跑）",
+   "how_to_use": "方法论 skill：本仓库收录了其 prompts.json 的文字（不收录示例视频）。它自己的 MCP 与本仓库 MCP 是两个包"
   },
   {
    "archived": false,
@@ -10375,17 +10390,17 @@
    "pushed": "2026-10-07",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "找提示词参考"
-   ],
-   "strengths": "BeatAPI 的 MiniMax H3 图库（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "方法论 skill：只作链接。要全文必须找到原作者自己的许可，不能从这里转载",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "找提示词参考"
+   ],
+   "strengths": "BeatAPI 的 MiniMax H3 图库（免费 CPU 可跑）",
+   "how_to_use": "方法论 skill：只作链接。要全文必须找到原作者自己的许可，不能从这里转载"
   },
   {
    "archived": true,
@@ -10466,17 +10481,17 @@
    "pushed": "2026-09-03",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "白板讲解"
-   ],
-   "strengths": "把讲解做成白板/手绘风格视频的开源项目（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线① animator：和本仓库 animator 同属手绘讲解路线，实现不同；不复制其代码",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "白板讲解"
+   ],
+   "strengths": "把讲解做成白板/手绘风格视频的开源项目（免费 CPU 可跑）",
+   "how_to_use": "路线① animator：和本仓库 animator 同属手绘讲解路线，实现不同；不复制其代码"
   },
   {
    "archived": false,
@@ -10519,18 +10534,18 @@
    "pushed": "2026-10-09",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "真人短剧",
-    "一条龙出片平台"
-   ],
-   "strengths": "短剧 Agent 平台（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：仅链接。--commercial 排除。不要复制它的源码或提示词",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "真人短剧",
+    "一条龙出片平台"
+   ],
+   "strengths": "短剧 Agent 平台（需要 API key）",
+   "how_to_use": "路线② videogen：仅链接。--commercial 排除。不要复制它的源码或提示词"
   },
   {
    "archived": false,
@@ -10574,18 +10589,18 @@
    "pushed": "2026-09-21",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "真人短剧",
-    "一条龙出片平台"
-   ],
-   "strengths": "短剧/漫剧向的端到端应用，许可证为 Elastic License 2.0（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：仅链接，排序靠后，--commercial 排除",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "真人短剧",
+    "一条龙出片平台"
+   ],
+   "strengths": "短剧/漫剧向的端到端应用，许可证为 Elastic License 2.0（需要 API key、中文原生）",
+   "how_to_use": "路线② videogen：仅链接，排序靠后，--commercial 排除"
   },
   {
    "archived": false,
@@ -10627,18 +10642,18 @@
    "pushed": "2026-10-06",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "真人短剧",
-    "一条龙出片平台"
-   ],
-   "strengths": "BigBanana AI Director（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：仅链接。商用项目不要采用，--commercial 会排除",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "真人短剧",
+    "一条龙出片平台"
+   ],
+   "strengths": "BigBanana AI Director（需要 API key、中文原生）",
+   "how_to_use": "路线② videogen：仅链接。商用项目不要采用，--commercial 会排除"
   },
   {
    "archived": false,
@@ -10681,18 +10696,18 @@
    "pushed": "2026-08-30",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "真人短剧",
-    "一条龙出片平台"
-   ],
-   "strengths": "AI 分镜/短剧工具，许可证为 CC BY-NC-SA 4.0，非商业且相同方式共享（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：仅链接。非商用许可，--commercial 排除",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "真人短剧",
+    "一条龙出片平台"
+   ],
+   "strengths": "AI 分镜/短剧工具，许可证为 CC BY-NC-SA 4.0，非商业且相同方式共享（需要 API key）",
+   "how_to_use": "路线② videogen：仅链接。非商用许可，--commercial 排除"
   },
   {
    "archived": false,
@@ -10734,18 +10749,18 @@
    "pushed": "2026-05-01",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "真人短剧",
-    "一条龙出片平台"
-   ],
-   "strengths": "短剧导演向项目（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：仅链接，不要复制代码。--commercial 排除",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "真人短剧",
+    "一条龙出片平台"
+   ],
+   "strengths": "短剧导演向项目（需要 API key、中文原生）",
+   "how_to_use": "路线② videogen：仅链接，不要复制代码。--commercial 排除"
   },
   {
    "archived": false,
@@ -10839,17 +10854,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "ComfyUI 官方工作流模板源文件：Wan2.2 5B/14B 图生视频、首尾帧、LTX 等（需要自己的显卡）",
    "absorbed": {
     "type": "port",
     "what": "Wan2.2 14B 图生视频 / 首尾帧工作流，改写为 API 格式（MIT）",
     "where": "stills2video/workflows/"
    },
-   "how_to_use": "路线② videogen：stills2video/workflows/wan22_14b_*_4step.json 由它的 MIT 模板改写成 API 格式（见 LICENSES/ 与 NOTICE）；LTX 模板因模型许可不同没有内置",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "ComfyUI 官方工作流模板源文件：Wan2.2 5B/14B 图生视频、首尾帧、LTX 等（需要自己的显卡）",
+   "how_to_use": "路线② videogen：stills2video/workflows/wan22_14b_*_4step.json 由它的 MIT 模板改写成 API 格式（见 LICENSES/ 与 NOTICE）；LTX 模板因模型许可不同没有内置"
   },
   {
    "archived": false,
@@ -10890,17 +10905,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "Wan 系列的进阶 ComfyUI 节点：block swap 换块省显存、长视频、首尾帧、各种控制（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：12–16GB 卡跑 14B 时在 ComfyUI 里换用它的节点；导出 API 工作流后用 stills2video --workflow 指定",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "Wan 系列的进阶 ComfyUI 节点：block swap 换块省显存、长视频、首尾帧、各种控制（需要自己的显卡）",
+   "how_to_use": "路线② videogen：12–16GB 卡跑 14B 时在 ComfyUI 里换用它的节点；导出 API 工作流后用 stills2video --workflow 指定"
   },
   {
    "archived": false,
@@ -10941,17 +10956,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "Wan2.1/2.2、HunyuanVideo-1.5 的加速推理框架：4 步蒸馏、量化、offload，README 写明 14B 可在 8GB 显存 + 16GB 内存运行（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：stills2video --backend lightx2v 生成 python -m lightx2v.infer 命令（设 LIGHTX2V_DIR/LIGHTX2V_MODEL 加 --run 才真跑）",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "Wan2.1/2.2、HunyuanVideo-1.5 的加速推理框架：4 步蒸馏、量化、offload，README 写明 14B 可在 8GB 显存 + 16GB 内存运行（需要自己的显卡）",
+   "how_to_use": "路线② videogen：stills2video --backend lightx2v 生成 python -m lightx2v.infer 命令（设 LIGHTX2V_DIR/LIGHTX2V_MODEL 加 --run 才真跑）"
   },
   {
    "archived": false,
@@ -10993,17 +11008,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "桌面一键包，本地跑 MiniMax H3（首帧 / 首尾帧 / 参考图，带原生音频），README 写 8GB 显存 + 16GB 内存（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：网页式手动后端：stills2video export 导出镜头包 → 在 FreeVideo 里逐镜生成 → import 收回",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "桌面一键包，本地跑 MiniMax H3（首帧 / 首尾帧 / 参考图，带原生音频），README 写 8GB 显存 + 16GB 内存（需要自己的显卡）",
+   "how_to_use": "路线② videogen：网页式手动后端：stills2video export 导出镜头包 → 在 FreeVideo 里逐镜生成 → import 收回"
   },
   {
    "archived": false,
@@ -11045,17 +11060,17 @@
    "pushed": "2026-08-26",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "LTX 官方桌面 App，本地图生视频（带音频），README 要求本地生成 ≥16GB 显存（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：16GB+ 的手动后端：stills2video export 镜头包，按 S01_shot01 命名导出后 import",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "LTX 官方桌面 App，本地图生视频（带音频），README 要求本地生成 ≥16GB 显存（需要自己的显卡）",
+   "how_to_use": "路线② videogen：16GB+ 的手动后端：stills2video export 镜头包，按 S01_shot01 命名导出后 import"
   },
   {
    "archived": false,
@@ -11096,17 +11111,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "FramePack 增强版：F1、视频续写、首尾帧、任务队列（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：单图慢动作长镜头（呼吸、飘发、慢推）；镜头包导出/收回同 FramePack",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "FramePack 增强版：F1、视频续写、首尾帧、任务队列（需要自己的显卡）",
+   "how_to_use": "路线② videogen：单图慢动作长镜头（呼吸、飘发、慢推）；镜头包导出/收回同 FramePack"
   },
   {
    "archived": false,
@@ -11147,17 +11162,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "把 FramePack 放进 ComfyUI 的节点，可和其他工作流串起来（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：在 ComfyUI 里用 FramePack，导出 API 工作流给 stills2video --workflow",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "把 FramePack 放进 ComfyUI 的节点，可和其他工作流串起来（需要自己的显卡）",
+   "how_to_use": "路线② videogen：在 ComfyUI 里用 FramePack，导出 API 工作流给 stills2video --workflow"
   },
   {
    "archived": false,
@@ -11198,17 +11213,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "让 ComfyUI 加载 GGUF 量化模型，Wan2.2-14B 等大模型可以塞进 12–16GB 显卡（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：12GB 档把 stills2video 工作流里的 UNETLoader 换成 UnetLoaderGGUF（12GB 是否够用官方未给数字，未核验）",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "让 ComfyUI 加载 GGUF 量化模型，Wan2.2-14B 等大模型可以塞进 12–16GB 显卡（需要自己的显卡）",
+   "how_to_use": "路线② videogen：12GB 档把 stills2video 工作流里的 UNETLoader 换成 UnetLoaderGGUF（12GB 是否够用官方未给数字，未核验）"
   },
   {
    "archived": false,
@@ -11251,17 +11266,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "轻量高质的图生视频模型（480p 蒸馏版 8–12 步），README 最低约 14GB（offload）（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：备选模型；地区限制内的用户可经 Wan2GP / ComfyUI 使用，stills2video 不内置它的工作流",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "轻量高质的图生视频模型（480p 蒸馏版 8–12 步），README 最低约 14GB（offload）（需要自己的显卡）",
+   "how_to_use": "路线② videogen：备选模型；地区限制内的用户可经 Wan2GP / ComfyUI 使用，stills2video 不内置它的工作流"
   },
   {
    "archived": false,
@@ -11357,17 +11372,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "LTX 官方 ComfyUI 节点（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：同 LTX-2：用户自己的工作流 + stills2video --workflow；本仓库不内置",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "LTX 官方 ComfyUI 节点（需要自己的显卡）",
+   "how_to_use": "路线② videogen：同 LTX-2：用户自己的工作流 + stills2video --workflow；本仓库不内置"
   },
   {
    "archived": false,
@@ -11410,17 +11425,17 @@
    "pushed": "2026-08-15",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "33B 开放权重音视频模型，支持首尾帧（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：云端用 videogen 的 minimax 适配器（--backend cloud:minimax），本地用 FreeVideo 手动往返",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "33B 开放权重音视频模型，支持首尾帧（需要自己的显卡）",
+   "how_to_use": "路线② videogen：云端用 videogen 的 minimax 适配器（--backend cloud:minimax），本地用 FreeVideo 手动往返"
   },
   {
    "archived": false,
@@ -11461,17 +11476,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "ComfyUI 多段 H3 导演节点，把长片拆段生成（需要自己的显卡、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：长镜头分段的参考思路；导出 API 工作流后可用 stills2video --workflow",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "ComfyUI 多段 H3 导演节点，把长片拆段生成（需要自己的显卡、中文原生）",
+   "how_to_use": "路线② videogen：长镜头分段的参考思路；导出 API 工作流后可用 stills2video --workflow"
   },
   {
    "archived": false,
@@ -11513,17 +11528,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "在 Colab 上跑 Wan2GP 的笔记本，没有显卡时的临时备胎（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：用 stills2video --backend wan2gp 生成 settings JSON，上传到 Colab 里的 Wan2GP 执行",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "在 Colab 上跑 Wan2GP 的笔记本，没有显卡时的临时备胎（需要自己的显卡）",
+   "how_to_use": "路线② videogen：用 stills2video --backend wan2gp 生成 settings JSON，上传到 Colab 里的 Wan2GP 执行"
   },
   {
    "archived": false,
@@ -11566,18 +11581,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头",
-    "音乐 MV"
-   ],
-   "strengths": "基于 WanGP 的本地「导演模式」MV / 长片工作室（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：只作链接参考，本仓库不复制任何内容",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头",
+    "音乐 MV"
+   ],
+   "strengths": "基于 WanGP 的本地「导演模式」MV / 长片工作室（需要自己的显卡）",
+   "how_to_use": "路线② videogen：只作链接参考，本仓库不复制任何内容"
   },
   {
    "archived": false,
@@ -11619,17 +11634,17 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "修 Wan2.2 4 步加速 LoRA「动作变慢」问题的图生视频节点（需要自己的显卡、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：只给链接；stills2video 的 4 步工作流用官方节点，没有引用它",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "修 Wan2.2 4 步加速 LoRA「动作变慢」问题的图生视频节点（需要自己的显卡、中文原生）",
+   "how_to_use": "路线② videogen：只给链接；stills2video 的 4 步工作流用官方节点，没有引用它"
   },
   {
    "archived": false,
@@ -11670,17 +11685,17 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "Wan2.2 首 / 中 / 尾多关键帧控制节点（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：只给链接；本仓库的首尾帧过渡用官方 WanFirstLastFrameToVideo 节点",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "Wan2.2 首 / 中 / 尾多关键帧控制节点（需要自己的显卡）",
+   "how_to_use": "路线② videogen：只给链接；本仓库的首尾帧过渡用官方 WanFirstLastFrameToVideo 节点"
   },
   {
    "archived": false,
@@ -11723,17 +11738,17 @@
    "pushed": "2026-04-07",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "本地 GPU 生成镜头"
-   ],
-   "strengths": "混元图生视频官方版，显存门槛 60–80GB，个人卡不现实，仅作参考（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：个人用户改用 HunyuanVideo-1.5 或 Wan2GP；本仓库不内置",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "本地 GPU 生成镜头"
+   ],
+   "strengths": "混元图生视频官方版，显存门槛 60–80GB，个人卡不现实，仅作参考（需要自己的显卡）",
+   "how_to_use": "路线② videogen：个人用户改用 HunyuanVideo-1.5 或 Wan2GP；本仓库不内置"
   },
   {
    "archived": false,
@@ -11825,17 +11840,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "通用（任何题材的底座）"
-   ],
-   "strengths": "把 DepthFlow 视差运镜放进 ComfyUI 工作流（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线⑤ stills2video：在 ComfyUI 里批量视差；导出 API 工作流后可用 stills2video --workflow 调用（作为外部程序，不复制代码）",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "通用（任何题材的底座）"
+   ],
+   "strengths": "把 DepthFlow 视差运镜放进 ComfyUI 工作流（需要自己的显卡）",
+   "how_to_use": "路线⑤ stills2video：在 ComfyUI 里批量视差；导出 API 工作流后可用 stills2video --workflow 调用（作为外部程序，不复制代码）"
   },
   {
    "archived": false,
@@ -11963,17 +11978,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "通用（任何题材的底座）"
-   ],
-   "strengths": "Depth Anything 第三代：深度 + 相机位姿 + 多视图几何（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线⑤ stills2video：可导出深度图 PNG，用 stills2video 镜头的 \"depth\": \"<文件>\" 字段直接喂给 CPU 视差渲染",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "通用（任何题材的底座）"
+   ],
+   "strengths": "Depth Anything 第三代：深度 + 相机位姿 + 多视图几何（需要自己的显卡）",
+   "how_to_use": "路线⑤ stills2video：可导出深度图 PNG，用 stills2video 镜头的 \"depth\": \"<文件>\" 字段直接喂给 CPU 视差渲染"
   },
   {
    "archived": false,
@@ -12052,7 +12067,12 @@
    "license_source": "LICENSE",
    "active_2026": false,
    "status": "stale",
-   "stale_reason": "before-cutoff"
+   "stale_reason": "before-cutoff",
+   "absorbed": {
+    "type": "idea",
+    "what": "先放大再裁切防抖的 Ken Burns",
+    "where": "stills2video"
+   }
   },
   {
    "archived": false,
@@ -12093,17 +12113,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "通用（任何题材的底座）"
-   ],
-   "strengths": "单图 3D Ken Burns 经典实现（深度 + 补全 + 相机路径）（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线⑤ stills2video：只作链接；商用请用 stills2video --backend cpu（Apache-2.0，自写）",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "通用（任何题材的底座）"
+   ],
+   "strengths": "单图 3D Ken Burns 经典实现（深度 + 补全 + 相机路径）（需要自己的显卡）",
+   "how_to_use": "路线⑤ stills2video：只作链接；商用请用 stills2video --backend cpu（Apache-2.0，自写）"
   },
   {
    "archived": false,
@@ -12195,7 +12215,12 @@
    "license_source": "LICENSE",
    "active_2026": false,
    "status": "stale",
-   "stale_reason": "before-cutoff"
+   "stale_reason": "before-cutoff",
+   "absorbed": {
+    "type": "dependency",
+    "what": "polish 自动检测用户自装的二进制",
+    "where": "stills2video polish"
+   }
   },
   {
    "archived": false,
@@ -12235,17 +12260,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "成片剪辑 / 后期"
-   ],
-   "strengths": "ComfyUI 里的 RIFE / FILM 等补帧节点（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线⑤ stills2video：可直接接在 stills2video 的 Wan 工作流 VAEDecode 后面再导出 API 工作流",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "成片剪辑 / 后期"
+   ],
+   "strengths": "ComfyUI 里的 RIFE / FILM 等补帧节点（需要自己的显卡）",
+   "how_to_use": "路线⑤ stills2video：可直接接在 stills2video 的 Wan 工作流 VAEDecode 后面再导出 API 工作流"
   },
   {
    "archived": false,
@@ -12288,7 +12313,12 @@
    "license_source": "LICENSE",
    "active_2026": false,
    "status": "stale",
-   "stale_reason": "before-cutoff"
+   "stale_reason": "before-cutoff",
+   "absorbed": {
+    "type": "dependency",
+    "what": "polish 自动检测用户自装的 realesrgan-ncnn-vulkan",
+    "where": "stills2video polish"
+   }
   },
   {
    "archived": false,
@@ -12420,17 +12450,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "成片剪辑 / 后期"
-   ],
-   "strengths": "Win / Linux / Mac 的补帧 + 超分图形界面（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线⑤ stills2video：不想用命令行时的外部 GUI；处理完的镜头按 S01_shot01.mp4 命名后 stills2video import",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "成片剪辑 / 后期"
+   ],
+   "strengths": "Win / Linux / Mac 的补帧 + 超分图形界面（免费 CPU 可跑）",
+   "how_to_use": "路线⑤ stills2video：不想用命令行时的外部 GUI；处理完的镜头按 S01_shot01.mp4 命名后 stills2video import"
   },
   {
    "archived": false,
@@ -12472,17 +12502,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "成片剪辑 / 后期"
-   ],
-   "strengths": "Windows 上的超分 / 补帧图形界面合集（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "剪辑后期：只作链接；商用场景用 Real-ESRGAN / rife-ncnn-vulkan",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "成片剪辑 / 后期"
+   ],
+   "strengths": "Windows 上的超分 / 补帧图形界面合集（需要自己的显卡）",
+   "how_to_use": "剪辑后期：只作链接；商用场景用 Real-ESRGAN / rife-ncnn-vulkan"
   },
   {
    "archived": false,
@@ -12573,17 +12603,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "通用（任何题材的底座）"
-   ],
-   "strengths": "网页粒子库：雪、尘埃、萤火、星空、彩带（免费 CPU 可跑）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线⑤ stills2video：HyperFrames / Remotion 里做粒子叠层；stills2video 用的是 animator 自带 canvas 特效 + numpy 粒子",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "通用（任何题材的底座）"
+   ],
+   "strengths": "网页粒子库：雪、尘埃、萤火、星空、彩带（免费 CPU 可跑）",
+   "how_to_use": "路线⑤ stills2video：HyperFrames / Remotion 里做粒子叠层；stills2video 用的是 animator 自带 canvas 特效 + numpy 粒子"
   },
   {
    "archived": false,
@@ -12626,17 +12656,17 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "让 Agent 通过 MCP 调用"
-   ],
-   "strengths": "ComfyUI 侧边面板，让 Claude 或 ChatGPT 订阅里的 Agent 直接驱动本地 ComfyUI（需要自己的显卡）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：和 stills2video 互补：Agent 在面板里调工作流，批量出片仍可用 stills2video render --backend comfyui",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "让 Agent 通过 MCP 调用"
+   ],
+   "strengths": "ComfyUI 侧边面板，让 Claude 或 ChatGPT 订阅里的 Agent 直接驱动本地 ComfyUI（需要自己的显卡）",
+   "how_to_use": "路线② videogen：和 stills2video 互补：Agent 在面板里调工作流，批量出片仍可用 stills2video render --backend comfyui"
   },
   {
    "archived": false,
@@ -12679,18 +12709,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解",
-    "GitHub 仓库推荐"
-   ],
-   "strengths": "半调纸拼贴风 B-roll Agent skill，首尾帧组装（生成走 Gemini API）（需要 API key、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线⑤ stills2video：风格方法可参考；本仓库 B-roll 配方库（stills2video/recipes/broll.json）是自写的",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解",
+    "GitHub 仓库推荐"
+   ],
+   "strengths": "半调纸拼贴风 B-roll Agent skill，首尾帧组装（生成走 Gemini API）（需要 API key、中文原生）",
+   "how_to_use": "路线⑤ stills2video：风格方法可参考；本仓库 B-roll 配方库（stills2video/recipes/broll.json）是自写的"
   },
   {
    "archived": false,
@@ -12733,17 +12763,17 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "知识科普 / 口播讲解"
-   ],
-   "strengths": "OpenAI 出图 + FFmpeg 运动 + Remotion/HyperFrames 的 Agent skill（带付费调用闸门）（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线⑤ stills2video：只给链接；本仓库同类功能见 stills2video（Apache-2.0）",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "知识科普 / 口播讲解"
+   ],
+   "strengths": "OpenAI 出图 + FFmpeg 运动 + Remotion/HyperFrames 的 Agent skill（带付费调用闸门）（需要 API key）",
+   "how_to_use": "路线⑤ stills2video：只给链接；本仓库同类功能见 stills2video（Apache-2.0）"
   },
   {
    "archived": false,
@@ -12785,17 +12815,17 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "通用（任何题材的底座）"
-   ],
-   "strengths": "自然语言 → ComfyUI 工作流 JSON 的 Agent skill（用编程 Agent 的额度、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：只给链接；stills2video 的工作流是从 MIT 官方模板改写的",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "通用（任何题材的底座）"
+   ],
+   "strengths": "自然语言 → ComfyUI 工作流 JSON 的 Agent skill（用编程 Agent 的额度、中文原生）",
+   "how_to_use": "路线② videogen：只给链接；stills2video 的工作流是从 MIT 官方模板改写的"
   },
   {
    "archived": false,
@@ -12838,18 +12868,18 @@
    "license_source": "(no LICENSE file)",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "小说改编",
-    "真人短剧"
-   ],
-   "strengths": "字字动画：小说推文 / AI 短剧，ComfyUI + Wan2.2 + IndexTTS2 配音（需要自己的显卡、中文原生）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：只给链接，不复制任何内容",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "小说改编",
+    "真人短剧"
+   ],
+   "strengths": "字字动画：小说推文 / AI 短剧，ComfyUI + Wan2.2 + IndexTTS2 配音（需要自己的显卡、中文原生）",
+   "how_to_use": "路线② videogen：只给链接，不复制任何内容"
   },
   {
    "archived": false,
@@ -12934,18 +12964,18 @@
    "license_source": "LICENSE",
    "active_2026": true,
    "status": "active",
-   "best_for": [
-    "广告片",
-    "产品带货 / 种草"
-   ],
-   "strengths": "偏「复刻爆款视频」的生成平台，与「静图 → 视频」关系较远（需要 API key）",
    "absorbed": {
     "type": "none",
     "what": "没有拿代码或思路；作为外部项目推荐",
     "where": ""
    },
-   "how_to_use": "路线② videogen：只作备注链接",
-   "use_map": "derived"
+   "use_map": "derived",
+   "best_for": [
+    "广告片",
+    "产品带货 / 种草"
+   ],
+   "strengths": "偏「复刻爆款视频」的生成平台，与「静图 → 视频」关系较远（需要 API key）",
+   "how_to_use": "路线② videogen：只作备注链接"
   },
   {
    "archived": false,
