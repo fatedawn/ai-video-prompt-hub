@@ -33,6 +33,19 @@
       }
     ]
   },
+  "stills": {
+    "explicit": false,
+    "tier": "cpu",
+    "tier_label": "无独显 / 核显 / <6GB",
+    "backend": "cpu",
+    "local_options": [
+      "CPU 2.5D 视差 + Ken Burns + 叠层特效（本工具 cpu 后端，深度模型 Depth-Anything-V2-Small 26MB）"
+    ],
+    "why": [
+      "预算是「免费 + CPU」又需要动态画面：先用 ChatGPT 出图，再交给 stills2video 做 2.5D 视差成片（没有视频模型费用）",
+      "硬件档位：无独显 / 核显 / <6GB → 后端 cpu；真实物体运动做不到；需要的话用云端 key（cloud）或网页端手动（manual）补关键镜头。"
+    ]
+  },
   "route": {
     "primary": "A",
     "primary_name": "路线①：animator 手绘动画（本仓库）",
@@ -42,13 +55,19 @@
         "name": "路线②：videogen 视频生成 + prompts/ 提示词（本仓库）"
       },
       {
+        "id": "S",
+        "name": "路线⑤：stills2video 静图成片（本仓库）"
+      },
+      {
         "id": "D",
         "name": "路线④：外部开源项目（catalog/）"
       }
     ],
     "videogen_mode": "web",
     "why": [
-      "「儿童绘本故事」以讲清楚/讲好故事为主，本仓库 animator 手绘逐笔动画免费、CPU 可跑、画面与台词逐词对齐"
+      "「儿童绘本故事」以讲清楚/讲好故事为主，本仓库 animator 手绘逐笔动画免费、CPU 可跑、画面与台词逐词对齐",
+      "预算是「免费 + CPU」又需要动态画面：先用 ChatGPT 出图，再交给 stills2video 做 2.5D 视差成片（没有视频模型费用）",
+      "硬件档位：无独显 / 核显 / <6GB → 后端 cpu；真实物体运动做不到；需要的话用云端 key（cloud）或网页端手动（manual）补关键镜头。"
     ]
   },
   "script_skeleton": [
@@ -107,6 +126,18 @@
         "score": 7.3
       },
       {
+        "id": "renoise-2090340872474996901",
+        "title": "创作一部迷你世界电影视频：可爱的拟人化橙色蚂蚁在魔幻森林里齐心协力工作。蚂蚁有炯炯有神的大眼睛、小身体、细节清晰的腿和触角，动作自然，像个忙碌的小社区。",
+        "genre": "漫剧/特效向/奇幻冒险",
+        "art_style": "3D卡通",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "renoise-ai/awesome-seedance-prompts",
+        "path": "prompts/漫剧/特效向/奇幻冒险/renoise-2090340872474996901--创作一部迷你世界电影视频-可爱的拟人化橙色蚂蚁在魔幻森林里齐心协力工作-蚂蚁有炯.md",
+        "score": 6.8
+      },
+      {
         "id": "goodcase-seedance-2-5-a-magical-3d-animated-fairy-tale-scene-featuring-a-young-girl-wearing-a-black-h-cf1194730635",
         "title": "头巾女孩与小鸭兔子的月夜提灯漫游",
         "genre": "漫剧/特效向/奇幻冒险",
@@ -128,18 +159,6 @@
         "license": "CC-BY-4.0",
         "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
         "path": "prompts/漫剧/特效向/奇幻冒险/youmind-2839--Seedance-2.0-提示词-可爱的冒险故事.md",
-        "score": 6.3
-      },
-      {
-        "id": "youmind-6112",
-        "title": "皮克斯风格：2026 年世界杯故事",
-        "genre": "漫剧/特效向/奇幻冒险",
-        "art_style": "3D卡通",
-        "language": "en",
-        "model": "Seedance 2.0",
-        "license": "CC-BY-4.0",
-        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
-        "path": "prompts/漫剧/特效向/奇幻冒险/youmind-6112--皮克斯风格-2026-年世界杯故事.md",
         "score": 6.3
       }
     ]
@@ -281,7 +300,7 @@
         "url": "https://github.com/alexgreensh/anidoodle",
         "kind": "skill",
         "intro_zh": "Claude Code/Codex/Grok 插件：31 种手绘画材全部用代码画，可生成「一笔一笔画出来」的过程片、故事分镜和带配乐/字幕的短片",
-        "stars": 850,
+        "stars": 859,
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -291,7 +310,7 @@
         ],
         "zh": "en",
         "plugs_into": "画材种类最接近 story-to-handdrawn 画风库且真正在「画」；英文为主，中文题材需自己写台词",
-        "score": 14.96
+        "score": 14.97
       },
       {
         "id": "story-to-handdrawn-video",
@@ -299,7 +318,7 @@
         "url": "https://github.com/gnipbao/story-to-handdrawn-video",
         "kind": "skill",
         "intro_zh": "中文故事→每句一张 AI 母图→「文字→黑白稿→彩色」擦除揭示的 3:4 手绘日记漫画静音片；内置 297 条画风配方",
-        "stars": 2159,
+        "stars": 2167,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -459,6 +478,46 @@
       ],
       "note": "台词交给本地 Kokoro TTS（需先 cd animator && npm run setup:tts），自动逐字字幕；--bgm 加你有版权的音乐",
       "route": "B"
+    },
+    {
+      "route": "S",
+      "title": "—— 路线⑤：stills2video 静图成片（本仓库）（备选/升级） ——",
+      "cmds": []
+    },
+    {
+      "title": "准备（只需一次）",
+      "cmds": [
+        "cd stills2video && npm run setup:depth && cd ..",
+        "cd animator && npm install && npm run setup:tts && cd ..",
+        "node stills2video/cli.mjs doctor"
+      ],
+      "note": "setup:depth 下载 Depth-Anything-V2-Small（Apache-2.0，26MB，校验 sha256）；setup:tts 下载本地 Kokoro 配音；doctor 自动检测显卡档位",
+      "route": "S"
+    },
+    {
+      "title": "写台词 + 生成出图提示词",
+      "cmds": [
+        "mkdir -p .work/儿童绘本故事-小兔子学会/stills && $EDITOR .work/儿童绘本故事-小兔子学会/台词.txt",
+        "node stills2video/cli.mjs prompts --script .work/儿童绘本故事-小兔子学会/台词.txt --out .work/儿童绘本故事-小兔子学会/出图提示词.md"
+      ],
+      "note": "一行台词 = 一个镜头；行首可写【晨雾竹林推进】等配方名（node stills2video/cli.mjs recipes 查看）",
+      "route": "S"
+    },
+    {
+      "title": "在 ChatGPT 里出图",
+      "cmds": [
+        "# 按 .work/儿童绘本故事-小兔子学会/出图提示词.md 逐镜出图，下载后命名 01.png、02.png… 放进 .work/儿童绘本故事-小兔子学会/stills/"
+      ],
+      "note": "默认手动出图（会员不含 API 额度）；有 OPENAI_API_KEY 可选 node stills2video/cli.mjs images（按量计费）",
+      "route": "S"
+    },
+    {
+      "title": "一条命令出片（cpu）",
+      "cmds": [
+        "node stills2video/cli.mjs make --images .work/儿童绘本故事-小兔子学会/stills --script .work/儿童绘本故事-小兔子学会/台词.txt --aspect 9:16 --out .work/儿童绘本故事-小兔子学会/final.mp4 --backend cpu"
+      ],
+      "note": "CPU：深度视差 + 运镜 + 雾/光/粒子叠层 + huashu 转场 + Kokoro 配音字幕；同时输出封面和缩略图",
+      "route": "S"
     },
     {
       "title": "发布前质检",

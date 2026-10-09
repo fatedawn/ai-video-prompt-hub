@@ -6,6 +6,10 @@ import { loadData, ROOT } from '../../router/lib/data.mjs';
 import { recommend } from '../../router/lib/plan.mjs';
 import { INTAKE } from '../../router/cli.mjs';
 import { parseStoryboard } from '../../videogen/lib/storyboard.mjs';
+import { buildStoryboard, indexOf } from '../../stills2video/lib/storyboard.mjs';
+import { findRecipe, loadRecipes } from '../../stills2video/lib/recipes.mjs';
+import { resolveShot } from '../../stills2video/lib/plan.mjs';
+import { tierOf, TIERS, selectBackend } from '../../stills2video/lib/hardware.mjs';
 
 let version = 'unknown';
 try { version = execSync('git rev-parse --short HEAD', { cwd: ROOT, encoding: 'utf8' }).trim(); } catch { /* snapshot without git */ }
@@ -196,9 +200,35 @@ export function pipeline(args) {
     medium: args.medium, direction: args.direction, budget: args.budget || 'free-cpu',
     duration: args.duration_s, aspect: args.aspect,
     assets: Array.isArray(args.assets) ? args.assets.join(',') : args.assets,
-    style: args.style, commercial: !!args.commercial, lang: args.lang,
+    style: args.style, commercial: !!args.commercial, lang: args.lang, vram: args.vram_gb,
   };
   return recommend(data, args.topic, opts);
+}
+
+/** stills2video plan without touching disk or hardware: images are just names, VRAM is what the caller says. */
+export function i2vPlan(args) {
+  const names = (args.image_names?.length ? args.image_names : Array.from({ length: Math.max(1, Math.min(60, args.n_images || 5)) }, (_, i) => `${String(i + 1).padStart(2, '0')}.png`)).slice(0, 60);
+  const ordered = names.every((n) => indexOf(n) != null) ? [...names].sort((a, b) => indexOf(a) - indexOf(b)) : names;
+  const sb = buildStoryboard({ images: ordered.map((n) => `/stills/${n}`), baseDir: '/stills', script: args.script || null, aspect: args.aspect || '9:16' });
+  const vram = args.vram_gb ?? 0;
+  const tier = tierOf(vram);
+  const keys = args.cloud_provider ? { [args.cloud_provider]: true } : {};
+  const sel = selectBackend({ prefer: args.backend, hw: { tier, vramGB: vram, comfyuiUrl: 'http://127.0.0.1:8188' }, keys, comfyReachable: !!args.comfyui_running });
+  const R = loadRecipes();
+  const shots = sb.shots.map((s, i) => {
+    const p = resolveShot(s, sb, i, { backend: sel.backend });
+    const r = p.recipe ? findRecipe(p.recipe) : null;
+    return { id: s.id, image: s.image, lines: s.lines.map((l) => (l.speaker ? `${l.speaker}：${l.text}` : l.text)), duration_s: s.duration, recipe: r ? r.name : null,
+      motion: p.motion.preset, overlays: p.overlays.map((o) => o.type), fx: p.fx.map((f) => f.particles || f.overlay).filter(Boolean), transition_out: p.transition,
+      image_prompt_zh: r ? `${r.image_prompt.replaceAll('{主体}', args.subject || '【主体】')}。${R.image_prompt_suffix}` : null, i2v_prompt_zh: p.prompt };
+  });
+  const W = '项目目录';
+  return {
+    tier, tier_label: TIERS[tier].label, backend: sel.backend, provider: sel.provider, reason: sel.reason, suggest: sel.suggest || null,
+    local_options: TIERS[tier].local, notes: TIERS[tier].notes, aspect: sb.aspect, shots,
+    commands: [`node stills2video/cli.mjs doctor`, `node stills2video/cli.mjs make --images ${W}/stills${args.script ? ` --script ${W}/台词.txt` : ''} --aspect ${sb.aspect} --out ${W}/final.mp4 --backend ${sel.provider ? `${sel.backend}:${sel.provider}` : sel.backend}${sel.backend === 'cpu' ? '' : ' --dry-run'}`],
+    note: '只读规划：没有读取图片、没有探测硬件、没有调用任何生成接口。图片按文件名编号排序（S01_shot03 / 镜头3 / 03_xxx），没有编号时按给出的顺序。',
+  };
 }
 
 const CAMERA = /运镜|推镜|拉镜|摇镜|移镜|跟拍|dolly|pan\b|tilt|tracking|handheld|手持|镜头运动|camera move|crane|推近|拉远/i;

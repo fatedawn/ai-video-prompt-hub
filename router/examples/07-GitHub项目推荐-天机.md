@@ -109,20 +109,20 @@
 
 | 项目 | ★ | 许可 | 成本 | 语言 | 用法 |
 |---|---|---|---|---|---|
-| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 58857 | Apache-2.0 | 免费CPU | 英文 | HeyGen 出品：写 HTML 渲视频，为 agent 设计的确定性 HTML→MP4 框架（Apache-2.0）；**接入**：大量中文白板/口播 skill 的渲染底座；与 Remotion 二选一 |
-| [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 10795 | Apache-2.0 | 免费CPU/Agent额度 | 中英 | 电影感产品宣传片 skill：150+ 镜头配方卡、200+ 动效预览、可直接用的 Remotion 模板；**接入**：产品带货/项目推荐的 Remotion 镜头库（Apache-2.0） |
-| [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 133679 | MIT | 免费CPU | 中英 | 手绘风白板（开源），大量手绘工具的上游；**接入**：画线稿/示意图，再交给 excalidraw-animate / excalimate 动起来 |
-| [latent-spaces/brag](https://github.com/latent-spaces/brag) | 14165 | MIT | 免费CPU/Agent额度 | 英文 | /brag：把你刚做的项目一条命令变成带音乐、动效和分享文案的发布短片；**接入**：GitHub 项目推荐（天机）的现成「项目→发布片」方案 |
-| [op7418/guizang-product-video-skill](https://github.com/op7418/guizang-product-video-skill) | 705 | AGPL-3.0 传染性 | 免费CPU/Agent额度 | 中文 | 归藏：复用产品真实组件与设计语言，用代码做软件更新宣传片（含分镜文案、原创配乐、音效）；**接入**：软件/开源项目宣传片；AGPL-3.0 |
-| [nexu-io/html-video](https://github.com/nexu-io/html-video) | 4652 | Apache-2.0 | 免费CPU/Agent额度 | 英文 | 编程 agent 的程序化视频：HTML/CSS/数据→MP4，21 个模板，可直接贴文章或 GitHub 仓库链接；**接入**：「GitHub 仓库→视频」直接对口天机选题 |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 59183 | Apache-2.0 | 免费CPU | 英文 | HeyGen 出品：写 HTML 渲视频，为 agent 设计的确定性 HTML→MP4 框架（Apache-2.0）；**接入**：大量中文白板/口播 skill 的渲染底座；与 Remotion 二选一 |
+| [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 10881 | Apache-2.0 | 免费CPU/Agent额度 | 中英 | 电影感产品宣传片 skill：150+ 镜头配方卡、200+ 动效预览、可直接用的 Remotion 模板；**接入**：产品带货/项目推荐的 Remotion 镜头库（Apache-2.0） |
+| [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 133512 | MIT | 免费CPU | 中英 | 手绘风白板（开源），大量手绘工具的上游；**接入**：画线稿/示意图，再交给 excalidraw-animate / excalimate 动起来 |
+| [latent-spaces/brag](https://github.com/latent-spaces/brag) | 14380 | MIT | 免费CPU/Agent额度 | 英文 | /brag：把你刚做的项目一条命令变成带音乐、动效和分享文案的发布短片；**接入**：GitHub 项目推荐（天机）的现成「项目→发布片」方案 |
+| [op7418/guizang-product-video-skill](https://github.com/op7418/guizang-product-video-skill) | 727 | AGPL-3.0 传染性 | 免费CPU/Agent额度 | 中文 | 归藏：复用产品真实组件与设计语言，用代码做软件更新宣传片（含分镜文案、原创配乐、音效）；**接入**：软件/开源项目宣传片；AGPL-3.0 |
+| [nexu-io/html-video](https://github.com/nexu-io/html-video) | 4654 | Apache-2.0 | 免费CPU/Agent额度 | 英文 | 编程 agent 的程序化视频：HTML/CSS/数据→MP4，21 个模板，可直接贴文章或 GitHub 仓库链接；**接入**：「GitHub 仓库→视频」直接对口天机选题 |
 | [geekjourneyx/hyperframes-motion-director](https://github.com/geekjourneyx/hyperframes-motion-director) | 451 | AGPL-3.0 传染性 | 免费CPU/Agent额度 | 中文 | 中文优先的 HyperFrames 动效视频导演：文章/产品/网站/README→9:16 宣传片，含审片；**接入**：README→竖屏宣传片；AGPL-3.0 |
-| [rough-stuff/rough-notation](https://github.com/rough-stuff/rough-notation) | 9710 | MIT | 免费CPU | 英文 | 网页上的手绘标注动画（圈、划线、高亮、框）；**接入**：代码讲解/项目推荐中给关键词「画圈强调」 |
+| [rough-stuff/rough-notation](https://github.com/rough-stuff/rough-notation) | 9711 | MIT | 免费CPU | 英文 | 网页上的手绘标注动画（圈、划线、高亮、框）；**接入**：代码讲解/项目推荐中给关键词「画圈强调」 |
 
 **方法论（剧本、分镜、提示词）**
 
 | 项目 | ★ | 许可 | 成本 | 语言 | 用法 |
 |---|---|---|---|---|---|
-| [kangarooking/promo-creator-skills](https://github.com/kangarooking/promo-creator-skills) | 102 | MIT | Agent额度 | 中文 | 产品宣传片 skills：先做产品判断，再叙事结构、视觉规划、HyperFrames 剪辑、BGM 设计；**接入**：带货/宣传片的「先判断后画面」方法 |
+| [kangarooking/promo-creator-skills](https://github.com/kangarooking/promo-creator-skills) | 103 | MIT | Agent额度 | 中文 | 产品宣传片 skills：先做产品判断，再叙事结构、视觉规划、HyperFrames 剪辑、BGM 设计；**接入**：带货/宣传片的「先判断后画面」方法 |
 
 ## 6. 合规
 

@@ -1,6 +1,6 @@
 <!-- 本文件由 `node router/cli.mjs build-catalog` 从 catalog/registry.json 生成，请改 registry.json 后重新生成 -->
 
-# 视频 Agent 技能与系统（23）
+# 视频 Agent 技能与系统（26）
 
 面向编程 Agent 的视频制作技能与系统：项目发布片、带货、剪映自动化、口播剪辑、数字人、合规审核等。
 
@@ -16,6 +16,7 @@
 | [Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) | 3041 | 2026-09-20 | Apache-2.0 | 口播视频剪辑 Agent（Codex 插件 + 本地工作台） | E-edit | video→mp4 | 免费CPU/Agent额度 | 中文 | 真人口播粗剪 |
 | [cclank/lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video) | 2546 | 2026-10-06 | MIT<br><sub>MIT；人像必须为本人或已获授权</sub> | 主题或脚本 + 已授权人像→数字人讲解视频，或 9 种视觉风格的演示讲解 | B-videogen C-code-motion | script/image→mp4 | API key/Agent额度 | 中英 | 需要「真人出镜感」的口播；必须使用已授权肖像 |
 | [edenfunf/reelmimic](https://github.com/edenfunf/reelmimic) | 1751 | 2026-10-07 | MIT | 给一个喜欢的参考视频→AI 团队规划、制作、审片出同风格新视频 | C-code-motion B-videogen | video→mp4 | Agent额度 | 中英 | 「照着参考片的风格做」场景 |
+| [pyang5166/gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll) | 1328 | 2026-07-15 | MIT | 半调纸拼贴风 B-roll Agent skill，首尾帧组装（生成走 Gemini API） | S-stills C-code-motion | script/image→mp4 | API key/Agent额度 | 中文 | 风格方法可参考；本仓库 B-roll 配方库（stills2video/recipes/broll.json）是自写的 |
 | [echris6/motion-video-kit](https://github.com/echris6/motion-video-kit) | 1070 | 2026-09-28 | MIT | 商业广告片 skill：独立评审回路、28 支发布片总结的动效原则、质量门槛与声音设计 | C-code-motion B-videogen | product→mp4 | API key/Agent额度 | 英文 | 广告片质量标准参考 |
 | [feicaiclub/video-spec-builder](https://github.com/feicaiclub/video-spec-builder) | 1015 | 2026-05-18 | MIT | 像导演一样追问，把「我想做个视频」逼成精确到秒的 video-spec.md，再交给 HyperFrames | M-method C-code-motion | topic→storyboard | Agent额度 | 中英 | 需求澄清阶段：可与 ai-video-director 的 intake 互补 |
 | [artokun/comfyui-mcp](https://github.com/artokun/comfyui-mcp) | 798 | 2026-10-05 | MIT | 本地 ComfyUI 的 agent 控制面：MCP + 侧栏 agent 生成图像/视频、搭工作流 | B-videogen | topic→mp4/png | GPU | 英文 | 自有 GPU 时让 agent 驱动 ComfyUI，可与 videogen 路线 B 并用 |
@@ -31,5 +32,7 @@
 | [xianyu110/ecommerce-video-skills](https://github.com/xianyu110/ecommerce-video-skills) | 57 | 2026-10-05 | MIT | 电商短视频 skills：3 秒钩子、卖点分镜、图生视频提示词、配音字幕花字、ffmpeg 本地成片、多平台导出 | B-videogen E-edit | product/image→mp4/prompt | 免费CPU/Agent额度 | 中文 | 产品带货零成本起步方案 |
 | [Mr-funny/hbg-douyin-code-explainer-video](https://github.com/Mr-funny/hbg-douyin-code-explainer-video) | 30 | 2026-07-30 | NONE ⚠️无许可证 | 中文观点/知识文案→双人对话式 9:16 HyperFrames 代码动画口播，全局语音对齐 | C-code-motion | script→mp4 | 免费CPU/Agent额度 | 中文 | 中文对话式口播；无许可证，仅链接 |
 | [axtonliu/video-illustrator](https://github.com/axtonliu/video-illustrator) | 18 | 2026-10-01 | MIT | 用你自己的旁白和真实素材（封面、截图、logo）做 20–60 秒宣传/概念讲解，多种风格可选 | C-code-motion | audio/image→mp4 | 免费CPU/Agent额度 | 中英 | 真人旁白 + 真实素材的讲解片 |
+| [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | 424 | 2026-04-09 | NONE ⚠️无许可证<br><sub>2026-10-09 确认仓库根目录没有 LICENSE / COPYING：默认保留所有权利，只能看和自用，本仓库只给链接、不复制任何内容。</sub> | 自然语言 → ComfyUI 工作流 JSON 的 Agent skill | B-videogen | text→project | Agent额度/GPU | 中文 | 只给链接；stills2video 的工作流是从 MIT 官方模板改写的 |
+| [Bomx/super-video-maker-skill](https://github.com/Bomx/super-video-maker-skill) | 309 | 2026-08-09 | NONE ⚠️无许可证<br><sub>2026-10-09 确认仓库根目录没有 LICENSE / COPYING：默认保留所有权利，只能看和自用，本仓库只给链接、不复制任何内容。</sub> | OpenAI 出图 + FFmpeg 运动 + Remotion/HyperFrames 的 Agent skill（带付费调用闸门） | S-stills C-code-motion | script→mp4 | API key/Agent额度 | 英文 | 只给链接；本仓库同类功能见 stills2video（Apache-2.0） |
 
 [← 返回目录](README.md)

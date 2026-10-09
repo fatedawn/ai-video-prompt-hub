@@ -152,3 +152,31 @@ test('preset → medium mapping matches animator styles.mjs', async () => {
   const fn = new Function(`${src.match(/export function suggestMedia[\s\S]*?\n}\n/)[0].replace('export ', '')}; return suggestMedia;`)();
   for (const s of data.styles.styles) assert.equal(mediaForPreset(s), fn(s), s.id);
 });
+
+test('only-images / no-subscription → stills2video route S with the hardware tier', () => {
+  const topic = '我只有 ChatGPT 出的几张仙侠图，没有视频订阅，想做 20 秒短片';
+  const cpu = recommend(data, topic, { budget: 'free-cpu' });
+  assert.equal(cpu.route.primary, 'S');
+  assert.equal(cpu.stills.tier, 'cpu');
+  assert.equal(cpu.stills.backend, 'cpu');
+  assert.match(cmds(cpu), /stills2video\/cli\.mjs make .*--backend cpu/);
+  assert.ok(exists('stills2video/cli.mjs'));
+  const g8 = recommend(data, topic, { budget: 'gpu', vram: 8 });
+  assert.equal(g8.stills.tier, 'gpu8');
+  assert.equal(g8.stills.backend, 'comfyui');
+  assert.match(cmds(g8), /--backend comfyui --dry-run/);
+  assert.equal(recommend(data, topic, { budget: 'gpu', vram: 24 }).stills.tier, 'gpu24');
+  assert.equal(recommend(data, topic, { budget: 'api-key' }).stills.backend, 'cloud:seedance');
+  assert.equal(recommend(data, topic, { budget: 'web-manual' }).stills.backend, 'manual');
+  assert.ok(recommend(data, '一个关于友情的故事', { budget: 'free-cpu', assets: 'images' }).route.primary === 'S');
+  // stills/I2V/polish catalog entries are ranked for route S
+  assert.ok(cpu.external.tools.some((e) => /Depth-Anything|DepthFlow|kburns|editly/.test(e.repo)));
+  assert.ok(planToMarkdown(cpu).includes('路线⑤'));
+});
+
+test('video-model plans on free CPU offer stills2video as an alternative; text-only plans do not', () => {
+  const p = plan(0, { budget: 'free-cpu' });
+  assert.ok(p.route.secondary.some((r) => r.id === 'S'));
+  assert.notEqual(p.route.primary, 'S');
+  assert.equal(plan(2).stills, undefined);
+});

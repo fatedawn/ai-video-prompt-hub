@@ -75,6 +75,18 @@
     "art": null,
     "items": [
       {
+        "id": "renoise-2066156278779392342",
+        "title": "【风格】都市情感短片（Urban Romance），超写实电影级（Photorealistic），半写实电影级动画质感（Semi-realistic…",
+        "genre": "真人/现实向/甜宠恋爱",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "renoise-ai/awesome-seedance-prompts",
+        "path": "prompts/真人/现实向/甜宠恋爱/renoise-2066156278779392342--风格-都市情感短片-Urban-Romance-,超写实电影级-Photorea.md",
+        "score": 6.8
+      },
+      {
         "id": "youmind-9284",
         "title": "韩剧浪漫喜剧公交车场景剧本",
         "genre": "真人/现实向/甜宠恋爱",
@@ -120,18 +132,6 @@
         "license": "CC-BY-4.0 (curation) — prompt © original creator",
         "source_repo": "LearnPrompt/awesome-seedance",
         "path": "prompts/真人/现实向/情绪特写/goodcase-seedance-2-5-8d136b59e95a--出租车分手戏-仿真人微表情连续情绪演变视频-Seedance-2.5.md",
-        "score": 5.8
-      },
-      {
-        "id": "youmind-10052",
-        "title": "Seedance 2.0 多资产角色锁定",
-        "genre": "真人/现实向/甜宠恋爱",
-        "art_style": "",
-        "language": "zh",
-        "model": "Seedance 2.0",
-        "license": "CC-BY-4.0",
-        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
-        "path": "prompts/真人/现实向/甜宠恋爱/youmind-10052--Seedance-2.0-多资产角色锁定.md",
         "score": 5.8
       },
       {
@@ -224,7 +224,7 @@
         "url": "https://github.com/HBAI-Ltd/Toonflow-app",
         "kind": "platform",
         "intro_zh": "开源 AI 短剧工厂：无限画布 + Agent + 角色三视图 + 智能分镜 + 视频生成",
-        "stars": 16696,
+        "stars": 16797,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -242,7 +242,7 @@
         "url": "https://github.com/Forget-C/Jellyfish",
         "kind": "platform",
         "intro_zh": "AI 短剧端到端工作台：结构化分镜、一致性管理到出片",
-        "stars": 6630,
+        "stars": 6634,
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -259,7 +259,7 @@
         "url": "https://github.com/xuanyustudio/LocalMiniDrama",
         "kind": "app",
         "intro_zh": "本地 AI 短剧 & 漫剧生成工具，数据不出本机",
-        "stars": 1972,
+        "stars": 1975,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -276,7 +276,7 @@
         "url": "https://github.com/ArcReel/ArcReel",
         "kind": "platform",
         "intro_zh": "小说/剧本→角色场景道具资产→分镜→视频→剪映草稿",
-        "stars": 5373,
+        "stars": 5387,
         "license": "AGPL-3.0",
         "license_class": "copyleft",
         "license_note": "AGPL-3.0：修改后对外提供网络服务也需开源",
@@ -293,7 +293,7 @@
         "url": "https://github.com/HKUDS/ViMax",
         "kind": "platform",
         "intro_zh": "港大：Idea2Video / Script2Video / Novel2Video，编剧→分镜→角色参考→首帧→视频→拼接",
-        "stars": 12572,
+        "stars": 12585,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -327,7 +327,7 @@
         "url": "https://github.com/chatfire-AI/huobao-drama",
         "kind": "platform",
         "intro_zh": "火宝短剧：一句话生成完整短剧",
-        "stars": 15849,
+        "stars": 15858,
         "license": "CC-BY-NC-SA-4.0",
         "license_class": "noncommercial",
         "license_note": "CC BY-NC-SA 4.0：非商用、相同方式共享",
@@ -363,7 +363,7 @@
         "url": "https://github.com/lixiaoxiao9888-create/short-drama-factory",
         "kind": "skill",
         "intro_zh": "抖音/红果爆款短剧编剧系统：40 赛道、六母型钩子、五大断章、反转轮换，标准/长档/漫剧三档篇幅",
-        "stars": 306,
+        "stars": 310,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -372,7 +372,7 @@
         ],
         "zh": "native",
         "plugs_into": "只产剧本层；剧本完成后再进分镜与 videogen",
-        "score": 17.24
+        "score": 17.25
       },
       {
         "id": "short-drama",
@@ -380,7 +380,7 @@
         "url": "https://github.com/0xsline/short-drama",
         "kind": "skill",
         "intro_zh": "短剧剧本创作 skill：13 种题材模板、四层反派、五种钩子、节奏曲线、付费卡点、合规审核、出海",
-        "stars": 1365,
+        "stars": 1367,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -397,7 +397,7 @@
         "url": "https://github.com/liyue-aigc/seedance-2-5-video-director",
         "kind": "skill",
         "intro_zh": "Seedance 2.5 视频导演：脚本、诊断、人物锁定、续写、编辑、转场、多格分镜动画",
-        "stars": 553,
+        "stars": 556,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -431,7 +431,7 @@
         "url": "https://github.com/snailzsh/manga-script-master",
         "kind": "skill",
         "intro_zh": "爆款漫剧（动态漫/条漫）脚本 + AI 分镜提示词：角色视觉锚点、四大赛道节奏模型",
-        "stars": 73,
+        "stars": 74,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -440,7 +440,7 @@
         ],
         "zh": "native",
         "plugs_into": "漫剧赛道节奏",
-        "score": 10.93
+        "score": 10.94
       }
     ]
   },

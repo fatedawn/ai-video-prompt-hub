@@ -10,7 +10,7 @@ node router/cli.mjs scenarios       # 可识别的题材场景
 node router/cli.mjs search 火柴人 --cost free-cpu --zh native
 node router/cli.mjs build-catalog   # registry.json → catalog/*.md
 node router/cli.mjs check           # 校验 registry、场景引用、catalog 是否最新
-cd router && npm test               # 8 个示例题材 + 合规规则测试
+cd router && npm test               # 9 个示例题材 + 合规规则测试
 ```
 
 ## 读取的数据

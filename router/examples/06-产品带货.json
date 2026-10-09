@@ -30,6 +30,19 @@
     ],
     "modifiers": []
   },
+  "stills": {
+    "explicit": false,
+    "tier": "cpu",
+    "tier_label": "无独显 / 核显 / <6GB",
+    "backend": "cpu",
+    "local_options": [
+      "CPU 2.5D 视差 + Ken Burns + 叠层特效（本工具 cpu 后端，深度模型 Depth-Anything-V2-Small 26MB）"
+    ],
+    "why": [
+      "预算是「免费 + CPU」又需要动态画面：先用 ChatGPT 出图，再交给 stills2video 做 2.5D 视差成片（没有视频模型费用）",
+      "硬件档位：无独显 / 核显 / <6GB → 后端 cpu；真实物体运动做不到；需要的话用云端 key（cloud）或网页端手动（manual）补关键镜头。"
+    ]
+  },
   "route": {
     "primary": "C",
     "primary_name": "路线③：代码动效（Remotion / HyperFrames / Manim）",
@@ -39,6 +52,10 @@
         "name": "路线②：videogen 视频生成 + prompts/ 提示词（本仓库）"
       },
       {
+        "id": "S",
+        "name": "路线⑤：stills2video 静图成片（本仓库）"
+      },
+      {
         "id": "D",
         "name": "路线④：外部开源项目（catalog/）"
       }
@@ -46,7 +63,9 @@
     "videogen_mode": "web",
     "why": [
       "「产品带货 / 广告」需要写实画面与真人表演，用视频模型生成，提示词与模板来自本仓库 prompts/ 和 templates/",
-      "预算是「免费 + CPU」：用产品实拍图 + 代码动效/ffmpeg 做带货片（无需 API）；视频模型镜头作为可选升级"
+      "预算是「免费 + CPU」：用产品实拍图 + 代码动效/ffmpeg 做带货片（无需 API）；视频模型镜头作为可选升级",
+      "预算是「免费 + CPU」又需要动态画面：先用 ChatGPT 出图，再交给 stills2video 做 2.5D 视差成片（没有视频模型费用）",
+      "硬件档位：无独显 / 核显 / <6GB → 后端 cpu；真实物体运动做不到；需要的话用云端 key（cloud）或网页端手动（manual）补关键镜头。"
     ]
   },
   "script_skeleton": [
@@ -92,15 +111,15 @@
         "score": 7.8
       },
       {
-        "id": "youmind-7423",
-        "title": "微缩科技商店微距视频",
+        "id": "renoise-2068198980329304239",
+        "title": "14秒，真人实拍，手机随手拍真实质感，9:16竖屏，文艺居家暖调ins风开箱种草。全程固定机位（手机架着不动），文艺书房固定背景（米白墙、木质书架满书、暖光台灯…",
         "genre": "其他/广告带货",
         "art_style": "",
         "language": "zh",
         "model": "Seedance 2.0",
         "license": "CC-BY-4.0",
-        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
-        "path": "prompts/其他/广告带货/youmind-7423--微缩科技商店微距视频.md",
+        "source_repo": "renoise-ai/awesome-seedance-prompts",
+        "path": "prompts/其他/广告带货/renoise-2068198980329304239--14秒,真人实拍,手机随手拍真实质感,9-16竖屏,文艺居家暖调ins风开箱种草.md",
         "score": 7.8
       },
       {
@@ -210,7 +229,7 @@
         "url": "https://github.com/xianyu110/ecommerce-video-skills",
         "kind": "skill",
         "intro_zh": "电商短视频 skills：3 秒钩子、卖点分镜、图生视频提示词、配音字幕花字、ffmpeg 本地成片、多平台导出",
-        "stars": 53,
+        "stars": 57,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -220,7 +239,7 @@
         ],
         "zh": "native",
         "plugs_into": "产品带货零成本起步方案",
-        "score": 17.87
+        "score": 17.88
       },
       {
         "id": "video-shotcraft",
@@ -228,7 +247,7 @@
         "url": "https://github.com/Vincentwei1021/video-shotcraft",
         "kind": "skill",
         "intro_zh": "电影感产品宣传片 skill：150+ 镜头配方卡、200+ 动效预览、可直接用的 Remotion 模板",
-        "stars": 10795,
+        "stars": 10881,
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -246,7 +265,7 @@
         "url": "https://github.com/op7418/guizang-product-video-skill",
         "kind": "skill",
         "intro_zh": "归藏：复用产品真实组件与设计语言，用代码做软件更新宣传片（含分镜文案、原创配乐、音效）",
-        "stars": 705,
+        "stars": 727,
         "license": "AGPL-3.0",
         "license_class": "copyleft",
         "license_note": "AGPL-3.0",
@@ -256,7 +275,7 @@
         ],
         "zh": "native",
         "plugs_into": "软件/开源项目宣传片；AGPL-3.0",
-        "score": 12.42
+        "score": 12.43
       },
       {
         "id": "hyperframes-motion-director",
@@ -282,7 +301,7 @@
         "url": "https://github.com/diffusionstudio/lottie",
         "kind": "skill",
         "intro_zh": "Text-to-Lottie：用 Claude Code/Codex 生成可投产的 Lottie 动画",
-        "stars": 5548,
+        "stars": 5551,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -335,7 +354,7 @@
         "url": "https://github.com/heygen-com/hyperframes",
         "kind": "engine",
         "intro_zh": "HeyGen 出品：写 HTML 渲视频，为 agent 设计的确定性 HTML→MP4 框架（Apache-2.0）",
-        "stars": 58857,
+        "stars": 59183,
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -371,7 +390,7 @@
         "url": "https://github.com/kangarooking/promo-creator-skills",
         "kind": "skill",
         "intro_zh": "产品宣传片 skills：先做产品判断，再叙事结构、视觉规划、HyperFrames 剪辑、BGM 设计",
-        "stars": 102,
+        "stars": 103,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -388,7 +407,7 @@
         "url": "https://github.com/liangdabiao/make-prompt-seedance2",
         "kind": "method",
         "intro_zh": "Seedance 2.0 结构化提示词指南：16+ 模板、8+ 示例（带货、TVC、真人实拍）",
-        "stars": 693,
+        "stars": 694,
         "license": "NONE",
         "license_class": "none",
         "license_note": "无 LICENSE 文件；docs/ 收录了他人文章，仅链接，切勿复制",
@@ -476,6 +495,46 @@
       ],
       "note": "台词交给本地 Kokoro TTS（需先 cd animator && npm run setup:tts），自动逐字字幕；--bgm 加你有版权的音乐",
       "route": "B"
+    },
+    {
+      "route": "S",
+      "title": "—— 路线⑤：stills2video 静图成片（本仓库）（备选/升级） ——",
+      "cmds": []
+    },
+    {
+      "title": "准备（只需一次）",
+      "cmds": [
+        "cd stills2video && npm run setup:depth && cd ..",
+        "cd animator && npm install && npm run setup:tts && cd ..",
+        "node stills2video/cli.mjs doctor"
+      ],
+      "note": "setup:depth 下载 Depth-Anything-V2-Small（Apache-2.0，26MB，校验 sha256）；setup:tts 下载本地 Kokoro 配音；doctor 自动检测显卡档位",
+      "route": "S"
+    },
+    {
+      "title": "写台词 + 生成出图提示词",
+      "cmds": [
+        "mkdir -p .work/产品带货-便携榨汁杯-3/stills && $EDITOR .work/产品带货-便携榨汁杯-3/台词.txt",
+        "node stills2video/cli.mjs prompts --script .work/产品带货-便携榨汁杯-3/台词.txt --out .work/产品带货-便携榨汁杯-3/出图提示词.md"
+      ],
+      "note": "一行台词 = 一个镜头；行首可写【晨雾竹林推进】等配方名（node stills2video/cli.mjs recipes 查看）",
+      "route": "S"
+    },
+    {
+      "title": "在 ChatGPT 里出图",
+      "cmds": [
+        "# 按 .work/产品带货-便携榨汁杯-3/出图提示词.md 逐镜出图，下载后命名 01.png、02.png… 放进 .work/产品带货-便携榨汁杯-3/stills/"
+      ],
+      "note": "默认手动出图（会员不含 API 额度）；有 OPENAI_API_KEY 可选 node stills2video/cli.mjs images（按量计费）",
+      "route": "S"
+    },
+    {
+      "title": "一条命令出片（cpu）",
+      "cmds": [
+        "node stills2video/cli.mjs make --images .work/产品带货-便携榨汁杯-3/stills --script .work/产品带货-便携榨汁杯-3/台词.txt --aspect 9:16 --out .work/产品带货-便携榨汁杯-3/final.mp4 --backend cpu"
+      ],
+      "note": "CPU：深度视差 + 运镜 + 雾/光/粒子叠层 + huashu 转场 + Kokoro 配音字幕；同时输出封面和缩略图",
+      "route": "S"
     },
     {
       "title": "发布前质检",

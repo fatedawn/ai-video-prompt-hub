@@ -15,7 +15,7 @@ const HELP = `AI 导演路由器：按题材给出制作方案（路线、工具
 
   recommend "题材描述" [--medium 漫剧|真人|其他] [--direction 现实向|特效向]
             [--budget free-cpu|gpu|api-key|web-manual] [--duration 60] [--aspect 9:16|16:9|1:1]
-            [--assets character,product,footage] [--voice 本地TTS|自己配音] [--style 彩铅|<预设id>]
+            [--assets character,product,footage,images] [--vram 显存GB] [--voice 本地TTS|自己配音] [--style 彩铅|<预设id>]
             [--media crayon|colored-pencil|pencil|ink|picture-book|marker] [--character tianji|doudou]
             [--scenario <id>] [--commercial] [--lang zh|en] [--format md|json] [--out 文件]
   intake    [--format md|json]          打印需求确认问题清单（给 Agent 逐项问用户）
@@ -24,7 +24,7 @@ const HELP = `AI 导演路由器：按题材给出制作方案（路线、工具
             [--cost free-cpu|gpu|api-key] [--zh native] [--license permissive] [--category <id>] [--format md|json]
   build-catalog                          由 catalog/registry.json 重新生成 catalog/*.md
   check                                  校验 registry.json、场景配置引用的预设/模板、catalog 是否最新
-  examples                               为 8 个示例题材生成 router/examples/*.md|json
+  examples                               为 9 个示例题材生成 router/examples/*.md|json
 `;
 
 export const SAMPLES = [
@@ -36,6 +36,7 @@ export const SAMPLES = [
   { file: '06-产品带货', topic: '产品带货：便携榨汁杯 30 秒种草视频', opts: { budget: 'free-cpu', assets: 'product' } },
   { file: '07-GitHub项目推荐-天机', topic: 'GitHub 项目推荐（天机）：一个免费的本地 AI 配音开源工具', opts: { budget: 'free-cpu' } },
   { file: '08-DV-vlog', topic: 'DV vlog：2005 年夏天一家人去海边的家庭录像', opts: { budget: 'web-manual' } },
+  { file: '09-只有图片无订阅', topic: '只有 ChatGPT 出的 5 张图、没有视频订阅：做一条 20 秒仙侠氛围短片', opts: { budget: 'free-cpu', assets: 'images' } },
 ];
 
 export const INTAKE = [
@@ -45,7 +46,8 @@ export const INTAKE = [
   { key: 'duration', q: '时长？（单集/单条秒数，是否多集）', default: '按题材：讲解 60–90s，短剧单集 60s，带货 30s' },
   { key: 'aspect', q: '画幅？', options: ['9:16', '16:9', '1:1'], default: '9:16' },
   { key: 'budget', q: '预算/硬件？', options: Object.entries(BUDGETS).map(([k, v]) => `${k}（${v}）`), default: 'free-cpu' },
-  { key: 'assets', q: '已有素材？（角色设定图/参考图、产品实拍图、实拍视频、品牌素材）', options: ['character', 'product', 'footage', '无'], default: '无' },
+  { key: 'assets', q: '已有素材？（角色设定图/参考图、产品实拍图、实拍视频、品牌素材）', options: ['character', 'product', 'footage', 'images', '无'], default: '无' },
+  { key: 'vram', q: '显卡显存多少 GB？（只有图片走 stills2video 时用来选档位；不知道就 0 / 运行 node stills2video/cli.mjs doctor）', options: ['0', '8', '12', '16', '24'], default: '0' },
   { key: 'voice', q: '配音方式？（本地 Kokoro TTS 免费 / 自己录 / 已授权的克隆声音 / 不要配音）', default: '本地 Kokoro TTS' },
   { key: 'style', q: '画风偏好？（例：彩铅日记、水墨、蜡笔、3D 国漫、日漫、写实电影感）', default: '按题材推荐' },
   { key: 'commercial', q: '是否商用（带货、接广告、公司账号）？商用会排除非商用/无许可证的外部项目', options: ['是', '否'], default: '否' },
@@ -109,7 +111,7 @@ async function main() {
     const topic = a.topic || a._.join(' ');
     if (!topic) throw new Error('请给出题材：node router/cli.mjs recommend "仙侠漫剧：……"');
     const opts = { medium: a.medium, direction: a.direction, budget: a.budget || 'free-cpu', duration: a.duration, aspect: a.aspect, assets: a.assets,
-      voice: a.voice, style: a.style, media: a.media, character: a.character, scenario: a.scenario, commercial: !!a.commercial, lang: a.lang };
+      voice: a.voice, style: a.style, media: a.media, character: a.character, scenario: a.scenario, commercial: !!a.commercial, lang: a.lang, vram: a.vram };
     const plan = recommend(loadData(), topic, opts);
     return emit(a.format === 'json' ? JSON.stringify(plan, null, 2) : planToMarkdown(plan), a);
   }

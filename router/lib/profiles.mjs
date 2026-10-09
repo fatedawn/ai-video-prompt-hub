@@ -8,6 +8,7 @@ export const ROUTES = {
   A: { id: 'A', key: 'A-handdrawn', name: '路线①：animator 手绘动画（本仓库）', short: 'animator 手绘逐笔动画（免费、CPU、离线）' },
   B: { id: 'B', key: 'B-videogen', name: '路线②：videogen 视频生成 + prompts/ 提示词（本仓库）', short: '视频模型生成（云 API / 自己的 GPU / 网页手动）' },
   C: { id: 'C', key: 'C-code-motion', name: '路线③：代码动效（Remotion / HyperFrames / Manim）', short: '代码动效、数据图表、字幕重的视频' },
+  S: { id: 'S', key: 'S-stills', name: '路线⑤：stills2video 静图成片（本仓库）', short: '只有图片：CPU 视差 / 本地 GPU 图生视频 / 云端 key / 网页手动，配音字幕转场一条命令' },
   D: { id: 'D', key: 'external', name: '路线④：外部开源项目（catalog/）', short: 'catalog/registry.json 里更合适的现成项目' },
 };
 
@@ -192,6 +193,10 @@ export const MODIFIERS = [
   { id: 'subtitle-heavy', kw: ['字幕', '花字', '逐字', '大字报', '金句'], use_for: ['talking-head'], note: '字幕重：成片后可用路线③的字幕组件（remotion-subtitles / template-tiktok）做花字' },
   { id: 'kids-safe', kw: ['儿童', '亲子', '幼儿', '宝宝', '小朋友'], use_for: ['kids'], note: '面向儿童：避免惊吓画面与不安全行为示范' },
 ];
+
+/** "I only have stills / no video subscription" — triggers the stills2video route (S). */
+export const STILLS_KW = [/只有.{0,8}(图|照片|插画)/, /(没有|没|无|不想|不买).{0,4}(视频)?(订阅|会员)/, /(chatgpt|gpt|images ?2\.5|即梦|豆包|midjourney|mj|sd|ai).{0,6}(出|生成|画)的?.{0,8}(图|照片)/,
+  /(图片|照片|插画|静图).{0,3}(转|做|变|生成)(成)?.{0,2}视频/, /图生视频|静图|让.{0,4}图.{0,4}动|空镜|b-?roll|视差|ken ?burns/, /(几|一堆|一组|一些).{0,2}张.{0,6}(图|照片)/];
 
 /** Hints for medium/direction when the user didn't give them explicitly. */
 export const MEDIUM_HINTS = {

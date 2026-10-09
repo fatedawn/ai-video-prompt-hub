@@ -1,5 +1,6 @@
 // The router's decision logic (original work, Apache-2.0). Pure functions over loadData() output.
-import { SCENARIOS, GENERIC, MODIFIERS, MEDIUM_HINTS, DIRECTION_HINTS, ROUTES, BUDGETS } from './profiles.mjs';
+import { SCENARIOS, GENERIC, MODIFIERS, MEDIUM_HINTS, DIRECTION_HINTS, ROUTES, BUDGETS, STILLS_KW } from './profiles.mjs';
+import { TIERS, tierOf } from '../../stills2video/lib/hardware.mjs';
 import { grams, overlap, norm, slug } from './text.mjs';
 
 // Well-known copyrighted characters/franchises: prompts naming them are pushed down (we recommend original characters).
@@ -89,6 +90,42 @@ export function decideRoute(c, opts) {
   secondary.delete(primary);
   secondary.add('D');
   return { primary, secondary: [...secondary], videogenMode, why };
+}
+
+/**
+ * Route S (stills2video): explicit when the user says they only have images / no subscription (or --assets images);
+ * offered as an upgrade-free alternative whenever the plan needs a video model but the budget is free-cpu.
+ * Hardware tier: --vram <GB> wins; budget gpu without --vram assumes 12GB; otherwise cpu. Pure.
+ */
+export function stillsPlan(topic, opts, route) {
+  const t = norm(topic);
+  const assets = opts.assets || [];
+  const explicit = assets.some((a) => ['images', 'image', 'stills', '图片'].includes(a)) || STILLS_KW.some((re) => re.test(t));
+  const offered = explicit || (opts.budget === 'free-cpu' && (route.primary === 'B' || route.secondary.includes('B')));
+  if (!offered) return null;
+  const vram = opts.vram != null && opts.vram !== true ? +opts.vram : null;
+  const tier = vram != null ? tierOf(vram) : opts.budget === 'gpu' ? 'gpu12' : 'cpu';
+  const backend = opts.budget === 'api-key' ? 'cloud:seedance' : opts.budget === 'web-manual' ? 'manual' : tier === 'cpu' ? 'cpu' : 'comfyui';
+  const T = TIERS[tier];
+  const why = explicit ? ['你手上是现成的图片（例如 ChatGPT Images 出的图），不需要视频会员：stills2video 把图片按编号排成镜头，自动运镜 + 配音 + 字幕 + 转场成片']
+    : ['预算是「免费 + CPU」又需要动态画面：先用 ChatGPT 出图，再交给 stills2video 做 2.5D 视差成片（没有视频模型费用）'];
+  why.push(`硬件档位：${T.label}${vram != null ? `（--vram ${vram}）` : opts.budget === 'gpu' ? '（未给 --vram，按 12GB 估计）' : ''} → 后端 ${backend}；${T.notes}`);
+  return { explicit, tier, tier_label: T.label, backend, local_options: T.local, why };
+}
+
+function stillsSteps(sp, ctx) {
+  const W = `.work/${ctx.slug}`;
+  const be = sp.backend === 'manual' ? 'cpu' : sp.backend;
+  const steps = [
+    { title: '准备（只需一次）', cmds: ['cd stills2video && npm run setup:depth && cd ..', 'cd animator && npm install && npm run setup:tts && cd ..', 'node stills2video/cli.mjs doctor'], note: 'setup:depth 下载 Depth-Anything-V2-Small（Apache-2.0，26MB，校验 sha256）；setup:tts 下载本地 Kokoro 配音；doctor 自动检测显卡档位' },
+    { title: '写台词 + 生成出图提示词', cmds: [`mkdir -p ${W}/stills && $EDITOR ${W}/台词.txt`, `node stills2video/cli.mjs prompts --script ${W}/台词.txt --out ${W}/出图提示词.md`], note: '一行台词 = 一个镜头；行首可写【晨雾竹林推进】等配方名（node stills2video/cli.mjs recipes 查看）' },
+    { title: '在 ChatGPT 里出图', cmds: [`# 按 ${W}/出图提示词.md 逐镜出图，下载后命名 01.png、02.png… 放进 ${W}/stills/`], note: '默认手动出图（会员不含 API 额度）；有 OPENAI_API_KEY 可选 node stills2video/cli.mjs images（按量计费）' },
+    { title: `一条命令出片（${be}）`, cmds: [`node stills2video/cli.mjs make --images ${W}/stills --script ${W}/台词.txt --aspect ${ctx.aspect} --out ${W}/final.mp4 --backend ${be}${be.startsWith('cloud') || be === 'comfyui' ? ' --dry-run' : ''}`],
+      note: be === 'cpu' ? 'CPU：深度视差 + 运镜 + 雾/光/粒子叠层 + huashu 转场 + Kokoro 配音字幕；同时输出封面和缩略图' : be === 'comfyui' ? `先 --dry-run 检查工作流（写到 comfyui/*.api.json），确认 ComfyUI 在线后去掉 --dry-run；${(TIERS[sp.tier].comfyui || {}).note || ''}` : '先 --dry-run 只打印请求；填好 .env 里的 key 后去掉 --dry-run（按秒计费）' },
+  ];
+  if (sp.backend === 'manual') steps.push({ title: '网页端手动生成关键镜头（可选）', cmds: [`node stills2video/cli.mjs export ${W}/s2v.json --site jimeng --out ${W}/packages`, `node stills2video/cli.mjs import ${W}/s2v.json --from ~/Downloads`, `node stills2video/cli.mjs assemble ${W}/s2v.json --out ${W}/final.mp4`], note: '没有导入的镜头仍用 CPU 视差片段' });
+  if (sp.tier !== 'cpu') steps.push({ title: '补帧 / 放大（可选）', cmds: [`node stills2video/cli.mjs polish ${W}/s2v.json --interp 2 --upscale 2`, `node stills2video/cli.mjs assemble ${W}/s2v.json --out ${W}/final.mp4`], note: '检测到 rife-ncnn-vulkan / realesrgan-ncnn-vulkan 就用，没有退回 ffmpeg' });
+  return steps;
 }
 
 function genreTargets(c) {
@@ -196,8 +233,9 @@ export function rankExternal(data, c, route, opts) {
     const real = e.use_for.filter((u) => want.has(u)).length;
     const anyOk = e.use_for.includes('any') && e.routes.includes(ROUTES[route.primary].key);
     const uf = real + (anyOk ? 0.5 : 0);
-    if (!uf) continue;
-    let s = uf * 3 + (e.use_for.includes(c.scenario.use_for[0]) ? 2 : 0);
+    const stillsFit = route.primary === 'S' && e.routes.includes('S-stills'); // only-images plans want stills/I2V/polish tools first
+    if (!uf && !stillsFit) continue;
+    let s = uf * 3 + (stillsFit ? 6 + (opts.budget === 'gpu' && e.cost.includes('gpu') ? 3 : 0) : 0) + (e.use_for.includes(c.scenario.use_for[0]) ? 2 : 0);
     const wantIn = SCENARIO_INPUT[c.scenario.id] || (c.scenario.drama ? ['story', 'novel', 'script'] : []);
     if (c.modifiers.some((m) => m.id === 'novel-adapt')) wantIn.push('novel');
     if (e.input.some((i) => wantIn.includes(i))) s += 1.5;
@@ -290,6 +328,17 @@ export function recommend(data, topic, opts = {}) {
   const c = classify(topic, opts);
   const aspect = opts.aspect || c.scenario.aspect;
   const route = decideRoute(c, opts);
+  const stills = stillsPlan(topic, opts, route);
+  if (stills?.explicit) {
+    if (route.primary !== 'S') route.secondary.unshift(route.primary);
+    route.primary = 'S';
+    route.why = [...stills.why, ...route.why.filter((w) => !w.includes('先用 animator 做手绘漫剧版'))];
+  } else if (stills) {
+    route.secondary = route.secondary.filter((r) => r !== 'S');
+    route.secondary.splice(route.secondary.indexOf('D') >= 0 ? route.secondary.indexOf('D') : route.secondary.length, 0, 'S');
+    route.why.push(...stills.why);
+  }
+  route.secondary = [...new Set(route.secondary)].filter((r) => r !== route.primary);
   const prompts = pickPrompts(data, c, topic, { ...opts });
   const templates = pickTemplates(data, c, { ...opts, aspect });
   const styles = pickStyles(data, c, topic, opts);
@@ -298,8 +347,10 @@ export function recommend(data, topic, opts = {}) {
   const ctx = { slug: sg, aspect, c, styles, budget: opts.budget, videogenMode: route.videogenMode, media: opts.media, style: opts.style, character: opts.character, hasRefs: opts.assets.includes('character') || opts.assets.includes('product') };
   const steps = [];
   steps.push({ title: '确认需求（intake）', cmds: [`node router/cli.mjs intake`], note: '题材、媒介、方向、时长、画幅、预算、角色素材、配音逐项确认；不确定就用本方案的默认值' });
-  for (const r of [route.primary, ...route.secondary.filter((x) => x !== 'D').slice(0, 1)]) {
-    const block = commandsFor(r, ctx);
+  const shown = [route.primary, ...route.secondary.filter((x) => x !== 'D' && x !== 'S').slice(0, 1)];
+  if (stills && !shown.includes('S')) shown.push('S');
+  for (const r of shown) {
+    const block = r === 'S' ? stillsSteps(stills, ctx) : commandsFor(r, ctx);
     if (block.length) steps.push({ route: r, title: `—— ${ROUTES[r].name}${r === route.primary ? '（主路线）' : '（备选/升级）'} ——`, cmds: [] }, ...block.map((b) => ({ ...b, route: r })));
   }
   steps.push({ title: '发布前质检', cmds: [], note: '核对字幕错别字与音画对齐；按平台要求标注「AI 生成」；可用 self-media-compliance-review 做违规风险自查' });
@@ -320,6 +371,7 @@ export function recommend(data, topic, opts = {}) {
     topic, generated_by: 'router/cli.mjs recommend',
     inputs: { medium: c.medium, direction: c.direction, duration_s: +opts.duration || c.scenario.duration, aspect, budget: opts.budget, budget_zh: BUDGETS[opts.budget], assets: opts.assets, voice: opts.voice || 'Kokoro 本地 TTS（默认）', commercial: !!opts.commercial },
     scenario: { id: c.scenario.id, name: c.scenario.name, matched: c.matched, modifiers: c.modifiers.map((m) => ({ id: m.id, note: m.note })) },
+    ...(stills ? { stills } : {}),
     route: { primary: route.primary, primary_name: ROUTES[route.primary].name, secondary: route.secondary.map((r) => ({ id: r, name: ROUTES[r].name })), videogen_mode: route.videogenMode, why: route.why },
     script_skeleton: skeletonFor(c.scenario), tips: c.scenario.tips,
     prompts, templates, style_presets: styles, external, steps, compliance, warnings,

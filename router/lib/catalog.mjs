@@ -6,7 +6,8 @@ import { registryTableRows } from './render.mjs';
 
 export const FILES = { handdrawn: '01-手绘白板火柴人.md', stroke: '02-笔画与手绘风组件.md', sketchai: '03-AI草图动画研究.md', remotion: '04-Remotion生态.md',
   engine: '05-代码动效引擎.md', agentvideo: '06-视频Agent技能.md', drama: '07-漫剧短剧方法论.md', pipeline: '08-端到端平台.md',
-  edit: '09-剪辑与切条.md', models: '10-开源视频模型.md', mcp: '11-视频MCP.md', promptlib: '12-提示词库资源.md' };
+  edit: '09-剪辑与切条.md', models: '10-开源视频模型.md', mcp: '11-视频MCP.md', promptlib: '12-提示词库资源.md',
+  stillmotion: '13-静图动效.md', polish: '14-补帧放大.md' };
 const BLURB = {
   handdrawn: '「一支笔画一个小人」这一类：白板逐笔、火柴人、手绘日记漫画、绘本揭示。多数是 Agent Skill，生成画面的方式分两种——**代码逐笔作画**（免费、可控）和 **AI 生插图 + 擦除/描线揭示**（需要生图）。本仓库自己的 `animator/` 属于前者。',
   stroke: '可以直接嵌进 Remotion / HyperFrames / 网页的底层组件：SVG 描边、汉字笔顺、手绘风图形、手绘标注、Excalidraw 动画化。',
@@ -17,8 +18,10 @@ const BLURB = {
   drama: '漫剧/短剧的方法论 Skill：小说改编、编剧结构、分镜拆解、角色一致性、Seedance/可灵/H3 提示词写法、打戏与情绪表演。本仓库只写自己的总结（见 methodology.md），不复制原文。',
   pipeline: '端到端短剧/短视频平台（多为需要模型 API 或 GPU 的完整应用）。',
   edit: '把成片剪开、加字幕、出草稿、做短视频切片的开源工具。本页只写链接和我们自己的一句话介绍，不复制对方文档。带 ⚠️ 的许可证（非商用、无许可证、Elastic License 等）商用场景会被排除，排序也靠后。',
-  models: '可以在自己显卡上跑的开源视频生成模型（权重许可单独写在备注里）。本仓库 videogen 已带 Wan2.2 的 ComfyUI 工作流示例。只放链接，不放权重。',
+  models: '可以在自己显卡上跑的开源视频生成模型（权重许可单独写在备注里）。本仓库 videogen（Wan2.2 5B）与 stills2video（Wan2.2 14B 图生视频 / 首尾帧 4 步）带 ComfyUI 工作流。只放链接，不放权重。',
   mcp: '和视频生成、配音、工作流相关的 MCP 服务器，以及 mcp.film 这个「MCP 目录」本身（我们不内置它的数据）。非官方、可能违反平台条款的接口服务器不收录。',
+  stillmotion: '让一张静图动起来、但不需要视频模型的项目：深度估计、2.5D 视差、3D Ken Burns、动态照片（cinemagraph）。本仓库自己的 `stills2video/`（CPU 视差 + 运镜 + 叠层特效）属于这一类，代码为独立实现，只借鉴思路（见 docs/i2v-对比.md）。',
+  polish: '补帧（16fps → 30/60fps）和超分（480p → 1080p）工具。`node stills2video/cli.mjs polish` 会自动检测 rife-ncnn-vulkan / realesrgan-ncnn-vulkan，没有就退回 ffmpeg。本仓库不打包任何二进制或权重。',
   promptlib: '别人维护的提示词库，作为资源链接放在这里。正文是否能转载，以各库许可证为准；本页不复制提示词。第三方提示词被上游明确排除在许可之外的，只链到仓库。',
 };
 
