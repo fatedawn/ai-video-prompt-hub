@@ -1,0 +1,16 @@
+{
+  "name": "hda-stills2video",
+  "version": "0.1.0",
+  "private": true,
+  "description": "只有图片也能出片：静图文件夹 → 成片（CPU 2.5D 视差 / 本地 GPU ComfyUI / 云端 key / 网页端手动），配音字幕转场一条命令",
+  "type": "module",
+  "bin": { "stills2video": "cli.mjs" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/",
+    "doctor": "node cli.mjs doctor",
+    "setup:depth": "python3 -m pip install -r py/requirements.txt && python3 py/fetch_models.py",
+    "demo": "bash examples/sample/run_sample.sh"
+  },
+  "license": "Apache-2.0"
+}

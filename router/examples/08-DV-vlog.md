@@ -107,7 +107,7 @@
 | [`youmind-6728`](../../prompts/%E7%9C%9F%E4%BA%BA/%E7%8E%B0%E5%AE%9E%E5%90%91/%E7%94%9F%E6%B4%BB%E4%B8%8Evlog/youmind-6728--%E5%86%99%E5%AE%9E%E9%A3%8E%E6%A0%BC-2000-%E5%B9%B4%E4%BB%A3%E4%B8%AD%E5%9B%BD-DV-%E8%A7%86%E9%A2%91.md) | 写实风格 2000 年代中国 DV 视频 | 真人/现实向/生活与vlog | zh | YouMind-OpenLab/awesome-seedance-2-prompts · CC-BY-4.0 |
 | [`youmind-7923`](../../prompts/%E7%9C%9F%E4%BA%BA/%E7%8E%B0%E5%AE%9E%E5%90%91/%E5%B9%B4%E4%BB%A3%E6%80%80%E6%97%A7/youmind-7923--90-%E5%B9%B4%E4%BB%A3%E5%A4%8D%E5%8F%A4-VHS-%E5%81%A5%E8%BA%AB-Vlog.md) | 90 年代复古 VHS 健身 Vlog | 真人/现实向/年代怀旧 | zh | YouMind-OpenLab/awesome-seedance-2-prompts · CC-BY-4.0 |
 | [`youmind-9883`](../../prompts/%E7%9C%9F%E4%BA%BA/%E7%8E%B0%E5%AE%9E%E5%90%91/%E7%94%9F%E6%B4%BB%E4%B8%8Evlog/youmind-9883--%E5%A4%8D%E5%8F%A4%E6%97%A5%E7%B3%BB-MiniDV-%E6%97%85%E8%A1%8C%E8%AE%B0%E5%BF%86.md) | 复古日系 MiniDV 旅行记忆 | 真人/现实向/生活与vlog | zh | YouMind-OpenLab/awesome-seedance-2-prompts · CC-BY-4.0 |
-| [`youmind-2847`](../../prompts/%E7%9C%9F%E4%BA%BA/%E7%8E%B0%E5%AE%9E%E5%90%91/%E7%94%9F%E6%B4%BB%E4%B8%8Evlog/youmind-2847--%E4%BC%AA%E7%BA%AA%E5%BD%95%E7%89%87%E5%96%9C%E5%89%A7-%E5%BD%B1%E5%AD%90%E6%95%85%E9%9A%9C%E8%88%9E%E8%B9%88%E8%A7%86%E9%A2%91%E6%8F%90%E7%A4%BA%E8%AF%8D.md) | 伪纪录片喜剧：影子故障舞蹈视频提示词 | 真人/现实向/生活与vlog | zh | YouMind-OpenLab/awesome-seedance-2-prompts · CC-BY-4.0 |
+| [`renoise-2088997736083587132`](../../prompts/%E7%9C%9F%E4%BA%BA/%E7%8E%B0%E5%AE%9E%E5%90%91/%E7%94%9F%E6%B4%BB%E4%B8%8Evlog/renoise-2088997736083587132--%E5%9F%BA%E7%A1%80%E8%AE%BE%E5%AE%9A-%E5%9F%BA%E4%BA%8E%E8%BF%99%E5%BC%A0-Mixed-2-%E7%9A%84%E8%89%B2%E5%8D%A1,%E6%96%87%E5%AD%97%E7%AD%89%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%BA%E7%89%A9%E8%A7%92%E8%89%B2%E5%9B%BE-Mixed.md) | 基础设定：基于这张 {{Mixed 2}} 的色卡，文字等信息和人物角色图 {{Mixed 1}}… | 真人/现实向/生活与vlog | zh | renoise-ai/awesome-seedance-prompts · CC-BY-4.0 |
 | [`youmind-7251`](../../prompts/%E7%9C%9F%E4%BA%BA/%E7%8E%B0%E5%AE%9E%E5%90%91/%E5%B9%B4%E4%BB%A3%E6%80%80%E6%97%A7/youmind-7251--1990-%E5%B9%B4%E4%BB%A3%E5%B7%B4%E9%BB%8E%E5%A1%9E%E7%BA%B3%E6%B2%B3%E5%AE%B6%E5%BA%AD%E5%BD%95%E5%83%8F.md) | 1990 年代巴黎塞纳河家庭录像 | 真人/现实向/年代怀旧 | zh | YouMind-OpenLab/awesome-seedance-2-prompts · CC-BY-4.0 |
 | [`youmind-2667`](../../prompts/%E7%9C%9F%E4%BA%BA/%E7%8E%B0%E5%AE%9E%E5%90%91/%E5%B9%B4%E4%BB%A3%E6%80%80%E6%97%A7/youmind-2667--%E9%80%82%E7%94%A8%E4%BA%8E-Seedance-2.0-%E7%9A%84-Y2K-%E6%B3%B3%E6%B1%A0%E6%B4%BE%E5%AF%B9%E8%A7%86%E9%A2%91%E6%8F%90%E7%A4%BA%E8%AF%8D.md) | 适用于 Seedance 2.0 的 Y2K 泳池派对视频提示词 | 真人/现实向/年代怀旧 | zh | YouMind-OpenLab/awesome-seedance-2-prompts · CC-BY-4.0 |
 
@@ -118,19 +118,20 @@
 | 项目 | ★ | 许可 | 成本 | 语言 | 用法 |
 |---|---|---|---|---|---|
 | [tnfe/FFCreator](https://github.com/tnfe/FFCreator) | 3163 | MIT | 免费CPU | 中英 | 基于 Node.js 的高速短视频制作库（图片/视频/音乐→带动画短片）；**接入**：批量相册/带货视频 |
-| [luoluoluo22/jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) | 3809 | MIT | 免费CPU/Agent额度 | 中文 | 让 Agent 自动操作剪映：写文案、配音、字幕、选乐、特效到导出草稿；**接入**：成片最后一公里：把 animator/videogen 产物导入剪映精修；含 Apache-2.0 第三方组件 |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 129304 | MIT | API key/免费CPU | 中文 | 主题→文案→实拍素材库拼接→配音字幕的短视频生成；**接入**：实拍素材口播；不适合手绘 |
-| [mifi/editly](https://github.com/mifi/editly) | 5519 | MIT | 免费CPU | 英文 | 声明式（JSON）命令行视频剪辑/合成；**接入**：用 JSON 拼片头片尾与转场 |
-| [gyoridavid/short-video-maker](https://github.com/gyoridavid/short-video-maker) | 1397 | MIT | 免费CPU | 英文 | 文本→TTS + 自动字幕 + 背景素材 + 音乐的短视频生成器（MCP/REST）；**接入**：实拍素材拼接型短视频；不生成画面本身 |
-| [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) | 3465 | Apache-2.0 | API key | 中英 | AI 剪辑 agent：自然语言驱动剪辑决策；**接入**：已有素材的剪辑路线 |
+| [luoluoluo22/jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) | 3824 | MIT | 免费CPU/Agent额度 | 中文 | 让 Agent 自动操作剪映：写文案、配音、字幕、选乐、特效到导出草稿；**接入**：成片最后一公里：把 animator/videogen 产物导入剪映精修；含 Apache-2.0 第三方组件 |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 129189 | MIT | API key/免费CPU | 中文 | 主题→文案→实拍素材库拼接→配音字幕的短视频生成；**接入**：实拍素材口播；不适合手绘；stills2video 借鉴了它的亚像素缩放与图片清洗思路（MIT，自写实现） |
+| [mifi/editly](https://github.com/mifi/editly) | 5521 | MIT | 免费CPU | 英文 | 声明式（JSON）命令行视频剪辑/合成；**接入**：用 JSON 拼片头片尾与转场；stills2video 借鉴了它的缓动曲线与 zoomDirection 参数思路（MIT，自写实现） |
+| [gyoridavid/short-video-maker](https://github.com/gyoridavid/short-video-maker) | 1399 | MIT | 免费CPU | 英文 | 文本→TTS + 自动字幕 + 背景素材 + 音乐的短视频生成器（MCP/REST）；**接入**：实拍素材拼接型短视频；不生成画面本身 |
+| [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) | 3470 | Apache-2.0 | API key | 中英 | AI 剪辑 agent：自然语言驱动剪辑决策；**接入**：已有素材的剪辑路线 |
 | [remotion-dev/template-tiktok](https://github.com/remotion-dev/template-tiktok) | 283 | NONE ⚠️无许可证 | 免费CPU | 英文 | 官方模板：Whisper.cpp 生成 TikTok 式逐词字幕；**接入**：口播/vlog 加逐词字幕；package.json 标注 UNLICENSED（Remotion License 管框架） |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 136482 | GPL-3.0 传染性 | GPU | 英文 | 节点式本地生成底座；Wan2.2 I2V / FLF2V、LTX、FramePack 等都有官方或社区工作流；**接入**：stills2video --backend comfyui 与 videogen --provider comfyui 都走它的 HTTP API；工作流用 API 格式导出，节点标题写 $prompt.text / $image.image 即可自动绑定 |
 
 **方法论（剧本、分镜、提示词）**
 
 | 项目 | ★ | 许可 | 成本 | 语言 | 用法 |
 |---|---|---|---|---|---|
 | [kangarooking/director-skills](https://github.com/kangarooking/director-skills) | 173 | MIT | Agent额度 | 中文 | 导演 Skill 集：文旅视频、旅拍照片图生视频、影视资产提示词、动作打戏、角色情绪表演；**接入**：旅拍/vlog 与情绪表演 |
-| [liangdabiao/make-prompt-seedance2](https://github.com/liangdabiao/make-prompt-seedance2) | 693 | NONE ⚠️无许可证 | Agent额度 | 中文 | Seedance 2.0 结构化提示词指南：16+ 模板、8+ 示例（带货、TVC、真人实拍）；**接入**：写法参考；无许可证，且 docs/ 收录他人文章，仅链接 |
+| [liangdabiao/make-prompt-seedance2](https://github.com/liangdabiao/make-prompt-seedance2) | 694 | NONE ⚠️无许可证 | Agent额度 | 中文 | Seedance 2.0 结构化提示词指南：16+ 模板、8+ 示例（带货、TVC、真人实拍）；**接入**：写法参考；无许可证，且 docs/ 收录他人文章，仅链接 |
 
 ## 6. 合规
 
@@ -139,4 +140,5 @@
 - 背景音乐、字体、参考图需自有版权或可商用授权
 - 按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容
 - remotion-dev/template-tiktok：未附 LICENSE 文件，package.json 标注 UNLICENSED；按官方方式 npx create-video 使用（无许可证：仅可参考，勿复制代码）
+- Comfy-Org/ComfyUI：已读 LICENSE：GPL-3.0。本仓库只通过它的 HTTP API（/prompt、/history、/view）把它当外部程序调用，不复制、不链接它的代码。
 - liangdabiao/make-prompt-seedance2：无 LICENSE 文件；docs/ 收录了他人文章，仅链接，切勿复制（无许可证：仅可参考，勿复制代码）

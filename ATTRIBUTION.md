@@ -246,8 +246,37 @@
 ## videogen/（视频生成层）
 
 - 全部代码为本仓库原创；各云 API 适配器按各家**公开文档**实现（2026-10 核对，链接见 `videogen/README.md`），没有复制任何官方 SDK 代码。
-- `videogen/workflows/wan22_ti2v_5b_*.json` 为本仓库自写的 ComfyUI API 格式工作流（只引用 ComfyUI 内置节点名，模型 Wan2.2-TI2V-5B 为 Apache-2.0，权重不随仓库分发）。ComfyUI 官方模板 [Comfy-Org/workflow_templates](https://github.com/Comfy-Org/workflow_templates)（MIT）只链接、未复制；`comfyanonymous/ComfyUI_examples` 无明确许可证，未复制。
+- `videogen/workflows/wan22_ti2v_5b_*.json` 为本仓库自写的 ComfyUI API 格式工作流（只引用 ComfyUI 内置节点名，模型 Wan2.2-TI2V-5B 为 Apache-2.0，权重不随仓库分发）。ComfyUI 官方模板 [Comfy-Org/workflow_templates](https://github.com/Comfy-Org/workflow_templates)（MIT）在 videogen 里只链接、未复制（stills2video 的两个 14B 工作流改写自它，见下节）；`comfyanonymous/ComfyUI_examples` 无明确许可证，未复制。
 - 路线 C 演示的分镜 `videogen/examples/route-c/storyboard.md` 取自本仓库自写的 `docs/skill/SKILL.md` 例 2；替身片段由 animator 渲染；BGM 由 ffmpeg 合成，不含任何第三方音乐。
+
+- 2026-10-09 起：`videogen/providers/comfyui.mjs` 支持按节点标题 `$名字.输入` 绑定参数（思路来自 ATH-MaaS/Pixelle-Video，Apache-2.0，代码自写）和首尾帧两张图上传；`videogen/lib/assemble.mjs` 支持镜头间转场（ffmpeg xfade 或 animator 的 huashu 转场），均为本仓库原创代码。
+
+## stills2video/（静图成片）
+
+调研时把下列项目浅克隆到本地读了源码（commit 为当时的 HEAD），取舍细节见 [`docs/i2v-对比.md`](docs/i2v-对比.md)。
+
+| 项目 | commit | 许可（读 LICENSE 原文） | 本仓库怎么用 |
+|---|---|---|---|
+| [Comfy-Org/workflow_templates](https://github.com/Comfy-Org/workflow_templates) | `8be1f8c` | MIT | **改写复制**：两个 Wan2.2 14B 工作流（见 `stills2video/workflows/VENDOR.md`、`LICENSES/Comfy-Org_workflow_templates-MIT.txt`） |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `6007797` | MIT | 仅思路：亚像素缩放、整段缩放、EXIF / CMYK 清洗 |
+| [mifi/editly](https://github.com/mifi/editly) | `dc46674` | MIT | 仅思路：缓动曲线、zoomDirection / zoomAmount |
+| [remko/kburns](https://github.com/remko/kburns) | `a3a4bf2` | MIT | 仅思路：先放大再裁切防抖 |
+| [ATH-MaaS/Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) | `848b054` | Apache-2.0 | 仅思路：ComfyUI 节点标题绑定参数 |
+| [lllyasviel/FramePack](https://github.com/lllyasviel/FramePack) | `97fe5db` | Apache-2.0 | 仅思路：按空闲显存选模式；网页手动后端支持导出给它 |
+| [DepthAnything/Depth-Anything-V2](https://github.com/DepthAnything/Depth-Anything-V2) | `a561b84` | Apache-2.0（Small 权重 Apache-2.0；Base/Large CC-BY-NC） | 预处理参数；运行时下载 Small ONNX（onnx-community） |
+| [ModelTC/LightX2V](https://github.com/ModelTC/LightX2V) | `217947d` | Apache-2.0 | 外部程序：生成 `python -m lightx2v.infer` 命令 |
+| [Wan-Video/Wan2.2](https://github.com/Wan-Video/Wan2.2) | `1ea34ff` | Apache-2.0 | 模型（权重不分发）；读了 I2V / FLF2V 的帧数、帧率约定 |
+| [kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) | `088128b` | Apache-2.0 | 只在文档里作为 16GB 档的可选节点 |
+| [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo)、[Lightricks/LTX-Desktop](https://github.com/Lightricks/LTX-Desktop) | `ebc94ec`、`68cd86c` | Apache-2.0（模型另有许可） | 网页手动后端的导出目标 |
+| [hzwer/Practical-RIFE](https://github.com/hzwer/Practical-RIFE)、[nihui/rife-ncnn-vulkan](https://github.com/nihui/rife-ncnn-vulkan) | `bbfd2ea`、`a7532fc` | MIT | 外部程序：检测到二进制就调用补帧 |
+| [xinntao/Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) | `a4abfb2` | BSD-3-Clause | 外部程序：检测到 ncnn 二进制就调用超分 |
+| [vt-vl-lab/3d-photo-inpainting](https://github.com/vt-vl-lab/3d-photo-inpainting) | `de04467` | MIT | 读过；没有采用（依赖重、CUDA），我们用「边缘拉伸」近似遮挡补全 |
+| [artokun/comfyui-mcp](https://github.com/artokun/comfyui-mcp) | `6ad6fc0` | MIT | 读过；只在文档里推荐给想让 Agent 直接操作 ComfyUI 的用户 |
+| [BrokenSource/DepthFlow](https://github.com/BrokenSource/DepthFlow) | `bb85e20` | **AGPL-3.0** | 仅思路，完全重写：视差参数概念与预设命名思路 |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | `9327439` | **AGPL-3.0** | 仅思路，完全重写：出片前「防幻灯片」检查 |
+| [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) | `6479db3` | **WanGP Community License 2.0** | 仅思路 + 接口：按显存档位预设；只写 `wgp.py --process` 用的 settings JSON |
+
+ComfyUI 本体（GPL-3.0）只作为外部程序通过 HTTP API 调用。非商用、无许可证、自定义限制的项目只链接，清单见 NOTICE.md 第 2.2 节。
 
 ## catalog/ 与 router/（外部项目目录、AI 导演路由器）
 

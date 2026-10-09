@@ -56,10 +56,26 @@ copyright lines are in LICENSES/. Details: NOTICE.md and ATTRIBUTION.md.
   the runtime stage-size patch). NOT included: its Arphic stroke data, its fonts, the
   花叔 character/likeness and any image asset. See the folder's VENDOR.md.
 
+* stills2video/workflows/wan22_14b_i2v_4step.json and wan22_14b_flf2v_4step.json —
+  ComfyUI API workflows rewritten from Comfy-Org/workflow_templates
+  (https://github.com/Comfy-Org/workflow_templates, commit
+  8be1f8c4b5af2d550d70922a23b79cee599e1f3e, templates video_wan2_2_14B_i2v.json and
+  video_wan2_2_14B_flf2v.json). MIT, Copyright (c) 2023-present Comfy Org; licence text
+  in LICENSES/Comfy-Org_workflow_templates-MIT.txt. Changes: converted to API format,
+  placeholders / $title bindings and metadata added (see stills2video/workflows/VENDOR.md).
+* stills2video/ otherwise contains no third-party code. Ideas (not code) were taken from
+  MoneyPrinterTurbo (MIT), editly (MIT), kburns (MIT), Pixelle-Video (Apache-2.0),
+  FramePack (Apache-2.0), Depth-Anything-V2 (Apache-2.0, preprocessing parameters) and,
+  as ideas only with a clean reimplementation, DepthFlow (AGPL-3.0), OpenMontage
+  (AGPL-3.0) and Wan2GP (WanGP Community License). See docs/i2v-对比.md.
+  Depth model Depth-Anything-V2-Small (Apache-2.0, onnx-community conversion) is
+  downloaded by stills2video/py/fetch_models.py and verified by sha256; it is not
+  distributed with this repository. ComfyUI (GPL-3.0) is only called over its HTTP API.
+
 Projects listed in catalog/ are referenced by link only; none of their code or text is
 included, and each keeps its own licence (see NOTICE.md).
 
-Voice tracks of the two preview videos in docs/assets/ were synthesised locally with
+Voice tracks of the three preview videos in docs/assets/ were synthesised locally with
 Kokoro-82M v1.1-zh (hexgrad, Apache-2.0) via sherpa-onnx (k2-fsa, Apache-2.0).
 No model weights are distributed with this repository.
 The backgrounds and several transitions in docs/assets/tianji-showcase.mp4 are rendered

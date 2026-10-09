@@ -11,6 +11,10 @@ export const SITES = {
   hailuo: { name: '海螺', url: 'https://hailuoai.com', note: '首帧图生视频时画幅跟随图片；可用 [推进] [跟拍] 这类运镜指令。' },
   sora: { name: 'Sora', url: 'https://sora.com', note: '英文提示词通常更稳；人物参考需遵守平台的肖像规则。' },
   veo: { name: 'Veo（Gemini / Flow）', url: 'https://labs.google/flow', note: '4/6/8 秒；英文支持最好；用参考图时只能 8 秒、16:9。' },
+  framepack: { name: 'FramePack / FramePack-Studio（本地，6–8GB 起）', url: 'https://github.com/lllyasviel/FramePack', note: '纯图生视频：上传 refs/01_首帧，粘贴 prompt_en.txt（英文更稳），Total Video Length 设成本镜头秒数；适合慢动作长镜头。' },
+  'ltx-desktop': { name: 'LTX-Desktop（本地需 ≥16GB 显存）', url: 'https://github.com/Lightricks/LTX-Desktop', note: '选 Image-to-Video，拖入首帧；LTX 模型为 LTX 社区许可，商用前读原文。' },
+  freevideo: { name: 'FreeVideo（本地 MiniMax H3，8GB+16GB 内存）', url: 'https://github.com/FlashML-org/FreeVideo', note: '首帧/首尾帧模式；模型为 MiniMax H3 社区许可（排除欧盟/英国/韩国/美国，商用需标注），使用前读原文。' },
+  wan2gp: { name: 'Wan2GP 网页界面（本地，6GB 起）', url: 'https://github.com/deepbeepmeep/Wan2GP', note: '选 Wan2.2 I2V（或 Hunyuan 1.5 / LTX），Start Image 上传首帧；批量可用 stills2video --backend wan2gp 生成 settings JSON。' },
   generic: { name: '任意网页端', url: '', note: '' },
 };
 

@@ -25,11 +25,25 @@ export function factory() {
       budget: z.enum(['free-cpu', 'gpu', 'api-key', 'web-manual']).optional(),
       duration_s: z.number().optional(),
       aspect: z.enum(['9:16', '16:9', '1:1']).optional(),
-      assets: z.array(z.enum(['character', 'product', 'footage'])).optional(),
+      assets: z.array(z.enum(['character', 'product', 'footage', 'images'])).optional(),
+      vram_gb: z.number().optional(),
       style: z.string().optional(),
       commercial: z.boolean().optional(),
       lang: z.enum(['zh', 'en']).optional(),
     }), (a) => hub.pipeline(a));
+
+  tool('get_i2v_plan', '只有图片时的静图成片方案（stills2video）：按图片文件名 + 台词排镜头、选配方/运镜/转场、按显存给出后端，并给每镜 ChatGPT 出图提示词。只读：不读图片、不探测硬件、不调用任何生成接口。',
+    z.object({
+      script: z.string().optional(),
+      image_names: z.array(z.string()).max(60).optional(),
+      n_images: z.number().int().min(1).max(60).optional(),
+      aspect: z.enum(['9:16', '16:9', '1:1']).optional(),
+      vram_gb: z.number().min(0).max(512).optional(),
+      comfyui_running: z.boolean().optional(),
+      cloud_provider: z.string().optional(),
+      backend: z.string().optional(),
+      subject: z.string().optional(),
+    }), (a) => hub.i2vPlan(a));
 
   tool('get_intake_questions', '列出 AI 导演开工前要向用户确认的问题。',
     z.object({ lang: z.enum(['zh', 'en']).optional() }), (a) => hub.intake(a.lang));
@@ -66,7 +80,7 @@ export function factory() {
   tool('search_projects', '检索外部项目目录。commercial=true 时排除非商用、无许可证和 Elastic/社区商用限制条目。只返回链接和自写简介。',
     z.object({
       query: z.string().optional(), category: z.string().optional(),
-      route: z.enum(['A-handdrawn', 'B-videogen', 'C-code-motion', 'M-method', 'E-edit']).optional(),
+      route: z.enum(['A-handdrawn', 'B-videogen', 'C-code-motion', 'M-method', 'E-edit', 'S-stills']).optional(),
       cost: z.string().optional(), zh: z.string().optional(), license_class: z.string().optional(),
       commercial: z.boolean().optional(), limit: z.number().int().max(50).optional(),
     }), (a) => ({ projects: hub.projects(a) }));

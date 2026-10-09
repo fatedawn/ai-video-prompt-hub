@@ -1,0 +1,4 @@
+# stills2video CPU 后端依赖（全部是宽松许可证）：pip install -r stills2video/py/requirements.txt
+numpy            # BSD-3-Clause
+pillow           # MIT-CMU (HPND)
+onnxruntime      # MIT，CPU 推理深度模型；不装也能跑（退化为「渐变深度」）

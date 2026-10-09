@@ -1,6 +1,6 @@
 <!-- 本文件由 `node router/cli.mjs build-catalog` 从 catalog/registry.json 生成，请改 registry.json 后重新生成 -->
 
-# 外部项目目录（201 个，核验于 2026-10-09）
+# 外部项目目录（245 个，核验于 2026-10-09）
 
 这里聚合了做 AI 漫剧 / 手绘动画 / 代码动效 / 短剧方法论时值得用的开源项目，供人查阅，也供 AI Agent 通过 `node router/cli.mjs recommend` 自动挑选。
 
@@ -16,14 +16,16 @@
 | [笔画与手绘风组件](02-%E7%AC%94%E7%94%BB%E4%B8%8E%E6%89%8B%E7%BB%98%E9%A3%8E%E7%BB%84%E4%BB%B6.md) | 11 | 可以直接嵌进 Remotion / HyperFrames / 网页的底层组件：SVG 描边、汉字笔顺、手绘风图形、手绘标注、Excalidraw 动画化 |
 | [AI 草图动画研究](03-AI%E8%8D%89%E5%9B%BE%E5%8A%A8%E7%94%BB%E7%A0%94%E7%A9%B6.md) | 7 | 学术/实验方向：让孩子画的小人动起来、逐笔生成草图、从成品图反推绘画过程 |
 | [Remotion 生态](04-Remotion%E7%94%9F%E6%80%81.md) | 27 | Remotion（用 React 写视频）及其官方 skills、模板、字幕组件，和基于它的中文口播/科普/数据视频 skill |
-| [代码动效引擎](05-%E4%BB%A3%E7%A0%81%E5%8A%A8%E6%95%88%E5%BC%95%E6%93%8E.md) | 21 | Remotion 之外的代码动效引擎：Manim（数学）、Motion Canvas / Revideo（MIT）、HyperFrames（HTML→MP4）、Theatre.js、Lottie、Rive、FFCreator、editly 等 |
-| [视频 Agent 技能与系统](06-%E8%A7%86%E9%A2%91Agent%E6%8A%80%E8%83%BD.md) | 23 | 面向编程 Agent 的视频制作技能与系统：项目发布片、带货、剪映自动化、口播剪辑、数字人、合规审核等 |
+| [代码动效引擎](05-%E4%BB%A3%E7%A0%81%E5%8A%A8%E6%95%88%E5%BC%95%E6%93%8E.md) | 23 | Remotion 之外的代码动效引擎：Manim（数学）、Motion Canvas / Revideo（MIT）、HyperFrames（HTML→MP4）、Theatre.js、Lottie、Rive、FFCreator、editly 等 |
+| [视频 Agent 技能与系统](06-%E8%A7%86%E9%A2%91Agent%E6%8A%80%E8%83%BD.md) | 26 | 面向编程 Agent 的视频制作技能与系统：项目发布片、带货、剪映自动化、口播剪辑、数字人、合规审核等 |
 | [漫剧·短剧方法论 Skill](07-%E6%BC%AB%E5%89%A7%E7%9F%AD%E5%89%A7%E6%96%B9%E6%B3%95%E8%AE%BA.md) | 29 | 漫剧/短剧的方法论 Skill：小说改编、编剧结构、分镜拆解、角色一致性、Seedance/可灵/H3 提示词写法、打戏与情绪表演 |
-| [端到端短剧/短视频平台](08-%E7%AB%AF%E5%88%B0%E7%AB%AF%E5%B9%B3%E5%8F%B0.md) | 16 | 端到端短剧/短视频平台（多为需要模型 API 或 GPU 的完整应用） |
+| [端到端短剧/短视频平台](08-%E7%AB%AF%E5%88%B0%E7%AB%AF%E5%B9%B3%E5%8F%B0.md) | 19 | 端到端短剧/短视频平台（多为需要模型 API 或 GPU 的完整应用） |
 | [剪辑·切条·字幕](09-%E5%89%AA%E8%BE%91%E4%B8%8E%E5%88%87%E6%9D%A1.md) | 8 | 把成片剪开、加字幕、出草稿、做短视频切片的开源工具 |
-| [开源视频模型](10-%E5%BC%80%E6%BA%90%E8%A7%86%E9%A2%91%E6%A8%A1%E5%9E%8B.md) | 7 | 可以在自己显卡上跑的开源视频生成模型（权重许可单独写在备注里） |
-| [视频 MCP](11-%E8%A7%86%E9%A2%91MCP.md) | 7 | 和视频生成、配音、工作流相关的 MCP 服务器，以及 mcp.film 这个「MCP 目录」本身（我们不内置它的数据） |
+| [开源视频模型](10-%E5%BC%80%E6%BA%90%E8%A7%86%E9%A2%91%E6%A8%A1%E5%9E%8B.md) | 26 | 可以在自己显卡上跑的开源视频生成模型（权重许可单独写在备注里） |
+| [视频 MCP](11-%E8%A7%86%E9%A2%91MCP.md) | 8 | 和视频生成、配音、工作流相关的 MCP 服务器，以及 mcp.film 这个「MCP 目录」本身（我们不内置它的数据） |
 | [提示词库资源](12-%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%BA%93%E8%B5%84%E6%BA%90.md) | 6 | 别人维护的提示词库，作为资源链接放在这里 |
+| [静图动效（2.5D 视差 · Ken Burns · 动态照片）](13-%E9%9D%99%E5%9B%BE%E5%8A%A8%E6%95%88.md) | 8 | 让一张静图动起来、但不需要视频模型的项目：深度估计、2.5D 视差、3D Ken Burns、动态照片（cinemagraph） |
+| [补帧放大（插帧 · 超分）](14-%E8%A1%A5%E5%B8%A7%E6%94%BE%E5%A4%A7.md) | 8 | 补帧（16fps → 30/60fps）和超分（480p → 1080p）工具 |
 
 ## 精选 15 个
 
@@ -49,6 +51,6 @@
 
 - 每个条目都实时调用 GitHub API 核验过存在性、★、最后推送时间；许可证读的是仓库 LICENSE 原文（GitHub 显示 NOASSERTION 的也逐个读了原文）。
 - **只放链接和本仓库自写的一句话简介**，不复制任何第三方代码、提示词或文档。
-- 许可证分布：宽松 167 · 传染性(GPL/AGPL) 5 · 非商用 7 · 有条件(Remotion License) 5 · 无许可证 17。非商用和无许可证的仍然列出（方便了解生态），但 router 默认降权，加 `--commercial` 会直接排除。
+- 许可证分布：宽松 191 · 传染性(GPL/AGPL) 10 · 非商用 10 · 有条件(Remotion License) 11 · 无许可证 23。非商用和无许可证的仍然列出（方便了解生态），但 router 默认降权，加 `--commercial` 会直接排除。
 - 刷新 ★/日期/许可证：`python3 catalog/tools/refresh_registry.py`（需要已登录的 gh CLI）；改完 registry.json 后运行 `node router/cli.mjs build-catalog` 重新生成这些页面。
 - 发现错误或希望下架：开 issue 说明即可，按仓库「合规与下架」流程处理。

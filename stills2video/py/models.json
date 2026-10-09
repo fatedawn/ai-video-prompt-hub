@@ -1,0 +1,24 @@
+{
+  "_comment": "Depth models for the CPU 2.5D parallax backend. Weights are downloaded to $HDA_MODELS (default ~/.cache/hda-models) by fetch_models.py and are NEVER committed. Only Apache-2.0 / MIT weights are listed here on purpose: Depth-Anything-V2 Base/Large are CC-BY-NC-4.0 and are deliberately NOT supported.",
+  "models": {
+    "depth-anything-v2-small-q": {
+      "dir": "depth-anything-v2-small",
+      "file": "model_quantized.onnx",
+      "url": "https://huggingface.co/onnx-community/depth-anything-v2-small/resolve/4472b7362082ad9968fee890ca0f1e5aca36b93d/onnx/model_quantized.onnx",
+      "sha256": "fcf51f1b230362b28690bb9d1809bf0431f29cad20534e3f589bd7285547f20d",
+      "size_mb": 26,
+      "license": "Apache-2.0 (Depth-Anything-V2-Small, ONNX export by onnx-community)",
+      "source": "https://huggingface.co/depth-anything/Depth-Anything-V2-Small",
+      "default": true
+    },
+    "depth-anything-v2-small": {
+      "dir": "depth-anything-v2-small",
+      "file": "model.onnx",
+      "url": "https://huggingface.co/onnx-community/depth-anything-v2-small/resolve/4472b7362082ad9968fee890ca0f1e5aca36b93d/onnx/model.onnx",
+      "sha256": "afb6a5c28f3b6bf1618c6e43f02073ef9dfdc70e937502d51603e57b0a1df10c",
+      "size_mb": 95,
+      "license": "Apache-2.0 (Depth-Anything-V2-Small, ONNX export by onnx-community)",
+      "source": "https://huggingface.co/depth-anything/Depth-Anything-V2-Small"
+    }
+  }
+}

@@ -16,12 +16,41 @@
 | 把一堆镜头拼成带配音、字幕、BGM 的成片 | `videogen assemble`（自动处理时长 / 画幅不一致） | `node videogen/cli.mjs assemble shots.json --bgm music.mp3` |
 | 做手绘动画讲解 / 口播短视频 | [`animator/`](animator/README.md)：默认主持人「天机」，台词一行一句即可出片 | `cd animator && node src/cli.mjs make 台词.txt` |
 | 免费、离线的中文配音（带字级时间戳） | `animator/tts/`：Kokoro v1.1-zh（Apache-2.0，CPU），edge-tts 可选 | `cd animator && npm run setup:tts && node src/cli.mjs tts 工程.json` |
+| **只有图片**（ChatGPT 出的图 / 照片），没有视频订阅，想做成带配音字幕的短片 | [`stills2video/`](stills2video/README.md)：CPU 深度视差 / 本地 ComfyUI / 云端 key / 网页手动，按显存自动选（见下文「只有图片怎么做视频」） | `node stills2video/cli.mjs make --images stills/ --script 台词.txt --out final.mp4` |
 | 不知道该用哪条路线，想让 AI 按题材出方案 | [`router/`](router/README.md) + [`skills/ai-video-director/`](skills/ai-video-director/SKILL.md)（见下文「AI 导演 / Agent 使用」） | `node router/cli.mjs recommend "仙侠漫剧：……" --budget free-cpu` |
-| 找开源工具：手绘/白板/火柴人、Remotion、代码动效、视频 Agent 技能、漫剧方法论 | [`catalog/`](catalog/README.md)（201 个，已核验许可证，仅链接）· [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md) | `node router/cli.mjs search 火柴人 --cost free-cpu` |
+| 找开源工具：手绘/白板/火柴人、Remotion、代码动效、视频 Agent 技能、漫剧方法论 | [`catalog/`](catalog/README.md)（245 个，已核验许可证，仅链接）· [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md) | `node router/cli.mjs search 火柴人 --cost free-cpu` |
 
-预览（随仓库提交的小文件）：[天机设定图](docs/assets/tianji_sheet.png) · [天机剪影](docs/assets/tianji_silhouette.png) · [天机电影感特效展示（带配音）](docs/assets/tianji-showcase.mp4) · [路线 C 演示成片（替身片段）](docs/assets/videogen-route-c-demo.mp4)
+预览（随仓库提交的小文件）：[天机设定图](docs/assets/tianji_sheet.png) · [天机剪影](docs/assets/tianji_silhouette.png) · [天机电影感特效展示（带配音）](docs/assets/tianji-showcase.mp4) · [路线 C 演示成片（替身片段）](docs/assets/videogen-route-c-demo.mp4) · [静图成片示例（纯 CPU，带配音）](docs/assets/stills2video-sample.mp4)
 
 > 原作者 / 权利人如需删除，请用 [下架申请模板](.github/ISSUE_TEMPLATE/takedown.md) 提 issue（见下文「合规与下架」）。贡献新提示词请先读 [CONTRIBUTING.md](CONTRIBUTING.md)；**不要提交任何 API key**（见 [SECURITY.md](SECURITY.md)）。
+
+---
+
+## 只有图片怎么做视频
+
+手上只有一组图（例如在 ChatGPT Images 里出的图），没有视频会员、也不一定有显卡？用 [`stills2video/`](stills2video/README.md)：把图片按 `01.png、02.png…`（或 `S01_shot03`、`镜头3`）命名放进一个文件夹，台词一行一句，一条命令出片。它会按文件名编号对镜头、按台词关键词选空镜配方，自动运镜、加氛围特效、转场、本地配音和逐字字幕，同时输出封面和缩略图。四条路线用同一个镜头格式，可以混用（例如大部分镜头 CPU，关键镜头交给云端）：
+
+| 路线 | 适合谁 | 镜头怎么动 | 成本 | 命令 |
+|---|---|---|---|---|
+| ① CPU（默认） | 任何电脑，无独显 | 深度视差推拉摇移 / 环绕 / 希区柯克变焦 + 雾、光束、雨雪、粒子、光斑 + 远景漂移的动态照片；没有真实物体运动 | 免费 | `make … --backend cpu` |
+| ② 本地 GPU | 8 / 12 / 16 / 24GB 显卡 | 你自己的 ComfyUI 跑 Wan2.2（5B 图生视频；14B 4 步图生视频 + 相邻两张图的首尾帧过渡），也可写 Wan2GP / LightX2V 的任务文件 | 免费（电费） | `make … --backend comfyui`（先 `--dry-run`） |
+| ③ 云端 key | 有可灵 / 海螺 / Seedance / Veo 等 API key | 复用 videogen 适配器；没填 key 自动 dry-run，只打印请求 | 按秒计费 | `make … --backend cloud:kling` |
+| ④ 网页手动 | 有网页端免费额度 / 会员 | 导出逐镜头生成包（即梦、可灵、海螺、FramePack、FreeVideo、LTX-Desktop…），生成后按文件名导回 | 看平台 | `export --site jimeng` → `import --from 下载目录` |
+
+```bash
+cd stills2video && npm run setup:depth && cd ..         # 首次：下载深度模型（Depth-Anything-V2-Small，Apache-2.0，26MB，校验 sha256）
+cd animator && npm install && npm run setup:tts && cd .. # 首次：本地配音（Kokoro）
+node stills2video/cli.mjs doctor                          # 检测显卡档位、深度模型、TTS、RIFE / Real-ESRGAN，给出推荐路线
+node stills2video/cli.mjs prompts --script 台词.txt --out 出图提示词.md   # 逐镜写 ChatGPT 中文出图提示词和文件名
+node stills2video/cli.mjs make --images stills/ --script 台词.txt --out final.mp4   # 自动选后端
+bash stills2video/examples/sample/run_sample.sh /tmp/s2v  # 示例：程序画的 5 张图 → 9:16 成片
+```
+
+- 显存档位自动检测（`nvidia-smi`）：<6GB → CPU；6–10GB → Wan2.2 TI2V-5B 544×960；10–14GB → 5B 720p（14B GGUF 量化未核验）；14–20GB → 14B GGUF + 4 步 LoRA；≥20GB → 14B fp8 4 步 + 首尾帧过渡。档位、显存数字和出处见 [`stills2video/README.md`](stills2video/README.md)。
+- 24 个空镜配方：晨雾竹林推进、仙侠云海环绕、城市夜景延时感、产品展示旋转光效、雨夜窗边、雪落小镇、樱花飘落、星空银河…（`node stills2video/cli.mjs recipes`），每个配方带运镜、特效、转场、图生视频提示词和一条中文出图模板。
+- 打磨：检测到 `rife-ncnn-vulkan` / `realesrgan-ncnn-vulkan` 就补帧 / 超分，没有就退回 ffmpeg（`polish`）。
+- 只想要方案：`node router/cli.mjs recommend "只有几张图，没有视频订阅……" --vram 12`，或 MCP 工具 `get_i2v_plan`。
+- 选型过程：我们读了 19 个相关开源项目的代码，取舍和许可证处理见 [`docs/i2v-对比.md`](docs/i2v-对比.md)。GPL / AGPL 项目只借鉴思路、代码全部自写；非商用和无许可证项目只给链接。模型权重一律不进仓库。
 
 ---
 
@@ -35,6 +64,7 @@
    - ② **videogen 视频生成 + prompts/**：仙侠、甜宠、悬疑等剧情
    - ③ **代码动效**：数据、图表、公式、字幕重的视频，用 Remotion / HyperFrames / Manim
    - ④ **外部开源项目**：从 [`catalog/`](catalog/README.md) 里选
+   - ⑤ **stills2video 静图成片**：只有图片、没有视频订阅时（见上文）
 
    预算会改变选择，例如免费 CPU 下的漫剧先出手绘版。
 3. **出方案**：给出匹配的提示词 id、模板、画风预设、外部项目和逐条命令。
@@ -46,9 +76,9 @@ node router/cli.mjs recommend "知识科普口播：为什么熬夜会让人变�
 node router/cli.mjs search 白板 --zh native                                   # 查外部项目
 ```
 
-8 个示例题材的完整方案在 [`router/examples/`](router/examples/)：仙侠漫剧、都市甜宠真人剧、知识科普口播、儿童绘本、悬疑短剧、产品带货、GitHub 项目推荐（天机）、DV vlog。
+9 个示例题材的完整方案在 [`router/examples/`](router/examples/)：仙侠漫剧、都市甜宠真人剧、知识科普口播、儿童绘本、悬疑短剧、产品带货、GitHub 项目推荐（天机）、DV vlog、只有图片无订阅。
 
-**外部项目目录 [`catalog/`](catalog/README.md)** 共 201 个项目，全部用 GitHub API 核验过（`verified_at` 2026-10-09），许可证读的是 LICENSE 原文，分 12 类：
+**外部项目目录 [`catalog/`](catalog/README.md)** 共 245 个项目，全部用 GitHub API 核验过（`verified_at` 2026-10-09），许可证读的是 LICENSE 原文，分 14 类：
 
 - 手绘·白板·火柴人
 - 笔画与手绘风组件
@@ -62,8 +92,10 @@ node router/cli.mjs search 白板 --zh native                                   
 - 开源视频模型
 - 视频 MCP
 - 提示词库资源
+- 静图动效（2.5D 视差 · Ken Burns · 动态照片）
+- 补帧放大（插帧 · 超分）
 
-非商用、无许可证、Elastic License 2.0 和混元/WanGP 社区许可标了警告，排序靠后；`node router/cli.mjs recommend … --commercial` 会排除它们。
+非商用、无许可证、Elastic License 2.0 和混元 / WanGP / LTX / MiniMax H3 社区许可标了警告，排序靠后；`node router/cli.mjs recommend … --commercial` 会排除它们。
 
 ## 本地 MCP（尚未发布到 npm）
 
@@ -90,7 +122,7 @@ Claude Desktop / Cursor 指向本地路径（不要写成尚未发布的 npx 包
 }
 ```
 
-工具（全部只读）：`recommend_video_pipeline`、`get_intake_questions`、`search_video_prompts`、`get_video_prompt`、`list_prompt_taxonomy`、`search_templates`、`get_template`、`search_projects`、`get_project`、`get_style_presets`、`lint_storyboard_prompt`、`compliance_check`。仅链接条目的 `get_video_prompt` 不返回正文。每条提示词、模板、项目都带署名。
+工具（全部只读）：`recommend_video_pipeline`、`get_intake_questions`、`search_video_prompts`、`get_video_prompt`、`list_prompt_taxonomy`、`search_templates`、`get_template`、`search_projects`、`get_project`、`get_style_presets`、`lint_storyboard_prompt`、`compliance_check`、`get_i2v_plan`（只有图片时的静图成片方案）。仅链接条目的 `get_video_prompt` 不返回正文。每条提示词、模板、项目都带署名。
 
 
 [`catalog/methodology.md`](catalog/methodology.md) 是本仓库用自己的话整理的方法论速查，内容包括剧本结构、小说改编、角色一致性、分镜写法、打戏、手绘讲解和质检，每条都附原始出处链接。目录只放链接和自写简介，不复制第三方代码或文档。
@@ -183,6 +215,11 @@ ai-video-prompt-hub/
 │   ├── examples/          #   主示例《天机泄露》、《豆豆的早晨》等
 │   ├── vendor/            #   按 MIT 原样移植的第三方代码：huashu-art-motion（风格配方 / 转场 / 后期层，见 VENDOR.md）
 │   └── tools/             #   静止帧 / 图文对齐 QA、可选 edge-tts
+├── stills2video/          # 只有图片 → 成片：CPU 深度视差 / ComfyUI / 云端 / 网页手动，配方库，详见 stills2video/README.md
+│   ├── py/                #   CPU 渲染（numpy 反向映射视差 + 叠层特效）、深度模型（onnxruntime）、模型下载脚本
+│   ├── lib/               #   分镜解析、硬件档位、后端（cpu/comfyui/cloud/manual/wan2gp/lightx2v）、补帧放大
+│   ├── recipes/           #   24 个空镜配方（运镜 + 特效 + 转场 + 中文出图模板）
+│   └── workflows/         #   Wan2.2 14B 图生视频 / 首尾帧 ComfyUI API 工作流（改写自 Comfy-Org MIT 模板）
 ├── videogen/              # 分镜 → 视频片段（云 API / ComfyUI / 网页端往返）→ 配音 + 字幕 + BGM 成片，详见 videogen/README.md
 └── scripts/               # build_index.py · extract_sources.py · audit.py · classify.py · hub_common.py
 ```

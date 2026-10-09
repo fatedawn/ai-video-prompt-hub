@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
+import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { probe, run } from './media.mjs';
 
@@ -90,6 +91,72 @@ export function frameFilter(info, W, H, mode = 'auto') {
   return `scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1`;
 }
 
+/** Voice of every line (character voices from sb.voice, distinct pool voices for unnamed characters). Pure. */
+export function planVoices(sb) {
+  const voiceCfg = sb.voice || {};
+  const auto = {};
+  let poolI = 0;
+  const voiceOf = (sp) => (sp ? voiceCfg.characters?.[sp] || (auto[sp] ||= POOL[poolI++ % POOL.length]) : voiceCfg.narrator || 'kokoro:zf_001');
+  const lines = [];
+  sb.shots.forEach((s, si) => (s.lines || []).forEach((l) => lines.push({ si, speaker: l.speaker, text: l.text, voice: l.voice || voiceOf(l.speaker), speed: l.speed })));
+  return { lines, auto };
+}
+
+/** Run the local TTS once for all lines into `work` (voice.srt, voice.words.json, lines/cNNN.wav).
+ *  o.cache: optional directory; identical jobs are reused from there (stills2video measures durations first). */
+export function synthesizeLines(lines, work, o = {}) {
+  const job = { lines: lines.map(({ text, voice, speed }) => ({ text, voice, speed })), out: path.join(work, 'voice'), lead: 0, gap: 0, align: o.align || 'auto', lines_dir: path.join(work, 'lines'), models: process.env.HDA_MODELS || null };
+  const key = crypto.createHash('sha1').update(JSON.stringify([job.lines, job.align])).digest('hex').slice(0, 16);
+  const cdir = o.cache ? path.join(o.cache, key) : null;
+  const files = ['voice.srt', 'voice.words.json'];
+  fs.mkdirSync(work, { recursive: true });
+  if (cdir && files.every((f) => fs.existsSync(path.join(cdir, f)))) {
+    for (const f of files) fs.copyFileSync(path.join(cdir, f), path.join(work, f));
+    fs.cpSync(path.join(cdir, 'lines'), path.join(work, 'lines'), { recursive: true });
+  } else {
+    const r = spawnSync(findPython(), [path.join(ANIMATOR, 'tts', 'tts_local.py')], { input: JSON.stringify(job), encoding: 'utf8', stdio: ['pipe', 'pipe', 'inherit'], maxBuffer: 1 << 26 });
+    if (r.status !== 0) throw new Error('TTS 失败：先在 animator/ 里运行 npm run setup:tts（或设置 HDA_PYTHON）');
+    if (cdir) {
+      fs.mkdirSync(cdir, { recursive: true });
+      for (const f of files) fs.copyFileSync(path.join(work, f), path.join(cdir, f));
+      fs.cpSync(path.join(work, 'lines'), path.join(cdir, 'lines'), { recursive: true });
+    }
+  }
+  const cuesAbs = JSON.parse(fs.readFileSync(path.join(work, 'voice.words.json'), 'utf8'));
+  const srt = fs.readFileSync(path.join(work, 'voice.srt'), 'utf8');
+  const starts = [...srt.matchAll(/(\d\d):(\d\d):(\d\d),(\d{3}) --> (\d\d):(\d\d):(\d\d),(\d{3})/g)].map((m) => [(+m[1] * 3600 + +m[2] * 60 + +m[3] + +m[4] / 1000), (+m[5] * 3600 + +m[6] * 60 + +m[7] + +m[8] / 1000)]);
+  const lineDur = starts.map(([a, b]) => b - a);
+  const words = cuesAbs.map((c, i) => c.words.map((w) => ({ text: w.text, start: w.start - starts[i][0], end: w.end - starts[i][0] })));
+  return { words, lineDur };
+}
+
+// ffmpeg xfade transition names usable as shot.transition / --transition (ffmpeg ≥ 4.3; checked against ffmpeg 7)
+export const XFADE = ['fade', 'dissolve', 'fadeblack', 'fadewhite', 'fadegrays', 'wipeleft', 'wiperight', 'wipeup', 'wipedown', 'slideleft', 'slideright', 'slideup', 'slidedown',
+  'smoothleft', 'smoothright', 'smoothup', 'smoothdown', 'circleopen', 'circleclose', 'circlecrop', 'rectcrop', 'radial', 'pixelize', 'diagtl', 'diagtr', 'diagbl', 'diagbr',
+  'hlslice', 'hrslice', 'vuslice', 'vdslice', 'hblur', 'distance', 'squeezeh', 'squeezev', 'zoomin', 'horzopen', 'horzclose', 'vertopen', 'vertclose', 'coverleft', 'coverright', 'revealleft', 'revealright'];
+
+/** Normalise a transition spec ('fade', 'xfade:circleopen', 'huashu:inkBloom', {type, dur}, 'cut') → {type, dur} | null. Pure. */
+export function transitionSpec(t, def = null) {
+  const v = t ?? def;
+  if (!v || v === 'cut' || v === 'none') return null;
+  const o = typeof v === 'string' ? { type: v } : { ...v };
+  if (!o.type || o.type === 'cut' || o.type === 'none') return null;
+  if (o.type.startsWith('xfade:')) o.type = o.type.slice(6);
+  o.dur = +(o.dur ?? (o.type.startsWith('huashu:') ? 0.6 : 0.5));
+  return o;
+}
+
+/** Per-boundary transition durations, clamped so a transition never eats more than 45% of either neighbour. Pure. */
+export function transitionPlan(shots, targets, def = null) {
+  return shots.map((s, i) => {
+    if (i === shots.length - 1) return null;
+    const t = transitionSpec(s.transition, def);
+    if (!t) return null;
+    t.dur = +Math.max(0.1, Math.min(t.dur, targets[i] * 0.45, targets[i + 1] * 0.45)).toFixed(3);
+    return t;
+  });
+}
+
 export function assemble(sb, o) {
   const log = o.log || console.log;
   const baseDir = o.baseDir || '.';
@@ -113,22 +180,11 @@ export function assemble(sb, o) {
 
   // 1) voice-over with the default open TTS (one job, per-line files + char timestamps)
   const voiceCfg = sb.voice || {};
-  const auto = {};
-  let poolI = 0;
-  const voiceOf = (sp) => (sp ? voiceCfg.characters?.[sp] || (auto[sp] ||= POOL[poolI++ % POOL.length]) : voiceCfg.narrator || 'kokoro:zf_001');
-  const lines = [];
-  sb.shots.forEach((s, si) => (s.lines || []).forEach((l) => lines.push({ si, speaker: l.speaker, text: l.text, voice: l.voice || voiceOf(l.speaker), speed: l.speed })));
+  const { lines, auto } = planVoices(sb);
   let words = [], lineDur = [];
   if (lines.length && (o.engine || voiceCfg.engine) !== 'none') {
     log(`  配音：${lines.length} 句（本地开源 TTS）`);
-    const job = { lines: lines.map(({ text, voice, speed }) => ({ text, voice, speed })), out: path.join(work, 'voice'), lead: 0, gap: 0, align: o.align || 'auto', lines_dir: path.join(work, 'lines'), models: process.env.HDA_MODELS || null };
-    const r = spawnSync(findPython(), [path.join(ANIMATOR, 'tts', 'tts_local.py')], { input: JSON.stringify(job), encoding: 'utf8', stdio: ['pipe', 'pipe', 'inherit'], maxBuffer: 1 << 26 });
-    if (r.status !== 0) throw new Error('TTS 失败：先在 animator/ 里运行 npm run setup:tts（或设置 HDA_PYTHON）');
-    const cuesAbs = JSON.parse(fs.readFileSync(path.join(work, 'voice.words.json'), 'utf8'));
-    const srt = fs.readFileSync(path.join(work, 'voice.srt'), 'utf8');
-    const starts = [...srt.matchAll(/(\d\d):(\d\d):(\d\d),(\d{3}) --> (\d\d):(\d\d):(\d\d),(\d{3})/g)].map((m) => [(+m[1] * 3600 + +m[2] * 60 + +m[3] + +m[4] / 1000), (+m[5] * 3600 + +m[6] * 60 + +m[7] + +m[8] / 1000)]);
-    lineDur = starts.map(([a, b]) => b - a);
-    words = cuesAbs.map((c, i) => c.words.map((w) => ({ text: w.text, start: w.start - starts[i][0], end: w.end - starts[i][0] })));
+    ({ words, lineDur } = synthesizeLines(lines, work, { align: o.align, cache: o.ttsCache }));
   }
 
   // 2) timeline: each shot's target length; lines are laid out inside their shot
@@ -150,10 +206,12 @@ export function assemble(sb, o) {
   });
   const total = t;
 
-  // 3) normalise every clip to W×H@fps, fitted to its target length
+  // 3) normalise every clip to W×H@fps, fitted to its target length (+ the tail an outgoing transition overlaps)
+  const trans = transitionPlan(sb.shots, plan.map((p) => p.target), o.transition ?? sb.transition);
   const segs = [];
   const report = [];
-  plan.forEach((p, i) => {
+  plan.forEach((p0, i) => {
+    const p = { ...p0, target: +(p0.target + (trans[i]?.dur || 0)).toFixed(3) };
     const s = p.shot;
     const clip = findClip(s, clipsDir, baseDir);
     const seg = path.join(work, `seg${String(i).padStart(3, '0')}.mp4`);
@@ -162,7 +220,7 @@ export function assemble(sb, o) {
       if (!o.allowMissing) throw new Error(`缺少镜头 ${s.id} 的视频（clips/${s.id}.mp4）。先 import / gen，或加 --allow-missing 用黑场占位`);
       const aud = o.clipAudio ? ['-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo', '-c:a', 'aac', '-shortest'] : [];
       run('ffmpeg', ['-v', 'error', '-y', '-f', 'lavfi', '-i', `color=c=0x202020:s=${W}x${H}:r=${fps}:d=${p.target}`, ...aud, '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '20', seg]);
-      report.push({ id: s.id, clip: null, ...p, shot: undefined, fit: { mode: 'missing' } });
+      report.push({ id: s.id, clip: null, ...p0, shot: undefined, fit: { mode: 'missing' } });
       segs.push(seg); return;
     }
     const info = probe(clip);
@@ -185,10 +243,34 @@ export function assemble(sb, o) {
     const args = [...ins, ...outs, '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '18', '-preset', 'veryfast', seg];
     run('ffmpeg', args);
     fp.frame = frameMode(info, W, H, o.frame || 'auto');
-    report.push({ id: s.id, clip: path.relative(baseDir, clip), clipDuration: +info.duration.toFixed(3), size: `${info.width}x${info.height}`, start: +p.start.toFixed(3), target: p.target, voice: p.voice, fit: fp });
+    report.push({ id: s.id, clip: path.relative(baseDir, clip), clipDuration: +info.duration.toFixed(3), size: `${info.width}x${info.height}`, start: +p.start.toFixed(3), target: p0.target, voice: p.voice, fit: fp, ...(trans[i] ? { transition: trans[i] } : {}) });
     segs.push(seg);
   });
-  fs.writeFileSync(path.join(work, 'concat.txt'), segs.map((f) => `file '${f.replace(/'/g, "'\\''")}'`).join('\n'));
+  // transitions: shot i+1 still starts at its planned time; the transition plays over its first `dur` seconds,
+  // blending shot i's extra tail with shot i+1's head (same timing as ffmpeg xfade, so voice cues stay in place)
+  let pieces = segs;
+  if (trans.some(Boolean)) {
+    pieces = [];
+    const enc = ['-an', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '18', '-preset', 'veryfast', '-r', String(fps)];
+    plan.forEach((p, i) => {
+      const head = i > 0 && trans[i - 1] ? trans[i - 1].dur : 0;
+      const body = path.join(work, `body${String(i).padStart(3, '0')}.mp4`);
+      run('ffmpeg', ['-v', 'error', '-y', '-ss', String(head), '-i', segs[i], '-t', String(+(p.target - head).toFixed(3)), ...enc, body]);
+      pieces.push(body);
+      const t = trans[i];
+      if (!t) return;
+      const tf = path.join(work, `trans${String(i).padStart(3, '0')}.mp4`);
+      if (t.type.startsWith('huashu:') || !XFADE.includes(t.type)) {
+        if (!o.transitionRenderer) throw new Error(`转场 ${t.type} 需要外部渲染器（stills2video 提供 huashu:* 转场）；ffmpeg 可用：${XFADE.join(' ')}`);
+        o.transitionRenderer({ type: t.type, dur: t.dur, a: segs[i], aStart: p.target, b: segs[i + 1], out: tf, W, H, fps });
+      } else {
+        run('ffmpeg', ['-v', 'error', '-y', '-ss', String(p.target), '-t', String(t.dur), '-i', segs[i], '-t', String(t.dur), '-i', segs[i + 1],
+          '-filter_complex', `[0:v]settb=AVTB,fps=${fps}[a];[1:v]settb=AVTB,fps=${fps}[b];[a][b]xfade=transition=${t.type}:duration=${t.dur}:offset=0,format=yuv420p`, '-t', String(t.dur), ...enc, tf]);
+      }
+      pieces.push(tf);
+    });
+  }
+  fs.writeFileSync(path.join(work, 'concat.txt'), pieces.map((f) => `file '${f.replace(/'/g, "'\\''")}'`).join('\n'));
   const video = path.join(work, 'video.mp4');
   run('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', path.join(work, 'concat.txt'), '-c', 'copy', video]);
 

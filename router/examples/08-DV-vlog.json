@@ -110,15 +110,15 @@
         "score": 9.8
       },
       {
-        "id": "youmind-2847",
-        "title": "伪纪录片喜剧：影子故障舞蹈视频提示词",
+        "id": "renoise-2088997736083587132",
+        "title": "基础设定：基于这张 {{Mixed 2}} 的色卡，文字等信息和人物角色图 {{Mixed 1}}…",
         "genre": "真人/现实向/生活与vlog",
         "art_style": "",
         "language": "zh",
         "model": "Seedance 2.0",
         "license": "CC-BY-4.0",
-        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
-        "path": "prompts/真人/现实向/生活与vlog/youmind-2847--伪纪录片喜剧-影子故障舞蹈视频提示词.md",
+        "source_repo": "renoise-ai/awesome-seedance-prompts",
+        "path": "prompts/真人/现实向/生活与vlog/renoise-2088997736083587132--基础设定-基于这张-Mixed-2-的色卡,文字等信息和人物角色图-Mixed.md",
         "score": 8.8
       },
       {
@@ -228,7 +228,7 @@
         "url": "https://github.com/luoluoluo22/jianying-editor-skill",
         "kind": "skill",
         "intro_zh": "让 Agent 自动操作剪映：写文案、配音、字幕、选乐、特效到导出草稿",
-        "stars": 3809,
+        "stars": 3824,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "MIT；内含 Apache-2.0 的 pyJianYingDraft 等第三方组件",
@@ -246,7 +246,7 @@
         "url": "https://github.com/harry0703/MoneyPrinterTurbo",
         "kind": "app",
         "intro_zh": "主题→文案→实拍素材库拼接→配音字幕的短视频生成",
-        "stars": 129304,
+        "stars": 129189,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -255,7 +255,7 @@
           "free-cpu"
         ],
         "zh": "native",
-        "plugs_into": "实拍素材口播；不适合手绘",
+        "plugs_into": "实拍素材口播；不适合手绘；stills2video 借鉴了它的亚像素缩放与图片清洗思路（MIT，自写实现）",
         "score": 10.5
       },
       {
@@ -264,7 +264,7 @@
         "url": "https://github.com/mifi/editly",
         "kind": "library",
         "intro_zh": "声明式（JSON）命令行视频剪辑/合成",
-        "stars": 5519,
+        "stars": 5521,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -272,7 +272,7 @@
           "free-cpu"
         ],
         "zh": "en",
-        "plugs_into": "用 JSON 拼片头片尾与转场",
+        "plugs_into": "用 JSON 拼片头片尾与转场；stills2video 借鉴了它的缓动曲线与 zoomDirection 参数思路（MIT，自写实现）",
         "score": 9.87
       },
       {
@@ -281,7 +281,7 @@
         "url": "https://github.com/gyoridavid/short-video-maker",
         "kind": "app",
         "intro_zh": "文本→TTS + 自动字幕 + 背景素材 + 音乐的短视频生成器（MCP/REST）",
-        "stars": 1397,
+        "stars": 1399,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -298,7 +298,7 @@
         "url": "https://github.com/FireRedTeam/FireRed-OpenStoryline",
         "kind": "app",
         "intro_zh": "AI 剪辑 agent：自然语言驱动剪辑决策",
-        "stars": 3465,
+        "stars": 3470,
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -325,6 +325,23 @@
         "zh": "en",
         "plugs_into": "口播/vlog 加逐词字幕；package.json 标注 UNLICENSED（Remotion License 管框架）",
         "score": 8.23
+      },
+      {
+        "id": "comfyui",
+        "repo": "Comfy-Org/ComfyUI",
+        "url": "https://github.com/Comfy-Org/ComfyUI",
+        "kind": "engine",
+        "intro_zh": "节点式本地生成底座；Wan2.2 I2V / FLF2V、LTX、FramePack 等都有官方或社区工作流",
+        "stars": 136482,
+        "license": "GPL-3.0",
+        "license_class": "copyleft",
+        "license_note": "已读 LICENSE：GPL-3.0。本仓库只通过它的 HTTP API（/prompt、/history、/view）把它当外部程序调用，不复制、不链接它的代码。",
+        "cost": [
+          "gpu"
+        ],
+        "zh": "en",
+        "plugs_into": "stills2video --backend comfyui 与 videogen --provider comfyui 都走它的 HTTP API；工作流用 API 格式导出，节点标题写 $prompt.text / $image.image 即可自动绑定",
+        "score": 3.5
       }
     ],
     "methods": [
@@ -351,7 +368,7 @@
         "url": "https://github.com/liangdabiao/make-prompt-seedance2",
         "kind": "method",
         "intro_zh": "Seedance 2.0 结构化提示词指南：16+ 模板、8+ 示例（带货、TVC、真人实拍）",
-        "stars": 693,
+        "stars": 694,
         "license": "NONE",
         "license_class": "none",
         "license_note": "无 LICENSE 文件；docs/ 收录了他人文章，仅链接，切勿复制",
@@ -452,6 +469,7 @@
     "背景音乐、字体、参考图需自有版权或可商用授权",
     "按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容",
     "remotion-dev/template-tiktok：未附 LICENSE 文件，package.json 标注 UNLICENSED；按官方方式 npx create-video 使用（无许可证：仅可参考，勿复制代码）",
+    "Comfy-Org/ComfyUI：已读 LICENSE：GPL-3.0。本仓库只通过它的 HTTP API（/prompt、/history、/view）把它当外部程序调用，不复制、不链接它的代码。",
     "liangdabiao/make-prompt-seedance2：无 LICENSE 文件；docs/ 收录了他人文章，仅链接，切勿复制（无许可证：仅可参考，勿复制代码）"
   ],
   "warnings": []

@@ -76,6 +76,18 @@
     "art": "3D国漫",
     "items": [
       {
+        "id": "renoise-2026269308083634683",
+        "title": "16:9横屏，中国3D仙侠动画电影风格，金红暖色调高燃战斗开场。",
+        "genre": "漫剧/特效向/仙侠玄幻",
+        "art_style": "3D国漫",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "renoise-ai/awesome-seedance-prompts",
+        "path": "prompts/漫剧/特效向/仙侠玄幻/renoise-2026269308083634683--16-9横屏,中国3D仙侠动画电影风格,金红暖色调高燃战斗开场.md",
+        "score": 8.8
+      },
+      {
         "id": "youmind-11850",
         "title": "史诗仙侠战斗视频提示词",
         "genre": "漫剧/特效向/仙侠玄幻",
@@ -97,18 +109,6 @@
         "license": "CC-BY-4.0",
         "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
         "path": "prompts/漫剧/特效向/仙侠玄幻/youmind-606--Seedance-2.0-中国仙侠动画提示词-0-15-秒.md",
-        "score": 8.8
-      },
-      {
-        "id": "youmind-7785",
-        "title": "古树下休憩的仙侠角色",
-        "genre": "漫剧/特效向/仙侠玄幻",
-        "art_style": "3D国漫",
-        "language": "zh",
-        "model": "Seedance 2.0",
-        "license": "CC-BY-4.0",
-        "source_repo": "YouMind-OpenLab/awesome-seedance-2-prompts",
-        "path": "prompts/漫剧/特效向/仙侠玄幻/youmind-7785--古树下休憩的仙侠角色.md",
         "score": 8.8
       },
       {
@@ -234,7 +234,7 @@
         "url": "https://github.com/HBAI-Ltd/Toonflow-app",
         "kind": "platform",
         "intro_zh": "开源 AI 短剧工厂：无限画布 + Agent + 角色三视图 + 智能分镜 + 视频生成",
-        "stars": 16696,
+        "stars": 16797,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -269,7 +269,7 @@
         "url": "https://github.com/ArcReel/ArcReel",
         "kind": "platform",
         "intro_zh": "小说/剧本→角色场景道具资产→分镜→视频→剪映草稿",
-        "stars": 5373,
+        "stars": 5387,
         "license": "AGPL-3.0",
         "license_class": "copyleft",
         "license_note": "AGPL-3.0：修改后对外提供网络服务也需开源",
@@ -286,7 +286,7 @@
         "url": "https://github.com/HKUDS/ViMax",
         "kind": "platform",
         "intro_zh": "港大：Idea2Video / Script2Video / Novel2Video，编剧→分镜→角色参考→首帧→视频→拼接",
-        "stars": 12572,
+        "stars": 12585,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -303,7 +303,7 @@
         "url": "https://github.com/Forget-C/Jellyfish",
         "kind": "platform",
         "intro_zh": "AI 短剧端到端工作台：结构化分镜、一致性管理到出片",
-        "stars": 6630,
+        "stars": 6634,
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -320,7 +320,7 @@
         "url": "https://github.com/xuanyustudio/LocalMiniDrama",
         "kind": "app",
         "intro_zh": "本地 AI 短剧 & 漫剧生成工具，数据不出本机",
-        "stars": 1972,
+        "stars": 1975,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -337,7 +337,7 @@
         "url": "https://github.com/liangdabiao/smy-seedance-storyboard",
         "kind": "skill",
         "intro_zh": "上美影（复古手绘动画）风格短剧文档生成器：剧本 + 全剧色盘 + 资产出图提示词 + 每集 Seedance 时间轴分镜",
-        "stars": 119,
+        "stars": 123,
         "license": "NONE",
         "license_class": "none",
         "license_note": "",
@@ -347,7 +347,7 @@
         ],
         "zh": "native",
         "plugs_into": "国风手绘漫剧的「色盘锁定 + 资产清单」方法；无许可证，仅链接，提示词可配合 videogen plan",
-        "score": 10.04
+        "score": 10.05
       },
       {
         "id": "huobao-drama",
@@ -355,7 +355,7 @@
         "url": "https://github.com/chatfire-AI/huobao-drama",
         "kind": "platform",
         "intro_zh": "火宝短剧：一句话生成完整短剧",
-        "stars": 15849,
+        "stars": 15858,
         "license": "CC-BY-NC-SA-4.0",
         "license_class": "noncommercial",
         "license_note": "CC BY-NC-SA 4.0：非商用、相同方式共享",
@@ -374,7 +374,7 @@
         "url": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill",
         "kind": "skill",
         "intro_zh": "漫剧老李：立项→剧本→资产锁定→文武双模分镜→七段式提示词 + FACS 微表情",
-        "stars": 1069,
+        "stars": 1086,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -383,7 +383,7 @@
         ],
         "zh": "native",
         "plugs_into": "本仓库 templates/漫剧老李-七段式与资产图模板 已收录其 MIT 模板",
-        "score": 17.01
+        "score": 17.02
       },
       {
         "id": "martial-arts-director-cy",
@@ -408,7 +408,7 @@
         "url": "https://github.com/zenstory-ai/drama-skills",
         "kind": "skill",
         "intro_zh": "11 个短剧/漫剧 skill：原著分析→分集剧本→视觉设定→图片提示词与分镜→视频提示词→生产→剪辑→审查，五份 Markdown 即创作事实",
-        "stars": 2609,
+        "stars": 2625,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -426,7 +426,7 @@
         "url": "https://github.com/eternityspring/shuohao-skills",
         "kind": "skill",
         "intro_zh": "AI 短剧 skill 集：小说→改编大纲五件套→角色设定集→场景道具设定→剧本→分镜，质量门脚本检查",
-        "stars": 4249,
+        "stars": 4266,
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -435,7 +435,7 @@
         ],
         "zh": "native",
         "plugs_into": "小说转漫剧/短剧的前期方法；分镜输出后接 templates/ 七段式与 videogen plan",
-        "score": 12.31
+        "score": 12.32
       },
       {
         "id": "short-drama-factory",
@@ -443,7 +443,7 @@
         "url": "https://github.com/lixiaoxiao9888-create/short-drama-factory",
         "kind": "skill",
         "intro_zh": "抖音/红果爆款短剧编剧系统：40 赛道、六母型钩子、五大断章、反转轮换，标准/长档/漫剧三档篇幅",
-        "stars": 306,
+        "stars": 310,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -452,7 +452,7 @@
         ],
         "zh": "native",
         "plugs_into": "只产剧本层；剧本完成后再进分镜与 videogen",
-        "score": 11.74
+        "score": 11.75
       }
     ]
   },

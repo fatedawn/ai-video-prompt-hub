@@ -89,6 +89,18 @@
         "score": 7.8
       },
       {
+        "id": "renoise-2082603087181799670",
+        "title": "短剧预告片。0-3 秒：暴雨夜，一个外卖箱掉在小区门口，镜头低角度贴地推进；3-6 秒：女主从楼道阴影里跑出，神情紧张；6-10…",
+        "genre": "真人/特效向/恐怖灵异",
+        "art_style": "",
+        "language": "zh",
+        "model": "Seedance 2.0",
+        "license": "CC-BY-4.0",
+        "source_repo": "renoise-ai/awesome-seedance-prompts",
+        "path": "prompts/真人/特效向/恐怖灵异/renoise-2082603087181799670--短剧预告片-0-3-秒-暴雨夜,一个外卖箱掉在小区门口,镜头低角度贴地推进;3.md",
+        "score": 6.8
+      },
+      {
         "id": "youmind-1356",
         "title": "Seedance 2.0 逼真瑜伽序列视频提示",
         "genre": "真人/现实向/剧情短片",
@@ -123,18 +135,6 @@
         "source_repo": "LearnPrompt/awesome-seedance",
         "path": "prompts/真人/现实向/剧情短片/goodcase-liyue-ai-seedance-ai-10c1ac4f1c20--纸飞机飞越老城四季.md",
         "score": 6.5
-      },
-      {
-        "id": "emily-148be0e2",
-        "title": "Chinese-English Mixed Role Map",
-        "genre": "真人/现实向/剧情短片",
-        "art_style": "",
-        "language": "zh",
-        "model": "Seedance 2.0",
-        "license": "MIT",
-        "source_repo": "Emily2040/seedance-2.0",
-        "path": "prompts/真人/现实向/剧情短片/emily-148be0e2--Chinese-English-Mixed-Role-Map.md",
-        "score": 5.8
       }
     ]
   },
@@ -214,7 +214,7 @@
         "url": "https://github.com/HBAI-Ltd/Toonflow-app",
         "kind": "platform",
         "intro_zh": "开源 AI 短剧工厂：无限画布 + Agent + 角色三视图 + 智能分镜 + 视频生成",
-        "stars": 16696,
+        "stars": 16797,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -249,7 +249,7 @@
         "url": "https://github.com/Forget-C/Jellyfish",
         "kind": "platform",
         "intro_zh": "AI 短剧端到端工作台：结构化分镜、一致性管理到出片",
-        "stars": 6630,
+        "stars": 6634,
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -266,7 +266,7 @@
         "url": "https://github.com/xuanyustudio/LocalMiniDrama",
         "kind": "app",
         "intro_zh": "本地 AI 短剧 & 漫剧生成工具，数据不出本机",
-        "stars": 1972,
+        "stars": 1975,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -283,7 +283,7 @@
         "url": "https://github.com/artokun/comfyui-mcp",
         "kind": "app",
         "intro_zh": "本地 ComfyUI 的 agent 控制面：MCP + 侧栏 agent 生成图像/视频、搭工作流",
-        "stars": 797,
+        "stars": 798,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -300,7 +300,7 @@
         "url": "https://github.com/ArcReel/ArcReel",
         "kind": "platform",
         "intro_zh": "小说/剧本→角色场景道具资产→分镜→视频→剪映草稿",
-        "stars": 5373,
+        "stars": 5387,
         "license": "AGPL-3.0",
         "license_class": "copyleft",
         "license_note": "AGPL-3.0：修改后对外提供网络服务也需开源",
@@ -317,7 +317,7 @@
         "url": "https://github.com/HKUDS/ViMax",
         "kind": "platform",
         "intro_zh": "港大：Idea2Video / Script2Video / Novel2Video，编剧→分镜→角色参考→首帧→视频→拼接",
-        "stars": 12572,
+        "stars": 12585,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -334,7 +334,7 @@
         "url": "https://github.com/Doubiiu/ToonCrafter",
         "kind": "research",
         "intro_zh": "生成式卡通中间帧插值，支持草图引导（SIGGRAPH Asia 2024）",
-        "stars": 6031,
+        "stars": 6032,
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -353,7 +353,7 @@
         "url": "https://github.com/0xsline/short-drama",
         "kind": "skill",
         "intro_zh": "短剧剧本创作 skill：13 种题材模板、四层反派、五种钩子、节奏曲线、付费卡点、合规审核、出海",
-        "stars": 1365,
+        "stars": 1367,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -370,7 +370,7 @@
         "url": "https://github.com/snailzsh/manga-script-master",
         "kind": "skill",
         "intro_zh": "爆款漫剧（动态漫/条漫）脚本 + AI 分镜提示词：角色视觉锚点、四大赛道节奏模型",
-        "stars": 73,
+        "stars": 74,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -379,7 +379,7 @@
         ],
         "zh": "native",
         "plugs_into": "漫剧赛道节奏",
-        "score": 10.93
+        "score": 10.94
       },
       {
         "id": "shuohao-skills",
@@ -387,7 +387,7 @@
         "url": "https://github.com/eternityspring/shuohao-skills",
         "kind": "skill",
         "intro_zh": "AI 短剧 skill 集：小说→改编大纲五件套→角色设定集→场景道具设定→剧本→分镜，质量门脚本检查",
-        "stars": 4249,
+        "stars": 4266,
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -396,7 +396,7 @@
         ],
         "zh": "native",
         "plugs_into": "小说转漫剧/短剧的前期方法；分镜输出后接 templates/ 七段式与 videogen plan",
-        "score": 9.81
+        "score": 9.82
       },
       {
         "id": "manju-laoli-skill",
@@ -404,7 +404,7 @@
         "url": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill",
         "kind": "skill",
         "intro_zh": "漫剧老李：立项→剧本→资产锁定→文武双模分镜→七段式提示词 + FACS 微表情",
-        "stars": 1069,
+        "stars": 1086,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -413,7 +413,7 @@
         ],
         "zh": "native",
         "plugs_into": "本仓库 templates/漫剧老李-七段式与资产图模板 已收录其 MIT 模板",
-        "score": 9.51
+        "score": 9.52
       },
       {
         "id": "short-drama-factory",
@@ -421,7 +421,7 @@
         "url": "https://github.com/lixiaoxiao9888-create/short-drama-factory",
         "kind": "skill",
         "intro_zh": "抖音/红果爆款短剧编剧系统：40 赛道、六母型钩子、五大断章、反转轮换，标准/长档/漫剧三档篇幅",
-        "stars": 306,
+        "stars": 310,
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -430,7 +430,7 @@
         ],
         "zh": "native",
         "plugs_into": "只产剧本层；剧本完成后再进分镜与 videogen",
-        "score": 9.24
+        "score": 9.25
       }
     ]
   },

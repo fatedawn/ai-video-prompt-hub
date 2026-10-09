@@ -1,6 +1,6 @@
 ---
 name: ai-video-director
-description: 当用户想做一条 AI 视频（漫剧、真人短剧、知识科普口播、儿童绘本、古诗词、产品带货、GitHub/AI 工具推荐、vlog、MV、数据可视化等），但还没决定用什么工具和流程时使用。先确认题材、媒介、预算等需求，再在本仓库的 animator 手绘动画、videogen 视频生成、Remotion/HyperFrames 代码动效和 catalog/ 外部开源项目之间选路线，挑出匹配的提示词、模板和画风预设，给出可直接执行的命令。
+description: 当用户想做一条 AI 视频（漫剧、真人短剧、知识科普口播、儿童绘本、古诗词、产品带货、GitHub/AI 工具推荐、vlog、MV、数据可视化等），但还没决定用什么工具和流程时使用。先确认题材、媒介、预算等需求，再在本仓库的 animator 手绘动画、videogen 视频生成、stills2video 静图成片（只有图片 / 没有视频订阅时）、Remotion/HyperFrames 代码动效和 catalog/ 外部开源项目之间选路线，挑出匹配的提示词、模板和画风预设，给出可直接执行的命令。
 ---
 
 # AI 导演：按题材选路线、选素材、出方案
@@ -19,7 +19,8 @@ description: 当用户想做一条 AI 视频（漫剧、真人短剧、知识科
 | 时长 | 讲解 60–90s · 短剧单集 60s · 带货 30s | 按题材 |
 | 画幅 | 9:16 · 16:9 · 1:1 | 9:16 |
 | 预算 / 硬件 | `free-cpu` 免费普通电脑 · `gpu` 自己的显卡 · `api-key` 云 API · `web-manual` 网页端手动 | free-cpu |
-| 角色素材 | 有无角色设定图、产品实拍图、实拍视频 | 无 |
+| 角色素材 | 有无角色设定图、产品实拍图、实拍视频、**现成的图片**（ChatGPT 等出的图） | 无 |
+| 显存（只有图片时） | 0 · 8 · 12 · 16 · 24 GB；不知道就 `node stills2video/cli.mjs doctor` | 0 |
 | 配音 | 本地 Kokoro TTS（免费）· 自己录 · 已授权克隆声音 · 无 | Kokoro |
 | 是否商用 | 是 → 排除非商用/无许可证项目 | 否 |
 
@@ -33,6 +34,7 @@ description: 当用户想做一条 AI 视频（漫剧、真人短剧、知识科
 | 仙侠/玄幻/武侠、甜宠、悬疑、都市、科幻、搞笑等**剧情** | **② videogen** | 提示词按 `prompts/<媒介>/<方向>/<题材>/` 选，模板用 `templates/` |
 | 写实产品带货 | **②** + ③ | `free-cpu` 时改为 ③ + 无需 API 的电商 skill（实拍图 + ffmpeg/代码动效） |
 | Vlog / DV 录像 / MV | **②**（有实拍素材就走剪辑） | DV 质感模板 `learnprompt-tpl-zh-retro-found-footage` |
+| **只有图片**（ChatGPT Images 出的图、照片、插画），没有视频订阅 | **⑤ stills2video** | 图片按文件名编号对镜头；CPU 深度视差 + 运镜 + 雾/光/粒子 + 转场 + 配音字幕；有显卡走本地 ComfyUI（Wan2.2），有 key 走云端，都没有就网页手动补关键镜头 |
 | 现成外部项目明显更合适（例如小说→多集全自动、数字人口播、剪映自动化） | **④ 外部项目** | 从 `catalog/registry.json` 选，注意许可证与成本 |
 
 **预算修正**
@@ -43,10 +45,27 @@ description: 当用户想做一条 AI 视频（漫剧、真人短剧、知识科
 - `api-key` → `videogen gen --provider seedance|kling|minimax|veo|…`，**先 `--dry-run`**。
 - `web-manual` → `videogen export --site jimeng|kling|hailuo|…` → 网页生成 → `videogen import`。
 
+**只有图片（⑤ stills2video）按硬件分档**（`--vram` 或 doctor 自动检测）
+
+| 档位 | 后端 | 能做什么 |
+|---|---|---|
+| cpu（无独显 / <6GB） | `--backend cpu` | 2.5D 视差 + Ken Burns + 叠层特效 + 动态照片（远景漂移），没有真实物体运动 |
+| gpu8（6–10GB） | `--backend comfyui`（Wan2.2 TI2V-5B 544×960 3 秒）/ `lightx2v` / `wan2gp` | 真实运动短镜头；首尾帧过渡不建议 |
+| gpu12 / gpu16 | comfyui（5B 720p；14B GGUF + 4 步 LoRA，12GB 未核验） | 加首尾帧过渡（`plan --flf2v`） |
+| gpu24（≥20GB） | comfyui（Wan2.2-14B I2V / FLF2V fp8 4 步，720p） | 主力镜头 + 相邻图片自动首尾帧过渡 |
+| 有云端 key | `--backend cloud:kling`（或 minimax / seedance…） | 关键镜头交给云端，其余仍 CPU；无 key 自动 dry-run |
+| 网页手动 | `export --site jimeng`（或 framepack / freevideo / ltx-desktop…）→ `import` | 免费额度做关键镜头 |
+
+```bash
+node stills2video/cli.mjs prompts --script 台词.txt --out 出图提示词.md   # 逐镜 ChatGPT 中文出图提示词 + 文件命名
+node stills2video/cli.mjs make --images stills/ --script 台词.txt --out final.mp4 [--backend auto|cpu|comfyui|cloud:kling]
+node stills2video/cli.mjs render s2v.json --backend comfyui --dry-run      # GPU 工作流先只生成不执行
+```
+
 一键得到完整方案：
 
 ```bash
-node router/cli.mjs recommend "<题材>" --medium 漫剧 --budget free-cpu [--aspect 9:16] [--duration 60] [--assets character] [--style 水墨] [--commercial] [--format json]
+node router/cli.mjs recommend "<题材>" --medium 漫剧 --budget free-cpu [--aspect 9:16] [--duration 60] [--assets character|images] [--vram 12] [--style 水墨] [--commercial] [--format json]
 ```
 
 ## 3. 选提示词、模板、画风
@@ -66,7 +85,7 @@ node router/cli.mjs recommend "<题材>" --medium 漫剧 --budget free-cpu [--as
   - 国风/古诗：`ink-wash`；搞笑：`ms-paint-bad-doodle`；社论/悬疑：`linocut-editorial`
   - animator 画材 `--media`：crayon · colored-pencil · pencil · ink · picture-book · marker
 
-## 4. 执行（路线①②③的标准步骤）
+## 4. 执行（路线①②③⑤的标准步骤）
 
 工作目录统一用 `.work/<slug>/`（已被 .gitignore）。
 
@@ -94,6 +113,16 @@ npx skills add remotion-dev/skills && npx create-video@latest      # Remotion
 npx skills add heygen-com/hyperframes && npx hyperframes init <dir> # HyperFrames（HTML→MP4）
 pip install manim manim-voiceover                                   # 数学讲解
 # 配音/字幕复用本仓库本地 TTS：animator make 会同时生成 <name>.voice.*（音频 + SRT + 字级时间戳）
+```
+
+**⑤ stills2video**
+```bash
+cd stills2video && npm run setup:depth && cd ..                 # 首次：深度模型 Depth-Anything-V2-Small（Apache-2.0，26MB）
+node stills2video/cli.mjs doctor                                  # 显卡档位、深度模型、TTS、RIFE/Real-ESRGAN
+node stills2video/cli.mjs prompts --script .work/<slug>/台词.txt --out .work/<slug>/出图提示词.md
+# 在 ChatGPT 里逐镜出图，命名 01.png、02.png… 放进 .work/<slug>/stills/
+node stills2video/cli.mjs make --images .work/<slug>/stills --script .work/<slug>/台词.txt --out .work/<slug>/final.mp4
+node stills2video/cli.mjs polish .work/<slug>/s2v.json --interp 2 && node stills2video/cli.mjs assemble .work/<slug>/s2v.json   # 可选
 ```
 
 剧情类前期（剧本、改编、角色一致性、打戏）的方法见 `catalog/methodology.md` 第 2–6 节；手绘讲解见第 7 节；代码动效见第 8 节。
