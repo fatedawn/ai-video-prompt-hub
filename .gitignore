@@ -44,3 +44,8 @@ stills2video/**/clips/
 *.pth
 # reference clones used during research are kept outside the repo (../ref-i2v); never vendor them here
 ref-i2v/
+
+# slides2video outputs
+slides2video/**/*.mp4
+slides2video/**/*.srt
+slides2video/**/out/
