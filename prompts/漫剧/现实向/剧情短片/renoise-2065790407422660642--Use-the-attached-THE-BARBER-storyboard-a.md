@@ -1,0 +1,437 @@
+---
+id: "renoise-2065790407422660642"
+title: "Use the attached THE BARBER storyboard as exact visual reference. Create a…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "漫剧"
+direction: "现实向"
+genre: "剧情短片"
+art_style: "3D卡通"
+tags: ["Seedance 2.0", "Renoise", "Story", "Heartwarming", "3D Animation", "Realistic World"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065790407422660642.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "TechieSA"
+original_author_url: "https://x.com/TechieBySA"
+original_post_url: "https://x.com/TechieBySA/status/2065790407422660642"
+published: "2026-06-13"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Use the attached THE BARBER storyboard as exact visual reference. Create a…
+
+## 提示词（English）
+
+```text
+Use the attached THE BARBER storyboard as exact visual reference. Create a 12-second 16:9 Pixar 3D animated sequence following all 8 shots exactly. Same young male barber — sharp fade, white t-shirt, black apron, warm confident expression — classic independent barbershop, deep forest green walls, exposed brick, vintage barber chair, chrome tools, bright blue sky through the window throughout.
+
+Shot sequence:
+
+1.Inside the shop. One neon sign on the window glowing red CLOSED. Barber reaches up and flicks the switch — sign changes to glowing green OPEN. Morning light floods in through the window. Barber pole spinning outside through the glass. Barber looks at the camera with a warm smile.
+2.Wide medium. Customer sits in the vintage barber chair. Barber stands behind, snaps the bold red cape dramatically — it billows out wide and settles around the customer’s shoulders. Blue sky through the window behind them.
+3.Close-up with barber visible. Chrome spray bottle misting the customer’s hair — fine water droplets catching the golden sunlight, hair darkening and slicking down. Fresh and bright.
+4.Close-up dramatic. Scissors blurring through hair in confident rapid snips — dark hair falling in slow motion, barber’s skilled hands visible. Every movement precise and deliberate.
+5.Extreme close-up. Clippers carving a perfect crisp clean line along the neck — blade edge perfectly straight, skin clean on one side, hair defined on the other. Chrome clipper gleaming.
+6.Wide medium. Barber presses steaming white towel against customer’s face — eyes close immediately, shoulders drop, complete surrender to the warmth. Steam rising softly. Green walls behind them.
+7.Close-up hero. Straight razor drawn slowly and confidently along the neck line — one clean precise stroke, blade catching warm golden light. Calm and deliberate.
+8.Wide warm. Barber and customer both facing the large wall mirror. Customer sees their complete fresh cut — clean fade, crisp lines. Eyes go wide, slow smile, one hand comes up to touch the cut. Barber behind them arms crossed, deeply proud. Blue sky through the window.
+
+Camera: Inside wide for the sign flip, wide medium for cape and hot towel, close-up with character for the spray, close-up dramatic for the cut, extreme close-up for the clipper line, close-up hero for the razor, wide warm for the mirror reveal.
+
+Style: Warm golden morning light throughout. Deep forest green walls, exposed brick, glowing neon signs, spinning barber pole, bold red cape, chrome tools, bright blue sky through window. Pixar CGI vivid and warm. Nothing brown, nothing muddy.
+
+Sound: Smooth barbershop music — warm RnB or soul — from first frame to last. Continuous, no breaks. Natural sounds underneath — neon sign switching on, cape snapping and billowing, spray bottle misting, scissors snipping rapidly, clippers buzzing, hot towel steam, razor gliding, customer’s satisfied exhale at the reveal. Music never stops.
+
+Goal: 12 seconds. One barber. One perfect cut. Sharp, precise, and deeply satisfying to watch.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065790407422660642.json)
+
+```text
+---
+Utilisez le storyboard THE BARBER joint comme référence visuelle exacte. Créez une séquence animée 3D Pixar de 12 secondes en format 16:9 en suivant exactement les 8 plans. Même jeune barbier — dégradé net, t-shirt blanc, tablier noir, expression chaleureuse et confiante — barbershop classique indépendant, murs vert forêt profond, briques apparentes, fauteuil de barbier vintage, outils en chrome, ciel bleu vif à travers la fenêtre tout au long.
+
+Séquence des plans :
+
+1. À l'intérieur du salon. Un néon sur la fenêtre brille en rouge FERMÉ. Le barbier tend la main et actionne l'interrupteur — le néon passe au vert OUVERT. La lumière du matin inonde la pièce à travers la fenêtre. Le poteau de barbier tourne à l'extérieur à travers le verre. Le barbier regarde la caméra avec un sourire chaleureux.
+2. Plan moyen large. Le client est assis dans le fauteuil de barbier vintage. Le barbier se tient derrière, claque la cape rouge vif de manière dramatique — elle s'étend largement et se pose autour des épaules du client. Ciel bleu à travers la fenêtre derrière eux.
+3. Gros plan avec le barbier visible. Bouteille de spray en chrome vaporisant les cheveux du client — fines gouttelettes d'eau captant la lumière dorée du soleil, cheveux s'assombrissant et se lissant. Frais et lumineux.
+4. Gros plan dramatique. Ciseaux flous traversant les cheveux en coupes rapides et confiantes — cheveux sombres tombant au ralenti, mains habiles du barbier visibles. Chaque mouvement est précis et délibéré.
+5. Très gros plan. Tondeuse sculptant une ligne nette et propre le long du cou — bord de la lame parfaitement droit, peau nette d'un côté, cheveux définis de l'autre. Tondeuse en chrome étincelante.
+6. Plan moyen large. Le barbier presse une serviette blanche fumante contre le visage du client — les yeux se ferment immédiatement, les épaules se détendent, abandon total à la chaleur. Vapeur s'élevant doucement. Murs verts derrière eux.
+7. Gros plan héroïque. Rasoir droit tiré lentement et avec confiance le long de la ligne du cou — un coup net et précis, la lame captant la lumière dorée chaude. Calme et délibéré.
+8. Plan large chaleureux. Le barbier et le client font face ensemble au grand miroir mural. Le client voit sa coupe fraîche complète — dégradé net, lignes précises. Les yeux s'écarquillent, sourire lent, une main se lève pour toucher la coupe. Le barbier derrière eux, bras croisés, profondément fier. Ciel bleu à travers la fenêtre.
+
+Caméra : Plan large intérieur pour le basculement du néon, plan moyen large pour la cape et la serviette chaude, gros plan avec personnage pour le spray, gros plan dramatique pour la coupe, très gros plan pour la ligne de la tondeuse, gros plan héroïque pour le rasoir, plan large chaleureux pour la révélation au miroir.
+
+Style : Lumière dorée chaude du matin tout au long. Murs vert forêt profond, briques apparentes, néons lumineux, poteau de barbier tournant, cape rouge vif, outils en chrome, ciel bleu vif à travers la fenêtre. CGI Pixar vif et chaleureux. Rien de brun, rien de boueux.
+
+Son : Musique de barbershop douce — RnB ou soul chaleureux — du premier au dernier cadre. Continu, sans pauses. Sons naturels en dessous — néon s'allumant, cape claquant et se déployant, bouteille de spray vaporisant, ciseaux coupant rapidement, tondeuses bourdonnant, vapeur de serviette chaude, rasoir glissant, soupir satisfait du client à la révélation. La musique ne s'arrête jamais.
+
+Objectif : 12 secondes. Un barbier. Une coupe parfaite. Net, précis et profondément satisfaisant à regarder.
+
+--- TWEET CITÉ ---
+Du grain à la première gorgée.☕️
+
+Réalisé avec Seedance 2.0 + GPT Image 2
+
+Prompt ⤵️ https://t.co/X1B4768dWD
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Réalisé sans quitter Claude — utilisé Sjinn AI MCP directement dans le chat pour générer l'image et la vidéo.✨ https://t.co/PLjViNFvom
+
+[Fil 2] Prompt de storyboard GPT Image 2 :
+
+« Créez un poster storyboard infographique net et propre pour THE BARBER. Mise en page large 16:9, fond blanc, bordures noires, typographie noire en gras, rendu stylisé 3D Pixar premium, couleurs vives et éclatantes — murs vert forêt profond, briques apparentes, néons lumineux, poteau de barbier tournant, cape de barbier rouge vif, outils en chrome étincelants, lumière dorée chaude du soleil, ciel bleu vif à travers la fenêtre.
+
+En-tête supérieur :
+
+•THE BARBER
+•TEMPS TOTAL DE LA VIDÉO : 12 SECONDES
+•8 PLANS · NET · PRÉCIS · COUPE FRAÎCHE
+•Icônes légendaires : ACTION, CHALEUR, INDICE DE TEMPS, INGRÉDIENT
+
+Même jeune barbier de style Pixar tout au long — dégradé net, t-shirt blanc propre sous tablier noir, expression chaleureuse et confiante. Barbershop classique indépendant — murs vert forêt profond, briques apparentes, fauteuil de barbier vintage, néons lumineux rouge et bleu, outils en chrome parfaitement alignés, ciel bleu vif et arbres verts visibles à travers la grande fenêtre du salon. Vif, chaleureux, plein de personnalité.
+
+8 panneaux :
+
+Panneau 1 — L'OUVERTURE : À l'intérieur du salon. Un seul néon monté à l'intérieur de la fenêtre du salon — actuellement rouge brillant avec FERMÉ. Le barbier tend la main avec une main et actionne l'interrupteur sur le mur à côté — le néon passe au vert OUVERT. Lumière du matin inondant à travers la fenêtre derrière le néon. Poteau de barbier tournant visible à travers le verre. Le barbier regarde la caméra avec un sourire chaleureux et confiant alors que la lumière verte remplit le salon. Un seul néon — pas deux néons, pas de néon physique tenu.
+
+Panneau 2 — LA CAPE : Plan moyen large avec les deux personnages visibles. Le client est assis dans le fauteuil de barbier vintage, ciel bleu vif à travers la fenêtre derrière eux. Le barbier se tient derrière, claque la cape de barbier rouge vif de manière dramatique — elle s'étend largement captant la lumière chaude et se pose autour des épaules du client. Murs vert forêt profond derrière eux. Le rituel commence.
+
+Panneau 3 — LE SPRAY : Gros plan avec personnage visible. Le barbier vaporise les cheveux du client avec une bouteille de spray en chrome — fines gouttelettes d'eau captant la lumière dorée du soleil comme de minuscules diamants, cheveux s'assombrissant et se lissant sous la brume. Énergie fraîche, lumineuse, et cool complètement différente de chaque autre panneau.
+
+Panneau 4 — LA COUPE : Gros plan dramatique. Ciseaux flous traversant les cheveux en coupes rapides et confiantes — cheveux sombres tombant au ralenti, mains habiles du barbier visibles, chaque mouvement précis et délibéré. Ciseaux en chrome captant la lumière chaude du salon.
+
+Panneau 5 — LA LIGNE DE LA TONDEUSE : Très gros plan héroïque. Tondeuses sculptant une ligne nette et propre le long du cou — bord de la lame parfaitement droit, peau nette d'un côté, cheveux définis de l'autre. Tondeuse en chrome étincelante. Le détail le plus satisfaisant de la série.
+
+Panneau 6 — LA SERVIETTE CHAUDE : Plan moyen large avec les deux personnages visibles. Le barbier presse une serviette blanche fumante contre le visage du client — les yeux se ferment immédiatement, les épaules se détendent, abandon total à la chaleur. Vapeur s'élevant doucement. Murs verts et lumière de la fenêtre derrière eux. Lent, chaleureux, indulgent.
+
+Panneau 7 — LE RASOIR : Gros plan dramatique héroïque. Rasoir droit tiré lentement et avec confiance le long de la ligne du cou — un coup net et précis, la lame captant la lumière dorée chaude. Calme et délibéré. Le moment le plus précis de la série.
+
+Panneau 8 — LA RÉVÉLATION : Plan large chaleureux. Le barbier et le client font face ensemble au grand miroir mural. Le client voit sa coupe fraîche complète reflétée — dégradé net, lignes précises, forme parfaite. Personne ne tient rien. Les yeux du client s'écarquillent lentement, un sourire se répand sur leur visage, une main se lève pour toucher la coupe fraîche. Le barbier se tenant derrière eux, bras croisés, sourire profondément fier, tous deux visibles dans le reflet du miroir. Ciel bleu et arbres à travers la fenêtre derrière eux.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065790407422660642.json)
+
+```text
+---
+添付された「THE BARBER」ストーリーボードを正確なビジュアル参照として使用してください。すべての8つのショットに従って、12秒の16:9 Pixar 3Dアニメーションシーケンスを作成します。同じ若い男性のバーバー — シャープなフェード、白いTシャツ、黒いエプロン、暖かく自信に満ちた表情 — クラシックな独立系バーバーショップ、深い森の緑の壁、露出したレンガ、ヴィンテージのバーバーチェア、クロームの道具、窓を通して明るい青空。
+
+ショットシーケンス:
+
+1. 店内。窓に赤く光るCLOSEDのネオンサインが1つ。バーバーが手を伸ばしてスイッチを入れると、サインが緑に光るOPENに変わる。朝の光が窓から差し込む。ガラス越しに外で回転するバーバーポール。バーバーがカメラに向かって暖かい笑顔を見せる。
+2. ワイドミディアム。ヴィンテージのバーバーチェアに座る顧客。バーバーが後ろに立ち、大胆な赤いケープを劇的にスナップする — それが広がり、顧客の肩に落ち着く。窓の向こうには青空。
+3. バーバーが見えるクローズアップ。クロームのスプレーボトルが顧客の髪にミストを吹きかける — 細かい水滴が黄金の陽光を捉え、髪が暗くなり滑らかに。新鮮で明るい。
+4. ドラマチックなクローズアップ。自信を持って素早く髪を切るハサミ — 暗い髪がスローモーションで落ち、バーバーの熟練した手が見える。すべての動きが正確で意図的。
+5. 極端なクローズアップ。クリッパーが首に沿って完璧でシャープなクリーンラインを刻む — 刃のエッジが完全にまっすぐで、片側は肌がクリーン、もう片側は髪が定義されている。クロームのクリッパーが輝く。
+6. ワイドミディアム。バーバーが蒸気の立ち上る白いタオルを顧客の顔に押し当てる — 目がすぐに閉じ、肩が落ち、暖かさに完全に降伏する。蒸気が柔らかく立ち上る。緑の壁が背景。
+7. ヒーロークローズアップ。ストレートレザーが首のラインに沿ってゆっくりと自信を持って引かれる — 一つのクリーンで正確なストローク、刃が暖かい黄金の光を捉える。落ち着いて意図的。
+8. ワイドウォーム。バーバーと顧客が大きな壁の鏡を一緒に見ている。顧客は新しいカットを完全に見て — クリーンなフェード、シャープなライン。目が大きく開き、ゆっくりと笑顔が広がり、一方の手がカットに触れる。バーバーは後ろで腕を組み、深く誇らしげ。窓を通して青空。
+
+カメラ: サインのフリップにはインサイドワイド、ケープとホットタオルにはワイドミディアム、スプレーにはキャラクター付きクローズアップ、カットにはドラマチックなクローズアップ、クリッパーラインには極端なクローズアップ、レザーにはヒーロークローズアップ、鏡のリビールにはワイドウォーム。
+
+スタイル: 暖かい黄金の朝の光が全体を通して。深い森の緑の壁、露出したレンガ、光るネオンサイン、回転するバーバーポール、大胆な赤いケープ、クロームの道具、窓を通して明るい青空。Pixar CGIは鮮やかで暖かい。茶色や泥のようなものは一切なし。
+
+サウンド: スムーズなバーバーショップミュージック — 暖かいR&Bやソウル — 最初のフレームから最後まで。連続して、途切れない。自然な音が下に — ネオンサインのスイッチオン、ケープのスナップと広がり、スプレーボトルのミスト、ハサミの素早いスニップ、クリッパーのバズ、ホットタオルの蒸気、レザーの滑り、リビール時の顧客の満足した息。音楽は止まらない。
+
+目標: 12秒。一人のバーバー。一つの完璧なカット。シャープで正確、そして見るのが非常に満足できるもの。
+
+--- QUOTED TWEET ---
+From bean to that first sip.☕️
+
+Made with Seedance 2.0 + GPT Image 2
+
+Prompt ⤵️ https://t.co/X1B4768dWD
+
+--- THREAD CONTINUATION ---
+[Thread 1] Made this without leaving Claude — used Sjinn AI MCP directly inside the chat to generate the image &amp; video.✨ https://t.co/PLjViNFvom
+
+[Thread 2] GPT Image 2 storyboard prompt:
+
+“Create a crisp, clean infographic storyboard poster for THE BARBER. Wide 16:9 layout, white background, black borders, bold black typography, premium Pixar 3D stylized rendering, bright vivid colors — deep forest green walls, exposed brick, glowing neon signs, spinning barber pole, bold red barber cape, gleaming chrome tools, warm golden sunlight, bright blue sky through the window.
+
+Top header:
+
+•THE BARBER
+•TOTAL VIDEO TIME: 12 SECONDS
+•8 SHOTS · SHARP · PRECISE · FRESH CUT
+•Legend icons: ACTION, HEAT, TIME HINT, INGREDIENT
+
+Same Pixar-style young male barber throughout — sharp fade, clean white t-shirt under black apron, warm confident expression. Classic independent barbershop — deep forest green walls, exposed brick, vintage barber chair, neon signs glowing warm red and blue, chrome tools lined up perfectly, bright blue sky and green trees visible through the large shop window. Vivid, warm, full of personality.
+
+8 panels:
+
+Panel 1 — THE OPENER: Inside the shop. One single neon sign mounted on the inside of the shop window — currently glowing red with CLOSED. Barber reaches up with one hand and flicks the switch on the wall beside it — the sign changes to glowing green OPEN. Morning light flooding through the window behind the sign. Barber pole spinning outside visible through the glass. Barber looks at the camera with a warm confident smile as the green light fills the shop. One sign only — not two signs, not a physical sign being held.
+
+Panel 2 — THE CAPE: Wide medium with both characters visible. Customer sits in the vintage barber chair, bright blue sky through the window behind them. Barber stands behind, snaps the bold red barber cape dramatically — it billows out wide catching the warm light and settles around the customer’s shoulders. Deep forest green walls behind them. The ritual begins.
+
+Panel 3 — THE SPRAY: Close-up with character visible. Barber mists the customer’s hair with a chrome spray bottle — fine water droplets catching the golden sunlight like tiny diamonds, hair darkening and slicking down under the mist. Fresh, bright, cool energy completely different from every other panel.
+
+Panel 4 — THE CUT: Close-up dramatic. Scissors blurring through hair in confident rapid snips — dark hair falling in slow motion, barber’s skilled hands visible, every movement precise and deliberate. Chrome scissors catching the warm shop light.
+
+Panel 5 — THE CLIPPER LINE: Extreme close-up hero craft frame. Clippers carving a perfect crisp clean line along the neck — blade edge perfectly straight, skin clean on one side, hair defined on the other. Chrome clipper gleaming. The most satisfying detail shot in the series.
+
+Panel 6 — THE HOT TOWEL: Wide medium with both characters visible. Barber presses a steaming white towel against the customer’s face — eyes close immediately, shoulders drop, complete surrender to the warmth. Steam rising softly. Green walls and window light behind them. Slow, warm, indulgent.
+
+Panel 7 — THE RAZOR: Close-up dramatic hero shot. Straight razor drawn slowly and confidently along the neck line — one clean precise stroke, blade catching the warm golden light. Calm and deliberate. The
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065790407422660642.json)
+
+```text
+첨부된 THE BARBER 스토리보드를 정확한 시각적 참고 자료로 사용하세요. 모든 8개의 샷을 정확히 따르는 12초 길이의 16:9 픽사 3D 애니메이션 시퀀스를 만드세요. 동일한 젊은 남성 이발사 — 날카로운 페이드, 흰색 티셔츠, 검정 앞치마, 따뜻하고 자신감 있는 표정 — 클래식한 독립 이발소, 깊은 숲의 녹색 벽, 노출된 벽돌, 빈티지 이발 의자, 크롬 도구, 창문을 통해 보이는 밝은 파란 하늘.
+
+샷 시퀀스:
+
+1. 상점 내부. 창문에 빨간색으로 빛나는 네온 사인 CLOSED. 이발사가 손을 뻗어 스위치를 켜면 사인이 초록색으로 빛나는 OPEN으로 바뀝니다. 아침 햇살이 창문을 통해 쏟아집니다. 유리 너머로 회전하는 이발사 기둥. 이발사가 따뜻한 미소로 카메라를 봅니다.
+2. 와이드 미디엄. 고객이 빈티지 이발 의자에 앉아 있습니다. 이발사가 뒤에 서서 대담한 빨간 망토를 극적으로 펼칩니다 — 망토가 넓게 펼쳐져 고객의 어깨에 자리 잡습니다. 그들 뒤로 창문을 통해 보이는 파란 하늘.
+3. 이발사가 보이는 클로즈업. 크롬 스프레이 병이 고객의 머리카락에 물을 뿌립니다 — 미세한 물방울이 황금빛 햇살을 받아 머리카락이 어두워지고 매끄럽게 내려갑니다. 신선하고 밝습니다.
+4. 극적인 클로즈업. 가위가 자신감 있게 빠르게 머리카락을 자릅니다 — 어두운 머리카락이 슬로우 모션으로 떨어지고, 이발사의 숙련된 손이 보입니다. 모든 움직임이 정확하고 신중합니다.
+5. 극단적인 클로즈업. 클리퍼가 목을 따라 완벽하고 깔끔한 선을 조각합니다 — 칼날 가장자리가 완벽하게 직선이고, 한쪽은 깨끗한 피부, 다른 쪽은 정의된 머리카락. 크롬 클리퍼가 빛납니다.
+6. 와이드 미디엄. 이발사가 고객의 얼굴에 뜨거운 흰 수건을 누릅니다 — 눈이 즉시 감기고, 어깨가 내려가며 따뜻함에 완전히 항복합니다. 부드럽게 올라오는 증기. 그들 뒤로 녹색 벽.
+7. 클로즈업 히어로. 직선 면도기가 목선을 따라 천천히 자신감 있게 그려집니다 — 하나의 깨끗하고 정확한 스트로크, 칼날이 따뜻한 황금빛을 받습니다. 차분하고 신중합니다.
+8. 와이드 웜. 이발사와 고객이 큰 벽 거울을 함께 바라봅니다. 고객이 완성된 신선한 컷을 봅니다 — 깨끗한 페이드, 선명한 선. 눈이 커지고, 느린 미소, 한 손이 컷을 만지기 위해 올라갑니다. 이발사는 그들 뒤에서 팔짱을 끼고 깊은 자부심을 느낍니다. 창문을 통해 보이는 파란 하늘.
+
+카메라: 사인 전환을 위한 내부 와이드, 망토와 뜨거운 수건을 위한 와이드 미디엄, 스프레이를 위한 캐릭터 클로즈업, 컷을 위한 극적인 클로즈업, 클리퍼 라인을 위한 극단적인 클로즈업, 면도기를 위한 클로즈업 히어로, 거울 공개를 위한 와이드 웜.
+
+스타일: 따뜻한 황금빛 아침 햇살이 전체적으로 퍼져 있습니다. 깊은 숲의 녹색 벽, 노출된 벽돌, 빛나는 네온 사인, 회전하는 이발사 기둥, 대담한 빨간 망토, 크롬 도구, 창문을 통해 보이는 밝은 파란 하늘. 픽사 CGI 생생하고 따뜻합니다. 갈색이나 탁한 색은 없습니다.
+
+사운드: 부드러운 이발소 음악 — 따뜻한 RnB 또는 소울 — 처음부터 끝까지. 중단 없이 계속됩니다. 자연스러운 소리 — 네온 사인 켜짐, 망토 스냅과 펼쳐짐, 스프레이 병 분사, 가위 빠르게 자르기, 클리퍼 윙윙거림, 뜨거운 수건 증기, 면도기 미끄러짐, 공개 시 고객의 만족스러운 숨소리. 음악은 멈추지 않습니다.
+
+목표: 12초. 한 명의 이발사. 하나의 완벽한 컷. 날카롭고, 정확하며, 깊이 만족스러운 시청 경험.
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065790407422660642.json)
+
+```text
+---
+Use o storyboard THE BARBER anexado como referência visual exata. Crie uma sequência animada 3D da Pixar de 12 segundos em 16:9 seguindo exatamente todos os 8 planos. Mesmo jovem barbeiro — corte fade afiado, camiseta branca, avental preto, expressão calorosa e confiante — barbearia clássica independente, paredes verde floresta profundo, tijolos expostos, cadeira de barbeiro vintage, ferramentas cromadas, céu azul brilhante através da janela ao longo de toda a cena.
+
+Sequência de planos:
+
+1. Dentro da loja. Uma placa de néon na janela brilhando em vermelho FECHADO. O barbeiro estende a mão e aciona o interruptor — a placa muda para verde brilhante ABERTO. A luz da manhã inunda pela janela. O poste de barbeiro girando do lado de fora através do vidro. O barbeiro olha para a câmera com um sorriso caloroso.
+2. Médio amplo. Cliente sentado na cadeira de barbeiro vintage. O barbeiro está atrás, estala a capa vermelha ousada dramaticamente — ela se espalha e se acomoda nos ombros do cliente. Céu azul através da janela atrás deles.
+3. Close-up com o barbeiro visível. Frasco de spray cromado borrifando o cabelo do cliente — finas gotas de água capturando a luz dourada do sol, cabelo escurecendo e assentando. Fresco e brilhante.
+4. Close-up dramático. Tesouras cortando o cabelo em rápidos e confiantes cortes — cabelo escuro caindo em câmera lenta, mãos habilidosas do barbeiro visíveis. Cada movimento preciso e deliberado.
+5. Close-up extremo. Máquina de cortar cabelo esculpindo uma linha limpa e nítida ao longo do pescoço — lâmina perfeitamente reta, pele limpa de um lado, cabelo definido do outro. Máquina de cortar cromada brilhando.
+6. Médio amplo. O barbeiro pressiona uma toalha branca quente contra o rosto do cliente — os olhos se fecham imediatamente, os ombros relaxam, completa rendição ao calor. Vapor subindo suavemente. Paredes verdes atrás deles.
+7. Close-up heroico. Navalha desenhada lentamente e com confiança ao longo da linha do pescoço — um golpe limpo e preciso, lâmina capturando a luz dourada quente. Calmo e deliberado.
+8. Amplo e caloroso. Barbeiro e cliente ambos de frente para o grande espelho de parede. Cliente vê seu corte fresco completo — fade limpo, linhas nítidas. Olhos se arregalam, sorriso lento, uma mão sobe para tocar o corte. Barbeiro atrás deles com os braços cruzados, profundamente orgulhoso. Céu azul através da janela.
+
+Câmera: Amplo interno para a troca de sinal, médio amplo para a capa e toalha quente, close-up com personagem para o spray, close-up dramático para o corte, close-up extremo para a linha da máquina, close-up heroico para a navalha, amplo e caloroso para a revelação no espelho.
+
+Estilo: Luz dourada quente da manhã por toda parte. Paredes verde floresta profundo, tijolos expostos, placas de néon brilhando, poste de barbeiro girando, capa vermelha ousada, ferramentas cromadas, céu azul brilhante através da janela. CGI da Pixar vívido e caloroso. Nada marrom, nada turvo.
+
+Som: Música suave de barbearia — RnB ou soul quente — do primeiro ao último quadro. Contínuo, sem pausas. Sons naturais por baixo — placa de néon ligando, capa estalando e ondulando, frasco de spray borrifando, tesouras cortando rapidamente, máquina de cortar zumbindo, vapor da toalha quente, navalha deslizando, exalação satisfeita do cliente na revelação. Música nunca para.
+
+Objetivo: 12 segundos. Um barbeiro. Um corte perfeito. Afiado, preciso e profundamente satisfatório de assistir.
+
+--- TWEET CITADO ---
+Do grão ao primeiro gole.☕️
+
+Feito com Seedance 2.0 + GPT Image 2
+
+Prompt ⤵️ https://t.co/X1B4768dWD
+
+--- CONTINUAÇÃO DO FIO ---
+[Fio 1] Fiz isso sem sair do Claude — usei Sjinn AI MCP diretamente no chat para gerar a imagem e o vídeo.✨ https://t.co/PLjViNFvom
+
+[Fio 2] Prompt de storyboard do GPT Image 2:
+
+“Crie um pôster de storyboard infográfico nítido e limpo para THE BARBER. Layout amplo 16:9, fundo branco, bordas pretas, tipografia preta em negrito, renderização estilizada premium 3D da Pixar, cores vivas e brilhantes — paredes verde floresta profundo, tijolos expostos, placas de néon brilhando, poste de barbeiro girando, capa de barbeiro vermelha ousada, ferramentas cromadas brilhando, luz dourada quente do sol, céu azul brilhante através da janela.
+
+Cabeçalho superior:
+
+•THE BARBER
+•TEMPO TOTAL DO VÍDEO: 12 SEGUNDOS
+•8 PLANOS · AFIADO · PRECISO · CORTE FRESCO
+•Ícones de legenda: AÇÃO, CALOR, DICA DE TEMPO, INGREDIENTE
+
+Mesmo jovem barbeiro ao estilo Pixar ao longo — corte fade afiado, camiseta branca limpa sob avental preto, expressão calorosa e confiante. Barbearia clássica independente — paredes verde floresta profundo, tijolos expostos, cadeira de barbeiro vintage, placas de néon brilhando em vermelho e azul quentes, ferramentas cromadas perfeitamente alinhadas, céu azul brilhante e árvores verdes visíveis através da grande janela da loja. Vívido, caloroso, cheio de personalidade.
+
+8 painéis:
+
+Painel 1 — A ABERTURA: Dentro da loja. Uma única placa de néon montada na parte interna da janela da loja — atualmente brilhando em vermelho com FECHADO. O barbeiro estende a mão com uma mão e aciona o interruptor na parede ao lado — a placa muda para verde brilhante ABERTO. Luz da manhã inundando pela janela atrás da placa. Poste de barbeiro girando do lado de fora visível através do vidro. O barbeiro olha para a câmera com um sorriso caloroso e confiante enquanto a luz verde preenche a loja. Uma única placa — não duas placas, não uma placa física sendo segurada.
+
+Painel 2 — A CAPA: Médio amplo com ambos os personagens visíveis. Cliente sentado na cadeira de barbeiro vintage, céu azul brilhante através da janela atrás deles. O barbeiro está atrás, estala a capa de barbeiro vermelha ousada dramaticamente — ela se espalha capturando a luz quente e se acomoda nos ombros do cliente. Paredes verde floresta profundo atrás deles. O ritual começa.
+
+Painel 3 — O SPRAY: Close-up com personagem visível. O barbeiro borrifa o cabelo do cliente com um frasco de spray cromado — finas gotas de água capturando a luz dourada do sol como pequenos diamantes, cabelo escurecendo e assentando sob o spray. Energia fresca, brilhante e fria completamente diferente de todos os outros painéis.
+
+Painel 4 — O CORTE: Close-up dramático. Tesouras cortando o cabelo em rápidos e confiantes cortes — cabelo escuro caindo em câmera lenta, mãos habilidosas do barbeiro visíveis, cada movimento preciso e deliberado. Tesouras cromadas capturando a luz quente da loja.
+
+Painel 5 — A LINHA DA MÁQUINA: Close-up extremo heroico. Máquina de cortar cabelo esculpindo uma linha limpa e nítida ao longo do pescoço — lâmina perfeitamente reta, pele limpa de um lado, cabelo definido do outro. Máquina de cortar cromada brilhando. O detalhe mais satisfatório da série.
+
+Painel 6 — A TOALHA QUENTE: Médio amplo com ambos os personagens visíveis. O barbeiro pressiona uma toalha branca quente contra o rosto do cliente — os olhos se fecham imediatamente, os ombros relaxam, completa rendição ao calor. Vapor subindo suavemente. Paredes verdes e luz da janela atrás deles. Lento, caloroso, indulgente.
+
+Painel 7 — A NAVALHA: Close-up dramático heroico. Navalha desenhada lentamente e com confiança ao longo da linha do pescoço — um golpe limpo e preciso, lâmina capturando a luz dourada quente. Calmo e deliberado. O momento mais preciso da série.
+
+Painel 8 — A REVELAÇÃO: Amplo e caloroso. Barbeiro e cliente ambos de frente para o grande espelho de parede juntos. Cliente vê seu corte fresco completo refletido — fade limpo, linhas nítidas, forma perfeita. Ninguém está segurando nada. Os olhos do cliente se arregalam lentamente, sorriso se espalha pelo rosto, uma mão sobe para tocar o corte fresco. Barbeiro em pé atrás deles com os braços cruzados, sorriso profundamente orgulhoso, ambos visíveis no reflexo do espelho. Céu azul e árvores através da janela atrás deles. Toda a história resolvida em um quadro.
+
+Rodapé:
+•FLUXO DE VÍ
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065790407422660642.json)
+
+```text
+使用附带的《THE BARBER》分镜作为精确的视觉参考。创建一个12秒的16:9 Pixar 3D动画序列，完全按照所有8个镜头进行。相同的年轻男理发师——锐利的渐变发型，白色T恤，黑色围裙，温暖自信的表情——经典的独立理发店，深森林绿色的墙壁，裸露的砖墙，复古理发椅，铬制工具，窗外明亮的蓝天贯穿始终。
+
+镜头顺序：
+
+1. 店内。一块霓虹灯牌在窗户上发出红色的“CLOSED”光。理发师伸手拨动开关——灯牌变成绿色的“OPEN”光。晨光透过窗户涌入。理发杆在玻璃外旋转。理发师对着镜头露出温暖的微笑。
+2. 宽中景。顾客坐在复古理发椅上。理发师站在后面，戏剧性地甩动鲜红的披肩——它宽宽地展开并落在顾客的肩上。窗外是蓝天。
+3. 特写，理发师可见。铬制喷雾瓶喷洒在顾客的头发上——细小的水滴在金色阳光下闪烁，头发变暗并顺滑下来。清新明亮。
+4. 戏剧性特写。剪刀快速自信地剪过头发——黑色的头发慢动作飘落，理发师熟练的双手可见。每一个动作都精确而有力。
+5. 极近特写。推子在颈部雕刻出完美的清晰线条——刀刃边缘完美笔直，一侧皮肤干净，另一侧头发分明。铬制推子闪闪发光。
+6. 宽中景。理发师将蒸汽腾腾的白毛巾按在顾客的脸上——眼睛立即闭上，肩膀放松，完全沉浸在温暖中。蒸汽轻轻升起。绿色的墙壁在他们身后。
+7. 英雄特写。直剃刀缓慢而自信地沿着颈部线条划过——一刀干净利落，刀刃捕捉到温暖的金色光线。冷静而有力。
+8. 温暖的宽景。理发师和顾客一起面对大墙镜。顾客看到自己完整的新发型——干净的渐变，清晰的线条。眼睛睁大，慢慢微笑，一只手抬起来触摸新发型。理发师在他们身后，双臂交叉，深感自豪。窗外是蓝天。
+
+镜头：内部宽景用于灯牌翻转，宽中景用于披肩和热毛巾，特写用于喷雾，戏剧性特写用于剪发，极近特写用于推子线条，英雄特写用于剃刀，温暖的宽景用于镜子揭示。
+
+风格：整个过程充满温暖的金色晨光。深森林绿色的墙壁，裸露的砖墙，发光的霓虹灯牌，旋转的理发杆，鲜红的披肩，铬制工具，窗外明亮的蓝天。Pixar CGI生动而温暖。没有棕色，没有泥泞。
+
+声音：从第一帧到最后一帧的流畅理发店音乐——温暖的R&B或灵魂乐——连续不断。自然声音在底下——霓虹灯牌开启，披肩甩动和飘动，喷雾瓶喷洒，剪刀快速剪切，推子嗡嗡声，热毛巾蒸汽，剃刀滑动，顾客在揭示时满意的呼气。音乐从不停。
+
+目标：12秒。一个理发师。一个完美的发型。锐利、精确，观看时深感满足。
+
+--- 引用推文 ---
+从豆子到第一口。☕️
+
+使用Seedance 2.0 + GPT Image 2制作
+
+Prompt ⤵️ https://t.co/X1B4768dWD
+
+--- 线程继续 ---
+[线程1] 在不离开Claude的情况下制作的——直接在聊天中使用Sjinn AI MCP生成图像和视频。✨ https://t.co/PLjViNFvom
+
+[线程2] GPT Image 2分镜提示：
+
+“为《THE BARBER》创建一个清晰、干净的信息图分镜海报。宽16:9布局，白色背景，黑色边框，粗黑字体，高级Pixar 3D风格渲染，明亮生动的色彩——深森林绿色的墙壁，裸露的砖墙，发光的霓虹灯牌，旋转的理发杆，鲜红的理发披肩，闪亮的铬制工具，温暖的金色阳光，窗外明亮的蓝天。
+
+顶部标题：
+
+•THE BARBER
+•总视频时间：12秒
+•8个镜头 · 锐利 · 精确 · 新发型
+•图例图标：动作、热度、时间提示、成分
+
+整个过程中相同的Pixar风格年轻男理发师——锐利的渐变发型，干净的白色T恤在黑色围裙下，温暖自信的表情。经典的独立理发店——深森林绿色的墙壁，裸露的砖墙，复古理发椅，霓虹灯牌发出温暖的红色和蓝色光芒，铬制工具整齐排列，窗外明亮的蓝天和绿色的树木。生动、温暖、充满个性。
+
+8个面板：
+
+面板1 — 开场：店内。店内窗户上安装的单个霓虹灯牌——目前发出红色的“CLOSED”光。理发师用一只手伸手拨动旁边墙上的开关——灯牌变成绿色的“OPEN”光。晨光透过窗户涌入灯牌后面。玻璃外可见旋转的理发杆。理发师对着镜头露出温暖自信的微笑，绿色的光线充满店内。只有一个灯牌——不是两个灯牌，不是手持的实物灯牌。
+
+面板2 — 披肩：宽中景，两个人物可见。顾客坐在复古理发椅上，窗外是明亮的蓝天。理发师站在后面，戏剧性地甩动鲜红的理发披肩——它宽宽地展开，捕捉到温暖的光线，并落在顾客的肩上。深森林绿色的墙壁在他们身后。仪式开始。
+
+面板3 — 喷雾：特写，人物可见。理发师用铬制喷雾瓶喷洒顾客的头发——细小的水滴在金色阳光下闪烁如小钻石，头发在喷雾下变暗并顺滑下来。清新、明亮、凉爽的能量，与其他面板完全不同。
+
+面板4 — 剪发：戏剧性特写。剪刀快速自信地剪过头发——黑色的头发慢动作飘落，理发师熟练的双手可见，每一个动作都精确而有力。铬制剪刀捕捉到温暖的店内光线。
+
+面板5 — 推子线条：极近特写英雄工艺镜头。推子在颈部雕刻出完美的清晰线条——刀刃边缘完美笔直，一侧皮肤干净，另一侧头发分明。铬制推子闪闪发光。系列中最令人满意的细节镜头。
+
+面板6 — 热毛巾：宽中景，两个人物可见。理发师将蒸汽腾腾的白毛巾按在顾客的脸上——眼睛立即闭上，肩膀放松，完全沉浸在温暖中。蒸汽轻轻升起。绿色的墙壁和窗户光线在他们身后。缓慢、温暖、奢华。
+
+面板7 — 剃刀：戏剧性特写英雄镜头。直剃刀缓慢而自信地沿着颈部线条划过——一刀干净利落，刀刃捕捉到温暖的金色光线。冷静而有力。系列中最精确的时刻。
+
+面板8 — 揭示：温暖的宽景镜头。
+```
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065790407422660642.json)
+
+```text
+---
+Utiliza el storyboard adjunto de THE BARBER como referencia visual exacta. Crea una secuencia animada en 3D de Pixar de 12 segundos en formato 16:9 siguiendo exactamente los 8 planos. Mismo joven barbero — corte degradado nítido, camiseta blanca, delantal negro, expresión cálida y confiada — barbería clásica e independiente, paredes verde bosque profundo, ladrillo expuesto, silla de barbero vintage, herramientas de cromo, cielo azul brillante a través de la ventana en todo momento.
+
+Secuencia de planos:
+
+1. Dentro de la tienda. Un letrero de neón en la ventana brillando en rojo CERRADO. El barbero se estira y acciona el interruptor — el letrero cambia a verde brillante ABIERTO. La luz de la mañana inunda a través de la ventana. El poste de barbero girando afuera a través del vidrio. El barbero mira a la cámara con una cálida sonrisa.
+2. Plano medio amplio. El cliente se sienta en la silla de barbero vintage. El barbero está detrás, sacude la capa roja audaz dramáticamente — se despliega ampliamente y se asienta alrededor de los hombros del cliente. Cielo azul a través de la ventana detrás de ellos.
+3. Primer plano con el barbero visible. Botella de spray de cromo rociando el cabello del cliente — finas gotas de agua capturando la luz dorada del sol, el cabello oscureciéndose y alisándose. Fresco y brillante.
+4. Primer plano dramático. Tijeras desenfocadas cortando el cabello en cortes rápidos y seguros — cabello oscuro cayendo en cámara lenta, manos hábiles del barbero visibles. Cada movimiento preciso y deliberado.
+5. Primerísimo primer plano. Cortapelos tallando una línea limpia y nítida perfecta a lo largo del cuello — borde de la cuchilla perfectamente recto, piel limpia de un lado, cabello definido del otro. Cortapelos de cromo brillando.
+6. Plano medio amplio. El barbero presiona una toalla blanca humeante contra la cara del cliente — los ojos se cierran inmediatamente, los hombros caen, completa rendición al calor. Vapor elevándose suavemente. Paredes verdes detrás de ellos.
+7. Primer plano heroico. Navaja recta dibujada lenta y confiadamente a lo largo de la línea del cuello — un trazo limpio y preciso, la cuchilla capturando la cálida luz dorada. Calma y deliberación.
+8. Plano amplio cálido. El barbero y el cliente ambos frente al gran espejo de pared. El cliente ve su corte fresco completo — degradado limpio, líneas nítidas. Los ojos se abren, sonrisa lenta, una mano se levanta para tocar el corte. El barbero detrás de ellos con los brazos cruzados, profundamente orgulloso. Cielo azul a través de la ventana.
+
+Cámara: Interior amplio para el cambio de letrero, medio amplio para la capa y la toalla caliente, primer plano con personaje para el spray, primer plano dramático para el corte, primerísimo primer plano para la línea del cortapelos, primer plano heroico para la navaja, amplio cálido para la revelación del espejo.
+
+Estilo: Luz cálida dorada de la mañana en todo momento. Paredes verde bosque profundo, ladrillo expuesto, letreros de neón brillantes, poste de barbero girando, capa roja audaz, herramientas de cromo, cielo azul brillante a través de la ventana. CGI de Pixar vívido y cálido. Nada marrón, nada turbio.
+
+Sonido: Música suave de barbería — cálido RnB o soul — desde el primer cuadro hasta el último. Continua, sin pausas. Sonidos naturales debajo — letrero de neón encendiéndose, capa chasqueando y ondeando, botella de spray rociando, tijeras cortando rápidamente, cortapelos zumbando, vapor de la toalla caliente, navaja deslizándose, exhalación satisfecha del cliente en la revelación. La música nunca se detiene.
+
+Objetivo: 12 segundos. Un barbero. Un corte perfecto. Afilado, preciso y profundamente satisfactorio de ver.
+
+--- TWEET CITADO ---
+De grano a ese primer sorbo.☕️
+
+Hecho con Seedance 2.0 + GPT Image 2
+
+Prompt ⤵️ https://t.co/X1B4768dWD
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Hice esto sin salir de Claude — usé Sjinn AI MCP directamente dentro del chat para generar la imagen y el video.✨ https://t.co/PLjViNFvom
+
+[Hilo 2] GPT Image 2 prompt de storyboard:
+
+“Crea un póster de storyboard infográfico nítido y limpio para THE BARBER. Diseño amplio 16:9, fondo blanco, bordes negros, tipografía negra audaz, renderizado estilizado premium en 3D de Pixar, colores brillantes y vívidos — paredes verde bosque profundo, ladrillo expuesto, letreros de neón brillantes, poste de barbero girando, capa de barbero roja audaz, herramientas de cromo brillantes, cálida luz dorada del sol, cielo azul brillante a través de la ventana.
+
+Encabezado superior:
+
+•THE BARBER
+•TIEMPO TOTAL DE VIDEO: 12 SEGUNDOS
+•8 PLANOS · NÍTIDO · PRECISO · CORTE FRESCO
+•Iconos de leyenda: ACCIÓN, CALOR, PISTA DE TIEMPO, INGREDIENTE
+
+Mismo joven barbero al estilo Pixar en todo momento — corte degradado nítido, camiseta blanca limpia bajo delantal negro, expresión cálida y confiada. Barbería clásica e independiente — paredes verde bosque profundo, ladrillo expuesto, silla de barbero vintage, letreros de neón brillando en rojo y azul cálido, herramientas de cromo alineadas perfectamente, cielo azul brillante y árboles verdes visibles a través de la gran ventana de la tienda. Vívido, cálido, lleno de personalidad.
+
+8 paneles:
+
+Panel 1 — EL INICIO: Dentro de la tienda. Un solo letrero de neón montado en el interior de la ventana de la tienda — actualmente brillando en rojo con CERRADO. El barbero se estira con una mano y acciona el interruptor en la pared al lado — el letrero cambia a verde brillante ABIERTO. La luz de la mañana inunda a través de la ventana detrás del letrero. Poste de barbero girando afuera visible a través del vidrio. El barbero mira a la cámara con una cálida sonrisa confiada mientras la luz verde llena la tienda. Un solo letrero — no dos letreros, no un letrero físico siendo sostenido.
+
+Panel 2 — LA CAPA: Plano medio amplio con ambos personajes visibles. El cliente se sienta en la silla de barbero vintage, cielo azul brillante a través de la ventana detrás de ellos. El barbero está detrás, sacude la capa de barbero roja audaz dramáticamente — se despliega ampliamente capturando la cálida luz y se asienta alrededor de los hombros del cliente. Paredes verde bosque profundo detrás de ellos. El ritual comienza.
+
+Panel 3 — EL SPRAY: Primer plano con personaje visible. El barbero rocía el cabello del cliente con una botella de spray de cromo — finas gotas de agua capturando la luz dorada del sol como pequeños diamantes, el cabello oscureciéndose y alisándose bajo el rocío. Energía fresca, brillante, completamente diferente de cada otro panel.
+
+Panel 4 — EL CORTE: Primer plano dramático. Tijeras desenfocadas cortando el cabello en cortes rápidos y seguros — cabello oscuro cayendo en cámara lenta, manos hábiles del barbero visibles, cada movimiento preciso y deliberado. Tijeras de cromo capturando la cálida luz de la tienda.
+
+Panel 5 — LA LÍNEA DEL CORTAPELOS: Primerísimo primer plano heroico. Cortapelos tallando una línea limpia y nítida perfecta a lo largo del cuello — borde de la cuchilla perfectamente recto, piel limpia de un lado, cabello definido del otro. Cortapelos de cromo brillando. El detalle más satisfactorio de la serie.
+
+Panel 6 — LA TOALLA CALIENTE: Plano medio amplio con ambos personajes visibles. El barbero presiona una toalla blanca humeante contra la cara del cliente — los ojos se cierran inmediatamente, los hombros caen, completa rendición al calor. Vapor elevándose suavemente. Paredes verdes y luz de la ventana detrás de ellos. Lento, cálido, indulgente.
+
+Panel 7 — LA NAVAJA: Primer plano dramático heroico. Navaja recta dibujada lenta y confiadamente a lo largo de la línea del cuello — un trazo limpio y preciso, la cuchilla capturando la cálida luz dorada. Calma y deliberación. El momento más preciso de la serie.
+
+Panel 8 — LA REVELACIÓN: Plano amplio cálido. El barbero y el cliente ambos frente al gran espejo de pared juntos. El cliente ve su corte fresco completo reflejado — degradado limpio, líneas nítidas, forma perfecta. Nad
+```
+
+## 出处与许可
+
+- 原作者：[TechieSA](https://x.com/TechieBySA) · 原帖：<https://x.com/TechieBySA/status/2065790407422660642>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065790407422660642.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

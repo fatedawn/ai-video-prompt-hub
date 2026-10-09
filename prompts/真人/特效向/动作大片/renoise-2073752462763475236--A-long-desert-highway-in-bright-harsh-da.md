@@ -1,0 +1,174 @@
+---
+id: "renoise-2073752462763475236"
+title: "A long desert highway in bright harsh daylight, sand dunes on both sides, heat…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "动作大片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Military", "Horror", "Monster Chase", "Photoreal", "Sci-Fi"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2073752462763475236.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Rahul Nanda"
+original_author_url: "https://x.com/rahulnanda86"
+original_post_url: "https://x.com/rahulnanda86/status/2073752462763475236"
+published: "2026-07-05"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# A long desert highway in bright harsh daylight, sand dunes on both sides, heat…
+
+## 提示词（English）
+
+```text
+A long desert highway in bright harsh daylight, sand dunes on both sides, heat shimmer over the road. An army fuel convoy drives down the highway, big fuel trucks in a line. A giant alien — brownish-black, slimy, with long whipping tentacles — has wrapped its tentacles around the lead fuel truck, crushing it as the other trucks brake hard behind. On an escort gun-truck, a gunner swings his mounted gun around. Sound: roaring engines, screeching brakes, groaning metal, the alien's low roar, radio voices.
+
+Shot 1 (0–3s) — THE HOOK: Low front shot on the road. The giant alien wraps its slimy tentacles around the lead fuel truck, the steel tank bending and creaking as the truck slews sideways across the highway. The other trucks brake hard, tires smoking. The lead driver fights the wheel and shouts into his radio: "IT'S CRUSHING MY TANK!"
+
+Shot 2 (3–6s): On the escort gun-truck. A gunner swings his mounted gun toward the alien, but holds his fire — the driver still in the cab, the fuel tank wrapped tight. He calls on the radio: "Jump clear! Get off the road!"
+
+Shot 3 (6–9s): At the lead truck. The driver throws his door open and leaps out, rolling clear onto the sand and running from the road. The alien, still wrapped around the empty fuel truck, drags it around and then slides off onto the open highway, rearing up tall and clear, the fuel truck right behind it.
+
+Shot 4 (9–13s) — BIG SLOW-MOTION MOMENT: The alien is out in the open on the road now, the fuel truck behind it. The gunner fires. Bullet time — a stream of heavy rounds flies down the road in slow motion, smoke and shell cases hanging in the air, smashing into the alien and ripping into the fuel truck behind it. The truck bursts — a huge fireball blooming around the alien.
+
+Shot 5 (13–15s): Time snaps back. The whole fuel truck and the alien go up in one massive rolling fireball on the highway, fire and slime shooting into the sky. The other trucks reverse hard as the rescued driver runs clear across the sand.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2073752462763475236.json)
+
+```text
+---
+Una larga carretera desértica bajo una luz diurna intensa y dura, con dunas de arena a ambos lados, el calor ondulando sobre el asfalto. Un convoy de combustible militar avanza por la carretera, grandes camiones de combustible en fila. Un gigantesco alienígena — de color marrón-negro, viscoso, con largos tentáculos que se agitan — ha envuelto sus tentáculos alrededor del camión de combustible líder, aplastándolo mientras los otros camiones frenan bruscamente detrás. En un camión de escolta con ametralladora, un artillero gira su arma montada. Sonido: motores rugiendo, frenos chirriando, metal quejumbroso, el rugido bajo del alienígena, voces de radio.
+
+Toma 1 (0–3s) — EL GANCHO: Toma baja frontal en la carretera. El gigantesco alienígena envuelve sus tentáculos viscosos alrededor del camión de combustible líder, el tanque de acero se dobla y cruje mientras el camión se desliza de lado a través de la carretera. Los otros camiones frenan bruscamente, los neumáticos humeando. El conductor líder lucha con el volante y grita por su radio: "¡ESTÁ APLASTANDO MI TANQUE!"
+
+Toma 2 (3–6s): En el camión de escolta con ametralladora. Un artillero gira su arma montada hacia el alienígena, pero no dispara — el conductor aún está en la cabina, el tanque de combustible envuelto firmemente. Llama por la radio: "¡Salta! ¡Sal del camino!"
+
+Toma 3 (6–9s): En el camión líder. El conductor abre la puerta de un golpe y salta, rodando hasta quedar a salvo en la arena y corriendo lejos de la carretera. El alienígena, aún envuelto alrededor del camión de combustible vacío, lo arrastra y luego se desliza hacia la carretera abierta, erguido y claro, con el camión de combustible justo detrás.
+
+Toma 4 (9–13s) — GRAN MOMENTO A CÁMARA LENTA: El alienígena está ahora en la carretera abierta, con el camión de combustible detrás. El artillero dispara. Tiempo bala — una ráfaga de balas pesadas vuela por la carretera en cámara lenta, humo y casquillos flotando en el aire, impactando en el alienígena y desgarrando el camión de combustible detrás. El camión estalla — una enorme bola de fuego floreciendo alrededor del alienígena.
+
+Toma 5 (13–15s): El tiempo vuelve a la normalidad. Todo el camión de combustible y el alienígena se elevan en una enorme bola de fuego rodante en la carretera, fuego y baba disparándose hacia el cielo. Los otros camiones retroceden rápidamente mientras el conductor rescatado corre a salvo por la arena.
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2073752462763475236.json)
+
+```text
+---
+Une longue autoroute désertique sous une lumière crue et éclatante, des dunes de sable de chaque côté, des vagues de chaleur sur la route. Un convoi de ravitaillement militaire descend l'autoroute, de gros camions-citernes en file indienne. Un géant extraterrestre — brun-noir, visqueux, avec de longs tentacules fouettants — a enroulé ses tentacules autour du camion-citerne de tête, l'écrasant tandis que les autres camions freinent brusquement derrière. Sur un camion d'escorte armé, un tireur fait pivoter son arme montée. Son : moteurs rugissants, freins crissants, métal gémissant, rugissement sourd de l'extraterrestre, voix radio.
+
+Plan 1 (0–3s) — L'ACCROCHE : Plan bas à l'avant sur la route. Le géant extraterrestre enroule ses tentacules visqueux autour du camion-citerne de tête, le réservoir d'acier se pliant et craquant alors que le camion dérape en travers de l'autoroute. Les autres camions freinent brusquement, les pneus fumant. Le conducteur de tête lutte avec le volant et crie dans sa radio : "IL ÉCRASE MON RÉSERVOIR !"
+
+Plan 2 (3–6s) : Sur le camion d'escorte armé. Un tireur fait pivoter son arme vers l'extraterrestre, mais retient son tir — le conducteur est toujours dans la cabine, le réservoir enserré. Il appelle à la radio : "Sautez ! Sortez de la route !"
+
+Plan 3 (6–9s) : Au camion de tête. Le conducteur ouvre sa porte et saute, roulant sur le sable et s'éloignant de la route. L'extraterrestre, toujours enroulé autour du camion-citerne vide, le traîne et glisse ensuite sur l'autoroute dégagée, se redressant haut et clair, le camion-citerne juste derrière lui.
+
+Plan 4 (9–13s) — GRAND MOMENT AU RALENTI : L'extraterrestre est maintenant à découvert sur la route, le camion-citerne derrière lui. Le tireur ouvre le feu. Bullet time — une rafale de balles lourdes vole sur la route au ralenti, fumée et douilles flottant dans l'air, s'écrasant sur l'extraterrestre et déchirant le camion-citerne derrière lui. Le camion explose — une énorme boule de feu éclot autour de l'extraterrestre.
+
+Plan 5 (13–15s) : Le temps reprend son cours. Le camion-citerne entier et l'extraterrestre explosent en une immense boule de feu roulante sur l'autoroute, feu et slime projetés dans le ciel. Les autres camions reculent brusquement tandis que le conducteur sauvé court à travers le sable.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2073752462763475236.json)
+
+```text
+---
+明るく厳しい日差しの中、長い砂漠のハイウェイ。両側に砂丘があり、道路の上には熱のゆらめきが見える。軍の燃料輸送車列がハイウェイを走っており、大きな燃料トラックが一列に並んでいる。巨大なエイリアン—茶色がかった黒色で、ぬるぬるしており、長い鞭のような触手を持つ—が先頭の燃料トラックに触手を巻きつけ、他のトラックが急ブレーキをかける中でそれを押しつぶしている。護衛のガントラックでは、銃手が取り付けられた銃を振り回している。音：轟音を立てるエンジン、ブレーキのきしむ音、金属のうめき声、エイリアンの低い咆哮、無線の声。
+
+ショット1 (0–3秒) — フック: 道路の低い前方ショット。巨大なエイリアンが先頭の燃料トラックにぬるぬるした触手を巻きつけ、スチールタンクが曲がり、きしむ音を立てながらトラックがハイウェイを横滑りする。他のトラックは急ブレーキをかけ、タイヤが煙を上げる。先頭の運転手はハンドルを握りしめ、無線で叫ぶ：「タンクが押しつぶされている！」
+
+ショット2 (3–6秒): 護衛のガントラックで。銃手がエイリアンに向けて取り付けられた銃を振り回すが、発砲は控える—運転手がまだキャブにいるため、燃料タンクがしっかりと巻きつけられている。彼は無線で呼びかける：「飛び出せ！道路から離れろ！」
+
+ショット3 (6–9秒): 先頭のトラックで。運転手はドアを開けて飛び出し、砂の上に転がり、道路から走り去る。エイリアンはまだ空の燃料トラックに巻きついたまま、それを引きずり回し、そして開けたハイウェイに滑り出し、高くはっきりと立ち上がる。燃料トラックはそのすぐ後ろにある。
+
+ショット4 (9–13秒) — 大きなスローモーションの瞬間: エイリアンは今や道路の上に出ており、燃料トラックがその後ろにある。銃手が発砲する。バレットタイム—重い弾丸の流れがスローモーションで道路を飛び、煙と薬莢が空中に浮かび、エイリアンにぶつかり、その後ろの燃料トラックに食い込む。トラックが爆発し、エイリアンの周りに巨大な火の玉が咲く。
+
+ショット5 (13–15秒): 時間が戻る。ハイウェイ上で燃料トラック全体とエイリアンが一つの巨大な転がる火の玉となり、火とぬるぬるしたものが空に向かって飛び上がる。他のトラックは急いで後退し、救出された運転手は砂を横切って走り去る。
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2073752462763475236.json)
+
+```text
+---
+밝고 강렬한 햇빛 아래의 긴 사막 고속도로, 양쪽에 모래 언덕이 있고 도로 위로 열기가 아지랑이처럼 일렁인다. 군용 연료 수송 차량이 고속도로를 달리고 있으며, 큰 연료 트럭들이 줄지어 있다. 갈색-검은색의 거대한 외계 생명체가 긴 채찍 같은 촉수로 선두 연료 트럭을 감싸고 있으며, 다른 트럭들이 급브레이크를 밟는 가운데 이를 부수고 있다. 호위 총차량에서는 사수가 장착된 총을 휘두른다. 소리: 굉음의 엔진 소리, 끼익거리는 브레이크 소리, 금속의 신음 소리, 외계 생명체의 낮은 포효 소리, 무전기 소리.
+
+샷 1 (0–3초) — THE HOOK: 도로 위의 낮은 전면 샷. 거대한 외계 생명체가 선두 연료 트럭을 감싸고 있는 촉수, 강철 탱크가 구부러지고 삐걱거리며 트럭이 고속도로를 가로질러 옆으로 미끄러진다. 다른 트럭들이 급브레이크를 밟으며 타이어에서 연기가 난다. 선두 운전자는 핸들을 잡고 무전기에 외친다: "탱크가 부서지고 있어!"
+
+샷 2 (3–6초): 호위 총차량에서. 사수가 외계 생명체를 향해 장착된 총을 휘두르지만 발사하지 않는다 — 운전자가 아직 운전석에 있고, 연료 탱크가 단단히 감싸져 있다. 그는 무전기로 외친다: "뛰어내려! 도로에서 벗어나!"
+
+샷 3 (6–9초): 선두 트럭에서. 운전자가 문을 열고 뛰어내려 모래 위로 구르며 도로에서 벗어나 달린다. 여전히 빈 연료 트럭을 감싸고 있는 외계 생명체가 그것을 끌고 다니다가 열린 고속도로로 미끄러져 나와 높고 선명하게 일어선다, 연료 트럭이 그 뒤에 있다.
+
+샷 4 (9–13초) — BIG SLOW-MOTION MOMENT: 이제 외계 생명체가 도로 위에 나와 있고, 연료 트럭이 그 뒤에 있다. 사수가 발사한다. 총알 시간 — 무거운 탄환의 흐름이 느린 동작으로 도로를 따라 날아가고, 연기와 탄피가 공중에 매달려 있으며, 외계 생명체에 부딪히고 그 뒤의 연료 트럭을 찢는다. 트럭이 폭발한다 — 외계 생명체 주위에 거대한 불덩이가 피어난다.
+
+샷 5 (13–15초): 시간이 다시 돌아온다. 전체 연료 트럭과 외계 생명체가 고속도로 위에서 거대한 불덩이로 폭발하며, 불과 점액이 하늘로 솟구친다. 다른 트럭들이 급히 후진하고 구조된 운전자가 모래 위를 가로질러 달린다.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2073752462763475236.json)
+
+```text
+---
+Uma longa estrada deserta sob a luz intensa do dia, dunas de areia em ambos os lados, a ondulação do calor sobre a estrada. Um comboio de combustível do exército desce pela rodovia, grandes caminhões-tanque em fila. Um alienígena gigante — marrom-escuro, viscoso, com longos tentáculos chicoteantes — envolveu seus tentáculos ao redor do caminhão-tanque da frente, esmagando-o enquanto os outros caminhões freiam bruscamente atrás. Em um caminhão de escolta com metralhadora, um atirador gira sua arma montada. Som: motores rugindo, freios rangendo, metal gemendo, o rugido baixo do alienígena, vozes no rádio.
+
+Cena 1 (0–3s) — O GANCHO: Tiro baixo frontal na estrada. O alienígena gigante envolve seus tentáculos viscosos ao redor do caminhão-tanque da frente, o tanque de aço dobrando e rangendo enquanto o caminhão desliza de lado pela rodovia. Os outros caminhões freiam bruscamente, pneus fumegando. O motorista da frente luta com o volante e grita no rádio: "ESTÁ ESMAGANDO MEU TANQUE!"
+
+Cena 2 (3–6s): No caminhão de escolta com metralhadora. Um atirador gira sua arma montada em direção ao alienígena, mas segura o fogo — o motorista ainda na cabine, o tanque de combustível apertado. Ele chama no rádio: "Salte! Saia da estrada!"
+
+Cena 3 (6–9s): No caminhão da frente. O motorista abre a porta e salta, rolando para a areia e correndo para longe da estrada. O alienígena, ainda envolto no caminhão-tanque vazio, arrasta-o e depois desliza para a rodovia aberta, erguendo-se alto e claro, o caminhão-tanque logo atrás.
+
+Cena 4 (9–13s) — GRANDE MOMENTO EM CÂMERA LENTA: O alienígena está agora na estrada aberta, o caminhão-tanque atrás dele. O atirador dispara. Bullet time — uma rajada de tiros pesados voa pela estrada em câmera lenta, fumaça e cartuchos suspensos no ar, atingindo o alienígena e rasgando o caminhão-tanque atrás dele. O caminhão explode — uma enorme bola de fogo florescendo ao redor do alienígena.
+
+Cena 5 (13–15s): O tempo volta ao normal. Todo o caminhão-tanque e o alienígena explodem em uma enorme bola de fogo rolante na rodovia, fogo e gosma disparando para o céu. Os outros caminhões dão ré rapidamente enquanto o motorista resgatado corre livre pela areia.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2073752462763475236.json)
+
+```text
+---
+在明亮刺眼的白昼下，一条漫长的沙漠公路，两旁是沙丘，公路上方有热浪。一个军用燃料车队沿着公路行驶，大型燃料卡车排成一列。一只巨大的外星生物——棕黑色、黏滑，长长的触须挥舞着——用触须缠住了领头的燃料卡车，将其压碎，后面的卡车紧急刹车。在护送的枪车上，一名炮手转动他的机枪。声音：轰鸣的引擎声、尖锐的刹车声、金属的呻吟声、外星生物的低吼声、无线电的声音。
+
+镜头1 (0–3秒) — 引人入胜的开场：低角度前方拍摄公路。巨大的外星生物用黏滑的触须缠住领头的燃料卡车，钢制油罐弯曲并发出嘎吱声，卡车横向滑过公路。其他卡车紧急刹车，轮胎冒烟。领头司机奋力掌控方向盘，并在无线电中喊道：“它正在压碎我的油罐！”
+
+镜头2 (3–6秒)：在护送的枪车上。一名炮手将他的机枪转向外星生物，但没有开火——司机仍在驾驶室内，油罐被紧紧缠住。他在无线电中呼叫：“跳车！离开公路！”
+
+镜头3 (6–9秒)：在领头卡车处。司机打开车门跳出，滚到沙地上，跑离公路。外星生物仍缠绕着空的燃料卡车，将其拖动，然后滑到开阔的公路上，直立而清晰，燃料卡车紧随其后。
+
+镜头4 (9–13秒) — 大慢动作时刻：外星生物现在在公路上，燃料卡车在其后。炮手开火。子弹时间——一串重型子弹慢动作飞过公路，烟雾和弹壳悬在空中，击中外星生物并撕裂后面的燃料卡车。卡车爆炸——一个巨大的火球在外星生物周围绽放。
+
+镜头5 (13–15秒)：时间恢复正常。整个燃料卡车和外星生物在公路上化为一个巨大的翻滚火球，火焰和黏液冲向天空。其他卡车迅速倒车，而获救的司机则跑过沙地。
+---
+```
+
+## 出处与许可
+
+- 原作者：[Rahul Nanda](https://x.com/rahulnanda86) · 原帖：<https://x.com/rahulnanda86/status/2073752462763475236>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2073752462763475236.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

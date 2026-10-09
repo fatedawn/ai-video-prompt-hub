@@ -1,0 +1,566 @@
+---
+id: "renoise-2049743359997321625"
+title: "A white-haired American teenage boy with a nerdy look performs a smooth…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "运动"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Sports", "Basketball", "Photoreal", "Realistic World"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2049743359997321625.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Harboris"
+original_author_url: "https://x.com/harboriis"
+original_post_url: "https://x.com/harboriis/status/2049743359997321625"
+published: "2026-04-30"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# A white-haired American teenage boy with a nerdy look performs a smooth…
+
+## 提示词（English）
+
+```text
+A white-haired American teenage boy with a nerdy look performs a smooth basketball freestyle routine on an outdoor street basketball court. He has a slim athletic build, pale skin with light freckles, slightly messy ginger hair, and thin-frame glasses. He wears a modern street basketball outfit: oversized black jersey with “WIZZGEN” clearly printed on the front, loose basketball shorts, crew socks, and high-top sneakers with subtle pastel accents in soft purple and light blue. He holds a basketball and performs a continuous stylish freestyle flow, awkward-cool but confident, like a geeky high school kid with surprisingly elite ball control.
+
+0–1s:
+The boy starts in a low stance, doing a controlled low right-hand dribble. His knees are bent, body leaning slightly forward, focused nerdy expression behind glasses, the ball bouncing close to the asphalt.
+
+1–2s:
+He performs a quick crossover dribble from right to left, shifting his weight smoothly. His sneakers slide naturally on the painted outdoor court lines, shoulders staying relaxed and controlled.
+
+2–3s:
+He continues with a between-the-legs dribble, keeping rhythm and balance. The movement is clean, compact, and stylish, with the basketball passing clearly between his legs.
+
+3–4s:
+He performs a behind-the-back dribble, then immediately transitions into a hesitation move. His shoulders fake one direction, his eyes glance forward through his glasses, then he snaps back into control.
+
+4–5s:
+He executes a smooth spin move while dribbling. His body turns cleanly, sneakers pivot on the asphalt, jersey with “WIZZGEN” moving naturally with the rotation.
+
+5–6s:
+He performs a ball wrap around the waist, then drops back into a quick step-back motion. The move feels like a choreographed streetball trick, playful but precise.
+
+6–7s:
+He does quick footwork shuffles from side to side while keeping the dribble alive. His feet move fast, knees low, ball controlled close to the ground.
+
+7–8s:
+He performs a fake pass motion, then pulls the ball back into a controlled dribble combo, switching hands with confidence.
+
+8–9s:
+He briefly spins the basketball on one finger, standing more upright. His expression becomes proud and slightly smug, like a nerd who knows he just cooked everyone.
+
+9–10s:
+He ends with a confident stylish pose finish, holding the basketball at his side, one hand raised in a casual peace sign, relaxed stance, subtle smile, awkward-cool street-basketball attitude.
+
+Style:
+dynamic basketball freestyle choreography, smooth street flow movement, realistic sports motion, energetic but controlled rhythm, modern street sports commercial style, slightly playful teen character energy.
+
+Camera:
+medium full-body shot, stable cinematic framing, subtle push-in movement, smooth motion continuity, camera always keeps the full body and basketball visible.
+
+Environment:
+outdoor street basketball court, asphalt surface, painted court lines, chain-link fence in the background, subtle basketball hoop visible, warm natural daylight, clean urban playground atmosphere, minimal background distraction.
+
+Quality:
+high detail, smooth motion animation, realistic basketball physics, sharp composition, natural clothing movement, readable “WIZZGEN” text on jersey.
+
+Negative prompt:
+blurry, low quality, extra limbs, distorted anatomy, bad proportions, unrealistic ball movement, floating ball, glitch motion, stiff movement, messy background, indoor court, studio background, Asian facial features, black hair, adult man, muscular adult body, missing glasses, missing WIZZGEN text, wrong shirt text, unreadable logo.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2049743359997321625.json)
+
+```text
+Un adolescente estadounidense de cabello blanco con un aspecto nerd realiza una rutina fluida de freestyle de baloncesto en una cancha de baloncesto callejera al aire libre. Tiene una complexión atlética delgada, piel pálida con pecas ligeras, cabello pelirrojo ligeramente desordenado y gafas de montura delgada. Lleva un atuendo moderno de baloncesto callejero: camiseta negra de gran tamaño con "WIZZGEN" claramente impreso en el frente, pantalones cortos de baloncesto sueltos, calcetines hasta el tobillo y zapatillas altas con sutiles acentos en pastel de color púrpura suave y azul claro. Sostiene un balón de baloncesto y realiza un flujo continuo de freestyle con estilo, torpe pero seguro, como un chico nerd de secundaria con un sorprendente control de balón de élite.
+
+0–1s:
+El chico comienza en una postura baja, haciendo un drible bajo controlado con la mano derecha. Sus rodillas están dobladas, el cuerpo inclinado ligeramente hacia adelante, expresión nerd concentrada detrás de las gafas, el balón rebotando cerca del asfalto.
+
+1–2s:
+Realiza un drible rápido de crossover de derecha a izquierda, cambiando su peso suavemente. Sus zapatillas se deslizan naturalmente sobre las líneas pintadas de la cancha al aire libre, los hombros permanecen relajados y controlados.
+
+2–3s:
+Continúa con un drible entre las piernas, manteniendo el ritmo y el equilibrio. El movimiento es limpio, compacto y con estilo, con el balón pasando claramente entre sus piernas.
+
+3–4s:
+Realiza un drible por detrás de la espalda, luego transiciona inmediatamente a un movimiento de hesitación. Sus hombros fingen una dirección, sus ojos miran hacia adelante a través de sus gafas, luego vuelve a tomar el control.
+
+4–5s:
+Ejecuta un movimiento de giro suave mientras dribla. Su cuerpo gira limpiamente, las zapatillas pivotan sobre el asfalto, la camiseta con "WIZZGEN" se mueve naturalmente con la rotación.
+
+5–6s:
+Realiza un movimiento de envolver el balón alrededor de la cintura, luego retrocede en un rápido movimiento de step-back. El movimiento se siente como un truco coreografiado de streetball, juguetón pero preciso.
+
+6–7s:
+Hace rápidos movimientos de pies de lado a lado mientras mantiene el drible vivo. Sus pies se mueven rápido, rodillas bajas, balón controlado cerca del suelo.
+
+7–8s:
+Realiza un movimiento de pase falso, luego recupera el balón en un combo de drible controlado, cambiando de manos con confianza.
+
+8–9s:
+Gira brevemente el balón de baloncesto sobre un dedo, poniéndose más erguido. Su expresión se vuelve orgullosa y ligeramente presumida, como un nerd que sabe que acaba de impresionar a todos.
+
+9–10s:
+Termina con una pose final confiada y con estilo, sosteniendo el balón a su lado, una mano levantada en un signo de paz casual, postura relajada, sonrisa sutil, actitud de baloncesto callejero torpe pero genial.
+
+Estilo:
+coreografía dinámica de freestyle de baloncesto, movimiento fluido callejero, movimiento deportivo realista, ritmo energético pero controlado, estilo comercial moderno de deportes callejeros, energía de personaje adolescente ligeramente juguetón.
+
+Cámara:
+toma de cuerpo completo medio, encuadre cinematográfico estable, movimiento sutil de acercamiento, continuidad de movimiento suave, la cámara siempre mantiene visible el cuerpo completo y el balón de baloncesto.
+
+Entorno:
+cancha de baloncesto callejera al aire libre, superficie de asfalto, líneas de la cancha pintadas, cerca de alambre de fondo, aro de baloncesto sutilmente visible, luz natural cálida, atmósfera de parque urbano limpio, distracción mínima de fondo.
+
+Calidad:
+alto detalle, animación de movimiento suave, física de baloncesto realista, composición nítida, movimiento natural de la ropa, texto "WIZZGEN" legible en la camiseta.
+
+Negative prompt:
+borroso, baja calidad, extremidades extra, anatomía distorsionada, malas proporciones, movimiento de balón poco realista, balón flotante, movimiento con fallos, movimiento rígido, fondo desordenado, cancha interior, fondo de estudio, rasgos faciales asiáticos, cabello negro, hombre adulto, cuerpo adulto musculoso, gafas faltantes, texto "WIZZGEN" faltante, texto de camiseta incorrecto, logo ilegible.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] GPT Image Prompt: Un infográfico de hoja de coreografía en estilo de boceto a lápiz de colores para una rutina de trucos de freestyle de baloncesto.
+Diseño: 16 pasos dispuestos en una cuadrícula limpia de 4x4, cada panel mostrando un movimiento o secuencia de trucos de baloncesto diferente.
+Sujeto: un adolescente estadounidense de cabello blanco con un aspecto nerd, complexión atlética delgada, piel pálida con pecas ligeras, cabello pelirrojo ligeramente desordenado, usando gafas de montura delgada y un atuendo moderno de baloncesto callejero: camiseta de gran tamaño, pantalones cortos de baloncesto sueltos, calcetines hasta el tobillo y zapatillas altas con sutiles acentos en pastel como detalles en púrpura suave y azul claro. Se ve torpe pero seguro, como un chico nerd de secundaria que secretamente tiene habilidades increíbles de freestyle de baloncesto. Sostiene un balón de baloncesto en cada cuadro mientras realiza movimientos de freestyle controlados.
+Estilo: ilustración a lápiz de colores dibujada a mano, sombreado suave, textura de lápiz visible, líneas ligeramente esbozadas pero limpias, tonos pastel mezclados con contraste de atuendo deportivo oscuro.
+Movimiento: cada cuadro muestra acciones suaves de freestyle de baloncesto como drible de crossover, drible entre las piernas, drible por detrás de la espalda, movimiento de giro, pase falso, movimiento de step-back, giro de balón en el dedo, trabajo rápido de pies y pose final con estilo, con pequeñas flechas indicando la dirección del balón, flujo de movimiento del cuerpo y colocación de los pies.
+Diseño: estética moderna de baloncesto callejero, diseño infográfico minimalista y elegante, resaltados en pastel suave, números de pasos (1–16), breves leyendas debajo de cada cuadro describiendo cada movimiento de baloncesto.
+Texto: Título en la parte superior —
+“BASKETBALL FREESTYLE – 16 COUNTS – 10 SECONDS – SMOOTH STREET FLOW”.
+Entorno: fondo de estudio de cancha de baloncesto interior simple, iluminación suave, sombras mínimas, líneas del suelo de la cancha visibles sutilmente.
+Calidad: alto detalle, composición nítida, diseño equilibrado, póster tutorial editorial deportivo.
+Negative prompt: borroso, baja calidad, extremidades extra, anatomía distorsionada, malas proporciones, diseño desordenado, diseño sobrecargado, errores de texto, posición incorrecta del balón, movimiento poco realista, rasgos faciales asiáticos, cabello negro, cuerpo adulto musculoso.
+
+[Hilo 2] Seedance Video Prompt: Un adolescente estadounidense de cabello blanco con un aspecto nerd realiza una rutina fluida de freestyle de baloncesto en una cancha de baloncesto callejera al aire libre. Tiene una complexión atlética delgada, piel pálida con pecas ligeras, cabello pelirrojo ligeramente desordenado y gafas de montura delgada. Lleva un atuendo moderno de baloncesto callejero: camiseta negra de gran tamaño con "WIZZGEN" claramente impreso en el frente, pantalones cortos de baloncesto sueltos, calcetines hasta el tobillo y zapatillas altas con sutiles acentos en pastel de color púrpura suave y azul claro. Sostiene un balón de baloncesto y realiza un flujo continuo de freestyle con estilo, torpe pero seguro, como un chico nerd de secundaria con un sorprendente control de balón de élite.
+
+0–1s:
+El chico comienza en una postura baja, haciendo un drible bajo controlado con la mano derecha. Sus rodillas están dobladas, el cuerpo inclinado ligeramente hacia adelante, expresión nerd concentrada detrás de las gafas, el balón rebotando cerca del asfalto.
+
+1–2s:
+Realiza un drible rápido de crossover de derecha a izquierda, cambiando su peso suavemente. Sus zapatillas se deslizan naturalmente sobre las líneas pintadas de la cancha al aire libre, los hombros permanecen relajados y controlados.
+
+2–3s:
+Continúa con un drible entre las piernas, manteniendo el ritmo y el equilibrio. El movimiento es limpio, compacto y con estilo, con el balón pasando claramente entre sus piernas.
+
+3–4s:
+Realiza un drible por detrás de la espalda, luego transiciona inmediatamente a un movimiento de hesitación. Sus hombros fingen una dirección, sus ojos miran hacia adelante a través de sus gafas, luego vuelve a tomar el control.
+
+4–5s:
+Ejecuta un movimiento de giro suave mientras dribla. Su cuerpo gira limpiamente, las zapatillas pivotan sobre el asfalto, la camiseta con "WIZZGEN" se
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2049743359997321625.json)
+
+```text
+Un adolescent américain aux cheveux blancs avec un look nerd effectue une routine fluide de freestyle de basketball sur un terrain de basketball de rue en extérieur. Il a une silhouette athlétique et mince, une peau pâle avec de légères taches de rousseur, des cheveux roux légèrement en désordre et des lunettes à monture fine. Il porte une tenue moderne de basketball de rue : un maillot noir surdimensionné avec "WIZZGEN" clairement imprimé à l'avant, un short de basketball ample, des chaussettes montantes et des baskets montantes avec des accents pastel subtils en violet doux et bleu clair. Il tient un ballon de basket et exécute un flow freestyle stylé et continu, maladroit-cool mais confiant, comme un lycéen geek avec un contrôle de balle étonnamment élite.
+
+0–1s :
+Le garçon commence en position basse, effectuant un dribble bas contrôlé de la main droite. Ses genoux sont fléchis, son corps légèrement penché en avant, une expression nerd concentrée derrière ses lunettes, le ballon rebondissant près de l'asphalte.
+
+1–2s :
+Il effectue un dribble croisé rapide de droite à gauche, déplaçant son poids en douceur. Ses baskets glissent naturellement sur les lignes peintes du terrain extérieur, ses épaules restant détendues et contrôlées.
+
+2–3s :
+Il continue avec un dribble entre les jambes, gardant le rythme et l'équilibre. Le mouvement est propre, compact et stylé, avec le ballon passant clairement entre ses jambes.
+
+3–4s :
+Il effectue un dribble derrière le dos, puis passe immédiatement à un mouvement de feinte. Ses épaules simulent une direction, ses yeux regardent en avant à travers ses lunettes, puis il reprend le contrôle.
+
+4–5s :
+Il exécute un mouvement de rotation fluide tout en dribblant. Son corps tourne proprement, ses baskets pivotent sur l'asphalte, le maillot avec "WIZZGEN" bougeant naturellement avec la rotation.
+
+5–6s :
+Il effectue un enroulement du ballon autour de la taille, puis recule dans un mouvement de step-back rapide. Le mouvement ressemble à un tour de streetball chorégraphié, ludique mais précis.
+
+6–7s :
+Il effectue des déplacements rapides des pieds de côté tout en gardant le dribble vivant. Ses pieds bougent rapidement, genoux bas, ballon contrôlé près du sol.
+
+7–8s :
+Il simule un mouvement de passe, puis ramène le ballon dans une combinaison de dribble contrôlé, changeant de main avec confiance.
+
+8–9s :
+Il fait brièvement tourner le ballon de basket sur un doigt, se tenant plus droit. Son expression devient fière et légèrement suffisante, comme un nerd qui sait qu'il vient de surpasser tout le monde.
+
+9–10s :
+Il termine par une pose finale stylée et confiante, tenant le ballon à ses côtés, une main levée en signe de paix décontracté, posture détendue, sourire subtil, attitude de street-basketball maladroit-cool.
+
+Style :
+chorégraphie freestyle de basketball dynamique, mouvement fluide de rue, mouvement sportif réaliste, rythme énergique mais contrôlé, style commercial de sports de rue moderne, énergie de personnage adolescent légèrement ludique.
+
+Caméra :
+plan moyen en pied, cadrage cinématographique stable, mouvement subtil de zoom avant, continuité de mouvement fluide, la caméra garde toujours le corps entier et le ballon visibles.
+
+Environnement :
+terrain de basketball de rue en extérieur, surface en asphalte, lignes de terrain peintes, clôture en mailles de chaîne en arrière-plan, panier de basketball subtilement visible, lumière naturelle chaude, atmosphère de terrain de jeu urbain propre, distraction minimale en arrière-plan.
+
+Qualité :
+détail élevé, animation de mouvement fluide, physique réaliste du basketball, composition nette, mouvement naturel des vêtements, texte "WIZZGEN" lisible sur le maillot.
+
+Negative prompt :
+flou, basse qualité, membres supplémentaires, anatomie déformée, mauvaises proportions, mouvement de balle irréaliste, balle flottante, mouvement saccadé, arrière-plan désordonné, terrain intérieur, arrière-plan de studio, traits faciaux asiatiques, cheveux noirs, homme adulte, corps adulte musclé, lunettes manquantes, texte WIZZGEN manquant, texte de maillot incorrect, logo illisible.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] GPT Image Prompt : Une infographie de feuille de chorégraphie en style croquis au crayon de couleur pour une routine de trick freestyle de basketball.
+Disposition : 16 étapes disposées dans une grille propre 4x4, chaque panneau montrant un mouvement de basketball ou une séquence de tricks différente.
+Sujet : un adolescent américain aux cheveux blancs avec un look nerd, une silhouette athlétique mince, une peau pâle avec de légères taches de rousseur, des cheveux roux légèrement en désordre, portant des lunettes à monture fine et une tenue moderne de basketball de rue : maillot surdimensionné, short de basketball ample, chaussettes montantes et baskets montantes avec des accents pastel subtils comme des détails en violet doux et bleu clair. Il a l'air maladroit-cool mais confiant, comme un lycéen geek qui a secrètement des compétences de freestyle de basketball incroyables. Il tient un ballon de basket dans chaque cadre tout en effectuant des mouvements freestyle contrôlés.
+Style : illustration au crayon de couleur dessinée à la main, ombrage doux, texture de crayon visible, lignes légèrement esquissées mais propres, tons pastel mélangés avec un contraste de tenue sportive sombre.
+Mouvement : chaque cadre montre des actions de freestyle de basketball fluides telles que dribble croisé, dribble entre les jambes, dribble derrière le dos, mouvement de rotation, feinte de passe, mouvement de step-back, rotation du ballon sur le doigt, jeu de pieds rapide, et pose finale stylée, avec de petites flèches indiquant la direction du ballon, le flux de mouvement du corps et le placement des pieds.
+Design : esthétique moderne de basketball de rue, mise en page infographique minimaliste et stylée, accents pastel doux, numéros d'étape (1–16), légendes courtes sous chaque cadre décrivant chaque mouvement de basketball.
+Texte : Titre en haut —
+“BASKETBALL FREESTYLE – 16 TEMPS – 10 SECONDES – FLUX DE RUE FLUIDE”.
+Environnement : arrière-plan de studio de terrain de basketball intérieur simple, éclairage doux, ombres minimales, lignes de sol de terrain propres visibles subtilement.
+Qualité : détail élevé, composition nette, mise en page équilibrée, affiche tutorielle sportive éditoriale.
+Negative prompt : flou, basse qualité, membres supplémentaires, anatomie déformée, mauvaises proportions, mise en page désordonnée, design surchargé, erreurs de texte, position incorrecte du ballon, mouvement irréaliste, traits faciaux asiatiques, cheveux noirs, corps adulte musclé.
+
+[Fil 2] Seedance Video Prompt : Un adolescent américain aux cheveux blancs avec un look nerd effectue une routine fluide de freestyle de basketball sur un terrain de basketball de rue en extérieur. Il a une silhouette athlétique et mince, une peau pâle avec de légères taches de rousseur, des cheveux roux légèrement en désordre et des lunettes à monture fine. Il porte une tenue moderne de basketball de rue : un maillot noir surdimensionné avec "WIZZGEN" clairement imprimé à l'avant, un short de basketball ample, des chaussettes montantes et des baskets montantes avec des accents pastel subtils en violet doux et bleu clair. Il tient un ballon de basket et exécute un flow freestyle stylé et continu, maladroit-cool mais confiant, comme un lycéen geek avec un contrôle de balle étonnamment élite.
+
+0–1s :
+Le garçon commence en position basse, effectuant un dribble bas contrôlé de la main droite. Ses genoux sont fléchis, son corps légèrement penché en avant, une expression nerd concentrée derrière ses lunettes, le ballon rebondissant près de l'asphalte.
+
+1–2s :
+Il effectue un dribble croisé rapide de droite à gauche, déplaçant son poids en douceur. Ses baskets glissent naturellement sur les lignes peintes du terrain extérieur, ses épaules restant détendues et contrôlées.
+
+2–3s :
+Il continue avec un dribble entre les jambes, gardant le rythme et l'équilibre. Le mouvement est propre, compact et stylé, avec le ballon passant clairement entre ses jambes.
+
+3–4s :
+Il effectue un dribble derrière le dos, puis passe immédiatement à un mouvement de feinte. Ses épaules simulent une direction, ses yeux regardent en avant à travers ses lunettes, puis il reprend le contrôle.
+
+4–5s :
+Il exécute un mouvement de rotation fluide tout en dribblant. Son corps tourne proprement, ses baskets pivotent sur l'asphalte, le maillot avec "WIZZGEN" bougeant naturellement avec la rotation.
+
+5–6s :
+Il effectue un enroulement du ballon autour de la taille, puis recule dans un mouvement de step-back rapide. Le mouvement ressemble à un tour de streetball chorégraphié,
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2049743359997321625.json)
+
+```text
+---
+흰 머리의 미국인 십대 소년이 너드 같은 외모로 야외 거리 농구 코트에서 부드러운 농구 프리스타일 루틴을 선보입니다. 그는 슬림한 운동 체격에 옅은 주근깨가 있는 창백한 피부, 약간 헝클어진 붉은 머리, 얇은 테 안경을 착용하고 있습니다. 그는 현대적인 거리 농구 복장을 입고 있습니다: 앞면에 "WIZZGEN"이 명확히 인쇄된 오버사이즈 검은색 저지, 헐렁한 농구 반바지, 크루 양말, 부드러운 보라색과 연한 파란색의 은은한 파스텔 악센트가 있는 하이탑 스니커즈. 그는 농구공을 들고 계속해서 스타일리시한 프리스타일 플로우를 선보이며, 어색하지만 자신감 있는 모습으로, 놀라울 정도로 뛰어난 볼 컨트롤을 가진 너드 같은 고등학생처럼 보입니다.
+
+0–1초:
+소년은 낮은 자세로 시작하여 오른손으로 낮고 통제된 드리블을 합니다. 그의 무릎은 구부러져 있고, 몸은 약간 앞으로 기울어져 있으며, 안경 너머로 집중한 너드 같은 표정을 짓고 있으며, 공은 아스팔트 가까이에서 튀고 있습니다.
+
+1–2초:
+그는 오른쪽에서 왼쪽으로 빠른 크로스오버 드리블을 수행하며 부드럽게 체중을 이동합니다. 그의 스니커즈는 자연스럽게 야외 코트의 페인트 라인 위를 미끄러지며, 어깨는 여유롭고 통제된 상태를 유지합니다.
+
+2–3초:
+그는 다리 사이 드리블을 계속하며 리듬과 균형을 유지합니다. 움직임은 깔끔하고 컴팩트하며 스타일리시하며, 농구공은 그의 다리 사이로 명확히 지나갑니다.
+
+3–4초:
+그는 백드리블을 수행한 후 즉시 주저하는 동작으로 전환합니다. 그의 어깨는 한 방향으로 속이고, 그의 눈은 안경 너머로 앞으로 흘긋 보다가 다시 통제력을 되찾습니다.
+
+4–5초:
+그는 드리블을 하면서 부드러운 스핀 무브를 실행합니다. 그의 몸은 깔끔하게 회전하고, 스니커즈는 아스팔트 위에서 피벗하며, "WIZZGEN"이 적힌 저지는 회전에 자연스럽게 움직입니다.
+
+5–6초:
+그는 허리 주위로 공을 감싼 후 빠르게 스텝백 동작으로 돌아갑니다. 이 움직임은 안무된 스트리트볼 트릭처럼 느껴지며, 장난스럽지만 정확합니다.
+
+6–7초:
+그는 드리블을 유지하면서 좌우로 빠른 발놀림 셔플을 합니다. 그의 발은 빠르게 움직이고, 무릎은 낮으며, 공은 지면 가까이에서 통제됩니다.
+
+7–8초:
+그는 가짜 패스 동작을 수행한 후 공을 통제된 드리블 콤보로 다시 끌어당기며 자신감 있게 손을 바꿉니다.
+
+8–9초:
+그는 잠시 농구공을 한 손가락 위에서 회전시키며 더 똑바로 서 있습니다. 그의 표정은 자랑스럽고 약간 거만해지며, 마치 자신이 모두를 놀라게 했다는 것을 아는 너드처럼 보입니다.
+
+9–10초:
+그는 자신감 있는 스타일리시한 포즈로 마무리하며, 농구공을 옆에 들고 한 손을 캐주얼한 평화의 제스처로 올리며, 여유로운 자세와 미묘한 미소, 어색하지만 멋진 거리 농구 태도를 보여줍니다.
+
+스타일:
+다이내믹한 농구 프리스타일 안무, 부드러운 거리 플로우 움직임, 현실적인 스포츠 동작, 에너제틱하지만 통제된 리듬, 현대적인 거리 스포츠 상업 스타일, 약간 장난기 있는 십대 캐릭터 에너지.
+
+카메라:
+중간 풀바디 샷, 안정적인 시네마틱 프레이밍, 미묘한 푸시인 움직임, 부드러운 모션 연속성, 카메라는 항상 전체 몸과 농구공을 보이게 유지합니다.
+
+환경:
+야외 거리 농구 코트, 아스팔트 표면, 페인트된 코트 라인, 배경에 체인 링크 펜스, 미묘한 농구 골대가 보이는 따뜻한 자연 채광, 깨끗한 도시 놀이터 분위기, 최소한의 배경 방해 요소.
+
+품질:
+고해상도, 부드러운 모션 애니메이션, 현실적인 농구 물리학, 선명한 구성, 자연스러운 의류 움직임, 저지의 "WIZZGEN" 텍스트가 읽기 쉬움.
+
+부정적 프롬프트:
+흐릿한, 저품질, 여분의 팔다리, 왜곡된 해부학, 나쁜 비율, 비현실적인 공 움직임, 떠다니는 공, 글리치 모션, 뻣뻣한 움직임, 지저분한 배경, 실내 코트, 스튜디오 배경, 아시아인 얼굴 특징, 검은 머리, 성인 남성, 근육질의 성인 몸, 안경 없음, "WIZZGEN" 텍스트 없음, 잘못된 셔츠 텍스트, 읽을 수 없는 로고.
+
+--- THREAD CONTINUATION ---
+[Thread 1] GPT 이미지 프롬프트: 농구 프리스타일 트릭 루틴을 위한 색연필 스케치 스타일 안무 시트 인포그래픽.
+레이아웃: 4x4 그리드로 깔끔하게 배열된 16단계, 각 패널은 다른 농구 동작이나 트릭 시퀀스를 보여줍니다.
+주제: 흰 머리의 미국인 십대 소년이 너드 같은 외모로, 슬림한 운동 체격, 옅은 주근깨가 있는 창백한 피부, 약간 헝클어진 붉은 머리, 얇은 테 안경을 착용하고 현대적인 거리 농구 복장을 입고 있습니다: 오버사이즈 저지, 헐렁한 농구 반바지, 크루 양말, 부드러운 보라색과 연한 파란색 디테일의 은은한 파스텔 악센트가 있는 하이탑 스니커즈. 그는 어색하지만 자신감 있는 모습으로, 비밀리에 엄청난 농구 프리스타일 기술을 가진 너드 같은 고등학생처럼 보입니다. 그는 모든 프레임에서 농구공을 들고 통제된 프리스타일 동작을 수행합니다.
+스타일: 손으로 그린 색연필 일러스트레이션, 부드러운 음영, 보이는 연필 질감, 약간 스케치 같지만 깔끔한 선, 파스텔 톤이 스포츠 다크 아웃핏과 대비되어 혼합됨.
+움직임: 각 프레임은 드리블 크로스오버, 다리 사이 드리블, 백드리블, 스핀 무브, 가짜 패스, 스텝백 동작, 손가락 위에서 공 회전, 빠른 발놀림, 스타일리시한 포즈 마무리와 같은 부드러운 농구 프리스타일 동작을 보여주며, 작은 화살표가 공의 방향, 몸의 움직임 흐름, 발의 위치를 나타냅니다.
+디자인: 현대적인 거리 농구 미학, 최소한의 스타일리시한 인포그래픽 레이아웃, 부드러운 파스텔 하이라이트, 단계 번호 (1–16), 각 프레임 아래에 각 농구 동작을 설명하는 짧은 캡션.
+텍스트: 상단에 제목 —
+“BASKETBALL FREESTYLE – 16 COUNTS – 10 SECONDS – SMOOTH STREET FLOW”.
+환경: 간단한 실내 농구 코트 스튜디오 배경, 부드러운 조명, 최소한의 그림자, 깨끗한 코트 바닥 라인이 은은하게 보임.
+품질: 고해상도, 선명한 구성, 균형 잡힌 레이아웃, 편집 스포츠 튜토리얼 포스터.
+부정적 프롬프트: 흐릿한, 저품질, 여분의 팔다리, 왜곡된 해부학, 나쁜 비율, 지저분한 레이아웃, 과밀한 디자인, 텍스트 오류, 잘못된 공 위치, 비현실적인 움직임, 아시아인 얼굴 특징, 검은 머리, 근육질의 성인 몸.
+
+[Thread
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2049743359997321625.json)
+
+```text
+Um adolescente americano de cabelos brancos com um visual nerd realiza uma rotina suave de basquete freestyle em uma quadra de basquete de rua ao ar livre. Ele tem um porte atlético esguio, pele pálida com sardas leves, cabelo ruivo ligeiramente bagunçado e óculos de armação fina. Ele veste uma roupa moderna de basquete de rua: camiseta preta oversized com "WIZZGEN" claramente impresso na frente, shorts de basquete largos, meias até a canela e tênis de cano alto com sutis detalhes em tons pastel de roxo suave e azul claro. Ele segura uma bola de basquete e realiza um fluxo contínuo de freestyle estiloso, desajeitado-cool mas confiante, como um garoto nerd do ensino médio com surpreendente controle de bola de elite.
+
+0–1s:
+O garoto começa em uma postura baixa, fazendo um drible controlado com a mão direita. Seus joelhos estão dobrados, corpo levemente inclinado para frente, expressão nerd focada atrás dos óculos, a bola quicando perto do asfalto.
+
+1–2s:
+Ele realiza um drible cruzado rápido da direita para a esquerda, mudando seu peso suavemente. Seus tênis deslizam naturalmente nas linhas pintadas da quadra ao ar livre, ombros permanecendo relaxados e controlados.
+
+2–3s:
+Ele continua com um drible entre as pernas, mantendo ritmo e equilíbrio. O movimento é limpo, compacto e estiloso, com a bola passando claramente entre suas pernas.
+
+3–4s:
+Ele faz um drible por trás das costas, então imediatamente transita para um movimento de hesitação. Seus ombros fingem uma direção, seus olhos olham para frente através dos óculos, então ele retoma o controle.
+
+4–5s:
+Ele executa um movimento de giro suave enquanto dribla. Seu corpo gira limpo, tênis pivotam no asfalto, a camiseta com "WIZZGEN" se movendo naturalmente com a rotação.
+
+5–6s:
+Ele realiza um movimento de envolver a bola ao redor da cintura, então recua em um movimento rápido de step-back. O movimento parece um truque coreografado de streetball, brincalhão mas preciso.
+
+6–7s:
+Ele faz movimentos rápidos de pés de um lado para o outro enquanto mantém o drible vivo. Seus pés se movem rápido, joelhos baixos, bola controlada perto do chão.
+
+7–8s:
+Ele faz um movimento de passe falso, então puxa a bola de volta para um combo de drible controlado, trocando de mãos com confiança.
+
+8–9s:
+Ele gira brevemente a bola de basquete em um dedo, ficando mais ereto. Sua expressão se torna orgulhosa e ligeiramente convencida, como um nerd que sabe que acabou de impressionar a todos.
+
+9–10s:
+Ele termina com uma pose estilosa e confiante, segurando a bola de basquete ao lado, uma mão levantada em um sinal de paz casual, postura relaxada, sorriso sutil, atitude de basquete de rua desajeitado-cool.
+
+Estilo:
+coreografia dinâmica de basquete freestyle, movimento suave de rua, movimento esportivo realista, ritmo energético mas controlado, estilo comercial moderno de esportes de rua, energia de personagem adolescente ligeiramente brincalhão.
+
+Câmera:
+plano médio de corpo inteiro, enquadramento cinematográfico estável, movimento sutil de aproximação, continuidade de movimento suave, câmera sempre mantém o corpo inteiro e a bola de basquete visíveis.
+
+Ambiente:
+quadra de basquete de rua ao ar livre, superfície de asfalto, linhas pintadas na quadra, cerca de arame ao fundo, aro de basquete sutilmente visível, luz natural quente do dia, atmosfera limpa de playground urbano, mínima distração de fundo.
+
+Qualidade:
+alto detalhe, animação de movimento suave, física de basquete realista, composição nítida, movimento natural das roupas, texto "WIZZGEN" legível na camiseta.
+
+Prompt negativo:
+borrado, baixa qualidade, membros extras, anatomia distorcida, proporções ruins, movimento de bola irrealista, bola flutuante, movimento com falhas, movimento rígido, fundo bagunçado, quadra interna, fundo de estúdio, traços faciais asiáticos, cabelo preto, homem adulto, corpo adulto musculoso, óculos faltando, texto "WIZZGEN" faltando, texto errado na camiseta, logotipo ilegível.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Prompt de Imagem GPT: Um infográfico em estilo de esboço a lápis colorido para uma rotina de truques de basquete freestyle.
+Layout: 16 passos organizados em uma grade limpa de 4x4, cada painel mostrando um movimento de basquete ou sequência de truque diferente.
+Sujeito: um adolescente americano de cabelos brancos com um visual nerd, porte atlético esguio, pele pálida com sardas leves, cabelo ruivo ligeiramente bagunçado, usando óculos de armação fina e uma roupa moderna de basquete de rua: camiseta oversized, shorts de basquete largos, meias até a canela e tênis de cano alto com sutis detalhes em tons pastel como roxo suave e azul claro. Ele parece desajeitado-cool mas confiante, como um garoto nerd do ensino médio que secretamente tem habilidades insanas de basquete freestyle. Ele está segurando uma bola de basquete em cada quadro enquanto realiza movimentos controlados de freestyle.
+Estilo: ilustração desenhada à mão com lápis colorido, sombreamento suave, textura de lápis visível, linhas ligeiramente esboçadas mas limpas, tons pastéis misturados com contraste de roupa esportiva escura.
+Movimento: cada quadro mostra ações suaves de basquete freestyle, como drible cruzado, drible entre as pernas, drible por trás das costas, movimento de giro, passe falso, movimento de step-back, giro de bola no dedo, trabalho rápido de pés e pose estilosa de finalização, com pequenas setas indicando a direção da bola, fluxo de movimento do corpo e posicionamento dos pés.
+Design: estética moderna de basquete de rua, layout infográfico minimalista e estiloso, destaques em tons pastéis suaves, números de passos (1–16), legendas curtas abaixo de cada quadro descrevendo cada movimento de basquete.
+Texto: Título no topo —
+“BASKETBALL FREESTYLE – 16 CONTAGENS – 10 SEGUNDOS – FLUXO DE RUA SUAVE”.
+Ambiente: fundo simples de estúdio de quadra de basquete interna, iluminação suave, sombras mínimas, linhas do chão da quadra visíveis sutilmente.
+Qualidade: alto detalhe, composição nítida, layout equilibrado, pôster tutorial esportivo editorial.
+Prompt negativo: borrado, baixa qualidade, membros extras, anatomia distorcida, proporções ruins, layout bagunçado, design superlotado, erros de texto, posição incorreta da bola, movimento irrealista, traços faciais asiáticos, cabelo preto, corpo adulto musculoso.
+
+[Tópico 2] Prompt de Vídeo Seedance: Um adolescente americano de cabelos brancos com um visual nerd realiza uma rotina suave de basquete freestyle em uma quadra de basquete de rua ao ar livre. Ele tem um porte atlético esguio, pele pálida com sardas leves, cabelo ruivo ligeiramente bagunçado e óculos de armação fina. Ele veste uma roupa moderna de basquete de rua: camiseta preta oversized com "WIZZGEN" claramente impresso na frente, shorts de basquete largos, meias até a canela e tênis de cano alto com sutis detalhes em tons pastel de roxo suave e azul claro. Ele segura uma bola de basquete e realiza um fluxo contínuo de freestyle estiloso, desajeitado-cool mas confiante, como um garoto nerd do ensino médio com surpreendente controle de bola de elite.
+
+0–1s:
+O garoto começa em uma postura baixa, fazendo um drible controlado com a mão direita. Seus joelhos estão dobrados, corpo levemente inclinado para frente, expressão nerd focada atrás dos óculos, a bola quicando perto do asfalto.
+
+1–2s:
+Ele realiza um drible cruzado rápido da direita para a esquerda, mudando seu peso suavemente. Seus tênis deslizam naturalmente nas linhas pintadas da quadra ao ar livre, ombros permanecendo relaxados e controlados.
+
+2–3s:
+Ele continua com um drible entre as pernas, mantendo ritmo e equilíbrio. O movimento é limpo, compacto e estiloso, com a bola passando claramente entre suas pernas.
+
+3–4s:
+Ele faz um drible por trás das costas, então imediatamente transita para um movimento de hesitação. Seus ombros fingem uma direção, seus olhos olham para frente através dos óculos, então ele retoma o controle.
+
+4–5s:
+Ele executa um movimento de giro suave enquanto dribla. Seu corpo gira limpo, tênis pivotam no asfalto, a camiseta com "WIZZGEN" se movendo naturalmente com a rotação.
+
+5–6s:
+Ele realiza um movimento de envolver a bola ao redor da cintura, então recua em um movimento rápido de step-back. O movimento parece um truque coreografado de streetball, brincalhão mas preciso.
+
+6
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2049743359997321625.json)
+
+```text
+---
+一个白发的美国少年，带着书呆子的外表，在户外街头篮球场上进行流畅的篮球花式表演。他身材苗条且运动，皮肤苍白，有淡淡的雀斑，略显凌乱的姜黄色头发，戴着细框眼镜。他穿着现代街头篮球服装：前面清晰印有“WIZZGEN”的宽松黑色球衣，宽松的篮球短裤，船袜，以及带有柔和紫色和浅蓝色细节的高帮运动鞋。他手持篮球，进行连续的时尚花式动作，尴尬而自信，像一个书呆子高中生，却拥有令人惊讶的精湛控球技巧。
+
+0–1秒：
+男孩开始时处于低姿态，进行受控的右手低运球。他的膝盖弯曲，身体略微前倾，眼镜后面是专注的书呆子表情，篮球在接近沥青的地方弹跳。
+
+1–2秒：
+他快速地从右手运球切换到左手，顺畅地转移重心。他的运动鞋自然地滑过户外球场的画线，肩膀保持放松和控制。
+
+2–3秒：
+他继续进行胯下运球，保持节奏和平衡。动作干净、紧凑且时尚，篮球清晰地从他腿间穿过。
+
+3–4秒：
+他进行背后运球，然后立即过渡到犹豫动作。他的肩膀假装向一个方向，他的眼睛通过眼镜向前瞥了一眼，然后迅速恢复控制。
+
+4–5秒：
+他在运球时执行一个流畅的旋转动作。他的身体干净地转动，运动鞋在沥青上旋转，印有“WIZZGEN”的球衣自然随着旋转移动。
+
+5–6秒：
+他进行一个腰部绕球动作，然后迅速退回到一个后撤步动作。这个动作感觉像是一个编排好的街头篮球技巧，既有趣又精确。
+
+6–7秒：
+他快速地从一侧到另一侧进行脚步移动，同时保持运球。他的脚移动得很快，膝盖保持低位，篮球控制在接近地面的地方。
+
+7–8秒：
+他做出一个假传球动作，然后将球拉回到一个受控的运球组合中，自信地换手。
+
+8–9秒：
+他短暂地用一根手指旋转篮球，站得更直。他的表情变得自豪且略显得意，像一个知道自己刚刚征服了所有人的书呆子。
+
+9–10秒：
+他以一个自信的时尚姿势结束，篮球放在一侧，一只手随意地举起一个和平手势，姿态放松，微微一笑，尴尬而酷的街头篮球态度。
+
+风格：
+动态篮球花式编舞，流畅的街头流动动作，真实的运动节奏，充满活力但受控的节奏，现代街头运动商业风格，略带俏皮的青少年角色能量。
+
+摄像机：
+中等全身镜头，稳定的电影框架，细微的推入运动，流畅的动作连续性，摄像机始终保持全身和篮球可见。
+
+环境：
+户外街头篮球场，沥青表面，画好的球场线，背景中的铁丝网，隐约可见的篮球框，温暖的自然日光，干净的城市游乐场氛围，背景干扰最小。
+
+质量：
+高细节，流畅的动作动画，真实的篮球物理，清晰的构图，自然的服装运动，球衣上可读的“WIZZGEN”文字。
+
+负面提示：
+模糊，低质量，多余的肢体，扭曲的解剖结构，比例失调，不真实的球运动，漂浮的球，故障动作，僵硬的动作，凌乱的背景，室内球场，工作室背景，亚洲面部特征，黑色头发，成年男性，肌肉发达的成年身体，缺少眼镜，缺少WIZZGEN文字，错误的衬衫文字，不可读的标志。
+
+--- 线程继续 ---
+[线程1] GPT图像提示：一个彩色铅笔素描风格的篮球花式动作编排信息图。
+布局：16个步骤排列在一个干净的4x4网格中，每个面板展示不同的篮球动作或技巧序列。
+主题：一个白发的美国少年，带着书呆子的外表，苗条的运动身材，苍白的皮肤，淡淡的雀斑，略显凌乱的姜黄色头发，戴着细框眼镜，穿着现代街头篮球服装：宽松的球衣，宽松的篮球短裤，船袜，以及带有柔和紫色和浅蓝色细节的高帮运动鞋。他看起来尴尬而自信，像一个书呆子高中生，暗地里拥有疯狂的篮球花式技巧。他在每个画面中都持有篮球，进行受控的花式动作。
+风格：手绘彩色铅笔插图，柔和的阴影，可见的铅笔纹理，略显草图但干净的线条，柔和的色调与运动的深色服装对比。
+动作：每个画面展示流畅的篮球花式动作，如运球交叉，胯下运球，背后运球，旋转动作，假传球，后撤步动作，手指旋转球，快速脚步动作，以及时尚的姿势结束，带有小箭头指示球的方向，身体运动流动和脚步位置。
+设计：现代街头篮球美学，简约而时尚的信息图布局，柔和的色彩亮点，步骤编号（1–16），每个画面下方有简短的文字描述每个篮球动作。
+文本：顶部标题—
+“BASKETBALL FREESTYLE – 16 COUNTS – 10 SECONDS – SMOOTH STREET FLOW”。
+环境：简单的室内篮球场工作室背景，柔和的灯光，最小的阴影，干净的球场地板线条隐约可见。
+质量：高细节，清晰的构图，平衡的布局，编辑的运动教程海报。
+负面提示：模糊，低质量，多余的肢体，扭曲的解剖结构，比例失调，凌乱的布局，过于拥挤的设计，文字错误，错误的球位置，不真实的动作，亚洲面部特征，黑色头发，肌肉发达的成年身体。
+
+[线程2] Seedance视频提示：一个白发的美国少年，带着书呆子的外表，在户外街头篮球场上进行流畅的篮球花式表演。他身材苗条且运动，皮肤苍白，有淡淡的雀斑，略显凌乱的姜黄色头发，戴着细框眼镜。他穿着现代街头篮球服装：前面清晰印有“WIZZGEN”的宽松黑色球衣，宽松的篮球短裤，船袜，以及带有柔和紫色和浅蓝色细节的高帮运动鞋。他手持篮球，进行连续的时尚花式动作，尴尬而自信，像一个书呆子高中生，却拥有令人惊讶的精湛控球技巧。
+
+0–1秒：
+男孩开始时处于低姿态，进行受控的右手低运球。他的膝盖弯曲，身体略微前倾，眼镜后面是专注的书呆子表情，篮球在接近沥青的地方弹跳。
+
+1–2秒：
+他快速地从右手运球切换到左手，顺畅地转移重心。他的运动鞋自然地滑过户外球场的画线，肩膀保持放松和控制。
+
+2–3秒：
+他继续进行胯下运球，保持节奏和平衡。动作干净、紧凑且时尚，篮球清晰地从他腿间穿过。
+
+3–4秒：
+他进行背后运球，然后立即过渡到犹豫动作。他的肩膀假装向一个方向，他的眼睛通过眼镜向前瞥了一眼，然后迅速恢复控制。
+
+4–5秒：
+他在运球时执行一个流畅的旋转动作。他的身体干净地转动，运动鞋在沥青上旋转，印有“WIZZGEN”的球衣自然随着旋转移动。
+
+5–6秒：
+他进行一个腰部绕球动作，然后迅速退回到
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2049743359997321625.json)
+
+```text
+---
+白髪のアメリカ人ティーンエイジャーの少年が、オタクっぽい外見で、屋外のストリートバスケットボールコートでスムーズなバスケットボールフリースタイルのルーチンを披露します。彼はスリムでアスレチックな体格、淡いそばかすのある肌、少し乱れた赤毛、薄いフレームの眼鏡をかけています。彼は現代的なストリートバスケットボールの服装をしています：フロントに「WIZZGEN」とはっきり印刷されたオーバーサイズの黒いジャージー、ゆったりとしたバスケットボールショーツ、クルーソックス、柔らかな紫と淡い青のパステルアクセントがあるハイトップスニーカー。彼はバスケットボールを持ち、スタイリッシュなフリースタイルの流れを続け、ぎこちないながらもクールで自信に満ちた、高校生のオタクのような驚くべきエリートのボールコントロールを見せます。
+
+0–1秒:
+少年は低い姿勢で始まり、右手でコントロールされた低いドリブルを行います。膝を曲げ、体を少し前に傾け、眼鏡の後ろに集中したオタクの表情を浮かべ、ボールはアスファルトの近くで跳ねます。
+
+1–2秒:
+彼は右から左への素早いクロスオーバードリブルを行い、スムーズに体重を移動させます。彼のスニーカーは自然にペイントされた屋外コートラインの上を滑り、肩はリラックスしてコントロールされています。
+
+2–3秒:
+彼は脚の間を通すドリブルを続け、リズムとバランスを保ちます。動きはクリーンでコンパクト、スタイリッシュで、バスケットボールは彼の脚の間をはっきりと通過します。
+
+3–4秒:
+彼は背後でのドリブルを行い、すぐにためらいの動きに移行します。肩は一方向にフェイクをかけ、眼鏡越しに前方をちらりと見てから、再びコントロールを取り戻します。
+
+4–5秒:
+彼はドリブルしながらスムーズなスピンムーブを実行します。体はクリーンに回転し、スニーカーはアスファルトの上でピボットし、「WIZZGEN」と書かれたジャージーは回転に自然に動きます。
+
+5–6秒:
+彼は腰の周りにボールを巻きつけ、その後すぐにクイックステップバックの動きに戻ります。この動きは振り付けられたストリートボールのトリックのようで、遊び心がありながらも正確です。
+
+6–7秒:
+彼はドリブルを続けながら、左右に素早く足を動かします。足は速く動き、膝は低く、ボールは地面の近くでコントロールされています。
+
+7–8秒:
+彼はフェイクパスの動きを行い、その後ボールをコントロールされたドリブルコンボに戻し、自信を持って手を切り替えます。
+
+8–9秒:
+彼は一瞬、バスケットボールを指の上で回転させ、より直立します。彼の表情は誇らしげで少し得意げになり、まるで皆を驚かせたオタクのようです。
+
+9–10秒:
+彼は自信に満ちたスタイリッシュなポーズでフィニッシュし、バスケットボールを脇に持ち、片手をカジュアルなピースサインで上げ、リラックスした姿勢で、微かな笑みを浮かべ、ぎこちないながらもクールなストリートバスケットボールの態度を見せます。
+
+スタイル:
+ダイナミックなバスケットボールフリースタイルの振り付け、スムーズなストリートフローの動き、リアルなスポーツモーション、エネルギッシュでありながらコントロールされたリズム、現代的なストリートスポーツのコマーシャルスタイル、少し遊び心のあるティーンキャラクターのエネルギー。
+
+カメラ:
+中程度の全身ショット、安定したシネマティックなフレーミング、微妙なプッシュインの動き、スムーズなモーションの連続性、カメラは常に全身とバスケットボールを見えるように保ちます。
+
+環境:
+屋外のストリートバスケットボールコート、アスファルトの表面、ペイントされたコートライン、背景にチェーンリンクフェンス、微かなバスケットボールフープが見える、暖かい自然光、クリーンな都市の遊び場の雰囲気、最小限の背景の気を散らすもの。
+
+品質:
+高いディテール、スムーズなモーションアニメーション、リアルなバスケットボールの物理学、シャープな構図、自然な衣服の動き、ジャージーの「WIZZGEN」テキストが読みやすい。
+
+ネガティブプロンプト:
+ぼやけた、低品質、余分な手足、歪んだ解剖学、悪いプロポーション、非現実的なボールの動き、浮いているボール、グリッチモーション、硬い動き、乱雑な背景、屋内コート、スタジオ背景、アジアの顔立ち、黒髪、成人男性、筋肉質の成人の体、眼鏡がない、「WIZZGEN」テキストがない、間違ったシャツのテキスト、読み取れないロゴ。
+
+--- THREAD CONTINUATION ---
+[スレッド1] GPTイメージプロンプト: バスケットボールフリースタイルトリックルーチンのための色鉛筆スケッチスタイルの振り付けシートインフォグラフィック。
+レイアウト: 16ステップがクリーンな4x4グリッドに配置され、各パネルが異なるバスケットボールの動きやトリックシーケンスを示しています。
+被写体: 白髪のアメリカ人ティーンエイジャーの少年で、オタクっぽい外見、スリムでアスレチックな体格、淡いそばかすのある肌、少し乱れた赤毛、薄いフレームの眼鏡をかけ、現代的なストリートバスケットボールの服装をしています：オーバーサイズのジャージー、ゆったりとしたバスケットボールショーツ、クルーソックス、柔らかな紫と淡い青のパステルアクセントがあるハイトップスニーカー。彼はぎこちないながらもクールで自信に満ちた、高校生のオタクのようで、密かに驚異的なバスケットボールフリースタイルのスキルを持っています。彼はすべてのフレームでバスケットボールを持ち、コントロールされたフリースタイルの動きを披露しています。
+スタイル: 手描きの色鉛筆イラスト、柔らかなシェーディング、見える鉛筆の質感、少しスケッチ風だがクリーンなライン、パステルトーンがスポーティなダークな服装とコントラストを成しています。
+動き: 各フレームはスムーズなバスケットボールフリースタイルの動作を示し、クロスオーバードリブル、脚の間を通すドリブル、背後でのドリブル、スピンムーブ、フェイクパス、ステップバックモーション、指の上でのボールスピン、素早いフットワーク、スタイリッシュなポーズフィニッシュを含み、小さな矢印がボールの方向、体の動きの流れ、足の配置を示しています。
+デザイン: 現代的なストリートバスケットボールの
+```
+
+## 出处与许可
+
+- 原作者：[Harboris](https://x.com/harboriis) · 原帖：<https://x.com/harboriis/status/2049743359997321625>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2049743359997321625.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

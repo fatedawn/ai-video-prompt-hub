@@ -1,0 +1,122 @@
+---
+id: "renoise-2037516172825112919"
+title: "The shot begins on the weathered wooden deck shown in image 1. image 2 suddenly…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "动作大片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Chase", "Photoreal", "Fantasy", "POV", "FPV & Aerial"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2037516172825112919.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "underwood"
+original_author_url: "https://x.com/underwoodxie96"
+original_post_url: "https://x.com/underwoodxie96/status/2037516172825112919"
+published: "2026-03-27"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# The shot begins on the weathered wooden deck shown in image 1. image 2 suddenly…
+
+## 提示词（English）
+
+```text
+The shot begins on the weathered wooden deck shown in image 1. image 2 suddenly sprints out from the left side of the frame, and the camera stays locked tightly behind him, following his back. image 2 leaps off the edge, and the camera dives straight down close behind him. As they plunge through thick layers of clouds, a vast and majestic world is revealed below—towering stone pillars, dense primeval forests, and colossal creatures in the distance. Sunlight pierces through the mist and clouds, filling the scene with an epic sense of scale, speed, and awe.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2037516172825112919.json)
+
+```text
+---
+La toma comienza en la desgastada cubierta de madera mostrada en la imagen 1. La imagen 2 de repente sale corriendo desde el lado izquierdo del encuadre, y la cámara se mantiene firmemente detrás de él, siguiendo su espalda. La imagen 2 salta del borde, y la cámara se lanza directamente hacia abajo, cerca de él. A medida que se sumergen a través de gruesas capas de nubes, se revela un mundo vasto y majestuoso debajo: imponentes pilares de piedra, densos bosques primitivos y criaturas colosales en la distancia. La luz del sol atraviesa la niebla y las nubes, llenando la escena con una épica sensación de escala, velocidad y asombro.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] La toma comienza en la desgastada cubierta de madera mostrada en @ imagen 1. @ imagen 2 de repente sale corriendo desde el lado izquierdo del encuadre, y la cámara se mantiene firmemente detrás de él, siguiendo su espalda. @ imagen 2 salta del borde, y la cámara se lanza directamente hacia abajo, cerca de él. A medida que se sumergen a través de gruesas capas de nubes, se revela un mundo vasto y majestuoso debajo: imponentes pilares de piedra, densos bosques primitivos y criaturas colosales en la distancia. La luz del sol atraviesa la niebla y las nubes, llenando la escena con una épica sensación de escala, velocidad y asombro.
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2037516172825112919.json)
+
+```text
+La prise de vue commence sur le pont en bois usé montré dans l'image 1. L'image 2 surgit soudainement du côté gauche du cadre, et la caméra reste fermement verrouillée derrière lui, suivant son dos. L'image 2 saute du bord, et la caméra plonge droit vers le bas juste derrière lui. Alors qu'ils traversent d'épaisses couches de nuages, un monde vaste et majestueux se révèle en dessous—des piliers de pierre imposants, des forêts primordiales denses, et des créatures colossales au loin. La lumière du soleil perce à travers la brume et les nuages, remplissant la scène d'un sens épique de grandeur, de vitesse et d'émerveillement.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] La prise de vue commence sur le pont en bois usé montré dans @ image 1. @ image 2 surgit soudainement du côté gauche du cadre, et la caméra reste fermement verrouillée derrière lui, suivant son dos. @ image 2 saute du bord, et la caméra plonge droit vers le bas juste derrière lui. Alors qu'ils traversent d'épaisses couches de nuages, un monde vaste et majestueux se révèle en dessous—des piliers de pierre imposants, des forêts primordiales denses, et des créatures colossales au loin. La lumière du soleil perce à travers la brume et les nuages, remplissant la scène d'un sens épique de grandeur, de vitesse et d'émerveillement.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2037516172825112919.json)
+
+```text
+---
+撮影は、画像1に示されている風化した木製デッキから始まります。画像2が突然フレームの左側から飛び出し、カメラは彼の背中を追いかけるようにしっかりと後ろに固定されます。画像2が端から飛び降り、カメラも彼のすぐ後ろをまっすぐにダイブします。厚い雲の層を突き抜けると、下には広大で壮大な世界が現れます—そびえ立つ石の柱、密集した原始の森、そして遠くに巨大な生物たち。太陽の光が霧と雲を突き抜け、シーンに壮大なスケール感、スピード感、畏敬の念を与えます。
+
+--- THREAD CONTINUATION ---
+[Thread 1] 撮影は、@ image 1に示されている風化した木製デッキから始まります。@ image 2が突然フレームの左側から飛び出し、カメラは彼の背中を追いかけるようにしっかりと後ろに固定されます。@ image 2が端から飛び降り、カメラも彼のすぐ後ろをまっすぐにダイブします。厚い雲の層を突き抜けると、下には広大で壮大な世界が現れます—そびえ立つ石の柱、密集した原始の森、そして遠くに巨大な生物たち。太陽の光が霧と雲を突き抜け、シーンに壮大なスケール感、スピード感、畏敬の念を与えます。
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2037516172825112919.json)
+
+```text
+---
+촬영은 이미지 1에 보이는 낡은 나무 데크에서 시작됩니다. 이미지 2가 프레임의 왼쪽에서 갑자기 뛰쳐나오고, 카메라는 그의 뒤를 바짝 따라갑니다. 이미지 2가 가장자리에서 뛰어내리면, 카메라는 그를 바짝 따라 아래로 급강하합니다. 그들이 두꺼운 구름층을 뚫고 내려가면서, 아래에는 광활하고 장엄한 세계가 드러납니다—우뚝 솟은 돌기둥, 울창한 원시림, 그리고 멀리 보이는 거대한 생물들. 햇빛이 안개와 구름을 뚫고 비추며, 장면에 장대한 규모, 속도, 경외감을 가득 채웁니다.
+
+--- THREAD CONTINUATION ---
+[Thread 1] 촬영은 @ 이미지 1에 보이는 낡은 나무 데크에서 시작됩니다. @ 이미지 2가 프레임의 왼쪽에서 갑자기 뛰쳐나오고, 카메라는 그의 뒤를 바짝 따라갑니다. @ 이미지 2가 가장자리에서 뛰어내리면, 카메라는 그를 바짝 따라 아래로 급강하합니다. 그들이 두꺼운 구름층을 뚫고 내려가면서, 아래에는 광활하고 장엄한 세계가 드러납니다—우뚝 솟은 돌기둥, 울창한 원시림, 그리고 멀리 보이는 거대한 생물들. 햇빛이 안개와 구름을 뚫고 비추며, 장면에 장대한 규모, 속도, 경외감을 가득 채웁니다.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2037516172825112919.json)
+
+```text
+---
+A cena começa no convés de madeira desgastada mostrado na imagem 1. A imagem 2 de repente dispara do lado esquerdo do quadro, e a câmera permanece firmemente atrás dele, seguindo suas costas. A imagem 2 salta da borda, e a câmera mergulha diretamente para baixo, bem atrás dele. Enquanto eles atravessam camadas espessas de nuvens, um mundo vasto e majestoso é revelado abaixo—pilares de pedra imponentes, florestas primitivas densas e criaturas colossais à distância. A luz do sol atravessa a névoa e as nuvens, preenchendo a cena com uma sensação épica de escala, velocidade e admiração.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] A cena começa no convés de madeira desgastada mostrado na @ imagem 1. @ imagem 2 de repente dispara do lado esquerdo do quadro, e a câmera permanece firmemente atrás dele, seguindo suas costas. @ imagem 2 salta da borda, e a câmera mergulha diretamente para baixo, bem atrás dele. Enquanto eles atravessam camadas espessas de nuvens, um mundo vasto e majestoso é revelado abaixo—pilares de pedra imponentes, florestas primitivas densas e criaturas colossais à distância. A luz do sol atravessa a névoa e as nuvens, preenchendo a cena com uma sensação épica de escala, velocidade e admiração.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2037516172825112919.json)
+
+```text
+---
+镜头开始于图像1中显示的风化木甲板。图像2突然从画面左侧冲出，摄像机紧紧跟随在他身后，跟随他的背影。图像2跃出边缘，摄像机紧随其后直线向下俯冲。当他们穿过厚厚的云层时，下方展现出一个广阔而壮丽的世界——高耸的石柱、茂密的原始森林，以及远处巨大的生物。阳光穿透雾气和云层，为场景增添了一种史诗般的规模感、速度感和震撼感。
+
+--- 线程继续 ---
+[线程1] 镜头开始于 @ 图像1中显示的风化木甲板。@ 图像2突然从画面左侧冲出，摄像机紧紧跟随在他身后，跟随他的背影。@ 图像2跃出边缘，摄像机紧随其后直线向下俯冲。当他们穿过厚厚的云层时，下方展现出一个广阔而壮丽的世界——高耸的石柱、茂密的原始森林，以及远处巨大的生物。阳光穿透雾气和云层，为场景增添了一种史诗般的规模感、速度感和震撼感。
+---
+```
+
+## 出处与许可
+
+- 原作者：[underwood](https://x.com/underwoodxie96) · 原帖：<https://x.com/underwoodxie96/status/2037516172825112919>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2037516172825112919.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

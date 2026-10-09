@@ -1,0 +1,546 @@
+---
+id: "renoise-2054120118230114784"
+title: "Use the provided character @[character reference] as the fixed identity…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "时尚写真"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Portrait & Fashion", "Portrait", "Photoreal", "Realistic World", "Tutorial"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054120118230114784.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Kōda"
+original_author_url: "https://x.com/aimikoda"
+original_post_url: "https://x.com/aimikoda/status/2054120118230114784"
+published: "2026-05-12"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Use the provided character @[character reference] as the fixed identity…
+
+## 提示词（English）
+
+```text
+Use the provided character @[character reference] as the fixed identity reference.
+
+Create a 15-second, facial performance video.
+
+The character is cute, sweet, charming and slightly mysterious.
+Preserve the character’s face, hair, proportions, age, styling and overall appeal with strict identity consistency.
+
+The video should feel like a beat-synced portrait performance with 16 distinct beats and a hard cut on every beat. Use cinematic tight close-up language, a soft neutral background, high facial clarity, shallow depth of field, soft studio lighting and a subtle dreamy atmosphere. The overall mood should stay cute, controlled and hypnotic.
+
+Each beat should be treated as a separate shot, not as one continuous take. Use clean cinematic close-up variation, including frontal close-up, left 3/4 close-up, right 3/4 close-up, side close-up, high angle, low angle and subtle Dutch angle. Keep camera movement minimal and use only gentle micro push-in on selected beats.
+
+Use the FACS code as the main physical expression instruction. Do not over-explain the anatomical meaning of each AU. Use the added direction words only as modifiers. Keep the acting soft, cute, precise and controlled. Expressions should feel charming, not scary.
+
+Overall valence should stay neutral to slightly positive. Overall arousal should stay low to medium. Brief arousal spikes are allowed, but the character must remain elegant, cute and controlled.
+
+BEATS:
+1. AU10 | frontal tight CU, eye level | valence slightly positive | arousal low | intent curious, cute
+2. AU20 left | left 3/4 CU, eye level | valence neutral to slightly positive | arousal low-medium | intent shy, uncertain
+3. AU22 high | frontal CU, slight high angle | valence positive | arousal medium | intent playful, teasing
+4. AU23 right | right 3/4 CU, eye level | valence neutral | arousal medium | intent focused, restrained
+5. AU27 low | frontal tight CU, slight low angle | valence positive | arousal medium | intent cute surprise
+6. AU45 | frontal CU, eye level | valence calm positive | arousal low | intent peaceful, hypnotic
+7. AU53 left | left side CU, slight high angle | valence slightly positive | arousal low-medium | intent curious, delicate
+8. AU61 left | left 3/4 CU, eye level | valence neutral to slightly positive | arousal low | intent bashful, restrained
+9. AU64 down | frontal CU, slight high angle | valence neutral to slightly positive | arousal low | intent dreamy, thoughtful
+10. AU62 right | right side CU, eye level | valence positive | arousal low-medium | intent playful, secretive
+11. AU85 up | frontal CU, high angle | valence positive | arousal low-medium | intent innocent, open
+12. AU46 | frontal CU, subtle Dutch angle | valence positive | arousal low-medium | intent charming, playful
+13. AU22 + AU53 right | right 3/4 CU, slight low angle | valence positive | arousal medium | intent lively, charming
+14. AU84 left | left 3/4 CU, subtle Dutch angle | valence positive with slight mystery | arousal low-medium | intent cryptic, cute
+15. AU12 + AU10 | frontal tight CU, eye level | valence positive | arousal medium | intent sweet smile, warm curiosity
+16. AU45 + AU46 | frontal extreme CU, eye level | valence positive with slight mystery | arousal low-medium | intent final charming blink-wink, subtle micro push-in
+
+NEGATIVE:
+No subtitles, No text, No lip-sync, no singing, no dialogue, no spoken words, no mouth-synced vocal performance, no monster transformation, no gore, no horror face, no grotesque distortion, no comedy, no exaggerated cartoon acting, no identity drift, no face melting, no scary teeth, no extra characters, no text overlay, no watermark, no background distraction, no full body shot, no strong emotional overacting.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054120118230114784.json)
+
+```text
+Usa el personaje proporcionado @[character reference] como referencia de identidad fija.
+
+Crea un video de 15 segundos de actuación facial.
+
+El personaje es lindo, dulce, encantador y ligeramente misterioso. Preserva el rostro, cabello, proporciones, edad, estilo y atractivo general del personaje con estricta consistencia de identidad.
+
+El video debe sentirse como una actuación de retrato sincronizada con el ritmo, con 16 ritmos distintos y un corte brusco en cada ritmo. Usa un lenguaje cinematográfico de primeros planos cerrados, un fondo neutro suave, alta claridad facial, poca profundidad de campo, iluminación de estudio suave y una atmósfera sutil y soñadora. El ambiente general debe mantenerse lindo, controlado e hipnótico.
+
+Cada ritmo debe tratarse como una toma separada, no como una toma continua. Usa variaciones limpias de primeros planos cinematográficos, incluyendo primer plano frontal, primer plano 3/4 izquierdo, primer plano 3/4 derecho, primer plano lateral, ángulo alto, ángulo bajo y ángulo holandés sutil. Mantén el movimiento de cámara mínimo y usa solo un suave acercamiento micro en ritmos seleccionados.
+
+Usa el código FACS como la instrucción principal de expresión física. No sobreexplique el significado anatómico de cada AU. Usa las palabras de dirección añadidas solo como modificadores. Mantén la actuación suave, linda, precisa y controlada. Las expresiones deben sentirse encantadoras, no aterradoras.
+
+La valencia general debe mantenerse neutral a ligeramente positiva. La excitación general debe mantenerse baja a media. Se permiten picos breves de excitación, pero el personaje debe permanecer elegante, lindo y controlado.
+
+RITMOS:
+1. AU10 | primer plano cerrado frontal, nivel de ojos | valencia ligeramente positiva | excitación baja | intención curiosa, linda
+2. AU20 izquierda | primer plano 3/4 izquierdo, nivel de ojos | valencia neutral a ligeramente positiva | excitación baja-media | intención tímida, incierta
+3. AU22 alto | primer plano frontal, ángulo alto leve | valencia positiva | excitación media | intención juguetona, burlona
+4. AU23 derecha | primer plano 3/4 derecho, nivel de ojos | valencia neutral | excitación media | intención enfocada, contenida
+5. AU27 bajo | primer plano cerrado frontal, ángulo bajo leve | valencia positiva | excitación media | intención sorpresa linda
+6. AU45 | primer plano frontal, nivel de ojos | valencia positiva calmada | excitación baja | intención pacífica, hipnótica
+7. AU53 izquierda | primer plano lateral izquierdo, ángulo alto leve | valencia ligeramente positiva | excitación baja-media | intención curiosa, delicada
+8. AU61 izquierda | primer plano 3/4 izquierdo, nivel de ojos | valencia neutral a ligeramente positiva | excitación baja | intención tímida, contenida
+9. AU64 abajo | primer plano frontal, ángulo alto leve | valencia neutral a ligeramente positiva | excitación baja | intención soñadora, reflexiva
+10. AU62 derecha | primer plano lateral derecho, nivel de ojos | valencia positiva | excitación baja-media | intención juguetona, secreta
+11. AU85 arriba | primer plano frontal, ángulo alto | valencia positiva | excitación baja-media | intención inocente, abierta
+12. AU46 | primer plano frontal, ángulo holandés sutil | valencia positiva | excitación baja-media | intención encantadora, juguetona
+13. AU22 + AU53 derecha | primer plano 3/4 derecho, ángulo bajo leve | valencia positiva | excitación media | intención vivaz, encantadora
+14. AU84 izquierda | primer plano 3/4 izquierdo, ángulo holandés sutil | valencia positiva con ligero misterio | excitación baja-media | intención críptica, linda
+15. AU12 + AU10 | primer plano cerrado frontal, nivel de ojos | valencia positiva | excitación media | intención sonrisa dulce, curiosidad cálida
+16. AU45 + AU46 | primer plano extremo frontal, nivel de ojos | valencia positiva con ligero misterio | excitación baja-media | intención parpadeo final encantador, guiño sutil micro acercamiento
+
+NEGATIVO:
+Sin subtítulos, sin texto, sin sincronización labial, sin canto, sin diálogo, sin palabras habladas, sin actuación vocal sincronizada con la boca, sin transformación monstruosa, sin gore, sin rostro de terror, sin distorsión grotesca, sin comedia, sin actuación exagerada de dibujos animados, sin deriva de identidad, sin derretimiento facial, sin dientes aterradores, sin personajes extra, sin superposición de texto, sin marca de agua, sin distracción de fondo, sin toma de cuerpo completo, sin sobreactuación emocional fuerte.
+
+--- TWEET CITADO ---
+Un nuevo experimento con Seedance 2.0 en @mitte_ai: FACS.
+
+Para estos videos, solo usé códigos FACS en el prompt. No describí las expresiones faciales en lenguaje simple en absoluto.
+
+FACS (Facial Action Coding System) es un sistema para describir expresiones faciales utilizando movimientos musculares individuales llamados Unidades de Acción (AUs), en lugar de etiquetas emocionales generales como "feliz" o "triste". Divide la cara en componentes controlables como el movimiento de las cejas, la tensión de los párpados, el movimiento de los labios y la activación de las mejillas.
+
+Aunque no siguió perfectamente las 14 Unidades de Acción, aún interpretó la mayoría de ellas sorprendentemente bien.
+
+Creo que esto podría volverse especialmente útil para la actuación facial sutil, sonrisas forzadas, expresiones inquietantes, emociones mixtas y detalles de micro-actuación durante tomas de diálogo en primer plano.
+
+Puedes consultar el prompt para los primeros 15s, una lista de códigos FACS generados con GPT Image 2 en las respuestas.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Seedance 2.0 Prompt:
+
+Usa el personaje proporcionado @[character reference] como referencia de identidad fija.
+
+Crea un video de 15 segundos de actuación facial.
+
+El personaje es lindo, dulce, encantador y ligeramente misterioso. Preserva el rostro, cabello, proporciones, edad, estilo y atractivo general del personaje con estricta consistencia de identidad.
+
+El video debe sentirse como una actuación de retrato sincronizada con el ritmo, con 16 ritmos distintos y un corte brusco en cada ritmo. Usa un lenguaje cinematográfico de primeros planos cerrados, un fondo neutro suave, alta claridad facial, poca profundidad de campo, iluminación de estudio suave y una atmósfera sutil y soñadora. El ambiente general debe mantenerse lindo, controlado e hipnótico.
+
+Cada ritmo debe tratarse como una toma separada, no como una toma continua. Usa variaciones limpias de primeros planos cinematográficos, incluyendo primer plano frontal, primer plano 3/4 izquierdo, primer plano 3/4 derecho, primer plano lateral, ángulo alto, ángulo bajo y ángulo holandés sutil. Mantén el movimiento de cámara mínimo y usa solo un suave acercamiento micro en ritmos seleccionados.
+
+Usa el código FACS como la instrucción principal de expresión física. No sobreexplique el significado anatómico de cada AU. Usa las palabras de dirección añadidas solo como modificadores. Mantén la actuación suave, linda, precisa y controlada. Las expresiones deben sentirse encantadoras, no aterradoras.
+
+La valencia general debe mantenerse neutral a ligeramente positiva. La excitación general debe mantenerse baja a media. Se permiten picos breves de excitación, pero el personaje debe permanecer elegante, lindo y controlado.
+
+RITMOS:
+1. AU10 | primer plano cerrado frontal, nivel de ojos | valencia ligeramente positiva | excitación baja | intención curiosa, linda
+2. AU20 izquierda | primer plano 3/4 izquierdo, nivel de ojos | valencia neutral a ligeramente positiva | excitación baja-media | intención tímida, incierta
+3. AU22 alto | primer plano frontal, ángulo alto leve | valencia positiva | excitación media | intención juguetona, burlona
+4. AU23 derecha | primer plano 3/4 derecho, nivel de ojos | valencia neutral | excitación media | intención enfocada, contenida
+5. AU27 bajo | primer plano cerrado frontal, ángulo bajo leve | valencia positiva | excitación media | intención sorpresa linda
+6. AU45 | primer plano frontal, nivel de ojos | valencia positiva calmada | excitación baja | intención pacífica, hipnótica
+7. AU53 izquierda | primer plano lateral izquierdo, ángulo alto leve | valencia ligeramente positiva | excitación baja-media | intención curiosa, delicada
+8. AU61 izquierda | primer plano 3/4 izquierdo, nivel de ojos | valencia neutral a ligeramente positiva | excitación baja | intención tímida, contenida
+9. AU64 abajo | primer plano frontal, ángulo alto leve | valencia neutral a ligeramente positiva | excitación baja | intención soñadora, reflexiva
+10. AU62 derecha | primer plano lateral derecho, nivel de ojos | valencia positiva | excitación baja-media | intención juguetona, secreta
+11. AU85 arriba | primer plano frontal, ángulo alto | valencia positiva | excitación baja-media | intención inocente, abierta
+12. AU46 | primer plano frontal,
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054120118230114784.json)
+
+```text
+Utilisez le personnage fourni @[référence du personnage] comme référence d'identité fixe.
+
+Créez une vidéo de performance faciale de 15 secondes.
+
+Le personnage est mignon, doux, charmant et légèrement mystérieux. Préservez le visage, les cheveux, les proportions, l'âge, le style et l'attrait général du personnage avec une cohérence stricte de l'identité.
+
+La vidéo doit ressembler à une performance portrait synchronisée avec le rythme, avec 16 temps distincts et une coupe nette à chaque temps. Utilisez un langage cinématographique en gros plan serré, un fond neutre doux, une grande clarté faciale, une faible profondeur de champ, un éclairage de studio doux et une atmosphère subtilement rêveuse. L'ambiance générale doit rester mignonne, contrôlée et hypnotique.
+
+Chaque temps doit être traité comme un plan séparé, et non comme une prise continue. Utilisez une variation cinématographique propre en gros plan, y compris un gros plan frontal, un gros plan 3/4 gauche, un gros plan 3/4 droit, un gros plan latéral, un angle élevé, un angle bas et un angle néerlandais subtil. Gardez le mouvement de la caméra minimal et utilisez uniquement un léger micro zoom sur certains temps sélectionnés.
+
+Utilisez le code FACS comme instruction principale pour l'expression physique. Ne sur-expliquez pas la signification anatomique de chaque AU. Utilisez les mots de direction ajoutés uniquement comme modificateurs. Gardez le jeu d'acteur doux, mignon, précis et contrôlé. Les expressions doivent être charmantes, pas effrayantes.
+
+La valence globale doit rester neutre à légèrement positive. L'excitation globale doit rester de faible à moyenne. Des pics d'excitation brefs sont autorisés, mais le personnage doit rester élégant, mignon et contrôlé.
+
+TEMPS :
+1. AU10 | gros plan serré frontal, niveau des yeux | valence légèrement positive | excitation faible | intention curieuse, mignonne
+2. AU20 gauche | gros plan 3/4 gauche, niveau des yeux | valence neutre à légèrement positive | excitation faible-moyenne | intention timide, incertaine
+3. AU22 haut | gros plan frontal, léger angle élevé | valence positive | excitation moyenne | intention espiègle, taquine
+4. AU23 droite | gros plan 3/4 droit, niveau des yeux | valence neutre | excitation moyenne | intention concentrée, retenue
+5. AU27 bas | gros plan serré frontal, léger angle bas | valence positive | excitation moyenne | intention surprise mignonne
+6. AU45 | gros plan frontal, niveau des yeux | valence positive calme | excitation faible | intention paisible, hypnotique
+7. AU53 gauche | gros plan latéral gauche, léger angle élevé | valence légèrement positive | excitation faible-moyenne | intention curieuse, délicate
+8. AU61 gauche | gros plan 3/4 gauche, niveau des yeux | valence neutre à légèrement positive | excitation faible | intention timide, retenue
+9. AU64 bas | gros plan frontal, léger angle élevé | valence neutre à légèrement positive | excitation faible | intention rêveuse, réfléchie
+10. AU62 droite | gros plan latéral droit, niveau des yeux | valence positive | excitation faible-moyenne | intention espiègle, secrète
+11. AU85 haut | gros plan frontal, angle élevé | valence positive | excitation faible-moyenne | intention innocente, ouverte
+12. AU46 | gros plan frontal, angle néerlandais subtil | valence positive | excitation faible-moyenne | intention charmante, espiègle
+13. AU22 + AU53 droite | gros plan 3/4 droit, léger angle bas | valence positive | excitation moyenne | intention vive, charmante
+14. AU84 gauche | gros plan 3/4 gauche, angle néerlandais subtil | valence positive avec un léger mystère | excitation faible-moyenne | intention cryptique, mignonne
+15. AU12 + AU10 | gros plan serré frontal, niveau des yeux | valence positive | excitation moyenne | intention sourire doux, curiosité chaleureuse
+16. AU45 + AU46 | gros plan extrême frontal, niveau des yeux | valence positive avec un léger mystère | excitation faible-moyenne | intention clin d'œil final charmant, léger micro zoom
+
+NÉGATIF :
+Pas de sous-titres, pas de texte, pas de synchronisation labiale, pas de chant, pas de dialogue, pas de mots parlés, pas de performance vocale synchronisée avec la bouche, pas de transformation en monstre, pas de gore, pas de visage d'horreur, pas de distorsion grotesque, pas de comédie, pas de jeu d'acteur de dessin animé exagéré, pas de dérive d'identité, pas de fonte de visage, pas de dents effrayantes, pas de personnages supplémentaires, pas de superposition de texte, pas de filigrane, pas de distraction de fond, pas de plan en pied, pas de surjeu émotionnel fort.
+
+--- TWEET CITÉ ---
+Une nouvelle expérience avec Seedance 2.0 sur @mitte_ai : FACS.
+
+Pour ces vidéos, je n'ai utilisé que les codes FACS dans le prompt. Je n'ai pas décrit les expressions faciales en langage clair du tout.
+
+FACS (Facial Action Coding System) est un système pour décrire les expressions faciales en utilisant des mouvements musculaires individuels appelés Unités d'Action (AUs), au lieu d'étiquettes émotionnelles générales comme "heureux" ou "triste". Il décompose le visage en composants contrôlables tels que le mouvement des sourcils, la tension des paupières, le mouvement des lèvres et l'activation des joues.
+
+Même s'il n'a pas suivi parfaitement toutes les 14 Unités d'Action, il a tout de même interprété la plupart d'entre elles de manière surprenante.
+
+Je pense que cela pourrait devenir particulièrement utile pour le jeu d'acteur facial subtil, les sourires forcés, les expressions étranges, les émotions mixtes et les détails de micro-performance lors des plans rapprochés de dialogue.
+
+Vous pouvez consulter le prompt pour les 15 premières secondes, une liste des codes FACS générés avec GPT Image 2 dans les réponses.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Seedance 2.0 Prompt :
+
+Utilisez le personnage fourni @[référence du personnage] comme référence d'identité fixe.
+
+Créez une vidéo de performance faciale de 15 secondes.
+
+Le personnage est mignon, doux, charmant et légèrement mystérieux. Préservez le visage, les cheveux, les proportions, l'âge, le style et l'attrait général du personnage avec une cohérence stricte de l'identité.
+
+La vidéo doit ressembler à une performance portrait synchronisée avec le rythme, avec 16 temps distincts et une coupe nette à chaque temps. Utilisez un langage cinématographique en gros plan serré, un fond neutre doux, une grande clarté faciale, une faible profondeur de champ, un éclairage de studio doux et une atmosphère subtilement rêveuse. L'ambiance générale doit rester mignonne, contrôlée et hypnotique.
+
+Chaque temps doit être traité comme un plan séparé, et non comme une prise continue. Utilisez une variation cinématographique propre en gros plan, y compris un gros plan frontal, un gros plan 3/4 gauche, un gros plan 3/4 droit, un gros plan latéral, un angle élevé, un angle bas et un angle néerlandais subtil. Gardez le mouvement de la caméra minimal et utilisez uniquement un léger micro zoom sur certains temps sélectionnés.
+
+Utilisez le code FACS comme instruction principale pour l'expression physique. Ne sur-expliquez pas la signification anatomique de chaque AU. Utilisez les mots de direction ajoutés uniquement comme modificateurs. Gardez le jeu d'acteur doux, mignon, précis et contrôlé. Les expressions doivent être charmantes, pas effrayantes.
+
+La valence globale doit rester neutre à légèrement positive. L'excitation globale doit rester de faible à moyenne. Des pics d'excitation brefs sont autorisés, mais le personnage doit rester élégant, mignon et contrôlé.
+
+TEMPS :
+1. AU10 | gros plan serré frontal, niveau des yeux | valence légèrement positive | excitation faible | intention curieuse, mignonne
+2. AU20 gauche | gros plan 3/4 gauche, niveau des yeux | valence neutre à légèrement positive | excitation faible-moyenne | intention timide, incertaine
+3. AU22 haut | gros plan frontal, léger angle élevé | valence positive | excitation moyenne | intention espiègle, taquine
+4. AU23 droite | gros plan 3/4 droit, niveau des yeux | valence neutre | excitation moyenne | intention concentrée, retenue
+5. AU27 bas | gros plan serré frontal, léger angle bas | valence positive | excitation moyenne | intention surprise mignonne
+6. AU45 | gros plan frontal, niveau des yeux | valence positive calme | excitation faible | intention paisible, hypnotique
+7. AU53 gauche | gros plan latéral gauche, léger angle élevé | valence légèrement positive | excitation faible-moyenne |
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054120118230114784.json)
+
+```text
+---
+提供されたキャラクター @[character reference] を固定のアイデンティティ参照として使用してください。
+
+15秒の顔のパフォーマンスビデオを作成してください。
+
+キャラクターは可愛く、甘く、魅力的であり、少し神秘的です。キャラクターの顔、髪、プロポーション、年齢、スタイリング、全体的な魅力を厳密に一貫して保持してください。
+
+ビデオは16の異なるビートで構成され、各ビートでハードカットされるビート同期のポートレートパフォーマンスのように感じられるべきです。シネマティックなタイトクローズアップの言語、ソフトなニュートラル背景、高い顔の明瞭度、浅い被写界深度、ソフトなスタジオ照明、微妙な夢のような雰囲気を使用してください。全体のムードは可愛く、コントロールされ、催眠的であるべきです。
+
+各ビートは一続きのテイクではなく、別々のショットとして扱われるべきです。クリーンなシネマティッククローズアップのバリエーションを使用し、フロントクローズアップ、左3/4クローズアップ、右3/4クローズアップ、サイドクローズアップ、高角度、低角度、微妙なダッチアングルを含めてください。カメラの動きを最小限に抑え、選択されたビートでのみ穏やかなマイクロプッシュインを使用してください。
+
+FACSコードを主な身体表現の指示として使用してください。各AUの解剖学的な意味を過度に説明しないでください。追加の指示語は修飾語としてのみ使用してください。演技はソフトで、可愛く、正確で、コントロールされたものであるべきです。表情は魅力的で、怖くないように感じられるべきです。
+
+全体の感情価は中立からややポジティブに保ち、全体の覚醒度は低から中程度に保ちます。短い覚醒のスパイクは許可されますが、キャラクターはエレガントで、可愛く、コントロールされた状態を維持しなければなりません。
+
+ビート:
+1. AU10 | フロントタイトCU、目の高さ | 感情価ややポジティブ | 覚醒度低 | 意図: 好奇心、可愛らしさ
+2. AU20左 | 左3/4 CU、目の高さ | 感情価中立からややポジティブ | 覚醒度低-中 | 意図: 恥ずかしさ、不確実
+3. AU22高 | フロントCU、やや高角度 | 感情価ポジティブ | 覚醒度中 | 意図: 遊び心、からかい
+4. AU23右 | 右3/4 CU、目の高さ | 感情価中立 | 覚醒度中 | 意図: 集中、抑制
+5. AU27低 | フロントタイトCU、やや低角度 | 感情価ポジティブ | 覚醒度中 | 意図: 可愛い驚き
+6. AU45 | フロントCU、目の高さ | 感情価穏やかなポジティブ | 覚醒度低 | 意図: 平和、催眠的
+7. AU53左 | 左サイドCU、やや高角度 | 感情価ややポジティブ | 覚醒度低-中 | 意図: 好奇心、繊細
+8. AU61左 | 左3/4 CU、目の高さ | 感情価中立からややポジティブ | 覚醒度低 | 意図: 恥ずかしがり、抑制
+9. AU64下 | フロントCU、やや高角度 | 感情価中立からややポジティブ | 覚醒度低 | 意図: 夢見るような、思慮深い
+10. AU62右 | 右サイドCU、目の高さ | 感情価ポジティブ | 覚醒度低-中 | 意図: 遊び心、秘密めいた
+11. AU85上 | フロントCU、高角度 | 感情価ポジティブ | 覚醒度低-中 | 意図: 無邪気、オープン
+12. AU46 | フロントCU、微妙なダッチアングル | 感情価ポジティブ | 覚醒度低-中 | 意図: 魅力的、遊び心
+13. AU22 + AU53右 | 右3/4 CU、やや低角度 | 感情価ポジティブ | 覚醒度中 | 意図: 活発、魅力的
+14. AU84左 | 左3/4 CU、微妙なダッチアングル | 感情価ポジティブで少し神秘的 | 覚醒度低-中 | 意図: 謎めいた、可愛い
+15. AU12 + AU10 | フロントタイトCU、目の高さ | 感情価ポジティブ | 覚醒度中 | 意図: 甘い笑顔、暖かい好奇心
+16. AU45 + AU46 | フロントエクストリームCU、目の高さ | 感情価ポジティブで少し神秘的 | 覚醒度低-中 | 意図: 最後の魅力的なウィンク、微妙なマイクロプッシュイン
+
+ネガティブ:
+字幕なし、テキストなし、リップシンクなし、歌なし、対話なし、話し言葉なし、口の動きに合わせたボーカルパフォーマンスなし、モンスター変身なし、ゴアなし、ホラーフェイスなし、グロテスクな歪みなし、コメディなし、誇張されたカートゥーン演技なし、アイデンティティの漂流なし、顔の溶解なし、怖い歯なし、追加のキャラクターなし、テキストオーバーレイなし、透かしなし、背景の気を散らすものなし、全身ショットなし、強い感情の過剰演技なし。
+
+--- 引用ツイート ---
+@mitte_ai のSeedance 2.0を使った新しい実験：FACS。
+
+このビデオでは、プロンプトにFACSコードのみを使用しました。顔の表情を平易な言葉で説明することは一切しませんでした。
+
+FACS（Facial Action Coding System）は、顔の表情を「幸せ」や「悲しい」といった一般的な感情ラベルではなく、アクションユニット（AUs）と呼ばれる個々の筋肉の動きを使用して記述するシステムです。眉の動き、まぶたの緊張、唇の動き、頬の活性化など、顔を制御可能なコンポーネントに分解します。
+
+すべての14のアクションユニットを完璧にフォローしたわけではありませんが、それでもほとんどを驚くほどよく解釈しました。
+
+これは特に微妙な顔の演技、強制的な笑顔、不気味な表情、混合感情、クローズアップ対話ショット中のマイクロパフォーマンスの詳細に役立つ可能性があると思います。
+
+最初の15秒のプロンプト、GPT Image 2で生成されたFACSコードのリストをリプライで確認できます。
+
+--- スレッド継続 ---
+[スレッド1] Seedance 2.0 プロンプト:
+
+提供されたキャラクター @[character reference] を固定のアイデンティティ参照として使用してください。
+
+15秒の顔のパフォーマンスビデオを作成してください。
+
+キャラクターは可愛く、甘く、魅力的であり、少し神秘的です。キャラクターの顔、髪、プロポーション、年齢、スタイリング、全体的な魅力を厳密に一貫して保持してください。
+
+ビデオは16の異なるビートで構成され、各ビートでハードカットされるビート同期のポートレートパフォーマンスのように感じられるべきです。シネマティックなタイトクローズアップの言
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054120118230114784.json)
+
+```text
+---
+제공된 캐릭터 @[character reference]를 고정된 정체성 참조로 사용하세요.
+
+15초 길이의 얼굴 퍼포먼스 비디오를 만드세요.
+
+캐릭터는 귀엽고, 달콤하며, 매력적이고 약간 신비로운 느낌을 줍니다. 캐릭터의 얼굴, 머리, 비율, 나이, 스타일링 및 전반적인 매력을 엄격한 정체성 일관성을 유지하며 보존하세요.
+
+비디오는 16개의 뚜렷한 비트와 각 비트마다 하드 컷이 있는 비트 동기화된 초상화 퍼포먼스처럼 느껴져야 합니다. 시네마틱한 타이트 클로즈업 언어, 부드러운 중립 배경, 높은 얼굴 선명도, 얕은 심도, 부드러운 스튜디오 조명 및 미묘한 꿈같은 분위기를 사용하세요. 전체적인 분위기는 귀엽고, 통제되며, 최면적이어야 합니다.
+
+각 비트는 하나의 연속적인 테이크가 아닌 별도의 샷으로 처리해야 합니다. 깨끗한 시네마틱 클로즈업 변형을 사용하세요. 정면 클로즈업, 왼쪽 3/4 클로즈업, 오른쪽 3/4 클로즈업, 측면 클로즈업, 높은 각도, 낮은 각도 및 미묘한 더치 앵글을 포함합니다. 카메라 움직임은 최소화하고 선택된 비트에서만 부드러운 마이크로 푸시인을 사용하세요.
+
+FACS 코드를 주요 신체 표현 지침으로 사용하세요. 각 AU의 해부학적 의미를 과도하게 설명하지 마세요. 추가된 지시어는 수정자로만 사용하세요. 연기는 부드럽고, 귀엽고, 정확하며 통제되어야 합니다. 표현은 매력적이어야 하며, 무섭지 않아야 합니다.
+
+전체적인 발렌스는 중립에서 약간 긍정적으로 유지되어야 합니다. 전체적인 각성은 낮음에서 중간으로 유지되어야 합니다. 짧은 각성 스파이크는 허용되지만, 캐릭터는 우아하고, 귀엽고, 통제된 상태를 유지해야 합니다.
+
+비트:
+1. AU10 | 정면 타이트 CU, 눈높이 | 발렌스 약간 긍정적 | 각성 낮음 | 의도 호기심, 귀여움
+2. AU20 왼쪽 | 왼쪽 3/4 CU, 눈높이 | 발렌스 중립에서 약간 긍정적 | 각성 낮음-중간 | 의도 수줍음, 불확실함
+3. AU22 높은 | 정면 CU, 약간 높은 각도 | 발렌스 긍정적 | 각성 중간 | 의도 장난기, 놀림
+4. AU23 오른쪽 | 오른쪽 3/4 CU, 눈높이 | 발렌스 중립 | 각성 중간 | 의도 집중, 억제
+5. AU27 낮은 | 정면 타이트 CU, 약간 낮은 각도 | 발렌스 긍정적 | 각성 중간 | 의도 귀여운 놀람
+6. AU45 | 정면 CU, 눈높이 | 발렌스 차분한 긍정적 | 각성 낮음 | 의도 평화로움, 최면적
+7. AU53 왼쪽 | 왼쪽 측면 CU, 약간 높은 각도 | 발렌스 약간 긍정적 | 각성 낮음-중간 | 의도 호기심, 섬세함
+8. AU61 왼쪽 | 왼쪽 3/4 CU, 눈높이 | 발렌스 중립에서 약간 긍정적 | 각성 낮음 | 의도 수줍음, 억제
+9. AU64 아래 | 정면 CU, 약간 높은 각도 | 발렌스 중립에서 약간 긍정적 | 각성 낮음 | 의도 꿈같음, 사색적
+10. AU62 오른쪽 | 오른쪽 측면 CU, 눈높이 | 발렌스 긍정적 | 각성 낮음-중간 | 의도 장난기, 비밀스러움
+11. AU85 위 | 정면 CU, 높은 각도 | 발렌스 긍정적 | 각성 낮음-중간 | 의도 순수함, 개방적
+12. AU46 | 정면 CU, 미묘한 더치 앵글 | 발렌스 긍정적 | 각성 낮음-중간 | 의도 매력적, 장난기
+13. AU22 + AU53 오른쪽 | 오른쪽 3/4 CU, 약간 낮은 각도 | 발렌스 긍정적 | 각성 중간 | 의도 활기참, 매력적
+14. AU84 왼쪽 | 왼쪽 3/4 CU, 미묘한 더치 앵글 | 발렌스 긍정적이며 약간 신비로움 | 각성 낮음-중간 | 의도 신비로움, 귀여움
+15. AU12 + AU10 | 정면 타이트 CU, 눈높이 | 발렌스 긍정적 | 각성 중간 | 의도 달콤한 미소, 따뜻한 호기심
+16. AU45 + AU46 | 정면 극단적 CU, 눈높이 | 발렌스 긍정적이며 약간 신비로움 | 각성 낮음-중간 | 의도 마지막 매력적인 눈짓-윙크, 미묘한 마이크로 푸시인
+
+부정적:
+자막 없음, 텍스트 없음, 립싱크 없음, 노래 없음, 대화 없음, 말하는 단어 없음, 입 모양에 맞춘 보컬 퍼포먼스 없음, 괴물 변신 없음, 고어 없음, 공포 얼굴 없음, 기괴한 왜곡 없음, 코미디 없음, 과장된 만화 연기 없음, 정체성 드리프트 없음, 얼굴 녹음 없음, 무서운 이빨 없음, 추가 캐릭터 없음, 텍스트 오버레이 없음, 워터마크 없음, 배경 방해 없음, 전신 샷 없음, 강한 감정 과잉 연기 없음.
+
+--- 인용된 트윗 ---
+Seedance 2.0과 @mitte_ai에서의 새로운 실험: FACS.
+
+이 비디오에서는 프롬프트에 FACS 코드만 사용했습니다. 얼굴 표정을 일반 언어로 설명하지 않았습니다.
+
+FACS(얼굴 행동 코딩 시스템)는 "행복"이나 "슬픔" 같은 일반적인 감정 레이블 대신 행동 단위(AU)라고 불리는 개별 근육 움직임을 사용하여 얼굴 표정을 설명하는 시스템입니다. 얼굴을 눈썹 움직임, 눈꺼풀 긴장, 입술 움직임 및 뺨 활성화와 같은 제어 가능한 구성 요소로 나눕니다.
+
+모든 14개의 행동 단위를 완벽하게 따르지는 않았지만, 대부분을 놀랍게도 잘 해석했습니다.
+
+이것은 미묘한 얼굴 연기, 강제된 미소, 불가사의한 표현, 혼합된 감정 및 클로즈업 대화 장면에서의 마이크로 퍼포먼스 세부 사항에 특히 유용할 수 있다고 생각합니다.
+
+첫 15초에 대한 프롬프트와 GPT Image 2로 생성된 FACS 코드 목록은 답글에서 확인할 수 있습니다.
+
+--- 스레드 계속 ---
+[스레드 1] Seedance 2.0 프롬프트:
+
+제공된 캐릭터 @[character reference]를 고정된 정체성 참조로 사용하세요.
+
+15초 길이의 얼굴 퍼포먼스 비디오를 만드세요.
+
+캐릭터는 귀엽고, 달콤하며, 매력적이고 약간 신비로운 느낌을 줍니다. 캐릭터의 얼굴, 머리, 비율, 나이, 스타일링 및 전반적인 매력을 엄격한 정체성 일관성을 유지하며 보존하세요.
+
+비디오는 16개의 뚜렷한 비트와 각 비트마다 하드 컷이 있는 비트 동기화된 초상화 퍼포먼스처럼 느껴져야 합니다. 시네마틱한 타이트 클로즈업 언어, 부드러운 중립 배경, 높은 얼굴 선명도, 얕은 심도, 부드러운 스튜디오 조명 및 미묘한 꿈같은 분위기를 사용하세요. 전체적인 분위기는 귀엽고, 통제되며, 최면적이어야 합니다.
+
+각 비트는 하나의 연속적인 테이크가 아닌 별도의 샷으로 처리해야 합니다. 깨끗한 시네마틱 클로즈업 변형을 사용하세요. 정면 클로즈업, 왼쪽 3/4 클로즈업, 오른쪽 3/4 클로즈업, 측면 클로즈
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054120118230114784.json)
+
+```text
+---
+Use o personagem fornecido @[character reference] como referência de identidade fixa.
+
+Crie um vídeo de performance facial de 15 segundos.
+
+O personagem é fofo, doce, encantador e ligeiramente misterioso. Preserve o rosto, cabelo, proporções, idade, estilo e apelo geral do personagem com consistência estrita de identidade.
+
+O vídeo deve parecer uma performance de retrato sincronizada com 16 batidas distintas e um corte seco em cada batida. Use linguagem cinematográfica de close-up apertado, um fundo neutro suave, alta clareza facial, baixa profundidade de campo, iluminação suave de estúdio e uma atmosfera sutil e sonhadora. O clima geral deve permanecer fofo, controlado e hipnótico.
+
+Cada batida deve ser tratada como uma tomada separada, não como uma única sequência contínua. Use variação limpa de close-up cinematográfico, incluindo close-up frontal, close-up 3/4 esquerdo, close-up 3/4 direito, close-up lateral, ângulo alto, ângulo baixo e ângulo holandês sutil. Mantenha o movimento da câmera mínimo e use apenas um leve micro push-in em batidas selecionadas.
+
+Use o código FACS como a principal instrução de expressão física. Não explique demais o significado anatômico de cada AU. Use as palavras de direção adicionadas apenas como modificadores. Mantenha a atuação suave, fofa, precisa e controlada. As expressões devem parecer encantadoras, não assustadoras.
+
+A valência geral deve permanecer neutra a ligeiramente positiva. A excitação geral deve permanecer de baixa a média. Picos breves de excitação são permitidos, mas o personagem deve permanecer elegante, fofo e controlado.
+
+BATIDAS:
+1. AU10 | frontal tight CU, eye level | valência ligeiramente positiva | excitação baixa | intenção curiosa, fofa
+2. AU20 left | left 3/4 CU, eye level | valência neutra a ligeiramente positiva | excitação baixa-média | intenção tímida, incerta
+3. AU22 high | frontal CU, slight high angle | valência positiva | excitação média | intenção brincalhona, provocante
+4. AU23 right | right 3/4 CU, eye level | valência neutra | excitação média | intenção focada, contida
+5. AU27 low | frontal tight CU, slight low angle | valência positiva | excitação média | intenção surpresa fofa
+6. AU45 | frontal CU, eye level | valência calma positiva | excitação baixa | intenção pacífica, hipnótica
+7. AU53 left | left side CU, slight high angle | valência ligeiramente positiva | excitação baixa-média | intenção curiosa, delicada
+8. AU61 left | left 3/4 CU, eye level | valência neutra a ligeiramente positiva | excitação baixa | intenção envergonhada, contida
+9. AU64 down | frontal CU, slight high angle | valência neutra a ligeiramente positiva | excitação baixa | intenção sonhadora, pensativa
+10. AU62 right | right side CU, eye level | valência positiva | excitação baixa-média | intenção brincalhona, secreta
+11. AU85 up | frontal CU, high angle | valência positiva | excitação baixa-média | intenção inocente, aberta
+12. AU46 | frontal CU, subtle Dutch angle | valência positiva | excitação baixa-média | intenção encantadora, brincalhona
+13. AU22 + AU53 right | right 3/4 CU, slight low angle | valência positiva | excitação média | intenção animada, encantadora
+14. AU84 left | left 3/4 CU, subtle Dutch angle | valência positiva com leve mistério | excitação baixa-média | intenção enigmática, fofa
+15. AU12 + AU10 | frontal tight CU, eye level | valência positiva | excitação média | intenção sorriso doce, curiosidade calorosa
+16. AU45 + AU46 | frontal extreme CU, eye level | valência positiva com leve mistério | excitação baixa-média | intenção piscadela final encantadora, leve micro push-in
+
+NEGATIVO:
+Sem legendas, Sem texto, Sem sincronização labial, sem cantar, sem diálogo, sem palavras faladas, sem performance vocal sincronizada com a boca, sem transformação em monstro, sem sangue, sem rosto de terror, sem distorção grotesca, sem comédia, sem atuação exagerada de desenho animado, sem desvio de identidade, sem derretimento de rosto, sem dentes assustadores, sem personagens extras, sem sobreposição de texto, sem marca d'água, sem distração de fundo, sem tomada de corpo inteiro, sem atuação emocional exagerada.
+
+--- TWEET CITADO ---
+Um novo experimento com Seedance 2.0 em @mitte_ai: FACS.
+
+Para esses vídeos, usei apenas códigos FACS no prompt. Não descrevi as expressões faciais em linguagem comum.
+
+FACS (Facial Action Coding System) é um sistema para descrever expressões faciais usando movimentos musculares individuais chamados Unidades de Ação (AUs), em vez de rótulos emocionais gerais como "feliz" ou "triste". Ele divide o rosto em componentes controláveis, como movimento das sobrancelhas, tensão das pálpebras, movimento dos lábios e ativação das bochechas.
+
+Embora não tenha seguido perfeitamente todas as 14 Unidades de Ação, ainda assim interpretou a maioria delas surpreendentemente bem.
+
+Acho que isso pode se tornar especialmente útil para atuação facial sutil, sorrisos forçados, expressões estranhas, emoções mistas e detalhes de micro-performance durante tomadas de diálogo em close-up.
+
+Você pode verificar o prompt para os primeiros 15s, uma lista de códigos FACS gerados com GPT Image 2 nas respostas.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Prompt Seedance 2.0:
+
+Use o personagem fornecido @[character reference] como referência de identidade fixa.
+
+Crie um vídeo de performance facial de 15 segundos.
+
+O personagem é fofo, doce, encantador e ligeiramente misterioso. Preserve o rosto, cabelo, proporções, idade, estilo e apelo geral do personagem com consistência estrita de identidade.
+
+O vídeo deve parecer uma performance de retrato sincronizada com 16 batidas distintas e um corte seco em cada batida. Use linguagem cinematográfica de close-up apertado, um fundo neutro suave, alta clareza facial, baixa profundidade de campo, iluminação suave de estúdio e uma atmosfera sutil e sonhadora. O clima geral deve permanecer fofo, controlado e hipnótico.
+
+Cada batida deve ser tratada como uma tomada separada, não como uma única sequência contínua. Use variação limpa de close-up cinematográfico, incluindo close-up frontal, close-up 3/4 esquerdo, close-up 3/4 direito, close-up lateral, ângulo alto, ângulo baixo e ângulo holandês sutil. Mantenha o movimento da câmera mínimo e use apenas um leve micro push-in em batidas selecionadas.
+
+Use o código FACS como a principal instrução de expressão física. Não explique demais o significado anatômico de cada AU. Use as palavras de direção adicionadas apenas como modificadores. Mantenha a atuação suave, fofa, precisa e controlada. As expressões devem parecer encantadoras, não assustadoras.
+
+A valência geral deve permanecer neutra a ligeiramente positiva. A excitação geral deve permanecer de baixa a média. Picos breves de excitação são permitidos, mas o personagem deve permanecer elegante, fofo e controlado.
+
+BATIDAS:
+1. AU10 | frontal tight CU, eye level | valência ligeiramente positiva | excitação baixa | intenção curiosa, fofa
+2. AU20 left | left 3/4 CU, eye level | valência neutra a ligeiramente positiva | excitação baixa-média | intenção tímida, incerta
+3. AU22 high | frontal CU, slight high angle | valência positiva | excitação média | intenção brincalhona, provocante
+4. AU23 right | right 3/4 CU, eye level | valência neutra | excitação média | intenção focada, contida
+5. AU27 low | frontal tight CU, slight low angle | valência positiva | excitação média | intenção surpresa fofa
+6. AU45 | frontal CU, eye level | valência calma positiva | excitação baixa | intenção pacífica, hipnótica
+7. AU53 left | left side CU, slight high angle | valência ligeiramente positiva | excitação baixa-média | intenção curiosa, delicada
+8. AU61 left | left 3/4 CU, eye level | valência neutra a ligeiramente positiva | excitação baixa | intenção envergonhada, contida
+9. AU64 down | frontal CU, slight high angle | valência neutra a ligeiramente positiva | excitação baixa | intenção sonhadora, pensativa
+10. AU62 right | right side CU, eye level | valência positiva | excitação baixa-média | intenção brincalhona, secreta
+11. AU85 up | frontal CU, high angle | valência positiva | excitação baixa-média | intenção inocente, aberta
+12. AU46 | frontal CU, subtle Dutch angle | val
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054120118230114784.json)
+
+```text
+使用提供的角色@[character reference]作为固定身份参考。
+
+创建一个15秒的面部表演视频。
+
+角色可爱、甜美、迷人且略显神秘。保持角色的面部、发型、比例、年龄、造型和整体吸引力，严格保持身份一致性。
+
+视频应呈现为一个节拍同步的肖像表演，共有16个不同的节拍，每个节拍都有硬切。使用电影级紧凑特写语言，柔和的中性背景，高面部清晰度，浅景深，柔和的工作室灯光和微妙的梦幻氛围。整体情绪应保持可爱、受控和催眠。
+
+每个节拍应视为一个独立的镜头，而不是一个连续的拍摄。使用干净的电影级特写变化，包括正面特写、左3/4特写、右3/4特写、侧面特写、高角度、低角度和微妙的荷兰角度。保持相机运动最小，仅在选定的节拍上使用轻微的微推。
+
+使用FACS代码作为主要的身体表达指令。不要过度解释每个AU的解剖学意义。仅将附加的方向词用作修饰语。保持表演柔和、可爱、精确和受控。表情应显得迷人，而非恐怖。
+
+整体情感应保持中性到略微积极。整体唤醒度应保持低到中等。允许短暂的唤醒峰值，但角色必须保持优雅、可爱和受控。
+
+节拍：
+1. AU10 | 正面紧特写，眼平 | 情感略微积极 | 唤醒度低 | 意图好奇、可爱
+2. AU20 左 | 左3/4特写，眼平 | 情感中性到略微积极 | 唤醒度低-中等 | 意图害羞、不确定
+3. AU22 高 | 正面特写，略高角度 | 情感积极 | 唤醒度中等 | 意图顽皮、戏弄
+4. AU23 右 | 右3/4特写，眼平 | 情感中性 | 唤醒度中等 | 意图专注、克制
+5. AU27 低 | 正面紧特写，略低角度 | 情感积极 | 唤醒度中等 | 意图可爱惊讶
+6. AU45 | 正面特写，眼平 | 情感平静积极 | 唤醒度低 | 意图平和、催眠
+7. AU53 左 | 左侧特写，略高角度 | 情感略微积极 | 唤醒度低-中等 | 意图好奇、精致
+8. AU61 左 | 左3/4特写，眼平 | 情感中性到略微积极 | 唤醒度低 | 意图害羞、克制
+9. AU64 下 | 正面特写，略高角度 | 情感中性到略微积极 | 唤醒度低 | 意图梦幻、深思
+10. AU62 右 | 右侧特写，眼平 | 情感积极 | 唤醒度低-中等 | 意图顽皮、隐秘
+11. AU85 上 | 正面特写，高角度 | 情感积极 | 唤醒度低-中等 | 意图天真、开放
+12. AU46 | 正面特写，微妙的荷兰角度 | 情感积极 | 唤醒度低-中等 | 意图迷人、顽皮
+13. AU22 + AU53 右 | 右3/4特写，略低角度 | 情感积极 | 唤醒度中等 | 意图活泼、迷人
+14. AU84 左 | 左3/4特写，微妙的荷兰角度 | 情感积极带有轻微神秘 | 唤醒度低-中等 | 意图神秘、可爱
+15. AU12 + AU10 | 正面紧特写，眼平 | 情感积极 | 唤醒度中等 | 意图甜美微笑、温暖好奇
+16. AU45 + AU46 | 正面极限特写，眼平 | 情感积极带有轻微神秘 | 唤醒度低-中等 | 意图最终迷人的眨眼-眨眼，微妙的微推
+
+负面：
+无字幕，无文字，无对口型，无唱歌，无对话，无口语，无对口型的声乐表演，无怪物变形，无血腥，无恐怖面孔，无畸形扭曲，无喜剧，无夸张的卡通表演，无身份漂移，无面部融化，无恐怖牙齿，无额外角色，无文字覆盖，无水印，无背景干扰，无全身镜头，无强烈情感过度表演。
+
+--- 引用推文 ---
+在@mitte_ai上使用Seedance 2.0进行的新实验：FACS。
+
+对于这些视频，我只在prompt中使用了FACS代码。我完全没有用普通语言描述面部表情。
+
+FACS（面部动作编码系统）是一种使用称为动作单元（AUs）的单个肌肉运动来描述面部表情的系统，而不是使用“快乐”或“悲伤”等一般情感标签。它将面部分解为可控的组件，如眉毛运动、眼睑紧张、唇部运动和面颊激活。
+
+尽管没有完美地遵循所有14个动作单元，但它仍然出乎意料地很好地解释了大多数。
+
+我认为这在微妙的面部表演、强迫微笑、诡异表情、混合情感和微表演细节在特写对话镜头中可能特别有用。
+
+您可以在回复中查看前15秒的prompt和使用GPT Image 2生成的FACS代码列表。
+
+--- 线程继续 ---
+[线程1] Seedance 2.0 Prompt:
+
+使用提供的角色@[character reference]作为固定身份参考。
+
+创建一个15秒的面部表演视频。
+
+角色可爱、甜美、迷人且略显神秘。保持角色的面部、发型、比例、年龄、造型和整体吸引力，严格保持身份一致性。
+
+视频应呈现为一个节拍同步的肖像表演，共有16个不同的节拍，每个节拍都有硬切。使用电影级紧凑特写语言，柔和的中性背景，高面部清晰度，浅景深，柔和的工作室灯光和微妙的梦幻氛围。整体情绪应保持可爱、受控和催眠。
+
+每个节拍应视为一个独立的镜头，而不是一个连续的拍摄。使用干净的电影级特写变化，包括正面特写、左3/4特写、右3/4特写、侧面特写、高角度、低角度和微妙的荷兰角度。保持相机运动最小，仅在选定的节拍上使用轻微的微推。
+
+使用FACS代码作为主要的身体表达指令。不要过度解释每个AU的解剖学意义。仅将附加的方向词用作修饰语。保持表演柔和、可爱、精确和受控。表情应显得迷人，而非恐怖。
+
+整体情感应保持中性到略微积极。整体唤醒度应保持低到中等。允许短暂的唤醒峰值，但角色必须保持优雅、可爱和受控。
+
+节拍：
+1. AU10 | 正面紧特写，眼平 | 情感略微积极 | 唤醒度低 | 意图好奇、可爱
+2. AU20 左 | 左3/4特写，眼平 | 情感中性到略微积极 | 唤醒度低-中等 | 意图害羞、不确定
+3. AU22 高 | 正面特写，略高角度 | 情感积极 | 唤醒度中等 | 意图顽皮、戏弄
+4. AU23 右 | 右3/4特写，眼平 | 情感中性 | 唤醒度中等 | 意图专注、克制
+5. AU27 低 | 正面紧特写，略低角度 | 情感积极 | 唤醒度中等 | 意图可爱惊讶
+6. AU45 | 正面特写，眼平 | 情感平静积极 | 唤醒度低 | 意图平和、催眠
+7. AU53 左 | 左侧特写，略高角度 | 情感略微积极 | 唤醒度低-中等 | 意图好奇、精致
+8. AU61 左 | 左3/4特写，眼平 | 情感中性到略微积极 | 唤醒度低 |
+```
+
+## 出处与许可
+
+- 原作者：[Kōda](https://x.com/aimikoda) · 原帖：<https://x.com/aimikoda/status/2054120118230114784>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054120118230114784.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

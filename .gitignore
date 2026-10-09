@@ -24,3 +24,6 @@ animator/.venv/
 !.env.example
 videogen/examples/*/out/
 videogen/**/clips/
+
+# dependencies
+node_modules/

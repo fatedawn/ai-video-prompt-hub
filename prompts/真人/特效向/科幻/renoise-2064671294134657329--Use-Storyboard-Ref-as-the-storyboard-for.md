@@ -1,0 +1,405 @@
+---
+id: "renoise-2064671294134657329"
+title: "Use @[Storyboard Ref] as the storyboard for the sequence. Treat every…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "科幻"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Gunfight", "Photoreal", "Sci-Fi", "Macro"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064671294134657329.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Kōda"
+original_author_url: "https://x.com/aimikoda"
+original_post_url: "https://x.com/aimikoda/status/2064671294134657329"
+published: "2026-06-10"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Use @[Storyboard Ref] as the storyboard for the sequence. Treat every…
+
+## 提示词（English）
+
+```text
+Use @[Storyboard Ref] as the storyboard for the sequence. Treat every storyboard panel as a consecutive shot within a single cinematic sequence. Follow panel order exactly and do not invent alternative coverage. Recreate the filmed sequence implied by the panels rather than the physical storyboard artwork.
+Use @[Char ref]  as C1 reference.
+Use @[Droideka ref] as C2 combat droid reference.
+
+EMOTIONAL GUIDANCE: Valence: focused calm into controlled danger into decisive release. Arousal: ignition -> reveal -> blaster spike -> repeated deflections -> storm pressure -> pause -> one-way barrage -> flank burst -> impact, shown through eye-line, footwork, white blade height, cloak snap, droid drive, sparks, spray, collapse.
+AUDIO: No background music or score. Use only diegetic ambience, foley, impacts, texture, and silence: lake laps, servos, white saber hum, blasters, deflections, water hiss, boots, cloak snap, metal collapse.
+
+BEATS:
+1: Profile push. C1 ignites the white saber; light reflects on wet sand, water, and the grounded craft.
+2: Low wide. C2 unfolds into tripod combat stance at the forest edge, twin blasters rotating toward C1.
+3: Macro burst. Red bolts erupt from both cannons through mist and shoreline spray.
+4: Low burst. C1 pivots, boots slicing shallow water as the first volley closes.
+5: Clash. The white saber catches bolts; sparks and reflected plasma scatter across shore.
+6: Tight. C1's eye-line shifts as C2 changes angle and intensifies fire.
+7: Wide flow. C1 advances, repeatedly deflecting red bolts back with white saber arcs.
+8: Overhead. Red bolts converge while C1 stays centered, deflecting the storm back toward C2.
+9: Side track. C2 lunges on tripod legs, closing distance under suppressive fire.
+10: Impact. Reflected plasma hits C2 armor, forcing a brief stagger without stopping it.
+11: Water insert. White saber trail curves across the lake reflection as bolts skip and hiss.
+12: Portrait pause. C1 and C2 hang still; saber hum, water drip, and servos fill the air.
+13: Orbit. All incoming red bolts come from one direction only, from C2's side; C1's white saber wraps a luminous cage that deflects the wall of fire.
+14: Burst close. C1 slips past the final volley, cloak snapping as she reaches C2's flank.
+15: Hero finish. The white saber cuts exposed mechanisms beneath C2; sparks and parts explode outward as the droid collapses into the shoreline.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064671294134657329.json)
+
+```text
+Utilisez @[Storyboard Ref] comme storyboard pour la séquence. Traitez chaque panneau du storyboard comme un plan consécutif au sein d'une séquence cinématographique unique. Suivez exactement l'ordre des panneaux et n'inventez pas de couverture alternative. Recréez la séquence filmée impliquée par les panneaux plutôt que l'œuvre physique du storyboard.
+Utilisez @[Char ref] comme référence pour C1.
+Utilisez @[Droideka ref] comme référence pour le droïde de combat C2.
+
+GUIDANCE ÉMOTIONNELLE : Valence : calme concentré vers danger contrôlé puis libération décisive. Arousal : ignition -> révélation -> pic de blaster -> déviations répétées -> pression de tempête -> pause -> barrage unidirectionnel -> explosion de flanc -> impact, montré à travers la ligne de mire, le jeu de jambes, la hauteur de la lame blanche, le claquement de la cape, la conduite du droïde, les étincelles, la pulvérisation, l'effondrement.
+AUDIO : Pas de musique de fond ou de partition. Utilisez uniquement l'ambiance diégétique, le bruitage, les impacts, la texture et le silence : clapotis du lac, servos, bourdonnement du sabre blanc, blasters, déviations, sifflement de l'eau, bottes, claquement de cape, effondrement métallique.
+
+TEMPS FORTS :
+1 : Poussée de profil. C1 allume le sabre blanc ; la lumière se reflète sur le sable mouillé, l'eau et l'engin échoué.
+2 : Large bas. C2 se déploie en position de combat sur trépied au bord de la forêt, les blasters jumeaux tournant vers C1.
+3 : Explosion macro. Des boulons rouges éclatent des deux canons à travers la brume et les éclaboussures du rivage.
+4 : Explosion basse. C1 pivote, les bottes tranchant l'eau peu profonde alors que la première volée se rapproche.
+5 : Affrontement. Le sabre blanc attrape les boulons ; des étincelles et du plasma réfléchi se dispersent sur le rivage.
+6 : Serré. La ligne de mire de C1 se déplace alors que C2 change d'angle et intensifie le feu.
+7 : Flux large. C1 avance, déviant à plusieurs reprises les boulons rouges avec des arcs de sabre blanc.
+8 : Vue de dessus. Les boulons rouges convergent tandis que C1 reste centré, déviant la tempête vers C2.
+9 : Suivi latéral. C2 se précipite sur ses jambes de trépied, réduisant la distance sous le feu de suppression.
+10 : Impact. Le plasma réfléchi frappe l'armure de C2, provoquant un bref vacillement sans l'arrêter.
+11 : Insertion d'eau. La traînée du sabre blanc se courbe à travers le reflet du lac alors que les boulons sautent et sifflent.
+12 : Pause portrait. C1 et C2 restent immobiles ; le bourdonnement du sabre, le goutte-à-goutte de l'eau et les servos remplissent l'air.
+13 : Orbite. Tous les boulons rouges entrants viennent d'une seule direction, du côté de C2 ; le sabre blanc de C1 forme une cage lumineuse qui dévie le mur de feu.
+14 : Explosion rapprochée. C1 glisse au-delà de la dernière volée, la cape claquant alors qu'elle atteint le flanc de C2.
+15 : Fin héroïque. Le sabre blanc coupe les mécanismes exposés sous C2 ; des étincelles et des pièces explosent vers l'extérieur alors que le droïde s'effondre sur le rivage.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] J'ai partagé le fichier de compétences que j'utilise pour créer ces prompts avec mes abonnés.
+Personnages créés avec Midjourney. Vous pouvez consulter mes anciens posts pour plus de détails.
+Musique créée sur Suno.
+
+Prompt GPT Image 2 pour le storyboard :
+Créez une image au format 16:9.
+
+[CARTON DE PROJET]
+Créez une en-tête compacte, pas un tableau.
+TITRE : DUEL AU SABRE BLANC SUR LE RIVAGE
+LIGNE MÉTA : forêt nocturne / action de sabre de science-fiction / escalade de combat sur le rivage brumeux
+PRIORITÉ : préserver l'identité de C1, la géographie de l'engin échoué, la silhouette du droïde C2, la défense au sabre blanc, les trajectoires des blasters rouges, les reflets sur le rivage mouillé, les déviations répétées du sabre et l'effondrement final du châssis.
+BRÈVE MICRO : Commencez par C1 allumant son sabre blanc, puis montrez-la avançant à travers la tempête de blasters d'un droïde de type Droideka, déviant de nombreux boulons entrants, et coupant le droïde sous son châssis.
+
+[EN-TÊTE DE CONTINUITÉ]
+ID DE SÉQUENCE : JEDDICA_DROIDEKA_SHORELINE_DUEL_15P
+PRIORITÉ DE RÉFÉRENCE : La première image fournie contrôle le visage, le corps, la garde-robe, les proportions, la silhouette, les cheveux, l'attitude et le rôle du sabre blanc de C1. La deuxième image fournie contrôle le rivage forestier nocturne, l'engin blanc échoué, les troncs, le bord de l'eau, les lumières pratiques, les reflets mouillés et la géographie jouable. La troisième image fournie contrôle la forme du droïde de combat de type Droideka C2, la coque rouge, le cluster optique noir, les jambes de trépied, les blasters jumeaux, les mécanismes inférieurs exposés et la posture mécanique agressive. Ce storyboard contrôle la mise en scène, le mouvement, la caméra, la continuité, le rythme du combat et la logique des effets.
+
+[PAQUET DE SCÈNE]
+PRÉMISSE : Sur un rivage forestier brumeux à côté d'un engin échoué, C1 transforme une embuscade de droïde en une avancée précise au sabre blanc à travers le feu des blasters rouges.
+EMPLACEMENT : Bord du lac de la forêt sombre, grands troncs derrière, écran d'engin blanc échoué à droite, eau peu profonde au premier plan, sable mouillé au centre, brume du rivage, lumières pratiques de l'engin, bord de la forêt comme ligne d'entrée de C2, voie de combat ouverte entre C1 et C2.
+DÉBUT -> FIN : C1 allume son sabre blanc près de la ligne d'eau -> C2 se déploie, tire, avance, absorbe les coups réfléchis et s'effondre sur le rivage après que C1 coupe son dessous exposé.
+CHAÎNE D'ACTION : ignition du sabre blanc -> le droïde se déploie et ouvre le feu -> la première volée se rapproche -> C1 pivote dans l'eau peu profonde -> le sabre blanc dévie les boulons -> C2 change d'angle et intensifie le barrage -> C1 avance tout en redirigeant le feu à plusieurs reprises -> tempête de boulons en hauteur -> C2 se précipite en avant -> le plasma réfléchi fait vaciller l'armure -> les reflets du sabre marquent l'eau -> pause portrait -> barrage unidirectionnel de C2 rencontre la cage défensive du sabre de C1 -> explosion de flanc -> coupe finale du dessous et effondrement.
+ÉTAT DES ACCESSOIRES / EFFETS : Un sabre énergétique blanc dans la main de C1 ; les boulons de blaster rouges proviennent des canons jumeaux de C2 ; C1 dévie à plusieurs reprises les boulons avec son sabre blanc ; les boulons réfléchis traversent le champ de bataille ; les étincelles, les éclaboussures du rivage, les traînées de brume, le sifflement de l'eau et les composants du droïde brisé restent visuellement lisibles.
+DOIT LIRE : Un combattant calme au sabre blanc reste centré à l'intérieur d'une tempête de blasters rouges, utilisant des arcs défensifs répétés pour réduire la distance et mettre fin au droïde à bout portant.
+
+[SANITISATION DES PERSONNAGES]
+C1 : jeune femme adulte, cheveux blonds courts et ébouriffés, silhouette athlétique compacte, manteau blanc court de type poncho sur un haut enveloppé, écharpe beige pendante, pantalon ample foncé coupé, bottes, gants sans doigts, ceinture d'équipement, sabre énergétique blanc unique, immobilité féroce se transformant en jeu de jambes rapide et contrôle serré de la lame.
+C2 : droïde de combat de type Droideka, corps supérieur blindé rond rouge et crème, cluster optique noir brillant avec yeux rouges, jambes de trépied, blasters latéraux jumeaux, mécanismes centraux inférieurs exposés,
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064671294134657329.json)
+
+```text
+---
+@[Storyboard Ref]をシークエンスのストーリーボードとして使用します。各ストーリーボードパネルを単一のシネマティックシークエンス内の連続したショットとして扱います。パネルの順序を正確に守り、代替のカバレッジを考案しないでください。パネルによって暗示される撮影されたシークエンスを再現し、物理的なストーリーボードアートワークではありません。
+@[Char ref]をC1の参照として使用します。
+@[Droideka ref]をC2戦闘ドロイドの参照として使用します。
+
+感情的ガイダンス: 価値観: 集中した冷静さから制御された危険へ、そして決定的な解放へ。覚醒: 点火 -> 明らかにする -> ブラスターのスパイク -> 繰り返される偏向 -> 嵐の圧力 -> 一時停止 -> 一方向の弾幕 -> 側面の爆発 -> 衝撃、視線、足の動き、白い刃の高さ、マントのスナップ、ドロイドの駆動、火花、スプレー、崩壊を通じて示される。
+オーディオ: 背景音楽やスコアはありません。ダイジェティックなアンビエンス、フォーリー、インパクト、テクスチャ、沈黙のみを使用します: 湖の波、サーボ、白いセイバーのハム、ブラスター、偏向、水のヒス、ブーツ、マントのスナップ、金属の崩壊。
+
+ビート:
+1: プロフィールプッシュ。C1が白いセイバーを点火し、光が濡れた砂、水、地面に置かれたクラフトに反射します。
+2: ローワイド。C2が森の端で三脚の戦闘姿勢に展開し、ツインブラスターがC1に向かって回転します。
+3: マクロバースト。赤いボルトが霧と海岸線のスプレーを通して両方のキャノンから噴出します。
+4: ローバースト。C1が回転し、ブーツが浅い水を切り裂きながら最初の一斉射撃が迫ります。
+5: クラッシュ。白いセイバーがボルトをキャッチし、火花と反射されたプラズマが岸に散らばります。
+6: タイト。C1の視線がC2の角度が変わり、火力が強化されるとシフトします。
+7: ワイドフロー。C1が前進し、白いセイバーのアークで赤いボルトを繰り返し偏向します。
+8: オーバーヘッド。赤いボルトが収束し、C1が中心に留まり、嵐をC2に向かって偏向させます。
+9: サイドトラック。C2が三脚の脚で突進し、抑制射撃の下で距離を縮めます。
+10: インパクト。反射されたプラズマがC2の装甲に当たり、一時的によろめかせますが、止めることはありません。
+11: ウォーターインサート。白いセイバーの軌跡が湖の反射を曲がり、ボルトが跳ねてヒス音を立てます。
+12: ポートレートポーズ。C1とC2が静止し、セイバーハム、水滴、サーボが空気を満たします。
+13: オービット。すべての赤いボルトがC2の側から一方向にのみ来て、C1の白いセイバーが火の壁を偏向する光のケージを包みます。
+14: バーストクローズ。C1が最終的な一斉射撃をかわし、マントがスナップしながらC2の側面に到達します。
+15: ヒーローフィニッシュ。白いセイバーがC2の露出したメカニズムを切り、火花と部品が外側に爆発し、ドロイドが海岸線に崩れ落ちます。
+
+--- THREAD CONTINUATION ---
+[Thread 1] 私がこれらのプロンプトを作成するために使用するスキルファイルを購読者と共有しました。
+キャラクターはMidjourneyで作成されました。詳細は私の過去の投稿を確認できます。
+音楽はSunoで作成されました。
+
+GPT Image 2 プロンプト for ストーリーボード:
+16:9の画像を作成します。
+
+[PROJECT CARD]
+コンパクトにデザインされたマストヘッドを作成し、テーブルではありません。
+タイトル: WHITE SABER SHORELINE DUEL
+メタライン: 夜の森 / SFセイバーアクション / 霧の海岸線での戦闘のエスカレーション
+優先事項: C1のアイデンティティ、地面に置かれたクラフトの地理、C2ドロイドのシルエット、白いセイバーの防御、赤いブラスターの軌道、濡れた海岸線の反射、繰り返されるセイバーの偏向、最終的なシャーシの崩壊を保持します。
+マイクロブリーフ: C1が白いセイバーを点火するところから始め、Droidekaタイプのドロイドのブラスターの嵐を通過し、多くのボルトを偏向し、ドロイドのシャーシの下を切り抜ける様子を示します。
+
+[CONTINUITY HEADER]
+シークエンスID: JEDDICA_DROIDEKA_SHORELINE_DUEL_15P
+参照優先順位: 最初に提供された画像がC1の顔、体、衣装、プロポーション、シルエット、髪型、態度、白いセイバーの役割を制御します。2番目に提供された画像が夜の森の海岸線、地面に置かれた白いクラフト、幹、水の縁、実用的なライト、濡れた反射、プレイ可能な地理を制御します。3番目に提供された画像がC2 Droidekaタイプの戦闘ドロイドの形状、赤いシェル、黒い光学クラスター、三脚の脚、ツインブラスター、露出した下部メカニズム、攻撃的な機械的姿勢を制御します。このストーリーボードがステージング、モーション、カメラ、連続性、戦闘リズム、効果の論理を制御します。
+
+[SCENE PACKET]
+前提: 霧の森の海岸線で地面に置かれたクラフトのそばで、C1がドロイドの待ち伏せを正確な白いセイバーの前進に変え、赤いブラスターの火を通過します。
+場所: 暗い森の湖の縁、高い幹が背後にあり、地面に置かれた白いクラフトが画面右、浅い水が前景、濡れた砂が中心、海岸線の霧、低い実用的なクラフトライト、C2のエントリーラインとしての森の縁、C1とC2の間のオープンな戦闘レーン。
+開始 -> 終了: C1が水際で白いセイバーを点火 -> C2が展開し、発砲し、前進し、反射されたヒットを吸収し、C1が露出した下部を切った後に海岸線に崩れ落ちます。
+アクションチェーン: 白いセイバーの点火 -> ドロイドが展開して発砲 -> 最初の一斉射撃が迫る -> C1が浅い水に回転 -> 白いセイバーがボルトを偏向 -> C2が角度を変え、弾幕を強化 -> C1が前進し、火を繰り返し偏向 -> 頭上のボルトの嵐 -> C2が前進 -> 反射されたプラズマが装甲をよろめかせる -> セイバーの反
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064671294134657329.json)
+
+```text
+---
+@[Storyboard Ref]를 시퀀스의 스토리보드로 사용하세요. 각 스토리보드 패널을 단일 시네마틱 시퀀스 내의 연속적인 샷으로 취급하세요. 패널 순서를 정확히 따르고 대체 커버리지를 발명하지 마세요. 패널이 암시하는 촬영된 시퀀스를 물리적 스토리보드 아트워크가 아닌 형태로 재현하세요.
+@[Char ref]를 C1 참조로 사용하세요.
+@[Droideka ref]를 C2 전투 드로이드 참조로 사용하세요.
+
+감정적 지침: Valence: 집중된 평온에서 통제된 위험으로, 결정적인 해방으로. Arousal: 점화 -> 드러남 -> 블래스터 스파이크 -> 반복적인 방어 -> 폭풍 압박 -> 멈춤 -> 일방적 포격 -> 측면 폭발 -> 충격, 시선, 발놀림, 흰 칼날 높이, 망토 스냅, 드로이드 드라이브, 불꽃, 스프레이, 붕괴를 통해 보여줍니다.
+오디오: 배경 음악이나 스코어 없음. 다이제틱 앰비언스, 폴리, 충격, 질감, 침묵만 사용: 호수 물결, 서보, 흰 세이버 소리, 블래스터, 방어, 물 쉿소리, 부츠, 망토 스냅, 금속 붕괴.
+
+비트:
+1: 프로필 푸시. C1이 흰 세이버를 점화합니다; 빛이 젖은 모래, 물, 착륙한 기체에 반사됩니다.
+2: 낮은 와이드. C2가 숲 가장자리에서 삼각대 전투 자세로 펼쳐지며, 쌍 블래스터가 C1을 향해 회전합니다.
+3: 매크로 버스트. 붉은 볼트가 안개와 해안 스프레이를 통해 두 대포에서 폭발합니다.
+4: 낮은 버스트. C1이 회전하며, 부츠가 얕은 물을 가르며 첫 번째 발사에 대응합니다.
+5: 충돌. 흰 세이버가 볼트를 잡아내며, 불꽃과 반사된 플라즈마가 해안에 흩어집니다.
+6: 타이트. C2가 각도를 바꾸고 발사를 강화하면서 C1의 시선이 이동합니다.
+7: 와이드 플로우. C1이 전진하며, 흰 세이버 아크로 붉은 볼트를 반복적으로 반사합니다.
+8: 오버헤드. 붉은 볼트가 수렴하며, C1은 중심을 유지하며 폭풍을 C2로 되돌려 보냅니다.
+9: 사이드 트랙. C2가 삼각대 다리로 돌진하며, 억제 사격 아래 거리를 좁힙니다.
+10: 충격. 반사된 플라즈마가 C2의 갑옷에 맞아 잠시 비틀거리게 하지만 멈추지 않습니다.
+11: 물 삽입. 흰 세이버 궤적이 호수 반사면을 가로지르며 볼트가 튀고 쉿소리를 냅니다.
+12: 초상화 멈춤. C1과 C2가 정지하며; 세이버 소리, 물방울, 서보 소리가 공기를 채웁니다.
+13: 궤도. 모든 들어오는 붉은 볼트가 한 방향에서만 오며, C2의 측면에서; C1의 흰 세이버가 불의 벽을 반사하는 빛나는 우리를 만듭니다.
+14: 폭발 근접. C1이 마지막 발사를 지나쳐, 망토가 스냅하며 C2의 측면에 도달합니다.
+15: 영웅 마무리. 흰 세이버가 C2 아래의 노출된 메커니즘을 자르며; 불꽃과 부품이 외부로 폭발하며 드로이드가 해안으로 붕괴합니다.
+
+--- THREAD CONTINUATION ---
+[Thread 1] 내가 이 프롬프트를 만들기 위해 사용하는 스킬 파일을 구독자들과 공유했습니다.
+Midjourney로 만든 캐릭터들. 자세한 내용은 내 이전 게시물을 확인하세요.
+Suno에서 만든 음악.
+
+GPT Image 2 프롬프트 스토리보드:
+16:9 이미지를 만드세요.
+
+[PROJECT CARD]
+테이블이 아닌 컴팩트하게 디자인된 마스트헤드를 만드세요.
+제목: WHITE SABER SHORELINE DUEL
+메타 라인: 밤의 숲 / 공상과학 세이버 액션 / 안개 낀 해안선 전투 고조
+우선순위: C1의 정체성, 착륙한 기체의 지리, C2 드로이드 실루엣, 흰 세이버 방어, 붉은 블래스터 궤적, 젖은 해안선 반사, 반복적인 세이버 방어, 최종 섀시 붕괴를 보존하세요.
+마이크로 브리프: C1이 그녀의 흰 세이버를 점화하는 것으로 시작하여, 드로이데카 타입 드로이드의 블래스터 폭풍을 통해 전진하며, 많은 들어오는 볼트를 방어하고 드로이드의 섀시 아래를 자르는 모습을 보여주세요.
+
+[CONTINUITY HEADER]
+시퀀스 ID: JEDDICA_DROIDEKA_SHORELINE_DUEL_15P
+참조 우선순위: 첫 번째 제공된 이미지는 C1의 얼굴, 몸, 의상, 비율, 실루엣, 머리카락, 태도, 흰 세이버 역할을 제어합니다. 두 번째 제공된 이미지는 밤의 숲 해안선, 착륙한 흰 기체, 나무 줄기, 물 가장자리, 실용적인 조명, 젖은 반사, 플레이 가능한 지리를 제어합니다. 세 번째 제공된 이미지는 C2 드로이데카 타입 전투 드로이드의 형태, 붉은 껍질, 검은 광학 클러스터, 삼각대 다리, 쌍 블래스터, 노출된 하부 메커니즘, 공격적인 기계적 자세를 제어합니다. 이 스토리보드는 무대 설정, 움직임, 카메라, 연속성, 전투 리듬, 효과 논리를 제어합니다.
+
+[SCENE PACKET]
+전제: 안개 낀 숲 해안선에서 착륙한 기체 옆에서, C1이 드로이드 매복을 정밀한 흰 세이버 전진으로 바꿉니다.
+위치: 어두운 숲 호수 가장자리, 뒤쪽에 높은 줄기, 오른쪽 화면에 착륙한 흰 기체, 전경에 얕은 물, 중앙에 젖은 모래, 해안선 안개, 낮은 실용적인 기체 조명, C2 진입선으로서의 숲 가장자리, C1과 C2 사이의 열린 전투 경로.
+시작 -> 끝: C1이 물가 근처에서 그녀의 흰 세이버를 점화 -> C2가 펼쳐지고, 발사하고, 전진하고, 반사된 타격을 흡수하고, C1이 노출된 하부를 자른 후 해안선으로 붕괴.
+행동 체인: 흰 세이버 점화 -> 드로이드가 펼쳐지고 발사 -> 첫 번째 발사 닫힘 -> C1이 얕은 물로 회전 -> 흰 세이버가 볼트를 방어 -> C2가 각도를 바꾸고 포격을 강화 -> C1이 전진하며 반복적으로 불을 되돌림 -> 오버헤드 볼트 폭풍 -> C2가 앞으로 돌진 -> 반사된 플라즈마가 갑옷을 비틀거리게 함 -> 세이버 반사가 물을 표시 -> 초상화 멈춤 -> C2의 일방적 포격이 C1의 방어 세이버 우리를 만남 -> 측면 폭발 -> 최종 하부 절단 및 붕괴.
+소품 / 효과 상태: C1 손에 하나의 흰 에너지 세이버; 붉은 블래스터 볼트는 C2 쌍 대포에서 발생; C1이 흰 세이버로 볼트를 반복적으로 방어; 반사된 볼트가 전장을 가로질러 이동; 불꽃, 해안선 스프레이, 안개 흔적, 물 쉿소리, 최종 파괴된 드로이드 부품이 시각적으로 읽을 수 있음.
+읽어야 할 것: 차분한 흰 세이버 전사가 붉은 블래스터 폭풍 속에서 중심을 유지하며, 반복적인 방어 아크를 사용하여 거리를 좁히고 근접 거리에서 드로이드를 끝냅니다.
+
+[CHARACTER SANITIZATION]
+C1: 젊은 성
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064671294134657329.json)
+
+```text
+使用@[Storyboard Ref]作为序列的分镜板。将每个分镜板视为单一电影序列中的连续镜头。严格按照面板顺序，不要发明替代镜头。重现面板所暗示的拍摄序列，而不是物理分镜板的艺术作品。
+使用@[Char ref]作为C1参考。
+使用@[Droideka ref]作为C2战斗机器人参考。
+
+情感指导：情感：从专注的冷静到受控的危险再到果断的释放。唤醒：点燃 -> 揭示 -> 爆破尖峰 -> 重复偏转 -> 风暴压力 -> 暂停 -> 单向弹幕 -> 侧翼爆发 -> 冲击，通过眼线、步法、白刃高度、斗篷甩动、机器人驱动、火花、喷雾、坍塌来展示。
+音频：无背景音乐或配乐。仅使用画面内音效、拟音、冲击、质感和静音：湖水拍打声、伺服声、白色光剑嗡嗡声、爆破声、偏转声、水声、靴子声、斗篷甩动声、金属坍塌声。
+
+节拍：
+1：侧面推镜。C1点燃白色光剑；光线反射在湿沙、水和搁浅的飞船上。
+2：低广角。C2在森林边缘展开成三脚架战斗姿态，双爆破枪旋转指向C1。
+3：宏观爆发。红色光束从两门炮中喷发，穿过薄雾和海岸线喷雾。
+4：低爆发。C1旋转，靴子切过浅水，第一波齐射逼近。
+5：碰撞。白色光剑接住光束；火花和反射的等离子散落在海岸线上。
+6：紧凑。C1的眼线转移，C2改变角度并加强火力。
+7：广泛流动。C1前进，反复用白色光剑弧线偏转红色光束。
+8：俯视。红色光束汇聚，C1保持居中，将风暴反弹回C2。
+9：侧面跟踪。C2在三脚架腿上猛冲，在压制火力下拉近距离。
+10：冲击。反射的等离子击中C2装甲，迫使其短暂踉跄但未停止。
+11：水中插入。白色光剑轨迹在湖面反射上弯曲，光束跳跃并发出嘶嘶声。
+12：肖像暂停。C1和C2静止不动；光剑嗡嗡声、水滴声和伺服声充满空气。
+13：轨道。所有进入的红色光束仅从一个方向来，从C2的一侧；C1的白色光剑形成一个发光的笼子，偏转火墙。
+14：爆发接近。C1滑过最后一波齐射，斗篷甩动，当她到达C2的侧翼。
+15：英雄终结。白色光剑切割C2下方暴露的机制；火花和零件向外爆炸，机器人坍塌在海岸线上。
+```
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064671294134657329.json)
+
+```text
+---
+Usa @[Storyboard Ref] como el guion gráfico para la secuencia. Trata cada panel del guion gráfico como una toma consecutiva dentro de una sola secuencia cinematográfica. Sigue el orden de los paneles exactamente y no inventes cobertura alternativa. Recrea la secuencia filmada implícita por los paneles en lugar del arte físico del guion gráfico.
+Usa @[Char ref] como referencia para C1.
+Usa @[Droideka ref] como referencia para el droide de combate C2.
+
+GUÍA EMOCIONAL: Valencia: calma enfocada hacia peligro controlado y luego liberación decisiva. Activación: ignición -> revelación -> pico de bláster -> deflexiones repetidas -> presión de tormenta -> pausa -> barrera unidireccional -> estallido de flanco -> impacto, mostrado a través de la línea de visión, el juego de pies, la altura de la hoja blanca, el chasquido de la capa, el impulso del droide, las chispas, el rocío, el colapso.
+AUDIO: Sin música de fondo ni banda sonora. Usa solo ambiente diegético, efectos de sonido, impactos, textura y silencio: olas del lago, servos, zumbido del sable blanco, blásters, deflexiones, siseo del agua, botas, chasquido de capa, colapso de metal.
+
+RITMOS:
+1: Empuje de perfil. C1 enciende el sable blanco; la luz se refleja en la arena mojada, el agua y la nave aterrizada.
+2: Plano bajo y amplio. C2 se despliega en posición de combate trípode al borde del bosque, los blásters gemelos girando hacia C1.
+3: Estallido macro. Los rayos rojos estallan desde ambos cañones a través de la niebla y el rocío de la orilla.
+4: Estallido bajo. C1 gira, las botas cortando agua poco profunda mientras se cierra la primera andanada.
+5: Choque. El sable blanco atrapa los rayos; chispas y plasma reflejado se dispersan por la orilla.
+6: Ajuste cerrado. La línea de visión de C1 cambia mientras C2 cambia de ángulo e intensifica el fuego.
+7: Flujo amplio. C1 avanza, desviando repetidamente los rayos rojos de vuelta con arcos del sable blanco.
+8: Vista aérea. Los rayos rojos convergen mientras C1 permanece centrada, desviando la tormenta de vuelta hacia C2.
+9: Seguimiento lateral. C2 avanza sobre patas de trípode, cerrando la distancia bajo fuego de supresión.
+10: Impacto. El plasma reflejado golpea la armadura de C2, forzando un breve tambaleo sin detenerlo.
+11: Inserción de agua. La estela del sable blanco se curva a través del reflejo del lago mientras los rayos saltan y sisea.
+12: Pausa de retrato. C1 y C2 permanecen inmóviles; el zumbido del sable, el goteo del agua y los servos llenan el aire.
+13: Órbita. Todos los rayos rojos entrantes vienen de una sola dirección, del lado de C2; el sable blanco de C1 envuelve una jaula luminosa que desvía la pared de fuego.
+14: Cierre de estallido. C1 se desliza más allá de la última andanada, la capa chasqueando mientras alcanza el flanco de C2.
+15: Final heroico. El sable blanco corta los mecanismos expuestos debajo de C2; chispas y partes explotan hacia afuera mientras el droide colapsa en la orilla.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Compartí el archivo de habilidades que uso para crear estos prompts con mis suscriptores.
+Personajes creados con Midjourney. Puedes revisar mis publicaciones anteriores para más detalles.
+Música creada en Suno.
+
+Prompt de GPT Image 2 para guion gráfico:
+Crea una imagen 16:9.
+
+[TARJETA DE PROYECTO]
+Crea un encabezado compacto diseñado, no una tabla.
+TÍTULO: DUELO EN LA ORILLA DEL SABLE BLANCO
+LÍNEA META: bosque nocturno / acción de sable de ciencia ficción / escalada de combate en la orilla brumosa
+PRIORIDAD: preservar la identidad de C1, la geografía de la nave aterrizada, la silueta del droide C2, la defensa del sable blanco, las trayectorias de los blásters rojos, los reflejos de la orilla mojada, las deflexiones repetidas del sable y el colapso final del chasis.
+BREVE MICRO: Comienza con C1 encendiendo su sable blanco, luego muéstrala avanzando a través de la tormenta de blásters de un droide tipo Droideka, desviando muchos rayos entrantes y cortando el droide por debajo de su chasis.
+
+[ENCABEZADO DE CONTINUIDAD]
+ID DE SECUENCIA: JEDDICA_DROIDEKA_SHORELINE_DUEL_15P
+PRIORIDAD DE REFERENCIA: La primera imagen proporcionada controla el rostro, cuerpo, vestuario, proporciones, silueta, cabello, actitud y rol del sable blanco de C1. La segunda imagen proporcionada controla la orilla del bosque nocturno, la nave blanca aterrizada, los troncos, el borde del agua, las luces prácticas, los reflejos mojados y la geografía jugable. La tercera imagen proporcionada controla la forma del droide de combate tipo Droideka C2, la carcasa roja, el grupo óptico negro, las patas de trípode, los blásters gemelos, los mecanismos inferiores expuestos y la postura mecánica agresiva. Este guion gráfico controla la puesta en escena, el movimiento, la cámara, la continuidad, el ritmo de combate y la lógica de efectos.
+
+[PAQUETE DE ESCENA]
+PREMISA: En una orilla de bosque brumosa junto a una nave aterrizada, C1 convierte una emboscada de droides en un avance preciso de sable blanco a través del fuego de blásters rojos.
+UBICACIÓN: Borde del lago en el bosque oscuro, troncos altos detrás, nave blanca aterrizada a la derecha de la pantalla, agua poco profunda en primer plano, arena mojada en el centro, niebla en la orilla, luces prácticas bajas de la nave, borde del bosque como línea de entrada de C2, carril de combate abierto entre C1 y C2.
+INICIO -> FIN: C1 enciende su sable blanco cerca de la línea de agua -> C2 se despliega, dispara, avanza, absorbe impactos reflejados y colapsa en la orilla después de que C1 corta su parte inferior expuesta.
+CADENA DE ACCIÓN: ignición del sable blanco -> el droide se despliega y abre fuego -> se cierra la primera andanada -> C1 gira hacia el agua poco profunda -> el sable blanco desvía los rayos -> C2 cambia de ángulo e intensifica la andanada -> C1 avanza mientras redirige repetidamente el fuego -> tormenta de rayos desde arriba -> C2 avanza -> el plasma reflejado tambalea la armadura -> reflejos del sable en el agua -> pausa de retrato -> andanada unidireccional de C2 se encuentra con la jaula defensiva del sable blanco de C1 -> estallido de flanco -> corte final en la parte inferior y colapso.
+ESTADO DE PROP / EFECTO: Un sable de energía blanca en la mano de C1; los rayos de bláster rojos se originan en los cañones gemelos de C2; C1 desvía repetidamente los rayos con su sable blanco; los rayos reflejados viajan de regreso a través del campo de batalla; chispas, rocío de la orilla, rastros de niebla, siseo del agua y componentes del droide destrozados permanecen visualmente legibles.
+DEBE LEER: Una luchadora de sable blanco calmada permanece centrada dentro de una tormenta de blásters rojos, usando arcos defensivos repetidos para cerrar la distancia y acabar con el droide a quemarropa.
+
+[SANITIZACIÓN DE PERSONAJES]
+C1: mujer joven adulta, cabello rubio corto y despeinado, silueta atlética compacta, manto blanco tipo poncho corto sobre top envuelto, faja beige colgante, pantalones oscuros sueltos cortos, botas, guantes sin dedos, equipo de cinturón, un solo sable de energía blanca, quietud feroz que se transforma en juego de pies rápido y control de hoja ajustado.
+C2: droide de combate tipo Droideka, cuerpo superior blindado redondo rojo y crema, grupo óptico negro brillante con ojos rojos, patas de trípode, blásters laterales gemelos, mecanismos centrales inferiores expuestos, postura mecánica de embestida, sin cambio de rostro ni rediseño humanoide.
+Elimina rasgos contradictorios, psicología invisible, detalles excesivos de vestuario y trasfondo que no pueden aparecer en un
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064671294134657329.json)
+
+```text
+---
+Use @[Storyboard Ref] como o storyboard para a sequência. Trate cada painel do storyboard como um plano consecutivo dentro de uma única sequência cinematográfica. Siga a ordem dos painéis exatamente e não invente coberturas alternativas. Recrie a sequência filmada implícita pelos painéis em vez da arte física do storyboard.
+Use @[Char ref] como referência para C1.
+Use @[Droideka ref] como referência para o droid de combate C2.
+
+ORIENTAÇÃO EMOCIONAL: Valência: calma focada em perigo controlado em liberação decisiva. Excitação: ignição -> revelação -> pico de disparo -> deflexões repetidas -> pressão da tempestade -> pausa -> barragem unilateral -> explosão de flanco -> impacto, mostrado através da linha dos olhos, trabalho de pés, altura da lâmina branca, estalo da capa, movimento do droid, faíscas, spray, colapso.
+ÁUDIO: Sem música de fundo ou trilha sonora. Use apenas a ambiência diegética, foley, impactos, textura e silêncio: ondas do lago, servos, zumbido do sabre branco, disparos, deflexões, chiado da água, botas, estalo da capa, colapso de metal.
+
+BATIDAS:
+1: Empurrão de perfil. C1 acende o sabre branco; a luz reflete na areia molhada, na água e na nave aterrada.
+2: Baixo e amplo. C2 se desdobra em posição de combate tripé na borda da floresta, blasters gêmeos girando em direção a C1.
+3: Explosão macro. Raios vermelhos irrompem de ambos os canhões através da névoa e do spray da costa.
+4: Explosão baixa. C1 gira, botas cortando a água rasa enquanto a primeira rajada se aproxima.
+5: Confronto. O sabre branco captura os raios; faíscas e plasma refletido se espalham pela costa.
+6: Apertado. A linha dos olhos de C1 muda enquanto C2 altera o ângulo e intensifica o fogo.
+7: Fluxo amplo. C1 avança, defletindo repetidamente os raios vermelhos de volta com arcos do sabre branco.
+8: Vista aérea. Raios vermelhos convergem enquanto C1 permanece centralizado, defletindo a tempestade de volta em direção a C2.
+9: Rastreamento lateral. C2 avança sobre pernas de tripé, fechando a distância sob fogo supressor.
+10: Impacto. Plasma refletido atinge a armadura de C2, forçando um breve cambalear sem pará-lo.
+11: Inserção na água. O rastro do sabre branco curva-se através do reflexo do lago enquanto os raios saltam e chiem.
+12: Pausa de retrato. C1 e C2 ficam imóveis; zumbido do sabre, gotejamento de água e servos preenchem o ar.
+13: Órbita. Todos os raios vermelhos que chegam vêm de uma única direção, do lado de C2; o sabre branco de C1 envolve uma gaiola luminosa que deflete a parede de fogo.
+14: Explosão próxima. C1 escapa da última rajada, a capa estalando enquanto ela alcança o flanco de C2.
+15: Final heroico. O sabre branco corta os mecanismos expostos sob C2; faíscas e partes explodem para fora enquanto o droid colapsa na costa.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] Compartilhei o arquivo de habilidades que uso para criar esses prompts com meus assinantes.
+Personagens criados com Midjourney. Você pode verificar meus posts antigos para detalhes.
+Música criada no Suno.
+
+Prompt de Imagem GPT 2 para storyboard:
+Crie uma imagem 16:9.
+
+[CARTÃO DO PROJETO]
+Crie uma manchete compacta e projetada, não uma tabela.
+TÍTULO: DUELO NA COSTA DO SABRE BRANCO
+META LINE: floresta noturna / ação de sabre sci-fi / escalada de combate na costa enevoada
+PRIORIDADE: preservar a identidade de C1, geografia da nave aterrada, silhueta do droid C2, defesa do sabre branco, trajetórias dos disparos vermelhos, reflexos na costa molhada, deflexões repetidas do sabre e colapso final do chassi.
+MICRO BRIEF: Comece com C1 acendendo seu sabre branco, depois mostre-a avançando através da tempestade de disparos de um droid tipo Droideka, defletindo muitos raios que chegam e cortando o droid por baixo do chassi.
+
+[CABEÇALHO DE CONTINUIDADE]
+ID DA SEQUÊNCIA: JEDDICA_DROIDEKA_SHORELINE_DUEL_15P
+PRIORIDADE DE REFERÊNCIA: A primeira imagem fornecida controla o rosto, corpo, guarda-roupa, proporções, silhueta, cabelo, atitude e papel do sabre branco de C1. A segunda imagem fornecida controla a margem da floresta noturna, nave branca aterrada, troncos, borda da água, luzes práticas, reflexos molhados e geografia jogável. A terceira imagem fornecida controla a forma do droid de combate tipo Droideka C2, casco vermelho, cluster óptico preto, pernas de tripé, blasters gêmeos, mecanismos inferiores expostos e postura mecânica agressiva. Este storyboard controla a encenação, movimento, câmera, continuidade, ritmo de combate e lógica de efeitos.
+
+[PACKET DE CENA]
+PREMISSA: Em uma margem de floresta enevoada ao lado de uma nave aterrada, C1 transforma uma emboscada de droid em um avanço preciso de sabre branco através de disparos vermelhos.
+LOCALIZAÇÃO: Borda do lago da floresta escura, troncos altos atrás, nave branca aterrada à direita da tela, água rasa em primeiro plano, areia molhada no centro, névoa na margem, luzes práticas baixas da nave, borda da floresta como linha de entrada de C2, corredor de combate aberto entre C1 e C2.
+INÍCIO -> FIM: C1 acende seu sabre branco perto da linha d'água -> C2 se desdobra, dispara, avança, absorve golpes refletidos e colapsa na margem após C1 cortar seu lado inferior exposto.
+CADEIA DE AÇÃO: ignição do sabre branco -> droid se desdobra e abre fogo -> primeira rajada se aproxima -> C1 gira na água rasa -> sabre branco deflete raios -> C2 muda de ângulo e intensifica a barragem -> C1 avança enquanto redireciona repetidamente o fogo -> tempestade de raios aéreos -> C2 avança -> plasma refletido cambaleia a armadura -> reflexos do sabre marcam a água -> pausa de retrato -> barragem de uma direção de C2 encontra a gaiola defensiva do sabre de C1 -> explosão de flanco -> corte final no lado inferior e colapso.
+ESTADO DE PROP / EFEITO: Um sabre de energia branco na mão de C1; raios de blaster vermelhos originam-se dos canhões gêmeos de C2; C1 deflete repetidamente os raios com seu sabre branco; raios refletidos viajam de volta pelo campo de batalha; faíscas, spray da margem, trilhas de névoa, chiado da água e componentes finais do droid quebrado permanecem visualmente legíveis.
+DEVE LER: Uma lutadora calma de sabre branco permanece centralizada dentro de uma tempestade de disparos vermelhos, usando arcos defensivos repetidos para fechar a distância e acabar com o droid a curta distância.
+
+[SANITIZAÇÃO DE PERSONAGEM]
+C1: mulher jovem adulta, cabelo loiro curto e despenteado, silhueta atlética compacta, manto branco tipo poncho sobre top enrolado, faixa pendente bege, calças escuras largas e curtas, botas, luvas sem dedos, cinto de equipamentos, sabre de energia branco único, quietude feroz mudando para trabalho de pés rápido e controle apertado da lâmina.
+C2: droid de combate tipo Droideka, corpo superior blindado redondo vermelho e creme, cluster óptico preto brilhante com olhos vermelhos, pernas de tripé, blasters laterais gêmeos, mecanismos centrais inferiores expostos, postura de avanço mecânico, sem mudança de rosto ou redesenho humanoide.
+Remova traços contraditórios, psicologia invisível, detalhes excessivos de figurino e história de fundo que não podem aparecer em um painel.
+
+[CONSISTÊNCIA DE IDENTIDADE]
+A referência fornecida de C1 controla o rosto, corpo, guarda-roupa, proporções, cabelo e silhueta; a referência de ambiente fornecida controla os âncoras do cenário; a referência de droid fornecida controla a silhueta e o design mecânico de C2. Mantenha o manto branco de C1, faixa bege, calças escuras, botas, luvas, cinto e sabre branco único
+```
+
+## 出处与许可
+
+- 原作者：[Kōda](https://x.com/aimikoda) · 原帖：<https://x.com/aimikoda/status/2064671294134657329>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064671294134657329.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

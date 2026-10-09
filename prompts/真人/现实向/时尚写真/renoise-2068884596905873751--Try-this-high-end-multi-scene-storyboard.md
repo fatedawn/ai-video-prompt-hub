@@ -1,0 +1,122 @@
+---
+id: "renoise-2068884596905873751"
+title: "Try this high-end multi-scene storyboard template for eyewear!"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "时尚写真"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Product Ad", "Luxury", "Photoreal", "Realistic World", "Macro", "Creative Asset"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068884596905873751.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "PixuryAI"
+original_author_url: "https://x.com/PixuryAI"
+original_post_url: "https://x.com/PixuryAI/status/2068884596905873751"
+published: "2026-06-22"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Try this high-end multi-scene storyboard template for eyewear!
+
+## 提示词（English）
+
+```text
+Try this high-end multi-scene storyboard template for eyewear!
+
+One-click professional commercial split shots: model wearing display, face-angle switching, lens light reflection, street fashion atmosphere & detail close-ups.
+
+Tips from Seedance 2.0👉: cinematic quality, eliminate studio feel, natural skin texture, 8k resolution. 0-2s: [Frame 1] 135mm telephoto slow push-in on deep red velvet curtain in a luxury gallery space, Rim Light highlighting the fabric texture; 2-4s: [Frame 2] Slider horizontal glide revealing woman's silhouette against the crimson background; 4-6s: [Frame 3] 85mm slow push-in on hands delicately framing the off-white sunglasses, Tyndall Effect piercing through shadows; 6-8s: [Frame 4] Macro rack focus on the smooth sunglasses frame, contrasting with the velvet; 8-10s: [Frame 5] Orbital arc shot around her profile, soft golden hour diffuse catching her flawless skin; 10-12s: [Frame 6] Rack focus from textured red background to the dark, reflective lenses; 12-13s: [Frame 7] Extreme macro on lips and skin, sub-surface scattering for photorealistic beauty; 13-14s: [Frame 8] Match cut to medium close-up, slight head tilt, cool window spill balancing the warm red; 14-15s: [Frame 9] Gentle pull-back dolly shot, final elegant portrait. Lighting: Rim Light + Golden Hour Diffuse. BGM: Epic Cinematic — low cello with soft tension. Foley: soft fabric brushing skin, quiet leather creak. Negative: whip pan, crash cam, shaky action, fast cuts, solid color background, low quality.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068884596905873751.json)
+
+```text
+¡Prueba esta plantilla de storyboard de múltiples escenas de alta gama para gafas!
+
+Tomas divididas profesionales con un solo clic: modelo usando gafas, cambio de ángulo de rostro, reflexión de luz en las lentes, atmósfera de moda urbana y primeros planos de detalles.
+
+Consejos de Seedance 2.0👉: calidad cinematográfica, elimina la sensación de estudio, textura natural de la piel, resolución 8k. 0-2s: [Frame 1] Teleobjetivo de 135mm con acercamiento lento sobre una cortina de terciopelo rojo profundo en un espacio de galería de lujo, Luz de Borde destacando la textura de la tela; 2-4s: [Frame 2] Deslizamiento horizontal del deslizador revelando la silueta de una mujer contra el fondo carmesí; 4-6s: [Frame 3] Acercamiento lento de 85mm en manos enmarcando delicadamente las gafas de sol blanco roto, Efecto Tyndall atravesando las sombras; 6-8s: [Frame 4] Enfoque de bastidor macro en el marco suave de las gafas de sol, contrastando con el terciopelo; 8-10s: [Frame 5] Toma de arco orbital alrededor de su perfil, luz difusa de la hora dorada capturando su piel impecable; 10-12s: [Frame 6] Enfoque de bastidor desde el fondo rojo texturizado hasta las lentes oscuras y reflectantes; 12-13s: [Frame 7] Macro extremo en labios y piel, dispersión sub-superficial para belleza fotorrealista; 13-14s: [Frame 8] Corte de coincidencia a plano medio cercano, ligera inclinación de cabeza, luz fría de ventana equilibrando el cálido rojo; 14-15s: [Frame 9] Toma de retroceso suave con dolly, retrato elegante final. Iluminación: Luz de Borde + Difusa de Hora Dorada. BGM: Épico Cinemático — cello bajo con tensión suave. Foley: suave roce de tela sobre la piel, crujido silencioso de cuero. Negativo: paneo rápido, cámara de choque, acción temblorosa, cortes rápidos, fondo de color sólido, baja calidad.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068884596905873751.json)
+
+```text
+高級なマルチシーンのストーリーボードテンプレートを試してみてください！
+
+ワンクリックでプロフェッショナルなコマーシャル分割ショット：モデル着用ディスプレイ、顔の角度切り替え、レンズの光反射、ストリートファッションの雰囲気＆ディテールのクローズアップ。
+
+Seedance 2.0からのヒント👉: シネマティックな品質、スタジオ感の排除、自然な肌の質感、8k解像度。0-2秒: [Frame 1] 135mm望遠で高級ギャラリースペースの深紅のベルベットカーテンにスロープッシュイン、リムライトが生地の質感を強調; 2-4秒: [Frame 2] スライダー水平グライドでクリムゾン背景に対する女性のシルエットを明らかにする; 4-6秒: [Frame 3] 85mmスロープッシュインでオフホワイトのサングラスを繊細にフレームする手、ティンダル効果が影を貫く; 6-8秒: [Frame 4] マクロラックフォーカスで滑らかなサングラスフレームとベルベットの対比; 8-10秒: [Frame 5] 彼女のプロフィールを囲むオービタルアークショット、柔らかなゴールデンアワーディフューズが彼女の完璧な肌を捉える; 10-12秒: [Frame 6] テクスチャーのある赤い背景から暗く反射するレンズへのラックフォーカス; 12-13秒: [Frame 7] 唇と肌の極端なマクロ、フォトリアリスティックな美しさのためのサブサーフェススキャッタリング; 13-14秒: [Frame 8] ミディアムクローズアップへのマッチカット、わずかな頭の傾き、暖かい赤をバランスするクールな窓の光; 14-15秒: [Frame 9] 優雅なポートレートでの穏やかなプルバックドリーショット。照明: リムライト + ゴールデンアワーディフューズ。BGM: エピックシネマティック — 低音のチェロと柔らかな緊張感。フォーリー: 柔らかな布が肌に触れる音、静かな革のきしみ。ネガティブ: ウィップパン、クラッシュカム、シェイキーアクション、速いカット、単色背景、低品質。
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068884596905873751.json)
+
+```text
+고급 멀티 씬 스토리보드 템플릿으로 안경 광고를 시도해보세요!
+
+원클릭으로 전문적인 상업용 분할 샷: 모델 착용 디스플레이, 얼굴 각도 전환, 렌즈 빛 반사, 거리 패션 분위기 및 디테일 클로즈업.
+
+Seedance 2.0의 팁👉: 시네마틱 품질, 스튜디오 느낌 제거, 자연스러운 피부 질감, 8k 해상도. 0-2초: [Frame 1] 135mm 망원 렌즈로 고급 갤러리 공간의 진홍색 벨벳 커튼에 느린 푸시인, 원형 조명으로 직물 질감 강조; 2-4초: [Frame 2] 슬라이더 수평 글라이드로 진홍색 배경에 여자의 실루엣 드러내기; 4-6초: [Frame 3] 85mm 렌즈로 오프 화이트 선글라스를 섬세하게 감싸는 손에 느린 푸시인, 그림자를 뚫고 들어오는 틴달 효과; 6-8초: [Frame 4] 매크로 랙 포커스로 부드러운 선글라스 프레임에 초점, 벨벳과 대조; 8-10초: [Frame 5] 그녀의 옆모습을 따라 도는 궤도 아크 샷, 부드러운 황금 시간의 확산이 그녀의 완벽한 피부를 잡아냄; 10-12초: [Frame 6] 질감 있는 빨간 배경에서 어두운 반사 렌즈로 랙 포커스; 12-13초: [Frame 7] 입술과 피부의 극단적인 매크로, 포토리얼리즘을 위한 서브 서피스 스캐터링; 13-14초: [Frame 8] 매치 컷으로 중간 클로즈업, 약간의 머리 기울임, 따뜻한 빨간색을 균형 잡는 시원한 창문 빛; 14-15초: [Frame 9] 부드러운 풀백 돌리 샷, 최종 우아한 초상화. 조명: 림 라이트 + 황금 시간 확산. BGM: 에픽 시네마틱 — 부드러운 긴장감의 낮은 첼로. 폴리: 부드러운 직물이 피부에 닿는 소리, 조용한 가죽 삐걱거림. 부정적 요소: 휩 팬, 크래시 캠, 흔들리는 액션, 빠른 컷, 단색 배경, 저품질.
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068884596905873751.json)
+
+```text
+Experimente este modelo de storyboard de alta qualidade para óculos!
+
+Divisões de cenas comerciais profissionais com um clique: modelo usando óculos, troca de ângulo do rosto, reflexão de luz nas lentes, atmosfera de moda de rua e closes de detalhes.
+
+Dicas do Seedance 2.0👉: qualidade cinematográfica, elimine a sensação de estúdio, textura natural da pele, resolução 8k. 0-2s: [Frame 1] Telefoto de 135mm com aproximação lenta em uma cortina de veludo vermelho profundo em um espaço de galeria de luxo, Luz de Contorno destacando a textura do tecido; 2-4s: [Frame 2] Deslizamento horizontal do slider revelando a silhueta de uma mulher contra o fundo carmesim; 4-6s: [Frame 3] Aproximação lenta de 85mm nas mãos enquadrando delicadamente os óculos de sol off-white, Efeito Tyndall perfurando as sombras; 6-8s: [Frame 4] Foco seletivo macro na armação suave dos óculos, contrastando com o veludo; 8-10s: [Frame 5] Tiro em arco orbital ao redor de seu perfil, difusão suave da hora dourada capturando sua pele impecável; 10-12s: [Frame 6] Foco seletivo do fundo vermelho texturizado para as lentes escuras e reflexivas; 12-13s: [Frame 7] Macro extremo nos lábios e pele, espalhamento sub-superficial para beleza fotorrealista; 13-14s: [Frame 8] Corte de correspondência para close médio, leve inclinação da cabeça, luz fria da janela equilibrando o vermelho quente; 14-15s: [Frame 9] Tiro de dolly com recuo suave, retrato final elegante. Iluminação: Luz de Contorno + Difusão da Hora Dourada. BGM: Cinemático Épico — violoncelo baixo com tensão suave. Foley: tecido suave roçando a pele, rangido leve de couro. Negativo: pan rápido, câmera de impacto, ação tremida, cortes rápidos, fundo de cor sólida, baixa qualidade.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068884596905873751.json)
+
+```text
+Essayez ce modèle de storyboard multi-scènes haut de gamme pour lunettes !
+
+Prises de vue commerciales professionnelles en un clic : modèle portant l'affichage, changement d'angle du visage, réflexion de la lumière sur les lentilles, ambiance mode de rue et gros plans détaillés.
+
+Conseils de Seedance 2.0👉 : qualité cinématographique, éliminer l'effet studio, texture de peau naturelle, résolution 8k. 0-2s : [Frame 1] Téléobjectif 135mm avec un lent zoom avant sur un rideau de velours rouge profond dans un espace de galerie de luxe, lumière de contour mettant en valeur la texture du tissu ; 2-4s : [Frame 2] Glissement horizontal du slider révélant la silhouette d'une femme sur fond cramoisi ; 4-6s : [Frame 3] Lent zoom avant 85mm sur des mains encadrant délicatement les lunettes de soleil blanc cassé, effet Tyndall perçant à travers les ombres ; 6-8s : [Frame 4] Mise au point en rack macro sur la monture lisse des lunettes de soleil, contrastant avec le velours ; 8-10s : [Frame 5] Prise de vue en arc orbital autour de son profil, lumière diffuse de l'heure dorée capturant sa peau impeccable ; 10-12s : [Frame 6] Mise au point en rack du fond rouge texturé aux lentilles sombres et réfléchissantes ; 12-13s : [Frame 7] Macro extrême sur les lèvres et la peau, diffusion sous-cutanée pour une beauté photoréaliste ; 13-14s : [Frame 8] Coupe assortie à un plan rapproché moyen, légère inclinaison de la tête, lumière froide de la fenêtre équilibrant le rouge chaud ; 14-15s : [Frame 9] Prise de vue en dolly avec léger recul, portrait final élégant. Éclairage : lumière de contour + lumière diffuse de l'heure dorée. BGM : Épique Cinématographique — violoncelle bas avec tension douce. Foley : tissu doux frôlant la peau, léger grincement de cuir. Négatif : panoramique rapide, caméra de crash, action tremblante, coupes rapides, fond de couleur unie, basse qualité.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068884596905873751.json)
+
+```text
+尝试这个高端多场景分镜模板，用于眼镜广告！
+
+一键专业商业分镜：模特佩戴展示、面部角度切换、镜片光线反射、街头时尚氛围及细节特写。
+
+Seedance 2.0 提示👉：电影级质量，消除工作室感，自然肤质，8k分辨率。0-2秒：[Frame 1] 135mm长焦慢推镜头，聚焦于奢华画廊空间中的深红色天鹅绒幕布，边缘光突出织物纹理；2-4秒：[Frame 2] 滑轨水平滑动，揭示女性剪影与深红背景；4-6秒：[Frame 3] 85mm慢推镜头，手部精致地框住米白色太阳镜，廷德尔效应穿透阴影；6-8秒：[Frame 4] 微距镜头聚焦在光滑的太阳镜框，与天鹅绒形成对比；8-10秒：[Frame 5] 环绕弧形镜头拍摄她的侧脸，柔和的黄金时刻光线捕捉她完美的肌肤；10-12秒：[Frame 6] 从纹理红色背景到深色反光镜片的焦点转换；12-13秒：[Frame 7] 极限微距拍摄嘴唇和肌肤，次表面散射呈现逼真美感；13-14秒：[Frame 8] 匹配剪辑到中近景，轻微头部倾斜，冷色窗光平衡温暖的红色；14-15秒：[Frame 9] 轻柔拉远的推轨镜头，最终优雅肖像。灯光：边缘光 + 黄金时刻漫射。背景音乐：史诗电影风格 — 低音大提琴伴随柔和张力。音效：柔软织物轻刷肌肤，安静的皮革吱嘎声。负面：快速摇摄、撞击镜头、抖动动作、快速剪辑、纯色背景、低质量。
+```
+
+## 出处与许可
+
+- 原作者：[PixuryAI](https://x.com/PixuryAI) · 原帖：<https://x.com/PixuryAI/status/2068884596905873751>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068884596905873751.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

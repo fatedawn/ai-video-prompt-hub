@@ -1,0 +1,117 @@
+---
+id: "renoise-2057831366255849765"
+title: "A colossal reptilian kaiju with armored scales, glowing magma veins, massive…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "动作大片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Kaiju", "Action", "Military", "Photoreal", "Realistic World"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2057831366255849765.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Pierrick Chevallier | IA"
+original_author_url: "https://x.com/CharaspowerAI"
+original_post_url: "https://x.com/CharaspowerAI/status/2057831366255849765"
+published: "2026-05-22"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# A colossal reptilian kaiju with armored scales, glowing magma veins, massive…
+
+## 提示词（English）
+
+```text
+A colossal reptilian kaiju with armored scales, glowing magma veins, massive jaws and burning eyes, body towering over skyscrapers, muscles flexing with unstoppable force
+Advances through a destroyed city while a full military assault attacks from all sides—tanks firing, jets diving, missiles striking its body, explosions erupting continuously as it retaliates with tail sweeps and devastating roars
+War-torn urban battlefield filled with fire, smoke, collapsing buildings, helicopters circling and debris everywhere
+Starts with aerial IMAX-style wide shot of army formation, rapid drone dive toward kaiju, transitions into chaotic handheld ground tracking between tanks, whip pans following missile impacts, crash zoom on creature roar, orbit shot as it destroys multiple units, debris and sparks hitting lens, heavy camera shake, orange firelight mixed with dark smoke creating apocalyptic war atmosphere
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2057831366255849765.json)
+
+```text
+Un colosal kaiju reptiliano con escamas blindadas, venas de magma resplandecientes, mandíbulas masivas y ojos ardientes, cuerpo que se eleva sobre los rascacielos, músculos flexionándose con fuerza imparable
+Avanza a través de una ciudad destruida mientras un asalto militar completo ataca desde todos los lados—tanques disparando, jets zambulléndose, misiles impactando su cuerpo, explosiones estallando continuamente mientras se defiende con barridos de cola y rugidos devastadores
+Campo de batalla urbano devastado por la guerra lleno de fuego, humo, edificios colapsando, helicópteros circulando y escombros por todas partes
+Comienza con una toma aérea estilo IMAX de la formación del ejército, un rápido descenso de dron hacia el kaiju, transiciones a un seguimiento caótico en tierra con cámara en mano entre tanques, whip pans siguiendo los impactos de misiles, crash zoom en el rugido de la criatura, toma orbital mientras destruye múltiples unidades, escombros y chispas golpeando el lente, fuerte sacudida de cámara, luz de fuego naranja mezclada con humo oscuro creando una atmósfera de guerra apocalíptica
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2057831366255849765.json)
+
+```text
+---
+Un colossal kaiju reptilien avec des écailles blindées, des veines de magma lumineuses, des mâchoires massives et des yeux brûlants, son corps dominant les gratte-ciels, ses muscles se contractant avec une force imparable
+Avance à travers une ville détruite tandis qu'une attaque militaire complète l'attaque de tous côtés—tanks tirant, jets plongeant, missiles frappant son corps, explosions éclatant continuellement alors qu'il riposte avec des balayages de queue et des rugissements dévastateurs
+Champ de bataille urbain ravagé par la guerre rempli de feu, de fumée, de bâtiments s'effondrant, d'hélicoptères tournant en rond et de débris partout
+Commence par un plan large aérien de style IMAX de la formation de l'armée, plongée rapide de drone vers le kaiju, transition vers une poursuite chaotique au sol à la main entre les tanks, panoramiques rapides suivant les impacts de missiles, zoom brutal sur le rugissement de la créature, plan en orbite alors qu'il détruit plusieurs unités, débris et étincelles frappant l'objectif, forte secousse de la caméra, lumière de feu orange mélangée à de la fumée sombre créant une atmosphère de guerre apocalyptique
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2057831366255849765.json)
+
+```text
+---
+装甲の鱗、輝くマグマの静脈、巨大な顎と燃える目を持つ巨大な爬虫類の怪獣が、摩天楼を超える体躯で立ちはだかり、圧倒的な力で筋肉を動かしながら進む。破壊された都市を進み、四方からの全面的な軍事攻撃を受ける—戦車が砲撃し、ジェット機が急降下し、ミサイルがその体に命中し、爆発が連続して起こる中、尾を振り回し、破壊的な咆哮で応戦する。戦火に包まれた都市の戦場は、火と煙、崩壊する建物、旋回するヘリコプター、そして至る所に散らばる瓦礫で満ちている。
+
+シーンは、軍隊の編成を空撮したIMAXスタイルの広角ショットから始まり、ドローンが急降下して怪獣に向かい、混沌とした手持ちカメラで戦車の間を追跡し、ミサイルの衝撃を追うウィップパン、クリーチャーの咆哮にズームインし、複数の部隊を破壊する様子をオービットショットで捉え、レンズに当たる瓦礫と火花、激しいカメラの揺れ、暗い煙と混ざり合うオレンジ色の火光が黙示録的な戦争の雰囲気を作り出す。
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2057831366255849765.json)
+
+```text
+거대한 파충류 카이주가 갑옷 같은 비늘, 빛나는 마그마의 맥, 거대한 턱과 불타는 눈을 가진 채로 고층 빌딩을 넘어서 몸을 드러내며, 멈출 수 없는 힘으로 근육을 움직입니다.
+파괴된 도시를 가로지르며 전면에서 군사 공격을 받습니다—탱크가 발사하고, 전투기가 급강하하며, 미사일이 몸에 명중하고, 폭발이 계속해서 일어나는 가운데 꼬리 휘두름과 파괴적인 포효로 반격합니다.
+전쟁으로 황폐해진 도시 전장은 불과 연기, 무너지는 건물, 헬리콥터가 선회하고 파편이 사방에 흩어져 있습니다.
+군대의 형성을 항공 IMAX 스타일의 와이드 샷으로 시작하여, 카이주를 향한 빠른 드론 다이브, 혼란스러운 핸드헬드 지상 추적이 탱크 사이로 전환되고, 미사일 충격을 따라가는 휩 팬, 생물의 포효에 대한 크래시 줌, 여러 유닛을 파괴하는 동안의 오르빗 샷, 렌즈에 부딪히는 파편과 불꽃, 무거운 카메라 흔들림, 어두운 연기와 섞인 주황색 불빛이 종말론적 전쟁 분위기를 만들어냅니다.
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2057831366255849765.json)
+
+```text
+Um colossal kaiju reptiliano com escamas blindadas, veias de magma brilhantes, mandíbulas massivas e olhos em chamas, corpo que se eleva sobre arranha-céus, músculos flexionando com força imparável
+Avança por uma cidade destruída enquanto um ataque militar completo ataca de todos os lados—tanques disparando, jatos mergulhando, mísseis atingindo seu corpo, explosões irrompendo continuamente enquanto ele retalia com golpes de cauda e rugidos devastadores
+Campo de batalha urbano devastado pela guerra, cheio de fogo, fumaça, prédios desmoronando, helicópteros circulando e destroços por toda parte
+Começa com uma tomada aérea em estilo IMAX de formação do exército, mergulho rápido de drone em direção ao kaiju, transições para um rastreamento caótico de câmera de mão no chão entre tanques, whip pans seguindo impactos de mísseis, crash zoom no rugido da criatura, tomada orbital enquanto destrói várias unidades, destroços e faíscas atingindo a lente, forte tremor de câmera, luz de fogo laranja misturada com fumaça escura criando uma atmosfera de guerra apocalíptica
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2057831366255849765.json)
+
+```text
+一个巨大的爬行动物怪兽，拥有装甲般的鳞片、发光的岩浆脉络、巨大的下颚和燃烧的眼睛，身体高耸于摩天大楼之上，肌肉以不可阻挡的力量收缩
+在一座被摧毁的城市中前进，四面八方遭到全面军事攻击——坦克开火、战斗机俯冲、导弹击中其身体，爆炸不断发生，而它则以尾巴横扫和毁灭性的咆哮进行反击
+战火纷飞的城市战场充满了火焰、烟雾、倒塌的建筑物，直升机盘旋，碎片四处飞散
+以空中IMAX风格的广角镜头开始，展示军队阵型，快速无人机俯冲向怪兽，转入混乱的手持地面追踪镜头，跟随坦克之间的导弹撞击，快速摇镜头捕捉生物咆哮，环绕镜头展示其摧毁多个单位，碎片和火花击中镜头，剧烈的相机抖动，橙色火光与黑暗烟雾交织，营造出末日般的战争氛围
+```
+
+## 出处与许可
+
+- 原作者：[Pierrick Chevallier | IA](https://x.com/CharaspowerAI) · 原帖：<https://x.com/CharaspowerAI/status/2057831366255849765>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2057831366255849765.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

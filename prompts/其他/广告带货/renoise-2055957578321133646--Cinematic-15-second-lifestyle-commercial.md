@@ -1,0 +1,370 @@
+---
+id: "renoise-2055957578321133646"
+title: "Cinematic 15-second lifestyle commercial, ultra-realistic 4K, filmic color…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "其他"
+direction: null
+genre: "广告带货"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Product Ad", "F&B", "Photoreal", "Realistic World", "Macro", "POV"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055957578321133646.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Salt"
+original_author_url: "https://x.com/XMonetizationC_"
+original_post_url: "https://x.com/XMonetizationC_/status/2055957578321133646"
+published: "2026-05-17"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Cinematic 15-second lifestyle commercial, ultra-realistic 4K, filmic color…
+
+## 提示词（English）
+
+```text
+Cinematic 15-second lifestyle commercial, ultra-realistic 4K, filmic color grading, soft golden morning light, shallow depth of field, smooth cinematic camera movements, Gen Z aesthetic, premium ad quality like a high-end coffee brand commercial.
+
+Scene sequence with perfect timing:
+
+0–4s: Extreme close-up on a tall clear glass on a bright modern kitchen counter. Delicate hands drop ice cubes in, then pour rich dark espresso shot slowly into creamy milk, creating beautiful swirling layers. Metal stirrer gently mixes the iced latte. Soft bokeh background, steam rising, warm sunlight streaming through window.
+
+4–7s: Medium shot of a beautiful 25-year-old woman with wavy light-brown hair, wearing a soft yellow sleeveless top and light jeans. She stands in a sunlit minimalist kitchen full of plants and wooden accents. She smiles softly, picks up the finished iced latte from the wooden table, and looks content.
+
+7–11s: Quick smooth transition to sunny European street. Close-up of bakery display case: hands use tongs to pick a golden, flaky croissant. Cut to POV hand holding a brown paper bag with fresh croissants while walking on cobblestone sidewalk, dappled sunlight and tree shadows moving across the ground.
+
+11–15s: Elegant final shot of the same woman walking outdoors. Wind gently blows her hair as she takes a satisfying bite of the croissant, then turns toward camera with a peaceful, happy smile while holding her iced latte and croissant bag. Soft natural sunlight, urban background with cafes and greenery slightly blurred.
+
+Overall mood: Relaxing, aspirational, premium lifestyle vibe. Hyper-realistic details on latte foam, croissant flakes, skin texture, and fabric. Cinematic camera work with subtle handheld feel, slow graceful pans and tracking shots. 4K resolution, 24fps, professional color grading, no text unless subtle elegant logo in corner. Masterpiece, best quality, photorealistic.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055957578321133646.json)
+
+```text
+---
+Comercial de estilo de vida cinematográfico de 15 segundos, ultra-realista en 4K, gradación de color fílmica, suave luz dorada de la mañana, poca profundidad de campo, movimientos de cámara cinematográficos suaves, estética Gen Z, calidad de anuncio premium como un comercial de una marca de café de alta gama.
+
+Secuencia de escenas con tiempo perfecto:
+
+0–4s: Primer plano extremo de un vaso alto y transparente en una encimera de cocina moderna y luminosa. Manos delicadas dejan caer cubos de hielo, luego vierten lentamente un rico espresso oscuro en leche cremosa, creando hermosas capas arremolinadas. Un agitador de metal mezcla suavemente el latte helado. Fondo con suave bokeh, vapor elevándose, cálida luz solar entrando por la ventana.
+
+4–7s: Toma media de una hermosa mujer de 25 años con cabello castaño claro ondulado, vistiendo una blusa sin mangas amarilla suave y jeans claros. Ella está en una cocina minimalista iluminada por el sol, llena de plantas y acentos de madera. Sonríe suavemente, recoge el latte helado terminado de la mesa de madera y parece satisfecha.
+
+7–11s: Transición rápida y suave a una calle europea soleada. Primer plano de una vitrina de panadería: manos usan pinzas para tomar un croissant dorado y hojaldrado. Corte a una vista en primera persona de una mano sosteniendo una bolsa de papel marrón con croissants frescos mientras camina por una acera de adoquines, luz solar moteada y sombras de árboles moviéndose por el suelo.
+
+11–15s: Toma final elegante de la misma mujer caminando al aire libre. El viento sopla suavemente su cabello mientras da un mordisco satisfactorio al croissant, luego se gira hacia la cámara con una sonrisa pacífica y feliz mientras sostiene su latte helado y la bolsa de croissant. Suave luz natural, fondo urbano con cafés y vegetación ligeramente desenfocados.
+
+Estado de ánimo general: Relajante, aspiracional, ambiente de estilo de vida premium. Detalles hiperrealistas en la espuma del latte, las hojuelas del croissant, la textura de la piel y la tela. Trabajo de cámara cinematográfico con una sensación sutil de cámara en mano, suaves paneos y tomas de seguimiento. Resolución 4K, 24fps, gradación de color profesional, sin texto a menos que sea un logo elegante y sutil en la esquina. Obra maestra, mejor calidad, fotorrealista.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] ✅️ Paso 1: Abre Yapper
+Ve a Crear → Video
+
+✅️ Paso 2: Elige el modelo
+Selecciona Seedance 2.0 — aquí es donde ocurre la magia cinematográfica. Maneja el movimiento, la dinámica de la cámara, el realismo y la consistencia de la escena increíblemente bien.
+
+✅️ Paso 3: Escribe o pega un prompt fuerte
+
+Cinematic 15-second lifestyle commercial, ultra-realistic 4K, filmic color grading, soft golden morning light, shallow depth of field, smooth cinematic camera movements, Gen Z aesthetic, premium ad quality like a high-end coffee brand commercial.
+
+Scene sequence with perfect timing:
+
+0–4s: Extreme close-up on a tall clear glass on a bright modern kitchen counter. Delicate hands drop ice cubes in, then pour rich dark espresso shot slowly into creamy milk, creating beautiful swirling layers. Metal stirrer gently mixes the iced latte. Soft bokeh background, steam rising, warm sunlight streaming through window.
+
+4–7s: Medium shot of a beautiful 25-year-old woman with wavy light-brown hair, wearing a soft yellow sleeveless top and light jeans. She stands in a sunlit minimalist kitchen full of plants and wooden accents. She smiles softly, picks up the finished iced latte from the wooden table, and looks content.
+
+7–11s: Quick smooth transition to sunny European street. Close-up of bakery display case: hands use tongs to pick a golden, flaky croissant. Cut to POV hand holding a brown paper bag with fresh croissants while walking on cobblestone sidewalk, dappled sunlight and tree shadows moving across the ground.
+
+11–15s: Elegant final shot of the same woman walking outdoors. Wind gently blows her hair as she takes a satisfying bite of the croissant, then turns toward camera with a peaceful, happy smile while holding her iced latte and croissant bag. Soft natural sunlight, urban background with cafes and greenery slightly blurred.
+
+Overall mood: Relaxing, aspirational, premium lifestyle vibe. Hyper-realistic details on latte foam, croissant flakes, skin texture, and fabric. Cinematic camera work with subtle handheld feel, slow graceful pans and tracking shots. 4K resolution, 24fps, professional color grading, no text unless subtle elegant logo in corner. Masterpiece, best quality, photorealistic.
+
+✅️ Paso 4: Presiona Generar
+En segundos, Seedance 2.0 convierte tu prompt en una secuencia cinematográfica en https://t.co/9HR4woB48B
+
+[Hilo 2] Pruébalo tú mismo y comparte tus experiencias:
+
+https://t.co/j9d97k4xNX
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055957578321133646.json)
+
+```text
+---
+Publicité lifestyle cinématographique de 15 secondes, ultra-réaliste en 4K, étalonnage des couleurs filmique, douce lumière dorée du matin, faible profondeur de champ, mouvements de caméra cinématographiques fluides, esthétique Gen Z, qualité publicitaire premium comme une publicité de marque de café haut de gamme.
+
+Séquence de scènes avec un timing parfait :
+
+0–4s : Gros plan extrême sur un grand verre transparent sur un comptoir de cuisine moderne et lumineux. Des mains délicates déposent des glaçons, puis versent lentement un espresso noir riche dans du lait crémeux, créant de magnifiques couches tourbillonnantes. Un agitateur en métal mélange doucement le latte glacé. Arrière-plan en bokeh doux, vapeur s'élevant, lumière chaude du soleil traversant la fenêtre.
+
+4–7s : Plan moyen d'une belle femme de 25 ans aux cheveux châtain clair ondulés, portant un haut sans manches jaune doux et un jean clair. Elle se tient dans une cuisine minimaliste baignée de soleil, pleine de plantes et d'accents en bois. Elle sourit doucement, prend le latte glacé terminé sur la table en bois et semble satisfaite.
+
+7–11s : Transition rapide et fluide vers une rue ensoleillée d'Europe. Gros plan sur une vitrine de boulangerie : des mains utilisent des pinces pour prendre un croissant doré et feuilleté. Coupe à une vue à la première personne tenant un sac en papier brun avec des croissants frais tout en marchant sur un trottoir pavé, lumière tachetée et ombres des arbres se déplaçant sur le sol.
+
+11–15s : Plan final élégant de la même femme marchant à l'extérieur. Le vent souffle doucement ses cheveux alors qu'elle prend une bouchée satisfaisante du croissant, puis se tourne vers la caméra avec un sourire paisible et heureux tout en tenant son latte glacé et son sac de croissants. Lumière naturelle douce, arrière-plan urbain avec cafés et verdure légèrement flous.
+
+Ambiance générale : Relaxante, inspirante, ambiance lifestyle premium. Détails hyper-réalistes sur la mousse du latte, les flocons de croissant, la texture de la peau et le tissu. Travail de caméra cinématographique avec une sensation subtile de caméra à main, mouvements lents et gracieux de panoramique et de suivi. Résolution 4K, 24fps, étalonnage des couleurs professionnel, pas de texte sauf un logo élégant et subtil dans le coin. Chef-d'œuvre, meilleure qualité, photoréaliste.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] ✅️ Étape 1 : Ouvrir Yapper
+Allez à Créer → Vidéo
+
+✅️ Étape 2 : Choisir le modèle
+Sélectionnez Seedance 2.0 — c'est là que la magie cinématographique opère. Il gère incroyablement bien le mouvement, la dynamique de la caméra, le réalisme et la cohérence des scènes.
+
+✅️ Étape 3 : Écrire ou coller un prompt fort
+
+Cinematic 15-second lifestyle commercial, ultra-realistic 4K, filmic color grading, soft golden morning light, shallow depth of field, smooth cinematic camera movements, Gen Z aesthetic, premium ad quality like a high-end coffee brand commercial.
+
+Scene sequence with perfect timing:
+
+0–4s: Extreme close-up on a tall clear glass on a bright modern kitchen counter. Delicate hands drop ice cubes in, then pour rich dark espresso shot slowly into creamy milk, creating beautiful swirling layers. Metal stirrer gently mixes the iced latte. Soft bokeh background, steam rising, warm sunlight streaming through window.
+
+4–7s: Medium shot of a beautiful 25-year-old woman with wavy light-brown hair, wearing a soft yellow sleeveless top and light jeans. She stands in a sunlit minimalist kitchen full of plants and wooden accents. She smiles softly, picks up the finished iced latte from the wooden table, and looks content.
+
+7–11s: Quick smooth transition to sunny European street. Close-up of bakery display case: hands use tongs to pick a golden, flaky croissant. Cut to POV hand holding a brown paper bag with fresh croissants while walking on cobblestone sidewalk, dappled sunlight and tree shadows moving across the ground.
+
+11–15s: Elegant final shot of the same woman walking outdoors. Wind gently blows her hair as she takes a satisfying bite of the croissant, then turns toward camera with a peaceful, happy smile while holding her iced latte and croissant bag. Soft natural sunlight, urban background with cafes and greenery slightly blurred.
+
+Overall mood: Relaxing, aspirational, premium lifestyle vibe. Hyper-realistic details on latte foam, croissant flakes, skin texture, and fabric. Cinematic camera work with subtle handheld feel, slow graceful pans and tracking shots. 4K resolution, 24fps, professional color grading, no text unless subtle elegant logo in corner. Masterpiece, best quality, photorealistic.
+
+✅️ Étape 4 : Appuyez sur Générer
+En quelques secondes, Seedance 2.0 transforme votre prompt en une séquence cinématographique sur https://t.co/9HR4woB48B
+
+[Fil 2] Essayez-le vous-même et partagez vos expériences :
+
+https://t.co/j9d97k4xNX
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055957578321133646.json)
+
+```text
+---
+シネマティックな15秒のライフスタイルコマーシャル、超リアルな4K、フィルム的なカラーグレーディング、柔らかなゴールデンモーニングライト、浅い被写界深度、滑らかなシネマティックカメラの動き、Z世代の美学、高級コーヒーブランドのコマーシャルのようなプレミアムな広告品質。
+
+完璧なタイミングのシーンシーケンス：
+
+0–4秒: 明るいモダンなキッチンカウンターに置かれた背の高いクリアグラスの極端なクローズアップ。繊細な手が氷を落とし、濃厚なダークエスプレッソショットをクリーミーなミルクにゆっくりと注ぎ、美しい渦巻きの層を作り出す。メタルのスティラーがアイスラテを優しく混ぜる。ソフトなボケ背景、立ち上る蒸気、窓から差し込む暖かな日差し。
+
+4–7秒: 波打つライトブラウンの髪を持つ美しい25歳の女性のミディアムショット。彼女は柔らかな黄色のノースリーブトップとライトジーンズを着ている。植物と木製のアクセントがいっぱいの、日差しの差し込むミニマリストなキッチンに立っている。彼女は柔らかく微笑み、木製のテーブルから完成したアイスラテを手に取り、満足そうに見つめる。
+
+7–11秒: 晴れたヨーロッパの通りへのスムーズなクイックトランジション。ベーカリーのディスプレイケースのクローズアップ：手がトングを使って黄金色のフレーク状のクロワッサンを選ぶ。石畳の歩道を歩きながら、新鮮なクロワッサンの入った茶色の紙袋を持つPOVカット。地面を横切る木の影と斑点の日差し。
+
+11–15秒: 同じ女性が屋外を歩くエレガントな最終ショット。風が彼女の髪を優しく吹き、クロワッサンを満足げに一口食べ、アイスラテとクロワッサンの袋を持ちながら、穏やかで幸せそうな笑顔でカメラに向かって振り向く。柔らかな自然光、カフェと緑がわずかにぼやけた都会の背景。
+
+全体のムード: リラックスした、憧れの、プレミアムなライフスタイルの雰囲気。ラテの泡、クロワッサンのフレーク、肌の質感、布地の超リアルなディテール。微妙な手持ち感のあるシネマティックなカメラワーク、ゆっくりとした優雅なパンとトラッキングショット。4K解像度、24fps、プロフェッショナルなカラーグレーディング、角に控えめでエレガントなロゴがある場合を除きテキストなし。傑作、最高品質、フォトリアリスティック。
+
+--- THREAD CONTINUATION ---
+[スレッド1] ✅️ ステップ1: Yapperを開く
+Create → Videoに移動
+
+✅️ ステップ2: モデルを選択
+Seedance 2.0を選択 — ここでシネマティックな魔法が起こります。動き、カメラのダイナミクス、リアリズム、シーンの一貫性を非常にうまく処理します。
+
+✅️ ステップ3: 強力なプロンプトを書くまたは貼り付ける
+
+Cinematic 15-second lifestyle commercial, ultra-realistic 4K, filmic color grading, soft golden morning light, shallow depth of field, smooth cinematic camera movements, Gen Z aesthetic, premium ad quality like a high-end coffee brand commercial.
+
+Scene sequence with perfect timing:
+
+0–4s: Extreme close-up on a tall clear glass on a bright modern kitchen counter. Delicate hands drop ice cubes in, then pour rich dark espresso shot slowly into creamy milk, creating beautiful swirling layers. Metal stirrer gently mixes the iced latte. Soft bokeh background, steam rising, warm sunlight streaming through window.
+
+4–7s: Medium shot of a beautiful 25-year-old woman with wavy light-brown hair, wearing a soft yellow sleeveless top and light jeans. She stands in a sunlit minimalist kitchen full of plants and wooden accents. She smiles softly, picks up the finished iced latte from the wooden table, and looks content.
+
+7–11s: Quick smooth transition to sunny European street. Close-up of bakery display case: hands use tongs to pick a golden, flaky croissant. Cut to POV hand holding a brown paper bag with fresh croissants while walking on cobblestone sidewalk, dappled sunlight and tree shadows moving across the ground.
+
+11–15s: Elegant final shot of the same woman walking outdoors. Wind gently blows her hair as she takes a satisfying bite of the croissant, then turns toward camera with a peaceful, happy smile while holding her iced latte and croissant bag. Soft natural sunlight, urban background with cafes and greenery slightly blurred.
+
+Overall mood: Relaxing, aspirational, premium lifestyle vibe. Hyper-realistic details on latte foam, croissant flakes, skin texture, and fabric. Cinematic camera work with subtle handheld feel, slow graceful pans and tracking shots. 4K resolution, 24fps, professional color grading, no text unless subtle elegant logo in corner. Masterpiece, best quality, photorealistic.
+
+✅️ ステップ4: Generateを押す
+数秒で、Seedance 2.0があなたのプロンプトをシネマティックなシーケンスに変えます https://t.co/9HR4woB48B
+
+[スレッド2] 自分で試して、経験を共有してください：
+
+https://t.co/j9d97k4xNX
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055957578321133646.json)
+
+```text
+---
+시네마틱한 15초 라이프스타일 광고, 초현실적인 4K, 영화 같은 색 보정, 부드러운 황금빛 아침 햇살, 얕은 심도, 부드러운 시네마틱 카메라 움직임, Z세대 미학, 고급 커피 브랜드 광고 같은 프리미엄 광고 품질.
+
+완벽한 타이밍의 장면 시퀀스:
+
+0–4초: 밝고 현대적인 주방 카운터 위에 있는 높은 투명 유리잔에 극도로 가까운 클로즈업. 섬세한 손이 얼음을 떨어뜨리고, 진한 다크 에스프레소 샷을 천천히 크리미한 우유에 부어 아름다운 소용돌이 층을 만듭니다. 금속 스터러가 부드럽게 아이스 라떼를 섞습니다. 부드러운 보케 배경, 김이 올라오고, 창문을 통해 따뜻한 햇살이 비칩니다.
+
+4–7초: 물결치는 밝은 갈색 머리를 가진 아름다운 25세 여성의 중간 샷. 그녀는 부드러운 노란색 민소매 상의와 밝은 청바지를 입고 있습니다. 식물과 나무 장식으로 가득한 햇살이 비치는 미니멀리스트 주방에 서 있습니다. 그녀는 부드럽게 미소 짓고, 나무 테이블에서 완성된 아이스 라떼를 집어 들고 만족스러운 표정을 짓습니다.
+
+7–11초: 햇살이 비치는 유럽 거리로 빠르게 부드럽게 전환. 제과점 진열대의 클로즈업: 손이 집게로 황금빛 바삭한 크루아상을 집습니다. 자갈길 인도를 걸으며 신선한 크루아상이 든 갈색 종이봉투를 들고 있는 POV 손으로 컷 전환, 햇살이 반짝이고 나무 그림자가 바닥을 가로지릅니다.
+
+11–15초: 같은 여성이 야외를 걷는 우아한 마지막 샷. 바람이 그녀의 머리를 부드럽게 날리며 크루아상을 만족스럽게 한 입 베어 물고, 아이스 라떼와 크루아상 봉투를 들고 평화롭고 행복한 미소를 지으며 카메라를 향해 돌아섭니다. 부드러운 자연 햇살, 카페와 녹지가 약간 흐릿하게 보이는 도시 배경.
+
+전체 분위기: 편안하고, 열망을 불러일으키며, 프리미엄 라이프스타일 느낌. 라떼 거품, 크루아상 조각, 피부 질감, 직물의 초현실적인 디테일. 미세한 핸드헬드 느낌의 시네마틱 카메라 작업, 느리고 우아한 팬과 트래킹 샷. 4K 해상도, 24fps, 전문적인 색 보정, 모서리에 우아한 로고가 없는 한 텍스트 없음. 걸작, 최고의 품질, 포토리얼리스틱.
+
+--- THREAD CONTINUATION ---
+[Thread 1] ✅️ Step 1: Open Yapper
+Create → Video로 이동
+
+✅️ Step 2: Choose the model
+Seedance 2.0 선택 — 여기서 시네마틱 매직이 일어납니다. 모션, 카메라 다이내믹스, 리얼리즘, 장면 일관성을 놀랍도록 잘 처리합니다.
+
+✅️ Step 3: Write or paste a strong prompt
+
+Cinematic 15-second lifestyle commercial, ultra-realistic 4K, filmic color grading, soft golden morning light, shallow depth of field, smooth cinematic camera movements, Gen Z aesthetic, premium ad quality like a high-end coffee brand commercial.
+
+Scene sequence with perfect timing:
+
+0–4s: Extreme close-up on a tall clear glass on a bright modern kitchen counter. Delicate hands drop ice cubes in, then pour rich dark espresso shot slowly into creamy milk, creating beautiful swirling layers. Metal stirrer gently mixes the iced latte. Soft bokeh background, steam rising, warm sunlight streaming through window.
+
+4–7s: Medium shot of a beautiful 25-year-old woman with wavy light-brown hair, wearing a soft yellow sleeveless top and light jeans. She stands in a sunlit minimalist kitchen full of plants and wooden accents. She smiles softly, picks up the finished iced latte from the wooden table, and looks content.
+
+7–11s: Quick smooth transition to sunny European street. Close-up of bakery display case: hands use tongs to pick a golden, flaky croissant. Cut to POV hand holding a brown paper bag with fresh croissants while walking on cobblestone sidewalk, dappled sunlight and tree shadows moving across the ground.
+
+11–15s: Elegant final shot of the same woman walking outdoors. Wind gently blows her hair as she takes a satisfying bite of the croissant, then turns toward camera with a peaceful, happy smile while holding her iced latte and croissant bag. Soft natural sunlight, urban background with cafes and greenery slightly blurred.
+
+Overall mood: Relaxing, aspirational, premium lifestyle vibe. Hyper-realistic details on latte foam, croissant flakes, skin texture, and fabric. Cinematic camera work with subtle handheld feel, slow graceful pans and tracking shots. 4K resolution, 24fps, professional color grading, no text unless subtle elegant logo in corner. Masterpiece, best quality, photorealistic.
+
+✅️ Step 4: Hit Generate
+몇 초 만에 Seedance 2.0이 당신의 프롬프트를 시네마틱 시퀀스로 변환합니다 https://t.co/9HR4woB48B
+
+[Thread 2] 직접 시도해보고 경험을 공유하세요:
+
+https://t.co/j9d97k4xNX
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055957578321133646.json)
+
+```text
+---
+Comercial de estilo de vida cinematográfico de 15 segundos, ultra-realista em 4K, gradação de cor fílmica, luz suave dourada da manhã, pouca profundidade de campo, movimentos de câmera cinematográficos suaves, estética Gen Z, qualidade de anúncio premium como um comercial de marca de café de alto padrão.
+
+Sequência de cenas com tempo perfeito:
+
+0–4s: Close-up extremo em um copo alto e transparente em uma bancada de cozinha moderna e iluminada. Mãos delicadas colocam cubos de gelo, depois despejam lentamente um rico shot de espresso escuro no leite cremoso, criando belas camadas em espiral. Um misturador de metal mexe suavemente o latte gelado. Fundo com bokeh suave, vapor subindo, luz solar quente entrando pela janela.
+
+4–7s: Plano médio de uma bela mulher de 25 anos com cabelo castanho claro ondulado, vestindo uma blusa amarela sem mangas e jeans claros. Ela está em uma cozinha minimalista iluminada pelo sol, cheia de plantas e detalhes em madeira. Ela sorri suavemente, pega o latte gelado finalizado da mesa de madeira e parece satisfeita.
+
+7–11s: Transição rápida e suave para uma rua ensolarada na Europa. Close-up de uma vitrine de padaria: mãos usam pinças para pegar um croissant dourado e folhado. Corte para a visão em primeira pessoa segurando um saco de papel marrom com croissants frescos enquanto caminha na calçada de paralelepípedos, luz do sol salpicada e sombras de árvores se movendo pelo chão.
+
+11–15s: Elegante cena final da mesma mulher caminhando ao ar livre. O vento sopra suavemente seu cabelo enquanto ela dá uma mordida satisfatória no croissant, depois se vira para a câmera com um sorriso pacífico e feliz enquanto segura seu latte gelado e o saco de croissant. Luz natural suave, fundo urbano com cafés e vegetação levemente desfocados.
+
+Humor geral: Relaxante, aspiracional, vibe de estilo de vida premium. Detalhes hiper-realistas na espuma do latte, flocos do croissant, textura da pele e tecido. Trabalho de câmera cinematográfico com sensação sutil de mão, pans lentos e graciosos e tomadas de rastreamento. Resolução 4K, 24fps, gradação de cor profissional, sem texto a menos que um logotipo elegante e sutil no canto. Obra-prima, melhor qualidade, fotorrealista.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] ✅️ Passo 1: Abra o Yapper
+Vá para Criar → Vídeo
+
+✅️ Passo 2: Escolha o modelo
+Selecione Seedance 2.0 — é aqui que a mágica cinematográfica acontece. Ele lida incrivelmente bem com movimento, dinâmica de câmera, realismo e consistência de cena.
+
+✅️ Passo 3: Escreva ou cole um prompt forte
+
+Cinematic 15-second lifestyle commercial, ultra-realistic 4K, filmic color grading, soft golden morning light, shallow depth of field, smooth cinematic camera movements, Gen Z aesthetic, premium ad quality like a high-end coffee brand commercial.
+
+Scene sequence with perfect timing:
+
+0–4s: Extreme close-up on a tall clear glass on a bright modern kitchen counter. Delicate hands drop ice cubes in, then pour rich dark espresso shot slowly into creamy milk, creating beautiful swirling layers. Metal stirrer gently mixes the iced latte. Soft bokeh background, steam rising, warm sunlight streaming through window.
+
+4–7s: Medium shot of a beautiful 25-year-old woman with wavy light-brown hair, wearing a soft yellow sleeveless top and light jeans. She stands in a sunlit minimalist kitchen full of plants and wooden accents. She smiles softly, picks up the finished iced latte from the wooden table, and looks content.
+
+7–11s: Quick smooth transition to sunny European street. Close-up of bakery display case: hands use tongs to pick a golden, flaky croissant. Cut to POV hand holding a brown paper bag with fresh croissants while walking on cobblestone sidewalk, dappled sunlight and tree shadows moving across the ground.
+
+11–15s: Elegant final shot of the same woman walking outdoors. Wind gently blows her hair as she takes a satisfying bite of the croissant, then turns toward camera with a peaceful, happy smile while holding her iced latte and croissant bag. Soft natural sunlight, urban background with cafes and greenery slightly blurred.
+
+Overall mood: Relaxing, aspirational, premium lifestyle vibe. Hyper-realistic details on latte foam, croissant flakes, skin texture, and fabric. Cinematic camera work with subtle handheld feel, slow graceful pans and tracking shots. 4K resolution, 24fps, professional color grading, no text unless subtle elegant logo in corner. Masterpiece, best quality, photorealistic.
+
+✅️ Passo 4: Clique em Gerar
+Em segundos, o Seedance 2.0 transforma seu prompt em uma sequência cinematográfica em https://t.co/9HR4woB48B
+
+[Tópico 2] Experimente por si mesmo e compartilhe suas experiências:
+
+https://t.co/j9d97k4xNX
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055957578321133646.json)
+
+```text
+---
+电影级15秒生活方式广告，超现实4K，电影色彩分级，柔和的金色晨光，浅景深，流畅的电影镜头运动，Z世代美学，像高端咖啡品牌广告一样的优质广告质量。
+
+场景序列，完美时机：
+
+0–4秒：极近距离拍摄在明亮现代厨房台面上的高透明玻璃。纤细的手将冰块放入，然后慢慢将浓郁的深色浓缩咖啡倒入奶油牛奶中，形成美丽的漩涡层。金属搅拌器轻轻搅拌冰拿铁。柔和的散景背景，蒸汽升起，温暖的阳光透过窗户洒入。
+
+4–7秒：中景拍摄一位美丽的25岁女性，波浪状浅棕色头发，穿着柔和的黄色无袖上衣和浅色牛仔裤。她站在阳光明媚的极简厨房中，满是植物和木质装饰。她微笑着，轻轻拿起木桌上的冰拿铁，看起来很满足。
+
+7–11秒：快速平滑过渡到阳光明媚的欧洲街道。近距离拍摄面包店展示柜：手用夹子挑选金黄色、酥脆的羊角面包。切换到POV视角，手拿着装有新鲜羊角面包的棕色纸袋，走在鹅卵石人行道上，斑驳的阳光和树影在地面上移动。
+
+11–15秒：优雅的最后一幕，同一位女性在户外行走。风轻轻吹动她的头发，她满意地咬了一口羊角面包，然后转向镜头，露出平和、幸福的微笑，同时手持冰拿铁和羊角面包袋。柔和的自然阳光，城市背景中咖啡馆和绿植略微模糊。
+
+整体氛围：放松、令人向往的高端生活方式氛围。拿铁泡沫、羊角面包碎屑、皮肤纹理和织物的超现实细节。电影级镜头工作，带有微妙的手持感，缓慢优雅的平移和跟踪镜头。4K分辨率，24fps，专业色彩分级，无文字，除非在角落有精致的优雅标志。杰作，最佳质量，照片级真实感。
+
+--- 线程继续 ---
+[线程1] ✅️ 第一步：打开Yapper
+进入创建 → 视频
+
+✅️ 第二步：选择模型
+选择Seedance 2.0 —— 这里是电影魔法发生的地方。它处理运动、镜头动态、现实主义和场景一致性非常出色。
+
+✅️ 第三步：编写或粘贴一个强有力的prompt
+
+Cinematic 15-second lifestyle commercial, ultra-realistic 4K, filmic color grading, soft golden morning light, shallow depth of field, smooth cinematic camera movements, Gen Z aesthetic, premium ad quality like a high-end coffee brand commercial.
+
+Scene sequence with perfect timing:
+
+0–4s: Extreme close-up on a tall clear glass on a bright modern kitchen counter. Delicate hands drop ice cubes in, then pour rich dark espresso shot slowly into creamy milk, creating beautiful swirling layers. Metal stirrer gently mixes the iced latte. Soft bokeh background, steam rising, warm sunlight streaming through window.
+
+4–7s: Medium shot of a beautiful 25-year-old woman with wavy light-brown hair, wearing a soft yellow sleeveless top and light jeans. She stands in a sunlit minimalist kitchen full of plants and wooden accents. She smiles softly, picks up the finished iced latte from the wooden table, and looks content.
+
+7–11s: Quick smooth transition to sunny European street. Close-up of bakery display case: hands use tongs to pick a golden, flaky croissant. Cut to POV hand holding a brown paper bag with fresh croissants while walking on cobblestone sidewalk, dappled sunlight and tree shadows moving across the ground.
+
+11–15s: Elegant final shot of the same woman walking outdoors. Wind gently blows her hair as she takes a satisfying bite of the croissant, then turns toward camera with a peaceful, happy smile while holding her iced latte and croissant bag. Soft natural sunlight, urban background with cafes and greenery slightly blurred.
+
+Overall mood: Relaxing, aspirational, premium lifestyle vibe. Hyper-realistic details on latte foam, croissant flakes, skin texture, and fabric. Cinematic camera work with subtle handheld feel, slow graceful pans and tracking shots. 4K resolution, 24fps, professional color grading, no text unless subtle elegant logo in corner. Masterpiece, best quality, photorealistic.
+
+✅️ 第四步：点击生成
+几秒钟内，Seedance 2.0将您的prompt转化为电影序列在https://t.co/9HR4woB48B
+
+[线程2] 亲自尝试，并分享您的体验：
+
+https://t.co/j9d97k4xNX
+---
+```
+
+## 出处与许可
+
+- 原作者：[Salt](https://x.com/XMonetizationC_) · 原帖：<https://x.com/XMonetizationC_/status/2055957578321133646>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2055957578321133646.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

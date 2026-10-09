@@ -1,0 +1,166 @@
+---
+id: "renoise-2054813434747711768"
+title: "realistic sports broadcast screenshot-style documentary photo set in the…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "运动"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Sports", "Crowd & Fans", "Photoreal", "Realistic World"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054813434747711768.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Mustafy | AI Video Creator"
+original_author_url: "https://x.com/MustafyOf"
+original_post_url: "https://x.com/MustafyOf/status/2054813434747711768"
+published: "2026-05-14"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# realistic sports broadcast screenshot-style documentary photo set in the…
+
+## 提示词（English）
+
+```text
+realistic sports broadcast screenshot-style documentary photo set in the spectator stands of a premier league game.Analyze an attached image and the person in the image is sitting in the stadium seats wearing chelsea jersey. delicate facial features, and a happy yet focused expression as his/her looks toward the field. the person wears a with a baseball team,design jersey.OUTPUT:horizontal 16:9 broadcast frame, realistic TV capture quality, NOT portrait orientation.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054813434747711768.json)
+
+```text
+---
+foto documental estilo captura de pantalla de transmisión deportiva realista ambientada en las gradas de un partido de la Premier League. Analiza una imagen adjunta y la persona en la imagen está sentada en los asientos del estadio vistiendo una camiseta del Chelsea. Rasgos faciales delicados y una expresión feliz pero concentrada mientras mira hacia el campo. La persona lleva una camiseta de diseño de un equipo de béisbol. OUTPUT: marco horizontal 16:9 de transmisión, calidad de captura de TV realista, NO orientación vertical.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Y entonces sucedió. 🔵💥 https://t.co/L3jKkC1jXg
+
+[Hilo 2] Image Prompt:
+
+Captura de pantalla de transmisión de TV ultra-realista, identidad preservada exactamente de la imagen de referencia. Joven sentado en la multitud en un partido de local del Chelsea 2025/2026, filmado desde lejos por una cámara de transmisión en vivo. Está sentado en las sillas del estadio, ligeramente reclinado, mirando hacia un lado con una expresión de sorpresa captada por la cámara, labios ligeramente entreabiertos. Lleva una camiseta de local del Chelsea 2025/2026 con jeans, estilo casual de día de partido, una pose relajada y un brazo descansando en la silla o en el regazo. La camiseta debe parecer una camiseta completa normal, no un crop top, no enrollada, no atada, Kas. A su alrededor hay otros aficionados en los asientos del estadio, ligeramente desenfocados. Mantén la multitud mixta y natural, algunos aficionados con camisetas del Chelsea, otros con camisas o chaquetas neutrales, algunos con otra ropa casual de día de partido para que parezca una toma real de una multitud en vivo y no todos estén vestidos igual. Añade un gráfico realista de marcador de la Premier League en la esquina superior, compresión sutil de transmisión, ruido digital, iluminación brillante del estadio y encuadre imperfecto de TV en vivo. Aspecto de cámara teleobjetivo deportiva desde las gradas, no de cerca, no selfie, no ángulo lateral, auténtica toma televisada de la multitud en un partido de fútbol, textura natural de la piel, sin suavizado, 4K.
+
+Video Prompt:
+foto documental estilo captura de pantalla de transmisión deportiva realista ambientada en las gradas de un partido de la Premier League. Analiza una imagen adjunta y la persona en la imagen está sentada en los asientos del estadio vistiendo una camiseta del Chelsea. Rasgos faciales delicados y una expresión feliz pero concentrada mientras mira hacia el campo. La persona lleva una camiseta de diseño de un equipo de béisbol. OUTPUT: marco horizontal 16:9 de transmisión, calidad de captura de TV realista, NO orientación vertical.
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054813434747711768.json)
+
+```text
+---
+photo documentaire de style capture d'écran de diffusion sportive réaliste, prise dans les gradins d'un match de la Premier League. Analyser une image jointe où la personne est assise dans les sièges du stade portant un maillot de Chelsea. Traits du visage délicats, et une expression heureuse mais concentrée alors qu'il/elle regarde vers le terrain. La personne porte un maillot de baseball, design. SORTIE : cadre horizontal 16:9 de diffusion, qualité de capture TV réaliste, PAS d'orientation portrait.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Et puis c'est arrivé. 🔵💥 https://t.co/L3jKkC1jXg
+
+[Fil 2] Image Prompt:
+
+Capture d'écran de diffusion TV ultra-réaliste, identité préservée exactement à partir de l'image de référence. Jeune homme assis dans la foule lors d'un match à domicile de Chelsea 2025/2026, filmé de loin par une caméra de diffusion en direct. Il est assis sur les sièges du stade, légèrement penché en arrière, regardant sur le côté avec une expression surprise captée par la caméra, les lèvres légèrement entrouvertes. Il porte un maillot à domicile de Chelsea 2025/2026 avec un jean, un style décontracté de jour de match, une pose détendue, et un bras reposant sur la chaise ou les genoux. Le maillot doit ressembler à un maillot complet normal, pas un crop top, pas roulé, pas noué, Kas. Autour de lui, d'autres fans dans les sièges du stade, légèrement flous. Gardez la foule mixte et naturelle, certains fans portant des maillots de Chelsea, d'autres portant des chemises ou vestes neutres, d'autres portant des vêtements décontractés de jour de match pour que cela ressemble à une vraie photo de foule en direct et que tout le monde ne soit pas habillé de la même manière. Ajoutez un graphique réaliste de tableau de bord de la Premier League dans le coin supérieur, une compression subtile de diffusion, du bruit numérique, un éclairage de stade lumineux, et un cadrage imparfait de TV en direct. Look de caméra téléobjectif de sport depuis les gradins, pas de gros plan, pas de selfie, pas d'angle latéral, authentique photo de foule de football télévisée, texture de peau naturelle, pas de lissage, 4K.
+
+Vidéo Prompt:
+photo documentaire de style capture d'écran de diffusion sportive réaliste, prise dans les gradins d'un match de la Premier League. Analyser une image jointe où la personne est assise dans les sièges du stade portant un maillot de Chelsea. Traits du visage délicats, et une expression heureuse mais concentrée alors qu'il/elle regarde vers le terrain. La personne porte un maillot de baseball, design. SORTIE : cadre horizontal 16:9 de diffusion, qualité de capture TV réaliste, PAS d'orientation portrait.
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054813434747711768.json)
+
+```text
+---
+プレミアリーグの試合の観客席で撮影された、リアルなスポーツ放送のスクリーンショットスタイルのドキュメンタリー写真セット。添付された画像を分析し、画像の中の人物はスタジアムの座席に座り、チェルシーのジャージを着ています。繊細な顔立ちで、フィールドを見つめながら幸せでありながら集中した表情をしています。その人物は野球チームのデザインジャージを着ています。OUTPUT: 横長の16:9放送フレーム、リアルなテレビキャプチャ品質、縦向きではありません。
+
+--- スレッドの続き ---
+[スレッド1] そしてそれが起こった。🔵💥 https://t.co/L3jKkC1jXg
+
+[スレッド2] イメージプロンプト:
+
+超リアルなテレビ放送のスクリーンショット、参照画像から正確にアイデンティティを保持。2025/2026年のチェルシーのホームサッカー試合で、観客の中に座っている若い男性が、ライブ放送カメラで遠くから撮影されています。彼はスタジアムの椅子に座り、少し後ろに傾き、横を見て驚いた表情でカメラに捉えられ、唇が少し開いています。彼は2025/2026年のチェルシーのホームジャージとジーンズを着ており、カジュアルな試合日のスタイリングでリラックスしたポーズをとり、片腕を椅子や膝に置いています。ジャージは通常のフルジャージのように見えるべきで、クロップトップや巻き上げられたもの、結ばれたものではありません。彼女の周りには他のファンがスタジアムの座席に座っており、少しぼやけています。観客は混ざって自然に見えるようにし、一部のファンはチェルシーのジャージを着ており、一部は中立的なシャツやジャケット、その他はカジュアルな試合日の服装をしているので、全員が同じ服装をしているわけではなく、リアルなライブの観客ショットのように感じられます。リアルなプレミアリーグのスコアボードグラフィックを画面の隅に追加し、微妙な放送圧縮、デジタルノイズ、明るいスタジアム照明、不完全なライブテレビのフレーミングを加えます。スタンドからの望遠スポーツカメラの外観で、クローズアップではなく、セルフィーでもなく、サイドアングルでもなく、本物のテレビ放送のサッカー観客ショット、自然な肌の質感、スムージングなし、4K。
+
+ビデオプロンプト:
+プレミアリーグの試合の観客席で撮影された、リアルなスポーツ放送のスクリーンショットスタイルのドキュメンタリー写真セット。添付された画像を分析し、画像の中の人物はスタジアムの座席に座り、チェルシーのジャージを着ています。繊細な顔立ちで、フィールドを見つめながら幸せでありながら集中した表情をしています。その人物は野球チームのデザインジャージを着ています。OUTPUT: 横長の16:9放送フレーム、リアルなテレビキャプチャ品質、縦向きではありません。
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054813434747711768.json)
+
+```text
+---
+프리미어 리그 경기의 관중석에서 촬영된 현실적인 스포츠 방송 스크린샷 스타일의 다큐멘터리 사진. 첨부된 이미지를 분석하고, 이미지 속 인물은 첼시 유니폼을 입고 경기장 좌석에 앉아 있습니다. 섬세한 얼굴 특징과 필드를 바라보며 행복하면서도 집중된 표정을 짓고 있습니다. 그 사람은 야구 팀 디자인의 유니폼을 입고 있습니다. 출력: 가로 16:9 방송 프레임, 현실적인 TV 캡처 품질, 세로 방향 아님.
+
+--- 스레드 계속 ---
+[스레드 1] 그리고 그 일이 일어났습니다. 🔵💥 https://t.co/L3jKkC1jXg
+
+[스레드 2] 이미지 프롬프트:
+
+초현실적인 TV 방송 스크린샷, 참조 이미지에서 정확히 보존된 정체성. 2025/2026 첼시 홈 축구 경기에서 군중 속에 앉아 있는 젊은 남자, 라이브 방송 카메라로 멀리서 촬영됨. 그는 경기장 의자에 앉아 약간 뒤로 기대어, 옆을 바라보며 카메라에 잡힌 놀란 표정을 짓고 있으며, 입술이 약간 벌어져 있습니다. 그는 2025/2026 첼시 홈 유니폼과 청바지를 입고 있으며, 캐주얼한 경기일 스타일링, 편안한 자세로 한쪽 팔은 의자나 무릎에 놓여 있습니다. 유니폼은 일반적인 풀 유니폼처럼 보여야 하며, 크롭탑이나 말려 올라가거나 묶여 있지 않아야 합니다. 주변에는 약간 흐릿하게 보이는 다른 팬들이 경기장 좌석에 앉아 있습니다. 군중은 혼합되고 자연스럽게 유지되어야 하며, 일부 팬들은 첼시 유니폼을 입고, 일부는 중립적인 셔츠나 재킷을 입고, 일부는 다른 캐주얼 경기일 복장을 입고 있어야 하며, 모두가 똑같이 입고 있지 않도록 실제 라이브 군중 촬영처럼 느껴져야 합니다. 화면 상단 모서리에 현실적인 프리미어 리그 스코어보드 그래픽을 추가하고, 미세한 방송 압축, 디지털 노이즈, 밝은 경기장 조명, 불완전한 라이브 TV 프레이밍을 추가합니다. 관중석에서의 망원 스포츠 카메라 느낌, 클로즈업 아님, 셀피 아님, 측면 각도 아님, 진정한 텔레비전 축구 군중 촬영, 자연스러운 피부 질감, 매끄럽지 않음, 4K.
+
+비디오 프롬프트:
+프리미어 리그 경기의 관중석에서 촬영된 현실적인 스포츠 방송 스크린샷 스타일의 다큐멘터리 사진. 첨부된 이미지를 분석하고, 이미지 속 인물은 첼시 유니폼을 입고 경기장 좌석에 앉아 있습니다. 섬세한 얼굴 특징과 필드를 바라보며 행복하면서도 집중된 표정을 짓고 있습니다. 그 사람은 야구 팀 디자인의 유니폼을 입고 있습니다. 출력: 가로 16:9 방송 프레임, 현실적인 TV 캡처 품질, 세로 방향 아님.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054813434747711768.json)
+
+```text
+---
+foto documental em estilo de captura de transmissão esportiva realista, ambientada nas arquibancadas de um jogo da premier league. Analise uma imagem anexada e a pessoa na imagem está sentada nos assentos do estádio vestindo uma camisa do Chelsea. Traços faciais delicados e uma expressão feliz, mas focada, enquanto olha para o campo. A pessoa veste uma camisa de design de time de beisebol. SAÍDA: quadro horizontal 16:9 de transmissão, qualidade de captura de TV realista, NÃO em orientação retrato.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] E então aconteceu. 🔵💥 https://t.co/L3jKkC1jXg
+
+[Thread 2] Image Prompt:
+
+Captura de tela de transmissão de TV ultra-realista, identidade preservada exatamente da imagem de referência. Jovem sentado na multidão em um jogo do Chelsea em casa na temporada 2025/2026, filmado de longe por uma câmera de transmissão ao vivo. Ele está sentado nas cadeiras do estádio, ligeiramente inclinado para trás, olhando para o lado com uma expressão de surpresa capturada pela câmera, lábios levemente entreabertos. Ele veste uma camisa do Chelsea 2025/2026 com jeans, estilo casual de dia de jogo, pose relaxada, e um braço descansando na cadeira ou no colo. A camisa deve parecer uma camisa completa normal, não um top cropped, não enrolada, não amarrada, Kas. Ao redor dele estão outros torcedores nos assentos do estádio, ligeiramente desfocados. Mantenha a multidão mista e natural, alguns torcedores vestindo camisas do Chelsea, alguns vestindo camisas ou jaquetas neutras, alguns vestindo outras roupas casuais de dia de jogo para que pareça uma foto real de multidão ao vivo e não todos vestidos da mesma forma. Adicione um gráfico realista de placar da premier league no canto superior, compressão sutil de transmissão, ruído digital, iluminação brilhante do estádio e enquadramento imperfeito de TV ao vivo. Aparência de câmera teleobjetiva esportiva das arquibancadas, não close-up, não selfie, não ângulo lateral, autêntica foto de multidão de futebol televisionada, textura natural da pele, sem suavização, 4K.
+
+Video Prompt:
+foto documental em estilo de captura de transmissão esportiva realista, ambientada nas arquibancadas de um jogo da premier league. Analise uma imagem anexada e a pessoa na imagem está sentada nos assentos do estádio vestindo uma camisa do Chelsea. Traços faciais delicados e uma expressão feliz, mas focada, enquanto olha para o campo. A pessoa veste uma camisa de design de time de beisebol. SAÍDA: quadro horizontal 16:9 de transmissão, qualidade de captura de TV realista, NÃO em orientação retrato.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054813434747711768.json)
+
+```text
+---
+现实体育广播截图风格的纪录片照片，拍摄于英超比赛的观众席中。分析附加图像，图中人物坐在体育场座位上，穿着切尔西球衣。面部特征精致，面带快乐而专注的表情，目光投向球场。此人穿着一件棒球队设计的球衣。输出：水平16:9广播框架，真实的电视捕捉质量，不是纵向方向。
+
+--- 线程继续 ---
+[线程1] 然后它发生了。🔵💥 https://t.co/L3jKkC1jXg
+
+[线程2] 图像提示：
+
+超现实的电视广播截图，身份与参考图像完全一致。年轻男子坐在2025/2026赛季切尔西主场比赛的人群中，由远处的现场直播摄像机拍摄。他坐在体育场椅子上，微微向后倾斜，侧目而视，露出惊讶的被摄表情，嘴唇微微张开。他穿着2025/2026赛季切尔西主场球衣和牛仔裤，休闲的比赛日风格，姿态放松，一只手臂放在椅子或腿上。球衣应看起来像正常的全长球衣，不是短款，不卷起，不系结。周围是其他坐在体育场座位上的球迷，略显模糊。保持人群混合自然，有些球迷穿着切尔西球衣，有些穿着中性色的衬衫或夹克，有些穿着其他休闲比赛日服装，以便感觉像真实的现场人群镜头，而不是所有人都穿得一样。在顶部角落添加一个真实的英超记分牌图形，微妙的广播压缩，数字噪音，明亮的体育场照明，以及不完美的现场电视构图。从看台上的长焦体育摄像机视角，不是特写，不是自拍，不是侧角，真实的电视转播足球人群镜头，自然的皮肤纹理，无平滑处理，4K。
+
+视频提示：
+现实体育广播截图风格的纪录片照片，拍摄于英超比赛的观众席中。分析附加图像，图中人物坐在体育场座位上，穿着切尔西球衣。面部特征精致，面带快乐而专注的表情，目光投向球场。此人穿着一件棒球队设计的球衣。输出：水平16:9广播框架，真实的电视捕捉质量，不是纵向方向。
+---
+```
+
+## 出处与许可
+
+- 原作者：[Mustafy | AI Video Creator](https://x.com/MustafyOf) · 原帖：<https://x.com/MustafyOf/status/2054813434747711768>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054813434747711768.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

@@ -1,0 +1,376 @@
+---
+id: "renoise-2064709728564093083"
+title: "Style: Cyber action thriller, bullet-time effect, cinematic realism…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "科幻"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Gunfight", "Photoreal", "Sci-Fi", "VFX", "Slow-Mo"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064709728564093083.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Amira Zairi"
+original_author_url: "https://x.com/azed_ai"
+original_post_url: "https://x.com/azed_ai/status/2064709728564093083"
+published: "2026-06-10"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Style: Cyber action thriller, bullet-time effect, cinematic realism…
+
+## 提示词（English）
+
+```text
+Style: Cyber action thriller, bullet-time effect, cinematic realism, high-energy, dramatic slow motion, 15-second vertical video pacing
+
+[00:00-00:03] Wide shot in a dark futuristic alley at night, neon signs flickering through rain and steam. A fierce woman in a sleek black tactical outfit stands alone as armed enemies suddenly raise their weapons around her. She turns her head slowly, calm and focused, then whispers, "Too slow." SFX: distant thunder, rain dripping, low electronic bass, weapons cocking.
+
+[00:03-00:06] Bullet-time slow motion begins. The enemies fire, and glowing projectiles streak through the air. The camera performs a fast circular orbit around the woman as she bends backward with impossible precision, her long hair and coat flowing in slow motion while the projectiles pass inches from her face. VFX: bullet trails, ripple distortion in the air, neon reflections on wet pavement. SFX: slowed gunfire pulses, whooshing air, deep cinematic hum.
+
+[00:06-00:09] Dynamic close-up and side tracking shot as she twists mid-motion, plants one hand on the ground, and spins back upright in one fluid movement. The camera continues orbiting around her while the last projectiles pass by in slow motion. Her eyes lock onto the attackers, sharp and fearless. She says, "My turn." VFX: time-warp shimmer, rain frozen in the air, glowing projectile trails. SFX: heartbeat bass, slowed rain impacts, rising electronic tension.
+
+[00:09-00:12] Fast motion snaps back in. The woman dashes forward with explosive speed, leaving a faint afterimage trail. She disarms the nearest attacker with a rapid kick and fluid martial arts strike, then sweeps past another enemy in one seamless motion. The camera shakes slightly with each impact. VFX: motion blur, neon sparks, water spray from the wet ground. SFX: impact hits, rushing footsteps, sharp synth pulse.
+
+[00:12-00:15] Epic finishing shot as she lands in a low stance in the center of the alley while the last attacker stumbles back in shock. Rain pours down, neon lights flicker, and the camera slowly pushes in on her confident expression. She lifts her chin and says, "You should have run." End on a dramatic hero frame. SFX: rain, low bass boom, fading electronic score.
+
+Negative guidance: no copyrighted characters, no exact movie recreation, no gore, no blood, no cartoon style, no low-detail background, no logos, no extra text on screen, no comedy tone
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064709728564093083.json)
+
+```text
+---
+Estilo: Thriller de acción cibernética, efecto bullet-time, realismo cinematográfico, alta energía, cámara lenta dramática, ritmo de video vertical de 15 segundos
+
+[00:00-00:03] Toma amplia en un callejón futurista oscuro por la noche, letreros de neón parpadeando a través de la lluvia y el vapor. Una mujer feroz con un elegante atuendo táctico negro se encuentra sola mientras enemigos armados levantan sus armas repentinamente a su alrededor. Ella gira la cabeza lentamente, tranquila y enfocada, luego susurra, "Demasiado lento." SFX: trueno distante, goteo de lluvia, bajo electrónico, armas amartillándose.
+
+[00:03-00:06] Comienza la cámara lenta en bullet-time. Los enemigos disparan y los proyectiles brillantes surcan el aire. La cámara realiza una rápida órbita circular alrededor de la mujer mientras ella se inclina hacia atrás con una precisión imposible, su largo cabello y abrigo fluyen en cámara lenta mientras los proyectiles pasan a centímetros de su rostro. VFX: rastros de balas, distorsión ondulante en el aire, reflejos de neón en el pavimento mojado. SFX: pulsos de disparos ralentizados, aire silbante, zumbido cinematográfico profundo.
+
+[00:06-00:09] Primer plano dinámico y toma de seguimiento lateral mientras ella gira en medio del movimiento, planta una mano en el suelo y gira de nuevo hacia arriba en un movimiento fluido. La cámara continúa orbitando a su alrededor mientras los últimos proyectiles pasan en cámara lenta. Sus ojos se fijan en los atacantes, agudos y sin miedo. Ella dice, "Mi turno." VFX: brillo de distorsión temporal, lluvia congelada en el aire, rastros de proyectiles brillantes. SFX: bajo de latidos, impactos de lluvia ralentizados, tensión electrónica creciente.
+
+[00:09-00:12] El movimiento rápido vuelve. La mujer avanza con velocidad explosiva, dejando un rastro de imagen residual. Desarma al atacante más cercano con una patada rápida y un golpe fluido de artes marciales, luego pasa por otro enemigo en un movimiento continuo. La cámara tiembla ligeramente con cada impacto. VFX: desenfoque de movimiento, chispas de neón, salpicaduras de agua del suelo mojado. SFX: impactos, pasos apresurados, pulso de sintetizador agudo.
+
+[00:12-00:15] Toma final épica mientras ella aterriza en una postura baja en el centro del callejón mientras el último atacante retrocede sorprendido. La lluvia cae, las luces de neón parpadean, y la cámara se acerca lentamente a su expresión confiada. Ella levanta la barbilla y dice, "Deberías haber corrido." Termina en un marco heroico dramático. SFX: lluvia, boom de bajo, partitura electrónica desvaneciéndose.
+
+Guía negativa: sin personajes con derechos de autor, sin recreación exacta de películas, sin gore, sin sangre, sin estilo de dibujos animados, sin fondo de bajo detalle, sin logotipos, sin texto adicional en pantalla, sin tono de comedia
+
+--- TWEET CITADO ---
+La mayoría de las herramientas de cine de IA todavía piensan toma por toma
+
+#DreaminaOcto #DreaminaSeedance2 #DreaminaOctoVibeCreate #DreaminaAI
+https://t.co/848CL11aFN
+
+Pero el cine real nunca ha funcionado así. La parte difícil no es diseñar tomas individuales
+
+Es si:
+las relaciones entre tomas, la lógica de puesta en escena, el ritmo de la cámara y la escalada de secuencias
+pueden mantenerse dentro del mismo flujo cinematográfico mientras la secuencia en sí sigue evolucionando
+
+Y esta fue la primera vez que realmente entendí lo que Dreamina Octo significa por “Vibe Create.”
+
+No es una función de prompt. Es un estado donde la lógica del cine se mantiene viva durante el proceso creativo
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Prompt:
+Estilo: Thriller de acción cibernética, efecto bullet-time, realismo cinematográfico, alta energía, cámara lenta dramática, ritmo de video vertical de 15 segundos
+
+[00:00-00:03] Toma amplia en un callejón futurista oscuro por la noche, letreros de neón parpadeando a través de la lluvia y el vapor. Una mujer feroz con un elegante atuendo táctico negro se encuentra sola mientras enemigos armados levantan sus armas repentinamente a su alrededor. Ella gira la cabeza lentamente, tranquila y enfocada, luego susurra, "Demasiado lento." SFX: trueno distante, goteo de lluvia, bajo electrónico, armas amartillándose.
+
+[00:03-00:06] Comienza la cámara lenta en bullet-time. Los enemigos disparan y los proyectiles brillantes surcan el aire. La cámara realiza una rápida órbita circular alrededor de la mujer mientras ella se inclina hacia atrás con una precisión imposible, su largo cabello y abrigo fluyen en cámara lenta mientras los proyectiles pasan a centímetros de su rostro. VFX: rastros de balas, distorsión ondulante en el aire, reflejos de neón en el pavimento mojado. SFX: pulsos de disparos ralentizados, aire silbante, zumbido cinematográfico profundo.
+
+[00:06-00:09] Primer plano dinámico y toma de seguimiento lateral mientras ella gira en medio del movimiento, planta una mano en el suelo y gira de nuevo hacia arriba en un movimiento fluido. La cámara continúa orbitando a su alrededor mientras los últimos proyectiles pasan en cámara lenta. Sus ojos se fijan en los atacantes, agudos y sin miedo. Ella dice, "Mi turno." VFX: brillo de distorsión temporal, lluvia congelada en el aire, rastros de proyectiles brillantes. SFX: bajo de latidos, impactos de lluvia ralentizados, tensión electrónica creciente.
+
+[00:09-00:12] El movimiento rápido vuelve. La mujer avanza con velocidad explosiva, dejando un rastro de imagen residual. Desarma al atacante más cercano con una patada rápida y un golpe fluido de artes marciales, luego pasa por otro enemigo en un movimiento continuo. La cámara tiembla ligeramente con cada impacto. VFX: desenfoque de movimiento, chispas de neón, salpicaduras de agua del suelo mojado. SFX: impactos, pasos apresurados, pulso de sintetizador agudo.
+
+[00:12-00:15] Toma final épica mientras ella aterriza en una postura baja en el centro del callejón mientras el último atacante retrocede sorprendido. La lluvia cae, las luces de neón parpadean, y la cámara se acerca lentamente a su expresión confiada. Ella levanta la barbilla y dice, "Deberías haber corrido." Termina en un marco heroico dramático. SFX: lluvia, boom de bajo, partitura electrónica desvaneciéndose.
+
+Guía negativa: sin personajes con derechos de autor, sin recreación exacta de películas, sin gore, sin sangre, sin estilo de dibujos animados, sin fondo de bajo detalle, sin logotipos, sin texto adicional en pantalla, sin tono de comedia
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064709728564093083.json)
+
+```text
+---
+スタイル: サイバーアクションスリラー、バレットタイム効果、シネマティックリアリズム、ハイエナジー、ドラマティックなスローモーション、15秒の縦型ビデオペーシング
+
+[00:00-00:03] 夜の暗い未来的な路地でのワイドショット、雨と蒸気の中でネオンサインがちらつく。黒のタクティカルアウトフィットを着た凛々しい女性が一人で立ち、武装した敵が突然彼女の周りで武器を構える。彼女はゆっくりと頭を回し、落ち着いて集中しながら囁く。「遅すぎる。」SFX: 遠くの雷、雨の滴る音、低音の電子ベース、武器のコッキング音。
+
+[00:03-00:06] バレットタイムのスローモーションが始まる。敵が発砲し、光る弾丸が空中を駆け抜ける。カメラは女性の周りを高速で円を描くように回り、彼女が不可能な精度で後ろに反り返る。長い髪とコートがスローモーションで流れ、弾丸が彼女の顔の数インチ先を通過する。VFX: 弾道の軌跡、空気中の波紋の歪み、濡れた舗道に映るネオンの反射。SFX: スローダウンした銃声の脈動、風を切る音、深いシネマティックなハム音。
+
+[00:06-00:09] ダイナミックなクローズアップとサイドトラッキングショットで、彼女は動きの中でひねり、一方の手を地面に置き、一連の流れるような動きで立ち上がる。カメラは彼女の周りを回り続け、最後の弾丸がスローモーションで通過する。彼女の目は攻撃者に鋭く、恐れ知らずにロックオンする。彼女は言う、「私の番。」VFX: タイムワープのきらめき、空中で凍った雨、光る弾道の軌跡。SFX: 心臓の鼓動のようなベース、スローダウンした雨の衝撃音、上昇する電子的な緊張感。
+
+[00:09-00:12] 高速の動きが戻る。女性は爆発的な速度で前方にダッシュし、かすかな残像を残す。彼女は迅速なキックと流れるような武術の一撃で最も近い攻撃者を武装解除し、別の敵を一連の動きで通り過ぎる。カメラは各衝撃でわずかに揺れる。VFX: モーションブラー、ネオンの火花、濡れた地面からの水しぶき。SFX: 衝撃音、駆ける足音、鋭いシンセの脈動。
+
+[00:12-00:15] エピックなフィニッシングショットで、彼女は路地の中央で低い姿勢で着地し、最後の攻撃者がショックで後退する。雨が降り注ぎ、ネオンライトがちらつき、カメラは彼女の自信に満ちた表情にゆっくりと寄る。彼女は顎を上げて言う、「逃げるべきだった。」ドラマティックなヒーローフレームで終了。SFX: 雨、低音のバスブーム、フェードアウトする電子スコア。
+
+ネガティブガイダンス: 著作権で保護されたキャラクターなし、正確な映画の再現なし、ゴアなし、血なし、カートゥーンスタイルなし、低詳細の背景なし、ロゴなし、画面上の余分なテキストなし、コメディトーンなし
+
+--- 引用ツイート ---
+ほとんどのAI映画制作ツールはまだショットごとに考えている
+
+#DreaminaOcto #DreaminaSeedance2 #DreaminaOctoVibeCreate #DreaminaAI
+https://t.co/848CL11aFN
+
+しかし、本当の映画制作はそうではない。難しいのは個々のショットをデザインすることではない
+
+それは、ショットの関係性、ステージングの論理、カメラのリズム、シーケンスのエスカレーションが
+シーケンス自体が進化し続ける間に同じシネマティックな流れの中に留まるかどうか
+
+そして、これが初めてDreamina Octoが「Vibe Create」と言う意味を実際に理解した瞬間だった。
+
+それはプロンプト機能ではない。それは創造的プロセスの中で映画の論理自体が生き続ける状態だ
+
+--- スレッドの続き ---
+[スレッド1] プロンプト:
+スタイル: サイバーアクションスリラー、バレットタイム効果、シネマティックリアリズム、ハイエナジー、ドラマティックなスローモーション、15秒の縦型ビデオペーシング
+
+[00:00-00:03] 夜の暗い未来的な路地でのワイドショット、雨と蒸気の中でネオンサインがちらつく。黒のタクティカルアウトフィットを着た凛々しい女性が一人で立ち、武装した敵が突然彼女の周りで武器を構える。彼女はゆっくりと頭を回し、落ち着いて集中しながら囁く。「遅すぎる。」SFX: 遠くの雷、雨の滴る音、低音の電子ベース、武器のコッキング音。
+
+[00:03-00:06] バレットタイムのスローモーションが始まる。敵が発砲し、光る弾丸が空中を駆け抜ける。カメラは女性の周りを高速で円を描くように回り、彼女が不可能な精度で後ろに反り返る。長い髪とコートがスローモーションで流れ、弾丸が彼女の顔の数インチ先を通過する。VFX: 弾道の軌跡、空気中の波紋の歪み、濡れた舗道に映るネオンの反射。SFX: スローダウンした銃声の脈動、風を切る音、深いシネマティックなハム音。
+
+[00:06-00:09] ダイナミックなクローズアップとサイドトラッキングショットで、彼女は動きの中でひねり、一方の手を地面に置き、一連の流れるような動きで立ち上がる。カメラは彼女の周りを回り続け、最後の弾丸がスローモーションで通過する。彼女の目は攻撃者に鋭く、恐れ知らずにロックオンする。彼女は言う、「私の番。」VFX: タイムワープのきらめき、空中で凍った雨、光る弾道の軌跡。SFX: 心臓の鼓動のようなベース、スローダウンした雨の衝撃音、上昇する電子的な緊張感。
+
+[00:09-00:12] 高速の動きが戻る。女性は爆発的な速度で前方にダッシュし、かすかな残像を残す。彼女は迅速なキックと流れるような武術の一撃で最も近い攻撃者を武装解除し、別の敵を一連の動きで通り過ぎる。カメラは各衝撃でわずかに揺れる。VFX: モーションブラー、ネオンの火花、濡れた地面からの水しぶき。SFX: 衝撃音、駆ける足音、鋭いシンセの脈動。
+
+[00:12-00
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064709728564093083.json)
+
+```text
+---
+스타일: 사이버 액션 스릴러, 불릿 타임 효과, 영화적 리얼리즘, 고에너지, 극적인 슬로 모션, 15초 세로 비디오 페이싱
+
+[00:00-00:03] 밤의 어두운 미래적 골목에서의 와이드 샷, 비와 증기를 통해 깜빡이는 네온 사인. 검은색 전술 복장을 입은 강렬한 여성이 홀로 서 있고, 무장한 적들이 갑자기 그녀를 둘러싸며 무기를 들어 올린다. 그녀는 차분하고 집중된 상태로 천천히 고개를 돌리며 속삭인다, "너무 느려." SFX: 먼 천둥소리, 빗방울 소리, 낮은 전자 베이스, 무기 장전 소리.
+
+[00:03-00:06] 불릿 타임 슬로 모션이 시작된다. 적들이 발사하고, 빛나는 탄환들이 공중을 가로지른다. 카메라는 여성을 빠르게 원형으로 돌며 그녀가 불가능한 정밀도로 뒤로 젖혀지는 모습을 잡는다. 그녀의 긴 머리카락과 코트가 슬로 모션으로 흐르며 탄환들이 얼굴 가까이 지나간다. VFX: 탄환 궤적, 공기 중의 파문 왜곡, 젖은 도로 위의 네온 반사. SFX: 느려진 총성, 휙 지나가는 공기 소리, 깊은 영화적 허밍.
+
+[00:06-00:09] 역동적인 클로즈업과 측면 트래킹 샷, 그녀가 중간 동작에서 몸을 비틀며 한 손을 땅에 대고 유연하게 다시 일어선다. 카메라는 그녀 주위를 계속 돌며 마지막 탄환들이 슬로 모션으로 지나간다. 그녀의 눈은 공격자들을 날카롭고 두려움 없이 응시한다. 그녀가 말한다, "내 차례야." VFX: 시간 왜곡 반짝임, 공중에 얼어붙은 비, 빛나는 탄환 궤적. SFX: 심장 박동 베이스, 느려진 빗방울 충돌, 상승하는 전자 긴장감.
+
+[00:09-00:12] 빠른 동작이 다시 돌아온다. 여성이 폭발적인 속도로 앞으로 돌진하며 희미한 잔상 궤적을 남긴다. 그녀는 빠른 발차기와 유연한 무술 동작으로 가장 가까운 공격자의 무장을 해제하고, 또 다른 적을 한 번의 매끄러운 동작으로 지나친다. 카메라는 각 충격에 약간 흔들린다. VFX: 모션 블러, 네온 스파크, 젖은 땅에서 물이 튀는 모습. SFX: 충격음, 빠른 발소리, 날카로운 신스 펄스.
+
+[00:12-00:15] 서사적인 마무리 샷, 그녀가 골목 중앙에 낮은 자세로 착지하고 마지막 공격자가 충격에 물러선다. 비가 쏟아지고, 네온 불빛이 깜빡이며 카메라는 그녀의 자신감 있는 표정에 천천히 다가간다. 그녀는 턱을 들어 올리며 말한다, "도망쳤어야 했어." 극적인 영웅 프레임으로 끝난다. SFX: 비, 낮은 베이스 붐, 희미해지는 전자 스코어.
+
+부정적 가이드라인: 저작권 있는 캐릭터 금지, 정확한 영화 재현 금지, 고어 금지, 피 금지, 만화 스타일 금지, 저해상도 배경 금지, 로고 금지, 화면에 추가 텍스트 금지, 코미디 톤 금지
+
+--- 인용 트윗 ---
+대부분의 AI 영화 제작 도구는 여전히 샷별로 생각하고 있습니다
+
+#DreaminaOcto #DreaminaSeedance2 #DreaminaOctoVibeCreate #DreaminaAI
+https://t.co/848CL11aFN
+
+하지만 실제 영화 제작은 그렇게 작동한 적이 없습니다. 어려운 부분은 개별 샷을 설계하는 것이 아닙니다
+
+그것은 샷 관계, 무대 논리, 카메라 리듬, 시퀀스 에스컬레이션이 시퀀스 자체가 계속 진화하면서도 동일한 영화적 흐름 안에 머물 수 있는지 여부입니다
+
+그리고 이것이 제가 처음으로 Dreamina Octo가 "Vibe Create"라고 말하는 것을 실제로 이해한 순간이었습니다.
+
+이것은 프롬프트 기능이 아닙니다. 창의적 과정 중에 영화 논리 자체가 살아있는 상태입니다
+
+--- 스레드 계속 ---
+[스레드 1] 프롬프트:
+스타일: 사이버 액션 스릴러, 불릿 타임 효과, 영화적 리얼리즘, 고에너지, 극적인 슬로 모션, 15초 세로 비디오 페이싱
+
+[00:00-00:03] 밤의 어두운 미래적 골목에서의 와이드 샷, 비와 증기를 통해 깜빡이는 네온 사인. 검은색 전술 복장을 입은 강렬한 여성이 홀로 서 있고, 무장한 적들이 갑자기 그녀를 둘러싸며 무기를 들어 올린다. 그녀는 차분하고 집중된 상태로 천천히 고개를 돌리며 속삭인다, "너무 느려." SFX: 먼 천둥소리, 빗방울 소리, 낮은 전자 베이스, 무기 장전 소리.
+
+[00:03-00:06] 불릿 타임 슬로 모션이 시작된다. 적들이 발사하고, 빛나는 탄환들이 공중을 가로지른다. 카메라는 여성을 빠르게 원형으로 돌며 그녀가 불가능한 정밀도로 뒤로 젖혀지는 모습을 잡는다. 그녀의 긴 머리카락과 코트가 슬로 모션으로 흐르며 탄환들이 얼굴 가까이 지나간다. VFX: 탄환 궤적, 공기 중의 파문 왜곡, 젖은 도로 위의 네온 반사. SFX: 느려진 총성, 휙 지나가는 공기 소리, 깊은 영화적 허밍.
+
+[00:06-00:09] 역동적인 클로즈업과 측면 트래킹 샷, 그녀가 중간 동작에서 몸을 비틀며 한 손을 땅에 대고 유연하게 다시 일어선다. 카메라는 그녀 주위를 계속 돌며 마지막 탄환들이 슬로 모션으로 지나간다. 그녀의 눈은 공격자들을 날카롭고 두려움 없이 응시한다. 그녀가 말한다, "내 차례야." VFX: 시간 왜곡 반짝임, 공중에 얼어붙은 비, 빛나는 탄환 궤적. SFX: 심장 박동 베이스, 느려진 빗방울 충돌, 상승하는 전자 긴장감.
+
+[00:09-00:12] 빠른 동작이 다시 돌아온다. 여성이 폭발적인 속도로 앞으로 돌진하며 희미한 잔상 궤적을 남긴다. 그녀는 빠른 발차기와 유연한 무술 동작으로 가장 가까운 공격자의 무장을 해제하고, 또 다른 적을 한 번의 매끄러운 동작으로 지나친다. 카메라는 각 충격에 약간 흔들린다. VFX: 모션 블러, 네온 스파크, 젖은 땅에서 물이 튀는 모습. SFX: 충격음, 빠른 발소리, 날카로운 신스 펄스.
+
+[00:12-00:15] 서사적인 마무리 샷, 그녀가 골목 중앙에 낮은 자세로 착지하고 마지막 공격자가 충격에 물러선다. 비가 쏟아지고, 네온 불빛이 깜빡이며 카메라는 그녀의 자신감 있는 표정에 천천히 다가간다. 그녀는 턱을 들어 올리며 말한다, "도망쳤어야 했어." 극적인 영웅 프레임으로 끝난다. SFX: 비, 낮은 베이스 붐, 희미해지는 전자 스코어.
+
+부정적 가이드라인: 저작권 있는 캐릭터 금지, 정확한 영화 재현 금지, 고어 금지, 피 금지, 만화 스타일 금지, 저해상도 배경 금지, 로고 금지, 화면에 추가 텍스트 금지, 코미디 톤 금지
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064709728564093083.json)
+
+```text
+---
+风格：赛博动作惊悚片，子弹时间效果，电影现实主义，高能量，戏剧性慢动作，15秒竖屏视频节奏
+
+[00:00-00:03] 夜晚的黑暗未来主义小巷中，广角镜头拍摄，霓虹灯在雨水和蒸汽中闪烁。一位凶猛的女子身穿黑色战术服独自站立，周围的武装敌人突然举起武器。她缓缓转头，冷静而专注，低声说：“太慢了。”音效：远处雷声，雨滴声，低沉电子低音，武器上膛声。
+
+[00:03-00:06] 子弹时间慢动作开始。敌人开火，发光的弹丸划过空气。摄像机快速环绕女子进行圆周轨道拍摄，她以不可思议的精准度向后弯曲，长发和外套在慢动作中飘动，弹丸从她脸旁擦过。视觉特效：子弹轨迹，空气中的波纹扭曲，湿润路面上的霓虹反射。音效：减速的枪声脉冲，呼啸的空气，深沉的电影嗡鸣。
+
+[00:06-00:09] 动态特写和侧面跟踪镜头，她在运动中扭转，单手撑地，然后一气呵成地旋转站起。摄像机继续环绕她拍摄，最后的弹丸在慢动作中掠过。她的目光锁定攻击者，锐利而无畏。她说：“轮到我了。”视觉特效：时间扭曲闪光，空中凝固的雨滴，发光的弹丸轨迹。音效：心跳低音，减速的雨滴撞击声，电子紧张感上升。
+
+[00:09-00:12] 快速动作恢复。女子以爆发性的速度向前冲刺，留下淡淡的残影。她用快速的踢腿和流畅的武术动作解除最近敌人的武装，然后一气呵成地掠过另一个敌人。每次撞击时摄像机略微震动。视觉特效：运动模糊，霓虹火花，湿地上的水花。音效：撞击声，急促的脚步声，尖锐的合成脉冲。
+
+[00:12-00:15] 史诗般的结束镜头，她在小巷中央以低姿态落地，最后一个攻击者震惊地后退。雨水倾盆而下，霓虹灯闪烁，摄像机缓缓推进她自信的表情。她抬起下巴说：“你应该跑的。”以戏剧性的英雄画面结束。音效：雨声，低沉的低音轰鸣，渐弱的电子配乐。
+
+负面指导：无版权角色，无精确电影重现，无血腥，无血液，无卡通风格，无低细节背景，无标志，无屏幕额外文字，无喜剧语调
+
+--- 引用推文 ---
+大多数AI电影制作工具仍在逐个镜头思考
+
+#DreaminaOcto #DreaminaSeedance2 #DreaminaOctoVibeCreate #DreaminaAI
+https://t.co/848CL11aFN
+
+但真正的电影制作从来不是这样工作的。困难的部分不是设计单个镜头
+
+而是：
+镜头关系、场景逻辑、摄像机节奏和序列升级
+是否仍能保持在同一电影流中，而序列本身不断演变
+
+这是我第一次真正理解Dreamina Octo所说的“Vibe Create”的含义。
+
+这不是一个提示功能。这是一种状态，在创作过程中电影逻辑本身保持活力
+
+--- 线程继续 ---
+[线程1] 提示：
+风格：赛博动作惊悚片，子弹时间效果，电影现实主义，高能量，戏剧性慢动作，15秒竖屏视频节奏
+
+[00:00-00:03] 夜晚的黑暗未来主义小巷中，广角镜头拍摄，霓虹灯在雨水和蒸汽中闪烁。一位凶猛的女子身穿黑色战术服独自站立，周围的武装敌人突然举起武器。她缓缓转头，冷静而专注，低声说：“太慢了。”音效：远处雷声，雨滴声，低沉电子低音，武器上膛声。
+
+[00:03-00:06] 子弹时间慢动作开始。敌人开火，发光的弹丸划过空气。摄像机快速环绕女子进行圆周轨道拍摄，她以不可思议的精准度向后弯曲，长发和外套在慢动作中飘动，弹丸从她脸旁擦过。视觉特效：子弹轨迹，空气中的波纹扭曲，湿润路面上的霓虹反射。音效：减速的枪声脉冲，呼啸的空气，深沉的电影嗡鸣。
+
+[00:06-00:09] 动态特写和侧面跟踪镜头，她在运动中扭转，单手撑地，然后一气呵成地旋转站起。摄像机继续环绕她拍摄，最后的弹丸在慢动作中掠过。她的目光锁定攻击者，锐利而无畏。她说：“轮到我了。”视觉特效：时间扭曲闪光，空中凝固的雨滴，发光的弹丸轨迹。音效：心跳低音，减速的雨滴撞击声，电子紧张感上升。
+
+[00:09-00:12] 快速动作恢复。女子以爆发性的速度向前冲刺，留下淡淡的残影。她用快速的踢腿和流畅的武术动作解除最近敌人的武装，然后一气呵成地掠过另一个敌人。每次撞击时摄像机略微震动。视觉特效：运动模糊，霓虹火花，湿地上的水花。音效：撞击声，急促的脚步声，尖锐的合成脉冲。
+
+[00:12-00:15] 史诗般的结束镜头，她在小巷中央以低姿态落地，最后一个攻击者震惊地后退。雨水倾盆而下，霓虹灯闪烁，摄像机缓缓推进她自信的表情。她抬起下巴说：“你应该跑的。”以戏剧性的英雄画面结束。音效：雨声，低沉的低音轰鸣，渐弱的电子配乐。
+
+负面指导：无版权角色，无精确电影重现，无血腥，无血液，无卡通风格，无低细节背景，无标志，无屏幕额外文字，无喜剧语调
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064709728564093083.json)
+
+```text
+---
+Style : Thriller d'action cybernétique, effet bullet-time, réalisme cinématographique, haute énergie, ralenti dramatique, rythme de vidéo verticale de 15 secondes
+
+[00:00-00:03] Plan large dans une ruelle futuriste sombre la nuit, des enseignes au néon clignotent à travers la pluie et la vapeur. Une femme féroce en tenue tactique noire élégante se tient seule alors que des ennemis armés lèvent soudainement leurs armes autour d'elle. Elle tourne lentement la tête, calme et concentrée, puis murmure, "Trop lent." SFX : tonnerre lointain, gouttes de pluie, basse électronique sourde, armes qui s'arment.
+
+[00:03-00:06] Le ralenti bullet-time commence. Les ennemis tirent, et des projectiles lumineux traversent l'air. La caméra effectue une orbite circulaire rapide autour de la femme alors qu'elle se penche en arrière avec une précision impossible, ses longs cheveux et son manteau flottant au ralenti tandis que les projectiles passent à quelques centimètres de son visage. VFX : traînées de balles, distorsion ondulante dans l'air, reflets néon sur le pavé mouillé. SFX : pulsations de tirs ralentis, air sifflant, bourdonnement cinématographique profond.
+
+[00:06-00:09] Gros plan dynamique et plan de suivi latéral alors qu'elle se tord en plein mouvement, pose une main au sol, et se redresse d'un mouvement fluide. La caméra continue d'orbiter autour d'elle tandis que les derniers projectiles passent au ralenti. Ses yeux se fixent sur les attaquants, aigus et intrépides. Elle dit, "À mon tour." VFX : scintillement de distorsion temporelle, pluie figée dans l'air, traînées de projectiles lumineux. SFX : basse battement de cœur, impacts de pluie ralentis, tension électronique montante.
+
+[00:09-00:12] Le mouvement rapide reprend. La femme s'élance en avant avec une vitesse explosive, laissant une légère traînée d'image rémanente. Elle désarme l'attaquant le plus proche avec un coup de pied rapide et une frappe d'arts martiaux fluide, puis passe devant un autre ennemi d'un mouvement sans faille. La caméra tremble légèrement à chaque impact. VFX : flou de mouvement, étincelles néon, éclaboussures d'eau du sol mouillé. SFX : impacts, pas précipités, pulsation synthétique aiguë.
+
+[00:12-00:15] Plan final épique alors qu'elle atterrit en position basse au centre de la ruelle tandis que le dernier attaquant recule sous le choc. La pluie tombe à torrents, les lumières néon clignotent, et la caméra s'approche lentement de son expression confiante. Elle lève le menton et dit, "Tu aurais dû fuir." Fin sur un cadre héroïque dramatique. SFX : pluie, grondement de basse sourde, partition électronique s'estompant.
+
+Guidance négative : pas de personnages sous copyright, pas de recréation exacte de film, pas de gore, pas de sang, pas de style cartoon, pas de fond peu détaillé, pas de logos, pas de texte supplémentaire à l'écran, pas de ton comique
+
+--- TWEET CITÉ ---
+La plupart des outils de réalisation de films par IA pensent encore plan par plan
+
+#DreaminaOcto #DreaminaSeedance2 #DreaminaOctoVibeCreate #DreaminaAI
+https://t.co/848CL11aFN
+
+Mais la vraie réalisation de films n'a jamais fonctionné ainsi. La partie difficile n'est pas de concevoir des plans individuels
+
+C'est de savoir si :
+les relations entre les plans, la logique de mise en scène, le rythme de la caméra et l'escalade de la séquence
+peuvent encore rester dans le même flux cinématographique tandis que la séquence elle-même continue d'évoluer
+
+Et c'était la première fois que j'ai vraiment compris ce que Dreamina Octo entend par "Vibe Create."
+
+Ce n'est pas une fonctionnalité de prompt. C'est un état où la logique du film elle-même reste vivante pendant le processus créatif
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Prompt:
+Style : Thriller d'action cybernétique, effet bullet-time, réalisme cinématographique, haute énergie, ralenti dramatique, rythme de vidéo verticale de 15 secondes
+
+[00:00-00:03] Plan large dans une ruelle futuriste sombre la nuit, des enseignes au néon clignotent à travers la pluie et la vapeur. Une femme féroce en tenue tactique noire élégante se tient seule alors que des ennemis armés lèvent soudainement leurs armes autour d'elle. Elle tourne lentement la tête, calme et concentrée, puis murmure, "Trop lent." SFX : tonnerre lointain, gouttes de pluie, basse électronique sourde, armes qui s'arment.
+
+[00:03-00:06] Le ralenti bullet-time commence. Les ennemis tirent, et des projectiles lumineux traversent l'air. La caméra effectue une orbite circulaire rapide autour de la femme alors qu'elle se penche en arrière avec une précision impossible, ses longs cheveux et son manteau flottant au ralenti tandis que les projectiles passent à quelques centimètres de son visage. VFX : traînées de balles, distorsion ondulante dans l'air, reflets néon sur le pavé mouillé. SFX : pulsations de tirs ralentis, air sifflant, bourdonnement cinématographique profond.
+
+[00:06-00:09] Gros plan dynamique et plan de suivi latéral alors qu'elle se tord en plein mouvement, pose une main au sol, et se redresse d'un mouvement fluide. La caméra continue d'orbiter autour d'elle tandis que les derniers projectiles passent au ralenti. Ses yeux se fixent sur les attaquants, aigus et intrépides. Elle dit, "À mon tour." VFX : scintillement de distorsion temporelle, pluie figée dans l'air, traînées de projectiles lumineux. SFX : basse battement de cœur, impacts de pluie ralentis, tension électronique montante.
+
+[00:09-00:12] Le mouvement rapide reprend. La femme s'élance en avant avec une vitesse explosive, laissant une légère traînée d'image rémanente. Elle désarme l'attaquant le plus proche avec un coup de pied rapide et une frappe d'arts martiaux fluide, puis passe devant un autre ennemi d'un mouvement sans faille. La caméra tremble légèrement à chaque impact. VFX : flou de mouvement, étincelles néon, éclaboussures d'eau du sol mouillé. SFX : impacts, pas précipités, pulsation synthétique aiguë.
+
+[00:12-00:15] Plan final épique alors qu'elle atterrit en position basse au centre de la ruelle tandis que le dernier attaquant recule sous le choc. La pluie tombe à torrents, les lumières néon clignotent, et la caméra s'approche lentement de son expression confiante. Elle lève le menton et dit, "Tu aurais dû fuir." Fin sur un cadre héroïque dramatique. SFX : pluie, grondement de basse sourde, partition électronique s'estompant.
+
+Guidance négative : pas de personnages sous copyright, pas de recréation exacte de film, pas de gore, pas de sang, pas de style cartoon, pas de fond peu détaillé, pas de logos, pas de texte supplémentaire à l'écran, pas de ton comique
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064709728564093083.json)
+
+```text
+---
+Estilo: Thriller de ação cibernética, efeito bullet-time, realismo cinematográfico, alta energia, câmera lenta dramática, ritmo de vídeo vertical de 15 segundos
+
+[00:00-00:03] Plano geral em um beco futurista escuro à noite, letreiros de neon piscando através da chuva e vapor. Uma mulher feroz em um traje tático preto elegante está sozinha enquanto inimigos armados de repente levantam suas armas ao redor dela. Ela vira a cabeça lentamente, calma e focada, e sussurra: "Muito lento." SFX: trovão distante, gotas de chuva, baixo eletrônico, armas engatilhando.
+
+[00:03-00:06] O bullet-time em câmera lenta começa. Os inimigos disparam, e projéteis brilhantes riscam o ar. A câmera realiza uma órbita circular rápida ao redor da mulher enquanto ela se inclina para trás com precisão impossível, seu cabelo longo e casaco fluindo em câmera lenta enquanto os projéteis passam a centímetros de seu rosto. VFX: trilhas de balas, distorção de ondas no ar, reflexos de neon no pavimento molhado. SFX: pulsos de tiros desacelerados, ar sibilante, zumbido cinematográfico profundo.
+
+[00:06-00:09] Close-up dinâmico e tomada de rastreamento lateral enquanto ela gira em meio ao movimento, planta uma mão no chão e gira de volta para cima em um movimento fluido. A câmera continua orbitando ao redor dela enquanto os últimos projéteis passam em câmera lenta. Seus olhos se fixam nos atacantes, afiados e destemidos. Ela diz: "Minha vez." VFX: cintilação de distorção temporal, chuva congelada no ar, trilhas de projéteis brilhantes. SFX: baixo de batida cardíaca, impactos de chuva desacelerados, tensão eletrônica crescente.
+
+[00:09-00:12] O movimento rápido volta. A mulher avança com velocidade explosiva, deixando um rastro de imagem residual. Ela desarma o atacante mais próximo com um chute rápido e golpe de artes marciais fluido, depois passa por outro inimigo em um movimento contínuo. A câmera treme levemente a cada impacto. VFX: desfoque de movimento, faíscas de neon, spray de água do chão molhado. SFX: impactos, passos apressados, pulso de sintetizador agudo.
+
+[00:12-00:15] Tomada final épica enquanto ela pousa em uma postura baixa no centro do beco enquanto o último atacante recua em choque. A chuva cai, as luzes de neon piscam, e a câmera lentamente se aproxima de sua expressão confiante. Ela levanta o queixo e diz: "Você deveria ter fugido." Termina em um quadro heroico dramático. SFX: chuva, estrondo baixo, trilha eletrônica desvanecendo.
+
+Orientação negativa: sem personagens com direitos autorais, sem recriação exata de filmes, sem gore, sem sangue, sem estilo de desenho animado, sem fundo de baixa qualidade, sem logotipos, sem texto extra na tela, sem tom de comédia
+
+--- TWEET CITADO ---
+A maioria das ferramentas de cinema de IA ainda pensa cena por cena
+
+#DreaminaOcto #DreaminaSeedance2 #DreaminaOctoVibeCreate #DreaminaAI
+https://t.co/848CL11aFN
+
+Mas o cinema real nunca funcionou assim. A parte difícil não é projetar cenas individuais
+
+É se:
+relações entre cenas, lógica de encenação, ritmo de câmera e escalonamento de sequência
+podem permanecer dentro do mesmo fluxo cinematográfico enquanto a sequência em si continua evoluindo
+
+E essa foi a primeira vez que realmente entendi o que Dreamina Octo quer dizer com “Vibe Create.”
+
+Não é um recurso de prompt. É um estado onde a lógica do filme em si permanece viva durante o processo criativo
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Prompt:
+Estilo: Thriller de ação cibernética, efeito bullet-time, realismo cinematográfico, alta energia, câmera lenta dramática, ritmo de vídeo vertical de 15 segundos
+
+[00:00-00:03] Plano geral em um beco futurista escuro à noite, letreiros de neon piscando através da chuva e vapor. Uma mulher feroz em um traje tático preto elegante está sozinha enquanto inimigos armados de repente levantam suas armas ao redor dela. Ela vira a cabeça lentamente, calma e focada, e sussurra: "Muito lento." SFX: trovão distante, gotas de chuva, baixo eletrônico, armas engatilhando.
+
+[00:03-00:06] O bullet-time em câmera lenta começa. Os inimigos disparam, e projéteis brilhantes riscam o ar. A câmera realiza uma órbita circular rápida ao redor da mulher enquanto ela se inclina para trás com precisão impossível, seu cabelo longo e casaco fluindo em câmera lenta enquanto os projéteis passam a centímetros de seu rosto. VFX: trilhas de balas, distorção de ondas no ar, reflexos de neon no pavimento molhado. SFX: pulsos de tiros desacelerados, ar sibilante, zumbido cinematográfico profundo.
+
+[00:06-00:09] Close-up dinâmico e tomada de rastreamento lateral enquanto ela gira em meio ao movimento, planta uma mão no chão e gira de volta para cima em um movimento fluido. A câmera continua orbitando ao redor dela enquanto os últimos projéteis passam em câmera lenta. Seus olhos se fixam nos atacantes, afiados e destemidos. Ela diz: "Minha vez." VFX: cintilação de distorção temporal, chuva congelada no ar, trilhas de projéteis brilhantes. SFX: baixo de batida cardíaca, impactos de chuva desacelerados, tensão eletrônica crescente.
+
+[00:09-00:12] O movimento rápido volta. A mulher avança com velocidade explosiva, deixando um rastro de imagem residual. Ela desarma o atacante mais próximo com um chute rápido e golpe de artes marciais fluido, depois passa por outro inimigo em um movimento contínuo. A câmera treme levemente a cada impacto. VFX: desfoque de movimento, faíscas de neon, spray de água do chão molhado. SFX: impactos, passos apressados, pulso de sintetizador agudo.
+
+[00:12-00:15] Tomada final épica enquanto ela pousa em uma postura baixa no centro do beco enquanto o último atacante recua em choque. A chuva cai, as luzes de neon piscam, e a câmera lentamente se aproxima de sua expressão confiante. Ela levanta o queixo e diz: "Você deveria ter fugido." Termina em um quadro heroico dramático. SFX: chuva, estrondo baixo, trilha eletrônica desvanecendo.
+
+Orientação negativa: sem personagens com direitos autorais, sem recriação exata de filmes, sem gore, sem sangue, sem estilo de desenho animado, sem fundo de baixa qualidade, sem logotipos, sem texto extra na tela, sem tom de comédia
+---
+```
+
+## 出处与许可
+
+- 原作者：[Amira Zairi](https://x.com/azed_ai) · 原帖：<https://x.com/azed_ai/status/2064709728564093083>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2064709728564093083.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

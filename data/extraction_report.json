@@ -244,6 +244,61 @@
    {
     "id": "youmind-553",
     "reason": "sexual-minor"
+   },
+   {
+    "id": "renoise-2054206209302175967",
+    "reason": "sexual-minor",
+    "source_repo": "renoise-ai/awesome-seedance-prompts"
+   },
+   {
+    "id": "renoise-2064621633231319349",
+    "reason": "sexual-minor",
+    "source_repo": "renoise-ai/awesome-seedance-prompts"
+   },
+   {
+    "id": "renoise-2064943402248974646",
+    "reason": "sexual-minor",
+    "source_repo": "renoise-ai/awesome-seedance-prompts"
+   },
+   {
+    "id": "renoise-2069064344382443856",
+    "reason": "sexual-minor",
+    "source_repo": "renoise-ai/awesome-seedance-prompts"
+   },
+   {
+    "id": "renoise-2072906548838560116",
+    "reason": "sexual-minor",
+    "source_repo": "renoise-ai/awesome-seedance-prompts"
+   },
+   {
+    "id": "renoise-2079309305694577025",
+    "reason": "sexual-minor",
+    "source_repo": "renoise-ai/awesome-seedance-prompts"
+   },
+   {
+    "id": "renoise-2079726734073864383",
+    "reason": "sexual-minor",
+    "source_repo": "renoise-ai/awesome-seedance-prompts"
+   },
+   {
+    "id": "renoise-2080128266183086187",
+    "reason": "sexual-minor",
+    "source_repo": "renoise-ai/awesome-seedance-prompts"
+   },
+   {
+    "id": "renoise-2081748527676297379",
+    "reason": "sexual-minor",
+    "source_repo": "renoise-ai/awesome-seedance-prompts"
+   },
+   {
+    "id": "renoise-2082054096715137434",
+    "reason": "sexual-minor",
+    "source_repo": "renoise-ai/awesome-seedance-prompts"
+   },
+   {
+    "id": "renoise-2082476663863124452",
+    "reason": "sexual-minor",
+    "source_repo": "renoise-ai/awesome-seedance-prompts"
    }
   ]
  },
@@ -1226,5 +1281,51 @@
    "youmind-485",
    0.052
   ]
- ]
+ ],
+ "ingest_2026_10_09": {
+  "note": "LICENSE re-read via GitHub API before copy. verification=attribution_checked, output_status=output_unverified (original posts not re-opened).",
+  "before": {
+   "prompts": 7258,
+   "link_only_before_this_ingest": "see index at start"
+  },
+  "commits": {
+   "renoise-ai/awesome-seedance-prompts": "904b6caffa21c2b114bb93e1bd0e37ba80b3dd10",
+   "YouMind-OpenLab/awesome-grok-imagine-prompts": "26f21c011757ebacda29516bcbef65dcf5053f23",
+   "hanshs474/seedance-prompts-mcp": "05917c359eeeefd3bfbc37fe9b18c56018d22ebc",
+   "f/awesome-chatgpt-prompts": "7d3f248962d1dca209d59e033524bcb86c2b26b8",
+   "liu-kaining/Awesome-Veo3-Prompts": "366773db63827e07a09386a86fd0bbc9fd08eb39"
+  },
+  "sink": {
+   "candidates": 8597,
+   "kept": 6541,
+   "skip_post_id": 1932,
+   "skip_text_existing": 115,
+   "skip_short": 9
+  },
+  "written": 6530,
+  "by_source": {
+   "renoise-ai/awesome-seedance-prompts": 3940,
+   "YouMind-OpenLab/awesome-grok-imagine-prompts": 2432,
+   "hanshs474/seedance-prompts-mcp": 118,
+   "f/awesome-chatgpt-prompts": 10,
+   "liu-kaining/Awesome-Veo3-Prompts": 30
+  },
+  "link_only_by_source": {
+   "renoise-ai/awesome-seedance-prompts": 571,
+   "YouMind-OpenLab/awesome-grok-imagine-prompts": 127,
+   "hanshs474/seedance-prompts-mcp": 5,
+   "liu-kaining/Awesome-Veo3-Prompts": 1
+  },
+  "link_only_reasons": {
+   "copyrighted-character": 335,
+   "real-person": 109,
+   "hate": 117,
+   "sexual": 87,
+   "brand-ad": 48,
+   "gore": 6,
+   "drugs-weapons": 1,
+   "self-harm": 1
+  },
+  "excluded": 11
+ }
 }

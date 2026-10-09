@@ -1,0 +1,295 @@
+---
+id: "renoise-2054232698600726790"
+title: "Photorealistic underwater sci-fi archaeology film set entirely inside a single…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "科幻"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Scenery & Spectacle", "Worldbuilding", "Photoreal", "Sci-Fi", "VFX"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054232698600726790.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Heather Cooper"
+original_author_url: "https://x.com/HBCoop_"
+original_post_url: "https://x.com/HBCoop_/status/2054232698600726790"
+published: "2026-05-12"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Photorealistic underwater sci-fi archaeology film set entirely inside a single…
+
+## 提示词（English）
+
+```text
+Photorealistic underwater sci-fi archaeology film set entirely inside a single colossal submerged temple ruin beneath Veridion. The environment is an enormous flooded sanctuary with towering gold-and-stone pillars, coral-covered statues, bioluminescent algae, drifting sediment, schools of fish, and soft cyan caustic light rays descending from the distant ocean surface above. The entire sequence remains in this one connected location for stronger spatial continuity and immersion.
+
+Main character: Nala, a laced human marine biologist and underwater archaeologist. She is visibly non-human. Distinct adaptive gill structures along both sides of her neck rhythmically open and close while breathing underwater. Thin glowing biomechanical lines run beneath her skin along her jawline, neck, and spine. Subtle illuminated circuitry pulses softly under the skin when she scans the ruins or approaches the relic. No scuba tank. She breathes naturally underwater through her engineered gills. She wears a sleek dark blue aquatic exploration suit with lightweight utility harness, compact tools, integrated tech nodes, and small bioluminescent accents.
+
+00:00–00:03 — Wide cinematic reveal of the submerged temple sanctuary. Nala slowly swims between gigantic pillars and ancient statues while schools of fish pass through the structure. Camera drifts behind her as sunlight beams ripple through the water. Her gills visibly expand and contract while breathing underwater.
+
+00:03–00:06 — Medium tracking shot as Nala studies glowing inscriptions on a massive pillar using a holographic scanner. Close-up moments reveal translucent biomechanical lines beneath the skin of her neck and face softly pulsing cyan. Tiny bubbles escape naturally from her gill structures while suspended particles drift through the water.
+
+00:06–00:09 — Nala enters the temple’s central chamber. The architecture grows more elaborate with enormous statues, coral growth, and glowing algae woven into the ruins. Ancient mechanisms faintly activate as she approaches the center. Cyan energy spreads across the floor and columns.
+
+00:09–00:12 — In the heart of the sanctuary, Nala discovers a glowing relic resting inside a circular pedestal surrounded by statues. As she reaches toward it, her laced circuitry brightens beneath her skin, synchronizing with the relic’s energy pulses. Sediment rises from the floor and fish scatter through shafts of light.
+
+00:12–00:15 — Close-up of Nala holding the relic underwater. The glow illuminates her face, revealing the full detail of her adaptive gills and integrated laced features. Ancient bioluminescent energy flows through the surrounding architecture as the temple slowly awakens. Final slow pullback reveals Nala suspended in the vast flooded sanctuary surrounded by reactivated ruins.
+
+Natural underwater motion with realistic buoyancy, drag, drifting hair movement, suspended particles, refracted light, and cinematic volumetric caustics throughout. Tone is mysterious, grounded, ancient, and hopeful. Avoid fantasy armor, dry interiors, or human scuba-diver behavior. Nala should feel evolved specifically for underwater life.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054232698600726790.json)
+
+```text
+Película de arqueología de ciencia ficción submarina fotorrealista ambientada completamente dentro de una única y colosal ruina de templo sumergido bajo Veridion. El entorno es un enorme santuario inundado con imponentes pilares de oro y piedra, estatuas cubiertas de coral, algas bioluminiscentes, sedimentos flotantes, bancos de peces y suaves rayos de luz cian descendiendo desde la lejana superficie del océano. Toda la secuencia permanece en esta única ubicación conectada para una continuidad espacial más fuerte e inmersión.
+
+Personaje principal: Nala, una bióloga marina humana con modificaciones y arqueóloga submarina. Es visiblemente no humana. Estructuras branquiales adaptativas distintivas a lo largo de ambos lados de su cuello se abren y cierran rítmicamente mientras respira bajo el agua. Líneas biomecánicas delgadas y brillantes corren bajo su piel a lo largo de su mandíbula, cuello y columna vertebral. Circuitos iluminados sutilmente pulsan suavemente bajo la piel cuando escanea las ruinas o se acerca al relicario. Sin tanque de buceo. Respira naturalmente bajo el agua a través de sus branquias diseñadas. Viste un elegante traje de exploración acuática azul oscuro con un arnés de utilidad ligero, herramientas compactas, nodos tecnológicos integrados y pequeños acentos bioluminiscentes.
+
+00:00–00:03 — Revelación cinematográfica amplia del santuario del templo sumergido. Nala nada lentamente entre gigantescos pilares y antiguas estatuas mientras bancos de peces pasan a través de la estructura. La cámara se desplaza detrás de ella mientras los rayos de sol ondulan a través del agua. Sus branquias se expanden y contraen visiblemente mientras respira bajo el agua.
+
+00:03–00:06 — Toma de seguimiento medio mientras Nala estudia inscripciones brillantes en un pilar masivo usando un escáner holográfico. Momentos en primer plano revelan líneas biomecánicas translúcidas bajo la piel de su cuello y rostro pulsando suavemente en cian. Pequeñas burbujas escapan naturalmente de sus estructuras branquiales mientras partículas suspendidas flotan a través del agua.
+
+00:06–00:09 — Nala entra en la cámara central del templo. La arquitectura se vuelve más elaborada con enormes estatuas, crecimiento de coral y algas brillantes entrelazadas en las ruinas. Mecanismos antiguos se activan débilmente mientras se acerca al centro. Energía cian se extiende por el suelo y las columnas.
+
+00:09–00:12 — En el corazón del santuario, Nala descubre un relicario brillante descansando dentro de un pedestal circular rodeado de estatuas. Al extender la mano hacia él, su circuito integrado se ilumina bajo su piel, sincronizándose con los pulsos de energía del relicario. El sedimento se eleva del suelo y los peces se dispersan a través de haces de luz.
+
+00:12–00:15 — Primer plano de Nala sosteniendo el relicario bajo el agua. El resplandor ilumina su rostro, revelando el detalle completo de sus branquias adaptativas y características integradas. Energía bioluminiscente antigua fluye a través de la arquitectura circundante mientras el templo se despierta lentamente. Un último alejamiento lento revela a Nala suspendida en el vasto santuario inundado rodeada de ruinas reactivadas.
+
+Movimiento submarino natural con flotabilidad realista, arrastre, movimiento de cabello flotante, partículas suspendidas, luz refractada y efectos volumétricos cinematográficos de causticidad en todo momento. El tono es misterioso, fundamentado, antiguo y esperanzador. Evitar armaduras de fantasía, interiores secos o comportamientos de buceadores humanos. Nala debe sentirse evolucionada específicamente para la vida submarina.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Usé el gráfico de producción como imagen de referencia visual en Seedance 2.0 + este prompt de texto:
+
+Photorealistic underwater sci-fi archaeology film set entirely inside a single colossal submerged temple ruin beneath Veridion. The environment is an enormous flooded sanctuary with towering gold-and-stone pillars, coral-covered statues, bioluminescent algae, drifting sediment, schools of fish, and soft cyan caustic light rays descending from the distant ocean surface above. The entire sequence remains in this one connected location for stronger spatial continuity and immersion.
+
+Main character: Nala, a laced human marine biologist and underwater archaeologist. She is visibly non-human. Distinct adaptive gill structures along both sides of her neck rhythmically open and close while breathing underwater. Thin glowing biomechanical lines run beneath her skin along her jawline, neck, and spine. Subtle illuminated circuitry pulses softly under the skin when she scans the ruins or approaches the relic. No scuba tank. She breathes naturally underwater through her engineered gills. She wears a sleek dark blue aquatic exploration suit with lightweight utility harness, compact tools, integrated tech nodes, and small bioluminescent accents.
+
+00:00–00:03 — Wide cinematic reveal of the submerged temple sanctuary. Nala slowly swims between gigantic pillars and ancient statues while schools of fish pass through the structure. Camera drifts behind her as sunlight beams ripple through the water. Her gills visibly expand and contract while breathing underwater.
+
+00:03–00:06 — Medium tracking shot as Nala studies glowing inscriptions on a massive pillar using a holographic scanner. Close-up moments reveal translucent biomechanical lines beneath the skin of her neck and face softly pulsing cyan. Tiny bubbles escape naturally from her gill structures while suspended particles drift through the water.
+
+00:06–00:09 — Nala enters the temple’s central chamber. The architecture grows more elaborate with enormous statues, coral growth, and glowing algae woven into the ruins. Ancient mechanisms faintly activate as she approaches the center. Cyan energy spreads across the floor and columns.
+
+00:09–00:12 — In the heart of the sanctuary, Nala discovers a glowing relic resting inside a circular pedestal surrounded by statues. As she reaches toward it, her laced circuitry brightens beneath her skin, synchronizing with the relic’s energy pulses. Sediment rises from the floor and fish scatter through shafts of light.
+
+00:12–00:15 — Close-up of Nala holding the relic underwater. The glow illuminates her face, revealing the full detail of her adaptive gills and integrated laced features. Ancient bioluminescent energy flows through the surrounding architecture as the temple slowly awakens. Final slow pullback reveals Nala suspended in the vast flooded sanctuary surrounded by reactivated ruins.
+
+Natural underwater motion with realistic buoyancy, drag, drifting hair movement, suspended particles, refracted light, and cinematic volumetric caustics throughout. Tone is mysterious, grounded, ancient, and hopeful. Avoid fantasy armor, dry interiors, or human scuba-diver behavior. Nala should feel evolved specifically for underwater life.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054232698600726790.json)
+
+```text
+---
+Film d'archéologie sci-fi sous-marin photoréaliste se déroulant entièrement à l'intérieur d'une seule ruine colossale de temple submergé sous Veridion. L'environnement est un immense sanctuaire inondé avec des piliers d'or et de pierre imposants, des statues couvertes de corail, des algues bioluminescentes, des sédiments flottants, des bancs de poissons, et des rayons de lumière cyan douce descendant de la surface océanique lointaine au-dessus. Toute la séquence reste dans cet unique lieu connecté pour une continuité spatiale et une immersion plus fortes.
+
+Personnage principal : Nala, une biologiste marine humaine modifiée et archéologue sous-marine. Elle est visiblement non-humaine. Des structures distinctes de branchies adaptatives le long des deux côtés de son cou s'ouvrent et se ferment rythmiquement lorsqu'elle respire sous l'eau. Des lignes biomécaniques fines et lumineuses courent sous sa peau le long de sa mâchoire, de son cou et de sa colonne vertébrale. Un circuit subtil illuminé pulse doucement sous la peau lorsqu'elle scanne les ruines ou s'approche de la relique. Pas de bouteille de plongée. Elle respire naturellement sous l'eau grâce à ses branchies conçues. Elle porte une combinaison d'exploration aquatique bleu foncé élégante avec un harnais utilitaire léger, des outils compacts, des nœuds technologiques intégrés, et de petits accents bioluminescents.
+
+00:00–00:03 — Révélation cinématographique large du sanctuaire du temple submergé. Nala nage lentement entre des piliers gigantesques et des statues anciennes tandis que des bancs de poissons traversent la structure. La caméra dérive derrière elle alors que les rayons de soleil ondulent à travers l'eau. Ses branchies se dilatent et se contractent visiblement pendant qu'elle respire sous l'eau.
+
+00:03–00:06 — Plan de suivi moyen alors que Nala étudie des inscriptions lumineuses sur un pilier massif à l'aide d'un scanner holographique. Des moments en gros plan révèlent des lignes biomécaniques translucides sous la peau de son cou et de son visage, pulsant doucement en cyan. De minuscules bulles s'échappent naturellement de ses structures branchiales tandis que des particules en suspension dérivent dans l'eau.
+
+00:06–00:09 — Nala entre dans la chambre centrale du temple. L'architecture devient plus élaborée avec d'énormes statues, des croissances de corail, et des algues lumineuses tissées dans les ruines. Des mécanismes anciens s'activent faiblement alors qu'elle s'approche du centre. L'énergie cyan se répand sur le sol et les colonnes.
+
+00:09–00:12 — Au cœur du sanctuaire, Nala découvre une relique lumineuse reposant à l'intérieur d'un piédestal circulaire entouré de statues. Alors qu'elle tend la main vers elle, son circuit intégré s'illumine sous sa peau, se synchronisant avec les pulsations d'énergie de la relique. Les sédiments s'élèvent du sol et les poissons se dispersent à travers les faisceaux de lumière.
+
+00:12–00:15 — Gros plan de Nala tenant la relique sous l'eau. La lueur illumine son visage, révélant tous les détails de ses branchies adaptatives et de ses caractéristiques intégrées. Une énergie bioluminescente ancienne circule à travers l'architecture environnante alors que le temple s'éveille lentement. Un dernier recul lent révèle Nala suspendue dans le vaste sanctuaire inondé entouré de ruines réactivées.
+
+Mouvement sous-marin naturel avec flottabilité réaliste, traînée, mouvement des cheveux dérivant, particules en suspension, lumière réfractée, et caustiques volumétriques cinématographiques tout au long. Le ton est mystérieux, ancré, ancien, et plein d'espoir. Évitez l'armure fantastique, les intérieurs secs, ou le comportement de plongeur humain. Nala doit sembler évoluée spécifiquement pour la vie sous-marine.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] J'ai utilisé le graphique de production comme image de référence visuelle dans Seedance 2.0 + ce prompt textuel :
+
+Photorealistic underwater sci-fi archaeology film set entirely inside a single colossal submerged temple ruin beneath Veridion. The environment is an enormous flooded sanctuary with towering gold-and-stone pillars, coral-covered statues, bioluminescent algae, drifting sediment, schools of fish, and soft cyan caustic light rays descending from the distant ocean surface above. The entire sequence remains in this one connected location for stronger spatial continuity and immersion.
+
+Main character: Nala, a laced human marine biologist and underwater archaeologist. She is visibly non-human. Distinct adaptive gill structures along both sides of her neck rhythmically open and close while breathing underwater. Thin glowing biomechanical lines run beneath her skin along her jawline, neck, and spine. Subtle illuminated circuitry pulses softly under the skin when she scans the ruins or approaches the relic. No scuba tank. She breathes naturally underwater through her engineered gills. She wears a sleek dark blue aquatic exploration suit with lightweight utility harness, compact tools, integrated tech nodes, and small bioluminescent accents.
+
+00:00–00:03 — Wide cinematic reveal of the submerged temple sanctuary. Nala slowly swims between gigantic pillars and ancient statues while schools of fish pass through the structure. Camera drifts behind her as sunlight beams ripple through the water. Her gills visibly expand and contract while breathing underwater.
+
+00:03–00:06 — Medium tracking shot as Nala studies glowing inscriptions on a massive pillar using a holographic scanner. Close-up moments reveal translucent biomechanical lines beneath the skin of her neck and face softly pulsing cyan. Tiny bubbles escape naturally from her gill structures while suspended particles drift through the water.
+
+00:06–00:09 — Nala enters the temple’s central chamber. The architecture grows more elaborate with enormous statues, coral growth, and glowing algae woven into the ruins. Ancient mechanisms faintly activate as she approaches the center. Cyan energy spreads across the floor and columns.
+
+00:09–00:12 — In the heart of the sanctuary, Nala discovers a glowing relic resting inside a circular pedestal surrounded by statues. As she reaches toward it, her laced circuitry brightens beneath her skin, synchronizing with the relic’s energy pulses. Sediment rises from the floor and fish scatter through shafts of light.
+
+00:12–00:15 — Close-up of Nala holding the relic underwater. The glow illuminates her face, revealing the full detail of her adaptive gills and integrated laced features. Ancient bioluminescent energy flows through the surrounding architecture as the temple slowly awakens. Final slow pullback reveals Nala suspended in the vast flooded sanctuary surrounded by reactivated ruins.
+
+Natural underwater motion with realistic buoyancy, drag, drifting hair movement, suspended particles, refracted light, and cinematic volumetric caustics throughout. Tone is mysterious, grounded, ancient, and hopeful. Avoid fantasy armor, dry interiors, or human scuba-diver behavior. Nala should feel evolved specifically for underwater life.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054232698600726790.json)
+
+```text
+---
+フォトリアリスティックな水中SF考古学映画は、すべてヴェリディオンの下にある巨大な沈没寺院遺跡の中で展開されます。環境は、金と石のそびえ立つ柱、サンゴで覆われた彫像、発光する藻類、漂う堆積物、魚の群れ、そして遠くの海面から降り注ぐ柔らかなシアンの光線が特徴の、広大な水没した聖域です。シーケンス全体は、この一つの連続した場所で展開され、空間的な連続性と没入感を強化します。
+
+主人公：ナラ、レース状の人間の海洋生物学者であり水中考古学者。彼女は明らかに非人間的です。首の両側に沿った適応性のあるエラ構造が、水中で呼吸する際にリズミカルに開閉します。顎のライン、首、背骨に沿って皮膚の下を走る薄い発光する生体機械的なライン。遺跡をスキャンしたり遺物に近づいたりすると、皮膚の下で微かに光る回路が柔らかく脈動します。スキューバタンクはありません。彼女はエンジニアリングされたエラを通して自然に水中で呼吸します。彼女はスリムなダークブルーの水中探検スーツを着用し、軽量のユーティリティハーネス、コンパクトなツール、統合されたテクノロジーノード、小さな発光アクセントを備えています。
+
+00:00–00:03 — 沈没した寺院の聖域の広いシネマティックな公開。ナラは巨大な柱と古代の彫像の間をゆっくりと泳ぎ、魚の群れが構造を通り抜けます。カメラは彼女の後ろを漂い、太陽光線が水を通して波打ちます。彼女のエラは水中で呼吸する際に目に見えて広がり収縮します。
+
+00:03–00:06 — ナラがホログラフィックスキャナーを使用して巨大な柱の発光する碑文を研究する中間追跡ショット。クローズアップの瞬間は、彼女の首と顔の皮膚の下で半透明の生体機械的なラインが柔らかくシアンに脈動する様子を明らかにします。小さな泡が自然に彼女のエラ構造から逃げ出し、浮遊する粒子が水中を漂います。
+
+00:06–00:09 — ナラが寺院の中央の部屋に入ります。建築はより精巧になり、巨大な彫像、サンゴの成長、遺跡に織り込まれた発光する藻類が見られます。彼女が中心に近づくと、古代のメカニズムが微かに作動します。シアンのエネルギーが床と柱に広がります。
+
+00:09–00:12 — 聖域の中心で、ナラは彫像に囲まれた円形の台座の中に休む発光する遺物を発見します。彼女がそれに手を伸ばすと、彼女のレース状の回路が皮膚の下で明るくなり、遺物のエネルギーパルスと同期します。堆積物が床から上昇し、魚が光の軸を通って散らばります。
+
+00:12–00:15 — 水中で遺物を持つナラのクローズアップ。光が彼女の顔を照らし、彼女の適応性のあるエラと統合されたレース状の特徴の全体を明らかにします。古代の発光エネルギーが周囲の建築を流れ、寺院がゆっくりと目覚めます。最後のスロープルバックは、再活性化された遺跡に囲まれた広大な水没した聖域に浮かぶナラを明らかにします。
+
+リアルな浮力、抵抗、漂う髪の動き、浮遊する粒子、屈折した光、そしてシネマティックなボリュメトリックなカースティクスを通しての自然な水中の動き。トーンは神秘的で、地に足がついた、古代的で希望に満ちています。ファンタジーの鎧、乾いた内部、または人間のスキューバダイバーの行動を避けてください。ナラは水中生活に特化して進化したように感じられるべきです。
+
+--- THREAD CONTINUATION ---
+[Thread 1] Seedance 2.0でプロダクショングラフを視覚的な参照画像として使用し、このテキストプロンプトを使用しました：
+
+Photorealistic underwater sci-fi archaeology film set entirely inside a single colossal submerged temple ruin beneath Veridion. The environment is an enormous flooded sanctuary with towering gold-and-stone pillars, coral-covered statues, bioluminescent algae, drifting sediment, schools of fish, and soft cyan caustic light rays descending from the distant ocean surface above. The entire sequence remains in this one connected location for stronger spatial continuity and immersion.
+
+Main character: Nala, a laced human marine biologist and underwater archaeologist. She is visibly non-human. Distinct adaptive gill structures along both sides of her neck rhythmically open and close while breathing underwater. Thin glowing biomechanical lines run beneath her skin along her jawline, neck, and spine. Subtle illuminated circuitry pulses softly under the skin when she scans the ruins or approaches the relic. No scuba tank. She breathes naturally underwater through her engineered gills. She wears a sleek dark blue aquatic exploration suit with lightweight utility harness, compact tools, integrated tech nodes, and small bioluminescent accents.
+
+00:00–00:03 — Wide cinematic reveal of the submerged temple sanctuary. Nala slowly swims between gigantic pillars and ancient statues while schools of fish pass through the structure. Camera drifts behind her as sunlight beams ripple through the water. Her gills visibly expand and contract while breathing underwater.
+
+00:03–00:06 — Medium tracking shot as Nala studies glowing inscriptions on a massive pillar using a holographic scanner. Close-up moments reveal translucent biomechanical lines beneath the skin of her neck and face softly pulsing cyan. Tiny bubbles escape naturally from her gill structures while suspended particles drift through the water.
+
+00:06–00:09 — Nala enters the temple’s central chamber. The architecture grows more elaborate with enormous statues, coral growth, and glowing algae woven into the ruins. Ancient mechanisms faintly activate as she approaches the center. Cyan energy spreads across the floor and columns.
+
+00:09–00:12 — In the heart of the sanctuary, Nala discovers a glowing relic resting inside a circular pedestal surrounded by statues. As she reaches toward it, her laced circuitry brightens beneath her skin, synchronizing with the relic’s energy pulses. Sediment rises from the floor and fish scatter through shafts of light.
+
+00:12–00:15 — Close-up of Nala holding the relic underwater. The glow illuminates her face, revealing the full detail of her adaptive gills and integrated laced features. Ancient bioluminescent energy flows through the surrounding architecture as the temple slowly awakens. Final slow pullback reveals Nala suspended in the vast flooded sanctuary surrounded by reactivated ruins.
+
+Natural underwater motion with realistic buoyancy, drag, drifting hair movement, suspended particles, refracted light, and cinematic volumetric caustics throughout. Tone is mysterious, grounded, ancient, and hopeful. Avoid fantasy armor, dry interiors, or human scuba-diver behavior. Nala should feel evolved specifically for underwater life.
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054232698600726790.json)
+
+```text
+---
+Veridion 아래에 잠긴 거대한 신전 유적 내부에서만 촬영된 사실적인 수중 SF 고고학 영화. 환경은 거대한 물에 잠긴 성소로, 금과 돌로 된 높은 기둥, 산호로 덮인 조각상, 발광하는 조류, 떠다니는 침전물, 물고기 떼, 그리고 먼 바다 표면에서 내려오는 부드러운 청록색의 빛줄기로 가득 차 있습니다. 전체 시퀀스는 더 강한 공간적 연속성과 몰입감을 위해 이 하나의 연결된 장소에서만 진행됩니다.
+
+주인공: Nala, 레이스드 인간 해양 생물학자이자 수중 고고학자. 그녀는 명백히 비인간적입니다. 그녀의 목 양쪽에 있는 독특한 적응형 아가미 구조가 물속에서 호흡할 때 리드미컬하게 열리고 닫힙니다. 얇은 발광 생체 기계적 선이 턱선, 목, 척추를 따라 피부 아래로 흐릅니다. 그녀가 유적을 스캔하거나 유물에 접근할 때 피부 아래의 미세한 발광 회로가 부드럽게 맥동합니다. 스쿠버 탱크는 없습니다. 그녀는 설계된 아가미를 통해 자연스럽게 물속에서 호흡합니다. 그녀는 가벼운 유틸리티 하네스, 소형 도구, 통합 기술 노드, 작은 발광 악센트가 있는 세련된 짙은 파란색 수중 탐사복을 착용하고 있습니다.
+
+00:00–00:03 — 잠긴 신전 성소의 넓은 시네마틱 공개. Nala는 거대한 기둥과 고대 조각상 사이를 천천히 헤엄치며 물고기 떼가 구조물을 통과합니다. 카메라는 그녀 뒤에서 물결치는 햇빛이 물을 통해 비추는 장면을 따라갑니다. 그녀의 아가미는 물속에서 호흡할 때 눈에 띄게 팽창하고 수축합니다.
+
+00:03–00:06 — Nala가 홀로그램 스캐너를 사용하여 거대한 기둥에 있는 발광하는 비문을 연구하는 중간 추적 샷. 근접 장면에서는 그녀의 목과 얼굴 피부 아래의 반투명 생체 기계적 선이 부드럽게 청록색으로 맥동하는 모습을 보여줍니다. 작은 거품이 자연스럽게 그녀의 아가미 구조에서 빠져나오고, 떠다니는 입자가 물을 통해 흩어집니다.
+
+00:06–00:09 — Nala가 신전의 중앙 방으로 들어갑니다. 건축물은 거대한 조각상, 산호 성장, 유적에 얽힌 발광 조류로 더욱 정교해집니다. 그녀가 중심에 접근할 때 고대 메커니즘이 희미하게 활성화됩니다. 청록색 에너지가 바닥과 기둥을 가로질러 퍼집니다.
+
+00:09–00:12 — 성소의 중심에서 Nala는 조각상으로 둘러싸인 원형 받침대 안에 놓인 발광 유물을 발견합니다. 그녀가 그것을 향해 손을 뻗을 때, 그녀의 레이스드 회로가 피부 아래에서 밝아지며 유물의 에너지 맥동과 동기화됩니다. 침전물이 바닥에서 올라오고 물고기들이 빛줄기를 통해 흩어집니다.
+
+00:12–00:15 — 물속에서 유물을 들고 있는 Nala의 근접 촬영. 빛이 그녀의 얼굴을 비추며 적응형 아가미와 통합된 레이스드 특징의 모든 세부 사항을 드러냅니다. 고대 발광 에너지가 주변 건축물로 흐르면서 신전이 서서히 깨어납니다. 마지막으로 천천히 뒤로 물러나며 Nala가 재활성화된 유적으로 둘러싸인 거대한 물에 잠긴 성소에 떠 있는 모습을 보여줍니다.
+
+사실적인 부력, 저항, 떠다니는 머리카락 움직임, 떠다니는 입자, 굴절된 빛, 시네마틱 볼류메트릭 카우스틱스를 통한 자연스러운 수중 움직임. 톤은 신비롭고, 현실적이며, 고대적이고 희망적입니다. 판타지 갑옷, 건조한 내부, 인간 스쿠버 다이버 행동을 피하십시오. Nala는 수중 생활에 특별히 진화한 느낌을 주어야 합니다.
+
+--- THREAD CONTINUATION ---
+[Thread 1] Seedance 2.0에서 제작 그래프를 시각적 참조 이미지로 사용하고 이 텍스트 프롬프트를 사용했습니다:
+
+Photorealistic underwater sci-fi archaeology film set entirely inside a single colossal submerged temple ruin beneath Veridion. The environment is an enormous flooded sanctuary with towering gold-and-stone pillars, coral-covered statues, bioluminescent algae, drifting sediment, schools of fish, and soft cyan caustic light rays descending from the distant ocean surface above. The entire sequence remains in this one connected location for stronger spatial continuity and immersion.
+
+Main character: Nala, a laced human marine biologist and underwater archaeologist. She is visibly non-human. Distinct adaptive gill structures along both sides of her neck rhythmically open and close while breathing underwater. Thin glowing biomechanical lines run beneath her skin along her jawline, neck, and spine. Subtle illuminated circuitry pulses softly under the skin when she scans the ruins or approaches the relic. No scuba tank. She breathes naturally underwater through her engineered gills. She wears a sleek dark blue aquatic exploration suit with lightweight utility harness, compact tools, integrated tech nodes, and small bioluminescent accents.
+
+00:00–00:03 — Wide cinematic reveal of the submerged temple sanctuary. Nala slowly swims between gigantic pillars and ancient statues while schools of fish pass through the structure. Camera drifts behind her as sunlight beams ripple through the water. Her gills visibly expand and contract while breathing underwater.
+
+00:03–00:06 — Medium tracking shot as Nala studies glowing inscriptions on a massive pillar using a holographic scanner. Close-up moments reveal translucent biomechanical lines beneath the skin of her neck and face softly pulsing cyan. Tiny bubbles escape naturally from her gill structures while suspended particles drift through the water.
+
+00:06–00:09 — Nala enters the temple’s central chamber. The architecture grows more elaborate with enormous statues, coral growth, and glowing algae woven into the ruins. Ancient mechanisms faintly activate as she approaches the center. Cyan energy spreads across the floor and columns.
+
+00:09–00:12 — In the heart of the sanctuary, Nala discovers a glowing relic resting inside a circular pedestal surrounded by statues. As she reaches toward it, her laced circuitry brightens beneath her skin, synchronizing with the relic’s energy pulses. Sediment rises from the floor and fish scatter through shafts of light.
+
+00:12–00:15 — Close-up of Nala holding the relic underwater. The glow illuminates her face, revealing the full detail of her adaptive gills and integrated laced features. Ancient bioluminescent energy flows through the surrounding architecture as the temple slowly awakens. Final slow pullback reveals Nala suspended in the vast flooded sanctuary surrounded by reactivated ruins.
+
+Natural underwater motion with realistic buoyancy, drag, drifting hair movement, suspended particles, refracted light, and cinematic volumetric caustics throughout. Tone is mysterious, grounded, ancient, and hopeful. Avoid fantasy armor, dry interiors, or human scuba-diver behavior. Nala should feel evolved specifically for underwater life.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054232698600726790.json)
+
+```text
+---
+Filme de arqueologia sci-fi subaquática fotorrealista ambientado inteiramente dentro de uma única colossal ruína de templo submerso sob Veridion. O ambiente é um enorme santuário inundado com imponentes pilares de ouro e pedra, estátuas cobertas de coral, algas bioluminescentes, sedimentos flutuantes, cardumes de peixes e suaves raios de luz ciano descendo da distante superfície do oceano acima. Toda a sequência permanece neste único local conectado para uma continuidade espacial e imersão mais fortes.
+
+Personagem principal: Nala, uma bióloga marinha humana modificada e arqueóloga subaquática. Ela é visivelmente não-humana. Estruturas de guelras adaptativas distintas ao longo de ambos os lados do pescoço se abrem e fecham ritmicamente enquanto respira debaixo d'água. Linhas biomecânicas finas e brilhantes correm sob sua pele ao longo da linha do maxilar, pescoço e coluna. Circuitos iluminados sutis pulsando suavemente sob a pele quando ela escaneia as ruínas ou se aproxima da relíquia. Sem cilindro de mergulho. Ela respira naturalmente debaixo d'água através de suas guelras projetadas. Ela veste um elegante traje de exploração aquática azul escuro com arnês utilitário leve, ferramentas compactas, nós tecnológicos integrados e pequenos acentos bioluminescentes.
+
+00:00–00:03 — Revelação cinematográfica ampla do santuário do templo submerso. Nala nada lentamente entre pilares gigantescos e estátuas antigas enquanto cardumes de peixes passam pela estrutura. A câmera flutua atrás dela enquanto feixes de luz solar ondulam através da água. Suas guelras visivelmente se expandem e contraem enquanto respira debaixo d'água.
+
+00:03–00:06 — Plano médio de rastreamento enquanto Nala estuda inscrições brilhantes em um pilar maciço usando um scanner holográfico. Momentos de close-up revelam linhas biomecânicas translúcidas sob a pele de seu pescoço e rosto pulsando suavemente em ciano. Pequenas bolhas escapam naturalmente de suas estruturas de guelras enquanto partículas suspensas flutuam pela água.
+
+00:06–00:09 — Nala entra na câmara central do templo. A arquitetura se torna mais elaborada com enormes estátuas, crescimento de corais e algas brilhantes entrelaçadas nas ruínas. Mecanismos antigos se ativam levemente enquanto ela se aproxima do centro. Energia ciano se espalha pelo chão e colunas.
+
+00:09–00:12 — No coração do santuário, Nala descobre uma relíquia brilhante repousando dentro de um pedestal circular cercado por estátuas. Enquanto ela se aproxima, seus circuitos integrados brilham sob sua pele, sincronizando-se com os pulsos de energia da relíquia. Sedimentos se levantam do chão e peixes se dispersam através de feixes de luz.
+
+00:12–00:15 — Close-up de Nala segurando a relíquia debaixo d'água. O brilho ilumina seu rosto, revelando todos os detalhes de suas guelras adaptativas e características integradas. Energia bioluminescente antiga flui através da arquitetura circundante enquanto o templo lentamente desperta. Um último afastamento lento revela Nala suspensa no vasto santuário inundado cercado por ruínas reativadas.
+
+Movimento subaquático natural com flutuabilidade realista, arrasto, movimento de cabelo flutuante, partículas suspensas, luz refratada e cáusticas volumétricas cinematográficas por toda parte. O tom é misterioso, fundamentado, antigo e esperançoso. Evite armaduras de fantasia, interiores secos ou comportamento de mergulhador humano. Nala deve parecer evoluída especificamente para a vida subaquática.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Usei o gráfico de produção como imagem de referência visual no Seedance 2.0 + este prompt de texto:
+
+Photorealistic underwater sci-fi archaeology film set entirely inside a single colossal submerged temple ruin beneath Veridion. The environment is an enormous flooded sanctuary with towering gold-and-stone pillars, coral-covered statues, bioluminescent algae, drifting sediment, schools of fish, and soft cyan caustic light rays descending from the distant ocean surface above. The entire sequence remains in this one connected location for stronger spatial continuity and immersion.
+
+Main character: Nala, a laced human marine biologist and underwater archaeologist. She is visibly non-human. Distinct adaptive gill structures along both sides of her neck rhythmically open and close while breathing underwater. Thin glowing biomechanical lines run beneath her skin along her jawline, neck, and spine. Subtle illuminated circuitry pulses softly under the skin when she scans the ruins or approaches the relic. No scuba tank. She breathes naturally underwater through her engineered gills. She wears a sleek dark blue aquatic exploration suit with lightweight utility harness, compact tools, integrated tech nodes, and small bioluminescent accents.
+
+00:00–00:03 — Wide cinematic reveal of the submerged temple sanctuary. Nala slowly swims between gigantic pillars and ancient statues while schools of fish pass through the structure. Camera drifts behind her as sunlight beams ripple through the water. Her gills visibly expand and contract while breathing underwater.
+
+00:03–00:06 — Medium tracking shot as Nala studies glowing inscriptions on a massive pillar using a holographic scanner. Close-up moments reveal translucent biomechanical lines beneath the skin of her neck and face softly pulsing cyan. Tiny bubbles escape naturally from her gill structures while suspended particles drift through the water.
+
+00:06–00:09 — Nala enters the temple’s central chamber. The architecture grows more elaborate with enormous statues, coral growth, and glowing algae woven into the ruins. Ancient mechanisms faintly activate as she approaches the center. Cyan energy spreads across the floor and columns.
+
+00:09–00:12 — In the heart of the sanctuary, Nala discovers a glowing relic resting inside a circular pedestal surrounded by statues. As she reaches toward it, her laced circuitry brightens beneath her skin, synchronizing with the relic’s energy pulses. Sediment rises from the floor and fish scatter through shafts of light.
+
+00:12–00:15 — Close-up of Nala holding the relic underwater. The glow illuminates her face, revealing the full detail of her adaptive gills and integrated laced features. Ancient bioluminescent energy flows through the surrounding architecture as the temple slowly awakens. Final slow pullback reveals Nala suspended in the vast flooded sanctuary surrounded by reactivated ruins.
+
+Natural underwater motion with realistic buoyancy, drag, drifting hair movement, suspended particles, refracted light, and cinematic volumetric caustics throughout. Tone is mysterious, grounded, ancient, and hopeful. Avoid fantasy armor, dry interiors, or human scuba-diver behavior. Nala should feel evolved specifically for underwater life.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054232698600726790.json)
+
+```text
+---
+完全在Veridion下方的一个巨大沉没寺庙遗址内拍摄的超现实水下科幻考古电影。环境是一个巨大的淹没圣殿，拥有高耸的金石柱子、覆盖珊瑚的雕像、生物发光的藻类、漂浮的沉积物、鱼群，以及从遥远的海洋表面投射下来的柔和青色光线。整个场景都在这个连贯的地点内进行，以增强空间连续性和沉浸感。
+
+主角：Nala，一位具备蕾丝特征的人类海洋生物学家和水下考古学家。她明显不是人类。她的脖子两侧有独特的适应性鳃结构，在水下呼吸时有节奏地开合。薄薄的发光生物机械线条沿着她的下颌线、脖子和脊椎下方延伸。当她扫描遗址或接近遗物时，皮肤下的微弱发光电路轻轻脉动。没有潜水气瓶。她通过改造的鳃自然地在水下呼吸。她穿着一套流线型深蓝色水下探索服，配有轻便的多功能吊带、紧凑的工具、集成的技术节点和小型生物发光装饰。
+
+00:00–00:03 — 宽幅电影镜头揭示沉没的寺庙圣殿。Nala缓慢游过巨大的柱子和古老的雕像，鱼群穿过结构。镜头在她身后漂移，阳光束在水中荡漾。她的鳃在水下呼吸时明显扩张和收缩。
+
+00:03–00:06 — 中景跟踪镜头，Nala使用全息扫描仪研究巨大柱子上的发光铭文。特写镜头显示她脖子和脸部皮肤下的半透明生物机械线条轻轻脉动青色。微小的气泡自然从她的鳃结构中逸出，悬浮的颗粒在水中漂浮。
+
+00:06–00:09 — Nala进入寺庙的中央大厅。建筑变得更加复杂，拥有巨大的雕像、珊瑚生长和编织在遗址中的发光藻类。当她接近中心时，古老的机制微弱地激活。青色能量在地板和柱子上蔓延。
+
+00:09–00:12 — 在圣殿的中心，Nala发现一个发光的遗物，安放在被雕像环绕的圆形基座内。当她伸手触碰它时，她皮肤下的蕾丝电路亮起，与遗物的能量脉冲同步。沉积物从地板升起，鱼群在光束中四散。
+
+00:12–00:15 — Nala在水下握住遗物的特写镜头。光芒照亮她的脸，揭示她适应性鳃和集成蕾丝特征的全部细节。古老的生物发光能量流经周围的建筑，寺庙慢慢苏醒。最后的慢镜头拉远显示Nala悬浮在巨大的淹没圣殿中，周围是重新激活的遗址。
+
+自然的水下运动，具有真实的浮力、阻力、漂浮的头发运动、悬浮颗粒、折射光线和电影般的体积光效。整体基调神秘、扎实、古老且充满希望。避免幻想盔甲、干燥的内部或人类潜水员行为。Nala应被感知为专为水下生活进化而来。
+```
+
+## 出处与许可
+
+- 原作者：[Heather Cooper](https://x.com/HBCoop_) · 原帖：<https://x.com/HBCoop_/status/2054232698600726790>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054232698600726790.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

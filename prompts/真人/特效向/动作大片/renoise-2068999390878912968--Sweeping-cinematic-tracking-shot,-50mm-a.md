@@ -1,0 +1,227 @@
+---
+id: "renoise-2068999390878912968"
+title: "Sweeping cinematic tracking shot, 50mm anamorphic, low camera gliding just…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "动作大片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Chase", "Animals", "Creatures", "Photoreal", "Sci-Fi"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068999390878912968.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "PromptHero - Create with AI"
+original_author_url: "https://x.com/prompthero"
+original_post_url: "https://x.com/prompthero/status/2068999390878912968"
+published: "2026-06-22"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Sweeping cinematic tracking shot, 50mm anamorphic, low camera gliding just…
+
+## 提示词（English）
+
+```text
+Sweeping cinematic tracking shot, 50mm anamorphic, low camera gliding just above the desert surface, then rising into a dramatic crane orbit across the full shot.
+
+A lone desert wanderer stands on the crest of a massive golden dune at dusk, cloak snapping violently in the wind. The sand beneath his feet begins to tremble. A deep rumble grows from below as long ripples carve through the dune, revealing something enormous moving underground. The camera tracks alongside the shifting sand, keeping the protagonist small against the endless desert.
+
+The hidden sandworm races beneath the surface, its colossal body creating a moving mountain of sand that surges forward like a living wave. The protagonist runs down the dune, timing his steps with the creature’s movement. Suddenly, the worm breaks partially through the sand, its armored back emerging for a brief moment. He leaps onto it, landing hard on the rough, ridged surface as sand explodes around him.
+
+The protagonist steadies himself and begins surfing across the desert on top of the sandworm as it dives and rises beneath the dunes. His cloak whips behind him, the camera orbiting wide to reveal the impossible scale: a tiny human riding a colossal creature through an ocean of sand. The worm carves a massive wake through the desert, sending golden waves of sand crashing outward under a blood-orange sky.
+
+Style: epic desert sci-fi, brutal scale, realistic sand physics, cinematic lighting, massive creature movement, wind-blown atmosphere, high-detail textures, dramatic tension, no modern objects.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068999390878912968.json)
+
+```text
+---
+Plan séquence cinématographique en travelling, 50mm anamorphique, caméra basse glissant juste au-dessus de la surface du désert, puis s'élevant dans une orbite dramatique en grue à travers le plan complet.
+
+Un vagabond solitaire du désert se tient sur la crête d'une immense dune dorée au crépuscule, sa cape claquant violemment dans le vent. Le sable sous ses pieds commence à trembler. Un grondement profond monte des profondeurs alors que de longues ondulations sculptent la dune, révélant quelque chose d'énorme se déplaçant sous terre. La caméra suit le sable mouvant, gardant le protagoniste petit face à l'immensité du désert.
+
+Le ver de sable caché file sous la surface, son corps colossal créant une montagne mouvante de sable qui avance comme une vague vivante. Le protagoniste descend la dune en courant, synchronisant ses pas avec le mouvement de la créature. Soudain, le ver perce partiellement le sable, son dos blindé émergeant brièvement. Il saute dessus, atterrissant durement sur la surface rugueuse et striée alors que le sable explose autour de lui.
+
+Le protagoniste se stabilise et commence à surfer à travers le désert sur le ver de sable alors qu'il plonge et remonte sous les dunes. Sa cape fouette derrière lui, la caméra effectue une orbite large pour révéler l'échelle impossible : un minuscule humain chevauchant une créature colossale à travers un océan de sable. Le ver trace un sillage massif à travers le désert, envoyant des vagues dorées de sable s'écraser vers l'extérieur sous un ciel orange sang.
+
+Style : science-fiction épique dans le désert, échelle brutale, physique réaliste du sable, éclairage cinématographique, mouvement de créature massive, atmosphère balayée par le vent, textures haute définition, tension dramatique, aucun objet moderne.
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt: Sweeping cinematic tracking shot, 50mm anamorphic, low camera gliding just above the desert surface, then rising into a dramatic crane orbit across the full shot.
+
+Un vagabond solitaire du désert se tient sur la crête d'une immense dune dorée au crépuscule, sa cape claquant violemment dans le vent. Le sable sous ses pieds commence à trembler. Un grondement profond monte des profondeurs alors que de longues ondulations sculptent la dune, révélant quelque chose d'énorme se déplaçant sous terre. La caméra suit le sable mouvant, gardant le protagoniste petit face à l'immensité du désert.
+
+Le ver de sable caché file sous la surface, son corps colossal créant une montagne mouvante de sable qui avance comme une vague vivante. Le protagoniste descend la dune en courant, synchronisant ses pas avec le mouvement de la créature. Soudain, le ver perce partiellement le sable, son dos blindé émergeant brièvement. Il saute dessus, atterrissant durement sur la surface rugueuse et striée alors que le sable explose autour de lui.
+
+Le protagoniste se stabilise et commence à surfer à travers le désert sur le ver de sable alors qu'il plonge et remonte sous les dunes. Sa cape fouette derrière lui, la caméra effectue une orbite large pour révéler l'échelle impossible : un minuscule humain chevauchant une créature colossale à travers un océan de sable. Le ver trace un sillage massif à travers le désert, envoyant des vagues dorées de sable s'écraser vers l'extérieur sous un ciel orange sang.
+
+Style : science-fiction épique dans le désert, échelle brutale, physique réaliste du sable, éclairage cinématographique, mouvement de créature massive, atmosphère balayée par le vent, textures haute définition, tension dramatique, aucun objet moderne.
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068999390878912968.json)
+
+```text
+---
+광활한 시네마틱 트래킹 샷, 50mm 아나모픽, 낮은 카메라가 사막 표면 바로 위를 미끄러지듯 지나가다가 전체 샷을 가로지르는 극적인 크레인 궤도로 상승합니다.
+
+황혼의 거대한 황금 모래 언덕 정상에 홀로 서 있는 사막 방랑자, 망토가 바람에 거칠게 펄럭입니다. 그의 발 아래 모래가 떨리기 시작합니다. 깊은 울림이 아래에서부터 커지며 긴 물결이 모래 언덕을 가로지르며 지하에서 거대한 무언가가 움직이고 있음을 드러냅니다. 카메라는 움직이는 모래를 따라가며 주인공을 끝없는 사막에 비해 작게 유지합니다.
+
+숨겨진 모래벌레가 지하를 질주하며, 거대한 몸체가 움직이는 모래산을 만들어 살아있는 파도처럼 앞으로 나아갑니다. 주인공은 생물의 움직임에 맞춰 모래 언덕을 내려 달립니다. 갑자기 벌레가 모래를 부분적으로 뚫고 나와, 갑옷 같은 등이 잠시 드러납니다. 그는 그것 위로 뛰어올라 거칠고 울퉁불퉁한 표면에 단단히 착지하며 모래가 주변으로 폭발합니다.
+
+주인공은 균형을 잡고 모래벌레 위에서 사막을 가로지르며 서핑을 시작합니다. 그의 망토가 뒤로 휘날리며, 카메라는 넓게 궤도를 그리며 불가능한 규모를 드러냅니다: 모래의 바다를 가로지르는 거대한 생물을 타고 있는 작은 인간. 벌레는 사막을 가로지르며 거대한 흔적을 남기고, 황금빛 모래의 파도가 피처럼 붉은 하늘 아래로 쏟아져 나갑니다.
+
+스타일: 서사적인 사막 SF, 거대한 규모, 현실적인 모래 물리학, 시네마틱 조명, 거대한 생물의 움직임, 바람에 날리는 분위기, 고해상도 텍스처, 극적인 긴장감, 현대적인 물체 없음.
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt: Sweeping cinematic tracking shot, 50mm anamorphic, low camera gliding just above the desert surface, then rising into a dramatic crane orbit across the full shot.
+
+황혼의 거대한 황금 모래 언덕 정상에 홀로 서 있는 사막 방랑자, 망토가 바람에 거칠게 펄럭입니다. 그의 발 아래 모래가 떨리기 시작합니다. 깊은 울림이 아래에서부터 커지며 긴 물결이 모래 언덕을 가로지르며 지하에서 거대한 무언가가 움직이고 있음을 드러냅니다. 카메라는 움직이는 모래를 따라가며 주인공을 끝없는 사막에 비해 작게 유지합니다.
+
+숨겨진 모래벌레가 지하를 질주하며, 거대한 몸체가 움직이는 모래산을 만들어 살아있는 파도처럼 앞으로 나아갑니다. 주인공은 생물의 움직임에 맞춰 모래 언덕을 내려 달립니다. 갑자기 벌레가 모래를 부분적으로 뚫고 나와, 갑옷 같은 등이 잠시 드러납니다. 그는 그것 위로 뛰어올라 거칠고 울퉁불퉁한 표면에 단단히 착지하며 모래가 주변으로 폭발합니다.
+
+주인공은 균형을 잡고 모래벌레 위에서 사막을 가로지르며 서핑을 시작합니다. 그의 망토가 뒤로 휘날리며, 카메라는 넓게 궤도를 그리며 불가능한 규모를 드러냅니다: 모래의 바다를 가로지르는 거대한 생물을 타고 있는 작은 인간. 벌레는 사막을 가로지르며 거대한 흔적을 남기고, 황금빛 모래의 파도가 피처럼 붉은 하늘 아래로 쏟아져 나갑니다.
+
+스타일: 서사적인 사막 SF, 거대한 규모, 현실적인 모래 물리학, 시네마틱 조명, 거대한 생물의 움직임, 바람에 날리는 분위기, 고해상도 텍스처, 극적인 긴장감, 현대적인 물체 없음.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068999390878912968.json)
+
+```text
+---
+Plano de acompanhamento cinematográfico amplo, 50mm anamórfico, câmera baixa deslizando logo acima da superfície do deserto, depois subindo em uma órbita dramática de grua por toda a cena.
+
+Um solitário viajante do deserto está no topo de uma enorme duna dourada ao entardecer, sua capa chicoteando violentamente ao vento. A areia sob seus pés começa a tremer. Um estrondo profundo cresce de baixo enquanto longas ondulações esculpem a duna, revelando algo enorme se movendo subterraneamente. A câmera acompanha a areia em movimento, mantendo o protagonista pequeno contra o deserto infinito.
+
+O verme de areia oculto corre sob a superfície, seu corpo colossal criando uma montanha móvel de areia que avança como uma onda viva. O protagonista desce a duna correndo, sincronizando seus passos com o movimento da criatura. De repente, o verme rompe parcialmente a areia, seu dorso blindado emergindo por um breve momento. Ele salta sobre ele, aterrissando com força na superfície áspera e sulcada enquanto a areia explode ao seu redor.
+
+O protagonista se equilibra e começa a surfar pelo deserto no topo do verme de areia enquanto ele mergulha e sobe sob as dunas. Sua capa chicoteia atrás dele, a câmera orbitando amplamente para revelar a escala impossível: um pequeno humano montando uma criatura colossal através de um oceano de areia. O verme esculpe um rastro maciço pelo deserto, enviando ondas douradas de areia se chocando para fora sob um céu laranja-sangue.
+
+Estilo: ficção científica épica no deserto, escala brutal, física realista da areia, iluminação cinematográfica, movimento de criatura massiva, atmosfera soprada pelo vento, texturas de alta definição, tensão dramática, sem objetos modernos.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] Prompt: Sweeping cinematic tracking shot, 50mm anamorphic, low camera gliding just above the desert surface, then rising into a dramatic crane orbit across the full shot.
+
+Um solitário viajante do deserto está no topo de uma enorme duna dourada ao entardecer, sua capa chicoteando violentamente ao vento. A areia sob seus pés começa a tremer. Um estrondo profundo cresce de baixo enquanto longas ondulações esculpem a duna, revelando algo enorme se movendo subterraneamente. A câmera acompanha a areia em movimento, mantendo o protagonista pequeno contra o deserto infinito.
+
+O verme de areia oculto corre sob a superfície, seu corpo colossal criando uma montanha móvel de areia que avança como uma onda viva. O protagonista desce a duna correndo, sincronizando seus passos com o movimento da criatura. De repente, o verme rompe parcialmente a areia, seu dorso blindado emergindo por um breve momento. Ele salta sobre ele, aterrissando com força na superfície áspera e sulcada enquanto a areia explode ao seu redor.
+
+O protagonista se equilibra e começa a surfar pelo deserto no topo do verme de areia enquanto ele mergulha e sobe sob as dunas. Sua capa chicoteia atrás dele, a câmera orbitando amplamente para revelar a escala impossível: um pequeno humano montando uma criatura colossal através de um oceano de areia. O verme esculpe um rastro maciço pelo deserto, enviando ondas douradas de areia se chocando para fora sob um céu laranja-sangue.
+
+Estilo: ficção científica épica no deserto, escala brutal, física realista da areia, iluminação cinematográfica, movimento de criatura massiva, atmosfera soprada pelo vento, texturas de alta definição, tensão dramática, sem objetos modernos.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068999390878912968.json)
+
+```text
+---
+横扫的cinematic tracking shot，50mm anamorphic，低机位在沙漠表面上方滑行，然后上升到dramatic crane orbit，覆盖整个镜头。
+
+一位孤独的沙漠流浪者站在黄昏时分巨大金色沙丘的顶端，斗篷在风中猛烈拍打。他脚下的沙子开始颤抖。深沉的隆隆声从下方传来，长长的波纹在沙丘中刻画出轨迹，揭示出地下有巨大的东西在移动。摄像机沿着移动的沙子追踪，将主角置于无尽沙漠的背景中显得渺小。
+
+隐藏的沙虫在地表下飞速前进，它庞大的身体形成一座移动的沙山，像活的波浪般向前涌动。主角顺着沙丘奔跑，步伐与生物的运动同步。突然，沙虫部分破土而出，装甲般的背部短暂显现。他跳上去，重重落在粗糙的脊状表面，沙子在他周围爆裂。
+
+主角稳住身形，开始在沙虫上冲浪，随着它在沙丘下潜行和上升。他的斗篷在身后飞舞，摄像机广角环绕，揭示出不可能的规模：一个微小的人类骑在庞然大物上穿越沙海。沙虫在沙漠中开辟出巨大的航迹，金色的沙浪在血橙色的天空下向外撞击。
+
+风格：史诗般的沙漠科幻，残酷的规模，逼真的沙子物理效果，cinematic lighting，巨大生物的运动，风吹的氛围，高细节纹理，戏剧性张力，无现代物品。
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt: Sweeping cinematic tracking shot, 50mm anamorphic, low camera gliding just above the desert surface, then rising into a dramatic crane orbit across the full shot.
+
+一位孤独的沙漠流浪者站在黄昏时分巨大金色沙丘的顶端，斗篷在风中猛烈拍打。他脚下的沙子开始颤抖。深沉的隆隆声从下方传来，长长的波纹在沙丘中刻画出轨迹，揭示出地下有巨大的东西在移动。摄像机沿着移动的沙子追踪，将主角置于无尽沙漠的背景中显得渺小。
+
+隐藏的沙虫在地表下飞速前进，它庞大的身体形成一座移动的沙山，像活的波浪般向前涌动。主角顺着沙丘奔跑，步伐与生物的运动同步。突然，沙虫部分破土而出，装甲般的背部短暂显现。他跳上去，重重落在粗糙的脊状表面，沙子在他周围爆裂。
+
+主角稳住身形，开始在沙虫上冲浪，随着它在沙丘下潜行和上升。他的斗篷在身后飞舞，摄像机广角环绕，揭示出不可能的规模：一个微小的人类骑在庞然大物上穿越沙海。沙虫在沙漠中开辟出巨大的航迹，金色的沙浪在血橙色的天空下向外撞击。
+
+风格：史诗般的沙漠科幻，残酷的规模，逼真的沙子物理效果，cinematic lighting，巨大生物的运动，风吹的氛围，高细节纹理，戏剧性张力，无现代物品。
+---
+```
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068999390878912968.json)
+
+```text
+---
+Toma panorámica cinematográfica, 50mm anamórfico, cámara baja deslizándose justo por encima de la superficie del desierto, luego elevándose en una dramática órbita de grúa a través de toda la toma.
+
+Un solitario viajero del desierto se encuentra en la cima de una enorme duna dorada al anochecer, su capa ondeando violentamente en el viento. La arena bajo sus pies comienza a temblar. Un profundo estruendo crece desde abajo mientras largas ondulaciones tallan la duna, revelando algo enorme moviéndose bajo tierra. La cámara sigue la arena cambiante, manteniendo al protagonista pequeño contra el interminable desierto.
+
+El gusano de arena oculto corre bajo la superficie, su colosal cuerpo creando una montaña móvil de arena que avanza como una ola viviente. El protagonista corre por la duna, sincronizando sus pasos con el movimiento de la criatura. De repente, el gusano rompe parcialmente la arena, su espalda acorazada emergiendo por un breve momento. Él salta sobre ella, aterrizando con fuerza en la superficie rugosa y acanalada mientras la arena explota a su alrededor.
+
+El protagonista se estabiliza y comienza a surfear a través del desierto sobre el gusano de arena mientras este se sumerge y emerge bajo las dunas. Su capa ondea detrás de él, la cámara orbitando ampliamente para revelar la escala imposible: un diminuto humano montando una criatura colosal a través de un océano de arena. El gusano talla una enorme estela a través del desierto, enviando olas doradas de arena chocando hacia afuera bajo un cielo de color naranja sangre.
+
+Estilo: épico sci-fi desértico, escala brutal, física de arena realista, iluminación cinematográfica, movimiento de criatura masiva, atmósfera azotada por el viento, texturas de alto detalle, tensión dramática, sin objetos modernos.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Prompt: Sweeping cinematic tracking shot, 50mm anamorphic, low camera gliding just above the desert surface, then rising into a dramatic crane orbit across the full shot.
+
+Un solitario viajero del desierto se encuentra en la cima de una enorme duna dorada al anochecer, su capa ondeando violentamente en el viento. La arena bajo sus pies comienza a temblar. Un profundo estruendo crece desde abajo mientras largas ondulaciones tallan la duna, revelando algo enorme moviéndose bajo tierra. La cámara sigue la arena cambiante, manteniendo al protagonista pequeño contra el interminable desierto.
+
+El gusano de arena oculto corre bajo la superficie, su colosal cuerpo creando una montaña móvil de arena que avanza como una ola viviente. El protagonista corre por la duna, sincronizando sus pasos con el movimiento de la criatura. De repente, el gusano rompe parcialmente la arena, su espalda acorazada emergiendo por un breve momento. Él salta sobre ella, aterrizando con fuerza en la superficie rugosa y acanalada mientras la arena explota a su alrededor.
+
+El protagonista se estabiliza y comienza a surfear a través del desierto sobre el gusano de arena mientras este se sumerge y emerge bajo las dunas. Su capa ondea detrás de él, la cámara orbitando ampliamente para revelar la escala imposible: un diminuto humano montando una criatura colosal a través de un océano de arena. El gusano talla una enorme estela a través del desierto, enviando olas doradas de arena chocando hacia afuera bajo un cielo de color naranja sangre.
+
+Estilo: épico sci-fi desértico, escala brutal, física de arena realista, iluminación cinematográfica, movimiento de criatura masiva, atmósfera azotada por el viento, texturas de alto detalle, tensión dramática, sin objetos modernos.
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068999390878912968.json)
+
+```text
+---
+広大なシネマティックなトラッキングショット、50mmアナモルフィック、低いカメラが砂漠の表面すれすれを滑るように移動し、全景を劇的にクレーンで回り込む。
+
+黄昏時、巨大な金色の砂丘の頂に立つ孤独な砂漠の放浪者。風に激しくはためくマント。彼の足元の砂が震え始める。深い轟音が下から響き、長い波紋が砂丘を刻み、地下で何か巨大なものが動いていることを明らかにする。カメラは動く砂に沿ってトラッキングし、主人公を無限の砂漠に対して小さく見せ続ける。
+
+隠されたサンドワームが地表の下を疾走し、その巨大な体が動く砂の山を作り、生きている波のように前進する。主人公は砂丘を駆け下り、クリーチャーの動きに合わせてステップを踏む。突然、ワームが砂を部分的に突き破り、その装甲の背が一瞬現れる。彼はそれに飛び乗り、砂が周囲に爆発する中、粗い隆起した表面に激しく着地する。
+
+主人公は体勢を整え、砂丘の下を潜り上がりするサンドワームの上で砂漠をサーフィンし始める。彼のマントが後ろに翻り、カメラは広く回り込んで不可能なスケールを明らかにする：砂の海を進む巨大なクリーチャーに乗る小さな人間。ワームは砂漠を巨大な航跡で切り裂き、血のように赤い空の下で金色の砂の波を外側に押し出す。
+
+スタイル：壮大な砂漠のSF、圧倒的なスケール、リアルな砂の物理、シネマティックな照明、巨大なクリーチャーの動き、風に吹かれる雰囲気、高精細なテクスチャ、劇的な緊張感、現代的な物はなし。
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt: Sweeping cinematic tracking shot, 50mm anamorphic, low camera gliding just above the desert surface, then rising into a dramatic crane orbit across the full shot.
+
+黄昏時、巨大な金色の砂丘の頂に立つ孤独な砂漠の放浪者。風に激しくはためくマント。彼の足元の砂が震え始める。深い轟音が下から響き、長い波紋が砂丘を刻み、地下で何か巨大なものが動いていることを明らかにする。カメラは動く砂に沿ってトラッキングし、主人公を無限の砂漠に対して小さく見せ続ける。
+
+隠されたサンドワームが地表の下を疾走し、その巨大な体が動く砂の山を作り、生きている波のように前進する。主人公は砂丘を駆け下り、クリーチャーの動きに合わせてステップを踏む。突然、ワームが砂を部分的に突き破り、その装甲の背が一瞬現れる。彼はそれに飛び乗り、砂が周囲に爆発する中、粗い隆起した表面に激しく着地する。
+
+主人公は体勢を整え、砂丘の下を潜り上がりするサンドワームの上で砂漠をサーフィンし始める。彼のマントが後ろに翻り、カメラは広く回り込んで不可能なスケールを明らかにする：砂の海を進む巨大なクリーチャーに乗る小さな人間。ワームは砂漠を巨大な航跡で切り裂き、血のように赤い空の下で金色の砂の波を外側に押し出す。
+
+スタイル：壮大な砂漠のSF、圧倒的なスケール、リアルな砂の物理、シネマティックな照明、巨大なクリーチャーの動き、風に吹かれる雰囲気、高精細なテクスチャ、劇的な緊張感、現代的な物はなし。
+```
+
+## 出处与许可
+
+- 原作者：[PromptHero - Create with AI](https://x.com/prompthero) · 原帖：<https://x.com/prompthero/status/2068999390878912968>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068999390878912968.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

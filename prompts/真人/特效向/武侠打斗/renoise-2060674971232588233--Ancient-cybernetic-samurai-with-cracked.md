@@ -1,0 +1,206 @@
+---
+id: "renoise-2060674971232588233"
+title: "Ancient cybernetic samurai with cracked titanium armor, glowing crimson…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "武侠打斗"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Wuxia", "Action", "Military", "Photoreal", "Sci-Fi"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060674971232588233.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Umesh"
+original_author_url: "https://x.com/umesh_ai"
+original_post_url: "https://x.com/umesh_ai/status/2060674971232588233"
+published: "2026-05-30"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Ancient cybernetic samurai with cracked titanium armor, glowing crimson…
+
+## 提示词（English）
+
+```text
+Ancient cybernetic samurai with cracked titanium armor, glowing crimson circuitry flowing beneath his skin, holographic oni mask flickering over a half-exposed robotic face, wielding two plasma katanas dripping sparks and molten energy
+Blitzes through an army of mech soldiers and giant spider tanks at supernatural speed, slicing entire machines in half before they can react while energy shockwaves tear apart the battlefield
+Rain-soaked futuristic Tokyo warzone with collapsing neon billboards, shattered hovercars, electrical fires reflecting across flooded streets
+Starts with a low-angle macro shot of rain sliding across his glowing mask, heartbeat sound rising before an instant acceleration into chaos, hyper-fast tracking shots following sword trails cutting through steel, cinematic slow motion as giant mech heads explode into sparks, drone orbit around him while neon debris rains down, ending with the samurai standing alone on a mountain of destroyed machines beneath flickering holograms while the city burns behind him
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060674971232588233.json)
+
+```text
+---
+Antiguo samurái cibernético con armadura de titanio agrietada, circuitos carmesí brillantes fluyendo bajo su piel, máscara de oni holográfica parpadeando sobre un rostro robótico medio expuesto, empuñando dos katanas de plasma que gotean chispas y energía fundida
+Se lanza a través de un ejército de soldados mecánicos y tanques araña gigantes a una velocidad sobrenatural, cortando máquinas enteras por la mitad antes de que puedan reaccionar mientras ondas de choque de energía desgarran el campo de batalla
+Zona de guerra futurista de Tokio empapada por la lluvia con carteles de neón colapsando, coches flotantes destrozados, incendios eléctricos reflejándose en calles inundadas
+Comienza con una toma macro en ángulo bajo de la lluvia deslizándose por su máscara brillante, sonido de latidos del corazón aumentando antes de una aceleración instantánea hacia el caos, tomas de seguimiento hiper-rápidas siguiendo los rastros de las espadas cortando el acero, cámara lenta cinematográfica mientras las cabezas de los mechs gigantes explotan en chispas, dron orbitando a su alrededor mientras llueve escombros de neón, terminando con el samurái de pie solo sobre una montaña de máquinas destruidas bajo hologramas parpadeantes mientras la ciudad arde detrás de él
+
+--- TWEET CITADO ---
+Bro se movió tan rápido que el campo de batalla parecía congelado 💀⚔️
+Creado en @dreamina_ai
+
+Prompt
+Ancient cybernetic samurai with cracked titanium armor, glowing crimson circuitry flowing beneath his skin, holographic oni mask flickering over a half-exposed robotic face, wielding two plasma katanas dripping sparks and molten energy
+Blitzes through an army of mech soldiers and giant spider tanks at supernatural speed, slicing entire machines in half before they can react while energy shockwaves tear apart the battlefield
+Rain-soaked futuristic Tokyo warzone with collapsing neon billboards, shattered hovercars, electrical fires reflecting across flooded streets
+Starts with a low-angle macro shot of rain sliding across his glowing mask, heartbeat sound rising before an instant acceleration into chaos, hyper-fast tracking shots following sword trails cutting through steel, cinematic slow motion as giant mech heads explode into sparks, drone orbit around him while neon debris rains down, ending with the samurai standing alone on a mountain of destroyed machines beneath flickering holograms while the city burns behind him
+#DreaminaAI #DreaminaCPP
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Prompt: Una secuencia épica de acción continua y cinematográfica en una sola toma, ambientada dentro de un vasto coliseo antiguo durante una rebelión, con nubes de tormenta arriba, antorchas ardiendo a lo largo de cada arco, y miles de espectadores huyendo mientras los soldados del imperio invaden la arena. La protagonista es una reina gladiadora encadenada que lleva una armadura de bronce abollada, tela roja desgarrada, cicatrices rituales y una corona rota oculta bajo polvo y sangre. Sus armas comienzan como nada más que cadenas rotas envueltas alrededor de sus muñecas, pero lucha con una precisión aterradora, usando las cadenas como látigos, ganchos, escudos y cuchillas. Sus enemigos son legionarios imperiales, verdugos enmascarados, elefantes de guerra con armadura con púas, carros con cuchillas giratorias y un campeón imponente con armadura de hierro negro. Comienza con una toma macro de arena pegándose a la sangre en sus nudillos mientras su cadena se arrastra por el suelo de la arena. La multitud ruge, el trueno resuena, y la cámara gira bajo alrededor de ella mientras el primer verdugo carga. Sin cortes. Ella enrolla la cadena alrededor de su hacha, lo desequilibra, gira sobre su espalda y lo lanza contra una línea de soldados. La cámara sigue el cuerpo a través de la formación, luego regresa a ella mientras se lanza al caos. Los carros atraviesan la arena, y la cámara corre junto a sus ruedas, se agacha bajo las cuchillas giratorias y se eleva mientras ella salta sobre un carro, rompe el cuello del conductor con la cadena y lo estrella contra la pared de la arena. El polvo explota hacia afuera. La cámara atraviesa el polvo hacia un elefante de guerra que carga directamente hacia ella. Ella se desliza por debajo, engancha la cadena alrededor de su armadura, se balancea por el costado de la bestia y salta desde su espalda hacia un balcón lleno de arqueros. El movimiento continúa a través de plataformas de madera que colapsan, pancartas que caen, ollas de aceite en llamas y soldados gritando. La cámara lenta florece mientras ella arranca una lanza del aire y la lanza a través del mecanismo que sostiene las puertas de la arena. Los prisioneros inundan detrás de ella. El clímax comienza cuando el campeón imperial con armadura negra entra, arrastrando una espada masiva a través de chispas. La cámara los orbita durante un duelo brutal, girando más rápido con cada golpe de cadena e impacto de espada hasta que ella envuelve ambas cadenas alrededor de su arma, se acerca y clava la corona rota en su garganta. Termina con la cámara elevándose sobre la arena mientras ella se alza sobre el campeón caído, cadenas levantadas en alto, mientras el coliseo estalla en rebelión bajo cielos iluminados por tormentas.
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060674971232588233.json)
+
+```text
+Samouraï cybernétique ancien avec une armure de titane fissurée, des circuits cramoisis lumineux coulant sous sa peau, un masque d'oni holographique vacillant sur un visage robotique à moitié exposé, brandissant deux katanas plasma dégoulinant d'étincelles et d'énergie en fusion
+Fonce à travers une armée de soldats mécaniques et de tanks araignées géants à une vitesse surnaturelle, tranchant des machines entières en deux avant qu'elles ne puissent réagir tandis que des ondes de choc énergétiques déchirent le champ de bataille
+Zone de guerre futuriste de Tokyo sous la pluie avec des panneaux publicitaires néon s'effondrant, des hovercars brisés, des incendies électriques se reflétant sur les rues inondées
+Commence par un plan macro en contre-plongée de la pluie glissant sur son masque lumineux, le son d'un battement de cœur s'intensifiant avant une accélération instantanée dans le chaos, des plans de suivi hyper-rapides suivant les traînées d'épée coupant à travers l'acier, un ralenti cinématique alors que des têtes de méchas géants explosent en étincelles, un drone tourne autour de lui tandis que des débris néon tombent, se terminant avec le samouraï debout seul sur une montagne de machines détruites sous des hologrammes vacillants tandis que la ville brûle derrière lui
+
+--- TWEET CITÉ ---
+Le gars s'est déplacé si vite que le champ de bataille semblait figé 💀⚔️
+Créé dans @dreamina_ai
+
+Prompt
+Ancient cybernetic samurai with cracked titanium armor, glowing crimson circuitry flowing beneath his skin, holographic oni mask flickering over a half-exposed robotic face, wielding two plasma katanas dripping sparks and molten energy
+Blitzes through an army of mech soldiers and giant spider tanks at supernatural speed, slicing entire machines in half before they can react while energy shockwaves tear apart the battlefield
+Rain-soaked futuristic Tokyo warzone with collapsing neon billboards, shattered hovercars, electrical fires reflecting across flooded streets
+Starts with a low-angle macro shot of rain sliding across his glowing mask, heartbeat sound rising before an instant acceleration into chaos, hyper-fast tracking shots following sword trails cutting through steel, cinematic slow motion as giant mech heads explode into sparks, drone orbit around him while neon debris rains down, ending with the samurai standing alone on a mountain of destroyed machines beneath flickering holograms while the city burns behind him
+#DreaminaAI #DreaminaCPP
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Prompt : Une séquence d'action épique cinématographique en plan-séquence continu se déroulant à l'intérieur d'un vaste colisée antique pendant une rébellion, avec des nuages d'orage au-dessus, des torches brûlant le long de chaque arche, et des milliers de spectateurs fuyant alors que les soldats de l'empire envahissent l'arène. La protagoniste est une reine gladiatrice enchaînée portant une armure de bronze cabossée, un tissu rouge déchiré, des cicatrices rituelles, et une couronne brisée cachée sous la poussière et le sang. Ses armes ne sont au départ que des chaînes brisées enroulées autour de ses poignets, mais elle combat avec une précision terrifiante, utilisant les chaînes comme des fouets, des grappins, des boucliers et des lames. Ses ennemis sont des légionnaires impériaux, des bourreaux masqués, des éléphants de guerre en armure à pointes, des chars avec des lames rotatives, et un champion imposant en armure de fer noir. Commencez par un plan macro du sable collant au sang sur ses jointures alors que sa chaîne traîne sur le sol de l'arène. La foule rugit, le tonnerre gronde, et la caméra tourne bas autour d'elle alors que le premier bourreau charge. Pas de coupures. Elle enroule la chaîne autour de sa hache, le déséquilibre, tourne par-dessus son dos, et le projette dans une ligne de soldats. La caméra suit le corps à travers la formation, puis revient vers elle alors qu'elle se précipite dans le chaos. Les chars déchirent l'arène, et la caméra court à côté de leurs roues, se baisse sous les lames tournantes, et s'élève alors qu'elle saute sur un char, brise le cou du conducteur avec la chaîne, et le fait s'écraser contre le mur de l'arène. La poussière explose vers l'extérieur. La caméra traverse la poussière vers un éléphant de guerre chargeant droit sur elle. Elle glisse en dessous, accroche la chaîne autour de son armure, grimpe sur le côté de la bête, et saute de son dos sur un balcon rempli d'archers. Le mouvement continue à travers des plateformes en bois qui s'effondrent, des bannières qui tombent, des pots d'huile enflammés, et des soldats hurlants. Le ralenti s'épanouit alors qu'elle arrache une lance de l'air et la lance à travers le mécanisme tenant les portes de l'arène. Les prisonniers affluent derrière elle. Le climax commence lorsque le champion impérial en armure noire entre, traînant une épée massive à travers des étincelles. La caméra les orbite pendant un duel brutal, tournant de plus en plus vite à chaque coup de chaîne et d'épée jusqu'à ce qu'elle enroule les deux chaînes autour de son arme, se rapproche, et enfonce la couronne brisée dans sa gorge. Fin avec la caméra s'élevant au-dessus de l'arène alors qu'elle se tient sur le champion déchu, chaînes levées haut, tandis que le colisée éclate en rébellion sous un ciel éclairé par la tempête.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060674971232588233.json)
+
+```text
+---
+ひび割れたチタンアーマーを纏った古代のサイバネティック侍。肌の下には赤く輝く回路が流れ、半分露出したロボットの顔にはホログラフィックの鬼の仮面がちらつく。彼は火花と溶けたエネルギーを滴らせる2本のプラズマ刀を振るう。
+超自然的な速度でメカ兵士と巨大なスパイダータンクの軍隊を駆け抜け、エネルギーの衝撃波が戦場を引き裂く中、反応する前に機械全体を真っ二つに切り裂く。
+雨に濡れた未来の東京の戦場。崩れ落ちるネオン看板、破壊されたホバーカー、洪水のような通りに映る電気火災。
+彼の輝く仮面に雨が滑るローアングルのマクロショットから始まり、心臓の鼓動が高まり、瞬時に混沌へと加速する。超高速のトラッキングショットが鋼を切り裂く剣の軌跡を追い、巨大なメカの頭が火花を散らして爆発するシネマティックなスローモーション。彼の周りをドローンが旋回し、ネオンの破片が降り注ぐ中、ホログラムがちらつく破壊された機械の山の上に一人立つ侍。背後には燃え盛る都市。
+
+--- QUOTED TWEET ---
+Bro moved so fast the battlefield looked frozen 💀⚔️
+Created in @dreamina_ai
+
+Prompt
+Ancient cybernetic samurai with cracked titanium armor, glowing crimson circuitry flowing beneath his skin, holographic oni mask flickering over a half-exposed robotic face, wielding two plasma katanas dripping sparks and molten energy
+Blitzes through an army of mech soldiers and giant spider tanks at supernatural speed, slicing entire machines in half before they can react while energy shockwaves tear apart the battlefield
+Rain-soaked futuristic Tokyo warzone with collapsing neon billboards, shattered hovercars, electrical fires reflecting across flooded streets
+Starts with a low-angle macro shot of rain sliding across his glowing mask, heartbeat sound rising before an instant acceleration into chaos, hyper-fast tracking shots following sword trails cutting through steel, cinematic slow motion as giant mech heads explode into sparks, drone orbit around him while neon debris rains down, ending with the samurai standing alone on a mountain of destroyed machines beneath flickering holograms while the city burns behind him
+#DreaminaAI #DreaminaCPP
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt : A cinematic continuous single-take epic action sequence set inside a vast ancient colosseum during a rebellion, with thunderclouds above, torches burning along every archway, and thousands of spectators fleeing as the empire’s soldiers pour into the arena. The protagonist is a chained gladiator queen wearing dented bronze armor, torn red cloth, ritual scars, and a broken crown hidden beneath dust and blood. Her weapons begin as nothing but shattered chains wrapped around her wrists, but she fights with terrifying precision, using the chains like whips, grapples, shields, and blades. Her enemies are imperial legionaries, masked executioners, war elephants in spiked armor, chariots with rotating blades, and a towering champion in black iron armor. Begin with a macro shot of sand sticking to blood on her knuckles as her chain drags across the arena floor. The crowd roars, thunder cracks, and the camera circles low around her as the first executioner charges. No cuts. She snaps the chain around his axe, pulls him off balance, spins over his back, and hurls him into a line of soldiers. The camera follows the body through the formation, then whips back to her as she charges into the chaos. Chariots tear across the arena, and the camera runs beside their wheels, ducks beneath spinning blades, and rises as she vaults onto one chariot, breaks the driver’s neck with the chain, and crashes it into the arena wall. Dust explodes outward. The camera pushes through the dust into a war elephant charging straight at her. She slides beneath it, hooks the chain around its armor, swings up the side of the beast, and leaps from its back onto a balcony filled with archers. The movement continues through collapsing wooden platforms, falling banners, flaming oil pots, and screaming soldiers. Slow motion blooms as she tears a spear from the air and throws it through the mechanism holding the arena gates. Prisoners flood in behind her. The climax begins when the black-armored imperial champion enters, dragging a massive sword through sparks. The camera orbits them during a brutal duel, circling faster with every chain strike and sword impact until she wraps both chains around his weapon, pulls herself close, and drives the broken crown into his throat. End with the camera rising above the arena as she stands on the fallen champion, chains lifted high, while the colosseum erupts into rebellion beneath storm-lit skies.
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060674971232588233.json)
+
+```text
+고대 사이버네틱 사무라이가 금이 간 티타늄 갑옷을 입고, 피부 아래로 흐르는 붉은 회로가 빛나며, 반쯤 드러난 로봇 얼굴 위로 홀로그램 오니 가면이 깜빡이고, 불꽃과 용해된 에너지가 떨어지는 두 개의 플라즈마 카타나를 휘두른다.
+초자연적인 속도로 메카 군대와 거대한 거미 탱크를 돌파하며, 반응하기도 전에 전체 기계를 반으로 자르고, 에너지 충격파가 전장을 찢어놓는다.
+비에 젖은 미래의 도쿄 전쟁터에는 무너지는 네온 광고판, 부서진 호버카, 전기 화재가 범람한 거리 위로 반사된다.
+비가 그의 빛나는 가면을 가로지르는 저각 매크로 샷으로 시작하여, 심장 박동 소리가 높아지며 혼란 속으로 즉각적인 가속, 강철을 가르는 검의 궤적을 따라가는 초고속 트래킹 샷, 거대한 메카의 머리가 불꽃으로 폭발하는 시네마틱 슬로 모션, 네온 파편이 쏟아지는 동안 그를 중심으로 드론이 공전하며, 도시가 불타는 가운데 깜빡이는 홀로그램 아래 파괴된 기계의 산 위에 홀로 서 있는 사무라이로 끝난다.
+
+--- 인용 트윗 ---
+브로가 너무 빨리 움직여서 전장이 얼어붙은 것처럼 보였다 💀⚔️
+@dreamina_ai에서 생성됨
+
+Prompt
+Ancient cybernetic samurai with cracked titanium armor, glowing crimson circuitry flowing beneath his skin, holographic oni mask flickering over a half-exposed robotic face, wielding two plasma katanas dripping sparks and molten energy
+Blitzes through an army of mech soldiers and giant spider tanks at supernatural speed, slicing entire machines in half before they can react while energy shockwaves tear apart the battlefield
+Rain-soaked futuristic Tokyo warzone with collapsing neon billboards, shattered hovercars, electrical fires reflecting across flooded streets
+Starts with a low-angle macro shot of rain sliding across his glowing mask, heartbeat sound rising before an instant acceleration into chaos, hyper-fast tracking shots following sword trails cutting through steel, cinematic slow motion as giant mech heads explode into sparks, drone orbit around him while neon debris rains down, ending with the samurai standing alone on a mountain of destroyed machines beneath flickering holograms while the city burns behind him
+#DreaminaAI #DreaminaCPP
+
+--- 스레드 계속 ---
+[스레드 1] Prompt : 반란 중인 거대한 고대 콜로세움 내부에서 펼쳐지는 시네마틱 연속 원테이크 에픽 액션 시퀀스, 천둥구름이 위에 있고, 아치마다 횃불이 타오르며, 제국의 병사들이 경기장으로 쏟아져 들어오면서 수천 명의 관중이 도망친다. 주인공은 사슬에 묶인 검투사 여왕으로, 찌그러진 청동 갑옷, 찢어진 붉은 천, 의식의 상처, 먼지와 피 아래 숨겨진 부서진 왕관을 착용하고 있다. 그녀의 무기는 손목에 감긴 부서진 사슬일 뿐이지만, 그녀는 사슬을 채찍, 갈고리, 방패, 칼날처럼 사용하여 무서운 정밀함으로 싸운다. 그녀의 적들은 제국의 군단병, 가면을 쓴 집행자, 가시 갑옷을 입은 전투 코끼리, 회전 칼날이 달린 전차, 검은 철 갑옷을 입은 거대한 챔피언이다. 그녀의 사슬이 경기장 바닥을 가로지르며 피에 달라붙는 모래의 매크로 샷으로 시작한다. 군중이 함성을 지르고, 천둥이 울리며, 카메라가 그녀 주위를 낮게 돌며 첫 번째 집행자가 돌진한다. 컷 없음. 그녀는 그의 도끼에 사슬을 감아 균형을 잃게 하고, 그의 등을 넘어 돌며 그를 병사들의 대열로 던진다. 카메라는 대형을 통과하는 몸을 따라가고, 그녀가 혼란 속으로 돌진할 때 다시 그녀에게로 돌아온다. 전차가 경기장을 가로지르며, 카메라는 바퀴 옆을 달리고, 회전 칼날 아래로 몸을 숙이고, 그녀가 전차 위로 뛰어올라 사슬로 운전자의 목을 부러뜨리고, 전차를 경기장 벽에 충돌시키며 먼지가 밖으로 폭발한다. 카메라는 먼지를 뚫고 그녀에게 돌진하는 전투 코끼리로 향한다. 그녀는 그 아래로 미끄러져 들어가 사슬을 갑옷에 감고, 짐승의 옆을 타고 올라가, 그 등에서 활로 가득 찬 발코니로 뛰어오른다. 움직임은 무너지는 나무 플랫폼, 떨어지는 깃발, 불타는 기름 항아리, 비명을 지르는 병사들을 통해 계속된다. 그녀가 공중에서 창을 잡아채고 경기장 문을 고정하는 메커니즘에 던지면서 슬로 모션이 피어난다. 죄수들이 그녀 뒤로 밀려든다. 클라이맥스는 검은 갑옷을 입은 제국의 챔피언이 불꽃을 튕기며 거대한 검을 끌고 들어올 때 시작된다. 카메라는 잔인한 결투 동안 그들을 공전하며, 사슬 타격과 검의 충격마다 더 빠르게 회전하고, 그녀가 두 사슬을 그의 무기에 감아 자신을 가까이 끌어당기고 부서진 왕관을 그의 목에 박아 넣는다. 카메라가 경기장 위로 올라가 그녀가 쓰러진 챔피언 위에 서서 사슬을 높이 들고, 폭풍이 치는 하늘 아래 콜로세움이 반란으로 폭발하는 장면으로 끝난다.
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060674971232588233.json)
+
+```text
+---
+Samurai cibernético antigo com armadura de titânio rachada, circuitos carmesim brilhantes fluindo sob sua pele, máscara oni holográfica piscando sobre um rosto robótico meio exposto, empunhando duas katanas de plasma que gotejam faíscas e energia derretida
+Avança através de um exército de soldados mecha e tanques-aranha gigantes em velocidade sobrenatural, cortando máquinas inteiras ao meio antes que possam reagir, enquanto ondas de choque de energia destroem o campo de batalha
+Zona de guerra futurista de Tóquio encharcada de chuva com outdoors de neon desmoronando, hovercars destruídos, incêndios elétricos refletindo nas ruas inundadas
+Começa com uma macro filmagem em ângulo baixo da chuva escorrendo sobre sua máscara brilhante, som de batimento cardíaco aumentando antes de uma aceleração instantânea para o caos, tomadas de rastreamento hiper-rápidas seguindo trilhas de espadas cortando aço, câmera lenta cinematográfica enquanto cabeças de mechas gigantes explodem em faíscas, drone orbitando ao redor dele enquanto destroços de neon caem, terminando com o samurai sozinho em uma montanha de máquinas destruídas sob hologramas piscantes enquanto a cidade queima atrás dele
+
+--- TWEET CITADO ---
+O cara se moveu tão rápido que o campo de batalha parecia congelado 💀⚔️
+Criado em @dreamina_ai
+
+Prompt
+Ancient cybernetic samurai with cracked titanium armor, glowing crimson circuitry flowing beneath his skin, holographic oni mask flickering over a half-exposed robotic face, wielding two plasma katanas dripping sparks and molten energy
+Blitzes through an army of mech soldiers and giant spider tanks at supernatural speed, slicing entire machines in half before they can react while energy shockwaves tear apart the battlefield
+Rain-soaked futuristic Tokyo warzone with collapsing neon billboards, shattered hovercars, electrical fires reflecting across flooded streets
+Starts with a low-angle macro shot of rain sliding across his glowing mask, heartbeat sound rising before an instant acceleration into chaos, hyper-fast tracking shots following sword trails cutting through steel, cinematic slow motion as giant mech heads explode into sparks, drone orbit around him while neon debris rains down, ending with the samurai standing alone on a mountain of destroyed machines beneath flickering holograms while the city burns behind him
+#DreaminaAI #DreaminaCPP
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Prompt: Uma sequência épica de ação cinematográfica contínua em um único take ambientada dentro de um vasto coliseu antigo durante uma rebelião, com nuvens de tempestade acima, tochas queimando ao longo de cada arco, e milhares de espectadores fugindo enquanto os soldados do império invadem a arena. A protagonista é uma rainha gladiadora acorrentada vestindo armadura de bronze amassada, tecido vermelho rasgado, cicatrizes rituais e uma coroa quebrada escondida sob poeira e sangue. Suas armas começam como nada além de correntes quebradas enroladas em seus pulsos, mas ela luta com precisão aterrorizante, usando as correntes como chicotes, ganchos, escudos e lâminas. Seus inimigos são legionários imperiais, carrascos mascarados, elefantes de guerra em armaduras com espinhos, carruagens com lâminas giratórias e um campeão imponente em armadura de ferro negro. Comece com uma macro filmagem de areia grudando no sangue em seus nós dos dedos enquanto sua corrente arrasta pelo chão da arena. A multidão ruge, o trovão estala, e a câmera circula baixo ao redor dela enquanto o primeiro carrasco avança. Sem cortes. Ela estala a corrente em torno do machado dele, desequilibra-o, gira sobre suas costas e o lança em uma linha de soldados. A câmera segue o corpo através da formação, depois volta para ela enquanto ela avança para o caos. Carruagens rasgam a arena, e a câmera corre ao lado de suas rodas, se abaixa sob lâminas giratórias e se eleva enquanto ela salta em uma carruagem, quebra o pescoço do motorista com a corrente e a colide contra a parede da arena. A poeira explode para fora. A câmera atravessa a poeira em direção a um elefante de guerra que avança diretamente para ela. Ela desliza por baixo dele, prende a corrente em sua armadura, sobe pelo lado da besta e salta de suas costas para uma varanda cheia de arqueiros. O movimento continua através de plataformas de madeira em colapso, bandeiras caindo, potes de óleo em chamas e soldados gritando. A câmera lenta floresce enquanto ela arranca uma lança do ar e a lança através do mecanismo que segura os portões da arena. Prisioneiros invadem atrás dela. O clímax começa quando o campeão imperial de armadura negra entra, arrastando uma espada maciça através de faíscas. A câmera os orbita durante um duelo brutal, circulando mais rápido a cada golpe de corrente e impacto de espada até que ela envolve ambas as correntes em torno da arma dele, se puxa para perto e crava a coroa quebrada em sua garganta. Termine com a câmera subindo acima da arena enquanto ela está sobre o campeão caído, correntes erguidas, enquanto o coliseu explode em rebelião sob céus iluminados pela tempestade.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060674971232588233.json)
+
+```text
+---
+古代赛博武士，身披破裂的钛合金盔甲，皮肤下流动着发光的猩红电路，半露的机器人脸上闪烁着全息鬼面具，挥舞着两把等离子武士刀，火花和熔融能量滴落
+以超自然的速度冲过一支机械士兵和巨型蜘蛛坦克的军队，在它们反应过来之前将整台机器切成两半，同时能量冲击波撕裂战场
+雨水浸透的未来东京战区，倒塌的霓虹广告牌，破碎的悬浮车，电火在被淹的街道上反射
+从一个低角度的微距镜头开始，雨水滑过他发光的面具，心跳声渐起，然后瞬间加速进入混乱，超快的跟踪镜头追随剑刃切割钢铁的轨迹，电影般的慢动作中巨大机械头爆炸成火花，无人机环绕他旋转，霓虹碎片雨下，最后武士独自站在一堆被毁机器的山上，闪烁的全息图像下，城市在他身后燃烧
+
+--- 引用推文 ---
+兄弟移动得太快，战场看起来像被冻结了一样 💀⚔️
+在 @dreamina_ai 中创建
+
+Prompt
+Ancient cybernetic samurai with cracked titanium armor, glowing crimson circuitry flowing beneath his skin, holographic oni mask flickering over a half-exposed robotic face, wielding two plasma katanas dripping sparks and molten energy
+Blitzes through an army of mech soldiers and giant spider tanks at supernatural speed, slicing entire machines in half before they can react while energy shockwaves tear apart the battlefield
+Rain-soaked futuristic Tokyo warzone with collapsing neon billboards, shattered hovercars, electrical fires reflecting across flooded streets
+Starts with a low-angle macro shot of rain sliding across his glowing mask, heartbeat sound rising before an instant acceleration into chaos, hyper-fast tracking shots following sword trails cutting through steel, cinematic slow motion as giant mech heads explode into sparks, drone orbit around him while neon debris rains down, ending with the samurai standing alone on a mountain of destroyed machines beneath flickering holograms while the city burns behind him
+#DreaminaAI #DreaminaCPP
+
+--- 线程继续 ---
+[线程 1] Prompt : A cinematic continuous single-take epic action sequence set inside a vast ancient colosseum during a rebellion, with thunderclouds above, torches burning along every archway, and thousands of spectators fleeing as the empire’s soldiers pour into the arena. The protagonist is a chained gladiator queen wearing dented bronze armor, torn red cloth, ritual scars, and a broken crown hidden beneath dust and blood. Her weapons begin as nothing but shattered chains wrapped around her wrists, but she fights with terrifying precision, using the chains like whips, grapples, shields, and blades. Her enemies are imperial legionaries, masked executioners, war elephants in spiked armor, chariots with rotating blades, and a towering champion in black iron armor. Begin with a macro shot of sand sticking to blood on her knuckles as her chain drags across the arena floor. The crowd roars, thunder cracks, and the camera circles low around her as the first executioner charges. No cuts. She snaps the chain around his axe, pulls him off balance, spins over his back, and hurls him into a line of soldiers. The camera follows the body through the formation, then whips back to her as she charges into the chaos. Chariots tear across the arena, and the camera runs beside their wheels, ducks beneath spinning blades, and rises as she vaults onto one chariot, breaks the driver’s neck with the chain, and crashes it into the arena wall. Dust explodes outward. The camera pushes through the dust into a war elephant charging straight at her. She slides beneath it, hooks the chain around its armor, swings up the side of the beast, and leaps from its back onto a balcony filled with archers. The movement continues through collapsing wooden platforms, falling banners, flaming oil pots, and screaming soldiers. Slow motion blooms as she tears a spear from the air and throws it through the mechanism holding the arena gates. Prisoners flood in behind her. The climax begins when the black-armored imperial champion enters, dragging a massive sword through sparks. The camera orbits them during a brutal duel, circling faster with every chain strike and sword impact until she wraps both chains around his weapon, pulls herself close, and drives the broken crown into his throat. End with the camera rising above the arena as she stands on the fallen champion, chains lifted high, while the colosseum erupts into rebellion beneath storm-lit skies.
+---
+```
+
+## 出处与许可
+
+- 原作者：[Umesh](https://x.com/umesh_ai) · 原帖：<https://x.com/umesh_ai/status/2060674971232588233>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060674971232588233.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

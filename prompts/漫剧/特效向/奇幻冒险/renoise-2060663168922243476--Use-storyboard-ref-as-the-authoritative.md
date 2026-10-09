@@ -1,0 +1,489 @@
+---
+id: "renoise-2060663168922243476"
+title: "Use @[storyboard ref] as the authoritative shot blueprint. Do not render the…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "漫剧"
+direction: "特效向"
+genre: "奇幻冒险"
+art_style: "2D日漫"
+tags: ["Seedance 2.0", "Renoise", "Action", "Chase", "Anime 2D", "Fantasy", "FPV & Aerial", "POV"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060663168922243476.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Kōda"
+original_author_url: "https://x.com/aimikoda"
+original_post_url: "https://x.com/aimikoda/status/2060663168922243476"
+published: "2026-05-30"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Use @[storyboard ref] as the authoritative shot blueprint. Do not render the…
+
+## 提示词（English）
+
+```text
+Use @[storyboard ref] as the authoritative shot blueprint. Do not render the storyboard sheet itself. Ignore all borders, panel frames, text, labels, headers, swatches, director-strip graphics and layout elements. Treat each panel as one sequential beat inside a single continuous unbroken handheld rear-FPV chase shot.
+Create a cinematic 16:9 video of Felicita, the fox girl from @[character ref]
+
+Final style: high-end animated fantasy film, stylized cinematic realism, hyper-realistic anime cel shading, painterly hand-painted forest backgrounds, bold clean linework, Hyperreal Pop color, warm sunlight from left, cool skylight from right, forest haze, drifting pollen, fast leaf-shadow flicker, crisp silhouette, deep layered forest parallax, shallow reactive lens refocus.
+
+One continuous rear-chase camera, no cuts. The camera chases her breathlessly with handheld FPV momentum.
+
+1. She crouches on a mossy path, ears twitching, then explodes forward into a sprint between roots.
+2. Camera lurches after her, close behind, as she slides under a fallen trunk and kicks back to her feet.
+3. She vaults a boulder, plants one sneaker on bark, and launches up the side of a tilted tree.
+4. She catches a low branch with both hands, swings hard, and lands on a thick limb above the path.
+5. The camera scrambles upward behind her, shaking with each step as leaves whip across the lens.
+6. She sprints along a bending branch, leaps a gap, lands hard, and rebounds instantly to the next tree.
+7. She dives through dense leaves, briefly becoming a sharp silhouette in green light.
+8. One speed ramp as she flips over a snapping branch, tail and braids floating while splinters and pollen freeze around her.
+9. Speed snaps back as she lands, skids along bark, grabs a vine, and swings around a massive trunk.
+10. She releases the vine, rockets through a tunnel of leaves, looks back with a fierce grin, gives a loose two-finger gun gesture, then bursts upward.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060663168922243476.json)
+
+```text
+---
+Usa @[storyboard ref] como el plano de referencia autoritativo para las tomas. No renderices la hoja del storyboard en sí. Ignora todos los bordes, marcos de paneles, texto, etiquetas, encabezados, muestras, gráficos de director-strip y elementos de diseño. Trata cada panel como un solo beat secuencial dentro de una toma continua e ininterrumpida en persecución trasera FPV con cámara en mano.
+Crea un video cinematográfico 16:9 de Felicita, la chica zorro de @[character ref]
+
+Estilo final: película de fantasía animada de alta gama, realismo cinematográfico estilizado, sombreado de celdas de anime hiperrealista, fondos de bosque pintados a mano de manera pictórica, líneas audaces y limpias, color Hyperreal Pop, luz solar cálida desde la izquierda, luz de cielo fría desde la derecha, neblina del bosque, polen flotante, parpadeo rápido de sombras de hojas, silueta nítida, paralaje de bosque profundo y en capas, reenfoque reactivo de lente poco profundo.
+
+Una cámara de persecución trasera continua, sin cortes. La cámara la persigue sin aliento con el impulso de FPV en mano.
+
+1. Ella se agacha en un camino cubierto de musgo, sus orejas se mueven, luego explota hacia adelante en una carrera entre raíces.
+2. La cámara se lanza tras ella, muy cerca, mientras se desliza bajo un tronco caído y se reincorpora.
+3. Salta sobre una roca, planta una zapatilla en la corteza y se lanza hacia arriba por el lado de un árbol inclinado.
+4. Atrapa una rama baja con ambas manos, se balancea con fuerza y aterriza en una rama gruesa sobre el camino.
+5. La cámara sube detrás de ella, temblando con cada paso mientras las hojas azotan la lente.
+6. Corre a lo largo de una rama que se dobla, salta un hueco, aterriza con fuerza y rebota instantáneamente hacia el siguiente árbol.
+7. Se zambulle entre hojas densas, convirtiéndose brevemente en una silueta nítida en la luz verde.
+8. Un cambio de velocidad mientras gira sobre una rama que se rompe, su cola y trenzas flotan mientras las astillas y el polen se congelan a su alrededor.
+9. La velocidad vuelve cuando aterriza, se desliza a lo largo de la corteza, agarra una liana y se balancea alrededor de un tronco masivo.
+10. Suelta la liana, se lanza a través de un túnel de hojas, mira hacia atrás con una sonrisa feroz, hace un gesto suelto de pistola con dos dedos, luego estalla hacia arriba.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Seedance 2.0 Prompt:
+Use @[storyboard ref] as the authoritative shot blueprint. Do not render the storyboard sheet itself. Ignore all borders, panel frames, text, labels, headers, swatches, director-strip graphics and layout elements. Treat each panel as one sequential beat inside a single continuous unbroken handheld rear-FPV chase shot.
+Create a cinematic 16:9 video of Felicita, the fox girl from @[character ref]
+
+Final style: high-end animated fantasy film, stylized cinematic realism, hyper-realistic anime cel shading, painterly hand-painted forest backgrounds, bold clean linework, Hyperreal Pop color, warm sunlight from left, cool skylight from right, forest haze, drifting pollen, fast leaf-shadow flicker, crisp silhouette, deep layered forest parallax, shallow reactive lens refocus.
+
+One continuous rear-chase camera, no cuts. The camera chases her breathlessly with handheld FPV momentum.
+
+1. She crouches on a mossy path, ears twitching, then explodes forward into a sprint between roots.
+2. Camera lurches after her, close behind, as she slides under a fallen trunk and kicks back to her feet.
+3. She vaults a boulder, plants one sneaker on bark, and launches up the side of a tilted tree.
+4. She catches a low branch with both hands, swings hard, and lands on a thick limb above the path.
+5. The camera scrambles upward behind her, shaking with each step as leaves whip across the lens.
+6. She sprints along a bending branch, leaps a gap, lands hard, and rebounds instantly to the next tree.
+7. She dives through dense leaves, briefly becoming a sharp silhouette in green light.
+8. One speed ramp as she flips over a snapping branch, tail and braids floating while splinters and pollen freeze around her.
+9. Speed snaps back as she lands, skids along bark, grabs a vine, and swings around a massive trunk.
+10. She releases the vine, rockets through a tunnel of leaves, looks back with a fierce grin, gives a loose two-finger gun gesture, then bursts upward.
+
+[Hilo 2] GPT Image 2 Storyboard Prompt:
+
+create a 16:9 image.
+[PROJECT CARD]
+Create a designed typographic masthead at the top of the sheet, not a table.
+TITLE LOCKUP: FELICITA / CANOPY RUN
+META LINE: wild breathless chase / animated fantasy parkour / handheld FPV momentum
+PRIORITY LINE: one continuous rear-chase camera, readable jumps, grabs, branch dodges, and upward forest geography
+MICRO BRIEF: Follow the fox girl from mossy ground sprint to bright canopy burst in one unbroken shot.
+
+[CONTINUITY HEADER]
+SEQUENCE ID: FELICITA_FOREST_CHASE_01
+PART: SINGLE
+STYLE PACKET: final video style is high-end animated fantasy film, stylized cinematic realism, premium animation quality, hyper-realistic anime cel shading, painterly hand-painted forest backgrounds, bold clean linework, Hyperreal Pop Look palette with warm sun shafts, saturated moss greens, bright bark browns, vivid blue kimono, orange-white tail, crisp soft cel shadows, tactile painted leaf texture, strong depth layering, reactive handheld lens refocus, no glowing trail, no ribbon trail, no energy streak.
+REFERENCE PRIORITY: provided character sheet controls Felicita identity, costume, proportions, braids, fox ears, tail, kimono jacket, shorts, sneakers, leg warmers, and red strap; this storyboard controls shot flow, staging, motion, geography, and continuity.
+
+[SCENE PACKET]
+SCENE PREMISE: Felicita turns a forest escape into playful parkour, pulling the viewer upward from the mossy path into the canopy.
+SCENE SUMMARY: A single handheld FPV chase follows close behind her as she sprints, slides, climbs, swings, flips, and bursts toward white sun glare.
+LOCATION: dense sunlit forest, late morning, mossy path below, exposed roots, fallen trunk, boulder, tilted tree, low branches, thick limbs, vines, dense leaf tunnel, bright canopy opening above; space begins grounded and tight, then rises into layered branches and green light.
+CHARACTER ROLES: Felicita is the only character, a fox girl with pink braids, black-tipped ears, orange-white tail, blue splattered kimono jacket, shorts, sneakers, leg warmers, and red crossbody strap; she wants speed, height, and playful dominance over the chase; she moves with agile fox-like parkour, quick grabs, springy landings, and sharp looks back.
+START STATE: Felicita crouches low on a mossy forest path facing screen-forward away from camera; ears twitch, tail low and ready; camera begins close behind at runner height, handheld and breathless.
+END STATE: Felicita releases from the final vine swing and rockets upward through leaves toward a white sunlit canopy opening, turning back with a fierce grin and loose two-finger gun gesture before glare swallows the frame.
+ACTION CHAIN: crouch compresses into sprint, sprint forces slide under trunk, slide rebounds into boulder vault, vault redirects onto tilted tree, tree run leads to branch grab, branch swing lifts her above the path, elevated sprint creates gap leap, leaf dive hides her briefly, one speed ramp suspends her flip over a snapping branch, landing skids into vine grab, vine swing wraps around a massive trunk, release launches her through a leaf tunnel into sun glare.
+PROP / EFFECT STATE: no carried props beyond outfit and strap; no magical trails, no glow ribbons, no energy lines, no colored streaks; show speed only through pose, hair and tail lift, leaf displacement, bark scuffs, splinters, pollen, and handheld framing.
+MUST READ: The whole sequence must feel like one continuous close-range FPV forest chase that climbs from ground to canopy without losing Felicita’s identity.
+
+[STYLE KEYFRAMES]
+Add 3 tiny top swatches showing the intended final video rendering only: warm sun shafts through saturated green canopy, painterly moss-and-bark texture with crisp clean linework, soft cel shadow on orange-white tail and blue splattered kimono, bright Hyperreal Pop color separation, shallow refocus sparkle from pollen and leaves. These are not character references and not storyboard-sketch style.
+
+[STYLE LOCKS]
+STYLE LOCK: final video remains high-end animated fantasy film, stylized cinematic realism, premium animation quality, hyper-realistic anime cel shading, painterly hand-painted forest backgrounds, bold clean linework, Hyperreal Pop Look palette, warm sunlit greens, vivid blue kimono, orange-white tail, soft
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060663168922243476.json)
+
+```text
+Utilisez @[storyboard ref] comme modèle de prise de vue autoritaire. Ne rendez pas la feuille de storyboard elle-même. Ignorez toutes les bordures, cadres de panneaux, textes, étiquettes, en-têtes, échantillons, graphiques de bande de réalisateur et éléments de mise en page. Traitez chaque panneau comme un battement séquentiel à l'intérieur d'une seule prise continue et ininterrompue de poursuite en vue à la première personne (FPV) à main levée.
+
+Créez une vidéo cinématographique au format 16:9 de Felicita, la fille renarde de @[character ref]
+
+Style final : film d'animation fantastique haut de gamme, réalisme cinématographique stylisé, ombrage de cellules d'anime hyperréaliste, arrière-plans de forêt peints à la main, lignes audacieuses et nettes, couleurs Hyperreal Pop, lumière chaude du soleil à gauche, lumière froide du ciel à droite, brume forestière, pollen flottant, scintillement rapide des ombres de feuilles, silhouette nette, parallaxe forestière en couches profondes, mise au point réactive de l'objectif peu profonde.
+
+Une caméra de poursuite arrière continue, sans coupures. La caméra la poursuit à bout de souffle avec un élan FPV à main levée.
+
+1. Elle s'accroupit sur un chemin moussu, les oreilles frémissantes, puis s'élance en avant dans un sprint entre les racines.
+2. La caméra se précipite derrière elle, de près, alors qu'elle glisse sous un tronc tombé et se remet sur ses pieds.
+3. Elle franchit un rocher, pose une basket sur l'écorce et s'élance sur le côté d'un arbre incliné.
+4. Elle attrape une branche basse avec les deux mains, se balance fort et atterrit sur une grosse branche au-dessus du chemin.
+5. La caméra grimpe derrière elle, tremblant à chaque pas alors que les feuilles fouettent l'objectif.
+6. Elle court le long d'une branche courbée, saute un espace, atterrit lourdement et rebondit instantanément vers l'arbre suivant.
+7. Elle plonge à travers des feuilles denses, devenant brièvement une silhouette nette dans la lumière verte.
+8. Un ralentissement de vitesse alors qu'elle bascule au-dessus d'une branche qui craque, sa queue et ses tresses flottant tandis que les éclats et le pollen se figent autour d'elle.
+9. La vitesse reprend alors qu'elle atterrit, glisse le long de l'écorce, attrape une liane et se balance autour d'un tronc massif.
+10. Elle lâche la liane, file à travers un tunnel de feuilles, regarde en arrière avec un sourire féroce, fait un geste de pistolet à deux doigts lâche, puis s'élance vers le haut.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] Seedance 2.0 Prompt:
+Utilisez @[storyboard ref] comme modèle de prise de vue autoritaire. Ne rendez pas la feuille de storyboard elle-même. Ignorez toutes les bordures, cadres de panneaux, textes, étiquettes, en-têtes, échantillons, graphiques de bande de réalisateur et éléments de mise en page. Traitez chaque panneau comme un battement séquentiel à l'intérieur d'une seule prise continue et ininterrompue de poursuite en vue à la première personne (FPV) à main levée.
+
+Créez une vidéo cinématographique au format 16:9 de Felicita, la fille renarde de @[character ref]
+
+Style final : film d'animation fantastique haut de gamme, réalisme cinématographique stylisé, ombrage de cellules d'anime hyperréaliste, arrière-plans de forêt peints à la main, lignes audacieuses et nettes, couleurs Hyperreal Pop, lumière chaude du soleil à gauche, lumière froide du ciel à droite, brume forestière, pollen flottant, scintillement rapide des ombres de feuilles, silhouette nette, parallaxe forestière en couches profondes, mise au point réactive de l'objectif peu profonde.
+
+Une caméra de poursuite arrière continue, sans coupures. La caméra la poursuit à bout de souffle avec un élan FPV à main levée.
+
+1. Elle s'accroupit sur un chemin moussu, les oreilles frémissantes, puis s'élance en avant dans un sprint entre les racines.
+2. La caméra se précipite derrière elle, de près, alors qu'elle glisse sous un tronc tombé et se remet sur ses pieds.
+3. Elle franchit un rocher, pose une basket sur l'écorce et s'élance sur le côté d'un arbre incliné.
+4. Elle attrape une branche basse avec les deux mains, se balance fort et atterrit sur une grosse branche au-dessus du chemin.
+5. La caméra grimpe derrière elle, tremblant à chaque pas alors que les feuilles fouettent l'objectif.
+6. Elle court le long d'une branche courbée, saute un espace, atterrit lourdement et rebondit instantanément vers l'arbre suivant.
+7. Elle plonge à travers des feuilles denses, devenant brièvement une silhouette nette dans la lumière verte.
+8. Un ralentissement de vitesse alors qu'elle bascule au-dessus d'une branche qui craque, sa queue et ses tresses flottant tandis que les éclats et le pollen se figent autour d'elle.
+9. La vitesse reprend alors qu'elle atterrit, glisse le long de l'écorce, attrape une liane et se balance autour d'un tronc massif.
+10. Elle lâche la liane, file à travers un tunnel de feuilles, regarde en arrière avec un sourire féroce, fait un geste de pistolet à deux doigts lâche, puis s'élance vers le haut.
+
+[Fil 2] GPT Image 2 Storyboard Prompt:
+
+créez une image au format 16:9.
+[CARTE DE PROJET]
+Créez une tête de mât typographique conçue en haut de la feuille, pas un tableau.
+TITRE : FELICITA / CANOPY RUN
+LIGNE MÉTA : poursuite sauvage et haletante / parkour fantastique animé / élan FPV à main levée
+LIGNE PRIORITAIRE : une caméra de poursuite arrière continue, sauts lisibles, prises, esquives de branches et géographie forestière ascendante
+BRÈVE DESCRIPTION : Suivez la fille renarde du sprint sur sol moussu à l'éclatement lumineux du couvert en une seule prise ininterrompue.
+
+[EN-TÊTE DE CONTINUITÉ]
+ID DE SÉQUENCE : FELICITA_FOREST_CHASE_01
+PARTIE : UNIQUE
+PAQUET DE STYLE : le style final de la vidéo est un film d'animation fantastique haut de gamme, réalisme cinématographique stylisé, qualité d'animation premium, ombrage de cellules d'anime hyperréaliste, arrière-plans de forêt peints à la main, lignes audacieuses et nettes, palette Hyperreal Pop Look avec rayons de soleil chauds, verts de mousse saturés, bruns d'écorce lumineux, kimono bleu vif, queue orange-blanche, ombres douces et nettes de cellules, texture de feuille peinte tactile, couches de profondeur fortes, mise au point réactive de l'objectif à main levée, pas de traînée lumineuse, pas de traînée de ruban, pas de traînée d'énergie.
+PRIORITÉ DE RÉFÉRENCE : la feuille de personnage fournie contrôle l'identité de Felicita, le costume, les proportions, les tresses, les oreilles de renard, la queue, la veste kimono, les shorts, les baskets, les jambières et la sangle rouge ; ce storyboard contrôle le flux de prise de vue, la mise en scène, le mouvement, la géographie et la continuité.
+
+[PAQUET DE SCÈNE]
+PRÉMISSE DE SCÈNE : Felicita transforme une évasion forestière en parkour ludique, entraînant le spectateur du chemin moussu vers le couvert.
+RÉSUMÉ DE SCÈNE : Une seule poursuite FPV à main levée suit de près derrière elle alors qu'elle court, glisse, grimpe, se balance, bascule et éclate vers l'éblouissement du soleil blanc.
+EMPLACEMENT : forêt dense et ensoleillée, fin de matinée, chemin moussu en dessous, racines exposées, tronc tombé, rocher, arbre incliné, branches basses, grosses branches, lianes, tunnel de feuilles dense, ouverture lumineuse du couvert au-dessus ; l'espace commence ancré et serré, puis s'élève dans des branches en couches et une lumière verte.
+RÔLES DES PERSONNAGES : Felicita est le seul personnage, une fille renarde avec des tresses roses, des oreilles à pointe noire, une queue orange-blanche, une veste kimono éclaboussée de bleu, des shorts, des baskets, des jambières et une sangle rouge en bandoulière ; elle veut de la vitesse, de la hauteur et une domination ludique sur la poursuite ; elle se déplace avec un parkour agile de renard, des prises rapides, des atterrissages élastiques
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060663168922243476.json)
+
+```text
+---
+@[storyboard ref]を権威あるショットの青写真として使用してください。ストーリーボードシート自体をレンダリングしないでください。すべての境界線、パネルフレーム、テキスト、ラベル、ヘッダー、スウォッチ、ディレクターストリップのグラフィックおよびレイアウト要素を無視してください。各パネルを、単一の連続した途切れのないハンドヘルド後方FPVチェイスショット内の1つのシーケンシャルビートとして扱ってください。
+@[character ref]の狐の少女フェリシタのシネマティックな16:9ビデオを作成してください。
+
+最終スタイル：高級アニメーションファンタジー映画、スタイライズドシネマティックリアリズム、ハイパーリアリスティックなアニメセルシェーディング、絵画的な手描きの森の背景、大胆でクリーンなラインワーク、ハイパーリアルポップカラー、左からの暖かい日光、右からの涼しい空光、森の霞、漂う花粉、速い葉の影のちらつき、シャープなシルエット、深いレイヤーの森の視差、浅い反応レンズの再フォーカス。
+
+連続した後方チェイスカメラ、カットなし。カメラはハンドヘルドFPVの勢いで彼女を息を切らして追いかけます。
+
+1. 彼女は苔むした道にしゃがみ、耳をピクピクさせ、根の間を全力で走り出します。
+2. カメラは彼女の後ろにぴったりと続き、倒れた幹の下を滑り、足を蹴り上げて立ち上がります。
+3. 彼女は岩を飛び越え、樹皮に片足を置き、傾いた木の側面に飛び上がります。
+4. 彼女は両手で低い枝を掴み、強くスイングし、道の上の太い枝に着地します。
+5. カメラは彼女の後ろで上にスクランブルし、葉がレンズを横切るたびに揺れます。
+6. 彼女は曲がった枝を走り、ギャップを飛び越え、激しく着地し、次の木に即座に反発します。
+7. 彼女は密集した葉をくぐり抜け、一瞬緑の光の中でシャープなシルエットになります。
+8. 彼女が折れる枝をフリップする際に1つのスピードランプがあり、尾と編み込みが浮かび、破片と花粉が彼女の周りで一瞬凍結します。
+9. 彼女が着地し、樹皮に沿ってスライドし、ツタを掴み、巨大な幹の周りをスイングします。
+10. 彼女はツタを放し、葉のトンネルをロケットのように通り抜け、激しい笑顔で振り返り、緩やかな二本指の銃のジェスチャーをし、上方に突き抜けます。
+
+--- THREAD CONTINUATION ---
+[Thread 1] Seedance 2.0 Prompt:
+Use @[storyboard ref] as the authoritative shot blueprint. Do not render the storyboard sheet itself. Ignore all borders, panel frames, text, labels, headers, swatches, director-strip graphics and layout elements. Treat each panel as one sequential beat inside a single continuous unbroken handheld rear-FPV chase shot.
+Create a cinematic 16:9 video of Felicita, the fox girl from @[character ref]
+
+Final style: high-end animated fantasy film, stylized cinematic realism, hyper-realistic anime cel shading, painterly hand-painted forest backgrounds, bold clean linework, Hyperreal Pop color, warm sunlight from left, cool skylight from right, forest haze, drifting pollen, fast leaf-shadow flicker, crisp silhouette, deep layered forest parallax, shallow reactive lens refocus.
+
+One continuous rear-chase camera, no cuts. The camera chases her breathlessly with handheld FPV momentum.
+
+1. She crouches on a mossy path, ears twitching, then explodes forward into a sprint between roots.
+2. Camera lurches after her, close behind, as she slides under a fallen trunk and kicks back to her feet.
+3. She vaults a boulder, plants one sneaker on bark, and launches up the side of a tilted tree.
+4. She catches a low branch with both hands, swings hard, and lands on a thick limb above the path.
+5. The camera scrambles upward behind her, shaking with each step as leaves whip across the lens.
+6. She sprints along a bending branch, leaps a gap, lands hard, and rebounds instantly to the next tree.
+7. She dives through dense leaves, briefly becoming a sharp silhouette in green light.
+8. One speed ramp as she flips over a snapping branch, tail and braids floating while splinters and pollen freeze around her.
+9. Speed snaps back as she lands, skids along bark, grabs a vine, and swings around a massive trunk.
+10. She releases the vine, rockets through a tunnel of leaves, looks back with a fierce grin, gives a loose two-finger gun gesture, then bursts upward.
+
+[Thread 2] GPT Image 2 Storyboard Prompt:
+
+create a 16:9 image.
+[PROJECT CARD]
+Create a designed typographic masthead at the top of the sheet, not a table.
+TITLE LOCKUP: FELICITA / CANOPY RUN
+META LINE: wild breathless chase / animated fantasy parkour / handheld FPV momentum
+PRIORITY LINE: one continuous rear-chase camera, readable jumps, grabs, branch dodges, and upward forest geography
+MICRO BRIEF: Follow the fox girl from mossy ground sprint to bright canopy burst in one unbroken shot.
+
+[CONTINUITY HEADER]
+SEQUENCE ID: FELICITA_FOREST_CHASE_01
+PART: SINGLE
+STYLE PACKET: final video style is high-end animated fantasy film, stylized cinematic realism, premium animation quality, hyper-realistic anime cel shading, painterly hand-painted forest backgrounds, bold clean linework, Hyperreal Pop Look palette with warm sun shafts, saturated moss greens, bright bark browns, vivid blue kimono, orange-white tail, crisp soft cel shadows, tactile painted leaf texture, strong depth layering, reactive handheld lens refocus, no glowing trail, no ribbon trail, no energy streak.
+REFERENCE PRIORITY: provided character sheet controls Felicita identity, costume, proportions, braids, fox ears, tail, kimono jacket, shorts, sneakers, leg warmers, and red strap; this storyboard controls shot flow, staging, motion, geography, and continuity.
+
+[SCENE PACKET]
+SCENE PREMISE: Felicita turns a forest escape into playful parkour, pulling the viewer upward from the mossy path into the canopy.
+SCENE SUMMARY: A single handheld FPV chase follows close behind her as she sprints, slides, climbs, swings, flips, and bursts toward white sun glare.
+LOCATION: dense sunlit forest, late morning, mossy path below, exposed roots, fallen trunk, boulder, tilted tree, low branches, thick limbs, vines, dense leaf tunnel, bright canopy opening above; space begins grounded and tight, then rises into layered branches and green light.
+CHARACTER ROLES: Felicita is the only character, a fox girl with pink braids, black-tipped ears, orange-white tail, blue splattered kimono jacket, shorts, sneakers, leg warmers, and red crossbody strap; she wants speed, height, and playful dominance over the chase; she moves with agile fox-like parkour, quick grabs, springy landings, and sharp looks back.
+START STATE: Felicita crouches low on a mossy forest path facing screen-forward away from camera; ears twitch, tail low and ready; camera begins close behind at runner height, handheld and breathless.
+END STATE: Felicita releases from the final vine swing and rockets upward through leaves toward a white sunlit canopy opening, turning back with a fierce grin and loose two-finger gun gesture before glare swallows the frame.
+ACTION CHAIN: crouch compresses into sprint, sprint forces slide under trunk, slide rebounds into boulder vault, vault redirects onto tilted tree, tree run leads to branch grab, branch swing lifts her above the path, elevated sprint creates gap leap, leaf dive hides her briefly, one speed ramp suspends her flip over a snapping branch, landing skids into vine grab, vine swing wraps around a massive trunk, release launches her through a leaf tunnel into sun glare.
+PROP / EFFECT STATE: no carried props beyond outfit and strap; no magical trails, no glow ribbons, no energy lines, no colored streaks; show speed only through pose, hair and tail lift, leaf displacement, bark scuffs, splinters
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060663168922243476.json)
+
+```text
+---
+@[storyboard ref]를 권위 있는 촬영 청사진으로 사용하세요. 스토리보드 시트를 렌더링하지 마세요. 모든 경계, 패널 프레임, 텍스트, 레이블, 헤더, 견본, 감독 스트립 그래픽 및 레이아웃 요소를 무시하세요. 각 패널을 하나의 연속적이고 끊기지 않는 핸드헬드 후방 FPV 추격 샷 안의 하나의 순차적 비트로 취급하세요.
+@[character ref]의 여우 소녀 Felicita의 시네마틱 16:9 비디오를 만드세요.
+
+최종 스타일: 고급 애니메이션 판타지 영화, 스타일화된 시네마틱 리얼리즘, 하이퍼 리얼리즘 애니메 셀 셰이딩, 화가가 손으로 그린 듯한 숲 배경, 대담하고 깨끗한 선 작업, 하이퍼리얼 팝 컬러, 왼쪽에서 따뜻한 햇빛, 오른쪽에서 시원한 하늘빛, 숲 안개, 떠다니는 꽃가루, 빠른 잎 그림자 깜박임, 선명한 실루엣, 깊이 있는 레이어드 숲 패럴랙스, 얕은 반응형 렌즈 재초점.
+
+하나의 연속적인 후방 추격 카메라, 컷 없음. 카메라는 핸드헬드 FPV 모멘텀으로 그녀를 숨 가쁘게 쫓습니다.
+
+1. 그녀는 이끼 낀 길에 웅크리고, 귀가 움직이다가 뿌리 사이로 질주하며 앞으로 폭발합니다.
+2. 카메라는 그녀를 가까이서 뒤쫓으며, 그녀가 쓰러진 나무 아래로 미끄러져 발로 차며 일어섭니다.
+3. 그녀는 바위를 뛰어넘고, 나무껍질에 한쪽 운동화를 대고 기울어진 나무 옆으로 뛰어오릅니다.
+4. 그녀는 양손으로 낮은 가지를 잡고 강하게 흔들어 길 위의 두꺼운 가지에 착지합니다.
+5. 카메라는 그녀를 뒤에서 위로 올라가며, 잎이 렌즈를 스치며 흔들립니다.
+6. 그녀는 구부러진 가지를 따라 달려가며 틈을 뛰어넘고, 단단히 착지한 후 즉시 다음 나무로 튕겨 나갑니다.
+7. 그녀는 밀집된 잎을 뚫고 다이빙하며 잠시 녹색 빛 속에서 날카로운 실루엣이 됩니다.
+8. 그녀가 부러지는 가지 위로 뒤집히며 꼬리와 땋은 머리가 떠다니고, 파편과 꽃가루가 그녀 주위에 멈추는 한 번의 속도 램프.
+9. 그녀가 착지하며 속도가 다시 돌아오고, 나무껍질을 따라 미끄러지며 덩굴을 잡고 거대한 나무를 돌며 흔듭니다.
+10. 그녀는 덩굴을 놓고 잎 터널을 통해 로켓처럼 날아가며, 뒤를 돌아보며 강렬한 미소를 짓고 느슨한 두 손가락 총 제스처를 한 후 위로 폭발합니다.
+
+--- THREAD CONTINUATION ---
+[Thread 1] Seedance 2.0 Prompt:
+@[storyboard ref]를 권위 있는 촬영 청사진으로 사용하세요. 스토리보드 시트를 렌더링하지 마세요. 모든 경계, 패널 프레임, 텍스트, 레이블, 헤더, 견본, 감독 스트립 그래픽 및 레이아웃 요소를 무시하세요. 각 패널을 하나의 연속적이고 끊기지 않는 핸드헬드 후방 FPV 추격 샷 안의 하나의 순차적 비트로 취급하세요.
+@[character ref]의 여우 소녀 Felicita의 시네마틱 16:9 비디오를 만드세요.
+
+최종 스타일: 고급 애니메이션 판타지 영화, 스타일화된 시네마틱 리얼리즘, 하이퍼 리얼리즘 애니메 셀 셰이딩, 화가가 손으로 그린 듯한 숲 배경, 대담하고 깨끗한 선 작업, 하이퍼리얼 팝 컬러, 왼쪽에서 따뜻한 햇빛, 오른쪽에서 시원한 하늘빛, 숲 안개, 떠다니는 꽃가루, 빠른 잎 그림자 깜박임, 선명한 실루엣, 깊이 있는 레이어드 숲 패럴랙스, 얕은 반응형 렌즈 재초점.
+
+하나의 연속적인 후방 추격 카메라, 컷 없음. 카메라는 핸드헬드 FPV 모멘텀으로 그녀를 숨 가쁘게 쫓습니다.
+
+1. 그녀는 이끼 낀 길에 웅크리고, 귀가 움직이다가 뿌리 사이로 질주하며 앞으로 폭발합니다.
+2. 카메라는 그녀를 가까이서 뒤쫓으며, 그녀가 쓰러진 나무 아래로 미끄러져 발로 차며 일어섭니다.
+3. 그녀는 바위를 뛰어넘고, 나무껍질에 한쪽 운동화를 대고 기울어진 나무 옆으로 뛰어오릅니다.
+4. 그녀는 양손으로 낮은 가지를 잡고 강하게 흔들어 길 위의 두꺼운 가지에 착지합니다.
+5. 카메라는 그녀를 뒤에서 위로 올라가며, 잎이 렌즈를 스치며 흔들립니다.
+6. 그녀는 구부러진 가지를 따라 달려가며 틈을 뛰어넘고, 단단히 착지한 후 즉시 다음 나무로 튕겨 나갑니다.
+7. 그녀는 밀집된 잎을 뚫고 다이빙하며 잠시 녹색 빛 속에서 날카로운 실루엣이 됩니다.
+8. 그녀가 부러지는 가지 위로 뒤집히며 꼬리와 땋은 머리가 떠다니고, 파편과 꽃가루가 그녀 주위에 멈추는 한 번의 속도 램프.
+9. 그녀가 착지하며 속도가 다시 돌아오고, 나무껍질을 따라 미끄러지며 덩굴을 잡고 거대한 나무를 돌며 흔듭니다.
+10. 그녀는 덩굴을 놓고 잎 터널을 통해 로켓처럼 날아가며, 뒤를 돌아보며 강렬한 미소를 짓고 느슨한 두 손가락 총 제스처를 한 후 위로 폭발합니다.
+
+[Thread 2] GPT Image 2 Storyboard Prompt:
+
+16:9 이미지를 만드세요.
+[PROJECT CARD]
+시트 상단에 디자인된 타이포그래픽 마스트헤드를 만드세요, 테이블이 아닙니다.
+TITLE LOCKUP: FELICITA / CANOPY RUN
+META LINE: 숨 가쁜 추격 / 애니메이션 판타지 파쿠르 / 핸드헬드 FPV 모멘텀
+PRIORITY LINE: 하나의 연속적인 후방 추격 카메라, 읽기 쉬운 점프, 잡기, 가지 피하기, 위로 향하는 숲 지형
+MICRO BRIEF: 이끼 낀 땅에서 밝은 캐노피로 폭발하는 여우 소녀를 한 번의 끊기지 않는 샷으로 따라가세요.
+
+[CONTINUITY HEADER]
+SEQUENCE ID: FELICITA_FOREST_CHASE_01
+PART: SINGLE
+STYLE PACKET: 최종 비디오 스타일은 고급 애니메이션 판타지 영화, 스타일화된 시네마틱 리얼리즘, 프리미엄 애니메이션 품질, 하이퍼 리얼리즘 애니메 셀 셰이딩, 화가가 손으로 그린 듯한 숲 배경, 대담하고 깨끗한 선 작업, 하이퍼리얼 팝 룩 팔레트로 따뜻한 햇빛, 포화된 이끼 녹색, 밝은 나무껍질 갈색, 생생한 파란색 기모노, 주황-흰색 꼬리, 선명한 부드러운 셀 그림자, 촉감 있는 페인트 잎 질감, 강한 깊이 레이어링, 반응형 핸드헬드 렌즈 재초점, 빛나는 흔적 없음, 리본 흔적 없음, 에너지 선 없음.
+REFERENCE PRIORITY: 제공된 캐릭터 시트는 Felicita의 정체성, 의상, 비율, 땋은 머리, 여우 귀, 꼬리, 기모노 재킷, 반바지, 운동화, 레그 워머, 빨간 스트랩을 제어합니다; 이 스토리보
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060663168922243476.json)
+
+```text
+---
+Use @[storyboard ref] como o plano de referência autoritário para as cenas. Não renderize a folha do storyboard em si. Ignore todas as bordas, quadros de painéis, texto, rótulos, cabeçalhos, amostras, gráficos de faixa de diretor e elementos de layout. Trate cada painel como um único momento sequencial dentro de uma única tomada contínua e ininterrupta em estilo handheld rear-FPV de perseguição.
+
+Crie um vídeo cinematográfico 16:9 de Felicita, a garota raposa de @[character ref]
+
+Estilo final: filme de fantasia animado de alto nível, realismo cinematográfico estilizado, sombreamento cel de anime hiper-realista, fundos de floresta pintados à mão, traços limpos e ousados, cores Hyperreal Pop, luz solar quente da esquerda, luz do céu fria da direita, névoa da floresta, pólen flutuante, sombras rápidas de folhas, silhueta nítida, paralaxe de floresta em camadas profundas, refoco de lente reativa e superficial.
+
+Uma câmera contínua de perseguição traseira, sem cortes. A câmera a persegue ofegante com o impulso de FPV handheld.
+
+1. Ela se agacha em um caminho coberto de musgo, orelhas se contraindo, então explode para frente em uma corrida entre raízes.
+2. A câmera se lança atrás dela, bem próxima, enquanto ela desliza sob um tronco caído e se levanta novamente.
+3. Ela salta sobre uma pedra, apoia um tênis na casca e se lança para o lado de uma árvore inclinada.
+4. Ela agarra um galho baixo com ambas as mãos, balança com força e pousa em um galho grosso acima do caminho.
+5. A câmera sobe atrás dela, tremendo a cada passo enquanto folhas chicoteiam a lente.
+6. Ela corre ao longo de um galho curvado, salta um vão, pousa com força e se recupera instantaneamente para a próxima árvore.
+7. Ela mergulha por entre folhas densas, tornando-se brevemente uma silhueta nítida na luz verde.
+8. Um ramp de velocidade enquanto ela gira sobre um galho quebrando, cauda e tranças flutuando enquanto lascas e pólen congelam ao seu redor.
+9. A velocidade volta ao normal quando ela pousa, desliza pela casca, agarra uma videira e gira ao redor de um tronco maciço.
+10. Ela solta a videira, dispara por um túnel de folhas, olha para trás com um sorriso feroz, faz um gesto solto de arma com dois dedos e então explode para cima.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] Seedance 2.0 Prompt:
+Use @[storyboard ref] como o plano de referência autoritário para as cenas. Não renderize a folha do storyboard em si. Ignore todas as bordas, quadros de painéis, texto, rótulos, cabeçalhos, amostras, gráficos de faixa de diretor e elementos de layout. Trate cada painel como um único momento sequencial dentro de uma única tomada contínua e ininterrupta em estilo handheld rear-FPV de perseguição.
+
+Crie um vídeo cinematográfico 16:9 de Felicita, a garota raposa de @[character ref]
+
+Estilo final: filme de fantasia animado de alto nível, realismo cinematográfico estilizado, sombreamento cel de anime hiper-realista, fundos de floresta pintados à mão, traços limpos e ousados, cores Hyperreal Pop, luz solar quente da esquerda, luz do céu fria da direita, névoa da floresta, pólen flutuante, sombras rápidas de folhas, silhueta nítida, paralaxe de floresta em camadas profundas, refoco de lente reativa e superficial.
+
+Uma câmera contínua de perseguição traseira, sem cortes. A câmera a persegue ofegante com o impulso de FPV handheld.
+
+1. Ela se agacha em um caminho coberto de musgo, orelhas se contraindo, então explode para frente em uma corrida entre raízes.
+2. A câmera se lança atrás dela, bem próxima, enquanto ela desliza sob um tronco caído e se levanta novamente.
+3. Ela salta sobre uma pedra, apoia um tênis na casca e se lança para o lado de uma árvore inclinada.
+4. Ela agarra um galho baixo com ambas as mãos, balança com força e pousa em um galho grosso acima do caminho.
+5. A câmera sobe atrás dela, tremendo a cada passo enquanto folhas chicoteiam a lente.
+6. Ela corre ao longo de um galho curvado, salta um vão, pousa com força e se recupera instantaneamente para a próxima árvore.
+7. Ela mergulha por entre folhas densas, tornando-se brevemente uma silhueta nítida na luz verde.
+8. Um ramp de velocidade enquanto ela gira sobre um galho quebrando, cauda e tranças flutuando enquanto lascas e pólen congelam ao seu redor.
+9. A velocidade volta ao normal quando ela pousa, desliza pela casca, agarra uma videira e gira ao redor de um tronco maciço.
+10. Ela solta a videira, dispara por um túnel de folhas, olha para trás com um sorriso feroz, faz um gesto solto de arma com dois dedos e então explode para cima.
+
+[Thread 2] GPT Image 2 Storyboard Prompt:
+
+crie uma imagem 16:9.
+[CARTA DO PROJETO]
+Crie um cabeçalho tipográfico desenhado no topo da folha, não uma tabela.
+BLOCO DE TÍTULO: FELICITA / CANOPY RUN
+LINHA META: perseguição selvagem e ofegante / parkour de fantasia animado / impulso de FPV handheld
+LINHA DE PRIORIDADE: uma câmera contínua de perseguição traseira, saltos legíveis, agarramentos, desvios de galhos e geografia florestal ascendente
+BREVE MICRO: Siga a garota raposa do sprint no chão coberto de musgo até a explosão no dossel em uma única tomada ininterrupta.
+
+[CABEÇALHO DE CONTINUIDADE]
+ID DA SEQUÊNCIA: FELICITA_FOREST_CHASE_01
+PARTE: ÚNICA
+PACOTE DE ESTILO: o estilo final do vídeo é filme de fantasia animado de alto nível, realismo cinematográfico estilizado, qualidade de animação premium, sombreamento cel de anime hiper-realista, fundos de floresta pintados à mão, traços limpos e ousados, paleta de cores Hyperreal Pop Look com raios de sol quentes, verdes saturados de musgo, marrons brilhantes de casca, quimono azul vivo, cauda laranja-branca, sombras cel suaves e nítidas, textura de folha pintada tátil, camadas de profundidade fortes, refoco de lente reativa handheld, sem trilha brilhante, sem trilha de fita, sem rastro de energia.
+PRIORIDADE DE REFERÊNCIA: a folha de personagem fornecida controla a identidade de Felicita, traje, proporções, tranças, orelhas de raposa, cauda, jaqueta quimono, shorts, tênis, aquecedores de perna e alça vermelha; este storyboard controla o fluxo da cena, encenação, movimento, geografia e continuidade.
+
+[PACOTE DE CENA]
+PREMISSA DA CENA: Felicita transforma uma fuga pela floresta em um parkour lúdico, puxando o espectador para cima do caminho coberto de musgo até o dossel.
+RESUMO DA CENA: Uma única perseguição FPV handheld segue de perto atrás dela enquanto ela corre, desliza, escala, balança, gira e explode em direção ao brilho do sol branco.
+LOCALIZAÇÃO: floresta densa iluminada pelo sol, final da manhã, caminho coberto de musgo abaixo, raízes expostas, tronco caído, pedra, árvore inclinada, galhos baixos, galhos grossos, videiras, túnel de folhas densas, abertura de dossel brilhante acima; o espaço começa ancorado e apertado, depois sobe para galhos em camadas e luz verde.
+PAPÉIS DOS PERSONAGENS: Felicita é a única personagem, uma garota raposa com tranças rosas, orelhas com pontas pretas, cauda laranja-branca, jaqueta quimono azul salpicada, shorts, tênis, aquecedores de perna e alça transversal vermelha; ela quer velocidade, altura e domínio lúdico sobre a perseguição; ela se move com parkour ágil de raposa, agarramentos rápidos, pousos elásticos e olhares rápidos para trás.
+ESTADO INICIAL: Felicita se agacha baixo em um caminho de floresta coberto de musgo voltada para a tela, longe da câmera; orelhas se contraem, cauda baixa e pronta; a câmera começa próxima atrás na altura do corredor, handheld e ofegante.
+ESTADO FINAL: Felicita se solta do último balanço de videira e dispara para cima através das folhas em direção a uma abertura de dossel iluminada pelo sol branco, virando-se com um
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060663168922243476.json)
+
+```text
+使用@[storyboard ref]作为权威镜头蓝图。不要渲染分镜表本身。忽略所有边框、面板框架、文本、标签、标题、色板、导演条形图形和布局元素。将每个面板视为单一连续不间断手持后视FPV追逐镜头中的一个顺序节拍。
+创建一部关于@[character ref]中的狐狸女孩Felicita的16:9电影视频。
+
+最终风格：高端动画奇幻电影，风格化的电影现实主义，超现实主义动漫赛璐珞上色，手绘风格的森林背景，大胆干净的线条，超现实流行色彩，左侧温暖的阳光，右侧凉爽的天光，森林薄雾，漂浮的花粉，快速的叶影闪烁，清晰的剪影，深层次的森林视差，浅层反应镜头重聚焦。
+
+一个连续的后追摄像机，没有剪切。摄像机以手持FPV的动感追逐她，气喘吁吁。
+
+1. 她蹲在苔藓小径上，耳朵抽动，然后在树根间爆发前冲。
+2. 摄像机紧随其后，近距离跟随，当她滑过倒下的树干并重新站起时。
+3. 她跃过一块巨石，将一只运动鞋踩在树皮上，然后跃上倾斜的树干。
+4. 她用双手抓住低矮的树枝，用力摆动，落在小径上方的粗大树枝上。
+5. 摄像机在她身后向上攀爬，每一步都在摇晃，叶子在镜头前掠过。
+6. 她沿着弯曲的树枝奔跑，跃过空隙，重重落地，然后立即反弹到下一棵树上。
+7. 她穿过密集的叶子，短暂地成为绿色光线中的清晰剪影。
+8. 当她翻过一根断裂的树枝时，速度加快，尾巴和辫子漂浮，碎片和花粉在她周围冻结。
+9. 速度恢复正常，她落地，沿着树皮滑行，抓住藤蔓，绕着巨大的树干摆动。
+10. 她松开藤蔓，穿过叶子的隧道，回头露出凶猛的笑容，做出松散的两指枪手势，然后向上冲出。
+
+--- 线程继续 ---
+[Thread 1] Seedance 2.0 Prompt:
+Use @[storyboard ref] as the authoritative shot blueprint. Do not render the storyboard sheet itself. Ignore all borders, panel frames, text, labels, headers, swatches, director-strip graphics and layout elements. Treat each panel as one sequential beat inside a single continuous unbroken handheld rear-FPV chase shot.
+Create a cinematic 16:9 video of Felicita, the fox girl from @[character ref]
+
+Final style: high-end animated fantasy film, stylized cinematic realism, hyper-realistic anime cel shading, painterly hand-painted forest backgrounds, bold clean linework, Hyperreal Pop color, warm sunlight from left, cool skylight from right, forest haze, drifting pollen, fast leaf-shadow flicker, crisp silhouette, deep layered forest parallax, shallow reactive lens refocus.
+
+One continuous rear-chase camera, no cuts. The camera chases her breathlessly with handheld FPV momentum.
+
+1. She crouches on a mossy path, ears twitching, then explodes forward into a sprint between roots.
+2. Camera lurches after her, close behind, as she slides under a fallen trunk and kicks back to her feet.
+3. She vaults a boulder, plants one sneaker on bark, and launches up the side of a tilted tree.
+4. She catches a low branch with both hands, swings hard, and lands on a thick limb above the path.
+5. The camera scrambles upward behind her, shaking with each step as leaves whip across the lens.
+6. She sprints along a bending branch, leaps a gap, lands hard, and rebounds instantly to the next tree.
+7. She dives through dense leaves, briefly becoming a sharp silhouette in green light.
+8. One speed ramp as she flips over a snapping branch, tail and braids floating while splinters and pollen freeze around her.
+9. Speed snaps back as she lands, skids along bark, grabs a vine, and swings around a massive trunk.
+10. She releases the vine, rockets through a tunnel of leaves, looks back with a fierce grin, gives a loose two-finger gun gesture, then bursts upward.
+
+[Thread 2] GPT Image 2 Storyboard Prompt:
+
+create a 16:9 image.
+[PROJECT CARD]
+Create a designed typographic masthead at the top of the sheet, not a table.
+TITLE LOCKUP: FELICITA / CANOPY RUN
+META LINE: wild breathless chase / animated fantasy parkour / handheld FPV momentum
+PRIORITY LINE: one continuous rear-chase camera, readable jumps, grabs, branch dodges, and upward forest geography
+MICRO BRIEF: Follow the fox girl from mossy ground sprint to bright canopy burst in one unbroken shot.
+
+[CONTINUITY HEADER]
+SEQUENCE ID: FELICITA_FOREST_CHASE_01
+PART: SINGLE
+STYLE PACKET: final video style is high-end animated fantasy film, stylized cinematic realism, premium animation quality, hyper-realistic anime cel shading, painterly hand-painted forest backgrounds, bold clean linework, Hyperreal Pop Look palette with warm sun shafts, saturated moss greens, bright bark browns, vivid blue kimono, orange-white tail, crisp soft cel shadows, tactile painted leaf texture, strong depth layering, reactive handheld lens refocus, no glowing trail, no ribbon trail, no energy streak.
+REFERENCE PRIORITY: provided character sheet controls Felicita identity, costume, proportions, braids, fox ears, tail, kimono jacket, shorts, sneakers, leg warmers, and red strap; this storyboard controls shot flow, staging, motion, geography, and continuity.
+
+[SCENE PACKET]
+SCENE PREMISE: Felicita turns a forest escape into playful parkour, pulling the viewer upward from the mossy path into the canopy.
+SCENE SUMMARY: A single handheld FPV chase follows close behind her as she sprints, slides, climbs, swings, flips, and bursts toward white sun glare.
+LOCATION: dense sunlit forest, late morning, mossy path below, exposed roots, fallen trunk, boulder, tilted tree, low branches, thick limbs, vines, dense leaf tunnel, bright canopy opening above; space begins grounded and tight, then rises into layered branches and green light.
+CHARACTER ROLES: Felicita is the only character, a fox girl with pink braids, black-tipped ears, orange-white tail, blue splattered kimono jacket, shorts, sneakers, leg warmers, and red crossbody strap; she wants speed, height, and playful dominance over the chase; she moves with agile fox-like parkour, quick grabs, springy landings, and sharp looks back.
+START STATE: Felicita crouches low on a mossy forest path facing screen-forward away from camera; ears twitch, tail low and ready; camera begins close behind at runner height, handheld and breathless.
+END STATE: Felicita releases from the final vine swing and rockets upward through leaves toward a white sunlit canopy opening, turning back with a fierce grin and loose two-finger gun gesture before glare swallows the frame.
+ACTION CHAIN: crouch compresses into sprint, sprint forces slide under trunk, slide rebounds into boulder vault, vault redirects onto tilted tree, tree run leads to branch grab, branch swing lifts her above the path, elevated sprint creates gap leap, leaf dive hides her briefly, one speed ramp suspends her flip over a snapping branch, landing skids into vine grab, vine swing wraps around a massive trunk, release launches her through a leaf tunnel into sun glare.
+PROP / EFFECT STATE: no carried props beyond outfit and strap; no magical trails, no glow ribbons, no energy lines, no colored streaks; show speed only through pose, hair and tail lift, leaf displacement, bark scuffs, splinters, pollen, and handheld framing.
+MUST READ: The whole sequence must feel like one continuous close-range FPV forest chase that climbs from ground to canopy without losing Felicita’s identity.
+
+[STYLE KEYFRAMES]
+Add 3 tiny top swatches showing the intended final video rendering only: warm sun shafts through saturated green canopy, painterly moss-and-bark texture with crisp clean linework, soft cel shadow on orange-white tail and blue splattered kimono, bright Hyperreal Pop color separation, shallow refocus sparkle from pollen and leaves. These are not character references and not storyboard-sketch style.
+
+[STYLE LOCKS]
+STYLE LOCK: final video remains high-end animated fantasy film, stylized cinematic realism, premium animation quality, hyper-realistic anime cel shading, painterly hand-painted forest backgrounds, bold clean linework, Hyperreal Pop Look palette, warm sunlit greens, vivid blue kimono, orange-white tail, soft crisp cel shadows, rich depth layering, clean action readability.
+EFFECT LOCK: no glowing trail, no ribbon,
+```
+
+## 出处与许可
+
+- 原作者：[Kōda](https://x.com/aimikoda) · 原帖：<https://x.com/aimikoda/status/2060663168922243476>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2060663168922243476.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

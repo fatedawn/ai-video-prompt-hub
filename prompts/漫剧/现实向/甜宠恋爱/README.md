@@ -1,9 +1,17 @@
 # 漫剧/现实向/甜宠恋爱
 
-共 11 条（由 `scripts/build_index.py` 自动生成，请勿手改）。
+共 20 条（由 `scripts/build_index.py` 自动生成，请勿手改）。
 
 | 标题 | 语言 | 模型 | 画风 | 收录来源 | 原作者 / 原帖 |
 |---|---|---|---|---|---|
+| [Leisurely Anime Girl Interaction](grok-5081--Leisurely-Anime-Girl-Interaction.md) | English | Grok Imagine | 2D日漫 | [awesome-grok-imagine-prompts](https://github.com/YouMind-OpenLab/awesome-grok-imagine-prompts) | [Aniの日常](https://x.com/tarohinomo78040/status/2057137600314655013) |
+| [Living Magazine Cover Animation](grok-4336--Living-Magazine-Cover-Animation.md) | English | Grok Imagine | 未注明 | [awesome-grok-imagine-prompts](https://github.com/YouMind-OpenLab/awesome-grok-imagine-prompts) | [Jennifer 🇺🇸 🦅](https://x.com/Jenny_MommaLion/status/2051825948606271750) |
+| [Make a Pixar film about Punch. I want to cry and fall in love with him.](renoise-2024861467317776754--Make-a-Pixar-film-about-Punch.-I-want-to.md) | English | Seedance 2.0 | 3D卡通 | [awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts) | [TBC](https://x.com/TBC_on_X/status/2024861467317776754) |
+| [Medieval Double Exposure Animation](grok-4631--Medieval-Double-Exposure-Animation.md) | English | Grok Imagine | 未注明 | [awesome-grok-imagine-prompts](https://github.com/YouMind-OpenLab/awesome-grok-imagine-prompts) | [Carina](https://x.com/Freehere3/status/2053688075151192409) |
+| [Opening shot: a muscular bald man wearing black tactical climbing gear…](renoise-2075812899235500159--Opening-shot-a-muscular-bald-man-wearing.md) | English | Seedance 2.0 | 3D卡通 | [awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts) | [Smiling Khan](https://x.com/AIwithkhan/status/2075812899235500159) |
+| [Original hand-drawn Japanese romantic slice-of-life TV anime, warm summer…](renoise-2076279172008407176--Original-hand-drawn-Japanese-romantic-sl.md) | 日本語 | Seedance 2.0 | 2D日漫 | [awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts) | [AI Video Project](https://x.com/aivideo2026/status/2076279172008407176) |
+| [Romantic Pencil Sketch Animation](grok-6973--Romantic-Pencil-Sketch-Animation.md) | English | Grok Imagine | 绘画风 | [awesome-grok-imagine-prompts](https://github.com/YouMind-OpenLab/awesome-grok-imagine-prompts) | [joscilene Laura](https://x.com/joscilene_maria/status/2074851707507355664) |
+| [Use the attached THE CRÈME BRÛLÉE storyboard as exact visual reference. Create…](renoise-2066513554186879431--Use-the-attached-THE-CRÈME-BRÛLÉE-storyb.md) | English | Seedance 2.0 | 3D卡通 | [awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts) | [TechieSA](https://x.com/TechieBySA/status/2066513554186879431) |
 | [丈夫误把洗衣求助当浪漫邀约](goodcase-im-shahid7-seedance-ai-b4d2ba40a750--丈夫误把洗衣求助当浪漫邀约.md) | English | Seedance（版本未注明） | 3D卡通 | [awesome-seedance](https://github.com/LearnPrompt/awesome-seedance) | [@im_shahid7](https://x.com/im_shahid7/status/2091754978348339299) |
 | [动漫表情强度控制](youmind-5615--动漫表情强度控制.md) | English | Seedance 2.0 | 2D日漫 | [awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts) | [Jason W - AI](https://x.com/PocketScreenAI/status/2061679830714970140) |
 | [动漫风格邂逅提示词](youmind-6339--动漫风格邂逅提示词.md) | 日本語 | Seedance 2.0 | 2D日漫 | [awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts) | [DACO@AIクリエイト](https://x.com/DACO_2026/status/2069207386192228510) |
@@ -15,3 +23,4 @@
 | [电影浪漫剧情场景](youmind-1340--电影浪漫剧情场景.md) | English | Seedance 2.0 | 未注明 | [awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts) | [FoldingEnd A.I.](https://x.com/EndFolding79421/status/2032951264351236290) |
 | [电影漫画式浪漫：天桥告白](youmind-1798--电影漫画式浪漫-天桥告白.md) | English | Seedance 2.0 | 2D日漫 | [awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts) | [Aaron Sun](https://x.com/AaronYSun/status/2034842722364797397) |
 | [皮克斯风格的跳舞情侣](youmind-5580--皮克斯风格的跳舞情侣.md) | English | Seedance 2.0 | 3D卡通 | [awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts) | [ÀBDŪLLÂH](https://x.com/itxabdullaa/status/2061323016873836888) |
+| [皮克斯风格草莓甜甜圈动画](grok-9434--皮克斯风格草莓甜甜圈动画.md) | 中文 | Grok Imagine | 3D卡通 | [awesome-grok-imagine-prompts](https://github.com/YouMind-OpenLab/awesome-grok-imagine-prompts) | [Tenghao hsu](https://x.com/HsuTenghao19046/status/2089388405990064618) |

@@ -112,7 +112,10 @@ test('8 DV vlog → retro found-footage template and vlog prompts', () => {
 test('--commercial removes non-commercial and unlicensed external projects', () => {
   for (let i = 0; i < SAMPLES.length; i++) {
     const p = plan(i, { commercial: true });
-    for (const e of [...p.external.tools, ...p.external.methods]) assert.ok(!['noncommercial', 'none'].includes(e.license_class), `${SAMPLES[i].file}: ${e.repo}`);
+    for (const e of [...p.external.tools, ...p.external.methods]) {
+      assert.ok(!['noncommercial', 'none'].includes(e.license_class), `${SAMPLES[i].file}: ${e.repo}`);
+      assert.ok(!e.commercial_block, `${SAMPLES[i].file}: commercial_block ${e.repo}`);
+    }
   }
 });
 

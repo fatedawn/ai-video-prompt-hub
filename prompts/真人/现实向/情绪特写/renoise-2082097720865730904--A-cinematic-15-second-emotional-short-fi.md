@@ -1,0 +1,142 @@
+---
+id: "renoise-2082097720865730904"
+title: "A cinematic 15-second emotional short film. A luxury black Rolls-Royce slowly…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "情绪特写"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Story", "Heartwarming", "Product Ad", "Luxury", "Photoreal", "Realistic World"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2082097720865730904.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Zyra AI"
+original_author_url: "https://x.com/Zyra_AI1"
+original_post_url: "https://x.com/Zyra_AI1/status/2082097720865730904"
+published: "2026-07-28"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# A cinematic 15-second emotional short film. A luxury black Rolls-Royce slowly…
+
+## 提示词（English）
+
+```text
+A cinematic 15-second emotional short film. A luxury black Rolls-Royce slowly drives through a busy city street during golden hour. The wealthy young man notices a poor man sitting silently outside a small food stall, looking hungry and disappointed because he has no money to buy food. The rich man quietly makes a phone call from inside his car without saying a word. A few moments later, a helicopter flies overhead and showers thousands of banknotes across the street. Crowds instantly rush forward, scrambling and fighting to collect the money. The poor man also joins the crowd, gathers enough cash, happily puts it into his pocket, then buys a simple meal from the food stall. He sits down, eats with a grateful smile, and his face lights up with genuine happiness. The wealthy man watches everything quietly from inside his parked car, smiles with satisfaction after seeing the poor man's joy, then gently drives away toward his destination. Ultra-realistic, Hollywood cinematic storytelling, emotional atmosphere, natural acting, smooth camera movements, realistic crowd physics, golden-hour lighting, shallow depth of field, 4K, no dialogue, inspiring ending.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2082097720865730904.json)
+
+```text
+Un cortometraje emocional cinematográfico de 15 segundos. Un lujoso Rolls-Royce negro avanza lentamente por una concurrida calle de la ciudad durante la hora dorada. El joven adinerado nota a un hombre pobre sentado en silencio fuera de un pequeño puesto de comida, con aspecto hambriento y decepcionado porque no tiene dinero para comprar comida. El hombre rico hace discretamente una llamada telefónica desde dentro de su coche sin decir una palabra. Unos momentos después, un helicóptero sobrevuela la zona y esparce miles de billetes por toda la calle. La multitud se lanza de inmediato hacia adelante, empujándose y peleando por recoger el dinero. El hombre pobre también se une a la multitud, reúne suficiente efectivo, se lo guarda felizmente en el bolsillo y luego compra una comida sencilla en el puesto de comida. Se sienta, come con una sonrisa agradecida y su rostro se ilumina con una felicidad genuina. El hombre adinerado observa todo en silencio desde dentro de su coche aparcado, sonríe con satisfacción al ver la alegría del hombre pobre y luego se aleja suavemente hacia su destino. Narrativa cinematográfica ultrarrealista al estilo Hollywood, atmósfera emotiva, actuación natural, movimientos de cámara fluidos, física realista de la multitud, iluminación de hora dorada, poca profundidad de campo, 4K, sin diálogo, final inspirador.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Prompt 👇
+Un cortometraje emocional cinematográfico de 15 segundos. Un lujoso Rolls-Royce negro avanza lentamente por una concurrida calle de la ciudad durante la hora dorada. El joven adinerado nota a un hombre pobre sentado en silencio fuera de un pequeño puesto de comida, con aspecto hambriento y decepcionado porque no tiene dinero para comprar comida. El hombre rico hace discretamente una llamada telefónica desde dentro de su coche sin decir una palabra. Unos momentos después, un helicóptero sobrevuela la zona y esparce miles de billetes por toda la calle. La multitud se lanza de inmediato hacia adelante, empujándose y peleando por recoger el dinero. El hombre pobre también se une a la multitud, reúne suficiente efectivo, se lo guarda felizmente en el bolsillo y luego compra una comida sencilla en el puesto de comida. Se sienta, come con una sonrisa agradecida y su rostro se ilumina con una felicidad genuina. El hombre adinerado observa todo en silencio desde dentro de su coche aparcado, sonríe con satisfacción al ver la alegría del hombre pobre y luego se aleja suavemente hacia su destino. Narrativa cinematográfica ultrarrealista al estilo Hollywood, atmósfera emotiva, actuación natural, movimientos de cámara fluidos, física realista de la multitud, iluminación de hora dorada, poca profundidad de campo, 4K, sin diálogo, final inspirador.
+
+[Hilo 2] @budgetpixel Prueba aquí
+
+https://t.co/rPdvOi2KxT
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2082097720865730904.json)
+
+```text
+Un court-métrage émotionnel cinématographique de 15 secondes. Une luxueuse Rolls-Royce noire roule lentement dans une rue animée de la ville à l’heure dorée. Le jeune homme riche remarque un homme pauvre assis silencieusement devant un petit stand de nourriture, l’air affamé et déçu parce qu’il n’a pas d’argent pour acheter à manger. L’homme riche passe discrètement un appel depuis l’intérieur de sa voiture, sans dire un mot. Quelques instants plus tard, un hélicoptère survole la scène et déverse des milliers de billets de banque sur toute la rue. La foule se précipite aussitôt en avant, se bousculant et se battant pour ramasser l’argent. L’homme pauvre rejoint lui aussi la foule, rassemble assez d’argent, le met joyeusement dans sa poche, puis achète un repas simple au stand de nourriture. Il s’assoit, mange avec un sourire reconnaissant, et son visage s’illumine d’un bonheur sincère. L’homme riche observe toute la scène en silence depuis l’intérieur de sa voiture garée, sourit avec satisfaction en voyant la joie de l’homme pauvre, puis repart doucement vers sa destination. Récit cinématographique ultra-réaliste à la Hollywood, atmosphère émotionnelle, jeu naturel, mouvements de caméra fluides, physique réaliste de la foule, éclairage de l’heure dorée, faible profondeur de champ, 4K, sans dialogue, fin inspirante.
+
+--- SUITE DU FIL ---
+[Fil 1] Prompt 👇
+Un court-métrage émotionnel cinématographique de 15 secondes. Une luxueuse Rolls-Royce noire roule lentement dans une rue animée de la ville à l’heure dorée. Le jeune homme riche remarque un homme pauvre assis silencieusement devant un petit stand de nourriture, l’air affamé et déçu parce qu’il n’a pas d’argent pour acheter à manger. L’homme riche passe discrètement un appel depuis l’intérieur de sa voiture, sans dire un mot. Quelques instants plus tard, un hélicoptère survole la scène et déverse des milliers de billets de banque sur toute la rue. La foule se précipite aussitôt en avant, se bousculant et se battant pour ramasser l’argent. L’homme pauvre rejoint lui aussi la foule, rassemble assez d’argent, le met joyeusement dans sa poche, puis achète un repas simple au stand de nourriture. Il s’assoit, mange avec un sourire reconnaissant, et son visage s’illumine d’un bonheur sincère. L’homme riche observe toute la scène en silence depuis l’intérieur de sa voiture garée, sourit avec satisfaction en voyant la joie de l’homme pauvre, puis repart doucement vers sa destination. Récit cinématographique ultra-réaliste à la Hollywood, atmosphère émotionnelle, jeu naturel, mouvements de caméra fluides, physique réaliste de la foule, éclairage de l’heure dorée, faible profondeur de champ, 4K, sans dialogue, fin inspirante.
+
+[Fil 2] @budgetpixel Essayez ici
+
+https://t.co/rPdvOi2KxT
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2082097720865730904.json)
+
+```text
+映画のような15秒の感動的な短編映画。高級な黒いロールス・ロイスが、ゴールデンアワーの賑やかな街路をゆっくりと走っていく。裕福な若者は、小さな屋台の外に静かに座る貧しい男に気づく。彼はお金がなく食べ物を買えず、空腹と落胆の表情を浮かべている。金持ちの男は車内から一言も発さず、静かに電話をかける。しばらくすると、ヘリコプターが頭上を飛び、何千枚もの紙幣を通りにばらまく。群衆は一斉に前へ殺到し、お金を拾おうと押し合い、争う。貧しい男も群衆に加わり、十分な現金を集めると、うれしそうにポケットへしまい、屋台で素朴な食事を買う。彼は腰を下ろし、感謝の笑みを浮かべながら食べ、その顔には本物の幸福が広がる。裕福な男は駐車した車の中からその一部始終を静かに見守り、貧しい男の喜びを見て満足そうに微笑むと、やさしく目的地へ向かって走り去る。超リアル、ハリウッド映画のようなストーリーテリング、感情的な雰囲気、自然な演技、滑らかなカメラワーク、リアルな群衆の物理表現、ゴールデンアワーのライティング、浅い被写界深度、4K、セリフなし、心を打つ結末。
+
+--- スレッド継続 ---
+[Thread 1] Prompt 👇
+映画のような15秒の感動的な短編映画。高級な黒いロールス・ロイスが、ゴールデンアワーの賑やかな街路をゆっくりと走っていく。裕福な若者は、小さな屋台の外に静かに座る貧しい男に気づく。彼はお金がなく食べ物を買えず、空腹と落胆の表情を浮かべている。金持ちの男は車内から一言も発さず、静かに電話をかける。しばらくすると、ヘリコプターが頭上を飛び、何千枚もの紙幣を通りにばらまく。群衆は一斉に前へ殺到し、お金を拾おうと押し合い、争う。貧しい男も群衆に加わり、十分な現金を集めると、うれしそうにポケットへしまい、屋台で素朴な食事を買う。彼は腰を下ろし、感謝の笑みを浮かべながら食べ、その顔には本物の幸福が広がる。裕福な男は駐車した車の中からその一部始終を静かに見守り、貧しい男の喜びを見て満足そうに微笑むと、やさしく目的地へ向かって走り去る。超リアル、ハリウッド映画のようなストーリーテリング、感情的な雰囲気、自然な演技、滑らかなカメラワーク、リアルな群衆の物理表現、ゴールデンアワーのライティング、浅い被写界深度、4K、セリフなし、心を打つ結末。
+
+[Thread 2] @budgetpixel こちらで試してみてください
+
+https://t.co/rPdvOi2KxT
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2082097720865730904.json)
+
+```text
+시네마틱한 15초 감성 단편 영화. 럭셔리한 검은색 롤스로이스가 골든아워의 번화한 도심 거리를 천천히 달린다. 부유한 젊은 남자는 작은 음식 노점 밖에 조용히 앉아 있는 가난한 남자를 발견한다. 그는 먹을 돈이 없어 배고프고 실망한 표정이다. 부유한 남자는 아무 말 없이 차 안에서 조용히 전화를 건다. 잠시 후 헬리콥터가 머리 위를 지나가며 거리 전체에 수천 장의 지폐를 뿌린다. 군중은 즉시 앞으로 달려들어 돈을 차지하려고 서로 밀치고 싸운다. 가난한 남자도 군중에 합류해 충분한 현금을 모은 뒤 기쁘게 주머니에 넣고, 음식 노점에서 간단한 식사를 산다. 그는 자리에 앉아 감사한 미소를 지으며 식사를 하고, 얼굴에는 진정한 행복이 환하게 번진다. 부유한 남자는 주차된 차 안에서 이 모든 장면을 조용히 지켜보다가, 가난한 남자의 기쁨을 보고 만족스러운 미소를 짓는다. 그런 다음 목적지를 향해 부드럽게 차를 몰고 떠난다. 초현실적인 수준의 리얼리즘, 할리우드 시네마틱 스토리텔링, 감성적인 분위기, 자연스러운 연기, 부드러운 카메라 움직임, 사실적인 군중 물리 효과, 골든아워 조명, 얕은 피사계 심도, 4K, 대사 없음, 영감을 주는 결말.
+
+--- THREAD CONTINUATION ---
+[Thread 1] Prompt 👇
+A cinematic 15-second emotional short film. A luxury black Rolls-Royce slowly drives through a busy city street during golden hour. The wealthy young man notices a poor man sitting silently outside a small food stall, looking hungry and disappointed because he has no money to buy food. The rich man quietly makes a phone call from inside his car without saying a word. A few moments later, a helicopter flies overhead and showers thousands of banknotes across the street. Crowds instantly rush forward, scrambling and fighting to collect the money. The poor man also joins the crowd, gathers enough cash, happily puts it into his pocket, then buys a simple meal from the food stall. He sits down, eats with a grateful smile, and his face lights up with genuine happiness. The wealthy man watches everything quietly from inside his parked car, smiles with satisfaction after seeing the poor man's joy, then gently drives away toward his destination. Ultra-realistic, Hollywood cinematic storytelling, emotional atmosphere, natural acting, smooth camera movements, realistic crowd physics, golden-hour lighting, shallow depth of field, 4K, no dialogue, inspiring ending.
+
+[Thread 2] @budgetpixel Try here
+
+https://t.co/rPdvOi2KxT
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2082097720865730904.json)
+
+```text
+Um curta-metragem emocional de 15 segundos, com estética cinematográfica. Um Rolls-Royce preto de luxo percorre lentamente uma rua movimentada da cidade durante a golden hour. O jovem rico percebe um homem pobre sentado em silêncio do lado de fora de uma pequena barraca de comida, com aparência faminta e desapontada porque não tem dinheiro para comprar comida. O homem rico faz discretamente uma ligação de dentro do carro, sem dizer uma palavra. Alguns momentos depois, um helicóptero passa sobre a rua e despeja milhares de notas de dinheiro por toda parte. A multidão imediatamente corre para frente, se empurrando e brigando para juntar o dinheiro. O homem pobre também entra na multidão, consegue juntar dinheiro suficiente, coloca-o feliz no bolso e então compra uma refeição simples na barraca de comida. Ele se senta, come com um sorriso grato e seu rosto se ilumina com uma felicidade genuína. O homem rico observa tudo em silêncio de dentro do carro estacionado, sorri com satisfação ao ver a alegria do homem pobre e então parte suavemente em direção ao seu destino. Ultra-realista, narrativa cinematográfica ao estilo Hollywood, atmosfera emocional, atuação natural, movimentos de câmera suaves, física realista da multidão, iluminação da golden hour, profundidade de campo rasa, 4K, sem diálogo, final inspirador.
+
+--- CONTINUAÇÃO DO THREAD ---
+[Thread 1] Prompt 👇
+Um curta-metragem emocional de 15 segundos, com estética cinematográfica. Um Rolls-Royce preto de luxo percorre lentamente uma rua movimentada da cidade durante a golden hour. O jovem rico percebe um homem pobre sentado em silêncio do lado de fora de uma pequena barraca de comida, com aparência faminta e desapontada porque não tem dinheiro para comprar comida. O homem rico faz discretamente uma ligação de dentro do carro, sem dizer uma palavra. Alguns momentos depois, um helicóptero passa sobre a rua e despeja milhares de notas de dinheiro por toda parte. A multidão imediatamente corre para frente, se empurrando e brigando para juntar o dinheiro. O homem pobre também entra na multidão, consegue juntar dinheiro suficiente, coloca-o feliz no bolso e então compra uma refeição simples na barraca de comida. Ele se senta, come com um sorriso grato e seu rosto se ilumina com uma felicidade genuína. O homem rico observa tudo em silêncio de dentro do carro estacionado, sorri com satisfação ao ver a alegria do homem pobre e então parte suavemente em direção ao seu destino. Ultra-realista, narrativa cinematográfica ao estilo Hollywood, atmosfera emocional, atuação natural, movimentos de câmera suaves, física realista da multidão, iluminação da golden hour, profundidade de campo rasa, 4K, sem diálogo, final inspirador.
+
+[Thread 2] @budgetpixel Experimente aqui
+
+https://t.co/rPdvOi2KxT
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2082097720865730904.json)
+
+```text
+一部电影感的 15 秒情感短片。一辆豪华黑色劳斯莱斯在黄金时刻缓缓驶过繁忙的城市街道。一位富有的年轻男子注意到，一名穷人静静地坐在一家小吃摊外，神情饥饿又失落，因为他没有钱买食物。富人坐在车内默默打了一个电话，一句话也没说。片刻之后，一架直升机从上空飞过，向街道上洒下成千上万张钞票。人群立刻蜂拥而上，争抢着捡钱。穷人也加入人群，凑够了足够的现金，开心地把钱放进口袋，然后从小吃摊买了一份简单的餐食。他坐下来，带着感激的微笑吃着东西，脸上洋溢着真切的幸福。富人坐在停好的车里静静看着这一切，在看到穷人的喜悦后满意地微笑，然后温和地驶向自己的目的地。超写实、好莱坞电影级叙事、情感氛围、自然表演、流畅的镜头运动、逼真的人群物理效果、黄金时刻光线、浅景深、4K、无对白、鼓舞人心的结尾。
+
+--- 线程续接 ---
+[Thread 1] Prompt 👇
+一部电影感的 15 秒情感短片。一辆豪华黑色劳斯莱斯在黄金时刻缓缓驶过繁忙的城市街道。一位富有的年轻男子注意到，一名穷人静静地坐在一家小吃摊外，神情饥饿又失落，因为他没有钱买食物。富人坐在车内默默打了一个电话，一句话也没说。片刻之后，一架直升机从上空飞过，向街道上洒下成千上万张钞票。人群立刻蜂拥而上，争抢着捡钱。穷人也加入人群，凑够了足够的现金，开心地把钱放进口袋，然后从小吃摊买了一份简单的餐食。他坐下来，带着感激的微笑吃着东西，脸上洋溢着真切的幸福。富人坐在停好的车里静静看着这一切，在看到穷人的喜悦后满意地微笑，然后温和地驶向自己的目的地。超写实、好莱坞电影级叙事、情感氛围、自然表演、流畅的镜头运动、逼真的人群物理效果、黄金时刻光线、浅景深、4K、无对白、鼓舞人心的结尾。
+
+[Thread 2] @budgetpixel 试试这里
+
+https://t.co/rPdvOi2KxT
+```
+
+## 出处与许可
+
+- 原作者：[Zyra AI](https://x.com/Zyra_AI1) · 原帖：<https://x.com/Zyra_AI1/status/2082097720865730904>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2082097720865730904.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

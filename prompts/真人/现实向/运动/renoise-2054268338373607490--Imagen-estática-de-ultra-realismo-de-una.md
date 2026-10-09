@@ -1,0 +1,98 @@
+---
+id: "renoise-2054268338373607490"
+title: "Imagen estática de ultra realismo de una transmisión deportiva de una mujer…"
+title_en: null
+model: "Seedance 2.0"
+language: "es"
+medium: "真人"
+direction: "现实向"
+genre: "运动"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Sports", "Crowd & Fans", "Photoreal", "Realistic World", "Game UI"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054268338373607490.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Fran Pradas | Ingeniero de IA"
+original_author_url: "https://x.com/franpradasAI"
+original_post_url: "https://x.com/franpradasAI/status/2054268338373607490"
+published: "2026-05-12"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Imagen estática de ultra realismo de una transmisión deportiva de una mujer…
+
+## 提示词（Español）
+
+```text
+Imagen estática de ultra realismo de una transmisión deportiva de una mujer glamorosa sentada en la multitud de un estadio de fútbol abarrotado durante un partido nocturno, vistiendo un top de satén de cuello alto sin mangas en marrón oscuro y pendientes cuadrados negros, cabello castaño claro/rubio de longitud hasta los hombros peinado en ondas suaves. Está bebiendo casualmente de una lata de aluminio azul alta mientras sostiene una hamburguesa con queso a medio comer en la otra mano. A su alrededor hay aficionados con camisetas y bufandas de fútbol en colores amarillo brillante y azul, creando un fuerte contraste de colores del equipo. La escena se siente espontánea y cinematográfica, capturada a mitad del partido desde el ángulo de una cámara de transmisión de TV con profundidad de campo reducida. Incluir asientos realistas del estadio, atmósfera de audiencia abarrotada, gráficos superpuestos de transmisión en la esquina superior izquierda que muestran un marcador en vivo de fútbol y temporizador del partido, y una marca de agua de la red deportiva en la superior derecha. Iluminación natural de arena, textura detallada de la piel, enfoque nítido en la mujer, multitud de fondo ligeramente desenfocada, estética auténtica de transmisión deportiva en vivo, composición 16:9
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的English版本（translations.en）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054268338373607490.json)
+
+```text
+Ultra-realistic static image of a sports broadcast featuring a glamorous woman sitting in the crowd of a packed football stadium during a night game, wearing a sleeveless high-neck satin top in dark brown and black square earrings, with light brown/blonde shoulder-length hair styled in soft waves. She is casually drinking from a tall blue aluminum can while holding a half-eaten cheeseburger in the other hand. Around her are fans wearing bright yellow and blue football shirts and scarves, creating a strong contrast of team colors. The scene feels spontaneous and cinematic, captured mid-game from the angle of a TV broadcast camera with a shallow depth of field. Include realistic stadium seating, crowded audience atmosphere, overlay graphics in the top left corner showing a live football score and game timer, and a sports network watermark in the top right. Natural arena lighting, detailed skin texture, sharp focus on the woman, slightly blurred background crowd, authentic live sports broadcast aesthetic, 16:9 composition.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054268338373607490.json)
+
+```text
+---
+Image statique d'ultra-réalisme d'une retransmission sportive d'une femme glamour assise dans la foule d'un stade de football bondé pendant un match nocturne, portant un haut en satin marron foncé à col montant sans manches et des boucles d'oreilles carrées noires, cheveux châtain clair/blond jusqu'aux épaules coiffés en vagues douces. Elle boit nonchalamment dans une canette en aluminium bleue haute tout en tenant un cheeseburger à moitié mangé dans l'autre main. Autour d'elle, des supporters portent des maillots et des écharpes de football aux couleurs jaune vif et bleu, créant un fort contraste de couleurs d'équipe. La scène semble spontanée et cinématographique, capturée à mi-match depuis l'angle d'une caméra de retransmission TV avec une profondeur de champ réduite. Inclure des sièges réalistes du stade, une atmosphère de foule bondée, des graphiques superposés de retransmission dans le coin supérieur gauche montrant un score de football en direct et un chronomètre de match, et un filigrane du réseau sportif en haut à droite. Éclairage naturel de l'arène, texture détaillée de la peau, mise au point nette sur la femme, foule en arrière-plan légèrement floue, esthétique authentique de retransmission sportive en direct, composition 16:9
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054268338373607490.json)
+
+```text
+---
+超リアルな静止画で、夜の試合中に満員のサッカースタジアムの観客席に座る華やかな女性を描写しています。彼女はダークブラウンのノースリーブのハイネックサテンのトップスを着て、黒い四角いイヤリングをつけています。肩までの長さのライトブラウン/ブロンドの髪は柔らかなウェーブにスタイリングされています。彼女は片手に青いアルミ缶からカジュアルに飲み物を飲みながら、もう一方の手で半分食べたチーズバーガーを持っています。周囲には、明るい黄色と青のサッカーチームの色のシャツやスカーフを着たファンがいて、チームカラーの強いコントラストを生み出しています。シーンは自発的でシネマティックな感じがし、試合の途中でTV放送カメラのアングルから撮影され、浅い被写界深度が用いられています。リアルなスタジアムの座席、混雑した観客の雰囲気、左上隅にサッカーのライブスコアと試合タイマーを示す放送のオーバーレイグラフィック、右上にスポーツネットワークの透かしを含めます。アリーナの自然な照明、詳細な肌の質感、女性に焦点を合わせたシャープなフォーカス、背景の群衆はややぼやけており、ライブスポーツ放送の本物の美学、16:9の構図。
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054268338373607490.json)
+
+```text
+---
+축구 경기 중 야간에 붐비는 경기장에서 관중 속에 앉아 있는 매력적인 여성의 초현실적인 정지 이미지. 그녀는 어두운 갈색의 민소매 하이넥 새틴 탑과 검은색 사각형 귀걸이를 착용하고 있으며, 어깨까지 오는 밝은 갈색/금발의 머리는 부드러운 웨이브로 스타일링되어 있다. 그녀는 한 손에 반쯤 먹은 치즈버거를 들고 다른 손으로는 파란색 알루미늄 캔에서 무심코 마시고 있다. 주변에는 밝은 노란색과 파란색의 축구 셔츠와 스카프를 입은 팬들이 있어 팀 색상의 강한 대비를 이룬다. 이 장면은 자발적이고 영화적이며, TV 방송 카메라의 각도에서 경기 중간에 포착된 것으로, 얕은 심도로 촬영되었다. 현실적인 경기장 좌석, 붐비는 관중의 분위기, 왼쪽 상단 모서리에 축구 실시간 점수와 경기 타이머를 보여주는 방송 그래픽 오버레이, 오른쪽 상단에 스포츠 네트워크 워터마크를 포함한다. 경기장의 자연 조명, 세밀한 피부 질감, 여성에 대한 선명한 초점, 약간 흐릿한 배경의 관중, 라이브 스포츠 방송의 진정한 미학, 16:9 구성.
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054268338373607490.json)
+
+```text
+Imagen estática de ultra realismo de uma transmissão esportiva de uma mulher glamorosa sentada na multidão de um estádio de futebol lotado durante uma partida noturna, vestindo um top de cetim de gola alta sem mangas em marrom escuro e brincos quadrados pretos, cabelo castanho claro/loiro de comprimento até os ombros penteado em ondas suaves. Ela está bebendo casualmente de uma lata de alumínio azul alta enquanto segura um cheeseburger meio comido na outra mão. Ao seu redor, há torcedores com camisetas e cachecóis de futebol em cores amarelo brilhante e azul, criando um forte contraste de cores do time. A cena se sente espontânea e cinematográfica, capturada no meio do jogo a partir do ângulo de uma câmera de transmissão de TV com profundidade de campo reduzida. Incluir assentos realistas do estádio, atmosfera de audiência lotada, gráficos sobrepostos de transmissão no canto superior esquerdo mostrando um placar ao vivo de futebol e cronômetro da partida, e uma marca d'água da rede esportiva no canto superior direito. Iluminação natural de arena, textura detalhada da pele, foco nítido na mulher, multidão de fundo ligeiramente desfocada, estética autêntica de transmissão esportiva ao vivo, composição 16:9
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054268338373607490.json)
+
+```text
+---
+超现实主义静态图像，描绘了一场体育赛事的转播画面：一位魅力十足的女性坐在一个挤满观众的足球场看台上，比赛在夜间进行。她穿着深棕色高领无袖缎面上衣，佩戴黑色方形耳环，浅棕色/金色的头发及肩，打理成柔和的波浪。她随意地喝着一罐高大的蓝色铝罐饮料，另一只手拿着一个吃了一半的芝士汉堡。她周围的观众穿着明亮的黄色和蓝色的足球衫和围巾，形成了强烈的球队色彩对比。场景显得自然而富有电影感，从电视转播摄像机的角度捕捉到比赛中途的瞬间，具有浅景深效果。包括真实的体育场座椅、拥挤的观众氛围、左上角的转播叠加图形显示实时足球比分和比赛计时器，以及右上角的体育网络水印。自然的场馆照明，细致的皮肤纹理，女性的清晰对焦，背景人群略微模糊，真实的现场体育转播美学，16:9的构图。
+```
+
+## 出处与许可
+
+- 原作者：[Fran Pradas | Ingeniero de IA](https://x.com/franpradasAI) · 原帖：<https://x.com/franpradasAI/status/2054268338373607490>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2054268338373607490.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

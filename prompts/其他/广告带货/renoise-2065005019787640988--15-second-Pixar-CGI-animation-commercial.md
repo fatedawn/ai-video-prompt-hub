@@ -1,0 +1,543 @@
+---
+id: "renoise-2065005019787640988"
+title: "15-second Pixar CGI animation commercial for CRUNCHBALL cheesy popcorn snack…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "其他"
+direction: null
+genre: "广告带货"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Product Ad", "F&B", "3D Animation", "Realistic World"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065005019787640988.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Gilbert Odera | Your AI Plug🇰🇪"
+original_author_url: "https://x.com/yourPlugAI"
+original_post_url: "https://x.com/yourPlugAI/status/2065005019787640988"
+published: "2026-06-11"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# 15-second Pixar CGI animation commercial for CRUNCHBALL cheesy popcorn snack…
+
+## 提示词（English）
+
+```text
+15-second Pixar CGI animation commercial for CRUNCHBALL cheesy popcorn snack. Use hero frame as strict visual anchor for characters, product, setting, lighting, and color.
+
+STYLE: Full Pixar CGI. Warm living room. Soft afternoon light. Bold orange, golden yellow, warm beige palette. Maximum slapstick timing. Exaggerated Pixar animation throughout.
+
+CHARACTERS: Max — neat 8-year-old twin, medium brown skin, round glasses, navy polo tucked in, precise side-parted dark hair, zero cheese dust until the explosion. Marco — identical face, chaotic dark hair, orange t-shirt, cheese dust on cheek, one sock missing. Same faces and wardrobe in every shot.
+
+PRODUCT: CRUNCHBALL bold orange resealable bag, chunky white 3D typography, flexing popcorn mascot, "Serious Snacking" tagline. Golden cheese-dusted popcorn balls. Label readable in every product shot.
+
+SHOTS:
+0:00 — Wide couch. Max and Marco on opposite ends. CRUNCHBALL bag in the middle. Both stare at it. Complete silence.
+0:02 — Max explains rules with a tiny chart. Marco reaches in before he finishes. Max's eye twitches.
+0:04 — Max places one piece on his tongue precisely. Eyes close. Controlled bliss.
+0:05 — Marco tilts the entire bag into his mouth. Pieces rain everywhere. Pure joy.
+0:07 — Marco throws a piece in the air. It bounces off his nose onto Max's glasses. Cheese smear on the lens.
+0:09 — Both reach into bag simultaneously. Hands meet inside. Eyes lock. Olympic standoff.
+0:10 — Both pull. Bag explodes. Golden orange popcorn erupts across the entire living room.
+0:12 — Aftermath. Popcorn everywhere. Max stares forward, cheese dust on glasses. Marco eats off the couch. Content.
+0:14 — Torn bag on table. Both reach for last piece. Freeze. "CRUNCHBALL. Serious Snacking."
+
+AUDIO: Popcorn crunch, bag crinkle, cartoon boing, competitive brass march escalating to chaos.
+
+NEGATIVE PROMPT: photorealistic, dark palette, flat 2D, anime, non-Pixar CGI, only one twin, clean Marco, neat Marco hair, Max with cheese dust before explosion, wrong bag design, outdoor setting, watermark, low quality.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065005019787640988.json)
+
+```text
+---
+Comercial de animación CGI de Pixar de 15 segundos para el snack de palomitas de maíz con queso CRUNCHBALL. Usa el cuadro heroico como ancla visual estricta para los personajes, producto, escenario, iluminación y color.
+
+ESTILO: Completo CGI de Pixar. Acogedora sala de estar. Luz suave de la tarde. Paleta de naranja audaz, amarillo dorado, beige cálido. Sincronización máxima de slapstick. Animación exagerada de Pixar en todo momento.
+
+PERSONAJES: Max — gemelo ordenado de 8 años, piel marrón medio, gafas redondas, polo azul marino metido, cabello oscuro con raya lateral precisa, sin polvo de queso hasta la explosión. Marco — cara idéntica, cabello oscuro caótico, camiseta naranja, polvo de queso en la mejilla, un calcetín faltante. Mismas caras y vestuario en cada toma.
+
+PRODUCTO: Bolsa resellable naranja audaz de CRUNCHBALL, tipografía 3D blanca gruesa, mascota de palomitas flexionando, eslogan "Serious Snacking". Bolas de palomitas cubiertas de queso dorado. Etiqueta legible en cada toma del producto.
+
+TOMAS:
+0:00 — Sofá amplio. Max y Marco en extremos opuestos. Bolsa de CRUNCHBALL en el medio. Ambos la miran. Silencio total.
+0:02 — Max explica las reglas con un pequeño gráfico. Marco mete la mano antes de que termine. El ojo de Max tiembla.
+0:04 — Max coloca una pieza en su lengua con precisión. Ojos cerrados. Éxtasis controlado.
+0:05 — Marco inclina toda la bolsa en su boca. Las piezas llueven por todas partes. Pura alegría.
+0:07 — Marco lanza una pieza al aire. Rebota en su nariz sobre las gafas de Max. Mancha de queso en la lente.
+0:09 — Ambos meten la mano en la bolsa simultáneamente. Las manos se encuentran dentro. Ojos se fijan. Enfrentamiento olímpico.
+0:10 — Ambos tiran. La bolsa explota. Palomitas de maíz doradas naranjas erupcionan por toda la sala de estar.
+0:12 — Consecuencias. Palomitas por todas partes. Max mira hacia adelante, polvo de queso en las gafas. Marco come del sofá. Contento.
+0:14 — Bolsa rota en la mesa. Ambos alcanzan la última pieza. Congelación. "CRUNCHBALL. Serious Snacking."
+
+AUDIO: Crujido de palomitas, crujido de bolsa, boing de dibujos animados, marcha de metales competitiva escalando al caos.
+
+PROMPT NEGATIVO: fotorrealista, paleta oscura, 2D plano, anime, CGI no-Pixar, solo un gemelo, Marco limpio, cabello de Marco ordenado, Max con polvo de queso antes de la explosión, diseño de bolsa incorrecto, escenario al aire libre, marca de agua, baja calidad.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] PERSONAJES
+
+MAX — Gemelo A. Ordenado, calculador, competitivo.
+8 años. Cabello oscuro peinado con precisión, raya lateral precisa, gafas redondas, polo azul marino limpio metido en pantalones cortos caqui, calcetines blancos subidos uniformemente. Se acerca a CRUNCHBALL como un gran maestro de ajedrez — una pieza a la vez, deliberado, estratégico. Nunca se ensucia los dedos con polvo de queso sin limpiarlos inmediatamente. Su cara competitiva es aterradoramente calmada.
+
+MARCO — Gemelo B. Salvaje, caótico, todo o nada.
+8 años. Cara idéntica a Max — mismo cabello oscuro ahora erizado en cinco direcciones, sin gafas, camiseta naranja ya cubierta de polvo de queso, un calcetín puesto y otro no. Come CRUNCHBALL como si fuera la última comida en la tierra. No cuenta. No planifica. Se compromete completamente con cada pieza. Su cara competitiva es de alegría desenfrenada.
+
+[Hilo 2] PROMPT DEL CUADRO HEROICO DEL PRODUCTO
+
+Crea un cuadro heroico de producto en estilo de animación CGI de Pixar ultra detallado para CRUNCHBALL, un snack de palomitas de maíz con queso ficticio.
+
+Escena: Acogedora sala de estar cálida, gran sofá beige, luz suave de la tarde, mesa de café de madera baja, TV al fondo.
+
+Max — gemelo ordenado de 8 años, polo azul marino, gafas redondas, cabello con raya lateral — se sienta en el lado izquierdo del sofá perfectamente erguido, sosteniendo una pieza de CRUNCHBALL entre dos dedos limpios con calma estratégica.
+
+Marco — gemelo idéntico, camiseta naranja, cabello caótico, polvo de queso en la mejilla — se sienta en el lado derecho medio cayéndose del sofá, ambas manos sumergiéndose en la bolsa de CRUNCHBALL simultáneamente, cara salvaje de alegría.
+
+Diseño del producto: Bolsa resellable naranja audaz, tipografía 3D blanca gruesa de CRUNCHBALL, mascota de palomitas de maíz flexionando, eslogan "Serious Snacking". Bolsa abierta, bolas de palomitas cubiertas de queso dorado derramándose. Etiqueta completamente legible.
+
+Cámara: Toma amplia de Pixar — ambos gemelos en el sofá con la bolsa entre ellos. Luz cálida de la tarde desde el lado.
+
+Estado de ánimo: La competencia ya ha comenzado. Max gana en técnica. Marco gana en volumen. Ninguno admite que el otro está por delante.
+
+Prompt negativo: estilo realista, paleta oscura, ilustración plana, anime, boceto, CGI no-Pixar, solo un gemelo, etiqueta distorsionada, CRUNCHBALL mal escrito, marca de agua, baja calidad.
+
+[Hilo 3] PROMPT DE STORYBOARD DE 12 PANELES
+
+Crea un storyboard comercial profesional de 12 paneles para un comercial de snack de palomitas de maíz con queso en estilo de animación CGI de Pixar.
+Título: "Serious Snacking."
+Formato: Fondo blanco, cuadrícula de 3x4, paneles 01-12, códigos de tiempo, notas de toma. Calidad de renderizado CGI completa de Pixar — paleta cálida de naranja y amarillo audaz, energía slapstick máxima.
+
+01 CONFIGURACIÓN DEL SOFÁ 0:00 — Sala de estar amplia. Max y Marco en extremos opuestos del sofá. Bolsa de CRUNCHBALL exactamente en el medio. Ambos la miran. TV apagada. Silencio total. Notas: La bolsa es el trofeo.
+
+02 LAS REGLAS 0:01 — Max levanta un dedo explicando las reglas con un pequeño gráfico dibujado a mano. Marco mira sin comprensión. Notas: El gráfico de Max es oro. La expresión en blanco de Marco es el chiste.
+
+03 LAS REGLAS IGNORADAS 0:02 — Marco mete la mano en la bolsa antes de que Max termine de hablar. La boca de Max aún abierta a mitad de frase. Su ojo tiembla. Notas: La expresión de Max cambia de explicar a horror.
+
+04 LA TÉCNICA 0:03 — Max selecciona una pieza perfecta, la examina, la coloca con precisión en su lengua. Ojos cerrados. Satisfacción controlada. Notas: Primer plano extremo. Las gafas reflejan la luz de la sala de estar.
+
+05 LA TÉCNICA OPUESTA 0:04 — Marco inclina toda la bolsa hacia su cara. Las piezas llueven en su boca abierta. Algunas fallan. No le importa. Notas: Corte directo de contraste desde el panel 04.
+
+06 EL MARCADOR 0:06 — Max saca un pequeño marcador de su bolsillo. Marco marca un conteo imaginario en el aire con su dedo cubierto de queso. Notas: Gag recurrente del marcador de Max. El conteo aéreo de queso de Marco es el remate.
+
+07 LA PIEZA VOLADORA 0:07 — Marco lanza una pieza al aire. Rebota en su nariz sobre las gafas de Max. Mancha de queso directamente en el centro de la lente. Notas: La mancha de queso en la lente debe ser claramente visible.
+
+08 LA LIMPIEZA 0:08 — Max se quita las gafas con máxima dignidad. Limpia la lente con el dobladillo del polo. Se las vuelve a poner. Se gira hacia Marco con profundo sufrimiento paciente. Notas: Acción lenta y deliberada para contraste cómico.
+
+09 EL DESEMPATE 0:09 — Ambos meten la mano en la bolsa simultáneamente. Las manos se encuentran dentro. Ambos se congelan. Ojos se fijan. Tensión olímpica. Notas: Mantén este cuadro. La bolsa lo es todo.
+
+10 LA EXPLOSIÓN 0:10 — Ambos tiran. La bolsa explota. Las piezas de CRUNCHBALL erupcionan en un arco dorado naranja — rebotando en la TV, el techo, la mesa de café. Los cojines del sofá vuelan. Notas: El mayor momento visual del comercial.
+
+11 LAS CONSECUENCIAS 0:12 — Palomitas
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065005019787640988.json)
+
+```text
+---
+CRUNCHBALLチーズポップコーンスナックのための15秒のピクサーCGIアニメーションコマーシャル。キャラクター、製品、設定、照明、色のためにヒーローフレームを厳格なビジュアルアンカーとして使用。
+
+スタイル: フルピクサーCGI。暖かいリビングルーム。柔らかな午後の光。大胆なオレンジ、黄金の黄色、暖かいベージュのパレット。最大のスラップスティックタイミング。全体に誇張されたピクサーアニメーション。
+
+キャラクター: マックス — きちんとした8歳の双子、ミディアムブラウンの肌、丸い眼鏡、ネイビーポロシャツをイン、正確に分けられた暗い髪、爆発までチーズダストゼロ。マルコ — 同じ顔、乱れた暗い髪、オレンジのTシャツ、頬にチーズダスト、片方の靴下がない。すべてのショットで同じ顔と衣装。
+
+製品: CRUNCHBALL大胆なオレンジの再封可能な袋、太い白い3Dタイポグラフィー、ポップコーンのマスコットがフレックス、「Serious Snacking」タグライン。黄金のチーズダストがかかったポップコーンボール。すべての製品ショットでラベルが読める。
+
+ショット:
+0:00 — 広いソファ。マックスとマルコが反対の端に。CRUNCHBALLの袋が中央に。両者がそれを見つめる。完全な静寂。
+0:02 — マックスが小さなチャートでルールを説明。マルコが彼が終わる前に手を伸ばす。マックスの目がピクピク。
+0:04 — マックスが一片を正確に舌に置く。目を閉じる。制御された至福。
+0:05 — マルコが袋全体を口に傾ける。ピースが雨のように降る。純粋な喜び。
+0:07 — マルコが一片を空中に投げる。それが彼の鼻に当たってマックスの眼鏡に。レンズにチーズの汚れ。
+0:09 — 両者が同時に袋に手を伸ばす。手が中で出会う。目が合う。オリンピックの対決。
+0:10 — 両者が引っ張る。袋が爆発。黄金のオレンジのポップコーンがリビングルーム全体に噴出。
+0:12 — その後。ポップコーンが至る所に。マックスは前を見つめ、眼鏡にチーズダスト。マルコはソファから食べる。満足。
+0:14 — テーブルの上の破れた袋。両者が最後の一片に手を伸ばす。フリーズ。「CRUNCHBALL. Serious Snacking.」
+
+オーディオ: ポップコーンのカリカリ音、袋のカサカサ音、カートゥーンのボイン音、競争的なブラスマーチが混沌へとエスカレート。
+
+ネガティブプロンプト: フォトリアリスティック、暗いパレット、フラット2D、アニメ、非ピクサーCGI、双子が一人だけ、清潔なマルコ、整ったマルコの髪、爆発前のマックスにチーズダスト、間違った袋のデザイン、屋外の設定、透かし、低品質。
+
+--- THREAD CONTINUATION ---
+[スレッド1] キャラクター
+
+マックス — 双子A。きちんとして計算高く、競争心が強い。
+8歳。きちんと整えられた暗い髪、正確なサイドパート、丸い眼鏡、清潔なネイビーポロシャツをカーキのショーツにイン、白い靴下を均等に引き上げている。CRUNCHBALLにチェスのグランドマスターのようにアプローチする — 一度に一片、慎重で戦略的。指にチーズダストがついたらすぐに拭く。彼の競争的な顔は恐ろしく冷静。
+
+マルコ — 双子B。野性的で混沌としており、全力投球。
+8歳。マックスと同じ顔 — 今や5方向に突き出た暗い髪、眼鏡なし、すでにチーズパウダーで汚れたオレンジのTシャツ、片方の靴下がない。CRUNCHBALLを地球上の最後の食べ物のように食べる。数えない。戦略を立てない。すべての一片に完全にコミットする。彼の競争的な顔は解き放たれた喜び。
+
+[スレッド2] ヒーロープロダクトフレームプロンプト
+
+CRUNCHBALL、架空のチーズポップコーンスナックのための超詳細なピクサーCGIアニメーションスタイルのヒーロープロダクトフレームを作成。
+
+シーン: 暖かく居心地の良いリビングルーム、大きなベージュのソファ、柔らかな午後の光、低い木製のコーヒーテーブル、背景にテレビ。
+
+マックス — きちんとした8歳、ネイビーポロシャツ、丸い眼鏡、サイドパートの髪 — ソファの左側に完璧に直立して座り、戦略的な冷静さで2本の清潔な指の間にCRUNCHBALLの一片を持っている。
+
+マルコ — 同じ顔の双子、オレンジのTシャツ、乱れた髪、頬にチーズダスト — ソファの右側に半分落ちかけて座り、両手で同時にCRUNCHBALLの袋に飛び込む、顔は喜びで野生。
+
+製品デザイン: 大胆なオレンジの再封可能な袋、太い白い3D CRUNCHBALLタイポグラフィー、カートゥーンのフレックスするポップコーンマスコット、「Serious Snacking」タグライン。袋が開いており、黄金のチーズダストがかかったポップコーンボールがこぼれ出している。ラベルは完全に読める。
+
+カメラ: ピクサーのワイドショット — ソファの上の袋を挟んで両方の双子。側面からの暖かい午後の光。
+
+ムード: 競争はすでに始まっている。マックスは技術で勝つ。マルコは量で勝つ。どちらも相手が先に進んでいることを認めない。
+
+ネガティブプロンプト: リアリスティックスタイル、暗いパレット、フラットイラスト、アニメ、スケッチ、非ピクサーCGI、双子が一人だけ、歪んだラベル、CRUNCHBALLのスペルミス、透かし、低品質。
+
+[スレッド3] 12パネルストーリーボードプロンプト
+
+ピクサーCGIアニメーションスタイルのチーズポップコーンスナックコマーシャルのためのプロフェッショナルな12パネルのコマーシャルストーリーボードを作成。
+タイトル: "Serious Snacking."
+フォーマット: 白い背景、3x4グリッド、パネル01-12、タイムコード、ショットノート。フルピクサーCGIレンダー品質 — 大胆な暖かいオレンジと黄色のパレット、最大のスラップスティックエネルギー。
+
+01 ソファのセットアップ 0:00 — 広いリビングルーム。マックスとマルコがソファの反対の端に。CRUNCHBALLの袋が正確に中央に。両者がそれを見つめる。テレビはオフ。完全な静寂。ノート: 袋はトロフィー。
+
+02 ルール 0:01 — マックスが小さな手描きのチャートでルールを説明するために指を一本立てる。マルコは
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065005019787640988.json)
+
+```text
+---
+15초짜리 픽사 CGI 애니메이션 광고, CRUNCHBALL 치즈 팝콘 스낵. 캐릭터, 제품, 배경, 조명, 색상을 위한 엄격한 비주얼 앵커로 히어로 프레임 사용.
+
+스타일: 풀 픽사 CGI. 따뜻한 거실. 부드러운 오후의 빛. 대담한 오렌지, 황금 노랑, 따뜻한 베이지 팔레트. 최대 슬랩스틱 타이밍. 전반적으로 과장된 픽사 애니메이션.
+
+캐릭터: 맥스 — 깔끔한 8세 쌍둥이, 중간 갈색 피부, 둥근 안경, 네이비 폴로 셔츠를 넣어 입음, 정확한 가르마의 짙은 머리, 폭발 전까지 치즈 가루 없음. 마르코 — 동일한 얼굴, 혼란스러운 짙은 머리, 오렌지 티셔츠, 뺨에 치즈 가루, 양말 하나 없음. 모든 샷에서 동일한 얼굴과 의상.
+
+제품: CRUNCHBALL 대담한 오렌지색 재밀봉 가능한 가방, 두꺼운 흰색 3D 타이포그래피, 팝콘 마스코트, "Serious Snacking" 태그라인. 황금 치즈 가루가 묻은 팝콘 볼. 모든 제품 샷에서 라벨이 읽을 수 있음.
+
+샷:
+0:00 — 넓은 소파. 맥스와 마르코가 반대쪽 끝에 앉아 있음. CRUNCHBALL 가방이 가운데. 둘 다 그것을 응시. 완전한 침묵.
+0:02 — 맥스가 작은 차트로 규칙 설명. 마르코가 끝나기 전에 손을 뻗음. 맥스의 눈이 경련.
+0:04 — 맥스가 한 조각을 정확히 혀 위에 올림. 눈을 감음. 통제된 행복.
+0:05 — 마르코가 가방 전체를 입에 기울임. 조각들이 사방으로 쏟아짐. 순수한 기쁨.
+0:07 — 마르코가 공중으로 조각을 던짐. 코에 맞고 맥스의 안경에 튕김. 렌즈에 치즈 얼룩.
+0:09 — 둘 다 동시에 가방에 손을 뻗음. 손이 안에서 만남. 눈이 마주침. 올림픽 대치.
+0:10 — 둘 다 당김. 가방이 폭발. 황금 오렌지 팝콘이 거실 전체에 터짐.
+0:12 — 여파. 팝콘이 사방에. 맥스는 앞으로 응시, 안경에 치즈 가루. 마르코는 소파에서 먹음. 만족.
+0:14 — 테이블 위에 찢어진 가방. 둘 다 마지막 조각을 향해 손을 뻗음. 정지. "CRUNCHBALL. Serious Snacking."
+
+오디오: 팝콘 바삭 소리, 가방 바스락 소리, 만화 보잉 소리, 혼돈으로 치닫는 경쟁적인 브라스 행진곡.
+
+부정적 프롬프트: 포토리얼리스틱, 어두운 팔레트, 평면 2D, 애니메, 비픽사 CGI, 쌍둥이 한 명만, 깨끗한 마르코, 깔끔한 마르코 머리, 폭발 전 치즈 가루가 있는 맥스, 잘못된 가방 디자인, 야외 배경, 워터마크, 저품질.
+
+--- THREAD CONTINUATION ---
+[Thread 1] 캐릭터
+
+맥스 — 쌍둥이 A. 깔끔하고 계산적이며 경쟁적.
+8세. 깔끔하게 빗은 짙은 머리, 정확한 가르마, 둥근 안경, 깨끗한 네이비 폴로 셔츠를 카키 반바지에 넣어 입음, 흰 양말을 고르게 올림. CRUNCHBALL을 체스 그랜드마스터처럼 접근 — 한 번에 한 조각씩, 신중하고 전략적. 손가락에 치즈 가루가 묻으면 즉시 닦음. 그의 경쟁적인 얼굴은 무섭도록 차분함.
+
+마르코 — 쌍둥이 B. 야생적이고 혼란스러우며 전력투구.
+8세. 맥스와 동일한 얼굴 — 이제 다섯 방향으로 뻗친 짙은 머리, 안경 없음, 이미 치즈 가루가 묻은 오렌지 티셔츠, 양말 하나는 신고 하나는 벗음. CRUNCHBALL을 지구상의 마지막 음식처럼 먹음. 세지 않음. 전략화하지 않음. 모든 조각에 완전히 몰입. 그의 경쟁적인 얼굴은 무한한 기쁨.
+
+[Thread 2] 히어로 제품 프레임 프롬프트
+
+CRUNCHBALL, 가상의 치즈 팝콘 스낵을 위한 초상세 픽사 CGI 애니메이션 스타일의 히어로 제품 프레임을 만드세요.
+
+장면: 따뜻하고 아늑한 거실, 큰 베이지 소파, 부드러운 오후의 빛, 낮은 나무 커피 테이블, 배경에 TV.
+
+맥스 — 깔끔한 8세, 네이비 폴로, 둥근 안경, 가르마를 탄 머리 — 소파 왼쪽에 완벽하게 똑바로 앉아, 두 손가락 사이에 CRUNCHBALL 한 조각을 들고 전략적 차분함.
+
+마르코 — 동일한 쌍둥이, 오렌지 티셔츠, 혼란스러운 머리, 뺨에 치즈 가루 — 소파 오른쪽에 반쯤 떨어져 앉아, 두 손으로 동시에 CRUNCHBALL 가방에 손을 넣고, 얼굴에 기쁨이 넘침.
+
+제품 디자인: 대담한 오렌지색 재밀봉 가능한 가방, 두꺼운 흰색 3D CRUNCHBALL 타이포그래피, 만화 팝콘 마스코트, "Serious Snacking" 태그라인. 가방이 열려 있고, 황금 치즈 가루가 묻은 팝콘 볼이 쏟아짐. 라벨이 완전히 읽을 수 있음.
+
+카메라: 픽사 와이드 샷 — 소파에 있는 두 쌍둥이와 그 사이에 있는 가방. 옆에서 비추는 따뜻한 오후의 빛.
+
+분위기: 경쟁이 이미 시작됨. 맥스는 기술로 승리. 마르코는 양으로 승리. 둘 다 상대방이 앞서 있다고 인정하지 않음.
+
+부정적 프롬프트: 현실적인 스타일, 어두운 팔레트, 평면 일러스트레이션, 애니메, 스케치, 비픽사 CGI, 쌍둥이 한 명만, 왜곡된 라벨, 잘못된 CRUNCHBALL 철자, 워터마크, 저품질.
+
+[Thread 3] 12패널 스토리보드 프롬프트
+
+픽사 CGI 애니메이션 스타일의 치즈 팝콘 스낵 광고를 위한 전문적인 12패널 상업 스토리보드를 만드세요.
+제목: "Serious Snacking."
+형식: 흰색 배경, 3x4 그리드, 패널 01-12, 타임코드, 샷 노트. 풀 픽사 CGI 렌더 품질 — 대담한 따뜻한 오렌지와 노랑 팔레트, 최대 슬랩스틱 에너지.
+
+01 소파 설정 0:00 — 넓은 거실. 맥스와 마르코가 소파의 반대쪽 끝에. CRUNCHBALL 가방이 정확히 가운데. 둘 다 그것을 응시. TV 꺼짐. 완전한 침묵. 노트: 가방이 트로피임.
+
+02 규칙 0:01 — 맥스가 손가락 하나를 들어 작은 손그림 차트로 규칙 설명. 마르코는 전혀 이해하지 못한 채 응시. 노트: 맥스의 차트는 금색. 마르코의 멍한 표정이 농담임.
+
+03 무시된 규칙 0:02 — 맥스가 말하는 도중 마르코가 가방에 손을 뻗음. 맥스의 입이 아직 문장 중간에 열려 있음. 그의 눈이 경련. 노트: 맥스의 표정이 설명에서 공포로 변함.
+
+04 기술 0:03 — 맥스가 완벽한 조각을 선택해, 그것을 검사하고, 정확히 혀 위에 올림. 눈을 감음. 통제
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065005019787640988.json)
+
+```text
+---
+Comercial de animação CGI da Pixar de 15 segundos para o lanche de pipoca com queijo CRUNCHBALL. Use o quadro principal como âncora visual estrita para personagens, produto, cenário, iluminação e cor.
+
+ESTILO: CGI completo da Pixar. Sala de estar aconchegante. Luz suave da tarde. Paleta de laranja forte, amarelo dourado e bege quente. Sincronização máxima de comédia pastelão. Animação exagerada da Pixar por toda parte.
+
+PERSONAGENS: Max — gêmeo de 8 anos, pele marrom médio, óculos redondos, polo azul-marinho por dentro da calça, cabelo escuro com risca lateral precisa, sem pó de queijo até a explosão. Marco — rosto idêntico, cabelo escuro caótico, camiseta laranja, pó de queijo na bochecha, uma meia faltando. Mesmos rostos e roupas em cada cena.
+
+PRODUTO: Saco laranja forte CRUNCHBALL com fecho, tipografia 3D branca robusta, mascote de pipoca flexionando, slogan "Serious Snacking". Bolas de pipoca douradas cobertas de queijo. Rótulo legível em cada cena do produto.
+
+CENAS:
+0:00 — Sofá amplo. Max e Marco em extremidades opostas. Saco CRUNCHBALL no meio. Ambos olham fixamente para ele. Silêncio total.
+0:02 — Max explica as regras com um gráfico pequeno. Marco alcança antes que ele termine. O olho de Max treme.
+0:04 — Max coloca uma peça na língua com precisão. Olhos fecham. Êxtase controlado.
+0:05 — Marco inclina o saco inteiro na boca. Peças caem por toda parte. Pura alegria.
+0:07 — Marco joga uma peça no ar. Ela quica no nariz e cai nos óculos de Max. Mancha de queijo na lente.
+0:09 — Ambos alcançam o saco simultaneamente. Mãos se encontram dentro. Olhos se fixam. Confronto olímpico.
+0:10 — Ambos puxam. Saco explode. Pipoca dourada laranja se espalha por toda a sala de estar.
+0:12 — Consequências. Pipoca por toda parte. Max olha para frente, pó de queijo nos óculos. Marco come do sofá. Contente.
+0:14 — Saco rasgado na mesa. Ambos alcançam a última peça. Congela. "CRUNCHBALL. Serious Snacking."
+
+ÁUDIO: Crocante de pipoca, som de saco, boing de desenho animado, marcha de metais competitiva escalando para o caos.
+
+PROMPT NEGATIVO: fotorrealista, paleta escura, 2D plano, anime, CGI não-Pixar, apenas um gêmeo, Marco limpo, cabelo de Marco arrumado, Max com pó de queijo antes da explosão, design de saco errado, cenário ao ar livre, marca d'água, baixa qualidade.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] PERSONAGENS
+
+MAX — Gêmeo A. Organizado, calculista, competitivo.
+8 anos. Cabelo escuro bem penteado, risca lateral precisa, óculos redondos, polo azul-marinho limpo por dentro de shorts cáqui, meias brancas puxadas uniformemente. Aborda o CRUNCHBALL como um mestre de xadrez — uma peça de cada vez, deliberado, estratégico. Nunca fica com pó de queijo nos dedos sem limpar imediatamente. Seu rosto competitivo é assustadoramente calmo.
+
+MARCO — Gêmeo B. Selvagem, caótico, tudo ou nada.
+8 anos. Rosto idêntico ao de Max — mesmo cabelo escuro agora espetado em cinco direções, sem óculos, camiseta laranja já coberta de pó de queijo, uma meia calçada e outra não. Come CRUNCHBALL como se fosse a última comida na Terra. Não conta. Não faz estratégia. Compromete-se totalmente com cada peça. Seu rosto competitivo é de alegria desenfreada.
+
+[Tópico 2] PROMPT DO QUADRO PRINCIPAL DO PRODUTO
+
+Crie um quadro principal de produto em estilo de animação CGI da Pixar ultra-detalhado para CRUNCHBALL, um lanche de pipoca com queijo fictício.
+
+Cena: Sala de estar aconchegante e quente, grande sofá bege, luz suave da tarde, mesa de centro de madeira baixa, TV ao fundo.
+
+Max — gêmeo de 8 anos, polo azul-marinho, óculos redondos, cabelo com risca lateral — sentado no lado esquerdo do sofá perfeitamente ereto, segurando uma peça de CRUNCHBALL entre dois dedos limpos com calma estratégica.
+
+Marco — gêmeo idêntico, camiseta laranja, cabelo caótico, pó de queijo na bochecha — sentado no lado direito quase caindo do sofá, ambas as mãos mergulhando no saco de CRUNCHBALL simultaneamente, rosto selvagem de alegria.
+
+Design do produto: Saco laranja forte com fecho, tipografia 3D branca robusta CRUNCHBALL, mascote de pipoca flexionando, slogan "Serious Snacking". Saco aberto, bolas de pipoca douradas cobertas de queijo caindo. Rótulo totalmente legível.
+
+Câmera: Plano geral da Pixar — ambos os gêmeos no sofá com o saco entre eles. Luz suave da tarde vinda do lado.
+
+Humor: Competição já começou. Max vence na técnica. Marco vence no volume. Nenhum admite que o outro está na frente.
+
+Prompt negativo: estilo realista, paleta escura, ilustração plana, anime, esboço, CGI não-Pixar, apenas um gêmeo, rótulo distorcido, CRUNCHBALL com erro de ortografia, marca d'água, baixa qualidade.
+
+[Tópico 3] PROMPT DE STORYBOARD DE 12 PAINÉIS
+
+Crie um storyboard comercial profissional de 12 painéis para um comercial de lanche de pipoca com queijo em estilo de animação CGI da Pixar.
+Título: "Serious Snacking."
+Formato: Fundo branco, grade 3x4, painéis 01-12, cronômetros, notas de cena. Qualidade de renderização CGI completa da Pixar — paleta de laranja e amarelo quente, energia máxima de comédia pastelão.
+
+01 A CONFIGURAÇÃO DO SOFÁ 0:00 — Sala de estar ampla. Max e Marco em extremidades opostas do sofá. Saco CRUNCHBALL exatamente no meio. Ambos olham fixamente para ele. TV desligada. Silêncio total. Notas: O saco é o troféu.
+
+02 AS REGRAS 0:01 — Max levanta um dedo explicando as regras com um gráfico pequeno desenhado à mão. Marco olha com zero compreensão. Notas: O gráfico de Max é ouro. A expressão vazia de Marco é a piada.
+
+03 AS REGRAS IGNORADAS 0:02 — Marco alcança o saco antes que Max termine de falar. A boca de Max ainda aberta no meio da frase. Seu olho treme. Notas: A expressão de Max muda de explicação para horror.
+
+04 A TÉCNICA 0:03 — Max seleciona uma peça perfeita, examina-a, coloca-a precisamente na língua. Olhos fecham. Satisfação controlada. Notas: Close extremo. Óculos refletem a luz da sala de estar.
+
+05 A TÉCNICA OPOSTA 0:04 — Marco inclina o saco inteiro em direção ao rosto. Peças caem em sua boca aberta. Algumas erram. Ele não se importa. Notas: Corte direto de contraste do painel 04.
+
+06 O PLACAR 0:06 — Max tira um pequeno placar do bolso. Marco marca uma contagem imaginária no ar com o dedo coberto de queijo. Notas: Gag recorrente do placar de Max. A contagem aérea de Marco é a punchline.
+
+07 A PEÇA VOADORA 0:07 — Marco joga uma peça no ar. Ela quica no nariz e cai nos óculos de Max. Mancha de queijo diretamente no centro da lente. Notas: Mancha de queijo na lente deve ser claramente visível.
+
+08 A LIMPEZA 0:08 — Max remove os óculos com máxima dignidade. Limpa a lente com a barra do polo. Coloca-os de volta. Vira-se para Marco com sofrimento paciente profundo. Notas: Ação lenta e deliberada para contraste cômico.
+
+09 O DESEMPATE 0:09 — Ambos alcançam o saco simultaneamente. Mãos se encontram dentro. Ambos congelam. Olhos se fixam. Tensão olímpica. Notas: Mantenha este quadro. O saco é tudo.
+
+10 A EXPLOSÃO 0:10 — Ambos puxam. Saco explode. Peças de CRUNCHBALL irrompem em um arco dourado laranja — quicando na TV, teto, mesa de centro. Almofadas do sofá voam. Notas: O maior momento visual do comercial.
+
+11 AS CONSEQUÊNCIAS 0:12 — Pipoca por toda parte. Max tem pó de queijo nos óculos e no cabelo anteriormente perfeito — uma peça presa nele. Olha para frente. Marco come da almofada do sofá. Completamente contente. Notas: O
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065005019787640988.json)
+
+```text
+---
+15秒的皮克斯CGI动画广告，宣传CRUNCHBALL奶酪爆米花零食。使用英雄画面作为角色、产品、场景、灯光和色彩的严格视觉锚点。
+
+风格：全皮克斯CGI。温暖的客厅。柔和的午后光线。大胆的橙色、金黄色、温暖的米色调色板。最大化的滑稽时机。整个动画中夸张的皮克斯风格。
+
+角色：Max——整洁的8岁双胞胎，棕色中等肤色，圆眼镜，藏青色Polo衫扎进裤子，精确的侧分黑发，直到爆炸前没有奶酪粉。Marco——相同的面孔，凌乱的黑发，橙色T恤，脸颊上有奶酪粉，少了一只袜子。每个镜头中的面孔和服装都相同。
+
+产品：CRUNCHBALL大胆的橙色可重新密封袋，粗大的白色3D字体，弹性爆米花吉祥物，“严肃零食”标语。金黄色奶酪粉爆米花球。每个产品镜头中标签可读。
+
+镜头：
+0:00 — 宽大的沙发。Max和Marco坐在两端。CRUNCHBALL袋子在中间。两人盯着它。完全安静。
+0:02 — Max用一个小图表解释规则。Marco在他讲完之前就伸手进去。Max的眼睛抽动。
+0:04 — Max精确地将一块放在舌头上。闭上眼睛。控制的幸福。
+0:05 — Marco将整个袋子倾斜到嘴里。爆米花四处飞溅。纯粹的快乐。
+0:07 — Marco将一块抛向空中。它弹到他的鼻子上，再到Max的眼镜上。镜片上有奶酪污迹。
+0:09 — 两人同时伸手进袋子。手在里面相遇。眼神锁定。奥林匹克对峙。
+0:10 — 两人拉扯。袋子爆炸。金黄色爆米花在整个客厅中喷发。
+0:12 — 事后。爆米花到处都是。Max盯着前方，眼镜上有奶酪粉。Marco在沙发上吃。满足。
+0:14 — 桌上的破袋子。两人伸手去拿最后一块。定格。“CRUNCHBALL。严肃零食。”
+
+音效：爆米花咀嚼声，袋子沙沙声，卡通弹跳声，竞争性铜管乐进行曲升级到混乱。
+
+负面提示：写实风格，深色调，平面2D，动漫，非皮克斯CGI，只有一个双胞胎，干净的Marco，整洁的Marco头发，Max在爆炸前有奶酪粉，错误的袋子设计，户外场景，水印，低质量。
+
+--- 线程继续 ---
+[线程1] 角色
+
+MAX — 双胞胎A。整洁，精确，具有竞争性。
+8岁。整齐梳理的黑发，精确的侧分，圆眼镜，干净的藏青色Polo衫扎进卡其色短裤，白袜子均匀拉起。像国际象棋大师一样对待CRUNCHBALL——一次一块，深思熟虑，战略性。永远不会在手指上沾上奶酪粉而不立即擦掉。他的竞争脸可怕地冷静。
+
+MARCO — 双胞胎B。狂野，混乱，全力以赴。
+8岁。与Max相同的面孔——相同的黑发现在向五个方向竖起，没有眼镜，橙色T恤上已经沾满奶酪粉，一只袜子穿着一只袜子没穿。吃CRUNCHBALL就像是地球上最后的食物。不计数。不策略。完全投入到每一块。他的竞争脸是疯狂的快乐。
+
+[线程2] 英雄产品画面提示
+
+创建一个超详细的皮克斯CGI动画风格的CRUNCHBALL英雄产品画面，这是一种虚构的奶酪爆米花零食。
+
+场景：温暖舒适的客厅，大米色沙发，柔和的午后光线，低矮的木质咖啡桌，背景中的电视。
+
+Max——整洁的8岁孩子，藏青色Polo衫，圆眼镜，侧分头发——坐在沙发左侧，完美地坐直，用战略性的冷静用两根干净的手指捏着一块CRUNCHBALL。
+
+Marco——相同的双胞胎，橙色T恤，凌乱的头发，脸颊上有奶酪粉——坐在右侧，半掉下沙发，双手同时伸进CRUNCHBALL袋，脸上洋溢着狂喜。
+
+产品设计：大胆的橙色可重新密封袋，粗大的白色3D CRUNCHBALL字体，卡通弹性爆米花吉祥物，“严肃零食”标语。袋子打开，金黄色奶酪粉爆米花球溢出。标签完全可读。
+
+镜头：皮克斯广角镜头——沙发上的双胞胎和中间的袋子。侧面的温暖午后光线。
+
+情绪：竞争已经开始。Max在技术上获胜。Marco在数量上获胜。两人都不承认对方领先。
+
+负面提示：写实风格，深色调，平面插图，动漫，素描，非皮克斯CGI，只有一个双胞胎，标签扭曲，CRUNCHBALL拼写错误，水印，低质量。
+
+[线程3] 12格故事板提示
+
+为皮克斯CGI动画风格的奶酪爆米花零食广告创建一个专业的12格商业故事板。
+标题：“严肃零食。”
+格式：白色背景，3x4网格，面板01-12，时间码，镜头说明。全皮克斯CGI渲染质量——大胆温暖的橙色和黄色调色板，最大化滑稽能量。
+
+01 沙发设置 0:00 — 宽大的客厅。Max和Marco坐在沙发的两端。CRUNCHBALL袋子正好在中间。两人盯着它。电视关着。完全安静。说明：袋子是奖杯。
+
+02 规则 0:01 — Max举起一根手指，用一个小手绘图表解释规则。Marco盯着看，完全不理解。说明：Max的图表是金色的。Marco的空白表情是笑点。
+
+03 被忽视的规则 0:02 — Marco在Max说完之前就伸手进袋子。Max的嘴还在半开着。眼睛抽动。说明：Max的表情从解释到恐怖的循环。
+
+04 技巧 0:03 — Max选择一块完美的，仔细检查后，精确地放在舌头上。闭上眼睛。控制的满足。说明：特写镜头。眼镜反射客厅的光线。
+
+05 相反的技巧 0:04 — Marco将整个袋子倾斜向脸。爆米花雨落入他张开的嘴里。有些没进。他不在乎。说明：直接对比切换自面板04。
+
+06 记分板 0:06 — Max从口袋里拿出一个小记分板。Marco用沾满奶酪粉的手指在空气中做出一个虚拟的记号。说明：Max的记分板是一个持续的笑点。Marco的奶酪空气记号是笑点。
+
+07 飞行的爆米花 0:07 — Marco将一块抛向空中。它弹到他的鼻子上，再到Max的眼镜上。奶酪污迹直接在镜片中心。说明：镜片上的奶酪污迹必须清晰可见。
+
+08 清理 0:08 — Max以最大的尊严摘下眼镜。用Polo衫下摆擦拭镜片。重新戴上。转向Marco，表现出深刻的耐心和痛苦。说明：慢动作的故意动作以对比喜剧效果。
+
+09 决胜局 0:09 — 两人同时伸手进袋子。手在里面相遇。两人冻结。眼神锁定。奥林匹克紧张感。说明：保持这个画面。袋子是所有。
+
+10 爆炸 0:10 — 两人拉扯。袋子爆炸。CRUNCHBALL爆米花在金黄色的弧线上喷发——弹
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065005019787640988.json)
+
+```text
+---
+Publicité d'animation CGI Pixar de 15 secondes pour le snack de popcorn au fromage CRUNCHBALL. Utiliser le cadre héroïque comme ancre visuelle stricte pour les personnages, le produit, le décor, l'éclairage et la couleur.
+
+STYLE : CGI Pixar complet. Salon chaleureux. Lumière douce de l'après-midi. Palette audacieuse d'orange, jaune doré, beige chaud. Timing slapstick maximal. Animation Pixar exagérée tout au long.
+
+PERSONNAGES : Max — jumeau de 8 ans, peau brune moyenne, lunettes rondes, polo bleu marine rentré, cheveux foncés soigneusement coiffés sur le côté, aucune poussière de fromage jusqu'à l'explosion. Marco — visage identique, cheveux foncés chaotiques, t-shirt orange, poussière de fromage sur la joue, une chaussette manquante. Mêmes visages et tenues dans chaque plan.
+
+PRODUIT : Sac refermable CRUNCHBALL orange vif, typographie 3D blanche en gras, mascotte de popcorn musclé, slogan "Serious Snacking". Boules de popcorn dorées couvertes de fromage. Étiquette lisible dans chaque plan produit.
+
+PLANS :
+0:00 — Canapé large. Max et Marco aux extrémités opposées. Sac CRUNCHBALL au milieu. Les deux le fixent. Silence complet.
+0:02 — Max explique les règles avec un petit schéma. Marco plonge la main avant qu'il ne termine. L'œil de Max tressaute.
+0:04 — Max place un morceau sur sa langue avec précision. Yeux fermés. Béatitude contrôlée.
+0:05 — Marco incline tout le sac dans sa bouche. Les morceaux pleuvent partout. Joie pure.
+0:07 — Marco lance un morceau en l'air. Il rebondit sur son nez et atterrit sur les lunettes de Max. Trace de fromage sur le verre.
+0:09 — Les deux plongent la main dans le sac simultanément. Les mains se rencontrent à l'intérieur. Les yeux se verrouillent. Duel olympique.
+0:10 — Les deux tirent. Le sac explose. Le popcorn orange doré éclate dans tout le salon.
+0:12 — Conséquences. Popcorn partout. Max regarde droit devant, poussière de fromage sur les lunettes. Marco mange sur le canapé. Content.
+0:14 — Sac déchiré sur la table. Les deux tendent la main pour le dernier morceau. Gel. "CRUNCHBALL. Serious Snacking."
+
+AUDIO : Croquant de popcorn, froissement de sac, boing de dessin animé, marche de cuivres compétitive s'intensifiant vers le chaos.
+
+PROMPT NÉGATIF : photoréaliste, palette sombre, 2D plate, anime, CGI non-Pixar, un seul jumeau, Marco propre, cheveux de Marco soignés, Max avec poussière de fromage avant l'explosion, mauvais design de sac, décor extérieur, filigrane, basse qualité.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] PERSONNAGES
+
+MAX — Jumeau A. Soigné, calculateur, compétitif.
+8 ans. Cheveux foncés soigneusement peignés, raie précise, lunettes rondes, polo bleu marine propre rentré dans un short kaki, chaussettes blanches tirées uniformément. Approche CRUNCHBALL comme un grand maître d'échecs — un morceau à la fois, délibéré, stratégique. Ne se salit jamais les doigts de poussière de fromage sans essuyer immédiatement. Son visage compétitif est terriblement calme.
+
+MARCO — Jumeau B. Sauvage, chaotique, à fond.
+8 ans. Visage identique à Max — mêmes cheveux foncés maintenant ébouriffés dans cinq directions, pas de lunettes, t-shirt orange déjà couvert de poudre de fromage, une chaussette sur une chaussette en moins. Mange CRUNCHBALL comme si c'était la dernière nourriture sur terre. Ne compte pas. Ne stratège pas. S'engage entièrement dans chaque morceau. Son visage compétitif est une joie débridée.
+
+[Fil 2] PROMPT DU CADRE HÉROÏQUE DU PRODUIT
+
+Créer un cadre de produit héroïque en style d'animation CGI Pixar ultra-détaillé pour CRUNCHBALL, un snack de popcorn au fromage fictif.
+
+Scène : Salon chaleureux et confortable, grand canapé beige, lumière douce de l'après-midi, table basse en bois, TV en arrière-plan.
+
+Max — jumeau soigné de 8 ans, polo bleu marine, lunettes rondes, cheveux coiffés sur le côté — est assis sur le côté gauche du canapé parfaitement droit, tenant un morceau de CRUNCHBALL entre deux doigts propres avec un calme stratégique.
+
+Marco — jumeau identique, t-shirt orange, cheveux chaotiques, poussière de fromage sur la joue — est assis à droite, à moitié tombé du canapé, les deux mains plongeant simultanément dans le sac CRUNCHBALL, visage sauvage de joie.
+
+Design du produit : Sac refermable orange vif, typographie 3D CRUNCHBALL blanche en gras, mascotte de popcorn musclé de dessin animé, slogan "Serious Snacking". Sac ouvert, boules de popcorn dorées couvertes de fromage débordant. Étiquette entièrement lisible.
+
+Caméra : Plan large Pixar — les deux jumeaux sur le canapé avec le sac entre eux. Lumière douce de l'après-midi de côté.
+
+Ambiance : La compétition a déjà commencé. Max gagne sur la technique. Marco gagne sur le volume. Aucun n'admet que l'autre est en avance.
+
+Prompt négatif : style réaliste, palette sombre, illustration plate, anime, croquis, CGI non-Pixar, un seul jumeau, étiquette déformée, CRUNCHBALL mal orthographié, filigrane, basse qualité.
+
+[Fil 3] PROMPT DE STORYBOARD EN 12 PANNEAUX
+
+Créer un storyboard commercial professionnel en 12 panneaux pour une publicité de snack de popcorn au fromage en style d'animation CGI Pixar.
+Titre : "Serious Snacking."
+Format : Fond blanc, grille 3x4, panneaux 01-12, codes temporels, notes de prise de vue. Qualité de rendu CGI Pixar complète — palette audacieuse d'orange et jaune chaud, énergie slapstick maximale.
+
+01 INSTALLATION DU CANAPÉ 0:00 — Salon large. Max et Marco aux extrémités opposées du canapé. Sac CRUNCHBALL exactement au milieu. Les deux le fixent. TV éteinte. Silence total. Notes : Le sac est le trophée.
+
+02 LES RÈGLES 0:01 — Max lève un doigt en expliquant les règles avec un petit schéma dessiné à la main. Marco regarde sans aucune compréhension. Notes : Le schéma de Max est en or. L'expression vide de Marco est la blague.
+
+03 LES RÈGLES IGNORÉES 0:02 — Marco plonge la main dans le sac avant que Max ne termine de parler. La bouche de Max encore ouverte en pleine phrase. Son œil tressaute. Notes : L'expression de Max passe de l'explication à l'horreur.
+
+04 LA TECHNIQUE 0:03 — Max sélectionne un morceau parfait, l'examine, le place précisément sur sa langue. Yeux fermés. Satisfaction contrôlée. Notes : Gros plan extrême. Les lunettes reflètent la lumière du salon.
+
+05 LA TECHNIQUE OPPOSÉE 0:04 — Marco incline tout le sac vers son visage. Les morceaux pleuvent dans sa bouche ouverte. Certains manquent. Il s'en moque. Notes : Coupe directe en contraste avec le panneau 04.
+
+06 LE TABLEAU DE SCORE 0:06 — Max sort un petit tableau de score de sa poche. Marco marque un score imaginaire dans l'air avec son doigt couvert de fromage. Notes : Gag récurrent du tableau de score de Max. Le score aérien fromagé de Marco est la punchline.
+
+07 LE MORCEAU VOLANT 0:07 — Marco lance un morceau en l'air. Il rebondit sur son nez et atterrit sur les lunettes de Max. Trace de fromage directement sur le centre du verre. Notes : La trace de fromage sur le verre doit être clairement visible.
+
+08 LE NETTOYAGE 0:08 — Max enlève ses lunettes avec une dignité maximale. Nettoie le verre avec l'ourlet de son polo. Les remet. Se tourne vers Marco avec une profonde souffrance patiente. Notes : Action lente et délibérée pour un contraste comique.
+
+09 LE DÉPARTAGE 0:09 — Les deux plongent la main dans le sac simultanément. Les mains se rencontrent à l'intérieur. Les deux se figent. Les yeux se verrouillent. Tension olympique. Notes : Maintenir ce cadre. Le sac est tout.
+
+10 L'EXPLOSION 0:10 — Les deux tirent. Le sac explose. Les morceaux de CRUNCHBALL éclatent en une arche orange dorée — rebondissant sur la TV, le plafond, la table basse. Les coussins du canapé volent. Notes : Le plus grand moment visuel de la publicité.
+
+11 LES CONSÉQUENCES 0:12 — Popcorn partout. Max a de la poussière de fromage sur les lunettes et les cheveux auparavant parfaits — un morceau coincé dedans.
+```
+
+## 出处与许可
+
+- 原作者：[Gilbert Odera | Your AI Plug🇰🇪](https://x.com/yourPlugAI) · 原帖：<https://x.com/yourPlugAI/status/2065005019787640988>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2065005019787640988.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

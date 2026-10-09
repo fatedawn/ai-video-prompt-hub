@@ -1,0 +1,322 @@
+---
+id: "renoise-2061348523359289439"
+title: "Use @[Storyboard] as the storyboard structure reference. Use @[Charactersheet]…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "现实向"
+genre: "运动"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Sports", "Extreme", "Photoreal", "Realistic World", "Macro", "Slow-Mo"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2061348523359289439.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "BMX"
+original_author_url: "https://x.com/bmx_ai13"
+original_post_url: "https://x.com/bmx_ai13/status/2061348523359289439"
+published: "2026-06-01"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Use @[Storyboard] as the storyboard structure reference. Use @[Charactersheet]…
+
+## 提示词（English）
+
+```text
+Use @[Storyboard] as the storyboard structure reference. Use @[Charactersheet] as the identity, face, hair, wardrobe, and body consistency reference. Use the uploaded gym close-up reference image as the visual mood reference if available.
+
+Task: Create a 15-second cinematic realistic sports commercial / performance drama titled “ONE MORE.” The scene follows one female athlete inside an industrial gym, pushing through exhaustion into controlled determination. Keep the video grounded, premium, intense, and empowering.
+
+Character continuity: Maintain the exact same young female athlete from @[Charactersheet] medium-brown skin tone, oval/slightly long face, dark curly hair tied up in an athletic high puff, lean toned body, small stud earrings, light beige/off-white fitted athletic top, realistic sweat, focused eyes, disciplined expression. No face change, no hairstyle change, no wardrobe change.
+
+Visual style: Cinematic realistic, premium sports-commercial look, warm industrial gym lighting, moody shadows, shallow depth of field, realistic sweat texture, natural skin detail, warm wood and dark metal environment, soft contrast, grounded athletic realism.
+
+Story flow / shot progression: 0.0–1.5 sec: Extreme close-up of sweat moving down her neck and collarbone. Heavy breath. 1.5–3.0 sec: Close-up of her eyes, locked in focus, slow controlled inhale. 3.0–4.5 sec: Detail shot of her hand gripping a black metal water bottle tighter. 4.5–6.0 sec: Medium close-up as she pushes through fatigue and whispers, “One more.” 6.0–7.5 sec: Medium-wide low-angle shot as she slams heavy battle ropes with power. 7.5–9.0 sec: Low-angle close-up of her shoes planting firmly on the gym floor. 9.0–10.5 sec: Profile close-up, head lowered, sweat dripping, breath intense. 10.5–12.0 sec: Medium slow push-in as she rises, shoulders squared, control returning. 12.0–13.5 sec: Wide backlit shot as she walks forward through warm window light. 13.5–15.0 sec: Final close-up of her face, calm and determined, breath slows, eyes steady.
+
+Camera: Use macro close-ups, shallow depth of field, slow push-ins, subtle handheld realism, low-angle power framing, warm backlight, and smooth cinematic cuts. Do not feel like a montage of unrelated shots; make it one continuous emotional progression.
+
+Motion: Natural athletic movement only. Realistic breathing, sweat, rope motion, hand grip, foot pressure, shoulder rise, and calm recovery. Keep physics believable.
+
+Dialogue: One short spoken line only: “One more.” No subtitles. No additional dialogue.
+
+Sound: Heavy breathing, gym room tone, subtle heartbeat-like pulse, bottle grip squeak, rope impact, shoe friction, restrained cinematic bass swell, final breath fade. No loud generic epic music.
+
+Negative instructions: Do not show storyboard grid, panel borders, numbers, captions, arrows, labels, or poster layout from the storyboard reference. No text on screen. No subtitles. No watermark. No logos. No extra characters. No random wardrobe change. No face change. No hairstyle change. No glamour makeup. No cartoon/anime style. No over-stylization. No abrupt style change. No unrealistic body proportions. No unrelated gym objects dominating the frame.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2061348523359289439.json)
+
+```text
+---
+Usa @[Storyboard] como referencia de la estructura del guion gráfico. Usa @[Charactersheet] como referencia para la identidad, rostro, cabello, vestuario y consistencia corporal. Usa la imagen de referencia de primer plano del gimnasio cargada como referencia del ambiente visual si está disponible.
+
+Tarea: Crea un comercial deportivo / drama de rendimiento cinematográfico realista de 15 segundos titulado “ONE MORE”. La escena sigue a una atleta femenina dentro de un gimnasio industrial, superando el agotamiento con determinación controlada. Mantén el video fundamentado, premium, intenso y empoderador.
+
+Continuidad del personaje: Mantén exactamente a la misma joven atleta del @[Charactersheet] con tono de piel marrón medio, rostro ovalado/ligeramente alargado, cabello rizado oscuro recogido en un moño alto atlético, cuerpo delgado y tonificado, pequeños pendientes de perno, top atlético ajustado de color beige claro/blanco roto, sudor realista, ojos enfocados, expresión disciplinada. Sin cambios de rostro, sin cambios de peinado, sin cambios de vestuario.
+
+Estilo visual: Cinematográfico realista, aspecto premium de comercial deportivo, iluminación cálida de gimnasio industrial, sombras dramáticas, poca profundidad de campo, textura de sudor realista, detalle natural de la piel, entorno de madera cálida y metal oscuro, contraste suave, realismo atlético fundamentado.
+
+Flujo de la historia / progresión de tomas: 0.0–1.5 seg: Primerísimo plano del sudor bajando por su cuello y clavícula. Respiración pesada. 1.5–3.0 seg: Primer plano de sus ojos, enfocados, inhalación lenta y controlada. 3.0–4.5 seg: Toma de detalle de su mano apretando más fuerte una botella de agua de metal negro. 4.5–6.0 seg: Plano medio mientras supera la fatiga y susurra, “One more.” 6.0–7.5 seg: Toma media amplia en ángulo bajo mientras golpea con fuerza las cuerdas de batalla. 7.5–9.0 seg: Primer plano en ángulo bajo de sus zapatos plantándose firmemente en el suelo del gimnasio. 9.0–10.5 seg: Primer plano de perfil, cabeza baja, sudor goteando, respiración intensa. 10.5–12.0 seg: Empuje lento medio mientras se levanta, hombros cuadrados, control regresando. 12.0–13.5 seg: Toma amplia a contraluz mientras camina hacia adelante a través de la cálida luz de la ventana. 13.5–15.0 seg: Primer plano final de su rostro, calmado y decidido, la respiración se ralentiza, ojos firmes.
+
+Cámara: Usa primeros planos macro, poca profundidad de campo, empujes lentos, realismo sutil de cámara en mano, encuadre de poder en ángulo bajo, contraluz cálido y cortes cinematográficos suaves. No debe sentirse como un montaje de tomas no relacionadas; hazlo una progresión emocional continua.
+
+Movimiento: Solo movimiento atlético natural. Respiración realista, sudor, movimiento de cuerdas, agarre de mano, presión del pie, elevación de hombros y recuperación calmada. Mantén la física creíble.
+
+Diálogo: Solo una línea corta hablada: “One more.” Sin subtítulos. Sin diálogo adicional.
+
+Sonido: Respiración pesada, tono de sala de gimnasio, pulso sutil como latido del corazón, chirrido del agarre de la botella, impacto de cuerdas, fricción de zapatos, hinchazón de bajo cinematográfico contenido, desvanecimiento final de la respiración. Sin música épica genérica y ruidosa.
+
+Instrucciones negativas: No mostrar cuadrícula de guion gráfico, bordes de paneles, números, subtítulos, flechas, etiquetas o diseño de póster del guion gráfico de referencia. Sin texto en pantalla. Sin subtítulos. Sin marca de agua. Sin logotipos. Sin personajes adicionales. Sin cambio aleatorio de vestuario. Sin cambio de rostro. Sin cambio de peinado. Sin maquillaje glamuroso. Sin estilo de caricatura/anime. Sin sobreestilización. Sin cambio abrupto de estilo. Sin proporciones corporales irreales. Sin objetos de gimnasio no relacionados dominando el encuadre.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Guion gráfico + Prompt de Seedance 2.0 de Personaje:
+Usa @[Storyboard] como referencia de la estructura del guion gráfico. Usa @[Charactersheet] como referencia para la identidad, rostro, cabello, vestuario y consistencia corporal. Usa la imagen de referencia de primer plano del gimnasio cargada como referencia del ambiente visual si está disponible.
+
+Tarea: Crea un comercial deportivo / drama de rendimiento cinematográfico realista de 15 segundos titulado “ONE MORE”. La escena sigue a una atleta femenina dentro de un gimnasio industrial, superando el agotamiento con determinación controlada. Mantén el video fundamentado, premium, intenso y empoderador.
+
+Continuidad del personaje: Mantén exactamente a la misma joven atleta del @[Charactersheet] con tono de piel marrón medio, rostro ovalado/ligeramente alargado, cabello rizado oscuro recogido en un moño alto atlético, cuerpo delgado y tonificado, pequeños pendientes de perno, top atlético ajustado de color beige claro/blanco roto, sudor realista, ojos enfocados, expresión disciplinada. Sin cambios de rostro, sin cambios de peinado, sin cambios de vestuario.
+
+Estilo visual: Cinematográfico realista, aspecto premium de comercial deportivo, iluminación cálida de gimnasio industrial, sombras dramáticas, poca profundidad de campo, textura de sudor realista, detalle natural de la piel, entorno de madera cálida y metal oscuro, contraste suave, realismo atlético fundamentado.
+
+Flujo de la historia / progresión de tomas: 0.0–1.5 seg: Primerísimo plano del sudor bajando por su cuello y clavícula. Respiración pesada. 1.5–3.0 seg: Primer plano de sus ojos, enfocados, inhalación lenta y controlada. 3.0–4.5 seg: Toma de detalle de su mano apretando más fuerte una botella de agua de metal negro. 4.5–6.0 seg: Plano medio mientras supera la fatiga y susurra, “One more.” 6.0–7.5 seg: Toma media amplia en ángulo bajo mientras golpea con fuerza las cuerdas de batalla. 7.5–9.0 seg: Primer plano en ángulo bajo de sus zapatos plantándose firmemente en el suelo del gimnasio. 9.0–10.5 seg: Primer plano de perfil, cabeza baja, sudor goteando, respiración intensa. 10.5–12.0 seg: Empuje lento medio mientras se levanta, hombros cuadrados, control regresando. 12.0–13.5 seg: Toma amplia a contraluz mientras camina hacia adelante a través de la cálida luz de la ventana. 13.5–15.0 seg: Primer plano final de su rostro, calmado y decidido, la respiración se ralentiza, ojos firmes.
+
+Cámara: Usa primeros planos macro, poca profundidad de campo, empujes lentos, realismo sutil de cámara en mano, encuadre de poder en ángulo bajo, contraluz cálido y cortes cinematográficos suaves. No debe sentirse como un montaje de tomas no relacionadas; hazlo una progresión emocional continua.
+
+Movimiento: Solo movimiento atlético natural. Respiración realista, sudor, movimiento de cuerdas, agarre de mano, presión del pie, elevación de hombros y recuperación calmada. Mantén la física creíble.
+
+Diálogo: Solo una línea corta hablada: “One more.” Sin subtítulos. Sin diálogo adicional.
+
+Sonido: Respiración pesada, tono de sala de gimnasio, pulso sutil como latido del corazón, chirrido del agarre de la botella, impacto de cuerdas, fricción de zapatos, hinchazón de bajo cinematográfico contenido, desvanecimiento final de la respiración. Sin música épica genérica y ruidosa.
+
+Instrucciones negativas: No mostrar cuadrícula de guion gráfico, bordes de paneles, números, subtítulos, flechas, etiquetas o diseño de póster del guion gráfico de referencia. Sin texto en pantalla. Sin subtítulos. Sin marca de agua. Sin logotipos. Sin personajes adicionales. Sin cambio aleatorio de vestuario. Sin cambio de rostro. Sin cambio de peinado. Sin maquillaje glamuroso. Sin estilo de caricatura/anime. Sin sobreestilización. Sin cambio abrupto de estilo. Sin proporciones corporales irreales. Sin objetos de gimnasio no relacionados dominando el encuadre.
+
+[Hilo 2] https://t.co/lOqKYXBISC
+---
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2061348523359289439.json)
+
+```text
+Utilisez @[Storyboard] comme référence de structure de storyboard. Utilisez @[Charactersheet] comme référence pour l'identité, le visage, les cheveux, la garde-robe et la cohérence du corps. Utilisez l'image de référence en gros plan de la salle de sport téléchargée comme référence d'ambiance visuelle si disponible.
+
+Tâche : Créez une publicité sportive réaliste cinématographique de 15 secondes / drame de performance intitulée "ONE MORE". La scène suit une athlète féminine dans une salle de sport industrielle, poussant à travers l'épuisement vers une détermination contrôlée. Gardez la vidéo ancrée, premium, intense et valorisante.
+
+Continuité du personnage : Maintenez exactement la même jeune athlète féminine de @[Charactersheet] avec un teint brun moyen, un visage ovale/légèrement long, des cheveux bouclés foncés attachés en un chignon sportif haut, un corps mince et tonique, de petites boucles d'oreilles, un haut athlétique ajusté beige clair/blanc cassé, une sueur réaliste, des yeux concentrés, une expression disciplinée. Pas de changement de visage, pas de changement de coiffure, pas de changement de garde-robe.
+
+Style visuel : Réaliste cinématographique, look premium de publicité sportive, éclairage chaud de salle de sport industrielle, ombres d'ambiance, faible profondeur de champ, texture de sueur réaliste, détail naturel de la peau, environnement en bois chaud et métal sombre, contraste doux, réalisme athlétique ancré.
+
+Déroulement de l'histoire / progression des plans : 0.0–1.5 sec : Gros plan extrême de la sueur coulant sur son cou et sa clavicule. Respiration lourde. 1.5–3.0 sec : Gros plan de ses yeux, concentrés, inspiration lente et contrôlée. 3.0–4.5 sec : Plan détaillé de sa main serrant plus fort une bouteille d'eau en métal noir. 4.5–6.0 sec : Plan moyen rapproché alors qu'elle surmonte la fatigue et murmure, "One more." 6.0–7.5 sec : Plan moyen-large en contre-plongée alors qu'elle frappe les cordes de combat lourdes avec puissance. 7.5–9.0 sec : Gros plan en contre-plongée de ses chaussures se plantant fermement sur le sol de la salle de sport. 9.0–10.5 sec : Gros plan de profil, tête baissée, sueur dégoulinante, respiration intense. 10.5–12.0 sec : Plan moyen avec un lent zoom avant alors qu'elle se redresse, épaules carrées, contrôle revenant. 12.0–13.5 sec : Plan large rétroéclairé alors qu'elle avance à travers la lumière chaude de la fenêtre. 13.5–15.0 sec : Dernier gros plan de son visage, calme et déterminé, respiration ralentit, yeux stables.
+
+Caméra : Utilisez des gros plans macro, une faible profondeur de champ, des zooms avant lents, un réalisme subtil à main levée, un cadrage puissant en contre-plongée, un rétroéclairage chaud et des coupes cinématographiques fluides. Ne donnez pas l'impression d'un montage de plans non liés ; faites-en une progression émotionnelle continue.
+
+Mouvement : Mouvement athlétique naturel uniquement. Respiration réaliste, sueur, mouvement des cordes, prise de main, pression du pied, montée des épaules et récupération calme. Gardez la physique crédible.
+
+Dialogue : Une seule ligne parlée courte : "One more." Pas de sous-titres. Pas de dialogue supplémentaire.
+
+Son : Respiration lourde, ambiance sonore de la salle de sport, pouls subtil semblable à un battement de cœur, grincement de la prise de la bouteille, impact des cordes, friction des chaussures, gonflement de basse cinématographique retenu, fade final de la respiration. Pas de musique épique générique forte.
+
+Instructions négatives : Ne montrez pas la grille de storyboard, les bordures de panneaux, les numéros, les légendes, les flèches, les étiquettes ou la mise en page d'affiche de la référence de storyboard. Pas de texte à l'écran. Pas de sous-titres. Pas de filigrane. Pas de logos. Pas de personnages supplémentaires. Pas de changement aléatoire de garde-robe. Pas de changement de visage. Pas de changement de coiffure. Pas de maquillage glamour. Pas de style cartoon/anime. Pas de sur-stylisation. Pas de changement de style abrupt. Pas de proportions corporelles irréalistes. Pas d'objets de salle de sport non liés dominant le cadre.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2061348523359289439.json)
+
+```text
+---
+@[Storyboard]をストーリーボード構造の参考として使用してください。@[Charactersheet]をアイデンティティ、顔、髪型、衣装、体の一貫性の参考として使用してください。利用可能であれば、アップロードされたジムのクローズアップ参考画像をビジュアルムードの参考として使用してください。
+
+タスク: 「ONE MORE」というタイトルの15秒間のシネマティックでリアルなスポーツコマーシャル/パフォーマンスドラマを作成してください。このシーンは、工業的なジムの中で、疲労を乗り越え、制御された決意に至る一人の女性アスリートを追います。ビデオを地に足のついた、プレミアムで、強烈で、力強いものにしてください。
+
+キャラクターの一貫性: @[Charactersheet]からの若い女性アスリートを正確に維持してください。中程度の茶色の肌の色、楕円形/やや長い顔、暗い巻き毛を高いポニーテールに結び、引き締まった体、小さなスタッドピアス、ライトベージュ/オフホワイトのフィットしたアスレチックトップ、リアルな汗、集中した目、規律ある表情。顔の変更なし、髪型の変更なし、衣装の変更なし。
+
+ビジュアルスタイル: シネマティックでリアルな、プレミアムスポーツコマーシャルのルック、暖かい工業的なジムの照明、ムーディーな影、浅い被写界深度、リアルな汗の質感、自然な肌のディテール、暖かい木材と暗い金属の環境、ソフトなコントラスト、地に足のついたアスレチックなリアリズム。
+
+ストーリーフロー/ショットの進行: 0.0–1.5秒: 首と鎖骨を流れる汗の極端なクローズアップ。重い呼吸。1.5–3.0秒: 集中した目のクローズアップ、ゆっくりとした制御された吸気。3.0–4.5秒: 黒い金属製の水筒をしっかりと握る手のディテールショット。4.5–6.0秒: 疲労を乗り越え、「One more」と囁くミディアムクローズアップ。6.0–7.5秒: 重いバトルロープを力強く叩くミディアムワイドローアングルショット。7.5–9.0秒: ジムの床にしっかりと足を置く靴のローアングルクローズアップ。9.0–10.5秒: 頭を下げたプロファイルクローズアップ、汗が滴り、呼吸が激しい。10.5–12.0秒: ゆっくりと立ち上がり、肩を広げ、制御が戻るミディアムスロープッシュイン。12.0–13.5秒: 暖かい窓の光を通り抜けて前進するワイドバックライトショット。13.5–15.0秒: 落ち着いて決意に満ちた顔の最終クローズアップ、呼吸が落ち着き、目が安定する。
+
+カメラ: マクロクローズアップ、浅い被写界深度、スロープッシュイン、微妙な手持ちのリアリズム、ローアングルのパワーフレーミング、暖かいバックライト、スムーズなシネマティックカットを使用してください。無関係なショットのモンタージュのように感じさせないでください。一貫した感情の進行を作り出してください。
+
+モーション: 自然なアスレチックな動きのみ。リアルな呼吸、汗、ロープの動き、手のグリップ、足の圧力、肩の上昇、落ち着いた回復。物理的に信じられるものにしてください。
+
+ダイアログ: 短い一言のみ: 「One more」。字幕なし。追加のダイアログなし。
+
+サウンド: 重い呼吸、ジムの部屋の音、微妙な心拍のようなパルス、ボトルのグリップのきしみ、ロープの衝撃、靴の摩擦、抑制されたシネマティックなベースのうねり、最終的な呼吸のフェード。大音量の一般的なエピックミュージックなし。
+
+ネガティブな指示: ストーリーボードのグリッド、パネルの境界線、番号、キャプション、矢印、ラベル、ポスターレイアウトを表示しないでください。画面上のテキストなし。字幕なし。ウォーターマークなし。ロゴなし。追加のキャラクターなし。ランダムな衣装の変更なし。顔の変更なし。髪型の変更なし。グラマーメイクなし。カートゥーン/アニメスタイルなし。過剰なスタイリゼーションなし。突然のスタイル変更なし。非現実的な体のプロポーションなし。無関係なジムのオブジェクトがフレームを支配しないようにしてください。
+
+--- THREAD CONTINUATION ---
+[Thread 1] Storyboard + CHaracter Seedance 2.0 Prompt:
+Use @[Storyboard] as the storyboard structure reference. Use @[Charactersheet] as the identity, face, hair, wardrobe, and body consistency reference. Use the uploaded gym close-up reference image as the visual mood reference if available.
+
+Task: Create a 15-second cinematic realistic sports commercial / performance drama titled “ONE MORE.” The scene follows one female athlete inside an industrial gym, pushing through exhaustion into controlled determination. Keep the video grounded, premium, intense, and empowering.
+
+Character continuity: Maintain the exact same young female athlete from @[Charactersheet] medium-brown skin tone, oval/slightly long face, dark curly hair tied up in an athletic high puff, lean toned body, small stud earrings, light beige/off-white fitted athletic top, realistic sweat, focused eyes, disciplined expression. No face change, no hairstyle change, no wardrobe change.
+
+Visual style: Cinematic realistic, premium sports-commercial look, warm industrial gym lighting, moody shadows, shallow depth of field, realistic sweat texture, natural skin detail, warm wood and dark metal environment, soft contrast, grounded athletic realism.
+
+Story flow / shot progression: 0.0–1.5 sec: Extreme close-up of sweat moving down her neck and collarbone. Heavy breath. 1.5–3.0 sec: Close-up of her eyes, locked in focus, slow controlled inhale. 3.0–4.5 sec: Detail shot of her hand gripping a black metal water bottle tighter. 4.5–6.0 sec: Medium close-up as she pushes through fatigue and whispers, “One more.” 6.0–7.5 sec: Medium-wide low-angle shot as she slams heavy battle ropes with power. 7.5–9.0 sec: Low-angle close-up of her shoes planting firmly on the gym floor. 9.0–10.5 sec: Profile close-up, head lowered, sweat dripping, breath intense. 10.5–12.0 sec: Medium slow push-in as she rises, shoulders squared, control returning. 12.0–13.5 sec: Wide backlit shot as she walks forward through warm window light. 13.5–15.0 sec: Final close-up of her face, calm and determined, breath slows, eyes steady.
+
+Camera: Use macro close-ups, shallow depth of field, slow push-ins, subtle handheld realism, low-angle power framing, warm backlight, and smooth cinematic cuts. Do not feel like a montage of unrelated shots; make it one continuous emotional progression.
+
+Motion: Natural athletic movement only. Realistic breathing, sweat, rope motion, hand grip, foot pressure, shoulder rise, and calm recovery. Keep physics believable.
+
+Dialogue: One short spoken line only: “One more.” No subtitles. No additional dialogue.
+
+Sound: Heavy breathing, gym room tone, subtle heartbeat-like pulse, bottle grip squeak, rope impact, shoe friction, restrained cinematic bass swell, final breath fade. No loud generic epic music.
+
+Negative instructions: Do not show storyboard grid, panel borders, numbers, captions, arrows, labels, or poster layout from the storyboard reference. No text on screen. No subtitles. No watermark. No logos. No extra characters. No random wardrobe change. No face change. No hairstyle change. No glamour makeup. No cartoon/anime style. No over-stylization. No abrupt style change. No
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2061348523359289439.json)
+
+```text
+---
+@[Storyboard]를 스토리보드 구조 참조로 사용하세요. @[Charactersheet]를 신원, 얼굴, 머리, 의상, 신체 일관성 참조로 사용하세요. 가능하면 업로드된 체육관 클로즈업 참조 이미지를 시각적 분위기 참조로 사용하세요.
+
+작업: "ONE MORE"라는 제목의 15초 시네마틱 리얼리틱 스포츠 광고/퍼포먼스 드라마를 만드세요. 장면은 한 여성 운동선수가 산업 체육관 안에서 피로를 극복하고 통제된 결단력으로 나아가는 과정을 따릅니다. 비디오를 현실적이고, 고급스럽고, 강렬하며, 힘을 주는 느낌으로 유지하세요.
+
+캐릭터 연속성: @[Charactersheet]의 동일한 젊은 여성 운동선수를 유지하세요. 중간 갈색 피부톤, 타원형/약간 긴 얼굴, 운동용 하이 퍼프로 묶은 짙은 곱슬머리, 날씬하고 탄탄한 몸, 작은 스터드 귀걸이, 연한 베이지/오프 화이트 피트된 운동복 상의, 현실적인 땀, 집중된 눈, 단호한 표정. 얼굴 변화 없음, 헤어스타일 변화 없음, 의상 변화 없음.
+
+시각적 스타일: 시네마틱 리얼리틱, 고급 스포츠 광고 느낌, 따뜻한 산업 체육관 조명, 분위기 있는 그림자, 얕은 심도, 현실적인 땀 질감, 자연스러운 피부 디테일, 따뜻한 나무와 어두운 금속 환경, 부드러운 대비, 현실적인 운동 리얼리즘.
+
+스토리 흐름/샷 진행: 0.0–1.5초: 목과 쇄골을 타고 흐르는 땀의 극단적인 클로즈업. 무거운 숨소리. 1.5–3.0초: 집중된 눈의 클로즈업, 느리고 통제된 들숨. 3.0–4.5초: 검은 금속 물병을 더 꽉 쥐는 손의 디테일 샷. 4.5–6.0초: 피로를 극복하며 속삭이는 "One more."의 중간 클로즈업. 6.0–7.5초: 강력하게 배틀 로프를 휘두르는 중간 와이드 로우 앵글 샷. 7.5–9.0초: 체육관 바닥에 단단히 발을 딛는 신발의 로우 앵글 클로즈업. 9.0–10.5초: 머리를 숙이고 땀이 흐르며 숨이 거친 프로필 클로즈업. 10.5–12.0초: 어깨를 펴고 통제력을 되찾으며 일어서는 중간 슬로우 푸시인. 12.0–13.5초: 따뜻한 창문 빛을 통해 앞으로 걸어가는 와이드 백라이트 샷. 13.5–15.0초: 얼굴의 마지막 클로즈업, 차분하고 결단력 있는 모습, 숨이 느려지고 눈이 고정됨.
+
+카메라: 매크로 클로즈업, 얕은 심도, 슬로우 푸시인, 미세한 핸드헬드 리얼리즘, 로우 앵글 파워 프레이밍, 따뜻한 백라이트, 부드러운 시네마틱 컷을 사용하세요. 서로 관련 없는 샷의 몽타주처럼 느껴지지 않도록 하세요; 하나의 연속적인 감정적 진행으로 만드세요.
+
+움직임: 자연스러운 운동 움직임만. 현실적인 호흡, 땀, 로프 움직임, 손 그립, 발 압력, 어깨 상승, 차분한 회복. 물리적 사실성을 유지하세요.
+
+대사: 짧은 대사 한 줄만: "One more." 자막 없음. 추가 대사 없음.
+
+소리: 무거운 숨소리, 체육관 방음, 미세한 심장 박동 같은 맥박, 물병 그립 소리, 로프 충격, 신발 마찰, 절제된 시네마틱 베이스 스웰, 마지막 숨소리 페이드. 시끄러운 일반적인 서사 음악 없음.
+
+부정적 지시: 스토리보드 참조에서 스토리보드 그리드, 패널 경계, 숫자, 캡션, 화살표, 라벨, 포스터 레이아웃을 보여주지 마세요. 화면에 텍스트 없음. 자막 없음. 워터마크 없음. 로고 없음. 추가 캐릭터 없음. 무작위 의상 변화 없음. 얼굴 변화 없음. 헤어스타일 변화 없음. 화려한 메이크업 없음. 만화/애니메이션 스타일 없음. 과도한 스타일화 없음. 갑작스러운 스타일 변화 없음. 비현실적인 신체 비율 없음. 관련 없는 체육관 물체가 프레임을 지배하지 않도록 하세요.
+
+--- THREAD CONTINUATION ---
+[Thread 1] Storyboard + CHaracter Seedance 2.0 Prompt:
+Use @[Storyboard] as the storyboard structure reference. Use @[Charactersheet] as the identity, face, hair, wardrobe, and body consistency reference. Use the uploaded gym close-up reference image as the visual mood reference if available.
+
+작업: "ONE MORE"라는 제목의 15초 시네마틱 리얼리틱 스포츠 광고/퍼포먼스 드라마를 만드세요. 장면은 한 여성 운동선수가 산업 체육관 안에서 피로를 극복하고 통제된 결단력으로 나아가는 과정을 따릅니다. 비디오를 현실적이고, 고급스럽고, 강렬하며, 힘을 주는 느낌으로 유지하세요.
+
+캐릭터 연속성: @[Charactersheet]의 동일한 젊은 여성 운동선수를 유지하세요. 중간 갈색 피부톤, 타원형/약간 긴 얼굴, 운동용 하이 퍼프로 묶은 짙은 곱슬머리, 날씬하고 탄탄한 몸, 작은 스터드 귀걸이, 연한 베이지/오프 화이트 피트된 운동복 상의, 현실적인 땀, 집중된 눈, 단호한 표정. 얼굴 변화 없음, 헤어스타일 변화 없음, 의상 변화 없음.
+
+시각적 스타일: 시네마틱 리얼리틱, 고급 스포츠 광고 느낌, 따뜻한 산업 체육관 조명, 분위기 있는 그림자, 얕은 심도, 현실적인 땀 질감, 자연스러운 피부 디테일, 따뜻한 나무와 어두운 금속 환경, 부드러운 대비, 현실적인 운동 리얼리즘.
+
+스토리 흐름/샷 진행: 0.0–1.5초: 목과 쇄골을 타고 흐르는 땀의 극단적인 클로즈업. 무거운 숨소리. 1.5–3.0초: 집중된 눈의 클로즈업, 느리고 통제된 들숨. 3.0–4.5초: 검은 금속 물병을 더 꽉 쥐는 손의 디테일 샷. 4.5–6.0초: 피로를 극복하며 속삭이는 "One more."의 중간 클로즈업. 6.0–7.5초: 강력하게 배틀 로프를 휘두르는 중간 와이드 로우 앵글 샷. 7.5–9.0초: 체육관 바닥에 단단히 발을 딛는 신발의 로우 앵글 클로즈업. 9.0–10.5초: 머리를 숙이고 땀이 흐르며 숨이 거친 프로필 클로즈업. 10.5–12.0초: 어깨를 펴고 통제력을 되찾으며 일어서는 중간 슬로우 푸시인. 12.0–13.5초: 따뜻한 창문 빛을 통해 앞으로 걸어가는 와이드 백라이트 샷. 13.5–15.0초: 얼굴의 마지막 클로즈업, 차분하고 결단력 있는 모습, 숨이 느려지고 눈이 고정됨.
+
+카메라: 매크로 클로즈업, 얕은 심도, 슬로우 푸시인, 미세한 핸드헬드 리얼리즘, 로우 앵글 파워 프레이밍, 따뜻한 백라이트, 부드러운 시네마틱 컷을 사용하세요. 서로 관련 없는 샷의 몽타주처럼 느껴지지 않도록 하세요; 하나의 연속적인 감정적 진행으로 만드세요.
+
+움직임: 자연스러운 운동 움직임만. 현실적인 호흡, 땀, 로프 움직임, 손 그립, 발 압력, 어깨 상승,
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2061348523359289439.json)
+
+```text
+---
+Use @[Storyboard] como referência para a estrutura do storyboard. Use @[Charactersheet] como referência para a identidade, rosto, cabelo, guarda-roupa e consistência corporal. Use a imagem de referência de close-up da academia carregada como referência de humor visual, se disponível.
+
+Tarefa: Crie um comercial esportivo realista cinematográfico de 15 segundos / drama de performance intitulado “ONE MORE”. A cena segue uma atleta feminina dentro de uma academia industrial, superando a exaustão com determinação controlada. Mantenha o vídeo fundamentado, premium, intenso e inspirador.
+
+Continuidade do personagem: Mantenha exatamente a mesma jovem atleta de @[Charactersheet] com tom de pele marrom médio, rosto oval/levemente longo, cabelo cacheado escuro preso em um puff alto atlético, corpo magro e tonificado, pequenos brincos de pino, top atlético ajustado bege claro/off-white, suor realista, olhos focados, expressão disciplinada. Sem mudança de rosto, sem mudança de penteado, sem mudança de guarda-roupa.
+
+Estilo visual: Realismo cinematográfico, aparência premium de comercial esportivo, iluminação quente de academia industrial, sombras sombrias, profundidade de campo rasa, textura de suor realista, detalhe natural da pele, ambiente de madeira quente e metal escuro, contraste suave, realismo atlético fundamentado.
+
+Fluxo da história / progressão das cenas: 0,0–1,5 seg: Close-up extremo do suor descendo pelo pescoço e clavícula. Respiração pesada. 1,5–3,0 seg: Close-up dos olhos dela, fixos no foco, inalação lenta e controlada. 3,0–4,5 seg: Detalhe da mão dela apertando mais forte uma garrafa de água de metal preta. 4,5–6,0 seg: Close-up médio enquanto ela supera a fadiga e sussurra, “One more.” 6,0–7,5 seg: Plano médio-amplo em ângulo baixo enquanto ela bate cordas de batalha pesadas com força. 7,5–9,0 seg: Close-up em ângulo baixo dos sapatos dela firmemente plantados no chão da academia. 9,0–10,5 seg: Close-up de perfil, cabeça abaixada, suor pingando, respiração intensa. 10,5–12,0 seg: Aproximação lenta média enquanto ela se levanta, ombros alinhados, controle retornando. 12,0–13,5 seg: Plano amplo retroiluminado enquanto ela caminha para frente através da luz quente da janela. 13,5–15,0 seg: Close-up final do rosto dela, calmo e determinado, respiração desacelera, olhos firmes.
+
+Câmera: Use close-ups macro, profundidade de campo rasa, aproximações lentas, realismo sutil de câmera na mão, enquadramento poderoso em ângulo baixo, retroiluminação quente e cortes cinematográficos suaves. Não deve parecer uma montagem de cenas não relacionadas; faça uma progressão emocional contínua.
+
+Movimento: Apenas movimento atlético natural. Respiração realista, suor, movimento das cordas, aperto da mão, pressão do pé, elevação dos ombros e recuperação calma. Mantenha a física crível.
+
+Diálogo: Apenas uma linha curta falada: “One more.” Sem legendas. Sem diálogo adicional.
+
+Som: Respiração pesada, som ambiente da academia, pulso sutil como batida de coração, rangido do aperto da garrafa, impacto da corda, fricção do sapato, inchaço de baixo cinematográfico contido, desvanecimento da respiração final. Sem música épica genérica alta.
+
+Instruções negativas: Não mostre grade de storyboard, bordas de painel, números, legendas, setas, rótulos ou layout de pôster da referência do storyboard. Sem texto na tela. Sem legendas. Sem marca d'água. Sem logotipos. Sem personagens extras. Sem mudança aleatória de guarda-roupa. Sem mudança de rosto. Sem mudança de penteado. Sem maquiagem glamourosa. Sem estilo de desenho animado/anime. Sem estilização excessiva. Sem mudança abrupta de estilo. Sem proporções corporais irreais. Sem objetos de academia não relacionados dominando o quadro.
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Storyboard + CHaracter Seedance 2.0 Prompt:
+Use @[Storyboard] como referência para a estrutura do storyboard. Use @[Charactersheet] como referência para a identidade, rosto, cabelo, guarda-roupa e consistência corporal. Use a imagem de referência de close-up da academia carregada como referência de humor visual, se disponível.
+
+Tarefa: Crie um comercial esportivo realista cinematográfico de 15 segundos / drama de performance intitulado “ONE MORE”. A cena segue uma atleta feminina dentro de uma academia industrial, superando a exaustão com determinação controlada. Mantenha o vídeo fundamentado, premium, intenso e inspirador.
+
+Continuidade do personagem: Mantenha exatamente a mesma jovem atleta de @[Charactersheet] com tom de pele marrom médio, rosto oval/levemente longo, cabelo cacheado escuro preso em um puff alto atlético, corpo magro e tonificado, pequenos brincos de pino, top atlético ajustado bege claro/off-white, suor realista, olhos focados, expressão disciplinada. Sem mudança de rosto, sem mudança de penteado, sem mudança de guarda-roupa.
+
+Estilo visual: Realismo cinematográfico, aparência premium de comercial esportivo, iluminação quente de academia industrial, sombras sombrias, profundidade de campo rasa, textura de suor realista, detalhe natural da pele, ambiente de madeira quente e metal escuro, contraste suave, realismo atlético fundamentado.
+
+Fluxo da história / progressão das cenas: 0,0–1,5 seg: Close-up extremo do suor descendo pelo pescoço e clavícula. Respiração pesada. 1,5–3,0 seg: Close-up dos olhos dela, fixos no foco, inalação lenta e controlada. 3,0–4,5 seg: Detalhe da mão dela apertando mais forte uma garrafa de água de metal preta. 4,5–6,0 seg: Close-up médio enquanto ela supera a fadiga e sussurra, “One more.” 6,0–7,5 seg: Plano médio-amplo em ângulo baixo enquanto ela bate cordas de batalha pesadas com força. 7,5–9,0 seg: Close-up em ângulo baixo dos sapatos dela firmemente plantados no chão da academia. 9,0–10,5 seg: Close-up de perfil, cabeça abaixada, suor pingando, respiração intensa. 10,5–12,0 seg: Aproximação lenta média enquanto ela se levanta, ombros alinhados, controle retornando. 12,0–13,5 seg: Plano amplo retroiluminado enquanto ela caminha para frente através da luz quente da janela. 13,5–15,0 seg: Close-up final do rosto dela, calmo e determinado, respiração desacelera, olhos firmes.
+
+Câmera: Use close-ups macro, profundidade de campo rasa, aproximações lentas, realismo sutil de câmera na mão, enquadramento poderoso em ângulo baixo, retroiluminação quente e cortes cinematográficos suaves. Não deve parecer uma montagem de cenas não relacionadas; faça uma progressão emocional contínua.
+
+Movimento: Apenas movimento atlético natural. Respiração realista, suor, movimento das cordas, aperto da mão, pressão do pé, elevação dos ombros e recuperação calma. Mantenha a física crível.
+
+Diálogo: Apenas uma linha curta falada: “One more.” Sem legendas. Sem diálogo adicional.
+
+Som: Respiração pesada, som ambiente da academia, pulso sutil como batida de coração, rangido do aperto da garrafa, impacto da corda, fricção do sapato, inchaço de baixo cinematográfico contido, desvanecimento da respiração final. Sem música épica genérica alta.
+
+Instruções negativas: Não mostre grade de storyboard, bordas de painel, números, legendas, setas, rótulos ou layout de pôster da referência do storyboard. Sem texto na tela. Sem legendas. Sem marca d'água. Sem logotipos. Sem personagens extras. Sem mudança aleatória de guarda-roupa. Sem mudança de rosto. Sem mudança de penteado. Sem maquiagem glamourosa. Sem estilo de desenho animado/anime. Sem estilização excessiva. Sem mudança abrupta de estilo. Sem proporções corporais irreais. Sem objetos de academia não relacionados dominando o quadro.
+
+[Tópico 2] https://t.co/lOqKYXBISC
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2061348523359289439.json)
+
+```text
+使用@[Storyboard]作为分镜结构参考。使用@[Charactersheet]作为身份、面部、发型、服装和身体一致性的参考。如有可用，使用上传的健身房特写参考图像作为视觉情绪参考。
+
+任务：创建一个15秒的电影级真实运动广告/表演剧，标题为“ONE MORE”。场景跟随一位女性运动员在工业健身房内，从疲惫中奋力拼搏，展现出受控的决心。保持视频的真实感、高端感、强烈感和激励感。
+
+角色连续性：保持@[Charactersheet]中的年轻女性运动员的完全一致，中等棕色肤色，椭圆/略长的脸型，深色卷发扎成运动高髻，瘦削结实的身体，小耳钉，浅米色/米白色紧身运动上衣，真实的汗水，专注的眼神，严谨的表情。无面部变化，无发型变化，无服装变化。
+
+视觉风格：电影级真实感，高端运动广告外观，温暖的工业健身房灯光，阴郁的阴影，浅景深，真实的汗水质感，自然的皮肤细节，温暖的木材和深色金属环境，柔和的对比，扎实的运动真实感。
+
+故事流程/镜头进展：
+0.0–1.5秒：极近特写汗水沿着她的脖子和锁骨流下。沉重的呼吸。
+1.5–3.0秒：特写她的眼睛，专注凝视，缓慢受控的吸气。
+3.0–4.5秒：细节镜头她紧握黑色金属水瓶。
+4.5–6.0秒：中近景她在疲惫中坚持并低语：“One more.”
+6.0–7.5秒：中宽低角度镜头她用力挥动沉重的战绳。
+7.5–9.0秒：低角度特写她的鞋子稳稳踩在健身房地板上。
+9.0–10.5秒：侧面特写，头低垂，汗水滴落，呼吸急促。
+10.5–12.0秒：中景慢推镜头她站起，肩膀挺直，恢复控制。
+12.0–13.5秒：宽广逆光镜头她走向温暖的窗光。
+13.5–15.0秒：最后特写她的脸，平静而坚定，呼吸放缓，眼神稳定。
+
+摄像：使用微距特写，浅景深，慢推镜头，细微的手持真实感，低角度力量构图，温暖的逆光，流畅的电影剪辑。不要感觉像是不相关镜头的蒙太奇；要使其成为一个连续的情感进程。
+
+动作：仅限自然的运动动作。真实的呼吸、汗水、绳索运动、手握、脚压、肩膀上升和冷静恢复。保持物理真实性。
+
+对话：仅一句简短的台词：“One more.” 无字幕。无额外对话。
+
+声音：沉重的呼吸，健身房环境音，微弱的心跳脉动，瓶子握紧声，绳索撞击声，鞋子摩擦声，克制的电影低音隆起，最后呼吸渐弱。无响亮的通用史诗音乐。
+
+负面指令：不要显示分镜网格、面板边框、数字、标题、箭头、标签或海报布局。屏幕上无文字。无字幕。无水印。无标志。无额外角色。无随机服装变化。无面部变化。无发型变化。无魅力化妆。无卡通/动漫风格。无过度风格化。无突兀风格变化。无不切实际的身体比例。无不相关的健身房物品主导画面。
+```
+
+## 出处与许可
+
+- 原作者：[BMX](https://x.com/bmx_ai13) · 原帖：<https://x.com/bmx_ai13/status/2061348523359289439>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2061348523359289439.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

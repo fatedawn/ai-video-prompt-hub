@@ -1,0 +1,43 @@
+# Weekly catalog refresh. Opens a pull request; does not push to main.
+# Uses the workflow's GITHUB_TOKEN only (contents + pull-requests). No extra secrets.
+name: refresh-catalog
+on:
+  schedule:
+    # Monday 06:23 UTC (15:23 Asia/Tokyo). Not at :00.
+    - cron: "23 6 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Refresh stars, dates, verified_at
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 catalog/tools/refresh_registry.py
+      - name: Rebuild catalog pages
+        run: node router/cli.mjs build-catalog
+      - name: Open pull request if the catalog changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet; then
+            echo "catalog unchanged"
+            exit 0
+          fi
+          branch="catalog/refresh-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add catalog
+          git commit -m "目录周更：刷新 star、推送日期与 verified_at"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "目录周更：刷新 star / 日期 / verified_at" \
+            --body "由 .github/workflows/refresh-catalog.yml 自动打开。只更新 catalog/ 的核验字段和生成页，不直接推 main。请人看过再合并。"

@@ -76,7 +76,7 @@ export function check() {
   const V = reg.vocab;
   const ids = new Set();
   const cats = new Set(reg.categories.map((c) => c.id));
-  const req = ['id', 'repo', 'url', 'category', 'kind', 'intro_zh', 'stars', 'pushed', 'license', 'license_class', 'routes', 'cost', 'zh', 'maturity', 'use_for', 'plugs_into'];
+  const req = ['id', 'repo', 'url', 'category', 'kind', 'intro_zh', 'stars', 'pushed', 'license', 'license_class', 'routes', 'cost', 'zh', 'maturity', 'use_for', 'plugs_into', 'verified_at', 'license_source'];
   for (const e of reg.entries) {
     for (const k of req) if (e[k] === undefined || e[k] === '') problems.push(`${e.repo || e.id}: 缺少字段 ${k}`);
     if (ids.has(e.id)) problems.push(`重复 id ${e.id}`); ids.add(e.id);

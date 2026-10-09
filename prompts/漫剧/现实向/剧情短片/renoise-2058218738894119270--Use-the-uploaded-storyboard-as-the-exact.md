@@ -1,0 +1,603 @@
+---
+id: "renoise-2058218738894119270"
+title: "Use the uploaded storyboard as the exact keyframe reference. Follow it…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "漫剧"
+direction: "现实向"
+genre: "剧情短片"
+art_style: "2D日漫"
+tags: ["Seedance 2.0", "Renoise", "Story", "Talk", "Anime 2D", "Realistic World", "POV", "Game UI"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058218738894119270.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Glitter Gal"
+original_author_url: "https://x.com/GlitterPixely"
+original_post_url: "https://x.com/GlitterPixely/status/2058218738894119270"
+published: "2026-05-23"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Use the uploaded storyboard as the exact keyframe reference. Follow it…
+
+## 提示词（English）
+
+```text
+Use the uploaded storyboard as the exact keyframe reference. Follow it panel-by-panel. Do not reinterpret, add new actions, or change the order.
+
+FORMAT: 9:16 vertical, 15 seconds, one continuous shot, no cuts.
+
+SCENE:
+Outdoor open-sky livestream above clouds. First-person POV from the streamer floating in the air. Anime girl floats nearby with visible safety harness, straps, lines, and overhead canopy. Keep the livestream UI framing from the storyboard.
+
+CHARACTER LOCK:
+Keep the girl exactly like the storyboard: blonde twin tails, pink-red eyes, pointed ears, cute vampire-like smile, frilly white blouse, black skirt, black safety harness, visible straps/lines, anime illustration style. Do not make her realistic. No face, hair, outfit, or proportion changes.
+
+TIMING / PANELS:
+0:00–0:02 — Panel 1: Wide POV. Streamer’s hand reaches from foreground. Girl floats ahead at a distance. Tilted horizon, light handheld roll, wind shake. Normal live comments/hearts.
+
+0:02–0:04 — Panel 2: Streamer drifts closer while filming. Girl notices him. Body-drift toward her, slight roll. Distance closes, no contact. Comments begin reacting.
+
+0:04–0:06 — Panel 3: Streamer gets too close. Girl looks surprised and flustered. Quick forward drift, autofocus snaps to her face. Dialogue: 「えっ、なにしてるの？」 / “Huh? What are you doing?”
+
+0:06–0:08 — Panel 4: Girl raises both hands in a cute defensive gesture, flustered but not angry or scared. Brief clockwise roll, horizon rotates, face stays readable. She floats backward slightly. Dialogue: 「ち、近いってば！」 / “Y-you’re too close!”
+
+0:08–0:10 — Panel 5: Streamer backs off. Girl points cutely with puffed cheeks. Pendulum swing left, then re-center. Dialogue: 「そんなに近づかないで〜！」 / “Don’t get so close!”
+
+0:10–0:12 — Panel 6: Girl relaxes and gives a gentle “stay there” gesture with a soft smile. Calmer floating, soft handheld shake. Dialogue: 「そこにいて、ね？」 / “Stay right there, okay?”
+
+0:12–0:13.5 — Panel 7: Streamer gives thumbs-up from foreground. Girl smiles and waves back. Slight upward swing. Hearts increase.
+
+0:13.5–0:15 — Panel 8: They float side by side at a comfortable distance. Gentle stabilized drift, slight residual roll. Comments/hearts continue.
+
+VOICE:
+Girl speaks in cute anime-style Japanese. Tone is flustered, playful, slightly embarrassed, adorable. Not angry, not frightened, not romantic. Streamer does not speak.
+
+MOTION:
+Hair, ribbons, sleeves, skirt frills, safety straps, and lines flutter in wind. Overhead canopy sways. Clouds and distant ground drift below. Use motion blur only on fast camera movement or foreground hand.
+
+LIVE UI:
+Keep generic vertical livestream UI visible: LIVE badge, viewer count, comments, hearts, gift icon, joined-user messages. Do not cover her face, hands, gestures, or captions.
+
+STYLE:
+Accidental viral smartphone livestream. Handheld, imperfect, slightly shaky, high-altitude brightness, mild compression, autofocus hunting, blown-out cloud highlights. Energetic but readable.
+
+NEGATIVE:
+No hand-holding, grabbing, romance, rescue, danger escalation, panic, plane, buildings, indoor wind tunnel, landing, drone camera, missing UI, missing safety gear, disconnected lines, face change, outfit change, photorealistic girl, skipped panels, changed panel order.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058218738894119270.json)
+
+```text
+---
+Utiliza el storyboard subido como referencia exacta de los fotogramas clave. Síguelo panel por panel. No reinterpretar, añadir nuevas acciones o cambiar el orden.
+
+FORMATO: Vertical 9:16, 15 segundos, una toma continua, sin cortes.
+
+ESCENA:
+Transmisión en vivo al aire libre sobre las nubes. POV en primera persona desde el streamer flotando en el aire. Chica anime flota cerca con arnés de seguridad visible, correas, líneas y dosel superior. Mantén el encuadre de la interfaz de usuario de la transmisión en vivo del storyboard.
+
+BLOQUEO DE PERSONAJE:
+Mantén a la chica exactamente como en el storyboard: coletas rubias, ojos rosados-rojos, orejas puntiagudas, sonrisa linda tipo vampiro, blusa blanca con volantes, falda negra, arnés de seguridad negro, correas/líneas visibles, estilo de ilustración anime. No la hagas realista. No cambios en cara, cabello, atuendo o proporciones.
+
+TIEMPO / PANELES:
+0:00–0:02 — Panel 1: POV amplio. La mano del streamer se extiende desde el primer plano. La chica flota a lo lejos. Horizonte inclinado, ligero movimiento de mano, sacudida por el viento. Comentarios/corazones normales en vivo.
+
+0:02–0:04 — Panel 2: El streamer se acerca mientras filma. La chica lo nota. Desplazamiento corporal hacia ella, ligero giro. La distancia se cierra, sin contacto. Los comentarios comienzan a reaccionar.
+
+0:04–0:06 — Panel 3: El streamer se acerca demasiado. La chica luce sorprendida y sonrojada. Rápido desplazamiento hacia adelante, el enfoque automático se centra en su rostro. Diálogo: 「えっ、なにしてるの？」 / “¿Eh? ¿Qué estás haciendo?”
+
+0:06–0:08 — Panel 4: La chica levanta ambas manos en un gesto defensivo lindo, sonrojada pero no enojada ni asustada. Breve giro en sentido horario, el horizonte rota, el rostro permanece legible. Ella flota ligeramente hacia atrás. Diálogo: 「ち、近いってば！」 / “¡E-estás demasiado cerca!”
+
+0:08–0:10 — Panel 5: El streamer se aleja. La chica señala de manera linda con las mejillas infladas. Balanceo de péndulo a la izquierda, luego re-centra. Diálogo: 「そんなに近づかないで〜！」 / “¡No te acerques tanto!”
+
+0:10–0:12 — Panel 6: La chica se relaja y hace un gesto suave de “quédate ahí” con una sonrisa suave. Flotación más calmada, ligero movimiento de mano. Diálogo: 「そこにいて、ね？」 / “Quédate justo ahí, ¿vale?”
+
+0:12–0:13.5 — Panel 7: El streamer da un pulgar arriba desde el primer plano. La chica sonríe y saluda de vuelta. Ligero balanceo hacia arriba. Aumentan los corazones.
+
+0:13.5–0:15 — Panel 8: Flotan lado a lado a una distancia cómoda. Desplazamiento estabilizado suave, ligero giro residual. Los comentarios/corazones continúan.
+
+VOZ:
+La chica habla en japonés estilo anime lindo. El tono es sonrojado, juguetón, ligeramente avergonzado, adorable. No enojada, no asustada, no romántica. El streamer no habla.
+
+MOVIMIENTO:
+Cabello, cintas, mangas, volantes de la falda, correas de seguridad y líneas ondean en el viento. El dosel superior se balancea. Las nubes y el suelo distante se desplazan abajo. Usa desenfoque de movimiento solo en movimientos rápidos de cámara o mano en primer plano.
+
+INTERFAZ EN VIVO:
+Mantén visible la interfaz de usuario genérica de transmisión en vivo vertical: insignia LIVE, conteo de espectadores, comentarios, corazones, icono de regalo, mensajes de usuarios que se unen. No cubras su rostro, manos, gestos o subtítulos.
+
+ESTILO:
+Transmisión en vivo accidentalmente viral desde un smartphone. A mano, imperfecto, ligeramente tembloroso, brillo de gran altitud, compresión leve, búsqueda de enfoque automático, reflejos de nubes quemados. Energético pero legible.
+
+NEGATIVO:
+No tomarse de la mano, agarrar, romance, rescate, escalada de peligro, pánico, avión, edificios, túnel de viento interior, aterrizaje, cámara de dron, interfaz de usuario faltante, equipo de seguridad faltante, líneas desconectadas, cambio de cara, cambio de atuendo, chica fotorrealista, paneles omitidos, cambio de orden de paneles.
+
+--- TWEET CITADO ---
+#AIart #Grok
+このプロンプトで生成したイラストをGrokで動画化👍
+※音声はカットしています https://t.co/mL2OsKX4NS
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] Prompt para generar la imagen:
+(Gracias a @Eris_Create_Lab por la idea original y el prompt)
+
+Usa la imagen de referencia como base para el diseño del personaje anime.
+
+Representa el momento en que un personaje anime reencarnado está casualmente en paracaídas a través del mundo real mientras es capturado accidentalmente en una transmisión en vivo. El streamer también está en paracaídas cerca, filmando en un smartphone durante el descenso, y extendiendo la mano hacia la chica anime en el aire.
+
+Preserva la identidad del personaje con mucha precisión. Mantén el mismo rostro, peinado, color de cabello, ojos, silueta, proporciones, impresión de expresión y vibra general del personaje de la imagen de referencia. Absolutamente no conviertas al personaje en un humano realista. El personaje en sí debe permanecer claramente ilustrado/estilizado como anime, mientras que el mundo circundante es fotorrealista.
+
+Composición de captura de pantalla de transmisión en vivo vertical de smartphone, 9:16.
+
+Perspectiva de cámara: POV en primera persona desde el streamer en paracaídas a través del cielo. La cámara es a mano y inestable, como si fuera capturada en vivo en un teléfono durante la caída libre. En primer plano, muestra naturalmente partes del cuerpo y equipo del streamer: una mano enguantada o desnuda extendiéndose hacia la chica anime, correas del arnés de paracaídas, manga, parte de la correa del pecho, tal vez un cordón colgante, y ligeros indicios del borde del encuadre del teléfono. Opcionalmente incluye una segunda mano o brazo entrando parcialmente en el encuadre. La mano extendida debe sentirse espontánea y ligeramente borrosa.
+
+Tanto el streamer como la chica anime están en paracaídas descendiendo a través del cielo abierto. La chica anime no está dentro de un avión o edificio. Ella está completamente en el aire, descendiendo naturalmente, con su propio paracaídas desplegado o parcialmente visible arriba/detrás de ella. Debe estar lo suficientemente cerca como para que el streamer sienta que está tratando de alcanzar o agarrar su mano con incredulidad.
+
+La chica anime se comporta de manera casual, casi como si esto fuera normal. Puede parecer ligeramente somnolienta, ligeramente aburrida, calmada o despreocupada. Puede estar haciendo algo absurdamente cotidiano mientras está en paracaídas, como:
+- ajustando las correas de su paracaídas
+- revisando algo en su mano
+- sosteniendo una bebida de tienda de conveniencia
+- comiendo una papa frita o snack
+- dando una mirada casual en blanco
+- extendiendo ligeramente la mano hacia el streamer
+- flotando con una postura relajada como si hiciera esto todos los días
+
+Tono importante: la rareza se trata de manera casual. A la chica anime no le importa que sea un personaje anime. El mundo tampoco se siente dramáticamente sorprendido. El humor proviene de lo extrañamente normal que se siente todo.
+
+El fondo debe ser fotorrealista: cielo brillante, nubes, ciudad o paisaje distante muy por debajo, tal vez algunos otros paracaidistas en la distancia, tal vez otra persona u objeto en paracaídas lejos, pero no sobrecargues demasiado el encuadre. Enfatiza la altitud creíble, la atmósfera y la profundidad.
+
+Agrega una superposición de interfaz de usuario de estilo moderno de transmisión en vivo inspirada en TikTok LIVE / Instagram Live / YouTube Live, pero no dependas de marcas exactas con derechos de autor. Incluye:
+- Indicador LIVE
+- conteo de espectadores concurrentes
+- sección de comentarios
+- likes/flotantes corazones
+- notificación de regalo
+- notificaciones de usuarios que se unen
+- iconos de compartir/interacción
+
+Deja que los comentarios se sientan naturales y nativos de internet: mitad incredulidad, mitad entusiasmo, bromeando sobre la realidad fallando, preguntando si esto está editado, reaccionando a lo casual que se ve la chica anime mientras cae por el cielo.
+
+El estilo visual debe enfatizar fuertemente:
+- entorno del mundo real fotorrealista
+- personaje anime preservado como anime
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058218738894119270.json)
+
+```text
+---
+Utilisez le storyboard téléchargé comme référence exacte pour les images clés. Suivez-le panneau par panneau. Ne réinterprétez pas, n'ajoutez pas de nouvelles actions, et ne changez pas l'ordre.
+
+FORMAT : Vertical 9:16, 15 secondes, une prise continue, pas de coupures.
+
+SCÈNE :
+Diffusion en direct en extérieur au-dessus des nuages. POV à la première personne depuis le streamer flottant dans les airs. Une fille anime flotte à proximité avec un harnais de sécurité visible, des sangles, des lignes et un auvent au-dessus. Gardez le cadrage de l'interface utilisateur du livestream du storyboard.
+
+VERROUILLAGE DU PERSONNAGE :
+Gardez la fille exactement comme dans le storyboard : cheveux blonds en couettes, yeux rose-rouge, oreilles pointues, sourire mignon de vampire, chemisier blanc à volants, jupe noire, harnais de sécurité noir, sangles/lignes visibles, style d'illustration anime. Ne la rendez pas réaliste. Pas de changements de visage, de cheveux, de tenue ou de proportions.
+
+TIMING / PANNEAUX :
+0:00–0:02 — Panneau 1 : Large POV. La main du streamer s'étend depuis le premier plan. La fille flotte au loin. Horizon incliné, léger roulis à main levée, secousse de vent. Commentaires/cœurs normaux en direct.
+
+0:02–0:04 — Panneau 2 : Le streamer se rapproche en filmant. La fille le remarque. Dérive corporelle vers elle, léger roulis. La distance se réduit, pas de contact. Les commentaires commencent à réagir.
+
+0:04–0:06 — Panneau 3 : Le streamer s'approche trop près. La fille a l'air surprise et troublée. Dérive rapide vers l'avant, l'autofocus se fixe sur son visage. Dialogue : 「えっ、なにしてるの？」 / “Huh? What are you doing?”
+
+0:06–0:08 — Panneau 4 : La fille lève les deux mains dans un geste défensif mignon, troublée mais pas en colère ou effrayée. Bref roulis dans le sens des aiguilles d'une montre, l'horizon tourne, le visage reste lisible. Elle flotte légèrement en arrière. Dialogue : 「ち、近いってば！」 / “Y-you’re too close!”
+
+0:08–0:10 — Panneau 5 : Le streamer recule. La fille pointe du doigt de manière mignonne avec des joues gonflées. Balancement en pendule à gauche, puis recentrage. Dialogue : 「そんなに近づかないで〜！」 / “Don’t get so close!”
+
+0:10–0:12 — Panneau 6 : La fille se détend et fait un geste doux de "reste là" avec un sourire doux. Flottement plus calme, légère secousse à main levée. Dialogue : 「そこにいて、ね？」 / “Stay right there, okay?”
+
+0:12–0:13.5 — Panneau 7 : Le streamer fait un pouce levé depuis le premier plan. La fille sourit et fait un signe de la main en retour. Légère oscillation vers le haut. Les cœurs augmentent.
+
+0:13.5–0:15 — Panneau 8 : Ils flottent côte à côte à une distance confortable. Dérive stabilisée douce, léger roulis résiduel. Les commentaires/cœurs continuent.
+
+VOIX :
+La fille parle en japonais style anime mignon. Le ton est troublé, ludique, légèrement embarrassé, adorable. Pas en colère, pas effrayée, pas romantique. Le streamer ne parle pas.
+
+MOUVEMENT :
+Cheveux, rubans, manches, volants de jupe, sangles de sécurité et lignes flottent au vent. L'auvent au-dessus oscille. Les nuages et le sol lointain dérivent en dessous. Utilisez le flou de mouvement uniquement sur les mouvements rapides de la caméra ou la main au premier plan.
+
+INTERFACE UTILISATEUR EN DIRECT :
+Gardez l'interface utilisateur de diffusion en direct verticale générique visible : badge LIVE, nombre de spectateurs, commentaires, cœurs, icône de cadeau, messages d'utilisateurs rejoints. Ne couvrez pas son visage, ses mains, ses gestes ou ses légendes.
+
+STYLE :
+Diffusion en direct accidentelle virale sur smartphone. À main levée, imparfaite, légèrement tremblante, luminosité en haute altitude, compression légère, recherche d'autofocus, reflets de nuages surexposés. Énergique mais lisible.
+
+NÉGATIF :
+Pas de tenue de main, pas de saisie, pas de romance, pas de sauvetage, pas d'escalade de danger, pas de panique, pas d'avion, pas de bâtiments, pas de tunnel de vent intérieur, pas d'atterrissage, pas de caméra drone, pas d'interface utilisateur manquante, pas d'équipement de sécurité manquant, pas de lignes déconnectées, pas de changement de visage, pas de changement de tenue, pas de fille photoréaliste, pas de panneaux sautés, pas de changement d'ordre des panneaux.
+
+--- TWEET CITÉ ---
+#AIart  #Grok
+このプロンプトで生成したイラストをGrokで動画化👍
+※音声はカットしています https://t.co/mL2OsKX4NS
+
+--- SUITE DU FIL ---
+[Fil 1] Prompt pour générer l'image :
+(Merci à @Eris_Create_Lab pour l'idée originale et le prompt)
+
+Utilisez l'image de référence comme base pour le design du personnage anime.
+
+Dépeignez le moment où un personnage anime réincarné fait du parachutisme de manière décontractée à travers le monde réel tout en étant accidentellement capturé dans un livestream. Le streamer fait également du parachutisme à proximité, filmant sur un smartphone pendant la descente, et tendant la main vers la fille anime en plein air.
+
+Préservez l'identité du personnage très précisément. Gardez le même visage, coiffure, couleur des cheveux, yeux, silhouette, proportions, impression d'expression et ambiance générale du personnage de l'image de référence. Ne transformez absolument pas le personnage en humain réaliste. Le personnage lui-même doit rester clairement illustré/stylisé en anime, tandis que le monde environnant est photoréaliste.
+
+Composition de capture d'écran de livestream vertical sur smartphone, 9:16.
+
+Perspective de la caméra : POV à la première personne depuis le streamer en parachute à travers le ciel. La caméra est à main levée et instable, comme si elle était capturée en direct sur un téléphone pendant la chute libre. Au premier plan, montrez naturellement des parties du corps et de l'équipement du streamer : une main gantée ou nue tendue vers la fille anime, sangles du harnais de parachute, manche, partie de la sangle de poitrine, peut-être un cordon pendant, et de légers indices de cadrage du téléphone. Incluez éventuellement une deuxième main ou un bras entrant partiellement dans le cadre. La main tendue doit sembler spontanée et légèrement floue.
+
+Le streamer et la fille anime descendent tous deux en parachute à travers le ciel ouvert. La fille anime n'est pas à l'intérieur d'un avion ou d'un bâtiment. Elle est entièrement dans les airs, descendant naturellement, avec son propre parachute déployé ou partiellement visible au-dessus/derrière elle. Elle doit être suffisamment proche pour que le streamer ait l'impression d'essayer d'atteindre ou de saisir sa main avec incrédulité.
+
+La fille anime se comporte de manière décontractée, presque comme si c'était normal. Elle peut sembler légèrement endormie, légèrement ennuyée, calme ou indifférente. Elle peut faire quelque chose d'absurdement quotidien en parachutant, comme :
+- ajuster ses sangles de parachute
+- vérifier quelque chose dans sa main
+- tenir une boisson de supérette
+- manger une frite ou un en-cas
+- donner un regard vide décontracté
+- tendre légèrement la main vers le streamer
+- flotter avec une posture détendue comme si elle faisait cela tous les jours
+
+Ton important : l'étrangeté est traitée de manière décontractée. La fille anime ne se soucie pas d'être un personnage anime. Le monde ne semble pas non plus dramatiquement choqué. L'humour vient de la façon dont tout cela semble étrangement normal.
+
+L'arrière-plan doit être photoréaliste : ciel lumineux, nuages, ville ou paysage lointain en dessous, peut-être quelques autres parachutistes au loin, peut-être une autre personne ou un objet en parachute loin, mais ne surchargez pas trop le cadre. Mettez l'accent sur l'altitude crédible, l'atmosphère et la profondeur.
+
+Ajoutez une superposition d'interface utilisateur de style livestream moderne inspirée de TikTok LIVE / Instagram Live / YouTube Live, mais ne vous fiez pas à une marque déposée exacte. Incluez :
+- Indicateur LIVE
+- Nombre de spectateurs simultanés
+- Section de commentaires
+- J'aime flottants / cœurs
+- Notification de cadeau
+- Notifications
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058218738894119270.json)
+
+```text
+---
+アップロードされたストーリーボードを正確なキーフレームの参照として使用してください。パネルごとに従ってください。再解釈、新しいアクションの追加、順序の変更はしないでください。
+
+フォーマット: 9:16 縦、15秒、1つの連続したショット、カットなし。
+
+シーン:
+雲の上の屋外オープンスカイのライブストリーム。空中に浮かぶストリーマーの一人称視点。アニメの女の子が近くに浮かんでおり、安全ハーネス、ストラップ、ライン、頭上のキャノピーが見えます。ストーリーボードからのライブストリームUIフレーミングを維持してください。
+
+キャラクターロック:
+女の子をストーリーボード通りに保ってください: 金髪のツインテール、ピンクレッドの目、尖った耳、かわいい吸血鬼のような笑顔、フリルの白いブラウス、黒いスカート、黒い安全ハーネス、見えるストラップ/ライン、アニメイラストスタイル。リアルにしないでください。顔、髪、衣装、プロポーションの変更はしないでください。
+
+タイミング / パネル:
+0:00–0:02 — パネル1: 広いPOV。ストリーマーの手が前景から伸びる。女の子が距離を置いて前方に浮かぶ。傾いた地平線、軽い手持ちのロール、風の揺れ。通常のライブコメント/ハート。
+
+0:02–0:04 — パネル2: ストリーマーが撮影しながら近づく。女の子が彼に気づく。彼女に向かって体が漂い、わずかにロール。距離が縮まるが接触なし。コメントが反応し始める。
+
+0:04–0:06 — パネル3: ストリーマーが近づきすぎる。女の子が驚いて慌てる。急な前方ドリフト、オートフォーカスが彼女の顔にスナップ。ダイアログ: 「えっ、なにしてるの？」 / “Huh? What are you doing?”
+
+0:06–0:08 — パネル4: 女の子が両手をかわいく防御的なジェスチャーで上げる。慌てているが怒っていないし怖がってもいない。短い時計回りのロール、地平線が回転するが顔は読み取れる。彼女はわずかに後退する。ダイアログ: 「ち、近いってば！」 / “Y-you’re too close!”
+
+0:08–0:10 — パネル5: ストリーマーが後退する。女の子が頬を膨らませてかわいく指を指す。振り子のように左に揺れ、再び中心に戻る。ダイアログ: 「そんなに近づかないで〜！」 / “Don’t get so close!”
+
+0:10–0:12 — パネル6: 女の子がリラックスし、柔らかい笑顔で「そこにいて」とジェスチャーをする。穏やかな浮遊、柔らかい手持ちの揺れ。ダイアログ: 「そこにいて、ね？」 / “Stay right there, okay?”
+
+0:12–0:13.5 — パネル7: ストリーマーが前景からサムズアップをする。女の子が微笑んで手を振り返す。わずかな上向きのスイング。ハートが増える。
+
+0:13.5–0:15 — パネル8: 彼らは快適な距離で並んで浮かぶ。穏やかな安定したドリフト、わずかな残留ロール。コメント/ハートが続く。
+
+声:
+女の子はかわいいアニメスタイルの日本語で話します。トーンは慌てていて、遊び心があり、少し恥ずかしがり屋で、愛らしい。怒っていない、怖がっていない、ロマンチックではない。ストリーマーは話さない。
+
+動き:
+髪、リボン、袖、スカートのフリル、安全ストラップ、ラインが風に揺れる。頭上のキャノピーが揺れる。雲と遠くの地面が下を漂う。速いカメラの動きや前景の手にのみモーションブラーを使用。
+
+ライブUI:
+一般的な縦のライブストリームUIを表示し続ける: LIVEバッジ、視聴者数、コメント、ハート、ギフトアイコン、参加ユーザーメッセージ。彼女の顔、手、ジェスチャー、キャプションを覆わないでください。
+
+スタイル:
+偶然のバイラルスマートフォンライブストリーム。手持ち、完璧でない、少し揺れる、高高度の明るさ、軽い圧縮、オートフォーカスのハンティング、吹き飛ばされた雲のハイライト。エネルギッシュだが読みやすい。
+
+ネガティブ:
+手をつなぐこと、つかむこと、ロマンス、救助、危険のエスカレーション、パニック、飛行機、建物、屋内風洞、着陸、ドローンカメラ、UIの欠如、安全装備の欠如、切断されたライン、顔の変更、衣装の変更、フォトリアリスティックな女の子、スキップされたパネル、変更されたパネル順序。
+
+--- 引用ツイート ---
+#AIart  #Grok
+このプロンプトで生成したイラストをGrokで動画化👍
+※音声はカットしています https://t.co/mL2OsKX4NS
+
+--- スレッドの続き ---
+[スレッド1] 画像を生成するプロンプト:
+(オリジナルのアイデアとプロンプトに感謝 @Eris_Create_Lab)
+
+アニメキャラクターデザインのベースとして参照画像を使用してください。
+
+転生したアニメキャラクターが現実世界をカジュアルにパラシュートで降下している瞬間を描写し、偶然にライブストリームでキャプチャされる。ストリーマーも近くでパラシュートをしており、降下中にスマートフォンで撮影しながらアニメの女の子に手を伸ばしている。
+
+キャラクターのアイデンティティを非常に正確に保持してください。参照画像から同じ顔、髪型、髪色、目、シルエット、プロポーション、表情の印象、全体的なキャラクターの雰囲気を維持してください。キャラクターをリアルな人間に変えないでください。キャラクター自体は明確にアニメイラスト/スタイライズされたままで、周囲の世界はフォトリアリスティックである必要があります。
+
+縦型スマートフォンライブストリームのスクリーンショット構成、9:16。
+
+カメラ視点: 空をパラシュートで降下するライブストリーマーの一人称視点。カメラは手持ちで不安定で、自由落下中に電話でライブで撮影されたかのようです。前景には、ストリーマーの体と装備の一部を自然に表示してください: アニメの女の子に向かって手を伸ばす手袋をはめたまたは裸の手、パラシュートハーネスのストラップ、袖、胸ストラップの一部、おそらくぶら下がっているコード、電話のフレーミングのわずかな端のヒントを含めることができます。オプションで、フレームに部分的に入る2番目の手または腕を含めることができます。手を伸ばす手は自発的でわずかにぼやけているように感じるべきです。
+
+ストリーマーとアニメの女の子の両方が空を通ってパラシュートで降下しています。アニメの女の子は飛行機や建物の中にはいません。彼女は完全に空中に出てお
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058218738894119270.json)
+
+```text
+---
+업로드된 스토리보드를 정확한 키프레임 참조로 사용하세요. 패널별로 따르세요. 재해석하거나 새로운 동작을 추가하거나 순서를 변경하지 마세요.
+
+형식: 9:16 세로, 15초, 하나의 연속적인 샷, 컷 없음.
+
+장면:
+구름 위의 야외 오픈 스카이 라이브 스트림. 공중에 떠 있는 스트리머의 1인칭 시점. 근처에 안전 하네스, 스트랩, 라인, 오버헤드 캐노피가 보이는 애니메이션 소녀가 떠 있습니다. 스토리보드의 라이브 스트림 UI 프레이밍을 유지하세요.
+
+캐릭터 고정:
+소녀를 스토리보드와 정확히 동일하게 유지하세요: 금발 트윈 테일, 분홍-빨간 눈, 뾰족한 귀, 귀여운 뱀파이어 같은 미소, 프릴이 달린 흰 블라우스, 검은 치마, 검은 안전 하네스, 보이는 스트랩/라인, 애니메이션 일러스트 스타일. 그녀를 현실적으로 만들지 마세요. 얼굴, 머리, 의상, 비율 변화를 하지 마세요.
+
+타이밍 / 패널:
+0:00–0:02 — 패널 1: 넓은 시점. 스트리머의 손이 전경에서 뻗어 있습니다. 소녀가 멀리 앞에 떠 있습니다. 기울어진 수평선, 가벼운 핸드헬드 롤, 바람 흔들림. 일반적인 라이브 댓글/하트.
+
+0:02–0:04 — 패널 2: 스트리머가 촬영하면서 가까워집니다. 소녀가 그를 알아차립니다. 그녀를 향한 몸의 드리프트, 약간의 롤. 거리가 좁혀지지만 접촉은 없습니다. 댓글이 반응하기 시작합니다.
+
+0:04–0:06 — 패널 3: 스트리머가 너무 가까워집니다. 소녀가 놀라고 당황한 표정을 짓습니다. 빠른 전진 드리프트, 그녀의 얼굴에 자동 초점이 맞춰집니다. 대사: 「えっ、なにしてるの？」 / “Huh? What are you doing?”
+
+0:06–0:08 — 패널 4: 소녀가 두 손을 귀엽게 방어하는 제스처를 취하며 당황하지만 화나거나 무서워하지 않습니다. 짧은 시계 방향 롤, 수평선이 회전하지만 얼굴은 읽을 수 있습니다. 그녀는 약간 뒤로 떠 있습니다. 대사: 「ち、近いってば！」 / “Y-you’re too close!”
+
+0:08–0:10 — 패널 5: 스트리머가 물러납니다. 소녀가 볼을 부풀리며 귀엽게 가리킵니다. 진자 흔들림 왼쪽, 그런 다음 재중심. 대사: 「そんなに近づかないで〜！」 / “Don’t get so close!”
+
+0:10–0:12 — 패널 6: 소녀가 진정하며 부드러운 미소로 "거기 있어"라는 제스처를 합니다. 더 부드러운 떠다님, 부드러운 핸드헬드 흔들림. 대사: 「そこにいて、ね？」 / “Stay right there, okay?”
+
+0:12–0:13.5 — 패널 7: 스트리머가 전경에서 엄지를 치켜세웁니다. 소녀가 미소를 짓고 손을 흔듭니다. 약간의 위쪽 흔들림. 하트가 증가합니다.
+
+0:13.5–0:15 — 패널 8: 그들은 편안한 거리에서 나란히 떠 있습니다. 부드러운 안정된 드리프트, 약간의 잔여 롤. 댓글/하트가 계속됩니다.
+
+목소리:
+소녀는 귀여운 애니메이션 스타일의 일본어로 말합니다. 톤은 당황하고, 장난스럽고, 약간 부끄러워하며, 사랑스럽습니다. 화나거나 무서워하지 않으며, 낭만적이지 않습니다. 스트리머는 말하지 않습니다.
+
+움직임:
+머리카락, 리본, 소매, 치마 프릴, 안전 스트랩, 라인이 바람에 흔들립니다. 오버헤드 캐노피가 흔들립니다. 구름과 먼 땅이 아래로 떠다닙니다. 빠른 카메라 움직임이나 전경 손에만 모션 블러를 사용하세요.
+
+라이브 UI:
+일반적인 세로 라이브 스트림 UI를 보이게 유지하세요: LIVE 배지, 시청자 수, 댓글, 하트, 선물 아이콘, 가입 사용자 메시지. 그녀의 얼굴, 손, 제스처, 캡션을 가리지 마세요.
+
+스타일:
+우연히 바이럴된 스마트폰 라이브 스트림. 핸드헬드, 불완전, 약간 흔들림, 고고도 밝기, 가벼운 압축, 자동 초점 사냥, 날아간 구름 하이라이트. 에너제틱하지만 읽기 쉬움.
+
+부정적:
+손잡기, 잡기, 로맨스, 구조, 위험 증가, 공황, 비행기, 건물, 실내 바람 터널, 착륙, 드론 카메라, 누락된 UI, 누락된 안전 장비, 연결되지 않은 라인, 얼굴 변화, 의상 변화, 포토리얼리스틱 소녀, 건너뛴 패널, 변경된 패널 순서 없음.
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058218738894119270.json)
+
+```text
+---
+Use o storyboard carregado como referência exata de keyframe. Siga-o painel por painel. Não reinterprete, adicione novas ações ou altere a ordem.
+
+FORMATO: vertical 9:16, 15 segundos, um único take contínuo, sem cortes.
+
+CENA:
+Transmissão ao vivo ao ar livre acima das nuvens. POV em primeira pessoa do streamer flutuando no ar. Garota de anime flutua próxima com arnês de segurança visível, tiras, linhas e dossel acima. Mantenha o enquadramento da UI da transmissão ao vivo do storyboard.
+
+BLOQUEIO DE PERSONAGEM:
+Mantenha a garota exatamente como no storyboard: rabos de cavalo loiros, olhos rosa-avermelhados, orelhas pontudas, sorriso fofo de vampiro, blusa branca com babados, saia preta, arnês de segurança preto, tiras/linhas visíveis, estilo de ilustração de anime. Não a faça realista. Sem mudanças de rosto, cabelo, roupa ou proporções.
+
+TEMPORIZAÇÃO / PAINÉIS:
+0:00–0:02 — Painel 1: POV amplo. Mão do streamer alcança do primeiro plano. Garota flutua à frente à distância. Horizonte inclinado, leve rotação manual, tremor de vento. Comentários/corações normais ao vivo.
+
+0:02–0:04 — Painel 2: Streamer se aproxima enquanto filma. Garota o nota. Deslocamento corporal em direção a ela, leve rotação. Distância diminui, sem contato. Comentários começam a reagir.
+
+0:04–0:06 — Painel 3: Streamer se aproxima demais. Garota parece surpresa e envergonhada. Rápido deslocamento para frente, foco automático ajusta para o rosto dela. Diálogo: 「えっ、なにしてるの？」 / “Huh? What are you doing?”
+
+0:06–0:08 — Painel 4: Garota levanta ambas as mãos em um gesto defensivo fofo, envergonhada, mas não com raiva ou medo. Breve rotação no sentido horário, horizonte gira, rosto permanece legível. Ela flutua um pouco para trás. Diálogo: 「ち、近いってば！」 / “Y-you’re too close!”
+
+0:08–0:10 — Painel 5: Streamer recua. Garota aponta de forma fofa com bochechas infladas. Balanço de pêndulo à esquerda, depois re-centraliza. Diálogo: 「そんなに近づかないで〜！」 / “Don’t get so close!”
+
+0:10–0:12 — Painel 6: Garota relaxa e faz um gesto suave de “fique aí” com um sorriso suave. Flutuação mais calma, leve tremor manual. Diálogo: 「そこにいて、ね？」 / “Stay right there, okay?”
+
+0:12–0:13.5 — Painel 7: Streamer faz um sinal de positivo do primeiro plano. Garota sorri e acena de volta. Leve balanço para cima. Corações aumentam.
+
+0:13.5–0:15 — Painel 8: Eles flutuam lado a lado a uma distância confortável. Flutuação estabilizada suave, leve rotação residual. Comentários/corações continuam.
+
+VOZ:
+Garota fala em japonês estilo anime fofo. Tom é envergonhado, brincalhão, levemente embaraçado, adorável. Não está com raiva, não está assustada, não é romântico. Streamer não fala.
+
+MOVIMENTO:
+Cabelo, fitas, mangas, babados da saia, tiras de segurança e linhas tremulam ao vento. Dossel acima balança. Nuvens e chão distante flutuam abaixo. Use desfoque de movimento apenas em movimento rápido da câmera ou mão em primeiro plano.
+
+UI AO VIVO:
+Mantenha a UI genérica de transmissão ao vivo vertical visível: emblema LIVE, contagem de espectadores, comentários, corações, ícone de presente, mensagens de usuários que entraram. Não cubra o rosto dela, mãos, gestos ou legendas.
+
+ESTILO:
+Transmissão ao vivo acidentalmente viral de smartphone. Manual, imperfeito, levemente trêmulo, brilho de alta altitude, compressão leve, busca de foco automático, destaques das nuvens estourados. Energético, mas legível.
+
+NEGATIVO:
+Sem segurar mãos, agarrar, romance, resgate, escalada de perigo, pânico, avião, prédios, túnel de vento interno, pouso, câmera de drone, UI ausente, equipamento de segurança ausente, linhas desconectadas, mudança de rosto, mudança de roupa, garota fotorrealista, painéis pulados, ordem de painéis alterada.
+
+--- TWEET CITADO ---
+#AIart  #Grok
+このプロンプトで生成したイラストをGrokで動画化👍
+※音声はカットしています https://t.co/mL2OsKX4NS
+
+--- CONTINUAÇÃO DO TÓPICO ---
+[Tópico 1] Prompt para gerar a imagem:
+(Obrigado a @Eris_Create_Lab pela ideia original e prompt)
+
+Use a imagem de referência como base para o design do personagem de anime.
+
+Descreva o momento em que um personagem de anime reencarnado está casualmente paraquedando pelo mundo real enquanto é capturado acidentalmente em uma transmissão ao vivo. O streamer também está paraquedando próximo, filmando em um smartphone durante a descida e estendendo a mão em direção à garota de anime no ar.
+
+Preserve a identidade do personagem com muita precisão. Mantenha o mesmo rosto, penteado, cor do cabelo, olhos, silhueta, proporções, impressão de expressão e vibração geral do personagem da imagem de referência. Absolutamente não transforme o personagem em um humano realista. O próprio personagem deve permanecer claramente ilustrado/estilizado como anime, enquanto o mundo ao redor é fotorrealista.
+
+Composição de captura de tela de transmissão ao vivo vertical de smartphone, 9:16.
+
+Perspectiva da câmera: POV em primeira pessoa do streamer paraquedando pelo céu. A câmera é manual e instável, como se capturada ao vivo em um telefone durante a queda livre. No primeiro plano, mostre naturalmente partes do corpo e equipamento do streamer: uma mão enluvada ou nua estendendo-se em direção à garota de anime, tiras do arnês do paraquedas, manga, parte da tira do peito, talvez um cordão pendurado, e leves dicas de borda do enquadramento do telefone. Opcionalmente, inclua uma segunda mão ou braço entrando parcialmente no quadro. A mão estendida deve parecer espontânea e levemente desfocada.
+
+Tanto o streamer quanto a garota de anime estão paraquedando pelo céu aberto. A garota de anime não está dentro de um avião ou edifício. Ela está completamente no ar, descendo naturalmente, com seu próprio paraquedas implantado ou parcialmente visível acima/atrás dela. Ela deve estar perto o suficiente para que o streamer sinta que está tentando alcançar ou agarrar a mão dela em descrença.
+
+A garota de anime se comporta casualmente, quase como se isso fosse normal. Ela pode parecer levemente sonolenta, ligeiramente entediada, calma ou despreocupada. Ela pode estar fazendo algo absurdamente cotidiano enquanto paraquedismo, como:
+- ajustando as tiras do paraquedas
+- verificando algo na mão
+- segurando uma bebida de loja de conveniência
+- comendo uma batata frita ou lanche
+- dando um olhar casual em branco
+- estendendo a mão levemente em direção ao streamer
+- flutuando com uma postura relaxada como se fizesse isso todos os dias
+
+Tom importante: a estranheza é tratada de forma casual. A garota de anime não se importa que ela é um personagem de anime. O mundo também não parece dramaticamente chocado. O humor vem de como tudo parece estranhamente normal.
+
+O fundo deve ser fotorrealista: céu brilhante, nuvens, cidade ou paisagem distante abaixo, talvez alguns outros paraquedistas à distância, talvez outra pessoa ou objeto paraquedando longe, mas não sobrecarregue muito o quadro. Enfatize altitude, atmosfera e profundidade críveis.
+
+Adicione uma sobreposição de UI de estilo moderno de transmissão ao vivo inspirada no TikTok LIVE / Instagram Live / YouTube Live, mas não dependa de marcas registradas exatas. Inclua:
+- Indicador LIVE
+- contagem de espectadores simultâneos
+- seção de comentários
+- curtidas/flutuantes corações
+- notificação de presente
+- notificações de usuários que entraram
+- ícones de compartilhamento/interação
+
+Deixe os comentários parecerem naturais e nativos da internet: metade descrença, metade empolgação, brincando sobre a realidade falhando, perguntando se isso é editado, reagindo a como a garota de anime parece casual enquanto cai pelo céu.
+
+O estilo visual deve enfatizar fortemente:
+- ambiente do mundo real fotorrealista
+- personagem de anime preservado como anime
+- sensação de captura de tela de transmissão ao vivo acidentalmente viral
+- enquadramento manual imper
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058218738894119270.json)
+
+```text
+---
+使用上传的分镜作为精确的关键帧参考。逐格跟随。不要重新解释、添加新动作或更改顺序。
+
+格式：9:16 竖屏，15秒，连续镜头，无剪辑。
+
+场景：
+户外云层之上的开放天空直播。第一人称视角，从空中漂浮的主播视角。旁边漂浮着动漫女孩，安全吊带、带子、线条和上方的伞篷可见。保持分镜中的直播UI框架。
+
+角色锁定：
+保持女孩与分镜完全一致：金色双马尾，粉红色眼睛，尖耳朵，可爱的吸血鬼般微笑，白色荷叶边衬衫，黑色裙子，黑色安全吊带，明显的带子/线条，动漫插画风格。不要让她变得真实。不要改变面部、发型、服装或比例。
+
+时间/面板：
+0:00–0:02 — 面板1：广角视角。主播的手从前景伸出。女孩在远处漂浮。倾斜的地平线，轻微的手持滚动，风摇晃。正常的直播评论/心形。
+
+0:02–0:04 — 面板2：主播在拍摄时漂移靠近。女孩注意到他。身体向她漂移，轻微滚动。距离缩小，无接触。评论开始反应。
+
+0:04–0:06 — 面板3：主播太靠近。女孩看起来惊讶和慌乱。快速向前漂移，自动对焦对准她的脸。对话：「えっ、なにしてるの？」 / “Huh? What are you doing?”
+
+0:06–0:08 — 面板4：女孩举起双手做出可爱的防御姿势，慌乱但不生气或害怕。短暂的顺时针滚动，地平线旋转，脸部保持可读。她稍微向后漂浮。对话：「ち、近いってば！」 / “Y-you’re too close!”
+
+0:08–0:10 — 面板5：主播后退。女孩可爱地指着他，鼓起脸颊。钟摆式左摆，然后重新居中。对话：「そんなに近づかないで〜！」 / “Don’t get so close!”
+
+0:10–0:12 — 面板6：女孩放松，微笑着做出“待在那里”的手势。漂浮更平稳，轻微的手持摇晃。对话：「そこにいて、ね？」 / “Stay right there, okay?”
+
+0:12–0:13.5 — 面板7：主播从前景竖起大拇指。女孩微笑并挥手回应。轻微向上摆动。心形增加。
+
+0:13.5–0:15 — 面板8：他们在舒适的距离并排漂浮。轻柔稳定的漂移，轻微的残余滚动。评论/心形继续。
+
+声音：
+女孩用可爱的动漫风格日语说话。语气慌乱、俏皮、略显尴尬、可爱。不生气、不害怕、不浪漫。主播不说话。
+
+动作：
+头发、丝带、袖子、裙边、安全带和线条在风中飘动。上方的伞篷摇摆。云层和远处的地面在下方漂移。仅在快速相机移动或前景手部使用运动模糊。
+
+直播UI：
+保持通用的竖屏直播UI可见：LIVE标志、观众数量、评论、心形、礼物图标、加入用户消息。不要遮盖她的脸、手、手势或字幕。
+
+风格：
+意外的病毒智能手机直播。手持、不完美、略微摇晃、高空亮度、轻微压缩、自动对焦搜索、云层高光溢出。充满活力但可读。
+
+负面：
+无牵手、抓取、浪漫、救援、危险升级、恐慌、飞机、建筑物、室内风洞、着陆、无人机相机、缺失UI、缺失安全装备、断开线条、面部变化、服装变化、写实女孩、跳过面板、更改面板顺序。
+
+--- 引用推文 ---
+#AIart  #Grok
+このプロンプトで生成したイラストをGrokで動画化👍
+※音声はカットしています https://t.co/mL2OsKX4NS
+
+--- 线程继续 ---
+[线程1] 生成图像的提示：
+（感谢@Eris_Create_Lab提供的原始想法和提示）
+
+使用参考图像作为动漫角色设计的基础。
+
+描绘一个转生的动漫角色在现实世界中随意跳伞的时刻，同时在直播中被意外捕捉到。主播也在附近跳伞，在下降过程中用智能手机拍摄，并在空中伸手向动漫女孩。
+
+非常准确地保留角色的身份。保持参考图像中的相同面孔、发型、发色、眼睛、轮廓、比例、表情印象和整体角色氛围。绝对不要将角色变成真实的人类。角色本身必须保持明显的动漫插画/风格化，而周围的世界是写实的。
+
+竖屏智能手机直播截图构图，9:16。
+
+相机视角：从跳伞穿越天空的直播者的第一人称视角。相机是手持且不稳定的，就像在自由落体过程中用手机直播捕捉到的一样。在前景中，自然展示主播身体和装备的一部分：一只戴手套或裸露的手伸向动漫女孩，降落伞吊带、袖子、胸带的一部分，可能还有一根悬挂的绳索，以及手机框架的轻微边缘提示。可以选择性地包括部分进入画面的第二只手或手臂。伸出的手应该感觉自发且略微模糊。
+
+主播和动漫女孩都在开放的天空中跳伞。动漫女孩不在飞机或建筑物内。她完全在空中，自然下降，自己的降落伞展开或部分可见在上方/后方。她应该足够接近，以至于主播感觉他们试图在不相信的情况下伸手或抓住她的手。
+
+动漫女孩表现得很随意，几乎像这样是正常的。她可能看起来有点困，略显无聊，冷静或不受打扰。她可以在跳伞时做一些荒谬的日常事情，例如：
+- 调整她的降落伞带
+- 检查手中的东西
+- 拿着便利店饮料
+- 吃薯条或零食
+- 给出随意的空白表情
+- 稍微向后伸手向主播
+- 以放松的姿势漂浮，仿佛她每天都这样做
+
+重要的语气：怪异被随意对待。动漫女孩不在乎她是动漫角色。世界也没有感到戏剧性震惊。幽默来自于一切看起来奇怪地正常。
+
+背景应该是写实的：明亮的天空、云层、远处的城市或景观在下方，也许在远处有其他跳伞者，也许有另一个跳伞的人或物体在远处，但不要过多地杂乱框架。强调可信的高度、大气和深度。
+
+添加现代直播风格的UI覆盖，灵感来自TikTok LIVE / Instagram Live / YouTube Live，但不要依赖于确切的版权品牌。包括：
+- LIVE指示器
+- 同时观看者数量
+- 评论区
+- 漂浮的点赞/心形
+- 礼物通知
+- 用户加入通知
+- 分享/互动图标
+
+让评论感觉自然和互联网本土：半信半疑，半炒作，开玩笑说现实出错，问这是否经过编辑，反应动漫女孩在空中下落时看起来多么随意。
+
+视觉风格应强烈强调：
+- 写实的现实世界环境
+- 动漫角色保持动漫风格
+- 意外的病毒直播截图感觉
+- 不完美的手持构图
+- 略微倾斜的构图
+- 不是海报般的
+- 不过于电影化
+- 不太抛光
+- 不过于光滑
+- 不过多的信息
+
+添加智能手机录像纹理：
+轻微的HDR处理，细微的传感器噪声，轻微的JPEG压缩感觉，自然曝光，轻微的色差，自动对焦不稳定，轻微的运动模糊，轻微的手抖，流媒体压缩伪影，天空中高光溢
+```
+
+## 出处与许可
+
+- 原作者：[Glitter Gal](https://x.com/GlitterPixely) · 原帖：<https://x.com/GlitterPixely/status/2058218738894119270>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058218738894119270.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

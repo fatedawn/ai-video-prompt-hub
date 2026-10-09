@@ -1,0 +1,253 @@
+---
+id: "renoise-2068907293220180011"
+title: "A young Japanese food delivery rider receives a hot food order on her…"
+title_en: null
+model: "Seedance 2.0"
+language: "ja"
+medium: "其他"
+direction: null
+genre: "广告带货"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Product Ad", "F&B", "Photoreal", "Realistic World", "FPV & Aerial", "POV"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068907293220180011.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Smiling Khan"
+original_author_url: "https://x.com/AIwithkhan"
+original_post_url: "https://x.com/AIwithkhan/status/2068907293220180011"
+published: "2026-06-22"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# A young Japanese food delivery rider receives a hot food order on her…
+
+## 提示词（日本語）
+
+```text
+A young Japanese food delivery rider receives a hot food order on her smartphone while relaxing at a small apartment. Modern Japanese city setting, realistic live-action style, natural lighting, authentic delivery-app interface. Her phone vibrates with a new order notification. She smiles, checks the details, and taps "Accept Order."
+
+Cut to a cozy ramen restaurant. The girl arrives carrying a professional insulated delivery backpack. The restaurant staff hands her a freshly prepared hot meal in branded packaging. Close-up shots of steaming food containers, careful packaging, and warm kitchen lighting. She checks the order details, secures the food inside her insulated bag, and zips it closed.
+
+She puts on her helmet and starts her scooter. Cinematic tracking shots follow her through vibrant Japanese streets filled with pedestrians, convenience stores, neon signs, crosswalks, bicycles, and city life. Dynamic camera angles capture her riding smoothly through narrow alleys and bustling urban roads. Natural traffic sounds, city ambience, and energetic background music.
+
+The food remains safely stored in the insulated backpack as she navigates through the city. Drone shots reveal Tokyo-style city blocks and busy intersections. Close-ups show her checking navigation on her phone at traffic lights and confirming the delivery location.
+
+She arrives at a quiet residential neighborhood. The camera follows her walking to the customer's front door with the hot meal. She politely rings the doorbell and waits. The customer opens the door with a smile. She hands over the food package with professional courtesy and a friendly bow.
+
+Close-up of the customer opening the bag and seeing hot steam rise from the freshly delivered meal. The customer smiles appreciatively and gives a thumbs-up. The delivery rider receives a positive delivery notification on her phone.
+
+The final sequence shows her walking back to her scooter, checking her completed delivery status, smiling with satisfaction, and riding off toward the next order as the sun sets over the city.
+
+Style: Realistic live-action commercial, Japanese slice-of-life aesthetic, food delivery advertisement, UGC vlog feel mixed with cinematic filmmaking.
+
+Camera: Handheld shots, gimbal tracking, scooter-mounted camera, drone city reveals, close-up food shots, smooth cinematic transitions.
+
+Visual Quality: Ultra-realistic, natural lighting, shallow depth of field, authentic Japanese city atmosphere, vibrant urban colors, premium commercial quality, 4K HDR, 16:9 widescreen.
+
+Mood: Friendly, energetic, reliable, heartwarming, everyday hero story, authentic food delivery experience.
+
+Negative Prompt: Animation, Pixar style, cartoon characters, unrealistic cityscape, fantasy elements, blurry food, empty streets, low-quality rendering, exaggerated expressions, unrealistic vehicles, subtitles, text overlays, watermarks.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的English版本（translations.en）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068907293220180011.json)
+
+```text
+A young Japanese food delivery rider receives a hot food order on her smartphone while relaxing in a small apartment. Modern Japanese city setting, realistic live-action style, natural lighting, authentic delivery-app interface. Her phone vibrates with a new order notification. She smiles, checks the details, and taps "Accept Order."
+
+Cut to a cozy ramen restaurant. The girl arrives carrying a professional insulated delivery backpack. The restaurant staff hands her a freshly prepared hot meal in branded packaging. Close-up shots of steaming food containers, careful packaging, and warm kitchen lighting. She checks the order details, secures the food inside her insulated bag, and zips it closed.
+
+She puts on her helmet and starts her scooter. Cinematic tracking shots follow her through vibrant Japanese streets filled with pedestrians, convenience stores, neon signs, crosswalks, bicycles, and city life. Dynamic camera angles capture her riding smoothly through narrow alleys and bustling urban roads. Natural traffic sounds, city ambience, and energetic background music.
+
+The food remains safely stored in the insulated backpack as she navigates through the city. Drone shots reveal Tokyo-style city blocks and busy intersections. Close-ups show her checking navigation on her phone at traffic lights and confirming the delivery location.
+
+She arrives at a quiet residential neighborhood. The camera follows her walking to the customer's front door with the hot meal. She politely rings the doorbell and waits. The customer opens the door with a smile. She hands over the food package with professional courtesy and a friendly bow.
+
+Close-up of the customer opening the bag and seeing hot steam rise from the freshly delivered meal. The customer smiles appreciatively and gives a thumbs-up. The delivery rider receives a positive delivery notification on her phone.
+
+The final sequence shows her walking back to her scooter, checking her completed delivery status, smiling with satisfaction, and riding off toward the next order as the sun sets over the city.
+
+Style: Realistic live-action commercial, Japanese slice-of-life aesthetic, food delivery advertisement, UGC vlog feel mixed with cinematic filmmaking.
+
+Camera: Handheld shots, gimbal tracking, scooter-mounted camera, drone city reveals, close-up food shots, smooth cinematic transitions.
+
+Visual Quality: Ultra-realistic, natural lighting, shallow depth of field, authentic Japanese city atmosphere, vibrant urban colors, premium commercial quality, 4K HDR, 16:9 widescreen.
+
+Mood: Friendly, energetic, reliable, heartwarming, everyday hero story, authentic food delivery experience.
+
+Negative Prompt: Animation, Pixar style, cartoon characters, unrealistic cityscape, fantasy elements, blurry food, empty streets, low-quality rendering, exaggerated expressions, unrealistic vehicles, subtitles, text overlays, watermarks.
+```
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068907293220180011.json)
+
+```text
+---
+Una joven repartidora de comida japonesa recibe un pedido de comida caliente en su smartphone mientras se relaja en un pequeño apartamento. Escenario de una ciudad moderna japonesa, estilo realista de acción en vivo, iluminación natural, interfaz auténtica de aplicación de entrega. Su teléfono vibra con una nueva notificación de pedido. Ella sonríe, revisa los detalles y toca "Accept Order".
+
+Corte a un acogedor restaurante de ramen. La chica llega llevando una mochila de entrega profesional aislada. El personal del restaurante le entrega una comida caliente recién preparada en un empaque de marca. Planos de cerca de los contenedores de comida humeante, el empaque cuidadoso y la cálida iluminación de la cocina. Ella verifica los detalles del pedido, asegura la comida dentro de su bolsa aislada y la cierra con cremallera.
+
+Se pone el casco y enciende su scooter. Tomas de seguimiento cinematográficas la siguen a través de las vibrantes calles japonesas llenas de peatones, tiendas de conveniencia, letreros de neón, pasos de peatones, bicicletas y vida urbana. Ángulos de cámara dinámicos capturan su recorrido suave por callejones estrechos y carreteras urbanas concurridas. Sonidos naturales del tráfico, ambiente de la ciudad y música de fondo enérgica.
+
+La comida permanece segura en la mochila aislada mientras navega por la ciudad. Tomas de dron revelan bloques de ciudad al estilo de Tokio e intersecciones concurridas. Planos de cerca muestran cómo revisa la navegación en su teléfono en los semáforos y confirma la ubicación de la entrega.
+
+Llega a un tranquilo vecindario residencial. La cámara la sigue caminando hacia la puerta del cliente con la comida caliente. Ella toca educadamente el timbre y espera. El cliente abre la puerta con una sonrisa. Ella entrega el paquete de comida con cortesía profesional y una reverencia amistosa.
+
+Plano de cerca del cliente abriendo la bolsa y viendo el vapor caliente elevarse de la comida recién entregada. El cliente sonríe con aprecio y levanta el pulgar. La repartidora recibe una notificación positiva de entrega en su teléfono.
+
+La secuencia final la muestra caminando de regreso a su scooter, revisando el estado de su entrega completada, sonriendo con satisfacción y partiendo hacia el siguiente pedido mientras el sol se pone sobre la ciudad.
+
+Estilo: Comercial realista de acción en vivo, estética japonesa de slice-of-life, anuncio de entrega de comida, sensación de vlog UGC mezclada con cine cinematográfico.
+
+Cámara: Tomas de mano, seguimiento con gimbal, cámara montada en scooter, revelaciones de ciudad con dron, tomas de comida de cerca, transiciones cinematográficas suaves.
+
+Calidad Visual: Ultra-realista, iluminación natural, poca profundidad de campo, atmósfera auténtica de ciudad japonesa, colores urbanos vibrantes, calidad comercial premium, 4K HDR, pantalla ancha 16:9.
+
+Ánimo: Amistoso, enérgico, confiable, conmovedor, historia de héroe cotidiano, experiencia auténtica de entrega de comida.
+
+Negative Prompt: Animation, Pixar style, cartoon characters, unrealistic cityscape, fantasy elements, blurry food, empty streets, low-quality rendering, exaggerated expressions, unrealistic vehicles, subtitles, text overlays, watermarks.
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068907293220180011.json)
+
+```text
+---
+한 젊은 일본인 음식 배달 라이더가 작은 아파트에서 휴식을 취하던 중 스마트폰으로 뜨거운 음식 주문을 받습니다. 현대적인 일본 도시 배경, 현실적인 실사 스타일, 자연광, 진짜 같은 배달 앱 인터페이스. 그녀의 전화가 새로운 주문 알림으로 진동합니다. 그녀는 미소를 지으며 세부 사항을 확인하고 "주문 수락"을 탭합니다.
+
+아늑한 라멘 레스토랑으로 전환됩니다. 그녀는 전문적인 단열 배달 가방을 들고 도착합니다. 레스토랑 직원이 브랜드 포장에 담긴 갓 준비된 뜨거운 음식을 그녀에게 건넵니다. 김이 나는 음식 용기, 세심한 포장, 따뜻한 주방 조명의 클로즈업 샷. 그녀는 주문 세부 사항을 확인하고 음식을 단열 가방에 안전하게 넣은 후 지퍼를 닫습니다.
+
+헬멧을 쓰고 스쿠터를 시작합니다. 영화 같은 추적 샷이 보행자, 편의점, 네온사인, 횡단보도, 자전거, 도시 생활로 가득한 활기찬 일본 거리를 따라 그녀를 따라갑니다. 역동적인 카메라 앵글이 좁은 골목과 번화한 도시 도로를 부드럽게 주행하는 그녀를 포착합니다. 자연스러운 교통 소리, 도시 분위기, 활기찬 배경 음악.
+
+음식은 도시를 누비는 동안 단열 가방에 안전하게 보관됩니다. 드론 샷이 도쿄 스타일의 도시 블록과 분주한 교차로를 드러냅니다. 클로즈업은 그녀가 신호등에서 휴대폰으로 내비게이션을 확인하고 배달 위치를 확인하는 모습을 보여줍니다.
+
+그녀는 조용한 주거 지역에 도착합니다. 카메라는 그녀가 뜨거운 음식을 들고 고객의 현관으로 걸어가는 모습을 따라갑니다. 그녀는 정중하게 초인종을 누르고 기다립니다. 고객이 미소를 지으며 문을 엽니다. 그녀는 전문적인 예의와 친절한 인사로 음식 패키지를 건넵니다.
+
+고객이 가방을 열고 갓 배달된 음식에서 뜨거운 김이 올라오는 모습을 클로즈업으로 보여줍니다. 고객은 감사의 미소를 지으며 엄지손가락을 치켜세웁니다. 배달 라이더는 휴대폰으로 긍정적인 배달 알림을 받습니다.
+
+마지막 장면은 그녀가 스쿠터로 돌아가 완료된 배달 상태를 확인하고 만족스러운 미소를 지으며 다음 주문을 향해 도시 위로 해가 지는 모습을 보여줍니다.
+
+스타일: 현실적인 실사 광고, 일본 일상 생활 미학, 음식 배달 광고, UGC 브이로그 느낌과 영화 같은 촬영의 혼합.
+
+카메라: 핸드헬드 샷, 짐벌 추적, 스쿠터 장착 카메라, 드론 도시 공개, 음식 클로즈업 샷, 부드러운 영화 같은 전환.
+
+시각적 품질: 초현실적, 자연광, 얕은 심도, 진짜 같은 일본 도시 분위기, 생생한 도시 색상, 프리미엄 상업 품질, 4K HDR, 16:9 와이드스크린.
+
+분위기: 친근한, 활기찬, 신뢰할 수 있는, 따뜻한, 일상 영웅 이야기, 진짜 같은 음식 배달 경험.
+
+부정적 프롬프트: 애니메이션, 픽사 스타일, 만화 캐릭터, 비현실적인 도시 풍경, 판타지 요소, 흐릿한 음식, 빈 거리, 저품질 렌더링, 과장된 표현, 비현실적인 차량, 자막, 텍스트 오버레이, 워터마크.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068907293220180011.json)
+
+```text
+Um jovem entregador de comida japonês recebe um pedido de comida quente em seu smartphone enquanto relaxa em um pequeno apartamento. Cenário de cidade moderna japonesa, estilo realista de live-action, iluminação natural, interface autêntica de aplicativo de entrega. Seu telefone vibra com uma nova notificação de pedido. Ela sorri, verifica os detalhes e toca em "Aceitar Pedido".
+
+Corte para um restaurante de ramen aconchegante. A garota chega carregando uma mochila térmica profissional de entrega. A equipe do restaurante entrega a ela uma refeição quente recém-preparada em embalagem de marca. Close-ups de recipientes de comida fumegante, embalagem cuidadosa e iluminação quente da cozinha. Ela verifica os detalhes do pedido, guarda a comida dentro da bolsa térmica e a fecha com o zíper.
+
+Ela coloca o capacete e liga sua scooter. Cenas de rastreamento cinematográfico a seguem pelas vibrantes ruas japonesas cheias de pedestres, lojas de conveniência, letreiros de neon, faixas de pedestres, bicicletas e vida urbana. Ângulos de câmera dinâmicos capturam ela dirigindo suavemente por becos estreitos e estradas urbanas movimentadas. Sons naturais de tráfego, ambiente da cidade e música de fundo energética.
+
+A comida permanece armazenada com segurança na mochila térmica enquanto ela navega pela cidade. Imagens de drone revelam blocos de cidade ao estilo de Tóquio e cruzamentos movimentados. Close-ups mostram ela verificando a navegação em seu telefone nos semáforos e confirmando o local de entrega.
+
+Ela chega a um bairro residencial tranquilo. A câmera a segue caminhando até a porta da frente do cliente com a refeição quente. Ela toca a campainha educadamente e espera. O cliente abre a porta com um sorriso. Ela entrega o pacote de comida com cortesia profissional e uma reverência amigável.
+
+Close-up do cliente abrindo a bolsa e vendo o vapor quente subir da refeição recém-entregue. O cliente sorri apreciativamente e faz um sinal de positivo. A entregadora recebe uma notificação positiva de entrega em seu telefone.
+
+A sequência final mostra ela caminhando de volta para sua scooter, verificando o status de entrega concluída, sorrindo com satisfação e partindo para o próximo pedido enquanto o sol se põe sobre a cidade.
+
+Estilo: Comercial realista de live-action, estética japonesa de slice-of-life, anúncio de entrega de comida, sensação de vlog UGC misturada com filmagem cinematográfica.
+
+Câmera: Cenas com câmera na mão, rastreamento com gimbal, câmera montada na scooter, revelações de cidade com drone, close-ups de comida, transições cinematográficas suaves.
+
+Qualidade Visual: Ultra-realista, iluminação natural, profundidade de campo rasa, atmosfera autêntica de cidade japonesa, cores urbanas vibrantes, qualidade comercial premium, 4K HDR, widescreen 16:9.
+
+Humor: Amigável, energético, confiável, comovente, história de herói do dia a dia, experiência autêntica de entrega de comida.
+
+Negative Prompt: Animação, estilo Pixar, personagens de desenho animado, paisagem urbana irrealista, elementos de fantasia, comida desfocada, ruas vazias, renderização de baixa qualidade, expressões exageradas, veículos irreais, legendas, sobreposições de texto, marcas d'água.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068907293220180011.json)
+
+```text
+---
+
+一位年轻的日本外卖骑手在小公寓里放松时，接到了智能手机上的热餐订单。现代日本城市背景，逼真的真人风格，自然光线，真实的外卖应用界面。她的手机震动，收到新订单通知。她微笑着查看详情，并点击“接受订单”。
+
+切换到一家温馨的拉面馆。女孩背着专业的保温外卖背包到达。餐厅工作人员递给她一份刚刚准备好的热餐，包装上有品牌标识。特写镜头展示冒着热气的食物容器、精心包装和温暖的厨房灯光。她检查订单详情，将食物放入保温包中，并拉上拉链。
+
+她戴上头盔，启动她的踏板车。电影般的跟踪镜头跟随她穿过充满行人、便利店、霓虹灯、斑马线、自行车和城市生活的繁华日本街道。动态的摄像机角度捕捉她顺畅地穿过狭窄的小巷和繁忙的城市道路。自然的交通声、城市氛围和充满活力的背景音乐。
+
+食物在她穿越城市时安全地存放在保温背包中。无人机镜头展示东京风格的城市街区和繁忙的十字路口。特写镜头显示她在红绿灯处查看手机上的导航并确认送餐地点。
+
+她到达一个安静的住宅区。镜头跟随她走到顾客的前门，带着热餐。她礼貌地按响门铃并等待。顾客微笑着打开门。她以专业的礼仪和友好的鞠躬递上食物包。
+
+特写镜头展示顾客打开袋子，看到新鲜送达的餐点冒出的热气。顾客满意地微笑并竖起大拇指。外卖骑手在手机上收到积极的送餐通知。
+
+最后的镜头展示她走回踏板车，查看已完成的送餐状态，满意地微笑，并在夕阳下骑向下一个订单。
+
+风格：逼真的真人广告，日本生活片段美学，外卖广告，UGC vlog风格与电影制作结合。
+
+摄像机：手持镜头，稳定器跟踪，踏板车安装摄像机，无人机城市展示，食物特写镜头，流畅的电影过渡。
+
+视觉质量：超现实主义，自然光线，浅景深，真实的日本城市氛围，鲜艳的城市色彩，高级商业质量，4K HDR，16:9宽屏。
+
+氛围：友好，充满活力，可靠，温馨，日常英雄故事，真实的外卖体验。
+
+Negative Prompt: Animation, Pixar style, cartoon characters, unrealistic cityscape, fantasy elements, blurry food, empty streets, low-quality rendering, exaggerated expressions, unrealistic vehicles, subtitles, text overlays, watermarks.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068907293220180011.json)
+
+```text
+Un jeune livreur de nourriture japonais reçoit une commande de plats chauds sur son smartphone alors qu'il se détend dans un petit appartement. Cadre moderne d'une ville japonaise, style réaliste en prise de vue réelle, éclairage naturel, interface authentique d'application de livraison. Son téléphone vibre avec une nouvelle notification de commande. Elle sourit, vérifie les détails et appuie sur "Accept Order".
+
+Coupe vers un restaurant de ramen chaleureux. La jeune fille arrive avec un sac de livraison isotherme professionnel. Le personnel du restaurant lui remet un repas chaud fraîchement préparé dans un emballage de marque. Gros plans sur les contenants de nourriture fumants, l'emballage soigné et l'éclairage chaleureux de la cuisine. Elle vérifie les détails de la commande, sécurise la nourriture dans son sac isotherme et le ferme.
+
+Elle met son casque et démarre son scooter. Des plans de suivi cinématographiques la suivent à travers les rues vibrantes du Japon remplies de piétons, de magasins de proximité, de néons, de passages piétons, de vélos et de la vie urbaine. Des angles de caméra dynamiques capturent sa conduite fluide à travers des ruelles étroites et des routes urbaines animées. Bruits naturels de la circulation, ambiance de la ville et musique de fond énergique.
+
+La nourriture reste en sécurité dans le sac isotherme alors qu'elle navigue à travers la ville. Des prises de vue par drone révèlent des blocs de la ville de style Tokyo et des intersections animées. Des gros plans la montrent vérifiant la navigation sur son téléphone aux feux de circulation et confirmant le lieu de livraison.
+
+Elle arrive dans un quartier résidentiel calme. La caméra la suit marchant jusqu'à la porte d'entrée du client avec le repas chaud. Elle sonne poliment à la porte et attend. Le client ouvre la porte avec un sourire. Elle remet le paquet de nourriture avec courtoisie professionnelle et une révérence amicale.
+
+Gros plan du client ouvrant le sac et voyant la vapeur chaude s'élever du repas fraîchement livré. Le client sourit avec appréciation et fait un signe de pouce levé. Le livreur reçoit une notification de livraison positive sur son téléphone.
+
+La séquence finale la montre retournant à son scooter, vérifiant l'état de sa livraison terminée, souriant avec satisfaction et repartant vers la prochaine commande alors que le soleil se couche sur la ville.
+
+Style : Publicité réaliste en prise de vue réelle, esthétique japonaise tranche de vie, publicité de livraison de nourriture, ambiance de vlog UGC mélangée à une réalisation cinématographique.
+
+Caméra : Prises de vue à la main, suivi avec stabilisateur, caméra montée sur scooter, révélations de la ville par drone, gros plans de nourriture, transitions cinématographiques fluides.
+
+Qualité visuelle : Ultra-réaliste, éclairage naturel, faible profondeur de champ, atmosphère authentique de ville japonaise, couleurs urbaines vibrantes, qualité commerciale premium, 4K HDR, écran large 16:9.
+
+Ambiance : Amicale, énergique, fiable, réchauffant le cœur, histoire de héros du quotidien, expérience authentique de livraison de nourriture.
+
+Negative Prompt : Animation, style Pixar, personnages de dessin animé, paysage urbain irréaliste, éléments fantastiques, nourriture floue, rues vides, rendu de basse qualité, expressions exagérées, véhicules irréalistes, sous-titres, superpositions de texte, filigranes.
+```
+
+## 出处与许可
+
+- 原作者：[Smiling Khan](https://x.com/AIwithkhan) · 原帖：<https://x.com/AIwithkhan/status/2068907293220180011>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2068907293220180011.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

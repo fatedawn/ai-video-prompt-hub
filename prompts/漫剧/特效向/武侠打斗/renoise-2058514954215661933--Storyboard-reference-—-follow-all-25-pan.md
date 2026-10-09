@@ -1,0 +1,129 @@
+---
+id: "renoise-2058514954215661933"
+title: "Storyboard reference — follow all 25 panels, camera directions, arrow…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "漫剧"
+direction: "特效向"
+genre: "武侠打斗"
+art_style: "2D日漫"
+tags: ["Seedance 2.0", "Renoise", "Action", "Wuxia", "Anime 2D", "Sci-Fi", "Slow-Mo"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058514954215661933.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "Cia0"
+original_author_url: "https://x.com/Cia0_exe"
+original_post_url: "https://x.com/Cia0_exe/status/2058514954215661933"
+published: "2026-05-24"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Storyboard reference — follow all 25 panels, camera directions, arrow…
+
+## 提示词（English）
+
+```text
+Storyboard reference — follow all 25 panels, camera directions, arrow movements, and action sequence exactly as shown. High quality anime cinematic. Young woman, long wavy dark-red hair, amber eyes, white sailor shirt, red necktie, black skirt, gold haori, red tassels, black thigh-high socks, red sneakers, katana. Rainy Tokyo alley, neon signs, red lanterns, wet ground. She spins with powerful back kick sending last figure tumbling into neon sign, sign shatters with blue-white electric sparks. She sheathes katana in one smooth motion facing away. All figures down around her. Hair and haori slowly settle. Slow-motion rain. Neon reflects in puddles. Visible cold breath in night air. Camera pulls back wide, her small figure glowing in neon alley light. Negative prompt: static, idle, freeze frame, no movement, 3D render, chibi, blurry, watermark, western cartoon.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058514954215661933.json)
+
+```text
+---
+Referencia de storyboard — sigue los 25 paneles, direcciones de cámara, movimientos de flechas y secuencia de acción exactamente como se muestra. Cinemática de anime de alta calidad. Joven mujer, cabello largo y ondulado de color rojo oscuro, ojos ámbar, camisa blanca de marinero, corbata roja, falda negra, haori dorado, borlas rojas, calcetas negras hasta el muslo, zapatillas rojas, katana. Callejón lluvioso de Tokio, letreros de neón, faroles rojos, suelo mojado. Ella gira con una poderosa patada trasera enviando a la última figura a estrellarse contra un letrero de neón, el letrero se rompe con chispas eléctricas azul-blanco. Envaina la katana en un movimiento suave de espaldas. Todas las figuras caídas a su alrededor. El cabello y el haori se asientan lentamente. Lluvia en cámara lenta. El neón se refleja en los charcos. Aliento visible en el aire nocturno. La cámara se aleja, su pequeña figura brillando en la luz del callejón de neón. Negative prompt: static, idle, freeze frame, no movement, 3D render, chibi, blurry, watermark, western cartoon.
+
+--- CONTINUACIÓN DEL HILO ---
+[Hilo 1] @ Imagen1 = Referencia de storyboard — sigue los 25 paneles, direcciones de cámara, movimientos de flechas y secuencia de acción exactamente como se muestra.
+Cinemática de anime de alta calidad. Joven mujer, cabello largo y ondulado de color rojo oscuro, ojos ámbar, camisa blanca de marinero, corbata roja, falda negra, haori dorado, borlas rojas, calcetas negras hasta el muslo, zapatillas rojas, katana. Callejón lluvioso de Tokio, letreros de neón, faroles rojos, suelo mojado. Ella gira con una poderosa patada trasera enviando a la última figura a estrellarse contra un letrero de neón, el letrero se rompe con chispas eléctricas azul-blanco. Envaina la katana en un movimiento suave de espaldas. Todas las figuras caídas a su alrededor. El cabello y el haori se asientan lentamente. Lluvia en cámara lenta. El neón se refleja en los charcos. Aliento visible en el aire nocturno. La cámara se aleja, su pequeña figura brillando en la luz del callejón de neón. Negative prompt: static, idle, freeze frame, no movement, 3D render, chibi, blurry, watermark, western cartoon.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058514954215661933.json)
+
+```text
+---
+Référence de storyboard — suivez exactement les 25 panneaux, les directions de la caméra, les mouvements de flèche et la séquence d'action comme indiqué. Cinématique anime de haute qualité. Jeune femme, longs cheveux ondulés rouge foncé, yeux ambrés, chemise de marin blanche, cravate rouge, jupe noire, haori doré, glands rouges, chaussettes hautes noires, baskets rouges, katana. Ruelle pluvieuse de Tokyo, enseignes au néon, lanternes rouges, sol mouillé. Elle tourne avec un puissant coup de pied arrière envoyant la dernière silhouette s'écraser contre une enseigne au néon, l'enseigne éclate avec des étincelles électriques bleu-blanc. Elle rengaine son katana d'un geste fluide en tournant le dos. Toutes les figures sont à terre autour d'elle. Les cheveux et le haori se posent lentement. Pluie au ralenti. Le néon se reflète dans les flaques. Souffle visible dans l'air nocturne. La caméra recule en grand angle, sa petite silhouette brillant dans la lumière de la ruelle au néon. Negative prompt: static, idle, freeze frame, no movement, 3D render, chibi, blurry, watermark, western cartoon.
+
+--- CONTINUATION DU FIL ---
+[Fil 1] @ Image1 = Référence de storyboard — suivez exactement les 25 panneaux, les directions de la caméra, les mouvements de flèche et la séquence d'action comme indiqué.
+Cinématique anime de haute qualité. Jeune femme, longs cheveux ondulés rouge foncé, yeux ambrés, chemise de marin blanche, cravate rouge, jupe noire, haori doré, glands rouges, chaussettes hautes noires, baskets rouges, katana. Ruelle pluvieuse de Tokyo, enseignes au néon, lanternes rouges, sol mouillé. Elle tourne avec un puissant coup de pied arrière envoyant la dernière silhouette s'écraser contre une enseigne au néon, l'enseigne éclate avec des étincelles électriques bleu-blanc. Elle rengaine son katana d'un geste fluide en tournant le dos. Toutes les figures sont à terre autour d'elle. Les cheveux et le haori se posent lentement. Pluie au ralenti. Le néon se reflète dans les flaques. Souffle visible dans l'air nocturne. La caméra recule en grand angle, sa petite silhouette brillant dans la lumière de la ruelle au néon. Negative prompt: static, idle, freeze frame, no movement, 3D render, chibi, blurry, watermark, western cartoon.
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058514954215661933.json)
+
+```text
+---
+ストーリーボード参照 — 25枚のパネル、カメラの動き、矢印の動き、アクションシーケンスをすべて正確に従ってください。高品質なアニメシネマティック。若い女性、長い波状の暗赤色の髪、琥珀色の目、白いセーラーシャツ、赤いネクタイ、黒いスカート、金の羽織、赤い房飾り、黒のニーハイソックス、赤いスニーカー、刀。雨の東京の路地、ネオンサイン、赤い提灯、濡れた地面。彼女は強力な後ろ蹴りで最後の人物をネオンサインにぶつけ、サインは青白い電気火花と共に粉々に砕ける。彼女は刀を滑らかに納刀し、背を向ける。周囲の全ての人物が倒れている。髪と羽織がゆっくりと落ち着く。スローモーションの雨。ネオンが水たまりに反射する。夜の空気に見える冷たい息。カメラが引いて広がり、彼女の小さな姿がネオンの路地の光に輝く。ネガティブプロンプト: static, idle, freeze frame, no movement, 3D render, chibi, blurry, watermark, western cartoon.
+
+--- THREAD CONTINUATION ---
+[Thread 1] @ Image1 = ストーリーボード参照 — 25枚のパネル、カメラの動き、矢印の動き、アクションシーケンスをすべて正確に従ってください。
+高品質なアニメシネマティック。若い女性、長い波状の暗赤色の髪、琥珀色の目、白いセーラーシャツ、赤いネクタイ、黒いスカート、金の羽織、赤い房飾り、黒のニーハイソックス、赤いスニーカー、刀。雨の東京の路地、ネオンサイン、赤い提灯、濡れた地面。彼女は強力な後ろ蹴りで最後の人物をネオンサインにぶつけ、サインは青白い電気火花と共に粉々に砕ける。彼女は刀を滑らかに納刀し、背を向ける。周囲の全ての人物が倒れている。髪と羽織がゆっくりと落ち着く。スローモーションの雨。ネオンが水たまりに反射する。夜の空気に見える冷たい息。カメラが引いて広がり、彼女の小さな姿がネオンの路地の光に輝く。ネガティブプロンプト: static, idle, freeze frame, no movement, 3D render, chibi, blurry, watermark, western cartoon.
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058514954215661933.json)
+
+```text
+---
+스토리보드 참조 — 25개의 모든 패널, 카메라 방향, 화살표 움직임, 액션 시퀀스를 정확히 따르세요. 고품질 애니메이션 시네마틱. 젊은 여성, 긴 웨이브의 짙은 적갈색 머리, 호박색 눈, 흰색 세일러 셔츠, 빨간 넥타이, 검은 치마, 금색 하오리, 빨간 술, 검은색 니하이 양말, 빨간 운동화, 카타나. 비 오는 도쿄 골목, 네온사인, 빨간 등불, 젖은 바닥. 그녀는 강력한 뒤돌려차기로 마지막 인물을 네온사인으로 날려버리고, 사인은 파란-흰 전기 스파크와 함께 산산조각 납니다. 그녀는 부드럽게 카타나를 칼집에 넣고 뒤돌아섭니다. 그녀 주위에 모든 인물들이 쓰러져 있습니다. 머리카락과 하오리가 천천히 가라앉습니다. 슬로우 모션 비. 네온이 물웅덩이에 반사됩니다. 밤 공기에 보이는 차가운 숨결. 카메라가 넓게 뒤로 당겨지며, 네온 골목 빛 속에서 그녀의 작은 모습이 빛납니다. Negative prompt: static, idle, freeze frame, no movement, 3D render, chibi, blurry, watermark, western cartoon.
+
+--- THREAD CONTINUATION ---
+[Thread 1] @ Image1 = 스토리보드 참조 — 25개의 모든 패널, 카메라 방향, 화살표 움직임, 액션 시퀀스를 정확히 따르세요.
+고품질 애니메이션 시네마틱. 젊은 여성, 긴 웨이브의 짙은 적갈색 머리, 호박색 눈, 흰색 세일러 셔츠, 빨간 넥타이, 검은 치마, 금색 하오리, 빨간 술, 검은색 니하이 양말, 빨간 운동화, 카타나. 비 오는 도쿄 골목, 네온사인, 빨간 등불, 젖은 바닥. 그녀는 강력한 뒤돌려차기로 마지막 인물을 네온사인으로 날려버리고, 사인은 파란-흰 전기 스파크와 함께 산산조각 납니다. 그녀는 부드럽게 카타나를 칼집에 넣고 뒤돌아섭니다. 그녀 주위에 모든 인물들이 쓰러져 있습니다. 머리카락과 하오리가 천천히 가라앉습니다. 슬로우 모션 비. 네온이 물웅덩이에 반사됩니다. 밤 공기에 보이는 차가운 숨결. 카메라가 넓게 뒤로 당겨지며, 네온 골목 빛 속에서 그녀의 작은 모습이 빛납니다. Negative prompt: static, idle, freeze frame, no movement, 3D render, chibi, blurry, watermark, western cartoon.
+---
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058514954215661933.json)
+
+```text
+---
+Referência de storyboard — siga todos os 25 painéis, direções de câmera, movimentos de seta e sequência de ação exatamente como mostrado. Cinemática de anime de alta qualidade. Jovem mulher, cabelo longo e ondulado vermelho-escuro, olhos âmbar, camisa branca de marinheiro, gravata vermelha, saia preta, haori dourado, borlas vermelhas, meias pretas até a coxa, tênis vermelhos, katana. Beco chuvoso em Tóquio, letreiros de néon, lanternas vermelhas, chão molhado. Ela gira com um poderoso chute para trás, lançando a última figura contra o letreiro de néon, que se estilhaça com faíscas elétricas azul-brancas. Ela embainha a katana em um movimento suave, de costas. Todas as figuras caídas ao redor dela. Cabelo e haori se acomodam lentamente. Chuva em câmera lenta. Néon reflete nas poças. Respiração fria visível no ar noturno. A câmera se afasta, sua pequena figura brilhando na luz do beco de néon. Negative prompt: static, idle, freeze frame, no movement, 3D render, chibi, blurry, watermark, western cartoon.
+
+--- CONTINUAÇÃO DA THREAD ---
+[Thread 1] @ Image1 = Referência de storyboard — siga todos os 25 painéis, direções de câmera, movimentos de seta e sequência de ação exatamente como mostrado.
+Cinemática de anime de alta qualidade. Jovem mulher, cabelo longo e ondulado vermelho-escuro, olhos âmbar, camisa branca de marinheiro, gravata vermelha, saia preta, haori dourado, borlas vermelhas, meias pretas até a coxa, tênis vermelhos, katana. Beco chuvoso em Tóquio, letreiros de néon, lanternas vermelhas, chão molhado. Ela gira com um poderoso chute para trás, lançando a última figura contra o letreiro de néon, que se estilhaça com faíscas elétricas azul-brancas. Ela embainha a katana em um movimento suave, de costas. Todas as figuras caídas ao redor dela. Cabelo e haori se acomodam lentamente. Chuva em câmera lenta. Néon reflete nas poças. Respiração fria visível no ar noturno. A câmera se afasta, sua pequena figura brilhando na luz do beco de néon. Negative prompt: static, idle, freeze frame, no movement, 3D render, chibi, blurry, watermark, western cartoon.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058514954215661933.json)
+
+```text
+---
+分镜参考——严格按照所有25个画面、摄像机方向、箭头移动和动作序列进行。高质量动漫电影感。年轻女子，长长的波浪形深红色头发，琥珀色眼睛，白色水手衬衫，红色领带，黑色裙子，金色羽织，红色流苏，黑色过膝袜，红色运动鞋，武士刀。东京雨夜小巷，霓虹灯，红色灯笼，湿漉漉的地面。她旋转，强力后踢将最后一个身影踢入霓虹灯牌，灯牌碎裂，蓝白色电火花四溅。她一气呵成地将武士刀入鞘，背对着。周围所有人都倒下。头发和羽织慢慢落下。慢动作雨。霓虹灯倒映在水洼中。夜空中可见的冷气。镜头拉远，她的小身影在霓虹灯巷中发光。负面提示：静态，闲置，定格，无动作，3D渲染，Q版，模糊，水印，西方卡通。
+
+--- 线程继续 ---
+[线程1] @ 图片1 = 分镜参考——严格按照所有25个画面、摄像机方向、箭头移动和动作序列进行。
+高质量动漫电影感。年轻女子，长长的波浪形深红色头发，琥珀色眼睛，白色水手衬衫，红色领带，黑色裙子，金色羽织，红色流苏，黑色过膝袜，红色运动鞋，武士刀。东京雨夜小巷，霓虹灯，红色灯笼，湿漉漉的地面。她旋转，强力后踢将最后一个身影踢入霓虹灯牌，灯牌碎裂，蓝白色电火花四溅。她一气呵成地将武士刀入鞘，背对着。周围所有人都倒下。头发和羽织慢慢落下。慢动作雨。霓虹灯倒映在水洼中。夜空中可见的冷气。镜头拉远，她的小身影在霓虹灯巷中发光。负面提示：静态，闲置，定格，无动作，3D渲染，Q版，模糊，水印，西方卡通。
+---
+```
+
+## 出处与许可
+
+- 原作者：[Cia0](https://x.com/Cia0_exe) · 原帖：<https://x.com/Cia0_exe/status/2058514954215661933>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2058514954215661933.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

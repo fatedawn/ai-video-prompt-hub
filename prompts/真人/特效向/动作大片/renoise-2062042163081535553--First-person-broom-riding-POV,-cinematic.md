@@ -1,0 +1,100 @@
+---
+id: "renoise-2062042163081535553"
+title: "First-person broom-riding POV, cinematic ultra-fast one-take chase. Strictly…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "真人"
+direction: "特效向"
+genre: "动作大片"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Action", "Chase", "Photoreal", "Fantasy", "POV", "VFX"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2062042163081535553.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "👽 ǝdɐ˙ǝᴉdsǝɥƆ"
+original_author_url: "https://x.com/justchespie"
+original_post_url: "https://x.com/justchespie/status/2062042163081535553"
+published: "2026-06-03"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# First-person broom-riding POV, cinematic ultra-fast one-take chase. Strictly…
+
+## 提示词（English）
+
+```text
+First-person broom-riding POV, cinematic ultra-fast one-take chase. Strictly follow the red flight path in the image. The Golden Snitch stays ahead as the main chase target, but it should not stay fixed in the center. It moves left, right, up, and down during the flight, making the chase feel more alive. Only show the broom handle, gloved hands, and red sleeves. Never show the rider’s face. Chase through the stadium, around the towers, over Black Lake, through the bridge arch, and back to the pitch for the final catch. No red lines, no arrows, no broken broom, no duplicate faces, no jump cuts.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2062042163081535553.json)
+
+```text
+---
+POV en primera persona montando una escoba, persecución cinematográfica ultra-rápida en una sola toma. Sigue estrictamente la ruta de vuelo roja en la imagen. La Snitch Dorada se mantiene adelante como el objetivo principal de la persecución, pero no debe permanecer fija en el centro. Se mueve a la izquierda, derecha, arriba y abajo durante el vuelo, haciendo que la persecución se sienta más viva. Solo muestra el mango de la escoba, las manos enguantadas y las mangas rojas. Nunca muestres el rostro del jinete. Persigue a través del estadio, alrededor de las torres, sobre el Lago Negro, a través del arco del puente y de regreso al campo para la captura final. Sin líneas rojas, sin flechas, sin escoba rota, sin rostros duplicados, sin cortes bruscos.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2062042163081535553.json)
+
+```text
+---
+POV à la première personne sur un balai en vol, poursuite cinématographique ultra-rapide en une seule prise. Suivez strictement le chemin de vol rouge sur l'image. Le Vif d'Or reste en tête comme principal objectif de la poursuite, mais ne doit pas rester fixe au centre. Il se déplace à gauche, à droite, en haut et en bas pendant le vol, rendant la poursuite plus vivante. Ne montrez que le manche du balai, les mains gantées et les manches rouges. Ne montrez jamais le visage du cavalier. Poursuivez à travers le stade, autour des tours, au-dessus du Lac Noir, à travers l'arche du pont, et retournez sur le terrain pour l'attraper finalement. Pas de lignes rouges, pas de flèches, pas de balai cassé, pas de visages en double, pas de coupes brusques.
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2062042163081535553.json)
+
+```text
+---
+一人称視点の箒に乗ったPOV、シネマティックで超高速のワンテイクチェイス。画像の赤い飛行経路を厳密に追従してください。ゴールデンスニッチはメインの追跡対象として先行しますが、中央に固定されるべきではありません。飛行中に左、右、上、下に動き、追跡をより生き生きと感じさせます。見せるのは箒の柄、手袋をした手、赤い袖のみです。ライダーの顔は決して見せないでください。スタジアムを通り、塔の周りを回り、ブラックレイクの上を飛び、橋のアーチをくぐり、最終キャッチのためにピッチに戻ります。赤い線、矢印、壊れた箒、重複した顔、ジャンプカットはありません。
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2062042163081535553.json)
+
+```text
+---
+일인칭 빗자루 타기 POV, 시네마틱 초고속 원테이크 추격. 이미지의 빨간 비행 경로를 엄격히 따르세요. 골든 스니치가 주요 추격 목표로 앞서가지만, 중앙에 고정되어 있지 않아야 합니다. 비행 중 왼쪽, 오른쪽, 위, 아래로 움직여 추격이 더 생동감 있게 느껴지도록 합니다. 빗자루 손잡이, 장갑 낀 손, 빨간 소매만 보여주세요. 절대 타는 사람의 얼굴을 보여주지 마세요. 경기장을 통과하고, 탑 주위를 돌고, 검은 호수를 넘고, 다리 아치를 통과하여 마지막 잡기를 위해 경기장으로 돌아옵니다. 빨간 선, 화살표, 부러진 빗자루, 중복된 얼굴, 점프 컷은 없습니다.
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2062042163081535553.json)
+
+```text
+---
+POV em primeira pessoa de voo de vassoura, perseguição cinematográfica ultra-rápida em uma única tomada. Siga estritamente o caminho de voo vermelho na imagem. O Pomo de Ouro permanece à frente como o principal alvo da perseguição, mas não deve ficar fixo no centro. Ele se move para a esquerda, direita, para cima e para baixo durante o voo, tornando a perseguição mais viva. Mostre apenas o cabo da vassoura, mãos com luvas e mangas vermelhas. Nunca mostre o rosto do piloto. Persiga através do estádio, ao redor das torres, sobre o Lago Negro, através do arco da ponte e de volta ao campo para a captura final. Sem linhas vermelhas, sem setas, sem vassoura quebrada, sem rostos duplicados, sem cortes abruptos.
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2062042163081535553.json)
+
+```text
+---
+第一人称扫帚骑行视角，电影级超快一镜到底追逐。严格遵循图像中的红色飞行路径。金色飞贼作为主要追逐目标始终在前，但不应固定在中心。它在飞行过程中向左、向右、向上和向下移动，使追逐更具活力。只显示扫帚柄、戴手套的手和红色袖子。绝不显示骑手的脸。追逐穿过体育场、绕过塔楼、飞越黑湖、穿过桥拱，然后返回球场进行最后的捕捉。没有红线、没有箭头、没有破损的扫帚、没有重复的面孔、没有跳切。
+```
+
+## 出处与许可
+
+- 原作者：[👽 ǝdɐ˙ǝᴉdsǝɥƆ](https://x.com/justchespie) · 原帖：<https://x.com/justchespie/status/2062042163081535553>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2062042163081535553.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

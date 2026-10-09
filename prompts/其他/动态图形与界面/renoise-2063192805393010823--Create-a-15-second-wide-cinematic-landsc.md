@@ -1,0 +1,179 @@
+---
+id: "renoise-2063192805393010823"
+title: "Create a 15-second wide cinematic landscape video intro, 16:9, using Seedance…"
+title_en: null
+model: "Seedance 2.0"
+language: "en"
+medium: "其他"
+direction: null
+genre: "动态图形与界面"
+art_style: null
+tags: ["Seedance 2.0", "Renoise", "Scenery & Spectacle", "Landmark", "Surreal", "Realistic World", "VFX", "Transformation"]
+source_repo: "renoise-ai/awesome-seedance-prompts"
+source_url: "https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2063192805393010823.json"
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+original_author: "ÀBDŪLLÂH"
+original_author_url: "https://x.com/itxabdullaa"
+original_post_url: "https://x.com/itxabdullaa/status/2063192805393010823"
+published: "2026-06-06"
+third_party_author: true
+flags: []
+also_in: []
+source_page: null
+classification: "auto"
+changes: "仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。"
+output_status: "output_unverified"
+verification: "attribution_checked"
+---
+
+# Create a 15-second wide cinematic landscape video intro, 16:9, using Seedance…
+
+## 提示词（English）
+
+```text
+Create a 15-second wide cinematic landscape video intro, 16:9, using Seedance 2.0 style motion. A seamless one-take digital paper collage animation acting as a direct continuation of Part 1, inspired by classic 1950s–1960s illustrated Japan travel books and mid-century tourism posters.
+
+The video combines realistic photographic magazine cutouts of Japan with hand-drawn paper illustration elements, featuring stop-motion cutout animation, torn paper edges, visible paper grain, offset print texture, halftone dots, and layered collage depth. Keep generous off-white negative space throughout, maintaining a nostalgic, elegant, and optimistic mood. The camera moves continuously in one smooth, rhythmic tracking shot with dynamic parallax.
+
+**Timeline flow:**
+
+* **From 0 to 4 seconds:** Begin seamlessly from the off-white paper background as a sleek, stylized photographic cutout of a vintage Shinkansen (bullet train) emerges, slicing horizontally across the lower third of the frame with a snappy stop-motion glide. Above it, dramatic, layered paper waves inspired by traditional woodblock prints swell and fold with rhythmic, accordion-style motion. A striking photographic cutout of the Itsukushima Torii gate "floats" dynamically on the paper water, surrounded by tiny, hand-drawn paper deer that pop up and tilt their heads with charming, imperfect handmade shapes.
+* **From 4 to 8 seconds:** The camera tracks smoothly into a bustling, retro-modern Osaka-inspired streetscape. Towering paper layers slide in from the sides, depicting layered food culture. Giant, whimsical gouache-painted paper cutouts of takoyaki (octopus balls) and steaming ramen bowls flip into the foreground, steam rendered as swirling offset-print paper ribbons. Illustrated neon-style signs—rendered in flat, muted mid-century color blocks of vermilion, mustard yellow, and soft teal—slide vertically like a pop-up book. All text and signs remain abstract, stylized, and completely unreadable with no real brands.
+* **From 8 to 12 seconds:** Transition seamlessly into the historic, snow-capped village landscape of Shirakawa-go. The composition opens up with massive, elegant off-white negative space. Traditional gassho-zukuri thatched-roof houses constructed from layered, textured brown paper strips and white pastel pencil marks "unfold" from the ground. Tiny illustrated figures wrapped in winter coats slide into view, looking up as delicate, hand-cut paper snowflakes gently drift and rotate down the screen in a rhythmic, tactile After Effects-style motion graphics sequence.
+* **From 12 to 15 seconds:** The serene winter village collage suddenly opens up, and all Japan collage elements from this sequence—the Shinkansen, woodblock waves, floating torii, deer, food cutouts, abstract Osaka signs, thatched houses, and snowflakes—swirl gracefully toward the center like a paper whirlwind. The pieces flatten, align, and transform into the official uploaded logo asset at the exact center of the screen. The final background resolves into a solid warm color with a subtle, premium paper grain texture.
+
+Visual style: mid-century Japanese travel poster, vintage illustrated Japan guidebook, handmade gouache and pastel textures, paper collage, magazine clipping, warm off-white background, softened traditional Japanese color palette.
+```
+
+## 其他语言版本（上游仓库提供，非本仓库翻译）
+
+### 上游提供的Español版本（translations.es）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2063192805393010823.json)
+
+```text
+Crea un video de introducción de paisaje cinematográfico amplio de 15 segundos, 16:9, utilizando el estilo de movimiento Seedance 2.0. Una animación de collage de papel digital en una sola toma continua, actuando como una continuación directa de la Parte 1, inspirada en los libros de viaje ilustrados de Japón de los años 1950-1960 y los carteles turísticos de mediados de siglo.
+
+El video combina recortes fotográficos realistas de revistas de Japón con elementos de ilustración en papel dibujados a mano, presentando animación de recortes en stop-motion, bordes de papel rasgado, grano de papel visible, textura de impresión offset, puntos de semitono y profundidad de collage en capas. Mantén un generoso espacio negativo en blanco roto a lo largo, manteniendo un ambiente nostálgico, elegante y optimista. La cámara se mueve continuamente en un seguimiento suave y rítmico con un paralaje dinámico.
+
+**Flujo de la línea de tiempo:**
+
+* **De 0 a 4 segundos:** Comienza sin interrupciones desde el fondo de papel blanco roto mientras emerge un recorte fotográfico estilizado y elegante de un Shinkansen vintage (tren bala), cortando horizontalmente el tercio inferior del cuadro con un deslizamiento ágil en stop-motion. Sobre él, dramáticas olas de papel en capas inspiradas en grabados tradicionales en madera se hinchan y pliegan con un movimiento rítmico estilo acordeón. Un llamativo recorte fotográfico de la puerta torii de Itsukushima "flota" dinámicamente sobre el agua de papel, rodeado de pequeños ciervos de papel dibujados a mano que aparecen y giran sus cabezas con encantadoras formas imperfectas hechas a mano.
+* **De 4 a 8 segundos:** La cámara sigue suavemente hacia un paisaje urbano bullicioso y retro-moderno inspirado en Osaka. Capas de papel imponentes se deslizan desde los lados, representando la cultura gastronómica en capas. Recortes de papel pintados con gouache gigantes y caprichosos de takoyaki (bolas de pulpo) y tazones de ramen humeantes giran hacia el primer plano, el vapor se representa como cintas de papel de impresión offset en espiral. Carteles ilustrados al estilo neón—representados en bloques de color apagados de mediados de siglo de bermellón, amarillo mostaza y azul verdoso suave—se deslizan verticalmente como un libro emergente. Todo el texto y los carteles permanecen abstractos, estilizados y completamente ilegibles sin marcas reales.
+* **De 8 a 12 segundos:** Transición sin interrupciones hacia el paisaje de pueblo histórico cubierto de nieve de Shirakawa-go. La composición se abre con un espacio negativo blanco roto masivo y elegante. Casas tradicionales de techo de paja gassho-zukuri construidas a partir de tiras de papel marrón texturizado en capas y marcas de lápiz pastel blanco "se despliegan" desde el suelo. Pequeñas figuras ilustradas envueltas en abrigos de invierno se deslizan a la vista, mirando hacia arriba mientras delicados copos de nieve de papel cortados a mano flotan y giran suavemente por la pantalla en una secuencia de gráficos en movimiento estilo After Effects rítmica y táctil.
+* **De 12 a 15 segundos:** El sereno collage de pueblo invernal se abre de repente, y todos los elementos del collage de Japón de esta secuencia—el Shinkansen, las olas de grabado en madera, el torii flotante, los ciervos, los recortes de comida, los carteles abstractos de Osaka, las casas de paja y los copos de nieve—giran graciosamente hacia el centro como un torbellino de papel. Las piezas se aplanan, alinean y transforman en el logotipo oficial subido en el centro exacto de la pantalla. El fondo final se resuelve en un color cálido sólido con una textura de grano de papel sutil y premium.
+
+Estilo visual: cartel de viaje japonés de mediados de siglo, guía ilustrada de Japón vintage, texturas de gouache y pastel hechas a mano, collage de papel, recorte de revista, fondo cálido en blanco roto, paleta de colores tradicional japonesa suavizada.
+```
+
+### 上游提供的fr版本（translations.fr）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2063192805393010823.json)
+
+```text
+---
+Créez une vidéo d'introduction cinématographique de paysage large de 15 secondes, 16:9, en utilisant le style de mouvement Seedance 2.0. Une animation de collage numérique en une seule prise, agissant comme une continuation directe de la Partie 1, inspirée par les livres de voyage illustrés du Japon des années 1950-1960 et les affiches touristiques du milieu du siècle.
+
+La vidéo combine des découpages photographiques réalistes de magazines sur le Japon avec des éléments d'illustration en papier dessinés à la main, mettant en vedette une animation en stop-motion de découpages, des bords de papier déchirés, un grain de papier visible, une texture d'impression en offset, des points en demi-teinte et une profondeur de collage en couches. Gardez un espace négatif généreux de couleur blanc cassé tout au long, maintenant une ambiance nostalgique, élégante et optimiste. La caméra se déplace continuellement dans un mouvement de suivi fluide et rythmique avec un parallaxe dynamique.
+
+**Flux de la chronologie :**
+
+* **De 0 à 4 secondes :** Commencez sans transition depuis le fond de papier blanc cassé alors qu'un découpage photographique élégant et stylisé d'un Shinkansen vintage (train à grande vitesse) émerge, tranchant horizontalement le tiers inférieur du cadre avec un glissement vif en stop-motion. Au-dessus, des vagues de papier superposées et dramatiques inspirées des estampes traditionnelles se gonflent et se replient avec un mouvement rythmique en accordéon. Un découpage photographique saisissant du torii flottant d'Itsukushima "flotte" dynamiquement sur l'eau de papier, entouré de petits cerfs en papier dessinés à la main qui surgissent et inclinent la tête avec des formes charmantes et imparfaites faites à la main.
+* **De 4 à 8 secondes :** La caméra suit en douceur dans un paysage urbain animé, rétro-moderne inspiré d'Osaka. Des couches de papier imposantes glissent des côtés, représentant la culture alimentaire en couches. D'énormes découpages en papier peints à la gouache de takoyaki (boulettes de poulpe) et de bols de ramen fumants basculent au premier plan, la vapeur étant rendue comme des rubans de papier en offset tourbillonnants. Des enseignes illustrées de style néon—rendues dans des blocs de couleurs plates et atténuées du milieu du siècle en vermillon, jaune moutarde et bleu sarcelle doux—glissent verticalement comme un livre pop-up. Tout le texte et les enseignes restent abstraits, stylisés, et complètement illisibles sans marques réelles.
+* **De 8 à 12 secondes :** Transition sans couture vers le paysage de village historique enneigé de Shirakawa-go. La composition s'ouvre avec un espace négatif massif et élégant de couleur blanc cassé. Les maisons traditionnelles au toit de chaume gassho-zukuri construites à partir de bandes de papier brun texturé et de marques de crayon pastel blanc "se déploient" depuis le sol. De petites figures illustrées enveloppées dans des manteaux d'hiver glissent dans le champ de vision, levant les yeux alors que de délicats flocons de neige en papier découpés à la main dérivent et tournent doucement à l'écran dans une séquence graphique en mouvement de style After Effects rythmique et tactile.
+* **De 12 à 15 secondes :** Le collage serein du village d'hiver s'ouvre soudainement, et tous les éléments du collage japonais de cette séquence—le Shinkansen, les vagues en bois, le torii flottant, les cerfs, les découpages alimentaires, les enseignes abstraites d'Osaka, les maisons au toit de chaume et les flocons de neige—tourbillonnent gracieusement vers le centre comme un tourbillon de papier. Les pièces s'aplatissent, s'alignent et se transforment en l'élément de logo officiel téléchargé au centre exact de l'écran. L'arrière-plan final se résout en une couleur chaude et solide avec une texture subtile de grain de papier premium.
+
+Style visuel : affiche de voyage japonaise du milieu du siècle, guide illustré vintage du Japon, textures faites à la main à la gouache et au pastel, collage de papier, découpage de magazine, fond chaud blanc cassé, palette de couleurs traditionnelles japonaises adoucies.
+---
+```
+
+### 上游提供的日本語版本（translations.ja）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2063192805393010823.json)
+
+```text
+---
+Seedance 2.0スタイルのモーションを使用して、15秒のワイドなシネマティックな風景ビデオイントロを作成します。1950年代から1960年代の日本の旅行本やミッドセンチュリーの観光ポスターにインスパイアされた、パート1の直接的な続編としてのシームレスなワンテイクのデジタルペーパーコラージュアニメーションです。
+
+このビデオは、日本のリアルな写真雑誌の切り抜きと手描きの紙のイラスト要素を組み合わせ、ストップモーションの切り抜きアニメーション、破れた紙の縁、見える紙の粒、オフセット印刷のテクスチャ、ハーフトーンのドット、レイヤードコラージュの深さを特徴としています。全体を通して寛大なオフホワイトのネガティブスペースを保ち、ノスタルジックでエレガント、そして楽観的なムードを維持します。カメラは一貫してスムーズでリズミカルなトラッキングショットで動き、ダイナミックなパララックスを持ちます。
+
+**タイムラインの流れ:**
+
+* **0秒から4秒:** オフホワイトの紙の背景からシームレスに始まり、ヴィンテージ新幹線のスタイリッシュな写真切り抜きがフレームの下3分の1を水平にスライスしながらスナッピーなストップモーショングライドで現れます。その上には、伝統的な木版画にインスパイアされた劇的なレイヤードペーパーウェーブがリズミカルなアコーディオンスタイルの動きで膨らみ、折りたたまれます。紙の水面に浮かぶ厳島鳥居の印象的な写真切り抜きがダイナミックに「浮かび」、小さな手描きの紙の鹿がポップアップし、魅力的で不完全な手作りの形で頭を傾けます。
+* **4秒から8秒:** カメラはスムーズにレトロモダンな大阪風の街並みにトラックインします。側面からスライドインする紙のレイヤーが、レイヤードな食文化を描写します。巨大で風変わりなガッシュペイントの紙切り抜きのたこ焼きや蒸気の立ち上るラーメンのボウルが前景にフリップし、蒸気は渦巻くオフセット印刷の紙リボンとして描かれます。イラストされたネオンスタイルのサインは、朱色、マスタードイエロー、ソフトティールのミッドセンチュリーのカラーブロックでレンダリングされ、ポップアップブックのように垂直にスライドします。すべてのテキストとサインは抽象的でスタイライズされ、実際のブランドは一切読み取れません。
+* **8秒から12秒:** 歴史的な白川郷の雪に覆われた村の風景にシームレスに移行します。構図は巨大でエレガントなオフホワイトのネガティブスペースで広がります。伝統的な合掌造りの茅葺き屋根の家が、レイヤードでテクスチャのある茶色の紙ストリップと白いパステル鉛筆のマークから「展開」されます。冬のコートを着た小さなイラストの人物が視界に滑り込み、繊細な手切りの紙の雪片がリズミカルで触感的なAfter Effectsスタイルのモーショングラフィックスシーケンスで画面に優雅に漂い回転します。
+* **12秒から15秒:** 静かな冬の村のコラージュが突然開き、このシーケンスのすべての日本のコラージュ要素—新幹線、木版画の波、浮かぶ鳥居、鹿、食べ物の切り抜き、抽象的な大阪のサイン、茅葺きの家、雪片—が紙の旋風のように中心に優雅に渦巻きます。ピースは平らになり、整列し、画面の正確な中心で公式のアップロードされたロゴアセットに変形します。最終的な背景は、微妙で高級な紙の粒のテクスチャを持つ温かい色に解決します。
+
+ビジュアルスタイル: ミッドセンチュリーの日本旅行ポスター、ヴィンテージのイラスト付き日本ガイドブック、手作りのガッシュとパステルのテクスチャ、紙のコラージュ、雑誌の切り抜き、温かいオフホワイトの背景、柔らかい伝統的な日本のカラーパレット。
+```
+
+### 上游提供的pt版本（translations.pt）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2063192805393010823.json)
+
+```text
+---
+Crie uma introdução de vídeo de paisagem cinematográfica ampla de 15 segundos, 16:9, usando o estilo de movimento Seedance 2.0. Uma animação de colagem digital em papel em uma única tomada contínua, atuando como uma continuação direta da Parte 1, inspirada em livros de viagem ilustrados do Japão dos anos 1950–1960 e pôsteres de turismo de meados do século.
+
+O vídeo combina recortes fotográficos realistas de revistas do Japão com elementos de ilustração em papel desenhados à mão, apresentando animação de recorte em stop-motion, bordas de papel rasgado, textura de grão de papel visível, textura de impressão offset, pontos de meio-tom e profundidade de colagem em camadas. Mantenha um generoso espaço negativo off-white ao longo do vídeo, mantendo um clima nostálgico, elegante e otimista. A câmera se move continuamente em uma tomada de rastreamento suave e rítmica com paralaxe dinâmica.
+
+**Fluxo do cronograma:**
+
+* **De 0 a 4 segundos:** Comece sem interrupções a partir do fundo de papel off-white enquanto um recorte fotográfico estilizado de um Shinkansen vintage (trem-bala) emerge, cortando horizontalmente o terço inferior do quadro com um deslizar ágil em stop-motion. Acima dele, ondas de papel dramáticas e em camadas, inspiradas em gravuras tradicionais em madeira, incham e se dobram com um movimento rítmico em estilo acordeão. Um recorte fotográfico impressionante do portão Itsukushima Torii "flutua" dinamicamente na água de papel, cercado por pequenos cervos de papel desenhados à mão que surgem e inclinam suas cabeças com formas encantadoras e imperfeitas feitas à mão.
+* **De 4 a 8 segundos:** A câmera rastreia suavemente para uma paisagem urbana movimentada e retro-moderna inspirada em Osaka. Camadas de papel imponentes deslizam dos lados, retratando a cultura alimentar em camadas. Recortes de papel pintados em guache gigantes e caprichosos de takoyaki (bolinhos de polvo) e tigelas de ramen fumegantes giram para o primeiro plano, com o vapor renderizado como fitas de papel de impressão offset em espiral. Placas ilustradas no estilo neon—renderizadas em blocos de cores planas e suaves de meados do século, como vermelho-vermelhão, amarelo-mostarda e azul-petróleo suave—deslizam verticalmente como um livro pop-up. Todo o texto e placas permanecem abstratos, estilizados e completamente ilegíveis, sem marcas reais.
+* **De 8 a 12 segundos:** Transição sem interrupções para a paisagem histórica da vila coberta de neve de Shirakawa-go. A composição se abre com um espaço negativo off-white massivo e elegante. Casas tradicionais de telhado de palha gassho-zukuri construídas a partir de tiras de papel marrom texturizado em camadas e marcas de lápis pastel branco "desdobram-se" do chão. Pequenas figuras ilustradas envoltas em casacos de inverno deslizam para a vista, olhando para cima enquanto delicados flocos de neve de papel cortados à mão flutuam e giram suavemente na tela em uma sequência de gráficos em movimento no estilo After Effects rítmica e tátil.
+* **De 12 a 15 segundos:** A serena colagem da vila de inverno se abre de repente, e todos os elementos da colagem do Japão desta sequência—o Shinkansen, ondas de gravura em madeira, torii flutuante, cervos, recortes de comida, placas abstratas de Osaka, casas de palha e flocos de neve—giram graciosamente em direção ao centro como um redemoinho de papel. As peças se achatam, alinham e se transformam no logotipo oficial carregado no exato centro da tela. O fundo final se resolve em uma cor quente sólida com uma textura sutil de grão de papel premium.
+
+Estilo visual: pôster de viagem japonês de meados do século, guia ilustrado vintage do Japão, texturas feitas à mão em guache e pastel, colagem de papel, recorte de revista, fundo off-white quente, paleta de cores tradicionais japonesas suavizadas.
+---
+```
+
+### 上游提供的中文版本（translations.zh）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2063192805393010823.json)
+
+```text
+---
+创建一个15秒的宽屏电影风景视频开场，16:9，使用Seedance 2.0风格的运动。一个无缝的一镜到底数字纸拼贴动画，作为第一部分的直接延续，灵感来自经典的1950年代至1960年代日本旅游书籍和中世纪旅游海报。
+
+视频结合了日本的真实摄影杂志剪辑与手绘纸插图元素，特色包括定格动画剪纸、撕裂的纸边、可见的纸纹、平版印刷纹理、半色调点和分层拼贴深度。保持充足的米白色负空间，营造怀旧、优雅和乐观的氛围。摄像机在一个平滑、节奏感强的跟踪镜头中连续移动，具有动态视差。
+
+**时间线流程：**
+
+* **从0到4秒：** 从米白色纸背景无缝开始，一个时尚的、风格化的复古新干线（子弹头列车）摄影剪纸出现，水平切过画面下三分之一，伴随着快速的定格滑动。上方，受传统木版画启发的戏剧性分层纸浪以节奏感的手风琴式运动膨胀和折叠。一个引人注目的严岛鸟居摄影剪纸在纸水上动态“漂浮”，周围是小巧的手绘纸鹿，它们以迷人的、不完美的手工形状弹出并倾斜头部。
+* **从4到8秒：** 摄像机平滑跟踪进入一个繁忙的复古现代大阪风格街景。高耸的纸层从两侧滑入，描绘了分层的饮食文化。巨大的、充满幻想的水粉画纸剪纸章鱼烧和冒着热气的拉面碗翻入前景，蒸汽呈现为旋转的平版印刷纸带。插图式霓虹灯风格的标志——以平面、柔和的中世纪色块如朱红色、芥末黄和柔和的青绿色呈现——像立体书一样垂直滑动。所有文字和标志保持抽象、风格化，完全不可读，没有真实品牌。
+* **从8到12秒：** 无缝过渡到白雪覆盖的白川乡历史村落景观。构图以巨大的、优雅的米白色负空间展开。传统的合掌造茅草屋由分层的、纹理丰富的棕色纸条和白色粉彩铅笔标记“从地面展开”。穿着冬衣的小插图人物滑入视野，抬头看着精致的手工剪纸雪花在屏幕上轻轻飘落并旋转，形成节奏感的、触感的After Effects风格动态图形序列。
+* **从12到15秒：** 宁静的冬季村庄拼贴画突然打开，这一序列中的所有日本拼贴元素——新干线、木版画波浪、漂浮的鸟居、鹿、食物剪纸、抽象大阪标志、茅草屋和雪花——优雅地旋转向中心，像纸旋风一样。各个部分平整、对齐，并在屏幕正中心转变为官方上传的标志资产。最终背景解析为一种温暖的纯色，带有微妙的高级纸纹理。
+
+视觉风格：中世纪日本旅游海报、复古插图日本指南书、手工水粉和粉彩纹理、纸拼贴、杂志剪辑、温暖的米白色背景、柔和的传统日本色彩调色板。
+---
+```
+
+### 上游提供的한국어版本（translations.ko）
+
+[位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2063192805393010823.json)
+
+```text
+---
+Seedance 2.0 스타일 모션을 사용하여 16:9 비율의 15초 와이드 시네마틱 풍경 비디오 인트로를 만드세요. 1950년대~1960년대의 고전적인 일본 여행 서적과 중세 관광 포스터에서 영감을 받은, Part 1의 직접적인 연속으로 작용하는 매끄러운 원테이크 디지털 종이 콜라주 애니메이션입니다.
+
+이 비디오는 일본의 현실적인 사진 잡지 컷아웃과 손으로 그린 종이 일러스트 요소를 결합하여, 스톱모션 컷아웃 애니메이션, 찢어진 종이 가장자리, 보이는 종이 질감, 옵셋 인쇄 텍스처, 하프톤 도트, 레이어드 콜라주 깊이를 특징으로 합니다. 전체적으로 넉넉한 오프 화이트 네거티브 스페이스를 유지하며, 향수를 불러일으키는 우아하고 낙관적인 분위기를 유지합니다. 카메라는 하나의 부드럽고 리드미컬한 트래킹 샷으로 계속해서 움직이며, 역동적인 패럴랙스를 제공합니다.
+
+**타임라인 흐름:**
+
+* **0초에서 4초까지:** 오프 화이트 종이 배경에서 매끄럽게 시작하여 빈티지 신칸센(고속열차)의 세련되고 스타일리시한 사진 컷아웃이 프레임의 하단 3분의 1을 가로로 가로지르며 스냅이 있는 스톱모션 글라이드로 등장합니다. 그 위로, 전통적인 목판화에서 영감을 받은 극적인 레이어드 종이 파도가 리드미컬하고 아코디언 스타일의 움직임으로 부풀고 접힙니다. 이츠쿠시마 토리이 게이트의 인상적인 사진 컷아웃이 종이 물 위에 역동적으로 "떠다니며", 작은 손으로 그린 종이 사슴들이 매력적이고 불완전한 수제 모양으로 머리를 기울이며 튀어나옵니다.
+* **4초에서 8초까지:** 카메라는 활기차고 레트로 모던한 오사카에서 영감을 받은 거리 풍경으로 부드럽게 트래킹합니다. 측면에서 종이 레이어가 미끄러지며, 레이어드된 음식 문화를 묘사합니다. 거대한, 유머러스한 구아슈로 그린 종이 컷아웃의 타코야키(문어볼)와 김이 나는 라멘 그릇이 전경으로 뒤집히며, 김은 소용돌이치는 옵셋 인쇄 종이 리본으로 렌더링됩니다. 일러스트된 네온 스타일의 간판들이 평평하고 중세 색상의 블록으로 렌더링되어, 수직으로 팝업 북처럼 미끄러집니다. 모든 텍스트와 간판은 추상적이고 스타일리시하며, 실제 브랜드는 전혀 읽을 수 없습니다.
+* **8초에서 12초까지:** 역사적인, 눈 덮인 시라카와고 마을 풍경으로 매끄럽게 전환됩니다. 구성이 거대한, 우아한 오프 화이트 네거티브 스페이스로 열립니다. 전통적인 합장구조 초가집이 레이어드된 질감의 갈색 종이 스트립과 흰색 파스텔 연필 자국으로 구성되어 땅에서 "펼쳐집니다". 겨울 코트를 입은 작은 일러스트 인물들이 화면에 등장하며, 섬세하게 손으로 자른 종이 눈송이가 부드럽게 회전하며 화면 아래로 내려옵니다. 리드미컬하고 촉각적인 애프터 이펙트 스타일의 모션 그래픽 시퀀스입니다.
+* **12초에서 15초까지:** 고요한 겨울 마을 콜라주가 갑자기 열리며, 이 시퀀스의 모든 일본 콜라주 요소들—신칸센, 목판 파도, 떠다니는 토리이, 사슴, 음식 컷아웃, 추상 오사카 간판, 초가집, 눈송이—이 종이 회오리처럼 중심으로 우아하게 소용돌이칩니다. 조각들이 평평해지고 정렬되며, 화면의 정확한 중심에 공식 업로드된 로고 자산으로 변형됩니다. 최종 배경은 미묘한, 고급스러운 종이 질감의 따뜻한 단색으로 해결됩니다.
+
+시각적 스타일: 중세 일본 여행 포스터, 빈티지 일러스트 일본 가이드북, 수제 구아슈와 파스텔 텍스처, 종이 콜라주, 잡지 클리핑, 따뜻한 오프 화이트 배경, 부드러운 전통 일본 색상 팔레트.
+```
+
+## 出处与许可
+
+- 原作者：[ÀBDŪLLÂH](https://x.com/itxabdullaa) · 原帖：<https://x.com/itxabdullaa/status/2063192805393010823>
+- 版权说明：上游仓库声明单条提示词的权利归原作者所有，本仓库仅为学习/索引目的转录并保留署名；原作者如需删除请提 issue。
+- 收录来源：[renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts)，[原文位置](https://github.com/renoise-ai/awesome-seedance-prompts/blob/904b6caffa21c2b114bb93e1bd0e37ba80b3dd10/data/prompts/2063192805393010823.json)
+- 上游许可：CC-BY-4.0（[许可说明](https://creativecommons.org/licenses/by/4.0/)；全文见本仓库 `LICENSES/`）
+- 本仓库所做改动：仅做提取与空白/Markdown 代码块格式规范化，提示词文字未做任何改动（含错别字）；未收录任何图片/视频。

@@ -17,7 +17,7 @@
 | 做手绘动画讲解 / 口播短视频 | [`animator/`](animator/README.md)：默认主持人「天机」，台词一行一句即可出片 | `cd animator && node src/cli.mjs make 台词.txt` |
 | 免费、离线的中文配音（带字级时间戳） | `animator/tts/`：Kokoro v1.1-zh（Apache-2.0，CPU），edge-tts 可选 | `cd animator && npm run setup:tts && node src/cli.mjs tts 工程.json` |
 | 不知道该用哪条路线，想让 AI 按题材出方案 | [`router/`](router/README.md) + [`skills/ai-video-director/`](skills/ai-video-director/SKILL.md)（见下文「AI 导演 / Agent 使用」） | `node router/cli.mjs recommend "仙侠漫剧：……" --budget free-cpu` |
-| 找开源工具：手绘/白板/火柴人、Remotion、代码动效、视频 Agent 技能、漫剧方法论 | [`catalog/`](catalog/README.md)（167 个，已核验许可证，仅链接）· [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md) | `node router/cli.mjs search 火柴人 --cost free-cpu` |
+| 找开源工具：手绘/白板/火柴人、Remotion、代码动效、视频 Agent 技能、漫剧方法论 | [`catalog/`](catalog/README.md)（201 个，已核验许可证，仅链接）· [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md) | `node router/cli.mjs search 火柴人 --cost free-cpu` |
 
 预览（随仓库提交的小文件）：[天机设定图](docs/assets/tianji_sheet.png) · [天机剪影](docs/assets/tianji_silhouette.png) · [天机电影感特效展示（带配音）](docs/assets/tianji-showcase.mp4) · [路线 C 演示成片（替身片段）](docs/assets/videogen-route-c-demo.mp4)
 
@@ -48,7 +48,7 @@ node router/cli.mjs search 白板 --zh native                                   
 
 8 个示例题材的完整方案在 [`router/examples/`](router/examples/)：仙侠漫剧、都市甜宠真人剧、知识科普口播、儿童绘本、悬疑短剧、产品带货、GitHub 项目推荐（天机）、DV vlog。
 
-**外部项目目录 [`catalog/`](catalog/README.md)** 共 167 个项目，全部用 GitHub API 实时核验过，许可证读的是 LICENSE 原文，分 8 类：
+**外部项目目录 [`catalog/`](catalog/README.md)** 共 201 个项目，全部用 GitHub API 核验过（`verified_at` 2026-10-09），许可证读的是 LICENSE 原文，分 12 类：
 
 - 手绘·白板·火柴人
 - 笔画与手绘风组件
@@ -58,6 +58,40 @@ node router/cli.mjs search 白板 --zh native                                   
 - 视频 Agent 技能
 - 漫剧·短剧方法论
 - 端到端平台
+- 剪辑·切条·字幕
+- 开源视频模型
+- 视频 MCP
+- 提示词库资源
+
+非商用、无许可证、Elastic License 2.0 和混元/WanGP 社区许可标了警告，排序靠后；`node router/cli.mjs recommend … --commercial` 会排除它们。
+
+## 本地 MCP（尚未发布到 npm）
+
+`mcp/` 是本仓库自己的只读 MCP 服务（Apache-2.0，Copyright 2026 天机），包名 `ai-video-prompt-hub-mcp`。**没有执行 npm publish，也没有提交到 MCP Registry、Smithery、glama 或 mcp.so。** 不需要 API key。默认 stdio；可选的 HTTP 只监听 127.0.0.1。
+
+```bash
+cd mcp && npm install
+node src/server.mjs          # stdio
+node src/http.mjs            # 可选：http://127.0.0.1:8765/mcp
+```
+
+数据根目录默认是本仓库。换位置时设置 `HUB_ROOT`（或 `AVPH_ROOT`）。
+
+Claude Desktop / Cursor 指向本地路径（不要写成尚未发布的 npx 包名）：
+
+```json
+{
+  "mcpServers": {
+    "ai-video-hub": {
+      "command": "node",
+      "args": ["/absolute/path/to/ai-video-prompt-hub/mcp/src/server.mjs"]
+    }
+  }
+}
+```
+
+工具（全部只读）：`recommend_video_pipeline`、`get_intake_questions`、`search_video_prompts`、`get_video_prompt`、`list_prompt_taxonomy`、`search_templates`、`get_template`、`search_projects`、`get_project`、`get_style_presets`、`lint_storyboard_prompt`、`compliance_check`。仅链接条目的 `get_video_prompt` 不返回正文。每条提示词、模板、项目都带署名。
+
 
 [`catalog/methodology.md`](catalog/methodology.md) 是本仓库用自己的话整理的方法论速查，内容包括剧本结构、小说改编、角色一致性、分镜写法、打戏、手绘讲解和质检，每条都附原始出处链接。目录只放链接和自写简介，不复制第三方代码或文档。
 
@@ -180,19 +214,21 @@ ai-video-prompt-hub/
 ## 统计
 
 <!-- STATS:START -->
-**提示词总数：7258 条**（跨来源去重后）；另有可复用模板 69 个（见 `templates/`）。
-其中 **7147 条** 的提示词版权属于第三方原作者（X/Twitter、微信公众号、博客等，已保留原作者与原帖链接），其中 1 条上游未给出可追溯的原帖链接（已在文件中标记 `no_traceable_original_post`）。
+**提示词总数：13788 条**（跨来源去重后）；另有可复用模板 69 个（见 `templates/`）。
+其中 **13529 条** 的提示词版权属于第三方原作者（X/Twitter、微信公众号、博客等，已保留原作者与原帖链接），其中 11 条上游未给出可追溯的原帖链接（已在文件中标记 `no_traceable_original_post`）。
 
-**全文收录 7001 条；仅标题 + 署名 + 链接 257 条**（发布前内容审核降级，见下表与 `CONTRIBUTING.md`「内容审核」）；另有 2 条因涉及未成年人或年龄不明人物的性化内容未收录（只在 `data/extraction_report.json` 记 id 与原因）。
+**全文收录 12827 条；仅标题 + 署名 + 链接 961 条**（发布前内容审核降级，见下表与 `CONTRIBUTING.md`「内容审核」）；另有 13 条因涉及未成年人或年龄不明人物的性化内容未收录（只在 `data/extraction_report.json` 记 id 与原因）。
 
 | 降级原因 | 代码 | 条数 |
 |---|---|---|
-| 版权角色 / IP | `copyrighted-character` | 125 |
-| 品牌官方广告冒用风险 | `brand-ad` | 58 |
-| 真实人物 | `real-person` | 51 |
-| 性内容 | `sexual` | 16 |
-| 极端血腥 | `gore` | 6 |
-| 仇恨 | `hate` | 1 |
+| 版权角色 / IP | `copyrighted-character` | 460 |
+| 真实人物 | `real-person` | 160 |
+| 仇恨 | `hate` | 118 |
+| 品牌官方广告冒用风险 | `brand-ad` | 106 |
+| 性内容 | `sexual` | 103 |
+| 极端血腥 | `gore` | 12 |
+| 毒品 / 武器 | `drugs-weapons` | 1 |
+| 自残 | `self-harm` | 1 |
 
 ### 按收录来源
 
@@ -203,94 +239,101 @@ ai-video-prompt-hub/
 | [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) | 44 | 40 | 4 | 26 | MIT |
 | [Emily2040/seedance-2.0](https://github.com/Emily2040/seedance-2.0) | 104 | 104 | 0 | 8 | MIT |
 | [lixiaoxiao9888-create/manju-laoli-skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) | 7 | 7 | 0 | 0 | MIT |
+| [renoise-ai/awesome-seedance-prompts](https://github.com/renoise-ai/awesome-seedance-prompts) | 3940 | 3369 | 571 | 0 | CC-BY-4.0 |
+| [YouMind-OpenLab/awesome-grok-imagine-prompts](https://github.com/YouMind-OpenLab/awesome-grok-imagine-prompts) | 2432 | 2305 | 127 | 0 | CC-BY-4.0 |
+| [hanshs474/seedance-prompts-mcp](https://github.com/hanshs474/seedance-prompts-mcp) | 118 | 113 | 5 | 0 | MIT |
+| [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 10 | 10 | 0 | 0 | CC0-1.0 |
+| [liu-kaining/Awesome-Veo3-Prompts](https://github.com/liu-kaining/Awesome-Veo3-Prompts) | 30 | 29 | 1 | 0 | MIT |
 
 ### 按分类（媒介 / 方向 / 题材）
 
-**漫剧** 1320 条（现实向 797 / 特效向 523）；**真人** 5447 条（现实向 3234 / 特效向 2213）；**其他** 491 条
+**漫剧** 2744 条（现实向 1438 / 特效向 1306）；**真人** 9738 条（现实向 5889 / 特效向 3849）；**其他** 1306 条
 
 | 媒介 | 方向 | 题材 | 条数 |
 |---|---|---|---|
-| 漫剧 | 特效向 | [奇幻冒险](prompts/漫剧/特效向/奇幻冒险/) | 143 |
-| 漫剧 | 特效向 | [战斗大招](prompts/漫剧/特效向/战斗大招/) | 134 |
-| 漫剧 | 特效向 | [武侠打斗](prompts/漫剧/特效向/武侠打斗/) | 82 |
-| 漫剧 | 特效向 | [特效综合](prompts/漫剧/特效向/特效综合/) | 80 |
-| 漫剧 | 特效向 | [科幻机甲](prompts/漫剧/特效向/科幻机甲/) | 73 |
-| 漫剧 | 特效向 | [仙侠玄幻](prompts/漫剧/特效向/仙侠玄幻/) | 11 |
-| 漫剧 | 现实向 | [剧情短片](prompts/漫剧/现实向/剧情短片/) | 517 |
-| 漫剧 | 现实向 | [日常治愈](prompts/漫剧/现实向/日常治愈/) | 170 |
-| 漫剧 | 现实向 | [喜剧搞笑](prompts/漫剧/现实向/喜剧搞笑/) | 56 |
-| 漫剧 | 现实向 | [都市校园](prompts/漫剧/现实向/都市校园/) | 39 |
-| 漫剧 | 现实向 | [甜宠恋爱](prompts/漫剧/现实向/甜宠恋爱/) | 11 |
+| 漫剧 | 特效向 | [奇幻冒险](prompts/漫剧/特效向/奇幻冒险/) | 458 |
+| 漫剧 | 特效向 | [战斗大招](prompts/漫剧/特效向/战斗大招/) | 270 |
+| 漫剧 | 特效向 | [科幻机甲](prompts/漫剧/特效向/科幻机甲/) | 212 |
+| 漫剧 | 特效向 | [武侠打斗](prompts/漫剧/特效向/武侠打斗/) | 204 |
+| 漫剧 | 特效向 | [特效综合](prompts/漫剧/特效向/特效综合/) | 148 |
+| 漫剧 | 特效向 | [仙侠玄幻](prompts/漫剧/特效向/仙侠玄幻/) | 14 |
+| 漫剧 | 现实向 | [剧情短片](prompts/漫剧/现实向/剧情短片/) | 988 |
+| 漫剧 | 现实向 | [日常治愈](prompts/漫剧/现实向/日常治愈/) | 269 |
+| 漫剧 | 现实向 | [喜剧搞笑](prompts/漫剧/现实向/喜剧搞笑/) | 106 |
+| 漫剧 | 现实向 | [都市校园](prompts/漫剧/现实向/都市校园/) | 51 |
+| 漫剧 | 现实向 | [甜宠恋爱](prompts/漫剧/现实向/甜宠恋爱/) | 20 |
 | 漫剧 | 现实向 | [悬疑惊悚](prompts/漫剧/现实向/悬疑惊悚/) | 4 |
-| 真人 | 特效向 | [动作大片](prompts/真人/特效向/动作大片/) | 588 |
-| 真人 | 特效向 | [奇幻怪兽](prompts/真人/特效向/奇幻怪兽/) | 413 |
-| 真人 | 特效向 | [科幻](prompts/真人/特效向/科幻/) | 379 |
-| 真人 | 特效向 | [武侠打斗](prompts/真人/特效向/武侠打斗/) | 357 |
-| 真人 | 特效向 | [超现实创意](prompts/真人/特效向/超现实创意/) | 182 |
-| 真人 | 特效向 | [恐怖灵异](prompts/真人/特效向/恐怖灵异/) | 136 |
-| 真人 | 特效向 | [古装仙侠玄幻](prompts/真人/特效向/古装仙侠玄幻/) | 91 |
-| 真人 | 特效向 | [特效综合](prompts/真人/特效向/特效综合/) | 67 |
-| 真人 | 现实向 | [剧情短片](prompts/真人/现实向/剧情短片/) | 1283 |
-| 真人 | 现实向 | [生活与vlog](prompts/真人/现实向/生活与vlog/) | 825 |
-| 真人 | 现实向 | [运动](prompts/真人/现实向/运动/) | 254 |
-| 真人 | 现实向 | [时尚写真](prompts/真人/现实向/时尚写真/) | 165 |
-| 真人 | 现实向 | [年代怀旧](prompts/真人/现实向/年代怀旧/) | 162 |
-| 真人 | 现实向 | [音乐MV](prompts/真人/现实向/音乐MV/) | 142 |
-| 真人 | 现实向 | [情绪特写](prompts/真人/现实向/情绪特写/) | 114 |
-| 真人 | 现实向 | [喜剧整活](prompts/真人/现实向/喜剧整活/) | 89 |
-| 真人 | 现实向 | [甜宠恋爱](prompts/真人/现实向/甜宠恋爱/) | 84 |
-| 真人 | 现实向 | [都市剧情](prompts/真人/现实向/都市剧情/) | 66 |
-| 真人 | 现实向 | [悬疑犯罪](prompts/真人/现实向/悬疑犯罪/) | 50 |
-| 其他 | — | [广告带货](prompts/其他/广告带货/) | 337 |
-| 其他 | — | [动物萌宠](prompts/其他/动物萌宠/) | 57 |
-| 其他 | — | [动态图形与界面](prompts/其他/动态图形与界面/) | 40 |
-| 其他 | — | [风景空镜](prompts/其他/风景空镜/) | 40 |
-| 其他 | — | [美食](prompts/其他/美食/) | 17 |
+| 真人 | 特效向 | [动作大片](prompts/真人/特效向/动作大片/) | 1087 |
+| 真人 | 特效向 | [奇幻怪兽](prompts/真人/特效向/奇幻怪兽/) | 802 |
+| 真人 | 特效向 | [科幻](prompts/真人/特效向/科幻/) | 680 |
+| 真人 | 特效向 | [武侠打斗](prompts/真人/特效向/武侠打斗/) | 566 |
+| 真人 | 特效向 | [超现实创意](prompts/真人/特效向/超现实创意/) | 280 |
+| 真人 | 特效向 | [恐怖灵异](prompts/真人/特效向/恐怖灵异/) | 208 |
+| 真人 | 特效向 | [特效综合](prompts/真人/特效向/特效综合/) | 127 |
+| 真人 | 特效向 | [古装仙侠玄幻](prompts/真人/特效向/古装仙侠玄幻/) | 99 |
+| 真人 | 现实向 | [剧情短片](prompts/真人/现实向/剧情短片/) | 2575 |
+| 真人 | 现实向 | [生活与vlog](prompts/真人/现实向/生活与vlog/) | 1210 |
+| 真人 | 现实向 | [时尚写真](prompts/真人/现实向/时尚写真/) | 457 |
+| 真人 | 现实向 | [运动](prompts/真人/现实向/运动/) | 439 |
+| 真人 | 现实向 | [音乐MV](prompts/真人/现实向/音乐MV/) | 289 |
+| 真人 | 现实向 | [年代怀旧](prompts/真人/现实向/年代怀旧/) | 271 |
+| 真人 | 现实向 | [情绪特写](prompts/真人/现实向/情绪特写/) | 184 |
+| 真人 | 现实向 | [喜剧整活](prompts/真人/现实向/喜剧整活/) | 172 |
+| 真人 | 现实向 | [甜宠恋爱](prompts/真人/现实向/甜宠恋爱/) | 138 |
+| 真人 | 现实向 | [都市剧情](prompts/真人/现实向/都市剧情/) | 84 |
+| 真人 | 现实向 | [悬疑犯罪](prompts/真人/现实向/悬疑犯罪/) | 70 |
+| 其他 | — | [广告带货](prompts/其他/广告带货/) | 721 |
+| 其他 | — | [风景空镜](prompts/其他/风景空镜/) | 256 |
+| 其他 | — | [动物萌宠](prompts/其他/动物萌宠/) | 196 |
+| 其他 | — | [动态图形与界面](prompts/其他/动态图形与界面/) | 92 |
+| 其他 | — | [美食](prompts/其他/美食/) | 41 |
 
 ### 漫剧画风（art_style）
 
 | 画风 | 条数 |
 |---|---|
-| 2D日漫 | 566 |
-| 未注明 | 268 |
-| 3D卡通 | 257 |
-| 绘画风 | 83 |
-| 粘土定格 | 55 |
-| Q版 | 36 |
-| 水墨 | 24 |
-| 3D国漫 | 17 |
-| 像素 | 8 |
-| 美漫 | 6 |
+| 2D日漫 | 1151 |
+| 3D卡通 | 713 |
+| 未注明 | 466 |
+| 绘画风 | 211 |
+| 粘土定格 | 82 |
+| Q版 | 51 |
+| 水墨 | 25 |
+| 3D国漫 | 19 |
+| 像素 | 15 |
+| 美漫 | 11 |
 
 ### 按语言（主版本）
 
 | 语言 | 条数 |
 |---|---|
-| English | 5814 |
-| 中文 | 1005 |
-| 日本語 | 421 |
-| 한국어 | 8 |
+| English | 11741 |
+| 中文 | 1242 |
+| 日本語 | 745 |
+| Español | 24 |
+| 한국어 | 23 |
 | Русский | 8 |
-| Español | 2 |
+| fr | 3 |
+| pt | 2 |
 
-另有 6246 条附带上游提供的其他语言版本（如 YouMind 的中/英版本）。
+另有 12032 条附带上游提供的其他语言版本（如 YouMind 的中/英版本）。
 
 ### 按模型（上游标注）
 
 | 模型 | 条数 |
 |---|---|
-| Seedance 2.0 | 6675 |
+| Seedance 2.0 | 10733 |
+| Grok Imagine | 2432 |
 | Seedance（版本未注明） | 424 |
 | Seedance 2.5 | 94 |
+| Veo 3 | 30 |
 | Seedance（版本未注明）, Kling | 21 |
 | Seedance（版本未注明）, GPT Image | 15 |
+| unspecified | 10 |
 | Seedance（版本未注明）, Runway | 8 |
 | Seedance 2.5 / 2.0 | 7 |
 | Seedance（版本未注明）, Nano Banana | 6 |
 | Seedance（版本未注明）, Midjourney | 2 |
-| Seedance（版本未注明）, Veo | 1 |
-| Seedance 2.0, Veo, Kling | 1 |
-| Seedance（版本未注明）, GPT Image, Kling | 1 |
 
 ### 模板
 
@@ -361,9 +404,9 @@ Star 数为 2026-10-08 查询值。
 
 ## 许可
 
-- **本仓库自己的作品：[Apache License 2.0](LICENSE)**，版权人：天机（Copyright 2026 天机），简短声明见 [`NOTICE`](NOTICE)。范围包括：代码（`scripts/`、`animator/`（不含 `animator/vendor/` 的第三方 MIT 代码）、`videogen/`、`router/`）、外部项目目录 `catalog/`（自写简介、标签与方法论整理；所链接的项目各自保留其许可证）、`AGENTS.md` / `CLAUDE.md`、`skills/ai-video-director/`、文档与手册（`docs/分镜提示词手册.md`、`docs/skill/SKILL.md` 等）、自写的模板 / 示例 / 提示词、对画风预设的改写、原创角色「天机」「豆豆」及其美术、`docs/assets/` 预览素材。
+- **本仓库自己的作品：[Apache License 2.0](LICENSE)**，版权人：天机（Copyright 2026 天机），简短声明见 [`NOTICE`](NOTICE)。范围包括：代码（`scripts/`、`animator/`（不含 `animator/vendor/` 的第三方 MIT 代码）、`videogen/`、`router/`、`mcp/`）、外部项目目录 `catalog/`（自写简介、标签与方法论整理；所链接的项目各自保留其许可证）、`AGENTS.md` / `CLAUDE.md`、`skills/ai-video-director/`、文档与手册（`docs/分镜提示词手册.md`、`docs/skill/SKILL.md` 等）、自写的模板 / 示例 / 提示词、对画风预设的改写、原创角色「天机」「豆豆」及其美术、`docs/assets/` 预览素材。
 - **Apache-2.0 只覆盖本仓库自己的作品。第三方内容保持上游许可**：
-  - `prompts/` 与 `templates/` 中的每个文件，front matter 里的 `license` 写明了它的上游许可（MIT 或 CC BY 4.0），并保留原作者署名与原帖链接；上游许可全文与版权行见 [`LICENSES/`](LICENSES/)；
+  - `prompts/` 与 `templates/` 中的每个文件，front matter 里的 `license` 写明了它的上游许可（MIT、CC BY 4.0 或 CC0），并保留原作者署名与原帖链接；上游许可全文与版权行见 [`LICENSES/`](LICENSES/)；
   - 第三方原作者（X/Twitter 用户、博主等）的提示词版权归原作者，本仓库不对其授予任何许可；
   - `animator/presets/handdrawn-styles.json` 的上游条目是第三方 MIT 数据（各条保留上游来源标签以便溯源），本仓库的改写部分按 Apache-2.0 提供；
   - `animator/vendor/huashu-art-motion/`：**按 MIT 移植的代码**，来自 [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)（commit `f178bd7`，MIT，Copyright (c) 2026 alchaincyf (花叔 · 花生)），包括引擎库、50 种转场、35 个风格配方及配方卡，原样拷贝、保留原注释。这些文件仍是 MIT、版权归原作者；Apache-2.0 只覆盖本仓库的适配层与改动。**没有**拷贝其 Arphic 笔顺数据、字体、「花叔」形象或任何图片素材。清单见该目录 `VENDOR.md` 与 ATTRIBUTION.md 第 10 节；
@@ -376,7 +419,7 @@ Star 数为 2026-10-08 查询值。
 - [分镜提示词手册（AI 漫剧 / 真人剧）](docs/分镜提示词手册.md)
 - [Seedance 分镜提示词 Skill](docs/skill/SKILL.md)
 - [漫剧 / 漫画代码项目（仅链接）](tools/漫剧漫画代码项目.md)
-- [外部项目目录（167 个，已核验许可证）](catalog/README.md) · [方法论速查](catalog/methodology.md)
+- [外部项目目录（201 个，已核验许可证）](catalog/README.md) · [方法论速查](catalog/methodology.md)
 - [AI 导演 Skill](skills/ai-video-director/SKILL.md) · [路由器 router](router/README.md) · [AGENTS.md](AGENTS.md)
 - [手绘动画渲染器 animator](animator/README.md)
 - [视频生成层 videogen（三条路线 + 统一合成）](videogen/README.md)
