@@ -56,6 +56,6 @@
 - **只收 2026 年活跃项目**：最后推送早于 2026-01-01 或已归档的标为 stale（当前 43 个），只在各分类页尾的「历史 / 不再推荐」里列出，router 推荐与 MCP 搜索默认排除（`include_stale` 可查）。截止日期只在 `catalog/registry.json` 的 `freshness.cutoff` 一处配置（规则见 `catalog/tools/freshness.py`），每周工作流自动重算。
 - 每个条目都实时调用 GitHub API 核验过存在性、★、最后推送时间；许可证读的是仓库 LICENSE 原文（GitHub 显示 NOASSERTION 的也逐个读了原文）。
 - **只放链接和本仓库自写的一句话简介**，不复制任何第三方代码、提示词或文档。
-- 许可证分布：宽松 253 · 传染性(GPL/AGPL) 18 · 非商用 11 · 有条件(Remotion License) 14 · 无许可证 26。非商用和无许可证的仍然列出（方便了解生态），但 router 默认降权，加 `--commercial` 会直接排除。
+- 许可证分布：宽松 254 · 传染性(GPL/AGPL) 18 · 非商用 11 · 有条件(Remotion License) 13 · 无许可证 26。非商用和无许可证的仍然列出（方便了解生态），但 router 默认降权，加 `--commercial` 会直接排除。
 - 刷新 ★/日期/许可证/活跃状态：`python3 catalog/tools/refresh_registry.py`（需要已登录的 gh CLI），再 `python3 catalog/tools/usefor.py` 补齐用途字段；改完 registry.json 后运行 `node router/cli.mjs build-catalog` 重新生成这些页面和 docs/项目用途地图.md。
 - 发现错误或希望下架：开 issue 说明即可，按仓库「合规与下架」流程处理。
