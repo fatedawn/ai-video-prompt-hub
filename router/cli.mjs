@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { loadData, ROOT } from './lib/data.mjs';
 import { recommend } from './lib/plan.mjs';
-import { planToMarkdown, registryTableRows } from './lib/render.mjs';
+import { planToMarkdown, registryTableRows, activeTableRows } from './lib/render.mjs';
 import { buildCatalog, FILES } from './lib/catalog.mjs';
 import { SCENARIOS, GENERIC, BUDGETS } from './lib/profiles.mjs';
 import { grams, overlap } from './lib/text.mjs';
@@ -17,14 +17,15 @@ const HELP = `AI 导演路由器：按题材给出制作方案（路线、工具
             [--budget free-cpu|gpu|api-key|web-manual] [--duration 60] [--aspect 9:16|16:9|1:1]
             [--assets character,product,footage,images] [--vram 显存GB] [--voice 本地TTS|自己配音] [--style 彩铅|<预设id>]
             [--media crayon|colored-pencil|pencil|ink|picture-book|marker] [--character tianji|doudou]
-            [--scenario <id>] [--commercial] [--lang zh|en] [--format md|json] [--out 文件]
+            [--scenario <id>] [--commercial] [--include-stale] [--lang zh|en] [--format md|json] [--out 文件]
   intake    [--format md|json]          打印需求确认问题清单（给 Agent 逐项问用户）
   scenarios                              列出可识别的题材场景
-  search    [关键词] [--route A-handdrawn|B-videogen|C-code-motion|M-method|E-edit]
-            [--cost free-cpu|gpu|api-key] [--zh native] [--license permissive] [--category <id>] [--format md|json]
-  build-catalog                          由 catalog/registry.json 重新生成 catalog/*.md
+  search    [关键词] [--route A-handdrawn|B-videogen|C-code-motion|M-method|E-edit|S-stills|P-slides]
+            [--cost free-cpu|gpu|api-key] [--zh native] [--license permissive] [--category <id>] [--include-stale] [--format md|json]
+            默认只返回 2026 年仍活跃的项目（registry.json freshness.cutoff）；--include-stale 连同历史项目一起查
+  build-catalog                          由 catalog/registry.json 重新生成 catalog/*.md 与 docs/项目用途地图.md
   check                                  校验 registry.json、场景配置引用的预设/模板、catalog 是否最新
-  examples                               为 9 个示例题材生成 router/examples/*.md|json
+  examples                               为示例题材生成 router/examples/*.md|json
 `;
 
 export const SAMPLES = [
@@ -37,6 +38,8 @@ export const SAMPLES = [
   { file: '07-GitHub项目推荐-天机', topic: 'GitHub 项目推荐（天机）：一个免费的本地 AI 配音开源工具', opts: { budget: 'free-cpu' } },
   { file: '08-DV-vlog', topic: 'DV vlog：2005 年夏天一家人去海边的家庭录像', opts: { budget: 'web-manual' } },
   { file: '09-只有图片无订阅', topic: '只有 ChatGPT 出的 5 张图、没有视频订阅：做一条 20 秒仙侠氛围短片', opts: { budget: 'free-cpu', assets: 'images' } },
+  { file: '10-PPT式科普', topic: '为什么天空是蓝色的？30 秒 PPT 式科普（瑞利散射公式 + 图表）', opts: { budget: 'free-cpu' } },
+  { file: '11-课件转视频', topic: '高中物理课件转视频：把牛顿第二定律的 PPT 做成讲解视频', opts: { budget: 'free-cpu', aspect: '16:9' } },
 ];
 
 export const INTAKE = [
@@ -78,6 +81,9 @@ export function check() {
   const V = reg.vocab;
   const ids = new Set();
   const cats = new Set(reg.categories.map((c) => c.id));
+  const cutoff = reg.freshness?.cutoff;
+  if (!cutoff) problems.push('registry.json 缺少 freshness.cutoff（运行 python3 catalog/tools/freshness.py）');
+  for (const c of reg.categories) if (!FILES[c.id]) problems.push(`分类 ${c.id} 没有对应的 catalog 页面（router/lib/catalog.mjs FILES）`);
   const req = ['id', 'repo', 'url', 'category', 'kind', 'intro_zh', 'stars', 'pushed', 'license', 'license_class', 'routes', 'cost', 'zh', 'maturity', 'use_for', 'plugs_into', 'verified_at', 'license_source'];
   for (const e of reg.entries) {
     for (const k of req) if (e[k] === undefined || e[k] === '') problems.push(`${e.repo || e.id}: 缺少字段 ${k}`);
@@ -88,6 +94,13 @@ export function check() {
     if (!V.zh[e.zh]) problems.push(`${e.repo}: 未知中文支持 ${e.zh}`);
     if (!V.license_class[e.license_class]) problems.push(`${e.repo}: 未知许可类别 ${e.license_class}`);
     if (e.url !== `https://github.com/${e.repo}`) problems.push(`${e.repo}: url 与 repo 不一致`);
+    if (!['active', 'stale'].includes(e.status)) problems.push(`${e.repo}: status 必须是 active|stale（运行 python3 catalog/tools/freshness.py）`);
+    else if ((e.status === 'stale') !== (!!e.archived || e.maturity === 'archived' || e.pushed < cutoff)) problems.push(`${e.repo}: status 与 pushed/archived 不一致（截止 ${cutoff}；运行 python3 catalog/tools/freshness.py）`);
+    if (e.status === 'active') {
+      if (!Array.isArray(e.best_for) || !e.best_for.length) problems.push(`${e.repo}: 活跃条目缺少 best_for（运行 python3 catalog/tools/usefor.py）`);
+      if (!e.how_to_use) problems.push(`${e.repo}: 活跃条目缺少 how_to_use`);
+      if (!e.absorbed || !['port', 'idea', 'dependency', 'none'].includes(e.absorbed.type)) problems.push(`${e.repo}: absorbed.type 必须是 port|idea|dependency|none`);
+    }
   }
   const styleIds = new Set(data.styles.styles.map((s) => s.id));
   const tplIds = new Set(data.templates.map((t) => t.id));
@@ -111,7 +124,7 @@ async function main() {
     const topic = a.topic || a._.join(' ');
     if (!topic) throw new Error('请给出题材：node router/cli.mjs recommend "仙侠漫剧：……"');
     const opts = { medium: a.medium, direction: a.direction, budget: a.budget || 'free-cpu', duration: a.duration, aspect: a.aspect, assets: a.assets,
-      voice: a.voice, style: a.style, media: a.media, character: a.character, scenario: a.scenario, commercial: !!a.commercial, lang: a.lang, vram: a.vram };
+      voice: a.voice, style: a.style, media: a.media, character: a.character, scenario: a.scenario, commercial: !!a.commercial, lang: a.lang, vram: a.vram, include_stale: !!a['include-stale'] };
     const plan = recommend(loadData(), topic, opts);
     return emit(a.format === 'json' ? JSON.stringify(plan, null, 2) : planToMarkdown(plan), a);
   }
@@ -128,13 +141,13 @@ async function main() {
     const reg = loadData({ prompts: false }).registry;
     const q = a._.join(' ');
     const qg = grams(q);
-    let es = reg.entries.filter((e) => (!a.route || e.routes.includes(a.route)) && (!a.cost || e.cost.includes(a.cost)) && (!a.zh || e.zh === a.zh)
+    let es = reg.entries.filter((e) => (a['include-stale'] || e.status !== 'stale') && (!a.route || e.routes.includes(a.route)) && (!a.cost || e.cost.includes(a.cost)) && (!a.zh || e.zh === a.zh)
       && (!a.license || e.license_class === a.license) && (!a.category || e.category === a.category));
-    if (q) es = es.map((e) => ({ e, n: overlap(qg, grams([e.repo, e.intro_zh, e.plugs_into, e.styles.join(' '), e.use_for.join(' ')].join(' '))) + (e.repo.toLowerCase().includes(q.toLowerCase()) ? 5 : 0) }))
+    if (q) es = es.map((e) => ({ e, n: overlap(qg, grams([e.repo, e.intro_zh, e.plugs_into, e.styles.join(' '), e.use_for.join(' '), (e.best_for || []).join(' '), e.strengths || ''].join(' '))) + (e.repo.toLowerCase().includes(q.toLowerCase()) ? 5 : 0) }))
       .filter((x) => x.n > 0).sort((x, y) => y.n - x.n || y.e.stars - x.e.stars).map((x) => x.e);
     else es.sort((x, y) => y.stars - x.stars);
     es = es.slice(0, +a.limit || 20);
-    return emit(a.format === 'json' ? JSON.stringify(es, null, 2) : registryTableRows(es).join('\n'), a);
+    return emit(a.format === 'json' ? JSON.stringify(es, null, 2) : (a['include-stale'] ? registryTableRows(es) : activeTableRows(es)).join('\n'), a);
   }
   if (cmd === 'build-catalog') {
     const out = buildCatalog();

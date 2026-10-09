@@ -25,6 +25,14 @@
           "口播",
           "为什么"
         ]
+      },
+      {
+        "id": "science",
+        "score": 2.15,
+        "keywords": [
+          "科普",
+          "为什么"
+        ]
       }
     ],
     "modifiers": []
@@ -33,6 +41,10 @@
     "primary": "A",
     "primary_name": "路线①：animator 手绘动画（本仓库）",
     "secondary": [
+      {
+        "id": "P",
+        "name": "路线⑥：slides2video PPT 式科普（本仓库）"
+      },
       {
         "id": "C",
         "name": "路线③：代码动效（Remotion / HyperFrames / Manim）"
@@ -124,7 +136,9 @@
         "url": "https://github.com/ChenShuo2004/cs-board",
         "kind": "app",
         "intro_zh": "本地 AI 白板声画工坊：参考音频 + 中文文案→音色克隆、内容拆解、插画、手绘动画、字幕与音画合成→MP4",
-        "stars": 766,
+        "stars": 768,
+        "pushed": "2026-10-01",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "MIT；声音克隆仅用于本人或已授权声音",
@@ -134,6 +148,13 @@
         ],
         "zh": "native",
         "plugs_into": "带音色克隆的「一站式白板口播」桌面方案；声音克隆务必使用本人或已授权声音",
+        "best_for": [
+          "知识科普 / 口播讲解",
+          "口播 / 数字人讲解",
+          "故事短片"
+        ],
+        "strengths": "本地 AI 白板声画工坊：参考音频 + 中文文案→音色克隆、内容拆解、插画、手绘动画、字幕与音画合成→MP4（免费 CPU 可跑、中文原生）",
+        "how_to_use": "路线① animator：带音色克隆的「一站式白板口播」桌面方案；声音克隆务必使用本人或已授权声音",
         "score": 16.44
       },
       {
@@ -143,6 +164,8 @@
         "kind": "skill",
         "intro_zh": "SRT 驱动的 B-roll skill：多角色接力（导演/创作/审美评审），自动路由 HyperFrames 或 Remotion",
         "stars": 208,
+        "pushed": "2026-09-21",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -151,6 +174,12 @@
         ],
         "zh": "native",
         "plugs_into": "口播配动效 B-roll",
+        "best_for": [
+          "口播 / 数字人讲解",
+          "知识科普 / 口播讲解"
+        ],
+        "strengths": "SRT 驱动的 B-roll skill：多角色接力（导演/创作/审美评审），自动路由 HyperFrames 或 Remotion（用编程 Agent 的额度、中文原生）",
+        "how_to_use": "路线③ 代码动效：口播配动效 B-roll",
         "score": 15.16
       },
       {
@@ -159,7 +188,9 @@
         "url": "https://github.com/Agents365-ai/video-podcast-maker",
         "kind": "skill",
         "intro_zh": "主题→研究→脚本→本地 TTS→Remotion 合成的视频播客，适配 B 站/YouTube/小红书/抖音",
-        "stars": 1666,
+        "stars": 1667,
+        "pushed": "2026-10-01",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -169,6 +200,16 @@
         ],
         "zh": "bilingual",
         "plugs_into": "中文平台适配的口播科普方案（MIT）",
+        "best_for": [
+          "视频播客 / 知识口播"
+        ],
+        "strengths": "中文脚本验收规则细（多音字、语速），主题到成片一条龙",
+        "how_to_use": "路线③ 代码动效：中文平台适配的口播科普方案（MIT）",
+        "absorbed": {
+          "type": "idea",
+          "what": "脚本验收：一句一口气、约 280 字/分钟估时长、数字和专名单独校对（写进科普脚本方法）",
+          "where": "skills/ai-video-director/references/methods.md"
+        },
         "score": 14.81
       },
       {
@@ -177,7 +218,9 @@
         "url": "https://github.com/luoluoluo22/jianying-editor-skill",
         "kind": "skill",
         "intro_zh": "让 Agent 自动操作剪映：写文案、配音、字幕、选乐、特效到导出草稿",
-        "stars": 3824,
+        "stars": 3832,
+        "pushed": "2026-09-11",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "MIT；内含 Apache-2.0 的 pyJianYingDraft 等第三方组件",
@@ -187,6 +230,12 @@
         ],
         "zh": "native",
         "plugs_into": "成片最后一公里：把 animator/videogen 产物导入剪映精修；含 Apache-2.0 第三方组件",
+        "best_for": [
+          "口播 / vlog 剪辑",
+          "要交付剪映草稿"
+        ],
+        "strengths": "直接驱动剪映，产物是可继续手改的草稿",
+        "how_to_use": "剪辑后期：成片最后一公里：把 animator/videogen 产物导入剪映精修；含 Apache-2.0 第三方组件",
         "score": 14.79
       },
       {
@@ -195,7 +244,9 @@
         "url": "https://github.com/alchaincyf/huashu-art-motion",
         "kind": "skill",
         "intro_zh": "花叔「艺术动画」skill：35 种艺术风格 + 9 种解说语法（白板/Vox/3b1b…），Canvas 代码逐帧作画，cue 精确到帧",
-        "stars": 2425,
+        "stars": 2571,
+        "pushed": "2026-10-08",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -205,24 +256,18 @@
         ],
         "zh": "native",
         "plugs_into": "做「有审美要求」的解说/艺术短片时作为 animator 之外的外部选项；其「每幕 1 主动作 + 2 母题循环」规则可用于 animator 镜头设计",
-        "score": 13.69
-      },
-      {
-        "id": "remotion-subtitles",
-        "repo": "ahgsql/remotion-subtitles",
-        "url": "https://github.com/ahgsql/remotion-subtitles",
-        "kind": "library",
-        "intro_zh": "SRT→Remotion 动画字幕组件库，多种字幕模板",
-        "stars": 100,
-        "license": "MIT",
-        "license_class": "permissive",
-        "license_note": "",
-        "cost": [
-          "free-cpu"
+        "best_for": [
+          "艺术风格解说片",
+          "诗词 / 发布片"
         ],
-        "zh": "en",
-        "plugs_into": "把 animator/TTS 产出的 SRT 做成花字",
-        "score": 13.5
+        "strengths": "35 种艺术风格 + 50 种转场全部 Canvas 代码画，风格跨度最大",
+        "how_to_use": "路线① animator：做「有审美要求」的解说/艺术短片时作为 animator 之外的外部选项；其「每幕 1 主动作 + 2 母题循环」规则可用于 animator 镜头设计",
+        "absorbed": {
+          "type": "port",
+          "what": "50 种转场、35 个风格配方、后期层与风格化渲染器（MIT 原样移植，见 animator/vendor/huashu-art-motion/VENDOR.md）；slides2video 页间转场也用它",
+          "where": "animator/vendor/huashu-art-motion"
+        },
+        "score": 13.71
       },
       {
         "id": "remotion",
@@ -230,7 +275,9 @@
         "url": "https://github.com/remotion-dev/remotion",
         "kind": "engine",
         "intro_zh": "用 React 写视频的框架，确定性渲染，生态最大",
-        "stars": 62553,
+        "stars": 62600,
+        "pushed": "2026-10-08",
+        "status": "active",
         "license": "Remotion-License",
         "license_class": "source-available",
         "license_note": "Remotion License：个人、非营利、≤3 人营利公司免费；更大的公司需购买 Company License",
@@ -239,6 +286,12 @@
         ],
         "zh": "en",
         "plugs_into": "路线 C 的底座；个人/≤3 人公司免费，更大营利公司需买 Company License",
+        "best_for": [
+          "数据视频",
+          "批量模板化短视频"
+        ],
+        "strengths": "React 写视频、生态最大；注意 Remotion License 的公司门槛",
+        "how_to_use": "路线③ 代码动效：路线 C 的底座；个人/≤3 人公司免费，更大营利公司需买 Company License",
         "score": 13.5
       },
       {
@@ -247,7 +300,9 @@
         "url": "https://github.com/gnipbao/codex-whiteboard-video-skill",
         "kind": "skill",
         "intro_zh": "whiteboard-video-engine 的 Codex Skill 适配层：自然语言驱动本地白板引擎、选择/推荐 30 种风格",
-        "stars": 325,
+        "stars": 326,
+        "pushed": "2026-09-03",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -257,10 +312,93 @@
         ],
         "zh": "native",
         "plugs_into": "给 Codex 用户的安装入口；渲染能力以 engine 仓库为准",
+        "best_for": [
+          "知识科普 / 口播讲解",
+          "故事短片"
+        ],
+        "strengths": "whiteboard-video-engine 的 Codex Skill 适配层：自然语言驱动本地白板引擎、选择/推荐 30 种风格（免费 CPU 可跑、中文原生）",
+        "how_to_use": "路线① animator：给 Codex 用户的安装入口；渲染能力以 engine 仓库为准",
         "score": 13.26
+      },
+      {
+        "id": "video-talkcraft",
+        "repo": "Vincentwei1021/video-talkcraft",
+        "url": "https://github.com/Vincentwei1021/video-talkcraft",
+        "kind": "skill",
+        "intro_zh": "口播稿 + 配音→字级时间戳→SHOTBOOK 分镜→Remotion；108 张动效配方卡、反 PPT 镜头系统",
+        "stars": 1434,
+        "pushed": "2026-10-01",
+        "status": "active",
+        "license": "PolyForm-Noncommercial-1.0.0",
+        "license_class": "noncommercial",
+        "license_note": "PolyForm Noncommercial 1.0.0：非商用免费，商用需作者授权（成片归创作者）",
+        "cost": [
+          "free-cpu",
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "字级对齐做得最细；PolyForm Noncommercial，商用需作者授权",
+        "best_for": [
+          "口播二创 / 字级卡点动效"
+        ],
+        "strengths": "字级时间戳驱动的「反 PPT」镜头系统",
+        "how_to_use": "路线③ 代码动效：字级对齐做得最细；PolyForm Noncommercial，商用需作者授权",
+        "score": 13.08
       }
     ],
-    "methods": []
+    "methods": [
+      {
+        "id": "openmaic",
+        "repo": "THU-MAIC/OpenMAIC",
+        "url": "https://github.com/THU-MAIC/OpenMAIC",
+        "kind": "app",
+        "intro_zh": "清华多智能体互动课堂：主题/文档 → 课件 + 白板公式 + 语音讲解，可一键导出 MP4",
+        "stars": 40203,
+        "pushed": "2026-10-09",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key",
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "课堂化讲解的参考（多角色、白板推导）；本仓库只链接",
+        "best_for": [
+          "AI 课堂 / 微课",
+          "带白板推导的数理讲解"
+        ],
+        "strengths": "多智能体「老师 + 同学」互动课堂形态独特，白板能写公式",
+        "how_to_use": "路线④：按 README 部署（需一个 LLM key 或 Ollama）",
+        "score": 13
+      },
+      {
+        "id": "ppt-master",
+        "repo": "hugohe3/ppt-master",
+        "url": "https://github.com/hugohe3/ppt-master",
+        "kind": "skill",
+        "intro_zh": "Agent skill：把文档或主题做成原生可编辑的 PPTX（母版、形状、图表、公式、切换和动画）",
+        "stars": 58391,
+        "pushed": "2026-10-08",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "在 Codex / Claude Code 里先用它生成 PPTX，再交给 slides2video import 或 pptx2video 出片",
+        "best_for": [
+          "要交付可编辑 PPT 的课件 / 汇报",
+          "先做 PPT 再出视频的科普"
+        ],
+        "strengths": "出来的是原生可编辑 PPTX 而不是图片页，后续人工改稿方便；宿主自带生图即可，不必另配 key",
+        "how_to_use": "路线④ → ⑥：Agent 里装这个 skill 生成 PPTX → `node slides2video/cli.mjs import x.pptx` → `make`",
+        "score": 12.2
+      }
+    ]
   },
   "steps": [
     {
@@ -319,35 +457,55 @@
       "route": "A"
     },
     {
-      "route": "C",
-      "title": "—— 路线③：代码动效（Remotion / HyperFrames / Manim）（备选/升级） ——",
+      "route": "P",
+      "title": "—— 路线⑥：slides2video PPT 式科普（本仓库）（备选/升级） ——",
       "cmds": []
     },
     {
-      "title": "安装 Remotion skills 并新建工程",
+      "title": "准备（只需一次）",
       "cmds": [
-        "npx skills add remotion-dev/skills",
-        "cd .work/知识科普口播-为什么熬夜 && npx create-video@latest"
+        "cd slides2video && npm install && cd ..",
+        "cd animator && npm install && npm run setup:tts && cd ..",
+        "node slides2video/cli.mjs doctor"
       ],
-      "note": "Remotion License：个人/≤3 人公司免费；更大的营利公司需商业许可（否则换 HyperFrames / Motion Canvas / Revideo）",
-      "route": "C"
+      "note": "KaTeX / Shiki / Mermaid 只装在 slides2video/node_modules（KaTeX 字体为 OFL，渲染时从 node_modules 加载，不进仓库）；setup:tts 下载本地 Kokoro 配音（可跳过：静音 + 按字数计时）",
+      "route": "P"
     },
     {
-      "title": "配音与字幕（复用本仓库本地 TTS）",
+      "title": "写 deck.md（或导入现成 PPT）",
       "cmds": [
-        "node animator/src/cli.mjs make .work/知识科普口播-为什么熬夜/台词.txt --out .work/知识科普口播-为什么熬夜/voice-preview.mp4 --scale 0.25"
+        "node slides2video/cli.mjs init .work/知识科普口播-为什么熬夜",
+        "$EDITOR .work/知识科普口播-为什么熬夜/deck.md",
+        "# 已有 PPT：node slides2video/cli.mjs import 课件.pptx --out .work/知识科普口播-为什么熬夜  （备注 = 旁白）"
       ],
-      "note": "会同时生成 .work/知识科普口播-为什么熬夜/voice-preview.voice.*（音频 + SRT + 字级时间戳），导入代码动效工程即可逐字对齐",
-      "route": "C"
+      "note": "一页一个想法；`> say:` 一句一条字幕；要点行尾写 {at: 词} 让它在说到该词时出现，{mark: circle} 圈注，{id: x} + transition: morph 跨页变形；公式 $$…\\term{…}…$$ + terms 逐项点亮；画幅 aspect: \"9:16\"，主题 tianji（天机）",
+      "route": "P"
     },
     {
-      "title": "预览与渲染",
+      "title": "配图（可选，ChatGPT 出图）",
       "cmds": [
-        "npx remotion studio",
-        "npx remotion render"
+        "node slides2video/cli.mjs prompts .work/知识科普口播-为什么熬夜/deck.md --out .work/知识科普口播-为什么熬夜/出图提示词.md",
+        "# 按提示词出图，存为 .work/知识科普口播-为什么熬夜/images/01.png、05.png…（页号命名）"
       ],
-      "note": "字幕可用 remotion-subtitles；数据视频可用 DataMagic 配方",
-      "route": "C"
+      "note": "提示词已要求画面不含文字（文字由视频叠加）；不出图也能做：纯排版页 + 图表 + 公式",
+      "route": "P"
+    },
+    {
+      "title": "检查时间轴与版式",
+      "cmds": [
+        "node slides2video/cli.mjs plan .work/知识科普口播-为什么熬夜/deck.md --voice",
+        "node slides2video/cli.mjs lint .work/知识科普口播-为什么熬夜/deck.md --qa"
+      ],
+      "note": "看每条要点 / 圈注的出现时刻；lint 检查语速、要点数、长时间静止、溢出、压字幕区",
+      "route": "P"
+    },
+    {
+      "title": "一条命令出片",
+      "cmds": [
+        "node slides2video/cli.mjs make .work/知识科普口播-为什么熬夜/deck.md --out .work/知识科普口播-为什么熬夜/final.mp4 --sheet --preview"
+      ],
+      "note": "同时输出 .srt、每页样张拼图和 720p 预览；--from/--to 只渲染一段做快速检查",
+      "route": "P"
     },
     {
       "title": "发布前质检",
@@ -361,6 +519,7 @@
     "背景音乐、字体、参考图需自有版权或可商用授权",
     "按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容",
     "remotion-dev/remotion：Remotion License：个人、非营利、≤3 人营利公司免费；更大的公司需购买 Company License",
+    "Vincentwei1021/video-talkcraft：PolyForm Noncommercial 1.0.0：非商用免费，商用需作者授权（成片归创作者）",
     "Remotion：个人与 ≤3 人公司免费，更大的营利公司需购买 Company License"
   ],
   "warnings": []

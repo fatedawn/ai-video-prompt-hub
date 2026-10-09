@@ -3,12 +3,14 @@
 // which route to take by default, which hand-drawn style presets and templates fit, and which
 // registry `use_for` tags describe matching external projects.
 
-/** Routes. A/B/C are this repo's own toolchains; D = an external project from catalog/registry.json. */
+/** Routes. A/B/C/S/P are this repo's own toolchains; D = an external project from catalog/registry.json.
+ * Display numbers: ① A · ② B · ③ C · ④ D · ⑤ S · ⑥ P. */
 export const ROUTES = {
   A: { id: 'A', key: 'A-handdrawn', name: '路线①：animator 手绘动画（本仓库）', short: 'animator 手绘逐笔动画（免费、CPU、离线）' },
   B: { id: 'B', key: 'B-videogen', name: '路线②：videogen 视频生成 + prompts/ 提示词（本仓库）', short: '视频模型生成（云 API / 自己的 GPU / 网页手动）' },
   C: { id: 'C', key: 'C-code-motion', name: '路线③：代码动效（Remotion / HyperFrames / Manim）', short: '代码动效、数据图表、字幕重的视频' },
   S: { id: 'S', key: 'S-stills', name: '路线⑤：stills2video 静图成片（本仓库）', short: '只有图片：CPU 视差 / 本地 GPU 图生视频 / 云端 key / 网页手动，配音字幕转场一条命令' },
+  P: { id: 'P', key: 'P-slides', name: '路线⑥：slides2video PPT 式科普（本仓库）', short: 'deck.md 幻灯片 → 按词逐条出现、圈注、跨页变形、公式/图表、配音字幕（免费、CPU、无 API key）' },
   D: { id: 'D', key: 'external', name: '路线④：外部开源项目（catalog/）', short: 'catalog/registry.json 里更合适的现成项目' },
 };
 
@@ -27,9 +29,28 @@ export const SCENARIOS = [
     tips: ['开头 3 秒直接说「它能帮你做什么」，再给 star 数/许可证等可信信号', '天机「亮扇」reveal 动作适合放在项目名揭晓那一句', '代码/架构插段用路线③（Code Hike 模板、Archscribe 手绘架构图）'],
   },
   {
+    id: 'courseware', noPrompts: true, name: '课件 / 微课 / PPT 转视频 / 论文讲解',
+    kw: ['课件', '微课', 'ppt', 'pptx', '幻灯片', 'slides', 'keynote', '讲课', '教学', '公开课', '考点', '复习', '论文', '汇报', '答辩', '培训', '网课'],
+    medium: '其他', direction: '现实向', route: 'P', alt: ['C', 'A'], aspect: '16:9', duration: 120,
+    genres: [T('其他', '现实向', '动态图形与界面')],
+    presets: ['minimal-line-explainer', 'whiteboard-explainer'], media: 'pencil', character: 'tianji', templates: [],
+    use_for: ['courseware', 'slides', 'paper', 'explainer'],
+    tips: ['已有 PPT：node slides2video/cli.mjs import 课件.pptx（备注即旁白，兼容 pptx2video 的 ## [handle] / [[Spotlight]] 写法）', '课件默认 16:9；同一页内用 build 逐条出现代替翻页', '论文讲解：一页一个图 + 一句结论，公式用 \\term{} 逐项点亮'],
+  },
+  {
+    id: 'science', noPrompts: true, name: '科学科普 / 知识讲解（PPT 式）',
+    kw: ['科普', '为什么', '原理', '科学', '物理', '化学', '生物', '天文', '地理', '宇宙', '实验', '现象', '知识点', '讲清楚', '一分钟看懂', '冷知识', '揭秘'],
+    medium: '其他', direction: '现实向', route: 'P', alt: ['A', 'C'], aspect: '9:16', duration: 45,
+    genres: [T('其他', '现实向', '动态图形与界面')],
+    presets: ['minimal-line-explainer', 'whiteboard-explainer', 'bean-doodle-infographic'],
+    media: 'pencil', character: 'tianji', templates: [],
+    use_for: ['science', 'explainer', 'slides', 'math', 'chart'],
+    tips: ['钩子问题开场 → 生活比喻 → 分层解释（现象 → 原理 → 公式/数据）→ 一句话总结', '一页一个想法、≤4 条要点；每 3–5 秒画面要有新变化（要点出现、圈注、图表升起）', '想要「手绘被画出来」的温度感就换路线①；要连续几何变换（旋转、轨迹）就换路线③ Manim'],
+  },
+  {
     id: 'explainer', noPrompts: true, name: '知识科普 / 口播讲解',
     kw: ['科普', '知识', '讲解', '口播', '原理', '教程', '为什么', '解说', '干货', '课程', '入门', '揭秘', '冷知识', '经济学', '心理学', '历史'],
-    medium: '其他', direction: '现实向', route: 'A', alt: ['C'], aspect: '9:16', duration: 90,
+    medium: '其他', direction: '现实向', route: 'A', alt: ['P', 'C'], aspect: '9:16', duration: 90,
     genres: [T('其他', '现实向', '动态图形与界面')],
     presets: ['minimal-line-explainer', 'whiteboard-explainer', 'bean-doodle-infographic', 'colored-pencil-diary'],
     media: 'colored-pencil', character: 'tianji', templates: [],
@@ -66,18 +87,18 @@ export const SCENARIOS = [
   {
     id: 'data', noPrompts: true, name: '数据 / 信息图 / 排行榜',
     kw: ['数据', '图表', '排行', '财报', '统计', '信息图', '增长', '榜单', '可视化', '趋势', '占比', 'gdp'],
-    medium: '其他', direction: '现实向', route: 'C', alt: ['A'], aspect: '16:9', duration: 60,
+    medium: '其他', direction: '现实向', route: 'C', alt: ['P', 'A'], aspect: '16:9', duration: 60,
     genres: [T('其他', '现实向', '动态图形与界面')],
     presets: ['bean-doodle-infographic', 'minimal-line-explainer'], media: 'marker', character: 'tianji', templates: [],
-    use_for: ['data', 'explainer'], tips: ['数据先整理成 CSV，再交给 DataMagic 或 Remotion 图表组件；注明数据来源'],
+    use_for: ['data', 'chart', 'explainer'], tips: ['数据先整理成 CSV，再交给 DataMagic 或 Remotion 图表组件；注明数据来源'],
   },
   {
     id: 'math', noPrompts: true, name: '数学 / 物理 / 算法讲解',
     kw: ['数学', '公式', '定理', '物理', '几何', '推导', '算法', '微积分', '概率', '线性代数'],
-    medium: '其他', direction: '现实向', route: 'C', alt: ['A'], aspect: '16:9', duration: 120,
+    medium: '其他', direction: '现实向', route: 'P', alt: ['C', 'A'], aspect: '16:9', duration: 120,
     genres: [T('其他', '现实向', '动态图形与界面')],
     presets: ['whiteboard-explainer', 'minimal-line-explainer'], media: 'pencil', character: 'tianji', templates: [],
-    use_for: ['math', 'explainer'], tips: ['Manim + manim-voiceover 可让动画按词触发'],
+    use_for: ['math', 'formula', 'explainer', 'slides'], tips: ['推导类（一步步变形的公式、逐项点亮、图表）用路线⑥：$$…\\term{}…$$ + terms 按旁白点亮，morph 让同一式子跨页变形', '连续几何/动态过程（旋转、轨迹、函数图像扫动）用路线③ Manim（+ manim-voiceover 按词触发）'],
   },
   {
     id: 'product', name: '产品带货 / 广告',
@@ -190,6 +211,7 @@ export const GENERIC = {
 /** Modifiers stack on top of a scenario. */
 export const MODIFIERS = [
   { id: 'novel-adapt', kw: ['小说', '网文', '改编', '原著', '书改', '推文'], use_for: ['novel-adapt'], note: '小说改编：先用方法论 skill 做「改编大纲 → 角色设定 → 分集剧本」，再进分镜' },
+  { id: 'slides', kw: ['ppt', '幻灯片', '课件', '翻页', 'slides', '演示文稿'], use_for: ['slides'], note: 'PPT 式：路线⑥ slides2video（deck.md 或 import 现成 .pptx），一页一个想法，要点按旁白逐条出现' },
   { id: 'subtitle-heavy', kw: ['字幕', '花字', '逐字', '大字报', '金句'], use_for: ['talking-head'], note: '字幕重：成片后可用路线③的字幕组件（remotion-subtitles / template-tiktok）做花字' },
   { id: 'kids-safe', kw: ['儿童', '亲子', '幼儿', '宝宝', '小朋友'], use_for: ['kids'], note: '面向儿童：避免惊吓画面与不安全行为示范' },
 ];

@@ -224,7 +224,9 @@
         "url": "https://github.com/HBAI-Ltd/Toonflow-app",
         "kind": "platform",
         "intro_zh": "开源 AI 短剧工厂：无限画布 + Agent + 角色三视图 + 智能分镜 + 视频生成",
-        "stars": 16797,
+        "stars": 16862,
+        "pushed": "2026-10-05",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -234,6 +236,16 @@
         ],
         "zh": "native",
         "plugs_into": "本仓库 templates/ 已收录其 MIT 分段模板；可接 ComfyUI 零 API 费",
+        "best_for": [
+          "漫剧 / 短剧量产"
+        ],
+        "strengths": "无限画布 + Agent + 角色三视图，短剧工厂化",
+        "how_to_use": "路线② videogen：本仓库 templates/ 已收录其 MIT 分段模板；可接 ComfyUI 零 API 费",
+        "absorbed": {
+          "type": "idea",
+          "what": "角色资产一次声明、逐镜引用（另有 MIT 模板文字收录于 templates/）",
+          "where": "animator characters / templates/"
+        },
         "score": 10
       },
       {
@@ -242,7 +254,9 @@
         "url": "https://github.com/Forget-C/Jellyfish",
         "kind": "platform",
         "intro_zh": "AI 短剧端到端工作台：结构化分镜、一致性管理到出片",
-        "stars": 6634,
+        "stars": 6638,
+        "pushed": "2026-07-30",
+        "status": "active",
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -251,6 +265,11 @@
         ],
         "zh": "native",
         "plugs_into": "一致性管理参考",
+        "best_for": [
+          "漫剧 / 短剧剧情"
+        ],
+        "strengths": "AI 短剧端到端工作台：结构化分镜、一致性管理到出片（需要 API key、中文原生）",
+        "how_to_use": "路线② videogen：一致性管理参考",
         "score": 9.91
       },
       {
@@ -259,7 +278,9 @@
         "url": "https://github.com/xuanyustudio/LocalMiniDrama",
         "kind": "app",
         "intro_zh": "本地 AI 短剧 & 漫剧生成工具，数据不出本机",
-        "stars": 1975,
+        "stars": 1982,
+        "pushed": "2026-10-02",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -268,6 +289,11 @@
         ],
         "zh": "native",
         "plugs_into": "本地化短剧工作台",
+        "best_for": [
+          "漫剧 / 短剧剧情"
+        ],
+        "strengths": "本地 AI 短剧 & 漫剧生成工具，数据不出本机（需要 API key、中文原生）",
+        "how_to_use": "路线② videogen：本地化短剧工作台",
         "score": 9.65
       },
       {
@@ -276,7 +302,9 @@
         "url": "https://github.com/ArcReel/ArcReel",
         "kind": "platform",
         "intro_zh": "小说/剧本→角色场景道具资产→分镜→视频→剪映草稿",
-        "stars": 5387,
+        "stars": 5398,
+        "pushed": "2026-10-09",
+        "status": "active",
         "license": "AGPL-3.0",
         "license_class": "copyleft",
         "license_note": "AGPL-3.0：修改后对外提供网络服务也需开源",
@@ -285,6 +313,12 @@
         ],
         "zh": "native",
         "plugs_into": "剪映草稿交付；AGPL-3.0",
+        "best_for": [
+          "小说改编",
+          "漫剧 / 短剧剧情"
+        ],
+        "strengths": "小说/剧本→角色场景道具资产→分镜→视频→剪映草稿（需要 API key、中文原生）",
+        "how_to_use": "路线② videogen：剪映草稿交付；AGPL-3.0",
         "score": 8.87
       },
       {
@@ -293,7 +327,9 @@
         "url": "https://github.com/HKUDS/ViMax",
         "kind": "platform",
         "intro_zh": "港大：Idea2Video / Script2Video / Novel2Video，编剧→分镜→角色参考→首帧→视频→拼接",
-        "stars": 12585,
+        "stars": 12587,
+        "pushed": "2026-09-30",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -302,6 +338,17 @@
         ],
         "zh": "en",
         "plugs_into": "剧情类全自动；视频模型按秒计费",
+        "best_for": [
+          "小说改编成视频",
+          "剧情短片"
+        ],
+        "strengths": "Idea/Script/Novel → Video 三种入口的研究型全流程",
+        "how_to_use": "路线② videogen：剧情类全自动；视频模型按秒计费",
+        "absorbed": {
+          "type": "idea",
+          "what": "角色在项目级声明一次、逐镜复用",
+          "where": "animator characters"
+        },
         "score": 8.5
       },
       {
@@ -310,7 +357,9 @@
         "url": "https://github.com/alibaba/lumenx",
         "kind": "platform",
         "intro_zh": "LumenX Studio：小说→剧本分析、角色定制、分镜绘制→视频合成",
-        "stars": 1336,
+        "stars": 1339,
+        "pushed": "2026-08-11",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -319,6 +368,12 @@
         ],
         "zh": "native",
         "plugs_into": "小说转漫剧平台",
+        "best_for": [
+          "小说改编",
+          "漫剧 / 短剧剧情"
+        ],
+        "strengths": "LumenX Studio：小说→剧本分析、角色定制、分镜绘制→视频合成（需要 API key、中文原生）",
+        "how_to_use": "路线② videogen：小说转漫剧平台",
         "score": 8.06
       },
       {
@@ -327,7 +382,9 @@
         "url": "https://github.com/chatfire-AI/huobao-drama",
         "kind": "platform",
         "intro_zh": "火宝短剧：一句话生成完整短剧",
-        "stars": 15858,
+        "stars": 15865,
+        "pushed": "2026-10-05",
+        "status": "active",
         "license": "CC-BY-NC-SA-4.0",
         "license_class": "noncommercial",
         "license_note": "CC BY-NC-SA 4.0：非商用、相同方式共享",
@@ -336,24 +393,36 @@
         ],
         "zh": "native",
         "plugs_into": "CC BY-NC-SA 4.0 非商用，仅作对比参考",
+        "best_for": [
+          "漫剧 / 短剧剧情"
+        ],
+        "strengths": "火宝短剧：一句话生成完整短剧（需要 API key、中文原生）",
+        "how_to_use": "路线② videogen：CC BY-NC-SA 4.0 非商用，仅作对比参考",
         "score": 6
       },
       {
-        "id": "storydiffusion",
-        "repo": "HVision-NKU/StoryDiffusion",
-        "url": "https://github.com/HVision-NKU/StoryDiffusion",
-        "kind": "research",
-        "intro_zh": "一致性自注意力生成角色一致的多格故事图与长视频（NeurIPS 2024）",
-        "stars": 6472,
-        "license": "Apache-2.0",
+        "id": "open-generative-ai",
+        "repo": "Anil-matcha/Open-Generative-AI",
+        "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+        "kind": "app",
+        "intro_zh": "开源的多模型生成工作台：图、视频、口型等在一个界面里调用",
+        "stars": 29903,
+        "pushed": "2026-10-08",
+        "status": "active",
+        "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
         "cost": [
-          "gpu"
+          "api-key"
         ],
         "zh": "en",
-        "plugs_into": "角色一致性的研究方法",
-        "score": 5.91
+        "plugs_into": "云端 API 聚合界面；本仓库 videogen 有同类适配器",
+        "best_for": [
+          "想在一个界面里试多家模型"
+        ],
+        "strengths": "模型覆盖广、MIT",
+        "how_to_use": "路线④：按 README 部署，填各家 key",
+        "score": 5.5
       }
     ],
     "methods": [
@@ -363,7 +432,9 @@
         "url": "https://github.com/lixiaoxiao9888-create/short-drama-factory",
         "kind": "skill",
         "intro_zh": "抖音/红果爆款短剧编剧系统：40 赛道、六母型钩子、五大断章、反转轮换，标准/长档/漫剧三档篇幅",
-        "stars": 310,
+        "stars": 312,
+        "pushed": "2026-09-29",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -372,6 +443,14 @@
         ],
         "zh": "native",
         "plugs_into": "只产剧本层；剧本完成后再进分镜与 videogen",
+        "best_for": [
+          "漫剧 / 短剧剧情",
+          "甜宠恋爱",
+          "都市逆袭",
+          "小说改编"
+        ],
+        "strengths": "抖音/红果爆款短剧编剧系统：40 赛道、六母型钩子、五大断章、反转轮换，标准/长档/漫剧三档篇幅（用编程 Agent 的额度、中文原生）",
+        "how_to_use": "方法论 skill：只产剧本层；剧本完成后再进分镜与 videogen",
         "score": 17.25
       },
       {
@@ -380,7 +459,9 @@
         "url": "https://github.com/0xsline/short-drama",
         "kind": "skill",
         "intro_zh": "短剧剧本创作 skill：13 种题材模板、四层反派、五种钩子、节奏曲线、付费卡点、合规审核、出海",
-        "stars": 1367,
+        "stars": 1371,
+        "pushed": "2026-04-17",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -389,6 +470,11 @@
         ],
         "zh": "native",
         "plugs_into": "剧本结构方法（MIT）",
+        "best_for": [
+          "真人短剧剧本"
+        ],
+        "strengths": "13 种题材模板、钩子与付费卡点设计",
+        "how_to_use": "方法论 skill：剧本结构方法（MIT）",
         "score": 16.07
       },
       {
@@ -397,7 +483,9 @@
         "url": "https://github.com/liyue-aigc/seedance-2-5-video-director",
         "kind": "skill",
         "intro_zh": "Seedance 2.5 视频导演：脚本、诊断、人物锁定、续写、编辑、转场、多格分镜动画",
-        "stars": 556,
+        "stars": 559,
+        "pushed": "2026-08-26",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -406,6 +494,12 @@
         ],
         "zh": "native",
         "plugs_into": "2.5 精确 30 秒时间轴与人物锁定",
+        "best_for": [
+          "漫剧 / 短剧剧情",
+          "甜宠恋爱"
+        ],
+        "strengths": "Seedance 2.5 视频导演：脚本、诊断、人物锁定、续写、编辑、转场、多格分镜动画（用编程 Agent 的额度、中文原生）",
+        "how_to_use": "方法论 skill：2.5 精确 30 秒时间轴与人物锁定",
         "score": 12.87
       },
       {
@@ -415,6 +509,8 @@
         "kind": "skill",
         "intro_zh": "MiniMax H3 镜头拆分与表演指导：作者实测「只有带对白标签的镜头才渲染面部表情」等规则",
         "stars": 175,
+        "pushed": "2026-10-03",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -423,6 +519,12 @@
         ],
         "zh": "en",
         "plugs_into": "情绪戏/表演镜头写法",
+        "best_for": [
+          "漫剧 / 短剧剧情",
+          "甜宠恋爱"
+        ],
+        "strengths": "MiniMax H3 镜头拆分与表演指导：作者实测「只有带对白标签的镜头才渲染面部表情」等规则（用编程 Agent 的额度）",
+        "how_to_use": "方法论 skill：情绪戏/表演镜头写法",
         "score": 12.62
       },
       {
@@ -432,6 +534,8 @@
         "kind": "skill",
         "intro_zh": "爆款漫剧（动态漫/条漫）脚本 + AI 分镜提示词：角色视觉锚点、四大赛道节奏模型",
         "stars": 74,
+        "pushed": "2026-03-25",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -440,6 +544,13 @@
         ],
         "zh": "native",
         "plugs_into": "漫剧赛道节奏",
+        "best_for": [
+          "漫剧 / 短剧剧情",
+          "甜宠恋爱",
+          "悬疑推理"
+        ],
+        "strengths": "爆款漫剧（动态漫/条漫）脚本 + AI 分镜提示词：角色视觉锚点、四大赛道节奏模型（用编程 Agent 的额度、中文原生）",
+        "how_to_use": "方法论 skill：漫剧赛道节奏",
         "score": 10.94
       }
     ]

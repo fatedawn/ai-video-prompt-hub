@@ -1,0 +1,557 @@
+{
+  "topic": "为什么天空是蓝色的？30 秒 PPT 式科普（瑞利散射公式 + 图表）",
+  "generated_by": "router/cli.mjs recommend",
+  "inputs": {
+    "medium": "其他",
+    "direction": "现实向",
+    "duration_s": 45,
+    "aspect": "9:16",
+    "budget": "free-cpu",
+    "budget_zh": "免费 + 普通电脑（CPU）",
+    "assets": [],
+    "voice": "Kokoro 本地 TTS（默认）",
+    "commercial": false
+  },
+  "scenario": {
+    "id": "science",
+    "name": "科学科普 / 知识讲解（PPT 式）",
+    "matched": [
+      {
+        "id": "science",
+        "score": 2.15,
+        "keywords": [
+          "科普",
+          "为什么"
+        ]
+      },
+      {
+        "id": "explainer",
+        "score": 2.15,
+        "keywords": [
+          "科普",
+          "为什么"
+        ]
+      },
+      {
+        "id": "courseware",
+        "score": 1.15,
+        "keywords": [
+          "ppt"
+        ]
+      }
+    ],
+    "modifiers": [
+      {
+        "id": "slides",
+        "note": "PPT 式：路线⑥ slides2video（deck.md 或 import 现成 .pptx），一页一个想法，要点按旁白逐条出现"
+      }
+    ]
+  },
+  "route": {
+    "primary": "P",
+    "primary_name": "路线⑥：slides2video PPT 式科普（本仓库）",
+    "secondary": [
+      {
+        "id": "A",
+        "name": "路线①：animator 手绘动画（本仓库）"
+      },
+      {
+        "id": "C",
+        "name": "路线③：代码动效（Remotion / HyperFrames / Manim）"
+      },
+      {
+        "id": "D",
+        "name": "路线④：外部开源项目（catalog/）"
+      }
+    ],
+    "videogen_mode": "web",
+    "why": [
+      "「科学科普 / 知识讲解（PPT 式）」是「讲清楚一件事」：路线⑥ slides2video 把 deck.md 做成 PPT 式讲解片——要点按旁白逐词出现、公式逐项点亮、图表按讲解升起、同一元素跨页变形，免费、CPU、无需 API key",
+      "需要连续几何变换 / 函数图像扫动时，改用路线③ Manim"
+    ]
+  },
+  "script_skeleton": [
+    "（钩子）一个反常识的问题：「天空为什么是蓝的，而不是紫的？」",
+    "（比喻）用一个生活画面讲清关键概念（第 2 页）",
+    "（现象 → 原理）分 2–3 页逐层解释，每页一个想法、≤4 条要点",
+    "（公式 / 数据）一页公式逐项点亮或一张图表按讲解升起",
+    "（一句话总结）结尾页一句可复述的结论"
+  ],
+  "tips": [
+    "钩子问题开场 → 生活比喻 → 分层解释（现象 → 原理 → 公式/数据）→ 一句话总结",
+    "一页一个想法、≤4 条要点；每 3–5 秒画面要有新变化（要点出现、圈注、图表升起）",
+    "想要「手绘被画出来」的温度感就换路线①；要连续几何变换（旋转、轨迹）就换路线③ Manim"
+  ],
+  "prompts": {
+    "targets": [],
+    "art": null,
+    "items": [],
+    "note": "主路线不需要视频模型提示词；要做 AI 插段可加 --scenario 指定剧情类题材，或直接浏览 prompts/其他/动态图形与界面"
+  },
+  "templates": [],
+  "style_presets": [
+    {
+      "id": "minimal-line-explainer",
+      "name_zh": "极简黑白线条讲解",
+      "category": "line",
+      "best_for": [
+        "知识讲解",
+        "流程",
+        "观点拆解",
+        "轻幽默故事"
+      ],
+      "media": "pencil"
+    },
+    {
+      "id": "whiteboard-explainer",
+      "name_zh": "白板讲解动画",
+      "category": "line",
+      "best_for": [
+        "教程",
+        "商业解释",
+        "时间线",
+        "因果关系"
+      ],
+      "media": "pencil"
+    },
+    {
+      "id": "bean-doodle-infographic",
+      "name_zh": "小豆人涂鸦信息图",
+      "category": "line",
+      "best_for": [
+        "方法步骤",
+        "清单",
+        "知识卡",
+        "轻量剧情"
+      ],
+      "media": "pencil"
+    }
+  ],
+  "external": {
+    "tools": [
+      {
+        "id": "huashu-design",
+        "repo": "alchaincyf/huashu-design",
+        "url": "https://github.com/alchaincyf/huashu-design",
+        "kind": "skill",
+        "intro_zh": "花叔的 HTML 原生设计 skill：幻灯、原型、时间轴动画（Stage + Sprite），本地导 MP4/GIF/PPTX，无需 key",
+        "stars": 24699,
+        "pushed": "2026-09-22",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm",
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "同作者的 huashu-art-motion（MIT）已移植进 animator；slides2video 页间转场直接调用那 50 种转场",
+        "best_for": [
+          "设计感强的发布会式幻灯",
+          "产品原型演示片"
+        ],
+        "strengths": "设计质量高、中文原生、HTML→MP4 自带",
+        "how_to_use": "路线④：Agent 里装 skill；本仓库路线⑥ 用 `transition: huashu:<名字>` 使用同作者的转场",
+        "score": 17
+      },
+      {
+        "id": "codex-ppt-skill",
+        "repo": "ningzimu/codex-ppt-skill",
+        "url": "https://github.com/ningzimu/codex-ppt-skill",
+        "kind": "skill",
+        "intro_zh": "Codex skill：用 Codex 内置的 GPT 生图做整页图片式 PPT（ChatGPT 订阅内一般不另付 API）",
+        "stars": 6536,
+        "pushed": "2026-10-02",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "整页图片 → 可直接当 slides2video 的 `image-full` 页或 stills2video 的图片",
+        "best_for": [
+          "有 ChatGPT 会员没有 API 额度、要做图片式 PPT"
+        ],
+        "strengths": "把订阅内生图用满，不需要 API key",
+        "how_to_use": "路线④ → ⑤/⑥：Codex 里出页图 → `node slides2video/cli.mjs make deck.md --images 页图目录`",
+        "score": 16.91
+      },
+      {
+        "id": "landppt",
+        "repo": "sligter/LandPPT",
+        "url": "https://github.com/sligter/LandPPT",
+        "kind": "app",
+        "intro_zh": "中文 LLM PPT 平台：主题/文档 → HTML 幻灯 → 讲稿 → 逐页配音 → 导出 1080p 讲解视频",
+        "stars": 3615,
+        "pushed": "2026-10-03",
+        "status": "active",
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "GitHub 显示 NOASSERTION；2026-10-09 读 LICENSE 原文为 Apache-2.0。可编辑 PPTX 导出需要商业 Apryse key。",
+        "cost": [
+          "api-key",
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "整套平台型用法；本仓库只链接。可编辑 PPTX 导出依赖商业 Apryse key",
+        "best_for": [
+          "有 Ollama / LLM key、想一条龙出讲解视频"
+        ],
+        "strengths": "中文原生、HTML 幻灯到视频全链路，Ollama 可离线",
+        "how_to_use": "路线④：自部署；LLM 用 Ollama 可零费用",
+        "score": 16.78
+      },
+      {
+        "id": "ai-animation-skill",
+        "repo": "Unclecheng-li/AI-Animation-Skill",
+        "url": "https://github.com/Unclecheng-li/AI-Animation-Skill",
+        "kind": "skill",
+        "intro_zh": "科普文本 → HTML 演示动画（26 个 PPT 模板 + 14 个流程图模板），中文",
+        "stars": 572,
+        "pushed": "2026-04-16",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "中文科普 HTML 演示；出视频走路线⑥",
+        "best_for": [
+          "中文科普演示动画"
+        ],
+        "strengths": "少见的中文科普向 skill，流程图模板多",
+        "how_to_use": "路线④：Agent 里装 skill",
+        "score": 16.38
+      },
+      {
+        "id": "html-ppt-skill",
+        "repo": "lewislulu/html-ppt-skill",
+        "url": "https://github.com/lewislulu/html-ppt-skill",
+        "kind": "skill",
+        "intro_zh": "HTML PPT skill：24 套主题、31 种版式、47 种动画（CSS + Canvas）、图表版式和演讲者模式",
+        "stars": 8616,
+        "pushed": "2026-09-14",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm",
+          "free-cpu"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "版式/主题清单作为 slides2video 版式设计的参考（未复制其 HTML/CSS）",
+        "best_for": [
+          "网页幻灯演讲",
+          "需要大量动画样式的展示"
+        ],
+        "strengths": "主题和动画数量多，是 HTML 幻灯的样式库",
+        "how_to_use": "路线④：Agent 里装 skill 生成 HTML；要出视频走路线⑥",
+        "absorbed": {
+          "type": "idea",
+          "what": "版式分类（封面、要点、左右图文、对比、大数字、时间线）作参考，样式代码自写",
+          "where": "slides2video/runtime/themes.css"
+        },
+        "score": 16.17
+      },
+      {
+        "id": "katex",
+        "repo": "KaTeX/KaTeX",
+        "url": "https://github.com/KaTeX/KaTeX",
+        "kind": "library",
+        "intro_zh": "网页公式排版，最快",
+        "stars": 20436,
+        "pushed": "2026-10-08",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "en",
+        "plugs_into": "slides2video 的 $$公式$$ 用它渲染（npm 依赖，字体从 node_modules 加载，不进仓库）",
+        "best_for": [
+          "物理/数学/化学公式页"
+        ],
+        "strengths": "渲染快、输出稳定，适合逐帧",
+        "how_to_use": "路线⑥：deck.md 写 `$$ I \\propto 1/\\lambda^4 $$`",
+        "absorbed": {
+          "type": "dependency",
+          "what": "作为 npm 依赖在渲染时加载（MIT）；KaTeX 字体为 OFL，只从 node_modules 读取，不提交",
+          "where": "slides2video/package.json"
+        },
+        "score": 16
+      },
+      {
+        "id": "banana-slides",
+        "repo": "Anionex/banana-slides",
+        "url": "https://github.com/Anionex/banana-slides",
+        "kind": "app",
+        "intro_zh": "中文 AI PPT 应用：大纲/文档生成整页 AI 图片式幻灯，能导出可编辑 PPTX，并一键出带旁白字幕的讲解视频",
+        "stars": 15717,
+        "pushed": "2026-10-08",
+        "status": "active",
+        "license": "AGPL-3.0",
+        "license_class": "copyleft",
+        "license_note": "",
+        "cost": [
+          "api-key",
+          "web-manual"
+        ],
+        "zh": "native",
+        "plugs_into": "AGPL：可以直接用，代码不并入本仓库；「一页一张 AI 图 + 讲解视频」的流程启发了 slides2video prompts（每页出图提示词）",
+        "best_for": [
+          "零代码中文 PPT 科普",
+          "整页插画风课件"
+        ],
+        "strengths": "中文界面一站式：从大纲到讲解视频；能用 ChatGPT 账号 OAuth 出图",
+        "how_to_use": "路线④：按其 README 部署使用；想要本地可控版本走路线⑥ `node slides2video/cli.mjs prompts deck.md`",
+        "absorbed": {
+          "type": "idea",
+          "what": "「一页一张 AI 图 + 旁白」工作流 → 每页中文出图提示词（自写，不含其代码/模板）",
+          "where": "slides2video prompts"
+        },
+        "score": 15
+      },
+      {
+        "id": "slidev",
+        "repo": "slidevjs/slidev",
+        "url": "https://github.com/slidevjs/slidev",
+        "kind": "engine",
+        "intro_zh": "用 Markdown 写网页幻灯：逐条出现、代码变形、公式、流程图都内置，可按点击步导出 PNG/PDF/PPTX",
+        "stars": 48984,
+        "pushed": "2026-10-02",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "deck.md 语法向它看齐（`---` 分页、frontmatter）；它自己不出视频，本仓库 slides2video 补上「按配音时间轴逐帧渲染成 MP4」这一步",
+        "best_for": [
+          "技术分享 / 编程课",
+          "带代码和公式的知识讲解",
+          "要现场演讲也要录成视频的课件"
+        ],
+        "strengths": "Markdown 写幻灯最成熟的方案，开发者生态大；代码块变形和点击步导出是它的招牌",
+        "how_to_use": "路线⑥ 的上游写法：`npm init slidev` 写好后 `slidev export --with-clicks` 出逐步 PNG；或把同样的 Markdown 交给 `node slides2video/cli.mjs make`",
+        "absorbed": {
+          "type": "idea",
+          "what": "deck.md 的 Markdown 子集（分页、frontmatter、逐条出现）参考其语法设计；代码为本仓库自写",
+          "where": "slides2video/lib/parse.mjs"
+        },
+        "score": 14.7
+      }
+    ],
+    "methods": [
+      {
+        "id": "ppt-master",
+        "repo": "hugohe3/ppt-master",
+        "url": "https://github.com/hugohe3/ppt-master",
+        "kind": "skill",
+        "intro_zh": "Agent skill：把文档或主题做成原生可编辑的 PPTX（母版、形状、图表、公式、切换和动画）",
+        "stars": 58391,
+        "pushed": "2026-10-08",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "在 Codex / Claude Code 里先用它生成 PPTX，再交给 slides2video import 或 pptx2video 出片",
+        "best_for": [
+          "要交付可编辑 PPT 的课件 / 汇报",
+          "先做 PPT 再出视频的科普"
+        ],
+        "strengths": "出来的是原生可编辑 PPTX 而不是图片页，后续人工改稿方便；宿主自带生图即可，不必另配 key",
+        "how_to_use": "路线④ → ⑥：Agent 里装这个 skill 生成 PPTX → `node slides2video/cli.mjs import x.pptx` → `make`",
+        "score": 16.2
+      },
+      {
+        "id": "openmaic",
+        "repo": "THU-MAIC/OpenMAIC",
+        "url": "https://github.com/THU-MAIC/OpenMAIC",
+        "kind": "app",
+        "intro_zh": "清华多智能体互动课堂：主题/文档 → 课件 + 白板公式 + 语音讲解，可一键导出 MP4",
+        "stars": 40203,
+        "pushed": "2026-10-09",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key",
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "课堂化讲解的参考（多角色、白板推导）；本仓库只链接",
+        "best_for": [
+          "AI 课堂 / 微课",
+          "带白板推导的数理讲解"
+        ],
+        "strengths": "多智能体「老师 + 同学」互动课堂形态独特，白板能写公式",
+        "how_to_use": "路线④：按 README 部署（需一个 LLM key 或 Ollama）",
+        "score": 14
+      },
+      {
+        "id": "skills",
+        "repo": "anthropics/skills",
+        "url": "https://github.com/anthropics/skills",
+        "kind": "skill",
+        "intro_zh": "Anthropic 官方 skills 合集，含读写 PPTX 的 pptx skill",
+        "stars": 180030,
+        "pushed": "2026-10-08",
+        "status": "active",
+        "license": "NONE",
+        "license_class": "none",
+        "license_note": "仓库根目录无 LICENSE；pptx skill 自带 LICENSE.txt 为 Anthropic 专有条款。只给链接。",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "en",
+        "plugs_into": "pptx skill 为专有条款：只链接",
+        "best_for": [
+          "Claude 里读写 PPTX"
+        ],
+        "strengths": "官方维护",
+        "how_to_use": "Claude 内置使用；不复制",
+        "score": 8.5,
+        "commercial_block": true,
+        "warning": "no-license"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "确认需求（intake）",
+      "cmds": [
+        "node router/cli.mjs intake"
+      ],
+      "note": "题材、媒介、方向、时长、画幅、预算、角色素材、配音逐项确认；不确定就用本方案的默认值"
+    },
+    {
+      "route": "P",
+      "title": "—— 路线⑥：slides2video PPT 式科普（本仓库）（主路线） ——",
+      "cmds": []
+    },
+    {
+      "title": "准备（只需一次）",
+      "cmds": [
+        "cd slides2video && npm install && cd ..",
+        "cd animator && npm install && npm run setup:tts && cd ..",
+        "node slides2video/cli.mjs doctor"
+      ],
+      "note": "KaTeX / Shiki / Mermaid 只装在 slides2video/node_modules（KaTeX 字体为 OFL，渲染时从 node_modules 加载，不进仓库）；setup:tts 下载本地 Kokoro 配音（可跳过：静音 + 按字数计时）",
+      "route": "P"
+    },
+    {
+      "title": "写 deck.md（或导入现成 PPT）",
+      "cmds": [
+        "node slides2video/cli.mjs init .work/为什么天空是蓝色的-30",
+        "$EDITOR .work/为什么天空是蓝色的-30/deck.md",
+        "# 已有 PPT：node slides2video/cli.mjs import 课件.pptx --out .work/为什么天空是蓝色的-30  （备注 = 旁白）"
+      ],
+      "note": "一页一个想法；`> say:` 一句一条字幕；要点行尾写 {at: 词} 让它在说到该词时出现，{mark: circle} 圈注，{id: x} + transition: morph 跨页变形；公式 $$…\\term{…}…$$ + terms 逐项点亮；画幅 aspect: \"9:16\"，主题 tianji（天机）",
+      "route": "P"
+    },
+    {
+      "title": "配图（可选，ChatGPT 出图）",
+      "cmds": [
+        "node slides2video/cli.mjs prompts .work/为什么天空是蓝色的-30/deck.md --out .work/为什么天空是蓝色的-30/出图提示词.md",
+        "# 按提示词出图，存为 .work/为什么天空是蓝色的-30/images/01.png、05.png…（页号命名）"
+      ],
+      "note": "提示词已要求画面不含文字（文字由视频叠加）；不出图也能做：纯排版页 + 图表 + 公式",
+      "route": "P"
+    },
+    {
+      "title": "检查时间轴与版式",
+      "cmds": [
+        "node slides2video/cli.mjs plan .work/为什么天空是蓝色的-30/deck.md --voice",
+        "node slides2video/cli.mjs lint .work/为什么天空是蓝色的-30/deck.md --qa"
+      ],
+      "note": "看每条要点 / 圈注的出现时刻；lint 检查语速、要点数、长时间静止、溢出、压字幕区",
+      "route": "P"
+    },
+    {
+      "title": "一条命令出片",
+      "cmds": [
+        "node slides2video/cli.mjs make .work/为什么天空是蓝色的-30/deck.md --out .work/为什么天空是蓝色的-30/final.mp4 --sheet --preview"
+      ],
+      "note": "同时输出 .srt、每页样张拼图和 720p 预览；--from/--to 只渲染一段做快速检查",
+      "route": "P"
+    },
+    {
+      "route": "A",
+      "title": "—— 路线①：animator 手绘动画（本仓库）（备选/升级） ——",
+      "cmds": []
+    },
+    {
+      "title": "准备（只需一次）",
+      "cmds": [
+        "cd animator && npm install && npm run setup:tts && cd .."
+      ],
+      "note": "Node ≥18；setup:tts 下载本地开源 TTS（Kokoro v1.1-zh，CPU、离线、免费）",
+      "route": "A"
+    },
+    {
+      "title": "写台词",
+      "cmds": [
+        "mkdir -p .work/为什么天空是蓝色的-30 && $EDITOR .work/为什么天空是蓝色的-30/台词.txt"
+      ],
+      "note": "一行一句（会成为一条字幕）；空行 = 换镜头；「关键词」说到时会被画出来；「角色：台词」可切换说话人（天机/豆豆）",
+      "route": "A"
+    },
+    {
+      "title": "选画风",
+      "cmds": [
+        "node animator/src/cli.mjs styles --show minimal-line-explainer",
+        "node animator/src/cli.mjs styles --search 彩铅"
+      ],
+      "note": "推荐画材 --media pencil；画风预设只是提示词配方，渲染本身不调用任何 AI 服务",
+      "route": "A"
+    },
+    {
+      "title": "一条命令出片",
+      "cmds": [
+        "node animator/src/cli.mjs make .work/为什么天空是蓝色的-30/台词.txt --out .work/为什么天空是蓝色的-30/为什么天空是蓝色的-30.mp4 --character tianji --media pencil"
+      ],
+      "note": "先加 --scale 0.5 快速预览；完成后会生成可编辑的工程 project.json",
+      "route": "A"
+    },
+    {
+      "title": "精修（可选）",
+      "cmds": [
+        "node animator/src/cli.mjs check .work/为什么天空是蓝色的-30/为什么天空是蓝色的-30.work/project.json",
+        "node animator/src/cli.mjs preview .work/为什么天空是蓝色的-30/为什么天空是蓝色的-30.work/project.json",
+        "node animator/src/cli.mjs make .work/为什么天空是蓝色的-30/为什么天空是蓝色的-30.work/project.json --out .work/为什么天空是蓝色的-30/为什么天空是蓝色的-30.mp4"
+      ],
+      "note": "在 project.json 里加 \"stylePreset\": \"minimal-line-explainer\"，调整道具、动作、相机；synccheck 可做图文对齐质检",
+      "route": "A"
+    },
+    {
+      "title": "发布前质检",
+      "cmds": [],
+      "note": "核对字幕错别字与音画对齐；按平台要求标注「AI 生成」；可用 self-media-compliance-review 做违规风险自查"
+    }
+  ],
+  "compliance": [
+    "本仓库提示词/模板各自保留原许可证（见每条的 license 与 source_repo），转载或二次分发请保留出处；link-only 条目只给链接，不在此推荐",
+    "不使用真实明星/他人的脸、名字和声音；声音克隆、数字人只用本人或已获授权的素材",
+    "背景音乐、字体、参考图需自有版权或可商用授权",
+    "按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容",
+    "Anionex/banana-slides：AGPL-3.0",
+    "anthropics/skills：仓库根目录无 LICENSE；pptx skill 自带 LICENSE.txt 为 Anthropic 专有条款。只给链接。（无许可证：仅可参考，勿复制代码）",
+    "Remotion：个人与 ≤3 人公司免费，更大的营利公司需购买 Company License"
+  ],
+  "warnings": []
+}

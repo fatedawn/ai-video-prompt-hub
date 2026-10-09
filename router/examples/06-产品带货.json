@@ -229,7 +229,9 @@
         "url": "https://github.com/xianyu110/ecommerce-video-skills",
         "kind": "skill",
         "intro_zh": "电商短视频 skills：3 秒钩子、卖点分镜、图生视频提示词、配音字幕花字、ffmpeg 本地成片、多平台导出",
-        "stars": 57,
+        "stars": 59,
+        "pushed": "2026-10-05",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -239,7 +241,14 @@
         ],
         "zh": "native",
         "plugs_into": "产品带货零成本起步方案",
-        "score": 17.88
+        "best_for": [
+          "电商详情 / 带货",
+          "产品带货 / 种草",
+          "广告片"
+        ],
+        "strengths": "电商短视频 skills：3 秒钩子、卖点分镜、图生视频提示词、配音字幕花字、ffmpeg 本地成片、多平台导出（免费 CPU 可跑、中文原生）",
+        "how_to_use": "路线② videogen：产品带货零成本起步方案",
+        "score": 17.89
       },
       {
         "id": "video-shotcraft",
@@ -247,7 +256,9 @@
         "url": "https://github.com/Vincentwei1021/video-shotcraft",
         "kind": "skill",
         "intro_zh": "电影感产品宣传片 skill：150+ 镜头配方卡、200+ 动效预览、可直接用的 Remotion 模板",
-        "stars": 10881,
+        "stars": 10922,
+        "pushed": "2026-10-05",
+        "status": "active",
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -257,6 +268,11 @@
         ],
         "zh": "bilingual",
         "plugs_into": "产品带货/项目推荐的 Remotion 镜头库（Apache-2.0）",
+        "best_for": [
+          "电影感产品宣传片"
+        ],
+        "strengths": "镜头配方卡 + 动效预览 + Remotion 模板",
+        "how_to_use": "路线③ 代码动效：产品带货/项目推荐的 Remotion 镜头库（Apache-2.0）",
         "score": 13.2
       },
       {
@@ -265,7 +281,9 @@
         "url": "https://github.com/op7418/guizang-product-video-skill",
         "kind": "skill",
         "intro_zh": "归藏：复用产品真实组件与设计语言，用代码做软件更新宣传片（含分镜文案、原创配乐、音效）",
-        "stars": 727,
+        "stars": 738,
+        "pushed": "2026-10-01",
+        "status": "active",
         "license": "AGPL-3.0",
         "license_class": "copyleft",
         "license_note": "AGPL-3.0",
@@ -275,6 +293,13 @@
         ],
         "zh": "native",
         "plugs_into": "软件/开源项目宣传片；AGPL-3.0",
+        "best_for": [
+          "产品带货 / 种草",
+          "产品发布片",
+          "GitHub 仓库推荐"
+        ],
+        "strengths": "归藏：复用产品真实组件与设计语言，用代码做软件更新宣传片（含分镜文案、原创配乐、音效）（免费 CPU 可跑、中文原生）",
+        "how_to_use": "路线③ 代码动效：软件/开源项目宣传片；AGPL-3.0",
         "score": 12.43
       },
       {
@@ -284,6 +309,8 @@
         "kind": "skill",
         "intro_zh": "中文优先的 HyperFrames 动效视频导演：文章/产品/网站/README→9:16 宣传片，含审片",
         "stars": 451,
+        "pushed": "2026-07-26",
+        "status": "active",
         "license": "AGPL-3.0",
         "license_class": "copyleft",
         "license_note": "AGPL-3.0",
@@ -293,6 +320,13 @@
         ],
         "zh": "native",
         "plugs_into": "README→竖屏宣传片；AGPL-3.0",
+        "best_for": [
+          "GitHub 仓库推荐",
+          "产品带货 / 种草",
+          "产品发布片"
+        ],
+        "strengths": "中文优先的 HyperFrames 动效视频导演：文章/产品/网站/README→9:16 宣传片，含审片（免费 CPU 可跑、中文原生）",
+        "how_to_use": "路线③ 代码动效：README→竖屏宣传片；AGPL-3.0",
         "score": 12.33
       },
       {
@@ -301,7 +335,9 @@
         "url": "https://github.com/diffusionstudio/lottie",
         "kind": "skill",
         "intro_zh": "Text-to-Lottie：用 Claude Code/Codex 生成可投产的 Lottie 动画",
-        "stars": 5551,
+        "stars": 5553,
+        "pushed": "2026-07-25",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -311,24 +347,14 @@
         ],
         "zh": "bilingual",
         "plugs_into": "生成可复用的矢量动效素材",
-        "score": 11.57
-      },
-      {
-        "id": "ffcreator",
-        "repo": "tnfe/FFCreator",
-        "url": "https://github.com/tnfe/FFCreator",
-        "kind": "library",
-        "intro_zh": "基于 Node.js 的高速短视频制作库（图片/视频/音乐→带动画短片）",
-        "stars": 3163,
-        "license": "MIT",
-        "license_class": "permissive",
-        "license_note": "",
-        "cost": [
-          "free-cpu"
+        "best_for": [
+          "知识科普 / 口播讲解",
+          "产品带货 / 种草",
+          "产品发布片"
         ],
-        "zh": "bilingual",
-        "plugs_into": "批量相册/带货视频",
-        "score": 11.45
+        "strengths": "Text-to-Lottie：用 Claude Code/Codex 生成可投产的 Lottie 动画（免费 CPU 可跑）",
+        "how_to_use": "路线③ 代码动效：生成可复用的矢量动效素材",
+        "score": 11.57
       },
       {
         "id": "remotion-code-motion-explainer",
@@ -337,6 +363,8 @@
         "kind": "skill",
         "intro_zh": "代码动画导演 skill：脚本/旁白/产品流程→可编辑、可参数化的 Remotion 动画，63 个镜头条目",
         "stars": 33,
+        "pushed": "2026-07-28",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -346,6 +374,13 @@
         ],
         "zh": "native",
         "plugs_into": "中文的 Remotion 解说镜头库",
+        "best_for": [
+          "知识科普 / 口播讲解",
+          "产品带货 / 种草",
+          "GitHub 仓库推荐"
+        ],
+        "strengths": "代码动画导演 skill：脚本/旁白/产品流程→可编辑、可参数化的 Remotion 动画，63 个镜头条目（免费 CPU 可跑、中文原生）",
+        "how_to_use": "路线③ 代码动效：中文的 Remotion 解说镜头库",
         "score": 11.27
       },
       {
@@ -354,7 +389,9 @@
         "url": "https://github.com/heygen-com/hyperframes",
         "kind": "engine",
         "intro_zh": "HeyGen 出品：写 HTML 渲视频，为 agent 设计的确定性 HTML→MP4 框架（Apache-2.0）",
-        "stars": 59183,
+        "stars": 59325,
+        "pushed": "2026-10-09",
+        "status": "active",
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -363,7 +400,38 @@
         ],
         "zh": "en",
         "plugs_into": "大量中文白板/口播 skill 的渲染底座；与 Remotion 二选一",
+        "best_for": [
+          "仓库推荐 / 产品发布",
+          "图表与字幕重的讲解"
+        ],
+        "strengths": "写 HTML 就能确定性渲染 MP4，Apache-2.0，Agent 友好",
+        "how_to_use": "路线③ 代码动效：大量中文白板/口播 skill 的渲染底座；与 Remotion 二选一",
         "score": 11
+      },
+      {
+        "id": "revideo",
+        "repo": "midrender/revideo",
+        "url": "https://github.com/midrender/revideo",
+        "kind": "engine",
+        "intro_zh": "用代码创建视频（Motion Canvas 分支，面向程序化批量渲染，MIT）",
+        "stars": 4092,
+        "pushed": "2026-07-15",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "en",
+        "plugs_into": "需要 MIT 许可的程序化渲染时替代 Remotion",
+        "best_for": [
+          "知识科普 / 口播讲解",
+          "产品带货 / 种草"
+        ],
+        "strengths": "用代码创建视频（Motion Canvas 分支，面向程序化批量渲染，MIT）（免费 CPU 可跑）",
+        "how_to_use": "路线③ 代码动效：需要 MIT 许可的程序化渲染时替代 Remotion",
+        "score": 10.81
       }
     ],
     "methods": [
@@ -374,6 +442,8 @@
         "kind": "skill",
         "intro_zh": "商业广告脚本生成器：合规审查→产品力→叙事脚本→AIGC 分镜参数",
         "stars": 50,
+        "pushed": "2026-03-18",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -382,6 +452,13 @@
         ],
         "zh": "native",
         "plugs_into": "带货/广告脚本",
+        "best_for": [
+          "广告片",
+          "产品带货 / 种草",
+          "电商详情 / 带货"
+        ],
+        "strengths": "商业广告脚本生成器：合规审查→产品力→叙事脚本→AIGC 分镜参数（用编程 Agent 的额度、中文原生）",
+        "how_to_use": "方法论 skill：带货/广告脚本",
         "score": 16.85
       },
       {
@@ -391,6 +468,8 @@
         "kind": "skill",
         "intro_zh": "产品宣传片 skills：先做产品判断，再叙事结构、视觉规划、HyperFrames 剪辑、BGM 设计",
         "stars": 103,
+        "pushed": "2026-05-12",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -399,6 +478,12 @@
         ],
         "zh": "native",
         "plugs_into": "带货/宣传片的「先判断后画面」方法",
+        "best_for": [
+          "产品带货 / 种草",
+          "产品发布片"
+        ],
+        "strengths": "产品宣传片 skills：先做产品判断，再叙事结构、视觉规划、HyperFrames 剪辑、BGM 设计（用编程 Agent 的额度、中文原生）",
+        "how_to_use": "方法论 skill：带货/宣传片的「先判断后画面」方法",
         "score": 13.01
       },
       {
@@ -407,7 +492,9 @@
         "url": "https://github.com/liangdabiao/make-prompt-seedance2",
         "kind": "method",
         "intro_zh": "Seedance 2.0 结构化提示词指南：16+ 模板、8+ 示例（带货、TVC、真人实拍）",
-        "stars": 694,
+        "stars": 696,
+        "pushed": "2026-10-04",
+        "status": "active",
         "license": "NONE",
         "license_class": "none",
         "license_note": "无 LICENSE 文件；docs/ 收录了他人文章，仅链接，切勿复制",
@@ -416,6 +503,14 @@
         ],
         "zh": "native",
         "plugs_into": "写法参考；无许可证，且 docs/ 收录他人文章，仅链接",
+        "best_for": [
+          "漫剧 / 短剧剧情",
+          "广告片",
+          "产品带货 / 种草",
+          "vlog / 空镜头"
+        ],
+        "strengths": "Seedance 2.0 结构化提示词指南：16+ 模板、8+ 示例（带货、TVC、真人实拍）（用编程 Agent 的额度、中文原生）",
+        "how_to_use": "方法论 skill：写法参考；无许可证，且 docs/ 收录他人文章，仅链接",
         "score": 10.42
       }
     ]

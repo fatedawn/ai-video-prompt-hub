@@ -23,6 +23,9 @@ export function mediaForPreset(st) {
   return { crayon: 'crayon', ink: 'ink', watercolor: 'picture-book', gouache: 'picture-book', line: 'pencil', diary: 'colored-pencil' }[st.category] || 'crayon';
 }
 
+/** Stale = not pushed since the freshness cutoff (registry.freshness.cutoff) or archived; see catalog/tools/freshness.py. */
+export const isStale = (e) => e.status === 'stale';
+
 const hits = (text, kws) => kws.filter((k) => text.includes(norm(k)));
 
 export function classify(topic, opts = {}) {
@@ -63,6 +66,9 @@ export function decideRoute(c, opts) {
     why.push('题材适合讲解，但你要真人出镜：用代码动效包装口播，或用外部数字人项目（肖像需授权）');
   } else if (primary === 'A') {
     why.push(`「${s.name}」以讲清楚/讲好故事为主，本仓库 animator 手绘逐笔动画免费、CPU 可跑、画面与台词逐词对齐`);
+  } else if (primary === 'P') {
+    why.push(`「${s.name}」是「讲清楚一件事」：路线⑥ slides2video 把 deck.md 做成 PPT 式讲解片——要点按旁白逐词出现、公式逐项点亮、图表按讲解升起、同一元素跨页变形，免费、CPU、无需 API key`);
+    if (s.alt.includes('C')) why.push(s.id === 'math' || s.id === 'science' ? '需要连续几何变换 / 函数图像扫动时，改用路线③ Manim' : '需要高度定制的动效时，改用路线③ 代码动效');
   } else if (primary === 'C') {
     why.push(`「${s.name}」以图表/公式/文字信息为主，代码动效最精确，且全部可在 CPU 上免费渲染`);
   } else if (primary === 'B') {
@@ -212,8 +218,8 @@ export function pickStyles(data, c, topic, opts) {
 }
 
 // The input a scenario naturally starts from; tools that accept it directly rank higher.
-const SCENARIO_INPUT = { 'repo-promo': ['repo'], product: ['product'], 'picture-book': ['story', 'image'], healing: ['story', 'image'], explainer: ['script', 'topic', 'srt'],
-  book: ['topic', 'script'], data: ['data'], math: ['topic', 'script'], poem: ['poem'], vlog: ['video'], 'music-mv': ['lyrics', 'audio'] };
+const SCENARIO_INPUT = { science: ['topic', 'script', 'pptx'], courseware: ['pptx', 'script', 'topic'], 'repo-promo': ['repo'], product: ['product'], 'picture-book': ['story', 'image'], healing: ['story', 'image'], explainer: ['script', 'topic', 'srt'],
+  book: ['topic', 'script'], data: ['data'], math: ['topic', 'script', 'pptx'], poem: ['poem'], vlog: ['video'], 'music-mv': ['lyrics', 'audio'] };
 
 function costScore(cost, budget) {
   const has = (k) => cost.includes(k);
@@ -229,13 +235,15 @@ export function rankExternal(data, c, route, opts) {
   const keys = new Set([ROUTES[route.primary]?.key, ...route.secondary.map((r) => ROUTES[r]?.key)]);
   const scored = [];
   for (const e of data.registry.entries) {
+    if (!opts.include_stale && isStale(e)) continue; // only projects active in 2026 are recommended by default
     if (opts.commercial && (['noncommercial', 'none'].includes(e.license_class) || e.commercial_block)) continue;
     const real = e.use_for.filter((u) => want.has(u)).length;
     const anyOk = e.use_for.includes('any') && e.routes.includes(ROUTES[route.primary].key);
     const uf = real + (anyOk ? 0.5 : 0);
     const stillsFit = route.primary === 'S' && e.routes.includes('S-stills'); // only-images plans want stills/I2V/polish tools first
+    const slidesFit = route.primary === 'P' && e.routes.includes('P-slides') && uf > 0;
     if (!uf && !stillsFit) continue;
-    let s = uf * 3 + (stillsFit ? 6 + (opts.budget === 'gpu' && e.cost.includes('gpu') ? 3 : 0) : 0) + (e.use_for.includes(c.scenario.use_for[0]) ? 2 : 0);
+    let s = uf * 3 + (stillsFit ? 6 + (opts.budget === 'gpu' && e.cost.includes('gpu') ? 3 : 0) : 0) + (slidesFit ? 2 : 0) + (e.use_for.includes(c.scenario.use_for[0]) ? 2 : 0);
     const wantIn = SCENARIO_INPUT[c.scenario.id] || (c.scenario.drama ? ['story', 'novel', 'script'] : []);
     if (c.modifiers.some((m) => m.id === 'novel-adapt')) wantIn.push('novel');
     if (e.input.some((i) => wantIn.includes(i))) s += 1.5;
@@ -252,8 +260,9 @@ export function rankExternal(data, c, route, opts) {
     scored.push({ e, s });
   }
   scored.sort((a, b) => b.s - a.s || b.e.stars - a.e.stars);
-  const fmt = ({ e, s }) => ({ id: e.id, repo: e.repo, url: e.url, kind: e.kind, intro_zh: e.intro_zh, stars: e.stars, license: e.license,
-    license_class: e.license_class, license_note: e.license_note, cost: e.cost, zh: e.zh, plugs_into: e.plugs_into, score: +s.toFixed(2),
+  const fmt = ({ e, s }) => ({ id: e.id, repo: e.repo, url: e.url, kind: e.kind, intro_zh: e.intro_zh, stars: e.stars, pushed: e.pushed, status: e.status || 'active',
+    license: e.license, license_class: e.license_class, license_note: e.license_note, cost: e.cost, zh: e.zh, plugs_into: e.plugs_into,
+    best_for: e.best_for || [], strengths: e.strengths || '', how_to_use: e.how_to_use || e.plugs_into, ...(e.absorbed && e.absorbed.type !== 'none' ? { absorbed: e.absorbed } : {}), score: +s.toFixed(2),
     ...(e.commercial_block ? { commercial_block: true } : {}), ...(e.warning ? { warning: e.warning } : {}) });
   const methods = scored.filter((x) => x.e.routes.includes('M-method') && x.e.routes.length <= 2 && x.e.category !== 'handdrawn');
   const tools = scored.filter((x) => !methods.includes(x));
@@ -269,9 +278,11 @@ const SKELETON = {
   product: ['0–3 秒：痛点钩子或效果对比', '3–10 秒：产品出场 + 核心卖点 1', '10–20 秒：卖点 2/3 演示与证据', '20–30 秒：使用场景 + 行动号召'],
   vlog: ['开场：地点/时间/今天要做什么', '过程：3–5 个手持片段（走、看、吃、玩）', '高光：一个最有感觉的瞬间', '结尾：一句感受'],
   poem: ['题签：诗名 + 作者（逐字写出）', '每句诗一个画面，朗读一句画一景', '结尾：用白话说一句诗意'],
+  science: ['（钩子）一个反常识的问题：「天空为什么是蓝的，而不是紫的？」', '（比喻）用一个生活画面讲清关键概念（第 2 页）', '（现象 → 原理）分 2–3 页逐层解释，每页一个想法、≤4 条要点', '（公式 / 数据）一页公式逐项点亮或一张图表按讲解升起', '（一句话总结）结尾页一句可复述的结论'],
+  courseware: ['封面：这节课解决什么问题', '知识点 1：定义 + 例子（要点逐条出现）', '知识点 2：图示 / 公式 / 代码', '易错点：对比页（左右分栏）', '小结 + 一道思考题'],
   data: ['开头：一个最惊人的数字', '图表 1：趋势', '图表 2：对比 / 排名', '结论：这意味着什么（注明数据来源）'],
 };
-const skeletonFor = (s) => ({ 'repo-promo': SKELETON.repo, explainer: SKELETON.explain, math: SKELETON.explain, book: SKELETON.book, 'picture-book': SKELETON.kids, healing: SKELETON.kids,
+const skeletonFor = (s) => ({ 'repo-promo': SKELETON.repo, explainer: SKELETON.explain, math: SKELETON.science, science: SKELETON.science, courseware: SKELETON.courseware, book: SKELETON.book, 'picture-book': SKELETON.kids, healing: SKELETON.kids,
   product: SKELETON.product, vlog: SKELETON.vlog, poem: SKELETON.poem, data: SKELETON.data, 'music-mv': SKELETON.vlog }[s.id] || SKELETON.drama);
 
 function commandsFor(route, ctx) {
@@ -299,6 +310,17 @@ function commandsFor(route, ctx) {
       { title: '拆成镜头清单', cmds: [`node videogen/cli.mjs plan ${W}/分镜.md --out ${W}/shots.json --aspect ${aspect}${c.scenario.drama ? ` --refs ${W}/refs` : ''}`] },
       { title: `生成镜头（${{ api: '云 API', comfyui: '本地 GPU', web: '网页手动' }[ctx.videogenMode]}）`, cmds: gen, note: ctx.videogenMode === 'api' ? '先 --dry-run 只打印请求；provider 还可选 kling / minimax / veo / fal / replicate / runway / luma' : ctx.videogenMode === 'web' ? (budget === 'free-cpu' ? '网页端可能消耗会员/额度，费用以平台为准' : '网页端费用以平台为准') : 'ComfyUI 需先装好 Wan2.2 TI2V 5B 模型' },
       { title: '配音 + 字幕 + 合成', cmds: [`node videogen/cli.mjs assemble ${W}/shots.json --out ${W}/final.mp4`], note: '台词交给本地 Kokoro TTS（需先 cd animator && npm run setup:tts），自动逐字字幕；--bgm 加你有版权的音乐' },
+    ];
+  }
+  if (route === 'P') {
+    const asp = aspect || '9:16';
+    return [
+      { title: '准备（只需一次）', cmds: ['cd slides2video && npm install && cd ..', 'cd animator && npm install && npm run setup:tts && cd ..', 'node slides2video/cli.mjs doctor'], note: 'KaTeX / Shiki / Mermaid 只装在 slides2video/node_modules（KaTeX 字体为 OFL，渲染时从 node_modules 加载，不进仓库）；setup:tts 下载本地 Kokoro 配音（可跳过：静音 + 按字数计时）' },
+      { title: '写 deck.md（或导入现成 PPT）', cmds: [`node slides2video/cli.mjs init ${W}`, `$EDITOR ${W}/deck.md`, `# 已有 PPT：node slides2video/cli.mjs import 课件.pptx --out ${W}  （备注 = 旁白）`],
+        note: `一页一个想法；\`> say:\` 一句一条字幕；要点行尾写 {at: 词} 让它在说到该词时出现，{mark: circle} 圈注，{id: x} + transition: morph 跨页变形；公式 $$…\\term{…}…$$ + terms 逐项点亮；画幅 aspect: "${asp}"，主题 ${ch === 'tianji' ? 'tianji（天机）' : 'clean / paper / chalk'}` },
+      { title: '配图（可选，ChatGPT 出图）', cmds: [`node slides2video/cli.mjs prompts ${W}/deck.md --out ${W}/出图提示词.md`, `# 按提示词出图，存为 ${W}/images/01.png、05.png…（页号命名）`], note: '提示词已要求画面不含文字（文字由视频叠加）；不出图也能做：纯排版页 + 图表 + 公式' },
+      { title: '检查时间轴与版式', cmds: [`node slides2video/cli.mjs plan ${W}/deck.md --voice`, `node slides2video/cli.mjs lint ${W}/deck.md --qa`], note: '看每条要点 / 圈注的出现时刻；lint 检查语速、要点数、长时间静止、溢出、压字幕区' },
+      { title: '一条命令出片', cmds: [`node slides2video/cli.mjs make ${W}/deck.md --out ${W}/final.mp4 --sheet --preview`], note: '同时输出 .srt、每页样张拼图和 720p 预览；--from/--to 只渲染一段做快速检查' },
     ];
   }
   if (route === 'C') {
@@ -365,6 +387,7 @@ export function recommend(data, topic, opts = {}) {
   }
   if ([route.primary, ...route.secondary].includes('C') && !['math', 'repo-promo', 'product', 'vlog'].includes(c.scenario.id)) compliance.push('Remotion：个人与 ≤3 人公司免费，更大的营利公司需购买 Company License');
   const warnings = [];
+  if (opts.include_stale) warnings.push(`已包含 ${data.registry.freshness?.cutoff || '2026-01-01'} 之后不再更新（或已归档）的项目，可能无人维护`);
   if (c.scenario === GENERIC) warnings.push('没有识别出明确题材，按「通用剧情短片」处理；可用 --scenario 指定（见 node router/cli.mjs scenarios）');
   if (route.primary === 'B' && prompts.items.length && prompts.items.every((p) => p.language !== 'zh')) warnings.push('该类目暂无中文提示词，推荐的是英文原文，可让 AI 翻译后再改写');
   return {

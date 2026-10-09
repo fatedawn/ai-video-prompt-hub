@@ -117,21 +117,20 @@
 
 | 项目 | ★ | 许可 | 成本 | 语言 | 用法 |
 |---|---|---|---|---|---|
-| [tnfe/FFCreator](https://github.com/tnfe/FFCreator) | 3163 | MIT | 免费CPU | 中英 | 基于 Node.js 的高速短视频制作库（图片/视频/音乐→带动画短片）；**接入**：批量相册/带货视频 |
-| [luoluoluo22/jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) | 3824 | MIT | 免费CPU/Agent额度 | 中文 | 让 Agent 自动操作剪映：写文案、配音、字幕、选乐、特效到导出草稿；**接入**：成片最后一公里：把 animator/videogen 产物导入剪映精修；含 Apache-2.0 第三方组件 |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 129189 | MIT | API key/免费CPU | 中文 | 主题→文案→实拍素材库拼接→配音字幕的短视频生成；**接入**：实拍素材口播；不适合手绘；stills2video 借鉴了它的亚像素缩放与图片清洗思路（MIT，自写实现） |
-| [mifi/editly](https://github.com/mifi/editly) | 5521 | MIT | 免费CPU | 英文 | 声明式（JSON）命令行视频剪辑/合成；**接入**：用 JSON 拼片头片尾与转场；stills2video 借鉴了它的缓动曲线与 zoomDirection 参数思路（MIT，自写实现） |
-| [gyoridavid/short-video-maker](https://github.com/gyoridavid/short-video-maker) | 1399 | MIT | 免费CPU | 英文 | 文本→TTS + 自动字幕 + 背景素材 + 音乐的短视频生成器（MCP/REST）；**接入**：实拍素材拼接型短视频；不生成画面本身 |
+| [luoluoluo22/jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) | 3832 | MIT | 免费CPU/Agent额度 | 中文 | 让 Agent 自动操作剪映：写文案、配音、字幕、选乐、特效到导出草稿；**接入**：成片最后一公里：把 animator/videogen 产物导入剪映精修；含 Apache-2.0 第三方组件 |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 129233 | MIT | API key/免费CPU | 中文 | 主题→文案→实拍素材库拼接→配音字幕的短视频生成；**接入**：实拍素材口播；不适合手绘；stills2video 借鉴了它的亚像素缩放与图片清洗思路（MIT，自写实现） |
 | [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) | 3470 | Apache-2.0 | API key | 中英 | AI 剪辑 agent：自然语言驱动剪辑决策；**接入**：已有素材的剪辑路线 |
 | [remotion-dev/template-tiktok](https://github.com/remotion-dev/template-tiktok) | 283 | NONE ⚠️无许可证 | 免费CPU | 英文 | 官方模板：Whisper.cpp 生成 TikTok 式逐词字幕；**接入**：口播/vlog 加逐词字幕；package.json 标注 UNLICENSED（Remotion License 管框架） |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 136482 | GPL-3.0 传染性 | GPU | 英文 | 节点式本地生成底座；Wan2.2 I2V / FLF2V、LTX、FramePack 等都有官方或社区工作流；**接入**：stills2video --backend comfyui 与 videogen --provider comfyui 都走它的 HTTP API；工作流用 API 格式导出，节点标题写 $prompt.text / $image.image 即可自动绑定 |
+| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 29903 | MIT | API key | 英文 | 开源的多模型生成工作台：图、视频、口型等在一个界面里调用；**接入**：云端 API 聚合界面；本仓库 videogen 有同类适配器 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 136504 | GPL-3.0 传染性 | GPU | 英文 | 节点式本地生成底座；Wan2.2 I2V / FLF2V、LTX、FramePack 等都有官方或社区工作流；**接入**：stills2video --backend comfyui 与 videogen --provider comfyui 都走它的 HTTP API；工作流用 API 格式导出，节点标题写 $prompt.text / $image.image 即可自动绑定 |
+| [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | 424 | NONE ⚠️无许可证 | Agent额度/GPU | 中文 | 自然语言 → ComfyUI 工作流 JSON 的 Agent skill；**接入**：只给链接；stills2video 的工作流是从 MIT 官方模板改写的 |
 
 **方法论（剧本、分镜、提示词）**
 
 | 项目 | ★ | 许可 | 成本 | 语言 | 用法 |
 |---|---|---|---|---|---|
-| [kangarooking/director-skills](https://github.com/kangarooking/director-skills) | 173 | MIT | Agent额度 | 中文 | 导演 Skill 集：文旅视频、旅拍照片图生视频、影视资产提示词、动作打戏、角色情绪表演；**接入**：旅拍/vlog 与情绪表演 |
-| [liangdabiao/make-prompt-seedance2](https://github.com/liangdabiao/make-prompt-seedance2) | 694 | NONE ⚠️无许可证 | Agent额度 | 中文 | Seedance 2.0 结构化提示词指南：16+ 模板、8+ 示例（带货、TVC、真人实拍）；**接入**：写法参考；无许可证，且 docs/ 收录他人文章，仅链接 |
+| [kangarooking/director-skills](https://github.com/kangarooking/director-skills) | 174 | MIT | Agent额度 | 中文 | 导演 Skill 集：文旅视频、旅拍照片图生视频、影视资产提示词、动作打戏、角色情绪表演；**接入**：旅拍/vlog 与情绪表演 |
+| [liangdabiao/make-prompt-seedance2](https://github.com/liangdabiao/make-prompt-seedance2) | 696 | NONE ⚠️无许可证 | Agent额度 | 中文 | Seedance 2.0 结构化提示词指南：16+ 模板、8+ 示例（带货、TVC、真人实拍）；**接入**：写法参考；无许可证，且 docs/ 收录他人文章，仅链接 |
 
 ## 6. 合规
 
@@ -141,4 +140,5 @@
 - 按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容
 - remotion-dev/template-tiktok：未附 LICENSE 文件，package.json 标注 UNLICENSED；按官方方式 npx create-video 使用（无许可证：仅可参考，勿复制代码）
 - Comfy-Org/ComfyUI：已读 LICENSE：GPL-3.0。本仓库只通过它的 HTTP API（/prompt、/history、/view）把它当外部程序调用，不复制、不链接它的代码。
+- LingyiChen-AI/comfyui-workflow-skill：2026-10-09 确认仓库根目录没有 LICENSE / COPYING：默认保留所有权利，只能看和自用，本仓库只给链接、不复制任何内容。（无许可证：仅可参考，勿复制代码）
 - liangdabiao/make-prompt-seedance2：无 LICENSE 文件；docs/ 收录了他人文章，仅链接，切勿复制（无许可证：仅可参考，勿复制代码）

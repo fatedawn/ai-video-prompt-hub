@@ -14,7 +14,7 @@ function ok(data) {
 }
 
 export function factory() {
-  const s = new McpServer({ name: 'ai-video-prompt-hub', version: '0.1.0' });
+  const s = new McpServer({ name: 'ai-video-prompt-hub', version: '0.2.0' });
   const tool = (name, description, schema, fn) => s.registerTool(name, { description, inputSchema: schema, annotations: RO }, async (args) => ok(await fn(args)));
 
   tool('recommend_video_pipeline', '按题材从本仓库路由一条只读制作方案（路线、提示词 id、模板、画风、外部项目链接、命令）。不调用任何生成 API。',
@@ -29,8 +29,20 @@ export function factory() {
       vram_gb: z.number().optional(),
       style: z.string().optional(),
       commercial: z.boolean().optional(),
+      include_stale: z.boolean().optional(),
       lang: z.enum(['zh', 'en']).optional(),
     }), (a) => hub.pipeline(a));
+
+  tool('list_modes', '列出六种制作模式（①手绘 animator ②视频生成 videogen ③代码动效 ④外部项目 ⑤静图成片 stills2video ⑥PPT 式科普 slides2video）：各自最适合的题材、不适合什么、成本、入口命令、默认用于哪些场景。用来按题材选模式。',
+    z.object({}), () => hub.listModes());
+
+  tool('get_slides_plan', '路线⑥ PPT 式科普的只读方案：给 deck_md 就解析 + 估算时间轴 + 静态检查（语速、要点数、长时间静止、at 引用）+ 每页出图提示词；只给 topic 就按科普脚本方法起一份 deck.md 骨架。不渲染、不调用 TTS 或任何生成接口。',
+    z.object({
+      topic: z.string().optional(),
+      deck_md: z.string().max(200000).optional(),
+      aspect: z.enum(['9:16', '16:9', '1:1']).optional(),
+      theme: z.enum(['tianji', 'paper', 'chalk', 'clean']).optional(),
+    }), (a) => hub.slidesPlan(a));
 
   tool('get_i2v_plan', '只有图片时的静图成片方案（stills2video）：按图片文件名 + 台词排镜头、选配方/运镜/转场、按显存给出后端，并给每镜 ChatGPT 出图提示词。只读：不读图片、不探测硬件、不调用任何生成接口。',
     z.object({
@@ -77,12 +89,12 @@ export function factory() {
 
   tool('get_template', '取一个模板全文和署名。', z.object({ id: z.string() }), (a) => hub.templateById(a.id) || { error: 'not found', id: a.id });
 
-  tool('search_projects', '检索外部项目目录。commercial=true 时排除非商用、无许可证和 Elastic/社区商用限制条目。只返回链接和自写简介。',
+  tool('search_projects', '检索外部项目目录（返回 best_for 最适合题材、strengths、how_to_use、absorbed 本仓库吸收了什么）。默认只返回 2026 年仍活跃的项目，include_stale=true 才包含停更/归档项目。commercial=true 时排除非商用、无许可证和 Elastic/社区商用限制条目。只返回链接和自写简介。',
     z.object({
       query: z.string().optional(), category: z.string().optional(),
-      route: z.enum(['A-handdrawn', 'B-videogen', 'C-code-motion', 'M-method', 'E-edit', 'S-stills']).optional(),
+      route: z.enum(['A-handdrawn', 'B-videogen', 'C-code-motion', 'M-method', 'E-edit', 'S-stills', 'P-slides']).optional(),
       cost: z.string().optional(), zh: z.string().optional(), license_class: z.string().optional(),
-      commercial: z.boolean().optional(), limit: z.number().int().max(50).optional(),
+      commercial: z.boolean().optional(), include_stale: z.boolean().optional(), limit: z.number().int().max(50).optional(),
     }), (a) => ({ projects: hub.projects(a) }));
 
   tool('get_project', '按 owner/repo 取目录条目（自写简介、许可证、核验日期）。不转发对方 README。',
