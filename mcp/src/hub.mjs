@@ -4,6 +4,7 @@ import path from 'node:path';
 import { execSync } from 'node:child_process';
 import { loadData, ROOT } from '../../router/lib/data.mjs';
 import { recommend } from '../../router/lib/plan.mjs';
+import { ROUTES, SCENARIOS } from '../../router/lib/profiles.mjs';
 import { INTAKE } from '../../router/cli.mjs';
 import { parseStoryboard } from '../../videogen/lib/storyboard.mjs';
 import { buildStoryboard, indexOf } from '../../stills2video/lib/storyboard.mjs';
@@ -138,22 +139,85 @@ export function projects(q) {
   const reg = loadData({ prompts: false }).registry;
   const query = (q.query || '').toLowerCase();
   const limit = Math.min(q.limit ?? 20, 50);
-  let es = reg.entries.filter((e) => (!q.category || e.category === q.category)
+  let es = reg.entries.filter((e) => (q.include_stale || e.status !== 'stale')
+    && (!q.category || e.category === q.category)
     && (!q.route || (e.routes || []).includes(q.route))
     && (!q.cost || (e.cost || []).includes(q.cost))
     && (!q.zh || e.zh === q.zh)
     && (!q.license_class || e.license_class === q.license_class)
     && !(q.commercial && (['noncommercial', 'none'].includes(e.license_class) || e.commercial_block)));
-  if (query) es = es.filter((e) => `${e.repo} ${e.intro_zh} ${e.plugs_into}`.toLowerCase().includes(query));
+  if (query) es = es.filter((e) => `${e.repo} ${e.intro_zh} ${e.plugs_into} ${(e.best_for || []).join(' ')} ${e.strengths || ''} ${(e.use_for || []).join(' ')}`.toLowerCase().includes(query));
   const warn = (e) => (e.warning || e.commercial_block ? 1 : 0);
-  es.sort((a, b) => warn(a) - warn(b) || b.stars - a.stars);
+  es.sort((a, b) => (a.status === 'stale') - (b.status === 'stale') || warn(a) - warn(b) || b.stars - a.stars);
   return es.slice(0, limit).map((e) => ({
-    repo: e.repo, url: e.url, intro_zh: e.intro_zh, stars: e.stars, pushed: e.pushed,
+    repo: e.repo, url: e.url, intro_zh: e.intro_zh, stars: e.stars, pushed: e.pushed, status: e.status || 'active', stale_reason: e.stale_reason || null,
+    best_for: e.best_for || [], strengths: e.strengths || '', how_to_use: e.how_to_use || e.plugs_into, absorbed: e.absorbed || null,
     license: e.license, license_class: e.license_class, license_source: e.license_source || null,
     routes: e.routes, cost: e.cost, zh: e.zh, maturity: e.maturity,
     warning: e.warning || null, commercial_block: !!e.commercial_block,
     verified_at: e.verified_at || reg.checked_at, checked_at: reg.checked_at,
   }));
+}
+
+/** The six production modes and when an agent should pick each (static knowledge + scenario defaults). */
+const MODE_INFO = {
+  A: { no: '①', best_for: ['知识口播', '仓库推荐（天机风）', '绘本', '诗词', '拆书', '治愈小故事'], not_for: ['写实真人画面', '大场面特效'], cost: 'free-cpu', entry: 'node animator/src/cli.mjs make 台词.txt --out out.mp4' },
+  B: { no: '②', best_for: ['漫剧', '真人短剧', '产品带货', 'vlog 空镜', 'MV'], not_for: ['需要精确文字/公式的讲解'], cost: 'api-key | gpu | web-manual', entry: 'node videogen/cli.mjs plan 分镜.md --out shots.json' },
+  C: { no: '③', best_for: ['数据可视化', '连续几何 / 函数动画（Manim）', '高度定制动效', '花字字幕包装'], not_for: ['不想写代码的用户'], cost: 'free-cpu（Remotion 大公司需授权）', entry: '按 recommend 给出的 Remotion / HyperFrames / Manim 命令' },
+  D: { no: '④', best_for: ['本仓库没有覆盖的能力：数字人、剪辑切条、专业平台'], not_for: ['未核验许可证就商用'], cost: '视项目而定', entry: 'search_projects / get_project 查 how_to_use' },
+  S: { no: '⑤', best_for: ['只有图片（ChatGPT 出图）', '没有视频订阅', '氛围短片 / 空镜'], not_for: ['角色要做复杂表演'], cost: 'free-cpu（可选本地 GPU / 云 key）', entry: 'node stills2video/cli.mjs make --images stills --script 台词.txt --out final.mp4' },
+  P: { no: '⑥', best_for: ['科普', '课件 / 微课', '知识讲解', '公式 / 数理推导', 'PPT 转视频', '论文讲解'], not_for: ['剧情表演', '真人画面', '连续运镜'], cost: 'free-cpu（无 API key）', entry: 'node slides2video/cli.mjs make deck.md --images stills --out final.mp4' },
+};
+
+export function listModes() {
+  return {
+    modes: Object.values(ROUTES).map((r) => ({ id: r.id, number: MODE_INFO[r.id]?.no, key: r.key, name: r.name, summary: r.short, ...MODE_INFO[r.id],
+      default_for_scenarios: SCENARIOS.filter((s) => s.route === r.id).map((s) => ({ id: s.id, name: s.name })),
+      alternative_for_scenarios: SCENARIOS.filter((s) => s.alt.includes(r.id)).map((s) => s.id) })),
+    how_to_choose: '先 get_intake_questions 问清题材/预算/素材，再 recommend_video_pipeline；讲解类且以文字、公式、图表为主 → ⑥；要手绘温度 → ①；只有图片 → ⑤；要表演/写实 → ②。',
+  };
+}
+
+/** Read-only slides2video plan: parse/lint a deck.md (no rendering, no TTS) or draft a skeleton deck for a topic. */
+export async function slidesPlan(args) {
+  const aspect = args.aspect || (/课件|微课|ppt|论文|汇报/i.test(args.topic || '') ? '16:9' : '9:16');
+  const theme = args.theme || 'tianji';
+  let src = args.deck_md;
+  let drafted = false;
+  if (!src) {
+    drafted = true;
+    const t = (args.topic || '这个问题').replace(/[：:].*$/, '').trim();
+    src = [`---`, `title: ${JSON.stringify(t)}`, `aspect: "${aspect}"`, `theme: ${theme}`, `transition: fade`, `---`, `layout: image-full`, `image: 01.png`, `---`, '',
+      `# ${t} {build: zoom}`, `### 一句话先抛出问题 {at: 答案}`, '', `> say: 【钩子】${t}？答案可能和你想的不一样。`, '',
+      `---`, '', `# 先打个比方 {id: q}`, '', `- 【生活里的类比】 {at: 就像}`, `- 【对应到原理】 {at: 其实, mark: "underline:原理"}`, '', `> say: 这件事就像【一个生活画面】，`, `> say: 其实背后的原理是【关键词】。`, '',
+      `---`, `layout: formula`, `transition: morph`, `---`, '', `# 关键公式 {id: q}`, '', `$$ y = \\term{k}\\,x $$ {terms: ["系数"]}`, '', `> say: 用一个公式表示：结果和【系数】成正比。`, '',
+      `---`, `layout: chart`, `---`, '', `# 数据说话`, '', '```chart', 'type: bar', 'bars:', '  - {label: "A", value: 1, at: 第一}', '  - {label: "B", value: 3, at: 第二}', '```', '', `> say: 第一组是一，第二组是三倍。`, '',
+      `---`, `layout: end`, `---`, '', `# 一句话记住`, '', `- 【可复述的结论】 {at: 记住}`, '', `> say: 记住一句话：【结论】。`, ''].join('\n');
+  }
+  let parseDeck, buildTimeline, lintDeck, pagePrompts;
+  try {
+    ({ parseDeck } = await import('../../slides2video/lib/parse.mjs'));
+    ({ buildTimeline } = await import('../../slides2video/lib/timeline.mjs'));
+    ({ lintDeck } = await import('../../slides2video/lib/lint.mjs'));
+    ({ pagePrompts } = await import('../../slides2video/lib/prompts.mjs'));
+  } catch (e) { return { error: 'slides2video 依赖未安装：cd slides2video && npm install', detail: String(e.message || e) }; }
+  let deck, tl, timelineError = null;
+  try { deck = parseDeck(src); } catch (e) { return { error: 'deck.md 解析失败', detail: String(e.message || e) }; }
+  if (args.aspect) deck.meta.aspect = args.aspect;
+  try { tl = buildTimeline(deck, null); } catch (e) { timelineError = String(e.message || e); }
+  const issues = [...deck.warnings.map((w) => ({ level: 'error', page: null, msg: w })), ...(timelineError ? [{ level: 'error', page: null, msg: timelineError }] : []), ...lintDeck(deck, tl || null)];
+  return {
+    drafted, aspect: deck.meta.aspect, theme: deck.meta.theme,
+    pages: deck.pages.map((p) => ({ index: p.index, layout: p.layout, transition: p.meta.transition || deck.meta.transition, say: p.say.map((x) => x.text),
+      elements: p.elements.map((e) => ({ kind: e.kind, text: e.text || e.tex || e.src?.slice(0, 40) || null, at: e.at ?? null, build: e.build || null, mark: e.mark || null, id: e.id || null })),
+      ...(tl ? { start_s: +tl.pages[p.index - 1].start.toFixed(2), end_s: +tl.pages[p.index - 1].end.toFixed(2) } : {}) })),
+    estimated_duration_s: tl ? +tl.duration.toFixed(1) : null,
+    lint: issues,
+    image_prompts: pagePrompts(deck),
+    ...(drafted ? { deck_md: src, note: '这是按科普脚本方法（钩子 → 比喻 → 原理/公式 → 数据 → 一句话总结）起的骨架，【】里替换成真实内容；时长为按字数估计。' } : { note: '只读：没有渲染、没有调用 TTS；时长按字数估计（真实配音以 plan --voice 为准）。' }),
+    commands: ['cd slides2video && npm install && cd ..', 'node slides2video/cli.mjs doctor', 'node slides2video/cli.mjs prompts deck.md --out 出图提示词.md', 'node slides2video/cli.mjs plan deck.md --voice', 'node slides2video/cli.mjs lint deck.md --qa', 'node slides2video/cli.mjs make deck.md --images stills --out final.mp4 --sheet --preview'],
+    syntax: { layouts: 'cover default image-right image-left image-top image-full two-cols compare big-number quote formula code chart diagram timeline section end', themes: 'tianji paper chalk clean', builds: 'fade up left right zoom pop wipe type draw none', marks: 'circle underline highlight box strike（circle:词）', at: '"词" | "c2:词#2.end" | 1.5 | after+0.4 | page.end-1', transitions: 'fade slide up zoom morph huashu:<name> none' },
+  };
 }
 
 export function projectByRepo(repo) {
@@ -200,7 +264,7 @@ export function pipeline(args) {
     medium: args.medium, direction: args.direction, budget: args.budget || 'free-cpu',
     duration: args.duration_s, aspect: args.aspect,
     assets: Array.isArray(args.assets) ? args.assets.join(',') : args.assets,
-    style: args.style, commercial: !!args.commercial, lang: args.lang, vram: args.vram_gb,
+    style: args.style, commercial: !!args.commercial, lang: args.lang, vram: args.vram_gb, include_stale: !!args.include_stale,
   };
   return recommend(data, args.topic, opts);
 }

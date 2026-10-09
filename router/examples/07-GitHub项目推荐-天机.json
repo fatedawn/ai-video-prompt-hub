@@ -124,7 +124,9 @@
         "url": "https://github.com/heygen-com/hyperframes",
         "kind": "engine",
         "intro_zh": "HeyGen 出品：写 HTML 渲视频，为 agent 设计的确定性 HTML→MP4 框架（Apache-2.0）",
-        "stars": 59183,
+        "stars": 59325,
+        "pushed": "2026-10-09",
+        "status": "active",
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -133,6 +135,12 @@
         ],
         "zh": "en",
         "plugs_into": "大量中文白板/口播 skill 的渲染底座；与 Remotion 二选一",
+        "best_for": [
+          "仓库推荐 / 产品发布",
+          "图表与字幕重的讲解"
+        ],
+        "strengths": "写 HTML 就能确定性渲染 MP4，Apache-2.0，Agent 友好",
+        "how_to_use": "路线③ 代码动效：大量中文白板/口播 skill 的渲染底座；与 Remotion 二选一",
         "score": 16
       },
       {
@@ -141,7 +149,9 @@
         "url": "https://github.com/Vincentwei1021/video-shotcraft",
         "kind": "skill",
         "intro_zh": "电影感产品宣传片 skill：150+ 镜头配方卡、200+ 动效预览、可直接用的 Remotion 模板",
-        "stars": 10881,
+        "stars": 10922,
+        "pushed": "2026-10-05",
+        "status": "active",
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -151,6 +161,11 @@
         ],
         "zh": "bilingual",
         "plugs_into": "产品带货/项目推荐的 Remotion 镜头库（Apache-2.0）",
+        "best_for": [
+          "电影感产品宣传片"
+        ],
+        "strengths": "镜头配方卡 + 动效预览 + Remotion 模板",
+        "how_to_use": "路线③ 代码动效：产品带货/项目推荐的 Remotion 镜头库（Apache-2.0）",
         "score": 15.2
       },
       {
@@ -159,7 +174,9 @@
         "url": "https://github.com/excalidraw/excalidraw",
         "kind": "app",
         "intro_zh": "手绘风白板（开源），大量手绘工具的上游",
-        "stars": 133512,
+        "stars": 133521,
+        "pushed": "2026-10-08",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -168,6 +185,11 @@
         ],
         "zh": "bilingual",
         "plugs_into": "画线稿/示意图，再交给 excalidraw-animate / excalimate 动起来",
+        "best_for": [
+          "手绘风白板图"
+        ],
+        "strengths": "手绘白板事实标准，生态最大",
+        "how_to_use": "路线① animator：画线稿/示意图，再交给 excalidraw-animate / excalimate 动起来",
         "score": 14.7
       },
       {
@@ -176,7 +198,9 @@
         "url": "https://github.com/latent-spaces/brag",
         "kind": "skill",
         "intro_zh": "/brag：把你刚做的项目一条命令变成带音乐、动效和分享文案的发布短片",
-        "stars": 14380,
+        "stars": 14453,
+        "pushed": "2026-10-06",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -186,6 +210,12 @@
         ],
         "zh": "en",
         "plugs_into": "GitHub 项目推荐（天机）的现成「项目→发布片」方案",
+        "best_for": [
+          "GitHub 仓库推荐",
+          "自己项目的发布短片"
+        ],
+        "strengths": "一条命令把刚做完的项目变成带配乐和分享文案的发布片",
+        "how_to_use": "路线③ 代码动效：GitHub 项目推荐（天机）的现成「项目→发布片」方案",
         "score": 14.5
       },
       {
@@ -194,7 +224,9 @@
         "url": "https://github.com/op7418/guizang-product-video-skill",
         "kind": "skill",
         "intro_zh": "归藏：复用产品真实组件与设计语言，用代码做软件更新宣传片（含分镜文案、原创配乐、音效）",
-        "stars": 727,
+        "stars": 738,
+        "pushed": "2026-10-01",
+        "status": "active",
         "license": "AGPL-3.0",
         "license_class": "copyleft",
         "license_note": "AGPL-3.0",
@@ -204,6 +236,13 @@
         ],
         "zh": "native",
         "plugs_into": "软件/开源项目宣传片；AGPL-3.0",
+        "best_for": [
+          "产品带货 / 种草",
+          "产品发布片",
+          "GitHub 仓库推荐"
+        ],
+        "strengths": "归藏：复用产品真实组件与设计语言，用代码做软件更新宣传片（含分镜文案、原创配乐、音效）（免费 CPU 可跑、中文原生）",
+        "how_to_use": "路线③ 代码动效：软件/开源项目宣传片；AGPL-3.0",
         "score": 14.43
       },
       {
@@ -213,6 +252,8 @@
         "kind": "engine",
         "intro_zh": "编程 agent 的程序化视频：HTML/CSS/数据→MP4，21 个模板，可直接贴文章或 GitHub 仓库链接",
         "stars": 4654,
+        "pushed": "2026-06-21",
+        "status": "active",
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -222,6 +263,11 @@
         ],
         "zh": "en",
         "plugs_into": "「GitHub 仓库→视频」直接对口天机选题",
+        "best_for": [
+          "文章 / 仓库 → 视频"
+        ],
+        "strengths": "贴链接就能出程序化视频，模板多",
+        "how_to_use": "路线③ 代码动效：「GitHub 仓库→视频」直接对口天机选题",
         "score": 14.33
       },
       {
@@ -231,6 +277,8 @@
         "kind": "skill",
         "intro_zh": "中文优先的 HyperFrames 动效视频导演：文章/产品/网站/README→9:16 宣传片，含审片",
         "stars": 451,
+        "pushed": "2026-07-26",
+        "status": "active",
         "license": "AGPL-3.0",
         "license_class": "copyleft",
         "license_note": "AGPL-3.0",
@@ -240,24 +288,40 @@
         ],
         "zh": "native",
         "plugs_into": "README→竖屏宣传片；AGPL-3.0",
+        "best_for": [
+          "GitHub 仓库推荐",
+          "产品带货 / 种草",
+          "产品发布片"
+        ],
+        "strengths": "中文优先的 HyperFrames 动效视频导演：文章/产品/网站/README→9:16 宣传片，含审片（免费 CPU 可跑、中文原生）",
+        "how_to_use": "路线③ 代码动效：README→竖屏宣传片；AGPL-3.0",
         "score": 14.33
       },
       {
-        "id": "rough-notation",
-        "repo": "rough-stuff/rough-notation",
-        "url": "https://github.com/rough-stuff/rough-notation",
-        "kind": "library",
-        "intro_zh": "网页上的手绘标注动画（圈、划线、高亮、框）",
-        "stars": 9711,
+        "id": "archscribe",
+        "repo": "lazypay/Archscribe",
+        "url": "https://github.com/lazypay/Archscribe",
+        "kind": "skill",
+        "intro_zh": "手绘风动态架构/流程图：JSON 配置→可编辑 Excalidraw + PNG + 真动画 GIF，深色霓虹/浅色纸面两套",
+        "stars": 359,
+        "pushed": "2026-07-15",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
         "cost": [
-          "free-cpu"
+          "free-cpu",
+          "agent-llm"
         ],
-        "zh": "en",
-        "plugs_into": "代码讲解/项目推荐中给关键词「画圈强调」",
-        "score": 13.99
+        "zh": "native",
+        "plugs_into": "GitHub 项目推荐里的「架构图」插段素材",
+        "best_for": [
+          "知识科普 / 口播讲解",
+          "GitHub 仓库推荐"
+        ],
+        "strengths": "手绘风动态架构/流程图：JSON 配置→可编辑 Excalidraw + PNG + 真动画 GIF，深色霓虹/浅色纸面两套（免费 CPU 可跑、中文原生）",
+        "how_to_use": "路线③ 代码动效：GitHub 项目推荐里的「架构图」插段素材",
+        "score": 13.78
       }
     ],
     "methods": [
@@ -268,6 +332,8 @@
         "kind": "skill",
         "intro_zh": "产品宣传片 skills：先做产品判断，再叙事结构、视觉规划、HyperFrames 剪辑、BGM 设计",
         "stars": 103,
+        "pushed": "2026-05-12",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -276,7 +342,64 @@
         ],
         "zh": "native",
         "plugs_into": "带货/宣传片的「先判断后画面」方法",
+        "best_for": [
+          "产品带货 / 种草",
+          "产品发布片"
+        ],
+        "strengths": "产品宣传片 skills：先做产品判断，再叙事结构、视觉规划、HyperFrames 剪辑、BGM 设计（用编程 Agent 的额度、中文原生）",
+        "how_to_use": "方法论 skill：带货/宣传片的「先判断后画面」方法",
         "score": 8.51
+      },
+      {
+        "id": "openmaic",
+        "repo": "THU-MAIC/OpenMAIC",
+        "url": "https://github.com/THU-MAIC/OpenMAIC",
+        "kind": "app",
+        "intro_zh": "清华多智能体互动课堂：主题/文档 → 课件 + 白板公式 + 语音讲解，可一键导出 MP4",
+        "stars": 40203,
+        "pushed": "2026-10-09",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key",
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "课堂化讲解的参考（多角色、白板推导）；本仓库只链接",
+        "best_for": [
+          "AI 课堂 / 微课",
+          "带白板推导的数理讲解"
+        ],
+        "strengths": "多智能体「老师 + 同学」互动课堂形态独特，白板能写公式",
+        "how_to_use": "路线④：按 README 部署（需一个 LLM key 或 Ollama）",
+        "score": 8.5
+      },
+      {
+        "id": "ppt-master",
+        "repo": "hugohe3/ppt-master",
+        "url": "https://github.com/hugohe3/ppt-master",
+        "kind": "skill",
+        "intro_zh": "Agent skill：把文档或主题做成原生可编辑的 PPTX（母版、形状、图表、公式、切换和动画）",
+        "stars": 58391,
+        "pushed": "2026-10-08",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "在 Codex / Claude Code 里先用它生成 PPTX，再交给 slides2video import 或 pptx2video 出片",
+        "best_for": [
+          "要交付可编辑 PPT 的课件 / 汇报",
+          "先做 PPT 再出视频的科普"
+        ],
+        "strengths": "出来的是原生可编辑 PPTX 而不是图片页，后续人工改稿方便；宿主自带生图即可，不必另配 key",
+        "how_to_use": "路线④ → ⑥：Agent 里装这个 skill 生成 PPTX → `node slides2video/cli.mjs import x.pptx` → `make`",
+        "score": 7.7
       }
     ]
   },

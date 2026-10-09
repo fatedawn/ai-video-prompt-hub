@@ -72,3 +72,16 @@
 - 字幕错别字、音画对齐（animator 有 `synccheck`）、画面里的乱码文字。
 - 违规风险自查：画面、声音、文字、封面、带货话术、资质、导流。（[JuneYaooo/self-media-compliance-review](https://github.com/JuneYaooo/self-media-compliance-review) MIT）
 - 按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容；不用真实名人的脸和声音；音乐、字体、参考图要有授权。
+
+## 10. 科普 / PPT 式讲解（路线⑥ slides2video）
+
+- **脚本验收四条**：一句话一口气能读完；每一节用钩子开头、干净地交给下一节；数字、单位、专有名词、英文单独过一遍（TTS 误读大多出在这里）；按每分钟约 280 个中文字估算时长。（[Agents365-ai/video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) MIT）
+- 以下是本仓库自己的做法（没有外部出处，当建议看），完整版见 `skills/ai-video-director/references/methods.md`：
+  1. **钩子（0–3 秒）**：反常识问题、一个具体数字或一个看得见的现象；第一页就要有动作（逐条出现 / 变形），不放静止标题页。
+  2. **一页一个想法**：标题就是结论句，要点 ≤4 条，每条在旁白说到关键词时出现（`{at: 词}`）。
+  3. **比喻先于公式**：先用熟悉的画面讲直觉，再出公式；公式用 `\term{}` 逐项点亮，边念边圈。
+  4. **分层**：现象 → 直觉 → 原理 → 公式 / 数据 → 应用或反例 → 一句话总结；层与层之间用 `morph` 把同一个元素带过去。
+  5. **字幕节奏**：一句旁白一屏字幕；竖屏一行约 12–16 字，横屏约 18–22 字；中文 4–5.5 字/秒；每 3–5 秒画面要有新变化。
+  6. **证据**：数据页写来源；AI 出的示意图标「示意」。
+  7. **收尾**：回到开头的问题，一页总结（一句话或 3 个关键词）。
+- 思路来源（只借鉴，代码自写）：Markdown 幻灯片与逐条出现（[slidevjs/slidev](https://github.com/slidevjs/slidev) MIT）、同 id 跨页变形（[hakimel/reveal.js](https://github.com/hakimel/reveal.js) Auto-Animate，MIT）、PPT 备注即旁白与聚光标记（[ai-nuts/pptx2video](https://github.com/ai-nuts/pptx2video) MIT）、版式自检（[vincentsch/explainroo](https://github.com/vincentsch/explainroo) MIT）、「每页一张 AI 图」的工作流（[Anionex/banana-slides](https://github.com/Anionex/banana-slides) AGPL，仅思路）。

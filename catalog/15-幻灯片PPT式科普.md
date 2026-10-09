@@ -1,0 +1,62 @@
+<!-- 本文件由 `node router/cli.mjs build-catalog` 从 catalog/registry.json 生成，请改 registry.json 后重新生成 -->
+
+# 幻灯片 · PPT 式科普成片（37 个活跃 · 5 个历史）
+
+「PPT 式科普」：Markdown/HTML 幻灯片框架、AI 做 PPT、PPT 转讲解视频、论文转视频。本仓库自己的 `slides2video/`（路线⑥）属于这一类：deck.md → 按词逐条出现、圈注、跨页变形、公式/图表、配音字幕，代码为独立实现，只借鉴思路（见各条「我们吸收了什么」）。
+
+> 数据核验于 2026-10-09（GitHub API）；★ 与日期会变化。只推荐 2026-01-01 之后仍有推送、未归档的项目；之前停更或已归档的放在页尾「历史 / 不再推荐」。许可证以仓库 LICENSE 原文为准，⚠️ 标记的条目商用前务必阅读原许可证。
+
+| 项目 | ★ | 最近推送 | 许可 | 简介 | 最适合（题材） | 强项 | 我们吸收了什么 | 怎么用 | 路线 | 成本 | 中文 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| [hakimel/reveal.js](https://github.com/hakimel/reveal.js) | 72392 | 2026-09-30 | MIT | 老牌 HTML 幻灯框架，fragments 逐条出现，Auto-Animate 让相邻两页同名元素自动补间（像 PPT 的平滑切换） | 网页演讲；需要页间平滑变形的讲解 | Auto-Animate（同名元素跨页补间）思路清晰、插件多，网页演示最稳 | **借鉴思路**：同 id 元素跨页 FLIP 补间（Auto-Animate 思路），自写实现（slides2video/runtime/slides.js（morph）） | 路线⑥：deck.md 里给两页的同一元素写相同 `id:`，slides2video 自动做变形；要网页演示再直接用 reveal.js | P-slides C-code-motion | 免费CPU | 英文 |
+| [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 58391 | 2026-10-08 | MIT | Agent skill：把文档或主题做成原生可编辑的 PPTX（母版、形状、图表、公式、切换和动画） | 要交付可编辑 PPT 的课件 / 汇报；先做 PPT 再出视频的科普 | 出来的是原生可编辑 PPTX 而不是图片页，后续人工改稿方便；宿主自带生图即可，不必另配 key | — | 路线④ → ⑥：Agent 里装这个 skill 生成 PPTX → `node slides2video/cli.mjs import x.pptx` → `make` | P-slides M-method | Agent额度 | 中英 |
+| [slidevjs/slidev](https://github.com/slidevjs/slidev) | 48984 | 2026-10-02 | MIT | 用 Markdown 写网页幻灯：逐条出现、代码变形、公式、流程图都内置，可按点击步导出 PNG/PDF/PPTX | 技术分享 / 编程课；带代码和公式的知识讲解；要现场演讲也要录成视频的课件 | Markdown 写幻灯最成熟的方案，开发者生态大；代码块变形和点击步导出是它的招牌 | **借鉴思路**：deck.md 的 Markdown 子集（分页、frontmatter、逐条出现）参考其语法设计；代码为本仓库自写（slides2video/lib/parse.mjs） | 路线⑥ 的上游写法：`npm init slidev` 写好后 `slidev export --with-clicks` 出逐步 PNG；或把同样的 Markdown 交给 `node slides2video/cli.mjs make` | P-slides C-code-motion | 免费CPU | 中英 |
+| [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 40203 | 2026-10-09 | MIT | 清华多智能体互动课堂：主题/文档 → 课件 + 白板公式 + 语音讲解，可一键导出 MP4 | AI 课堂 / 微课；带白板推导的数理讲解 | 多智能体「老师 + 同学」互动课堂形态独特，白板能写公式 | — | 路线④：按 README 部署（需一个 LLM key 或 Ollama） | P-slides M-method | API key/免费CPU | 中文 |
+| [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) | 39979 | 2026-10-05 | MIT | 开源版 NotebookLM：资料库 + 播客生成（音频） | 资料整理成播客 | 自托管、可接 Ollama | — | 路线④：Docker 自部署 | P-slides | 免费CPU/API key | 英文 |
+| [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 31731 | 2026-10-06 | Apache-2.0 | 面向 Agent 的 Office 命令行：读写 Word / Excel / PPT | 批量改课件文字/版式 | 让 Agent 直接操作 Office 文件 | — | 路线④：按 README 安装 CLI | P-slides E-edit | 免费CPU | 中英 |
+| [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) | 30327 | 2026-06-23 | MIT | 让 Agent 用前端能力写网页幻灯：风格预设 + 动画模式说明 | 设计感网页演示 | 风格预设丰富、上手快 | — | 路线④：Agent 里装 skill | P-slides | Agent额度 | 英文 |
+| [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | 27454 | 2026-08-07 | AGPL-3.0 传染性 | 歸藏的 HTML 幻灯 skill：杂志/瑞士版式、WebGL 背景、配图提示词、演讲者模式 | 杂志感发布会幻灯 | 版式审美强，中文社区影响大 | — | 路线④：Agent 里装 skill | P-slides | Agent额度 | 中文 |
+| [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | 24699 | 2026-09-22 | MIT | 花叔的 HTML 原生设计 skill：幻灯、原型、时间轴动画（Stage + Sprite），本地导 MP4/GIF/PPTX，无需 key | 设计感强的发布会式幻灯；产品原型演示片 | 设计质量高、中文原生、HTML→MP4 自带 | — | 路线④：Agent 里装 skill；本仓库路线⑥ 用 `transition: huashu:<名字>` 使用同作者的转场 | P-slides C-code-motion | Agent额度/免费CPU | 中文 |
+| [Anionex/banana-slides](https://github.com/Anionex/banana-slides) | 15717 | 2026-10-08 | AGPL-3.0 传染性 | 中文 AI PPT 应用：大纲/文档生成整页 AI 图片式幻灯，能导出可编辑 PPTX，并一键出带旁白字幕的讲解视频 | 零代码中文 PPT 科普；整页插画风课件 | 中文界面一站式：从大纲到讲解视频；能用 ChatGPT 账号 OAuth 出图 | **借鉴思路**：「一页一张 AI 图 + 旁白」工作流 → 每页中文出图提示词（自写，不含其代码/模板）（slides2video prompts） | 路线④：按其 README 部署使用；想要本地可控版本走路线⑥ `node slides2video/cli.mjs prompts deck.md` | P-slides B-videogen | API key/网页手动 | 中文 |
+| [presenton/presenton](https://github.com/presenton/presenton) | 11005 | 2026-10-08 | Apache-2.0 | 开源 AI PPT 生成器（模板、图表、图标），可用 ChatGPT 登录或本地 Ollama | 快速出一份 PPT 底稿 | 可自托管、支持 ChatGPT 登录不填 key | — | 路线④：Docker 自部署 → PPTX → `slides2video import` | P-slides | 免费CPU/API key | 英文 |
+| [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist) | 9370 | 2026-10-08 | AGPL-3.0 传染性 | 网页版 PowerPoint：元素进入/退出/强调动画、页面切换、图表、LaTeX 公式、PPTX 导入导出 | 在浏览器里改 PPT | 中文网页 PPT 编辑器里功能最全 | **借鉴思路**：动画分三类（进入 / 强调 / 退出）的建模方式，自写（slides2video build/mark 属性） | 路线④：在线编辑后导出 PPTX → `slides2video import` | P-slides | 免费CPU | 中文 |
+| [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | 9278 | 2026-09-12 | AGPL-3.0 传染性<br><sub>AGPL-3.0；README 说明导出引擎子包为专有组件。</sub> | 浏览器可编辑的 HTML 演示 skill：12 套主题、图表/分析模型、9 种翻页动画 | 商业分析类演示 | 内置分析模型模板（SWOT 等） | — | 路线④：Agent 里装 skill | P-slides | Agent额度 | 中文 |
+| [lewislulu/html-ppt-skill](https://github.com/lewislulu/html-ppt-skill) | 8616 | 2026-09-14 | MIT | HTML PPT skill：24 套主题、31 种版式、47 种动画（CSS + Canvas）、图表版式和演讲者模式 | 网页幻灯演讲；需要大量动画样式的展示 | 主题和动画数量多，是 HTML 幻灯的样式库 | **借鉴思路**：版式分类（封面、要点、左右图文、对比、大数字、时间线）作参考，样式代码自写（slides2video/runtime/themes.css） | 路线④：Agent 里装 skill 生成 HTML；要出视频走路线⑥ | P-slides | Agent额度/免费CPU | 中英 |
+| [souzatharsis/podcastfy](https://github.com/souzatharsis/podcastfy) | 6588 | 2026-05-04 | Apache-2.0 | 开源 NotebookLM 式播客生成 | 文章转双人播客 | 多人对谈播客生成 | — | 路线④：pip 安装 | P-slides | API key/免费CPU | 英文 |
+| [ningzimu/codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill) | 6536 | 2026-10-02 | MIT | Codex skill：用 Codex 内置的 GPT 生图做整页图片式 PPT（ChatGPT 订阅内一般不另付 API） | 有 ChatGPT 会员没有 API 额度、要做图片式 PPT | 把订阅内生图用满，不需要 API key | — | 路线④ → ⑤/⑥：Codex 里出页图 → `node slides2video/cli.mjs make deck.md --images 页图目录` | P-slides S-stills | Agent额度 | 中文 |
+| [icip-cas/PPTAgent](https://github.com/icip-cas/PPTAgent) | 5095 | 2026-10-05 | MIT | 学术向 Agent 生成 PPTX（参考已有演示、反思式修改），也提供 skill 形态 | 论文 / 报告转演示文稿 | 参考已有 PPT 风格来生成，研究扎实 | — | 路线④：需 LLM + 视觉模型 API | P-slides | API key | 英文 |
+| [marp-team/marp-cli](https://github.com/marp-team/marp-cli) | 3861 | 2026-09-08 | MIT | Marp Markdown 幻灯命令行：转 HTML/PDF/PPTX/PNG；没有逐条出现动画 | 一页一图配旁白的简单课件 | 极简、稳定，VS Code 插件好用 | — | 路线④：`npx @marp-team/marp-cli deck.md --images png` → 路线⑥ image-full 页 | P-slides | 免费CPU | 英文 |
+| [HKUDS/Paper2Slides](https://github.com/HKUDS/Paper2Slides) | 3834 | 2026-05-20 | MIT | 论文一键转幻灯（带 Web UI），默认用 Gemini 生图 | 论文解读视频的幻灯底稿 | 论文 → 幻灯/海报一步到位 | — | 路线④：需 LLM 与生图 API | P-slides | API key | 英文 |
+| [sligter/LandPPT](https://github.com/sligter/LandPPT) | 3615 | 2026-10-03 | Apache-2.0<br><sub>GitHub 显示 NOASSERTION；2026-10-09 读 LICENSE 原文为 Apache-2.0。可编辑 PPTX 导出需要商业 Apryse key。</sub> | 中文 LLM PPT 平台：主题/文档 → HTML 幻灯 → 讲稿 → 逐页配音 → 导出 1080p 讲解视频 | 有 Ollama / LLM key、想一条龙出讲解视频 | 中文原生、HTML 幻灯到视频全链路，Ollama 可离线 | — | 路线④：自部署；LLM 用 Ollama 可零费用 | P-slides | API key/免费CPU | 中文 |
+| [microsoft/ResearchStudio](https://github.com/microsoft/ResearchStudio) | 3049 | 2026-09-21 | MIT | 论文 → 海报 / 讲解视频 / 博客的研究工作台，pptx2video 的上游 | 研究成果多形态发布 | 论文多形态产出的一站式研究原型 | — | 路线④：需 LLM API | P-slides | API key | 英文 |
+| [astefanutti/decktape](https://github.com/astefanutti/decktape) | 2431 | 2026-07-13 | MIT | 把 HTML 幻灯（reveal.js、Slidev 等）导出成 PDF/截图 | 已有 HTML 幻灯要出逐页图 | 兼容的 HTML 幻灯框架最多 | — | 路线④：`npx decktape reveal url out.pdf --screenshots` | P-slides | 免费CPU | 英文 |
+| [showlab/Paper2Video](https://github.com/showlab/Paper2Video) | 2380 | 2026-03-05 | MIT | 论文 → 幻灯 + 字幕 + 光标定位 + 配音（可选数字人）的讲解视频生成 | 学术论文讲解视频 | 光标定位让观众知道正在讲哪里 | **借鉴思路**：讲到哪里就把哪里聚光（spot），自写实现（slides2video/runtime/slides.js（spot）） | 路线④：需 GPT/Gemini API，数字人需 GPU | P-slides | API key/GPU | 英文 |
+| [johnson7788/MultiAgentPPT](https://github.com/johnson7788/MultiAgentPPT) | 1642 | 2026-07-16 | MIT | A2A + MCP 多智能体协作生成 PPT | 研究多 Agent 生成 PPT | A2A + MCP 架构示范 | — | 路线④：需 LLM API | P-slides | API key | 中文 |
+| [CRui5in/paper-ppt-agent](https://github.com/CRui5in/paper-ppt-agent) | 1064 | 2026-08-19 | AGPL-3.0 传染性 | 论文 PDF/LaTeX → 可编辑 PPT | 中文论文汇报 PPT | 直接吃 LaTeX 源 | — | 路线④：需 LLM API | P-slides | API key | 中文 |
+| [jeertmans/manim-slides](https://github.com/jeertmans/manim-slides) | 956 | 2026-10-08 | MIT | 把 Manim 动画切成可逐步播放的「幻灯」，能导出 reveal.js HTML 或 PPTX | 数学 / 物理课堂演示；需要几何连续变换的推导 | 让 Manim 有 PPT 式的分步播放 | — | 路线③：`pip install manim-slides`，Manim 场景继承 Slide 后 `manim-slides convert` 导出 | P-slides C-code-motion | 免费CPU | 英文 |
+| [Unclecheng-li/AI-Animation-Skill](https://github.com/Unclecheng-li/AI-Animation-Skill) | 572 | 2026-04-16 | MIT | 科普文本 → HTML 演示动画（26 个 PPT 模板 + 14 个流程图模板），中文 | 中文科普演示动画 | 少见的中文科普向 skill，流程图模板多 | — | 路线④：Agent 里装 skill | P-slides | Agent额度 | 中文 |
+| [vincentsch/explainroo](https://github.com/vincentsch/explainroo) | 510 | 2026-10-04 | MIT | Agent 讲解视频：本地 Kokoro 配音、逐词字幕、图表/代码/图标场景、自动版面检查 → MP4 | 英文技术讲解；图表 + 代码讲解短片 | 把「版面 QA」做成出片前的硬检查 | **借鉴思路**：出片前的版面 QA：文字溢出、元素重叠、字号过小（规则和实现自写）（slides2video/runtime/slides.js __qa + cli lint） | 路线④；本仓库路线⑥ `node slides2video/cli.mjs lint deck.md` 有同类检查 | P-slides C-code-motion | 免费CPU/Agent额度 | 英文 |
+| [FavioVazquez/showtime](https://github.com/FavioVazquez/showtime) | 205 | 2026-10-08 | MIT | 本地视频工作室（Agent 插件 + MCP）：Kokoro/Piper 配音、词级字幕、CSV→图表、Manim、QA | 数据讲解视频 | 全本地、无云 AI，自带 MCP | **借鉴思路**：数据表直接变成动画图表页（实现自写）（slides2video chart 元素） | 路线④；路线⑥ 用 ```chart 代码块 | P-slides C-code-motion | 免费CPU | 英文 |
+| [scosman/videowright](https://github.com/scosman/videowright) | 165 | 2026-10-05 | MIT | Agent 讲解视频脚手架：Web Component 分段、TTS+STT 词级对齐、Playwright 逐帧确定性渲染 | 英文讲解视频 | 确定性逐帧渲染 + 词级对齐 | **借鉴思路**：换配音时只重算时间轴、画面结构不动（slides2video 的 at 引用天然如此） | 路线④ | P-slides C-code-motion | 免费CPU | 英文 |
+| [Leo1998-Lu/ai-paper2slide-skill](https://github.com/Leo1998-Lu/ai-paper2slide-skill) | 87 | 2026-07-08 | MIT | 论文 → 会议级幻灯的 Agent skill | 学术报告幻灯 | 面向会议报告的版式规范 | — | 路线④：Agent 里装 skill | P-slides | Agent额度 | 英文 |
+| [ai-nuts/pptx2video](https://github.com/ai-nuts/pptx2video) | 7 | 2026-09-16 | MIT | 把 PPTX 的原生动画顺序和演讲者备注里的旁白对齐成带字幕的 MP4；支持备注里标「聚光」 | 已经有一份 PPT、想直接出讲解视频；PowerPoint/WPS 里调好动画的课件 | 唯一把 PowerPoint 动画窗格（单击 / 与上一项同时 / 上一项之后）和词级配音对齐出片的开源 CLI | **借鉴思路**：演讲者备注分块协议与聚光标记、动画窗格顺序 → build 的映射（只读其文档，未复制代码）（slides2video/lib/pptx.mjs） | 已有 PPTX：先试 `node slides2video/cli.mjs import 课件.pptx --out deck/`（本地、无 Edge 依赖）；要保留 PPT 原生动画效果就用 pptx2video 本身 | P-slides | 免费CPU | 英文 |
+| [Z-MU-Z/paper-explainer-video-skill](https://github.com/Z-MU-Z/paper-explainer-video-skill) | 3 | 2026-05-21 | MIT | Codex skill：论文 PDF → 60–90 秒中/英讲解视频（抽原图表、edge-tts、HyperFrames 渲染、QA） | 论文速读短视频 | 中文原生、直接出 MP4、带 QA | — | 路线④：Codex 里装 skill | P-slides C-code-motion | Agent额度/免费CPU | 中文 |
+| [anthropics/skills](https://github.com/anthropics/skills) | 180030 | 2026-10-08 | NONE ⚠️无许可证<br><sub>仓库根目录无 LICENSE；pptx skill 自带 LICENSE.txt 为 Anthropic 专有条款。只给链接。</sub> | Anthropic 官方 skills 合集，含读写 PPTX 的 pptx skill | Claude 里读写 PPTX | 官方维护 | — | Claude 内置使用；不复制 | P-slides M-method | Agent额度 | 英文 |
+| [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | 19657 | 2026-10-07 | MIT | 非官方 NotebookLM Python 接口/skill：批量生成视频概览 MP4 与幻灯 | 想批量用 NotebookLM 出讲解草稿 | 把 NotebookLM 的视频概览批量化 | — | 路线④：自担风险使用；正式稿建议路线⑥ | P-slides | 网页手动 | 英文 |
+| [LSTM-Kirigaya/slidev-ai](https://github.com/LSTM-Kirigaya/slidev-ai) | 284 | 2026-01-13 | MIT-with-commercial-terms 有条件<br><sub>GitHub 识别为 MIT，但 README 写明附加商业条款；按非标准许可对待，只给链接。</sub> | AI 生成 Slidev 幻灯的应用 | AI 写 Slidev | 中文、直接产出 Slidev | — | 路线④：注意附加商业条款 | P-slides | API key | 中文 |
+| [AIGeeksGroup/PresentAgent](https://github.com/AIGeeksGroup/PresentAgent) | 146 | 2026-05-15 | NONE ⚠️无许可证<br><sub>2026-10-09 确认仓库没有 LICENSE 文件：默认保留所有权利，只给链接。</sub> | 文档 → 幻灯 → 旁白 → 讲解视频（EMNLP 2025 Demo） | 研究参考 | 文档到讲解视频的完整研究原型 | — | 只看不用（无许可证） | P-slides | API key | 英文 |
+
+<details>
+<summary>历史 / 不再推荐（5 个：2026-01-01 之后没有推送或已归档；router 与 MCP 默认不推荐，加 include_stale 可查）</summary>
+
+| 项目 | ★ | 最后推送 | 原因 | 许可 | 简介 |
+|---|---|---|---|---|---|
+| [gitbrent/PptxGenJS](https://github.com/gitbrent/PptxGenJS) | 6243 | 2025-11-28 | 2026 年前停更 | MIT | JavaScript 生成 PPTX |
+| [prasanaworld/puppeteer-screen-recorder](https://github.com/prasanaworld/puppeteer-screen-recorder) | 458 | 2025-01-20 | 2026 年前停更 | MIT | Puppeteer 实时录屏插件 |
+| [scanny/python-pptx](https://github.com/scanny/python-pptx) | 3551 | 2024-08-07 | 2026 年前停更 | MIT | Python 读写 PPTX 的基础库 |
+| [Vinlic/WebVideoCreator](https://github.com/Vinlic/WebVideoCreator) | 244 | 2024-01-05 | 2026 年前停更 | Apache-2.0 | Puppeteer 网页动画 → 视频的国产框架 |
+| [tungs/timecut](https://github.com/tungs/timecut) | 654 | 2023-07-18 | 2026 年前停更 | BSD-3-Clause | 网页动画确定性逐帧录制（虚拟时间）→ 视频 |
+
+</details>
+
+[← 返回目录](README.md) · [项目用途地图](../docs/%E9%A1%B9%E7%9B%AE%E7%94%A8%E9%80%94%E5%9C%B0%E5%9B%BE.md)

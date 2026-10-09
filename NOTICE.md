@@ -7,7 +7,7 @@
 版权人：**天机**（Copyright 2026 天机）。许可：**[Apache License 2.0](LICENSE)**（全文见根目录 `LICENSE`，简短声明见根目录 `NOTICE`）。
 
 Apache-2.0 **只覆盖本仓库自己的作品**，包括：
-- 代码：`scripts/`、`animator/`（代码、Schema、`tts/`、`tools/`；**不含** `animator/vendor/` 下的第三方代码，见第 2.1 节）、`videogen/`、`stills2video/`（静图成片；**不含**两个改写自 MIT 模板的 Wan2.2 工作流 JSON，见第 2.2 节）、`router/`（AI 导演路由器，含测试与 `examples/` 示例方案）、`mcp/`（只读 MCP 服务，尚未发布到 npm）、`catalog/tools/`；
+- 代码：`scripts/`、`animator/`（代码、Schema、`tts/`、`tools/`；**不含** `animator/vendor/` 下的第三方代码，见第 2.1 节）、`videogen/`、`stills2video/`（静图成片；**不含**两个改写自 MIT 模板的 Wan2.2 工作流 JSON，见第 2.2 节）、`router/`（AI 导演路由器，含测试与 `examples/` 示例方案）、`slides2video/`（PPT 式科普，全部原创）、`mcp/`（只读 MCP 服务，尚未发布到 npm）、`catalog/tools/`；
 - AI Agent 说明与技能：`AGENTS.md`、`CLAUDE.md`、`skills/ai-video-director/SKILL.md`；
 - 外部项目目录 `catalog/`：`registry.json` 中本仓库自写的中文简介、标签、接入说明与许可证备注，生成的分类页面，以及 `catalog/methodology.md`（用本仓库自己的话归纳的方法论，未摘录第三方原文）。目录里列出的外部项目**只是链接**，它们各自的代码、文档、模板仍归原作者并适用其自己的许可证，见第 4 节；
 - 文档：README、NOTICE、ATTRIBUTION、CONTRIBUTING、SECURITY 等，`animator/README.md`、`videogen/README.md`，分类体系、各级索引与统计，`tools/漫剧漫画代码项目.md` 链接清单；
@@ -103,6 +103,25 @@ YouMind、LearnPrompt、ZeroLu 三个上游都说明：所收提示词来自社�
 
 **示例素材**：`docs/assets/stills2video-sample.mp4` 的第 1 张图是天机提供的仙侠示意图，其余由 `stills2video/examples/sample/make_stills.py` 程序绘制或裁自本仓库的 `docs/assets/tianji_sheet.png`，不含第三方图片、字体或音乐。
 
+### 2.3 `slides2video/`：没有复制第三方代码
+
+`slides2video/` 的代码（解析、时间轴、编译、渲染、lint、pptx 读取、浏览器运行时、主题、测试、示例）全部是本仓库原创，Apache-2.0，© 2026 天机。
+
+| 用法 | 项目 | 许可 | 说明 |
+|---|---|---|---|
+| 运行时依赖（`npm install`，不入库） | [KaTeX](https://github.com/KaTeX/KaTeX) | MIT；**字体 SIL OFL 1.1** | 公式排版。字体渲染时由本地 HTTP 服务直接从 `slides2video/node_modules/katex/dist/fonts` 提供，**仓库里没有任何字体文件** |
+| 运行时依赖 | [Shiki](https://github.com/shikijs/shiki) | MIT | 代码高亮（构建时生成 token） |
+| 运行时依赖 | [Mermaid](https://github.com/mermaid-js/mermaid) | MIT | 流程图 / 时序图 |
+| 运行时依赖 | [yaml](https://github.com/eemeli/yaml) | ISC | 解析每页 frontmatter |
+| 复用本仓库已移植代码 | huashu-art-motion 转场（`animator/vendor/`） | MIT | 运行时加载，不另行复制，见第 2.1 节 |
+| 复用 | animator 的 playwright-core / 找浏览器逻辑、videogen 的本地 TTS | Apache-2.0 / 本仓库 | — |
+| 仅思路，代码自写 | [Slidev](https://github.com/slidevjs/slidev)、[reveal.js](https://github.com/hakimel/reveal.js)（Auto-Animate）、[rough-notation](https://github.com/rough-stuff/rough-notation)、[shiki-magic-move](https://github.com/shikijs/shiki-magic-move)、[pptx2video](https://github.com/ai-nuts/pptx2video)（备注协议，兼容读取）、[explainroo](https://github.com/vincentsch/explainroo)、[html-ppt-skill](https://github.com/lewislulu/html-ppt-skill)、[Paper2Video](https://github.com/showlab/Paper2Video)、[video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) | MIT | 见 ATTRIBUTION.md |
+| 仅思路，代码自写 | [timecut](https://github.com/tungs/timecut) | BSD-3-Clause | 虚拟时间逐帧截图的思路 |
+| **仅思路（AGPL）** | [banana-slides](https://github.com/Anionex/banana-slides) | **AGPL-3.0** | 只借鉴「每页一张 AI 示意图」的工作流，没有读入或改写任何代码 |
+| 外部程序（用户自装，可选） | LibreOffice、poppler `pdftoppm` | MPL-2.0 / GPL | 只在 `import --mode pages` 时作为外部命令调用 |
+
+**示例素材**：`slides2video/examples/sky/*.jpg` 由同目录 `make-images.mjs` 用 canvas 程序绘制；测试用 `test/fixtures/mini.pptx` 由 `make_pptx.py` 生成。不含第三方图片、字体或音乐。
+
 ## 3. 仓库所有者自己的文档
 
 `docs/分镜提示词手册.md` 与 `docs/skill/SKILL.md` 是仓库所有者的原创作品，按 Apache-2.0 提供（见第 1 节）。
@@ -125,6 +144,7 @@ YouMind、LearnPrompt、ZeroLu 三个上游都说明：所收提示词来自社�
 - YouMind / goodcase.ai 网站内容；
 - `tools/` 中列出的全部代码项目；
 - `stills2video/` 只借鉴思路或只链接的项目：见第 2.2 节；
+- `slides2video/` 只借鉴思路的项目：见第 2.3 节；
 - `animator/` 只借鉴思路、未复制代码的项目：geeklee/srt-whiteboard-animation（MIT）、alexgreensh/anidoodle（Apache-2.0）、HKUDS/ViMax（MIT）、HBAI-Ltd/Toonflow-app（MIT）。（alchaincyf/huashu-art-motion 的 MIT 代码已移植，见第 2.1 节。）
 
 本仓库没有收录任何第三方图片、GIF 或视频。`animator/` 中的 SVG（角色「豆豆」与内置道具）是本仓库原创的矢量图。

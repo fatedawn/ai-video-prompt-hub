@@ -244,7 +244,9 @@
         "url": "https://github.com/Zulko/moviepy",
         "kind": "library",
         "intro_zh": "Python 剪辑库，自己写 Ken Burns、拼接、叠字幕最方便",
-        "stars": 14962,
+        "stars": 14963,
+        "pushed": "2026-08-26",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -253,6 +255,11 @@
         ],
         "zh": "en",
         "plugs_into": "stills2video 直接用 numpy + ffmpeg 管道，不依赖它；写自定义 Python 后处理时可选",
+        "best_for": [
+          "自己写脚本拼接剪辑"
+        ],
+        "strengths": "Python 剪辑最方便的库",
+        "how_to_use": "路线⑤ stills2video：stills2video 直接用 numpy + ffmpeg 管道，不依赖它；写自定义 Python 后处理时可选",
         "score": 13.5
       },
       {
@@ -261,7 +268,9 @@
         "url": "https://github.com/tsparticles/tsparticles",
         "kind": "library",
         "intro_zh": "网页粒子库：雪、尘埃、萤火、星空、彩带",
-        "stars": 8991,
+        "stars": 8992,
+        "pushed": "2026-10-06",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -270,6 +279,11 @@
         ],
         "zh": "en",
         "plugs_into": "HyperFrames / Remotion 里做粒子叠层；stills2video 用的是 animator 自带 canvas 特效 + numpy 粒子",
+        "best_for": [
+          "通用（任何题材的底座）"
+        ],
+        "strengths": "网页粒子库：雪、尘埃、萤火、星空、彩带（免费 CPU 可跑）",
+        "how_to_use": "路线⑤ stills2video：HyperFrames / Remotion 里做粒子叠层；stills2video 用的是 animator 自带 canvas 特效 + numpy 粒子",
         "score": 13.48
       },
       {
@@ -278,7 +292,9 @@
         "url": "https://github.com/DepthAnything/Depth-Anything-V2",
         "kind": "model",
         "intro_zh": "单目深度估计，Small 版 25M 参数，CPU 上 0.3 秒一张",
-        "stars": 8916,
+        "stars": 8917,
+        "pushed": "2026-03-24",
+        "status": "active",
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "代码 Apache-2.0；权重 Small 为 Apache-2.0，Base/Large/Giant 为 CC-BY-NC-4.0（非商用）。本仓库只下载 Small（onnx-community 转换版），不提交权重。",
@@ -287,7 +303,41 @@
         ],
         "zh": "en",
         "plugs_into": "stills2video 的默认深度模型：npm run setup:depth 下载 Small ONNX 并校验 sha256 → onnxruntime CPU 推理",
+        "best_for": [
+          "给任意图片估深度"
+        ],
+        "strengths": "小模型 CPU 也快，2.5D 视差的基础",
+        "how_to_use": "路线⑤ stills2video：stills2video 的默认深度模型：npm run setup:depth 下载 Small ONNX 并校验 sha256 → onnxruntime CPU 推理",
+        "absorbed": {
+          "type": "dependency",
+          "what": "Small 模型（Apache-2.0）按 sha256 下载做深度视差；预处理参数参考其实现",
+          "where": "stills2video/py"
+        },
         "score": 13.48
+      },
+      {
+        "id": "codex-ppt-skill",
+        "repo": "ningzimu/codex-ppt-skill",
+        "url": "https://github.com/ningzimu/codex-ppt-skill",
+        "kind": "skill",
+        "intro_zh": "Codex skill：用 Codex 内置的 GPT 生图做整页图片式 PPT（ChatGPT 订阅内一般不另付 API）",
+        "stars": 6536,
+        "pushed": "2026-10-02",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "整页图片 → 可直接当 slides2video 的 `image-full` 页或 stills2video 的图片",
+        "best_for": [
+          "有 ChatGPT 会员没有 API 额度、要做图片式 PPT"
+        ],
+        "strengths": "把订阅内生图用满，不需要 API key",
+        "how_to_use": "路线④ → ⑤/⑥：Codex 里出页图 → `node slides2video/cli.mjs make deck.md --images 页图目录`",
+        "score": 13.41
       },
       {
         "id": "depth-anything-3",
@@ -296,6 +346,8 @@
         "kind": "model",
         "intro_zh": "Depth Anything 第三代：深度 + 相机位姿 + 多视图几何",
         "stars": 6445,
+        "pushed": "2026-07-27",
+        "status": "active",
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "代码 Apache-2.0；各尺寸权重许可以 Hugging Face 模型卡为准（部分为非商用），本次未逐个核验。",
@@ -305,41 +357,12 @@
         ],
         "zh": "en",
         "plugs_into": "可导出深度图 PNG，用 stills2video 镜头的 \"depth\": \"<文件>\" 字段直接喂给 CPU 视差渲染",
+        "best_for": [
+          "通用（任何题材的底座）"
+        ],
+        "strengths": "Depth Anything 第三代：深度 + 相机位姿 + 多视图几何（需要自己的显卡）",
+        "how_to_use": "路线⑤ stills2video：可导出深度图 PNG，用 stills2video 镜头的 \"depth\": \"<文件>\" 字段直接喂给 CPU 视差渲染",
         "score": 13.4
-      },
-      {
-        "id": "editly",
-        "repo": "mifi/editly",
-        "url": "https://github.com/mifi/editly",
-        "kind": "library",
-        "intro_zh": "声明式（JSON）命令行视频剪辑/合成",
-        "stars": 5521,
-        "license": "MIT",
-        "license_class": "permissive",
-        "license_note": "",
-        "cost": [
-          "free-cpu"
-        ],
-        "zh": "en",
-        "plugs_into": "用 JSON 拼片头片尾与转场；stills2video 借鉴了它的缓动曲线与 zoomDirection 参数思路（MIT，自写实现）",
-        "score": 13.37
-      },
-      {
-        "id": "kburns",
-        "repo": "remko/kburns",
-        "url": "https://github.com/remko/kburns",
-        "kind": "library",
-        "intro_zh": "极简 ffmpeg Ken Burns 幻灯片脚本（老但能用）",
-        "stars": 85,
-        "license": "MIT",
-        "license_class": "permissive",
-        "license_note": "",
-        "cost": [
-          "free-cpu"
-        ],
-        "zh": "en",
-        "plugs_into": "stills2video 借鉴了它「先放大再裁切防抖」的思路（自写实现，见 docs/i2v-对比.md）",
-        "score": 12.47
       },
       {
         "id": "depthflow",
@@ -348,6 +371,8 @@
         "kind": "engine",
         "intro_zh": "单图 → 2.5D 深度视差运镜（推、摇、环绕、无缝循环），GPU OpenGL 渲染，可脚本批量",
         "stars": 1556,
+        "pushed": "2026-09-30",
+        "status": "active",
         "license": "AGPL-3.0",
         "license_class": "copyleft",
         "license_note": "已读 license.txt：AGPL-3.0。本仓库 stills2video 只借鉴其参数思路（视差高度/焦平面/等距/推拉），代码完全自写，未复制。",
@@ -357,6 +382,17 @@
         ],
         "zh": "en",
         "plugs_into": "想要 GPU 实时视差就用它本体；本仓库 stills2video --backend cpu 是独立实现的 CPU 版（深度模型 + numpy 反向映射）",
+        "best_for": [
+          "单图 2.5D 运镜",
+          "空镜头"
+        ],
+        "strengths": "GPU 实时视差，参数化运镜和无缝循环",
+        "how_to_use": "路线⑤ stills2video：想要 GPU 实时视差就用它本体；本仓库 stills2video --backend cpu 是独立实现的 CPU 版（深度模型 + numpy 反向映射）",
+        "absorbed": {
+          "type": "idea",
+          "what": "视差高度 / 焦平面 / 推拉变焦等参数概念（AGPL，只取思路、完全重写）",
+          "where": "stills2video/py"
+        },
         "score": 12.1
       },
       {
@@ -365,7 +401,9 @@
         "url": "https://github.com/harry0703/MoneyPrinterTurbo",
         "kind": "app",
         "intro_zh": "主题→文案→实拍素材库拼接→配音字幕的短视频生成",
-        "stars": 129189,
+        "stars": 129233,
+        "pushed": "2026-10-09",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -375,7 +413,43 @@
         ],
         "zh": "native",
         "plugs_into": "实拍素材口播；不适合手绘；stills2video 借鉴了它的亚像素缩放与图片清洗思路（MIT，自写实现）",
+        "best_for": [
+          "素材库拼接口播",
+          "批量知识短视频"
+        ],
+        "strengths": "主题到成片全自动，素材来自免费实拍库，上手门槛最低",
+        "how_to_use": "剪辑后期：实拍素材口播；不适合手绘；stills2video 借鉴了它的亚像素缩放与图片清洗思路（MIT，自写实现）",
+        "absorbed": {
+          "type": "idea",
+          "what": "亚像素缩放、EXIF/CMYK 图片清洗",
+          "where": "stills2video"
+        },
         "score": 12
+      },
+      {
+        "id": "practical-rife",
+        "repo": "hzwer/Practical-RIFE",
+        "url": "https://github.com/hzwer/Practical-RIFE",
+        "kind": "library",
+        "intro_zh": "RIFE 补帧的实用版：16fps 图生视频 → 32/48/60fps",
+        "stars": 1027,
+        "pushed": "2026-08-27",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "gpu",
+          "free-cpu"
+        ],
+        "zh": "en",
+        "plugs_into": "stills2video polish 优先调用 rife-ncnn-vulkan 二进制；用 Python 版时先补帧再 import",
+        "best_for": [
+          "16fps 生成片补到 60fps"
+        ],
+        "strengths": "RIFE 补帧的实用版本",
+        "how_to_use": "路线⑤ stills2video：stills2video polish 优先调用 rife-ncnn-vulkan 二进制；用 Python 版时先补帧再 import",
+        "score": 11.51
       }
     ],
     "methods": [
@@ -385,7 +459,9 @@
         "url": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill",
         "kind": "skill",
         "intro_zh": "漫剧老李：立项→剧本→资产锁定→文武双模分镜→七段式提示词 + FACS 微表情",
-        "stars": 1086,
+        "stars": 1092,
+        "pushed": "2026-09-20",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -394,6 +470,11 @@
         ],
         "zh": "native",
         "plugs_into": "本仓库 templates/漫剧老李-七段式与资产图模板 已收录其 MIT 模板",
+        "best_for": [
+          "仙侠 / 打戏漫剧"
+        ],
+        "strengths": "文武双模分镜 + 七段式提示词 + 微表情",
+        "how_to_use": "方法论 skill：本仓库 templates/漫剧老李-七段式与资产图模板 已收录其 MIT 模板",
         "score": 17.52
       },
       {
@@ -403,6 +484,8 @@
         "kind": "skill",
         "intro_zh": "武术指导：一句话→16 宫格武打分镜海报 prompt + 15 秒视频 prompt，含招式语料与 IP 合规规避",
         "stars": 92,
+        "pushed": "2026-06-30",
+        "status": "active",
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -411,6 +494,13 @@
         ],
         "zh": "native",
         "plugs_into": "武侠/修真打戏",
+        "best_for": [
+          "打戏 / 动作",
+          "武侠",
+          "仙侠玄幻"
+        ],
+        "strengths": "武术指导：一句话→16 宫格武打分镜海报 prompt + 15 秒视频 prompt，含招式语料与 IP 合规规避（用编程 Agent 的额度、中文原生）",
+        "how_to_use": "方法论 skill：武侠/修真打戏",
         "score": 15.48
       },
       {
@@ -419,7 +509,9 @@
         "url": "https://github.com/eternityspring/shuohao-skills",
         "kind": "skill",
         "intro_zh": "AI 短剧 skill 集：小说→改编大纲五件套→角色设定集→场景道具设定→剧本→分镜，质量门脚本检查",
-        "stars": 4266,
+        "stars": 4280,
+        "pushed": "2026-10-08",
+        "status": "active",
         "license": "Apache-2.0",
         "license_class": "permissive",
         "license_note": "",
@@ -428,6 +520,12 @@
         ],
         "zh": "native",
         "plugs_into": "小说转漫剧/短剧的前期方法；分镜输出后接 templates/ 七段式与 videogen plan",
+        "best_for": [
+          "小说改编短剧",
+          "分集剧本"
+        ],
+        "strengths": "改编五件套 + 质量门脚本，流程最规范",
+        "how_to_use": "方法论 skill：小说转漫剧/短剧的前期方法；分镜输出后接 templates/ 七段式与 videogen plan",
         "score": 12.82
       },
       {
@@ -436,7 +534,9 @@
         "url": "https://github.com/lixiaoxiao9888-create/short-drama-factory",
         "kind": "skill",
         "intro_zh": "抖音/红果爆款短剧编剧系统：40 赛道、六母型钩子、五大断章、反转轮换，标准/长档/漫剧三档篇幅",
-        "stars": 310,
+        "stars": 312,
+        "pushed": "2026-09-29",
+        "status": "active",
         "license": "MIT",
         "license_class": "permissive",
         "license_note": "",
@@ -445,6 +545,14 @@
         ],
         "zh": "native",
         "plugs_into": "只产剧本层；剧本完成后再进分镜与 videogen",
+        "best_for": [
+          "漫剧 / 短剧剧情",
+          "甜宠恋爱",
+          "都市逆袭",
+          "小说改编"
+        ],
+        "strengths": "抖音/红果爆款短剧编剧系统：40 赛道、六母型钩子、五大断章、反转轮换，标准/长档/漫剧三档篇幅（用编程 Agent 的额度、中文原生）",
+        "how_to_use": "方法论 skill：只产剧本层；剧本完成后再进分镜与 videogen",
         "score": 12.25
       },
       {
@@ -453,7 +561,9 @@
         "url": "https://github.com/senmanx/novel-to-manju",
         "kind": "skill",
         "intro_zh": "小说→爆款改文→漫剧剧本→角色卡与音色→人物/场景/三视图提示词→分镜→MiniMax H3 视频提示词",
-        "stars": 46,
+        "stars": 48,
+        "pushed": "2026-08-17",
+        "status": "active",
         "license": "CC0-1.0",
         "license_class": "permissive",
         "license_note": "CC0 1.0",
@@ -462,7 +572,13 @@
         ],
         "zh": "native",
         "plugs_into": "小说转漫剧全流程（CC0）",
-        "score": 11.84
+        "best_for": [
+          "小说改编",
+          "漫剧 / 短剧剧情"
+        ],
+        "strengths": "小说→爆款改文→漫剧剧本→角色卡与音色→人物/场景/三视图提示词→分镜→MiniMax H3 视频提示词（用编程 Agent 的额度、中文原生）",
+        "how_to_use": "方法论 skill：小说转漫剧全流程（CC0）",
+        "score": 11.85
       }
     ]
   },

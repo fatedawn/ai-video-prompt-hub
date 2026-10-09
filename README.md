@@ -17,12 +17,38 @@
 | 做手绘动画讲解 / 口播短视频 | [`animator/`](animator/README.md)：默认主持人「天机」，台词一行一句即可出片 | `cd animator && node src/cli.mjs make 台词.txt` |
 | 免费、离线的中文配音（带字级时间戳） | `animator/tts/`：Kokoro v1.1-zh（Apache-2.0，CPU），edge-tts 可选 | `cd animator && npm run setup:tts && node src/cli.mjs tts 工程.json` |
 | **只有图片**（ChatGPT 出的图 / 照片），没有视频订阅，想做成带配音字幕的短片 | [`stills2video/`](stills2video/README.md)：CPU 深度视差 / 本地 ComfyUI / 云端 key / 网页手动，按显存自动选（见下文「只有图片怎么做视频」） | `node stills2video/cli.mjs make --images stills/ --script 台词.txt --out final.mp4` |
+| **科学科普 / 课件 / 公式图表讲解 / PPT 转视频**（PPT 式科普） | [`slides2video/`](slides2video/README.md)：Markdown 写幻灯片（或导入 .pptx），本地配音，要点跟着旁白出现，公式逐项点亮，图表按讲解升起（见下文「PPT 式科普」） | `node slides2video/cli.mjs make deck.md --images images/ --out final.mp4` |
 | 不知道该用哪条路线，想让 AI 按题材出方案 | [`router/`](router/README.md) + [`skills/ai-video-director/`](skills/ai-video-director/SKILL.md)（见下文「AI 导演 / Agent 使用」） | `node router/cli.mjs recommend "仙侠漫剧：……" --budget free-cpu` |
-| 找开源工具：手绘/白板/火柴人、Remotion、代码动效、视频 Agent 技能、漫剧方法论 | [`catalog/`](catalog/README.md)（245 个，已核验许可证，仅链接）· [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md) | `node router/cli.mjs search 火柴人 --cost free-cpu` |
+| 找开源工具：手绘/白板/火柴人、Remotion、代码动效、视频 Agent 技能、漫剧方法论、幻灯片科普、配音字幕 | [`catalog/`](catalog/README.md)（322 个，只推荐 279 个 2026 年仍活跃的，已核验许可证，仅链接）· [`docs/项目用途地图.md`](docs/项目用途地图.md)（每个项目最适合做什么、怎么用）· [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md) | `node router/cli.mjs search 火柴人 --cost free-cpu` |
 
 预览（随仓库提交的小文件）：[天机设定图](docs/assets/tianji_sheet.png) · [天机剪影](docs/assets/tianji_silhouette.png) · [天机电影感特效展示（带配音）](docs/assets/tianji-showcase.mp4) · [路线 C 演示成片（替身片段）](docs/assets/videogen-route-c-demo.mp4) · [静图成片示例（纯 CPU，带配音）](docs/assets/stills2video-sample.mp4)
 
 > 原作者 / 权利人如需删除，请用 [下架申请模板](.github/ISSUE_TEMPLATE/takedown.md) 提 issue（见下文「合规与下架」）。贡献新提示词请先读 [CONTRIBUTING.md](CONTRIBUTING.md)；**不要提交任何 API key**（见 [SECURITY.md](SECURITY.md)）。
+
+---
+
+## PPT 式科普（路线⑥ slides2video）
+
+想做「为什么天空是蓝色的」「梯度下降是什么」这种**科普 / 课件 / 公式讲解**，画面以文字要点、公式、图表为主？用 [`slides2video/`](slides2video/README.md)：用 Markdown（类 Slidev 语法）写一份 `deck.md`，每页写 `> say:` 旁白，一条命令出带配音和卡拉 OK 字幕的竖屏 / 横屏视频。免费、纯 CPU、不需要任何 API key。
+
+- **跟读动画**：要点在旁白说到关键词时出现（`{at: 散射}`）；手绘圈注 / 下划线 / 荧光笔 / 方框 / 删除线（`mark: circle:蓝光`）；聚光灯；`==关键词==` 跟着念高亮。
+- **公式**：KaTeX 排版，`\term{}` 标出的项在说到时逐项点亮；同 `id` 的标题 / 公式跨页平滑变形（`transition: morph`）。
+- **图表与图示**：柱状 / 折线 / 饼图按讲解顺序升起；Mermaid 流程图；Shiki 代码高亮和代码变形；时间线、对比、大数字、引用等 17 种版式，4 套主题（`tianji`、`paper`、`chalk`、`clean`）。
+- **配图**：每页可配一张示意图，`prompts` 命令生成 ChatGPT 中文出图提示词（画面不含文字，文字由视频叠加）。
+- **PPT 转视频**：`import 课件.pptx`，演讲者备注即旁白（兼容 pptx2video 的 `## [handle]` 协议）；`--mode pages` 用 LibreOffice 把每页转成图，`--mode rebuild` 重建成可动画的 deck。
+- **质检**：`lint --qa` 检查一页要点数、标题长度、语速、最长静止时长，并在浏览器里检查溢出、重叠、压字幕区；`make --sheet` 输出每页样张拼图。
+- 转场复用 animator 已移植的 huashu 转场（`transition: huashu:godRays`）。
+
+```bash
+cd slides2video && npm install && cd ..                    # 首次（浏览器与本地 TTS 复用 animator：cd animator && npm install && npm run setup:tts）
+node slides2video/cli.mjs doctor                            # 检查 Chrome、ffmpeg、TTS、KaTeX、LibreOffice
+node slides2video/cli.mjs init my-deck                      # 生成示例 deck.md
+node slides2video/cli.mjs lint my-deck/deck.md --qa
+node slides2video/cli.mjs make my-deck/deck.md --images my-deck/images --out final.mp4 --sheet sheet.jpg
+cd slides2video && npm run sample                           # 示例「为什么天空是蓝色的」（9:16，约 34 秒，配图由程序画）
+```
+
+KaTeX 的字体是 SIL OFL 许可，**不提交进本仓库**，渲染时直接从 `slides2video/node_modules/katex/dist/fonts` 加载。思路来源（Slidev、reveal.js、rough-notation、shiki-magic-move、pptx2video、timecut、explainroo、banana-slides 等）和许可证处理见 [`slides2video/README.md`](slides2video/README.md) 与 [`ATTRIBUTION.md`](ATTRIBUTION.md)。写法（钩子 → 比喻 → 分层解释 → 公式 → 总结）见 [`skills/ai-video-director/references/methods.md`](skills/ai-video-director/references/methods.md)。
 
 ---
 
@@ -59,14 +85,18 @@ bash stills2video/examples/sample/run_sample.sh /tmp/s2v  # 示例：程序画�
 把「我想做一条 xx 题材的视频」交给 AI Agent（Claude Code、Codex、Cursor 等）时，Agent 会先读根目录的 [`AGENTS.md`](AGENTS.md)（Claude Code 读 [`CLAUDE.md`](CLAUDE.md)），再按 [`skills/ai-video-director/SKILL.md`](skills/ai-video-director/SKILL.md) 做三件事：
 
 1. **问清需求**：题材、漫剧还是真人、现实向还是特效向、时长、画幅、预算/硬件（免费 CPU / 自己的显卡 / API key / 网页手动）、角色素材、配音、是否商用。
-2. **选路线**：
-   - ① **animator 手绘动画**：讲解、科普、绘本、古诗、天机风项目推荐
-   - ② **videogen 视频生成 + prompts/**：仙侠、甜宠、悬疑等剧情
-   - ③ **代码动效**：数据、图表、公式、字幕重的视频，用 Remotion / HyperFrames / Manim
-   - ④ **外部开源项目**：从 [`catalog/`](catalog/README.md) 里选
-   - ⑤ **stills2video 静图成片**：只有图片、没有视频订阅时（见上文）
+2. **选路线**（六种模式，MCP 里用 `list_modes` 查看）：
 
-   预算会改变选择，例如免费 CPU 下的漫剧先出手绘版。
+   | 路线 | 工具 | 最适合的题材 | 成本 |
+   |---|---|---|---|
+   | ① 手绘逐笔 | [`animator/`](animator/README.md) | 知识口播、拆书、绘本、古诗、天机风项目推荐 | 免费 CPU |
+   | ② 视频生成 | [`videogen/`](videogen/README.md) + `prompts/` | 仙侠、甜宠、悬疑等剧情，真人短剧，带货，vlog，MV | API key / 自己的显卡 / 网页端 |
+   | ③ 代码动效 | Remotion / HyperFrames / Manim | 数据可视化、连续几何与函数动画、定制动效 | 免费 CPU（Remotion 有条件） |
+   | ④ 外部项目 | [`catalog/`](catalog/README.md) | 本仓库没覆盖的：数字人、自动剪辑切条、一条龙平台 | 视项目 |
+   | ⑤ 静图成片 | [`stills2video/`](stills2video/README.md) | 只有图片、没有视频订阅 | 免费 CPU；可选 GPU / 云 |
+   | ⑥ PPT 式科普 | [`slides2video/`](slides2video/README.md) | 科学科普、课件 / 微课、公式推导、论文讲解、PPT 转视频 | 免费 CPU |
+
+   预算会改变选择，例如免费 CPU 下的漫剧先出手绘版。完整对照见 [`skills/ai-video-director/references/modes.md`](skills/ai-video-director/references/modes.md)。
 3. **出方案**：给出匹配的提示词 id、模板、画风预设、外部项目和逐条命令。
 
 ```bash
@@ -76,9 +106,13 @@ node router/cli.mjs recommend "知识科普口播：为什么熬夜会让人变�
 node router/cli.mjs search 白板 --zh native                                   # 查外部项目
 ```
 
-9 个示例题材的完整方案在 [`router/examples/`](router/examples/)：仙侠漫剧、都市甜宠真人剧、知识科普口播、儿童绘本、悬疑短剧、产品带货、GitHub 项目推荐（天机）、DV vlog、只有图片无订阅。
+11 个示例题材的完整方案在 [`router/examples/`](router/examples/)：仙侠漫剧、都市甜宠真人剧、知识科普口播、儿童绘本、悬疑短剧、产品带货、GitHub 项目推荐（天机）、DV vlog、只有图片无订阅、PPT 式科普、课件转视频。
 
-**外部项目目录 [`catalog/`](catalog/README.md)** 共 245 个项目，全部用 GitHub API 核验过（`verified_at` 2026-10-09），许可证读的是 LICENSE 原文，分 14 类：
+**外部项目目录 [`catalog/`](catalog/README.md)** 共 322 个项目，全部用 GitHub API 核验过（`verified_at` 2026-10-09），许可证读的是 LICENSE 原文，分 17 类。
+
+> **只收 2026 年活跃项目**：只推荐 2026-01-01 之后仍有代码推送的项目（当前 279 个；分界日期只写在 `catalog/registry.json` 的 `freshness.cutoff`）。停更、归档的 43 个项目不进推荐，只放在各分类页末尾折叠的「历史 / 不再推荐」里并写明原因；确实需要时 `recommend` / `search` 加 `--include-stale`（MCP 参数 `include_stale`）。每个活跃项目都写了**最适合做什么、强项、我们从中吸收了什么、怎么用**，汇总在 [`docs/项目用途地图.md`](docs/项目用途地图.md)。新的强项会被吸收进本仓库的六条路线：MIT / Apache / BSD 代码可移植并保留署名，GPL / AGPL 只借鉴思路，非商用 / 无许可证只给链接。
+
+分类：
 
 - 手绘·白板·火柴人
 - 笔画与手绘风组件
@@ -94,6 +128,9 @@ node router/cli.mjs search 白板 --zh native                                   
 - 提示词库资源
 - 静图动效（2.5D 视差 · Ken Burns · 动态照片）
 - 补帧放大（插帧 · 超分）
+- 幻灯片 · PPT 式科普
+- 公式 · 图表 · 科学可视化
+- 配音与字幕对齐
 
 非商用、无许可证、Elastic License 2.0 和混元 / WanGP / LTX / MiniMax H3 社区许可标了警告，排序靠后；`node router/cli.mjs recommend … --commercial` 会排除它们。
 
@@ -122,10 +159,10 @@ Claude Desktop / Cursor 指向本地路径（不要写成尚未发布的 npx 包
 }
 ```
 
-工具（全部只读）：`recommend_video_pipeline`、`get_intake_questions`、`search_video_prompts`、`get_video_prompt`、`list_prompt_taxonomy`、`search_templates`、`get_template`、`search_projects`、`get_project`、`get_style_presets`、`lint_storyboard_prompt`、`compliance_check`、`get_i2v_plan`（只有图片时的静图成片方案）。仅链接条目的 `get_video_prompt` 不返回正文。每条提示词、模板、项目都带署名。
+工具（全部只读）：`recommend_video_pipeline`、`get_intake_questions`、`search_video_prompts`、`get_video_prompt`、`list_prompt_taxonomy`、`search_templates`、`get_template`、`search_projects`、`get_project`、`get_style_presets`、`lint_storyboard_prompt`、`compliance_check`、`get_i2v_plan`（只有图片时的静图成片方案）、`list_modes`（六种制作模式及各自最适合的题材）、`get_slides_plan`（路线⑥：按题目起草 deck.md 骨架，或检查已有 deck）。`recommend_video_pipeline`、`search_projects`、`get_project` 默认只返回 2026 年仍活跃的项目，并带 `best_for`、`how_to_use`；`include_stale: true` 才包含停更项目。仅链接条目的 `get_video_prompt` 不返回正文。每条提示词、模板、项目都带署名。
 
 
-[`catalog/methodology.md`](catalog/methodology.md) 是本仓库用自己的话整理的方法论速查，内容包括剧本结构、小说改编、角色一致性、分镜写法、打戏、手绘讲解和质检，每条都附原始出处链接。目录只放链接和自写简介，不复制第三方代码或文档。
+[`catalog/methodology.md`](catalog/methodology.md) 是本仓库用自己的话整理的方法论速查，内容包括剧本结构、小说改编、角色一致性、分镜写法、打戏、手绘讲解、质检和科普 / PPT 式讲解，每条都附原始出处链接。目录只放链接和自写简介，不复制第三方代码或文档。
 
 ---
 
@@ -202,9 +239,9 @@ ai-video-prompt-hub/
 ├── docs/                  # 分镜提示词手册.md（用户自有手册）· skill/SKILL.md · assets/（天机设定图、演示视频等小预览）
 ├── tools/                 # 漫剧漫画代码项目.md（仅链接）
 ├── AGENTS.md / CLAUDE.md  # 给 AI Agent 的使用说明（能力、决策流程、命令）
-├── skills/ai-video-director/ # AI 导演 Skill：需求确认 → 选路线 → 选素材 → 执行
+├── skills/ai-video-director/ # AI 导演 Skill：需求确认 → 选路线（①–⑥）→ 选素材 → 执行 → 质检；references/ 放长表
 ├── router/                # AI 导演路由器 CLI（无依赖）：题材 → 方案；tests、examples/
-├── catalog/               # 外部项目目录：registry.json（机器可读）+ 分类页面 + methodology.md
+├── catalog/               # 外部项目目录：registry.json（机器可读，含 freshness / best_for / absorbed）+ 分类页面 + methodology.md + tools/usefor.py
 ├── animator/              # 手绘动画渲染器（Node + 浏览器 Canvas + ffmpeg），详见 animator/README.md
 │   ├── src/               #   命令行、工程编译、绘制引擎（全部为本仓库原创代码）
 │   ├── schema/            #   工程 / 角色 JSON Schema
@@ -220,6 +257,10 @@ ai-video-prompt-hub/
 │   ├── lib/               #   分镜解析、硬件档位、后端（cpu/comfyui/cloud/manual/wan2gp/lightx2v）、补帧放大
 │   ├── recipes/           #   24 个空镜配方（运镜 + 特效 + 转场 + 中文出图模板）
 │   └── workflows/         #   Wan2.2 14B 图生视频 / 首尾帧 ComfyUI API 工作流（改写自 Comfy-Org MIT 模板）
+├── slides2video/          # PPT 式科普：deck.md / .pptx → 配音 + 跟读动画 + 公式 / 图表 → MP4，详见 slides2video/README.md
+│   ├── lib/               #   解析、时间轴（逐词）、编译（KaTeX / Shiki）、渲染（Playwright 截帧 → ffmpeg）、lint、pptx 导入
+│   ├── runtime/           #   浏览器端幻灯片运行时与 4 套主题（字体运行时从 node_modules 加载，不入库）
+│   └── examples/          #   sky（为什么天空是蓝色的，9:16）、features（全部版式，16:9）、starter
 ├── videogen/              # 分镜 → 视频片段（云 API / ComfyUI / 网页端往返）→ 配音 + 字幕 + BGM 成片，详见 videogen/README.md
 └── scripts/               # build_index.py · extract_sources.py · audit.py · classify.py · hub_common.py
 ```
@@ -456,8 +497,9 @@ Star 数为 2026-10-08 查询值。
 - [分镜提示词手册（AI 漫剧 / 真人剧）](docs/分镜提示词手册.md)
 - [Seedance 分镜提示词 Skill](docs/skill/SKILL.md)
 - [漫剧 / 漫画代码项目（仅链接）](tools/漫剧漫画代码项目.md)
-- [外部项目目录（201 个，已核验许可证）](catalog/README.md) · [方法论速查](catalog/methodology.md)
+- [外部项目目录（322 个，只推荐 2026 年活跃的 279 个）](catalog/README.md) · [项目用途地图](docs/项目用途地图.md) · [方法论速查](catalog/methodology.md)
 - [AI 导演 Skill](skills/ai-video-director/SKILL.md) · [路由器 router](router/README.md) · [AGENTS.md](AGENTS.md)
 - [手绘动画渲染器 animator](animator/README.md)
 - [视频生成层 videogen（三条路线 + 统一合成）](videogen/README.md)
+- [静图成片 stills2video](stills2video/README.md) · [PPT 式科普 slides2video](slides2video/README.md)
 - [贡献指南（添加提示词 / 内容审核）](CONTRIBUTING.md) · [安全说明](SECURITY.md) · [版权与许可详细说明](NOTICE.md)

@@ -3,10 +3,14 @@
 
 Hand-written fields (intro_zh, tags, plugs_into, license_note) are never touched.
 A licence change is printed for manual review instead of being applied silently.
+Afterwards active/stale is recomputed by freshness.py (cutoff lives in registry.json → freshness.cutoff).
 Usage:  python3 catalog/tools/refresh_registry.py [--dry-run]
 Requires: gh (authenticated). Original work for ai-video-prompt-hub, Apache-2.0.
 """
 import json, subprocess, sys, datetime, pathlib
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import freshness  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 REG = ROOT / "catalog" / "registry.json"
@@ -43,6 +47,10 @@ def main():
         if new["archived"]:
             e["maturity"] = "archived"
     reg["checked_at"] = datetime.date.today().isoformat()
+    before = {e["repo"]: e.get("status") for e in reg["entries"]}
+    counts = freshness.apply(reg)
+    flips = [f"{r}: {s} → {e['status']}" for e in reg["entries"] for r, s in [(e["repo"], before.get(e["repo"]))] if s and s != e["status"]]
+    print(f"freshness cutoff {reg['freshness']['cutoff']}: active {counts['active']} · stale {counts['stale']}" + ("".join("\n  " + f for f in flips)))
     if not dry:
         REG.write_text(json.dumps(reg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         print(f"已更新 {changed} 个字段；接着运行 node router/cli.mjs build-catalog")

@@ -1,0 +1,26 @@
+{
+  "name": "hda-slides2video",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PPT 式科普成片：deck.md（Slidev 风格 Markdown）+ 本地 Kokoro 配音 → 按词逐条出现、圈注高亮、跨页变形、KaTeX 公式、代码高亮、图表、Mermaid 图 → MP4 + SRT（CPU、无需 API key）",
+  "type": "module",
+  "bin": {
+    "slides2video": "cli.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "doctor": "node cli.mjs doctor",
+    "sample": "node cli.mjs make examples/sky/deck.md --out ../.work/slides2video/sky/final.mp4 --sheet --preview",
+    "sample:images": "node examples/sky/make-images.mjs"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "katex": "^0.16.22",
+    "mermaid": "^11.4.0",
+    "shiki": "^3.2.0",
+    "yaml": "^2.5.0"
+  }
+}

@@ -180,3 +180,58 @@ test('video-model plans on free CPU offer stills2video as an alternative; text-o
   assert.notEqual(p.route.primary, 'S');
   assert.equal(plan(2).stills, undefined);
 });
+
+test('10 PPT 式科普 → route ⑥ slides2video, P-slides tools first, best_for/how_to_use returned', () => {
+  const p = plan(9);
+  assert.equal(p.scenario.id, 'science');
+  assert.equal(p.route.primary, 'P');
+  assert.ok(p.route.secondary.some((r) => r.id === 'A') && p.route.secondary.some((r) => r.id === 'C'));
+  assert.match(cmds(p), /slides2video\/cli\.mjs make .*deck\.md/);
+  assert.match(cmds(p), /slides2video\/cli\.mjs prompts/);
+  for (const e of p.external.tools) { assert.ok(e.best_for.length, e.repo); assert.ok(e.how_to_use, e.repo); assert.equal(e.status, 'active'); }
+  assert.ok(p.external.tools.some((e) => /slidev|ppt|katex/i.test(e.repo)));
+});
+
+test('11 课件转视频 / 数学推导 → route ⑥ (courseware 16:9, math with Manim alternative)', () => {
+  const p = plan(10);
+  assert.equal(p.scenario.id, 'courseware');
+  assert.equal(p.route.primary, 'P');
+  assert.equal(p.inputs.aspect, '16:9');
+  const m = recommend(data, '数学公式推导：勾股定理的证明', {});
+  assert.equal(m.scenario.id, 'math');
+  assert.equal(m.route.primary, 'P');
+  assert.ok(m.route.secondary.some((r) => r.id === 'C'));
+  // the spoken explainer stays hand-drawn but offers ⑥
+  const ex = plan(2);
+  assert.equal(ex.route.primary, 'A');
+  assert.ok(ex.route.secondary.some((r) => r.id === 'P'));
+});
+
+test('stale projects are excluded by default, include_stale brings them back with a warning', () => {
+  const reg = data.registry;
+  assert.ok(reg.freshness.cutoff);
+  const stale = new Set(reg.entries.filter((e) => e.status === 'stale').map((e) => e.repo));
+  assert.ok(stale.size > 0);
+  let sawStale = false;
+  for (let i = 0; i < SAMPLES.length; i++) {
+    assert.ok(!repos(plan(i)).some((r) => stale.has(r)), SAMPLES[i].file);
+    const q = plan(i, { include_stale: true });
+    if (repos(q).some((r) => stale.has(r))) sawStale = true;
+    assert.ok(q.warnings.some((w) => w.includes('不再更新')));
+  }
+  assert.ok(sawStale, 'include_stale can surface a stale project somewhere');
+  for (const e of reg.entries) {
+    assert.equal(e.status === 'stale', !!e.archived || e.maturity === 'archived' || e.pushed < reg.freshness.cutoff, e.repo);
+    if (e.status === 'active') assert.ok(e.best_for?.length && e.how_to_use && e.absorbed, e.repo);
+  }
+});
+
+test('usage map and category pages: stale in collapsed section, groups by 题材', () => {
+  const map = fs.readFileSync(path.join(ROOT, 'docs/项目用途地图.md'), 'utf8');
+  for (const g of ['科普', '数理推导', '漫剧', '真人短剧', '产品带货', '仓库推荐', '绘本', '诗词', '数据故事', 'vlog / 空镜头']) assert.ok(map.includes(`## ${g}`) || map.includes(g), g);
+  assert.ok(map.includes('alchaincyf/huashu-art-motion') && map.includes('**移植**'));
+  const page = fs.readFileSync(path.join(ROOT, 'catalog/15-幻灯片PPT式科普.md'), 'utf8');
+  assert.match(page, /最适合（题材）/);
+  const anyStalePage = fs.readdirSync(path.join(ROOT, 'catalog')).filter((f) => f.endsWith('.md')).some((f) => fs.readFileSync(path.join(ROOT, 'catalog', f), 'utf8').includes('<summary>历史 / 不再推荐'));
+  assert.ok(anyStalePage);
+});

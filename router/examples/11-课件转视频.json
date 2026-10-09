@@ -1,0 +1,528 @@
+{
+  "topic": "高中物理课件转视频：把牛顿第二定律的 PPT 做成讲解视频",
+  "generated_by": "router/cli.mjs recommend",
+  "inputs": {
+    "medium": "其他",
+    "direction": "现实向",
+    "duration_s": 120,
+    "aspect": "16:9",
+    "budget": "free-cpu",
+    "budget_zh": "免费 + 普通电脑（CPU）",
+    "assets": [],
+    "voice": "Kokoro 本地 TTS（默认）",
+    "commercial": false
+  },
+  "scenario": {
+    "id": "courseware",
+    "name": "课件 / 微课 / PPT 转视频 / 论文讲解",
+    "matched": [
+      {
+        "id": "courseware",
+        "score": 2.15,
+        "keywords": [
+          "课件",
+          "ppt"
+        ]
+      },
+      {
+        "id": "science",
+        "score": 1,
+        "keywords": [
+          "物理"
+        ]
+      },
+      {
+        "id": "explainer",
+        "score": 1,
+        "keywords": [
+          "讲解"
+        ]
+      }
+    ],
+    "modifiers": [
+      {
+        "id": "slides",
+        "note": "PPT 式：路线⑥ slides2video（deck.md 或 import 现成 .pptx），一页一个想法，要点按旁白逐条出现"
+      }
+    ]
+  },
+  "route": {
+    "primary": "P",
+    "primary_name": "路线⑥：slides2video PPT 式科普（本仓库）",
+    "secondary": [
+      {
+        "id": "C",
+        "name": "路线③：代码动效（Remotion / HyperFrames / Manim）"
+      },
+      {
+        "id": "A",
+        "name": "路线①：animator 手绘动画（本仓库）"
+      },
+      {
+        "id": "D",
+        "name": "路线④：外部开源项目（catalog/）"
+      }
+    ],
+    "videogen_mode": "web",
+    "why": [
+      "「课件 / 微课 / PPT 转视频 / 论文讲解」是「讲清楚一件事」：路线⑥ slides2video 把 deck.md 做成 PPT 式讲解片——要点按旁白逐词出现、公式逐项点亮、图表按讲解升起、同一元素跨页变形，免费、CPU、无需 API key",
+      "需要高度定制的动效时，改用路线③ 代码动效"
+    ]
+  },
+  "script_skeleton": [
+    "封面：这节课解决什么问题",
+    "知识点 1：定义 + 例子（要点逐条出现）",
+    "知识点 2：图示 / 公式 / 代码",
+    "易错点：对比页（左右分栏）",
+    "小结 + 一道思考题"
+  ],
+  "tips": [
+    "已有 PPT：node slides2video/cli.mjs import 课件.pptx（备注即旁白，兼容 pptx2video 的 ## [handle] / [[Spotlight]] 写法）",
+    "课件默认 16:9；同一页内用 build 逐条出现代替翻页",
+    "论文讲解：一页一个图 + 一句结论，公式用 \\term{} 逐项点亮"
+  ],
+  "prompts": {
+    "targets": [],
+    "art": null,
+    "items": [],
+    "note": "主路线不需要视频模型提示词；要做 AI 插段可加 --scenario 指定剧情类题材，或直接浏览 prompts/其他/动态图形与界面"
+  },
+  "templates": [],
+  "style_presets": [
+    {
+      "id": "minimal-line-explainer",
+      "name_zh": "极简黑白线条讲解",
+      "category": "line",
+      "best_for": [
+        "知识讲解",
+        "流程",
+        "观点拆解",
+        "轻幽默故事"
+      ],
+      "media": "pencil"
+    },
+    {
+      "id": "whiteboard-explainer",
+      "name_zh": "白板讲解动画",
+      "category": "line",
+      "best_for": [
+        "教程",
+        "商业解释",
+        "时间线",
+        "因果关系"
+      ],
+      "media": "pencil"
+    }
+  ],
+  "external": {
+    "tools": [
+      {
+        "id": "landppt",
+        "repo": "sligter/LandPPT",
+        "url": "https://github.com/sligter/LandPPT",
+        "kind": "app",
+        "intro_zh": "中文 LLM PPT 平台：主题/文档 → HTML 幻灯 → 讲稿 → 逐页配音 → 导出 1080p 讲解视频",
+        "stars": 3615,
+        "pushed": "2026-10-03",
+        "status": "active",
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "GitHub 显示 NOASSERTION；2026-10-09 读 LICENSE 原文为 Apache-2.0。可编辑 PPTX 导出需要商业 Apryse key。",
+        "cost": [
+          "api-key",
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "整套平台型用法；本仓库只链接。可编辑 PPTX 导出依赖商业 Apryse key",
+        "best_for": [
+          "有 Ollama / LLM key、想一条龙出讲解视频"
+        ],
+        "strengths": "中文原生、HTML 幻灯到视频全链路，Ollama 可离线",
+        "how_to_use": "路线④：自部署；LLM 用 Ollama 可零费用",
+        "score": 21.78
+      },
+      {
+        "id": "banana-slides",
+        "repo": "Anionex/banana-slides",
+        "url": "https://github.com/Anionex/banana-slides",
+        "kind": "app",
+        "intro_zh": "中文 AI PPT 应用：大纲/文档生成整页 AI 图片式幻灯，能导出可编辑 PPTX，并一键出带旁白字幕的讲解视频",
+        "stars": 15717,
+        "pushed": "2026-10-08",
+        "status": "active",
+        "license": "AGPL-3.0",
+        "license_class": "copyleft",
+        "license_note": "",
+        "cost": [
+          "api-key",
+          "web-manual"
+        ],
+        "zh": "native",
+        "plugs_into": "AGPL：可以直接用，代码不并入本仓库；「一页一张 AI 图 + 讲解视频」的流程启发了 slides2video prompts（每页出图提示词）",
+        "best_for": [
+          "零代码中文 PPT 科普",
+          "整页插画风课件"
+        ],
+        "strengths": "中文界面一站式：从大纲到讲解视频；能用 ChatGPT 账号 OAuth 出图",
+        "how_to_use": "路线④：按其 README 部署使用；想要本地可控版本走路线⑥ `node slides2video/cli.mjs prompts deck.md`",
+        "absorbed": {
+          "type": "idea",
+          "what": "「一页一张 AI 图 + 旁白」工作流 → 每页中文出图提示词（自写，不含其代码/模板）",
+          "where": "slides2video prompts"
+        },
+        "score": 20
+      },
+      {
+        "id": "pptx2video",
+        "repo": "ai-nuts/pptx2video",
+        "url": "https://github.com/ai-nuts/pptx2video",
+        "kind": "app",
+        "intro_zh": "把 PPTX 的原生动画顺序和演讲者备注里的旁白对齐成带字幕的 MP4；支持备注里标「聚光」",
+        "stars": 7,
+        "pushed": "2026-09-16",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "en",
+        "plugs_into": "slides2video import 兼容它的备注协议（`## [handle]` 分块、`[[Spotlight] 词]` 聚光），实现为本仓库自写的 JS",
+        "best_for": [
+          "已经有一份 PPT、想直接出讲解视频",
+          "PowerPoint/WPS 里调好动画的课件"
+        ],
+        "strengths": "唯一把 PowerPoint 动画窗格（单击 / 与上一项同时 / 上一项之后）和词级配音对齐出片的开源 CLI",
+        "how_to_use": "已有 PPTX：先试 `node slides2video/cli.mjs import 课件.pptx --out deck/`（本地、无 Edge 依赖）；要保留 PPT 原生动画效果就用 pptx2video 本身",
+        "absorbed": {
+          "type": "idea",
+          "what": "演讲者备注分块协议与聚光标记、动画窗格顺序 → build 的映射（只读其文档，未复制代码）",
+          "where": "slides2video/lib/pptx.mjs"
+        },
+        "score": 18.95
+      },
+      {
+        "id": "pptist",
+        "repo": "pipipi-pikachu/PPTist",
+        "url": "https://github.com/pipipi-pikachu/PPTist",
+        "kind": "app",
+        "intro_zh": "网页版 PowerPoint：元素进入/退出/强调动画、页面切换、图表、LaTeX 公式、PPTX 导入导出",
+        "stars": 9370,
+        "pushed": "2026-10-08",
+        "status": "active",
+        "license": "AGPL-3.0",
+        "license_class": "copyleft",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "AGPL：只借鉴动画分类思路，不复制代码",
+        "best_for": [
+          "在浏览器里改 PPT"
+        ],
+        "strengths": "中文网页 PPT 编辑器里功能最全",
+        "how_to_use": "路线④：在线编辑后导出 PPTX → `slides2video import`",
+        "absorbed": {
+          "type": "idea",
+          "what": "动画分三类（进入 / 强调 / 退出）的建模方式，自写",
+          "where": "slides2video build/mark 属性"
+        },
+        "score": 17.99
+      },
+      {
+        "id": "presenton",
+        "repo": "presenton/presenton",
+        "url": "https://github.com/presenton/presenton",
+        "kind": "app",
+        "intro_zh": "开源 AI PPT 生成器（模板、图表、图标），可用 ChatGPT 登录或本地 Ollama",
+        "stars": 11005,
+        "pushed": "2026-10-08",
+        "status": "active",
+        "license": "Apache-2.0",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu",
+          "api-key"
+        ],
+        "zh": "en",
+        "plugs_into": "生成的 PPTX 可接 slides2video import",
+        "best_for": [
+          "快速出一份 PPT 底稿"
+        ],
+        "strengths": "可自托管、支持 ChatGPT 登录不填 key",
+        "how_to_use": "路线④：Docker 自部署 → PPTX → `slides2video import`",
+        "score": 17.5
+      },
+      {
+        "id": "huashu-design",
+        "repo": "alchaincyf/huashu-design",
+        "url": "https://github.com/alchaincyf/huashu-design",
+        "kind": "skill",
+        "intro_zh": "花叔的 HTML 原生设计 skill：幻灯、原型、时间轴动画（Stage + Sprite），本地导 MP4/GIF/PPTX，无需 key",
+        "stars": 24699,
+        "pushed": "2026-09-22",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm",
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "同作者的 huashu-art-motion（MIT）已移植进 animator；slides2video 页间转场直接调用那 50 种转场",
+        "best_for": [
+          "设计感强的发布会式幻灯",
+          "产品原型演示片"
+        ],
+        "strengths": "设计质量高、中文原生、HTML→MP4 自带",
+        "how_to_use": "路线④：Agent 里装 skill；本仓库路线⑥ 用 `transition: huashu:<名字>` 使用同作者的转场",
+        "score": 17
+      },
+      {
+        "id": "codex-ppt-skill",
+        "repo": "ningzimu/codex-ppt-skill",
+        "url": "https://github.com/ningzimu/codex-ppt-skill",
+        "kind": "skill",
+        "intro_zh": "Codex skill：用 Codex 内置的 GPT 生图做整页图片式 PPT（ChatGPT 订阅内一般不另付 API）",
+        "stars": 6536,
+        "pushed": "2026-10-02",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "native",
+        "plugs_into": "整页图片 → 可直接当 slides2video 的 `image-full` 页或 stills2video 的图片",
+        "best_for": [
+          "有 ChatGPT 会员没有 API 额度、要做图片式 PPT"
+        ],
+        "strengths": "把订阅内生图用满，不需要 API key",
+        "how_to_use": "路线④ → ⑤/⑥：Codex 里出页图 → `node slides2video/cli.mjs make deck.md --images 页图目录`",
+        "score": 16.91
+      },
+      {
+        "id": "slidev",
+        "repo": "slidevjs/slidev",
+        "url": "https://github.com/slidevjs/slidev",
+        "kind": "engine",
+        "intro_zh": "用 Markdown 写网页幻灯：逐条出现、代码变形、公式、流程图都内置，可按点击步导出 PNG/PDF/PPTX",
+        "stars": 48984,
+        "pushed": "2026-10-02",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "free-cpu"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "deck.md 语法向它看齐（`---` 分页、frontmatter）；它自己不出视频，本仓库 slides2video 补上「按配音时间轴逐帧渲染成 MP4」这一步",
+        "best_for": [
+          "技术分享 / 编程课",
+          "带代码和公式的知识讲解",
+          "要现场演讲也要录成视频的课件"
+        ],
+        "strengths": "Markdown 写幻灯最成熟的方案，开发者生态大；代码块变形和点击步导出是它的招牌",
+        "how_to_use": "路线⑥ 的上游写法：`npm init slidev` 写好后 `slidev export --with-clicks` 出逐步 PNG；或把同样的 Markdown 交给 `node slides2video/cli.mjs make`",
+        "absorbed": {
+          "type": "idea",
+          "what": "deck.md 的 Markdown 子集（分页、frontmatter、逐条出现）参考其语法设计；代码为本仓库自写",
+          "where": "slides2video/lib/parse.mjs"
+        },
+        "score": 16.7
+      }
+    ],
+    "methods": [
+      {
+        "id": "ppt-master",
+        "repo": "hugohe3/ppt-master",
+        "url": "https://github.com/hugohe3/ppt-master",
+        "kind": "skill",
+        "intro_zh": "Agent skill：把文档或主题做成原生可编辑的 PPTX（母版、形状、图表、公式、切换和动画）",
+        "stars": 58391,
+        "pushed": "2026-10-08",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "bilingual",
+        "plugs_into": "在 Codex / Claude Code 里先用它生成 PPTX，再交给 slides2video import 或 pptx2video 出片",
+        "best_for": [
+          "要交付可编辑 PPT 的课件 / 汇报",
+          "先做 PPT 再出视频的科普"
+        ],
+        "strengths": "出来的是原生可编辑 PPTX 而不是图片页，后续人工改稿方便；宿主自带生图即可，不必另配 key",
+        "how_to_use": "路线④ → ⑥：Agent 里装这个 skill 生成 PPTX → `node slides2video/cli.mjs import x.pptx` → `make`",
+        "score": 21.2
+      },
+      {
+        "id": "openmaic",
+        "repo": "THU-MAIC/OpenMAIC",
+        "url": "https://github.com/THU-MAIC/OpenMAIC",
+        "kind": "app",
+        "intro_zh": "清华多智能体互动课堂：主题/文档 → 课件 + 白板公式 + 语音讲解，可一键导出 MP4",
+        "stars": 40203,
+        "pushed": "2026-10-09",
+        "status": "active",
+        "license": "MIT",
+        "license_class": "permissive",
+        "license_note": "",
+        "cost": [
+          "api-key",
+          "free-cpu"
+        ],
+        "zh": "native",
+        "plugs_into": "课堂化讲解的参考（多角色、白板推导）；本仓库只链接",
+        "best_for": [
+          "AI 课堂 / 微课",
+          "带白板推导的数理讲解"
+        ],
+        "strengths": "多智能体「老师 + 同学」互动课堂形态独特，白板能写公式",
+        "how_to_use": "路线④：按 README 部署（需一个 LLM key 或 Ollama）",
+        "score": 19
+      },
+      {
+        "id": "skills",
+        "repo": "anthropics/skills",
+        "url": "https://github.com/anthropics/skills",
+        "kind": "skill",
+        "intro_zh": "Anthropic 官方 skills 合集，含读写 PPTX 的 pptx skill",
+        "stars": 180030,
+        "pushed": "2026-10-08",
+        "status": "active",
+        "license": "NONE",
+        "license_class": "none",
+        "license_note": "仓库根目录无 LICENSE；pptx skill 自带 LICENSE.txt 为 Anthropic 专有条款。只给链接。",
+        "cost": [
+          "agent-llm"
+        ],
+        "zh": "en",
+        "plugs_into": "pptx skill 为专有条款：只链接",
+        "best_for": [
+          "Claude 里读写 PPTX"
+        ],
+        "strengths": "官方维护",
+        "how_to_use": "Claude 内置使用；不复制",
+        "score": 8.5,
+        "commercial_block": true,
+        "warning": "no-license"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "确认需求（intake）",
+      "cmds": [
+        "node router/cli.mjs intake"
+      ],
+      "note": "题材、媒介、方向、时长、画幅、预算、角色素材、配音逐项确认；不确定就用本方案的默认值"
+    },
+    {
+      "route": "P",
+      "title": "—— 路线⑥：slides2video PPT 式科普（本仓库）（主路线） ——",
+      "cmds": []
+    },
+    {
+      "title": "准备（只需一次）",
+      "cmds": [
+        "cd slides2video && npm install && cd ..",
+        "cd animator && npm install && npm run setup:tts && cd ..",
+        "node slides2video/cli.mjs doctor"
+      ],
+      "note": "KaTeX / Shiki / Mermaid 只装在 slides2video/node_modules（KaTeX 字体为 OFL，渲染时从 node_modules 加载，不进仓库）；setup:tts 下载本地 Kokoro 配音（可跳过：静音 + 按字数计时）",
+      "route": "P"
+    },
+    {
+      "title": "写 deck.md（或导入现成 PPT）",
+      "cmds": [
+        "node slides2video/cli.mjs init .work/高中物理课件转视频-把牛",
+        "$EDITOR .work/高中物理课件转视频-把牛/deck.md",
+        "# 已有 PPT：node slides2video/cli.mjs import 课件.pptx --out .work/高中物理课件转视频-把牛  （备注 = 旁白）"
+      ],
+      "note": "一页一个想法；`> say:` 一句一条字幕；要点行尾写 {at: 词} 让它在说到该词时出现，{mark: circle} 圈注，{id: x} + transition: morph 跨页变形；公式 $$…\\term{…}…$$ + terms 逐项点亮；画幅 aspect: \"16:9\"，主题 tianji（天机）",
+      "route": "P"
+    },
+    {
+      "title": "配图（可选，ChatGPT 出图）",
+      "cmds": [
+        "node slides2video/cli.mjs prompts .work/高中物理课件转视频-把牛/deck.md --out .work/高中物理课件转视频-把牛/出图提示词.md",
+        "# 按提示词出图，存为 .work/高中物理课件转视频-把牛/images/01.png、05.png…（页号命名）"
+      ],
+      "note": "提示词已要求画面不含文字（文字由视频叠加）；不出图也能做：纯排版页 + 图表 + 公式",
+      "route": "P"
+    },
+    {
+      "title": "检查时间轴与版式",
+      "cmds": [
+        "node slides2video/cli.mjs plan .work/高中物理课件转视频-把牛/deck.md --voice",
+        "node slides2video/cli.mjs lint .work/高中物理课件转视频-把牛/deck.md --qa"
+      ],
+      "note": "看每条要点 / 圈注的出现时刻；lint 检查语速、要点数、长时间静止、溢出、压字幕区",
+      "route": "P"
+    },
+    {
+      "title": "一条命令出片",
+      "cmds": [
+        "node slides2video/cli.mjs make .work/高中物理课件转视频-把牛/deck.md --out .work/高中物理课件转视频-把牛/final.mp4 --sheet --preview"
+      ],
+      "note": "同时输出 .srt、每页样张拼图和 720p 预览；--from/--to 只渲染一段做快速检查",
+      "route": "P"
+    },
+    {
+      "route": "C",
+      "title": "—— 路线③：代码动效（Remotion / HyperFrames / Manim）（备选/升级） ——",
+      "cmds": []
+    },
+    {
+      "title": "安装 Remotion skills 并新建工程",
+      "cmds": [
+        "npx skills add remotion-dev/skills",
+        "cd .work/高中物理课件转视频-把牛 && npx create-video@latest"
+      ],
+      "note": "Remotion License：个人/≤3 人公司免费；更大的营利公司需商业许可（否则换 HyperFrames / Motion Canvas / Revideo）",
+      "route": "C"
+    },
+    {
+      "title": "配音与字幕（复用本仓库本地 TTS）",
+      "cmds": [
+        "node animator/src/cli.mjs make .work/高中物理课件转视频-把牛/台词.txt --out .work/高中物理课件转视频-把牛/voice-preview.mp4 --scale 0.25"
+      ],
+      "note": "会同时生成 .work/高中物理课件转视频-把牛/voice-preview.voice.*（音频 + SRT + 字级时间戳），导入代码动效工程即可逐字对齐",
+      "route": "C"
+    },
+    {
+      "title": "预览与渲染",
+      "cmds": [
+        "npx remotion studio",
+        "npx remotion render"
+      ],
+      "note": "字幕可用 remotion-subtitles；数据视频可用 DataMagic 配方",
+      "route": "C"
+    },
+    {
+      "title": "发布前质检",
+      "cmds": [],
+      "note": "核对字幕错别字与音画对齐；按平台要求标注「AI 生成」；可用 self-media-compliance-review 做违规风险自查"
+    }
+  ],
+  "compliance": [
+    "本仓库提示词/模板各自保留原许可证（见每条的 license 与 source_repo），转载或二次分发请保留出处；link-only 条目只给链接，不在此推荐",
+    "不使用真实明星/他人的脸、名字和声音；声音克隆、数字人只用本人或已获授权的素材",
+    "背景音乐、字体、参考图需自有版权或可商用授权",
+    "按《人工智能生成合成内容标识办法》和平台规则标注 AI 生成内容",
+    "Anionex/banana-slides：AGPL-3.0",
+    "pipipi-pikachu/PPTist：AGPL-3.0",
+    "anthropics/skills：仓库根目录无 LICENSE；pptx skill 自带 LICENSE.txt 为 Anthropic 专有条款。只给链接。（无许可证：仅可参考，勿复制代码）",
+    "Remotion：个人与 ≤3 人公司免费，更大的营利公司需购买 Company License"
+  ],
+  "warnings": []
+}
