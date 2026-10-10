@@ -4,7 +4,7 @@ Copyright 2026 天机
 This product includes software and content developed by 天机 (the "Tianji" channel),
 licensed under the Apache License, Version 2.0 (see LICENSE). The Apache-2.0 licence
 covers ONLY this repository's own work: code (scripts/, animator/ excluding
-animator/vendor/, videogen/, router/, mcp/), the external-project catalog's own
+animator/vendor/, videogen/, router/, mcp/, tools/flat2svg/), the external-project catalog's own
 descriptions and tags (catalog/), AGENTS.md, CLAUDE.md and skills/ai-video-director/,
 documentation, the handbook, templates, examples and prompts written for this
 repository, the edits made to the animator style presets, the characters 「天机」 and
@@ -85,6 +85,15 @@ copyright lines are in LICENSES/. Details: NOTICE.md and ATTRIBUTION.md.
   html-ppt-skill (MIT), Paper2Video (MIT), video-podcast-maker (MIT) and banana-slides
   (AGPL-3.0, workflow idea only). Sample images in slides2video/examples/sky/ are
   drawn procedurally by make-images.mjs; no third-party images, fonts or music.
+
+* tools/flat2svg/ — original code (Apache-2.0, Copyright 2026 天机). Converts flat
+  PNG/JPG stills to SVG by invoking the external CLI visioncortex/vtracer
+  (https://github.com/visioncortex/vtracer, MIT). vtracer is NOT vendored and is
+  NOT distributed with this repository; install with `cargo install vtracer`.
+  Optional --check rendering uses system rsvg-convert (librsvg) or cairosvg
+  (Python, MIT) installed by the user. Example SVGs and flat source PNGs under
+  tools/flat2svg/examples/xiaowen-dad/ are original demo assets (Apache-2.0,
+  Copyright 2026 天机).
 
 Projects listed in catalog/ are referenced by link only; none of their code or text is
 included, and each keeps its own licence (see NOTICE.md).

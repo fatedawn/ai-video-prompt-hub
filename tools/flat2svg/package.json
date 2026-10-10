@@ -1,0 +1,14 @@
+{
+  "name": "hda-flat2svg",
+  "version": "0.1.0",
+  "private": true,
+  "description": "扁平定妆图 → VTracer → 核对 SVG（PNG/JPG → SVG，可选渲染预览）",
+  "type": "module",
+  "bin": { "flat2svg": "cli.mjs" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/",
+    "doctor": "node cli.mjs doctor"
+  },
+  "license": "Apache-2.0"
+}

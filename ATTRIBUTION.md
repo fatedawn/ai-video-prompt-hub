@@ -350,3 +350,15 @@ ComfyUI 本体（GPL-3.0）只作为外部程序通过 HTTP API 调用。非商�
   - `data/templates.jsonl`
   - `animator/presets/handdrawn-styles.json`：上游 MIT，见第 7 节
 - **命令示例里提到的外部工具**：Remotion、HyperFrames、Manim、remotion-dev/skills 等。router 只生成官方安装命令（如 `npx skills add …`、`npx create-video@latest`），不随仓库分发这些工具。
+
+## tools/flat2svg/（扁平定妆 → VTracer → 核对 SVG）
+
+全部原创包装代码（Apache-2.0，© 2026 天机），**没有把 vtracer 源码拷进仓库**。
+
+| 项目 | 许可 | 本仓库怎么用 |
+|---|---|---|
+| [visioncortex/vtracer](https://github.com/visioncortex/vtracer) | MIT | **外部工具**：文档写明 `cargo install vtracer`；CLI 通过 `spawn` 调用。不入库、不改名分发二进制 |
+| librsvg `rsvg-convert` / [cairosvg](https://github.com/Kozea/CairoSVG) | LGPL-2.1+（librsvg）/ MIT（cairosvg） | 可选 `--check` 渲染预览；由用户自行安装 |
+| 示例 `examples/xiaowen-dad/` | Apache-2.0，© 2026 天机 | 演示用扁平源图与已转 SVG；非第三方素材 |
+
+工作流说明（扁平定妆 → VTracer → 核对）见 [`tools/flat2svg/README.md`](tools/flat2svg/README.md)。

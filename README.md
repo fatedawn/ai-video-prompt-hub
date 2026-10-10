@@ -17,11 +17,12 @@
 | 做手绘动画讲解 / 口播短视频 | [`animator/`](animator/README.md)：默认主持人「天机」，台词一行一句即可出片 | `cd animator && node src/cli.mjs make 台词.txt` |
 | 免费、离线的中文配音（带字级时间戳） | `animator/tts/`：Kokoro v1.1-zh（Apache-2.0，CPU），edge-tts 可选 | `cd animator && npm run setup:tts && node src/cli.mjs tts 工程.json` |
 | **只有图片**（ChatGPT 出的图 / 照片），没有视频订阅，想做成带配音字幕的短片 | [`stills2video/`](stills2video/README.md)：CPU 深度视差 / 本地 ComfyUI / 云端 key / 网页手动，按显存自动选（见下文「只有图片怎么做视频」） | `node stills2video/cli.mjs make --images stills/ --script 台词.txt --out final.mp4` |
+| **扁平定妆图转 SVG**（设定图 / 角色矢量，先扁平再描路径） | [`tools/flat2svg/`](tools/flat2svg/README.md)：VTracer 外部工具 + 可选渲染核对（几乎空白则失败）；示例见 `tools/flat2svg/examples/xiaowen-dad/` | `node tools/flat2svg/cli.mjs convert flat.png -o char.svg --preset clean --check` |
 | **科学科普 / 课件 / 公式图表讲解 / PPT 转视频**（PPT 式科普） | [`slides2video/`](slides2video/README.md)：Markdown 写幻灯片（或导入 .pptx），本地配音，要点跟着旁白出现，公式逐项点亮，图表按讲解升起（见下文「PPT 式科普」） | `node slides2video/cli.mjs make deck.md --images images/ --out final.mp4` |
 | 不知道该用哪条路线，想让 AI 按题材出方案 | [`router/`](router/README.md) + [`skills/ai-video-director/`](skills/ai-video-director/SKILL.md)（见下文「AI 导演 / Agent 使用」） | `node router/cli.mjs recommend "仙侠漫剧：……" --budget free-cpu` |
 | 找开源工具：手绘/白板/火柴人、Remotion、代码动效、视频 Agent 技能、漫剧方法论、幻灯片科普、配音字幕 | [`catalog/`](catalog/README.md)（322 个，只推荐 279 个 2026 年仍活跃的，已核验许可证，仅链接）· [`docs/项目用途地图.md`](docs/项目用途地图.md)（每个项目最适合做什么、怎么用）· [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md) | `node router/cli.mjs search 火柴人 --cost free-cpu` |
 
-预览（随仓库提交的小文件）：[天机设定图](docs/assets/tianji_sheet.png) · [天机剪影](docs/assets/tianji_silhouette.png) · [天机电影感特效展示（带配音）](docs/assets/tianji-showcase.mp4) · [路线 C 演示成片（替身片段）](docs/assets/videogen-route-c-demo.mp4) · [静图成片示例（纯 CPU，带配音）](docs/assets/stills2video-sample.mp4)
+预览（随仓库提交的小文件）：[天机设定图](docs/assets/tianji_sheet.png) · [天机剪影](docs/assets/tianji_silhouette.png) · [天机电影感特效展示（带配音）](docs/assets/tianji-showcase.mp4) · [路线 C 演示成片（替身片段）](docs/assets/videogen-route-c-demo.mp4) · [静图成片示例（纯 CPU，带配音）](docs/assets/stills2video-sample.mp4) · [扁平定妆→SVG 示例](tools/flat2svg/examples/xiaowen-dad/)
 
 > 原作者 / 权利人如需删除，请用 [下架申请模板](.github/ISSUE_TEMPLATE/takedown.md) 提 issue（见下文「合规与下架」）。贡献新提示词请先读 [CONTRIBUTING.md](CONTRIBUTING.md)；**不要提交任何 API key**（见 [SECURITY.md](SECURITY.md)）。
 
@@ -126,7 +127,7 @@ node router/cli.mjs search 白板 --zh native                                   
 - 开源视频模型
 - 视频 MCP
 - 提示词库资源
-- 静图动效（2.5D 视差 · Ken Burns · 动态照片）
+- 静图动效（2.5D 视差 · Ken Burns · 动态照片）；扁平定妆→SVG 见本仓库 [`tools/flat2svg/`](tools/flat2svg/README.md)
 - 补帧放大（插帧 · 超分）
 - 幻灯片 · PPT 式科普
 - 公式 · 图表 · 科学可视化
