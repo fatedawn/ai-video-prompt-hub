@@ -169,3 +169,7 @@ YouMind、LearnPrompt、ZeroLu 三个上游都说明：所收提示词来自社�
 
 各类条数见 README「统计」。规则拿不准时一律从严降级为仅链接，不删除署名。审核流程与申诉见 `CONTRIBUTING.md`。
 
+## tools/flat2svg/（扁平定妆 → SVG）
+
+本目录代码为原创（Apache-2.0，© 2026 天机）。矢量转换调用外部 CLI [visioncortex/vtracer](https://github.com/visioncortex/vtracer)（MIT），**不随仓库分发**其源码或二进制，请本机执行 `cargo install vtracer`。可选 `--check` 使用系统 `rsvg-convert`（librsvg）或用户安装的 `cairosvg`（MIT）渲染预览 PNG，并用 Pillow 计算灰度方差，拒绝几乎空白的结果。示例角色包见 `tools/flat2svg/examples/xiaowen-dad/`（Apache-2.0，© 2026 天机）。
+

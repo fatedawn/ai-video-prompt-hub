@@ -4,6 +4,8 @@
 
 这里聚合了做 AI 漫剧 / 手绘动画 / 代码动效 / 短剧方法论时值得用的开源项目，供人查阅，也供 AI Agent 通过 `node router/cli.mjs recommend` 自动挑选。
 
+> **本仓库工具**：扁平定妆图 → SVG 见 [`tools/flat2svg/`](../tools/flat2svg/README.md)（外部 [vtracer](https://github.com/visioncortex/vtracer)，MIT；与「静图动效」类目互补：先得到干净矢量，再交给白板/手绘引擎）。
+
 - 机器可读：[`registry.json`](registry.json)（字段说明见文件内 `vocab`）
 - 方法论总结（本仓库原创整理）：[`methodology.md`](methodology.md)
 - 怎么让 Agent 用：仓库根目录 [`AGENTS.md`](../AGENTS.md)、[`skills/ai-video-director/SKILL.md`](../skills/ai-video-director/SKILL.md)

@@ -12,3 +12,7 @@
 
 - 预览视频的人声由本地开源 TTS [Kokoro-82M v1.1-zh](https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh)（hexgrad，Apache-2.0）经 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)（Apache-2.0）合成；路线 C 的 BGM 由 `run_demo.sh` 用 ffmpeg 纯合成，不含第三方音乐。仓库不提交单独的音频文件和模型权重。
 - 以上素材与「天机」形象一样按 Apache-2.0 发布（版权人：天机）。`tianji-showcase.mp4` 的背景和部分转场由 `animator/vendor/huashu-art-motion/` 中按 MIT 移植的代码实时渲染（© alchaincyf，已隐藏其角色，不含其任何图片 / 字体素材）。提醒：「天机」是频道的身份标识，请勿用于冒充频道或暗示其背书（Apache-2.0 第 6 条本就不授予商标使用权）。
+
+## 相关：扁平定妆 → SVG
+
+角色矢量示例与流水线不在本目录，见 [`tools/flat2svg/examples/xiaowen-dad/`](../../tools/flat2svg/examples/xiaowen-dad/) 与 [`tools/flat2svg/README.md`](../../tools/flat2svg/README.md)。
