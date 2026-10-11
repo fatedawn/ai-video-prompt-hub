@@ -7,6 +7,7 @@ import { recommend } from '../../router/lib/plan.mjs';
 import { ROUTES, SCENARIOS } from '../../router/lib/profiles.mjs';
 import { INTAKE } from '../../router/cli.mjs';
 import { parseStoryboard } from '../../videogen/lib/storyboard.mjs';
+import { lintTextGates } from '../../videogen/lib/gates.mjs';
 import { buildStoryboard, indexOf } from '../../stills2video/lib/storyboard.mjs';
 import { findRecipe, loadRecipes } from '../../stills2video/lib/recipes.mjs';
 import { resolveShot } from '../../stills2video/lib/plan.mjs';
@@ -319,12 +320,19 @@ export function lintStoryboard(text, target) {
   const warnings = [];
   if ((text || '').length > 4000) warnings.push('文本超过 4000 字，多数视频模型会截断');
   if (target === 'seedance' && (text || '').length > 2000) warnings.push('Seedance 类提示词过长时后半段容易被忽略');
+  // Deterministic gates absorbed from eternityspring/shuohao-skills (segment-cap / cut-length / prompt-no-names / …)
+  const names = (parsed.characters || []).map((c) => c.name).filter(Boolean);
+  const gated = lintTextGates(text || '', { target, names });
+  for (const w of gated.warnings) warnings.push(`[${w.id}] ${w.why}`);
+  for (const iss of gated.issues) missing.push({ element: iss.element, why: iss.why, gate: iss.id });
+  const gatePenalty = gated.issues.length * (100 / (checks.length + 3));
   return {
-    score: Math.round((present.length / checks.length) * 100),
+    score: Math.max(0, Math.round((present.length / checks.length) * 100 - gatePenalty)),
     present, missing,
     shots: shotList.slice(0, 40).map((s) => ({ id: s.id, duration: s.duration, text: String(s.shot_text || '').slice(0, 180) })),
     warnings,
-    note: '启发式检查，不能代替 scripts/audit.py 的版权/安全审核。',
+    gates: { issues: gated.issues, warnings: gated.warnings },
+    note: '启发式检查 + shuohao 质量门子集；不能代替 scripts/audit.py 的版权/安全审核。投产包：node tools/shuohao-export/cli.mjs export <shots.json> --protocol h3|seedance',
   };
 }
 

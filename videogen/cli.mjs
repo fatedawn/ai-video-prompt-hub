@@ -6,6 +6,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { loadEnv } from './lib/env.mjs';
 import { readStoryboardFile } from './lib/storyboard.mjs';
+import { validateShots } from './lib/gates.mjs';
 import { PROVIDERS, getProvider, missingEnv, generateShot } from './providers/index.mjs';
 import { exportPackages, importClips, SITES } from './lib/manual.mjs';
 import { assemble } from './lib/assemble.mjs';
@@ -22,6 +23,8 @@ const HELP = `用法: node videogen/cli.mjs <命令> [参数]
             路线 C：导出逐镜头生成包（中/英提示词、负面词、时长、画幅、参考图、检查清单、文件名约定）
   import    <shots.json> --from <下载目录> [--clips clips/]
             路线 C：按文件名（S01_shot03*.mp4）收回网页端下载的视频，校验时长/画幅，写回 shots.json
+  validate  <shots.json|storyboard.json> [--strict-drama] [--names 沈晚,林柔]
+            确定性质量门（段上限/切长/H3/Seedance/禁人名；吸收自 shuohao-skills）
   assemble  <shots.json> [--out final.mp4] [--clips clips/] [--bgm music.mp3] [--bgm-volume 0.22]
             [--fit auto|slow|hold|trim|loop] [--frame auto|crop|blur|pad] [--clip-audio 0.3] [--size 1080x1920] [--allow-missing] [--keep-work]
             [--transition cut|fade|dissolve|circleopen|…（ffmpeg xfade 名）]  镜头间转场（默认硬切；也可在 shots.json 每镜写 transition）
@@ -120,6 +123,15 @@ async function main() {
     if (unknown.length) console.log(`  （忽略了 ${unknown.length} 个不符合命名的文件：${unknown.slice(0, 5).join(', ')}${unknown.length > 5 ? '…' : ''}）`);
     const miss = report.filter((r) => r.status === 'missing' || r.status === 'invalid').length;
     console.log(miss ? `还缺 ${miss} 个镜头；补齐后再 import，或 assemble --allow-missing 先看效果` : '全部镜头就绪 → 下一步：assemble');
+    return;
+  }
+
+  if (cmd === 'validate') {
+    const names = a.names ? String(a.names).split(/[,，]/).map((s) => s.trim()).filter(Boolean) : undefined;
+    const { ok, gates, failed, board } = validateShots(sb, { names, strictDrama: !!a['strict-drama'] });
+    for (const g of gates) console.log(`${g.ok ? '✓' : '✗'} [${g.id}] ${g.label}${g.detail ? ' — ' + g.detail : ''}`);
+    console.log(ok ? `全部通过（${board._source}）` : `${failed.length} 项未过`);
+    if (!ok) process.exitCode = 1;
     return;
   }
   if (cmd === 'assemble') {

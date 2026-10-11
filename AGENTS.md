@@ -12,6 +12,7 @@
 | PPT 式科普 slides2video | `slides2video/` | deck.md（类 Slidev 的 Markdown 幻灯片）或 .pptx → 本地 Kokoro 配音 → 要点跟着旁白关键词出现、圈注 / 高亮 / 聚光 / 同 id 跨页变形、KaTeX 公式逐项点亮、图表按讲解升起、Mermaid、Shiki 代码 → 卡拉 OK 字幕 → MP4（免费 CPU、无 API key） |
 | 扁平定妆→SVG flat2svg | `tools/flat2svg/` | 扁平 PNG/JPG → 外部 vtracer → SVG；预设 clean / photo / face-safe；可选 --check 渲染预览并拒绝几乎空白 |
 | 画风预设（297 种手绘风） | `animator/presets/handdrawn-styles.json` | 生图提示词配方 + 推荐画材 |
+| 烁皓短剧 skill 吸收（H3/Seedance 导出、角色参考图、改编大纲、质量门） | `tools/shuohao-export/`、`skills/character-refs/`、`skills/novel-outline/`、`videogen validate` | 小说→短剧前期 + 投产包；署名 烁皓 / Apache-2.0 |
 | 外部项目目录（322 个，279 个 2026 年仍活跃，已核验许可证） | `catalog/registry.json`、`catalog/*.md`、`docs/项目用途地图.md` | 手绘/火柴人、Remotion、代码动效、视频 Agent 技能、漫剧方法论、端到端平台、静图动效、补帧放大、幻灯片 / PPT 式科普、公式图表科学可视化、配音与字幕对齐；每个活跃条目有「最适合 best_for / 强项 strengths / 我们吸收了什么 absorbed / 怎么用 how_to_use」 |
 | 方法论速查（本仓库整理） | `catalog/methodology.md` | 剧本结构、改编、一致性、分镜、打戏、手绘讲解、质检、科普 / PPT 式讲解 |
 | AI 导演 Skill | `skills/ai-video-director/SKILL.md`（长表在 `references/`） | 需求确认 → 选路线（①–⑥）→ 选素材 / 写法 → 执行 → 质检合规 |

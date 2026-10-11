@@ -85,6 +85,15 @@ node stills2video/cli.mjs render s2v.json --backend comfyui --dry-run      # GPU
 node router/cli.mjs recommend "<题材>" --medium 漫剧 --budget free-cpu [--aspect 9:16] [--duration 60] [--assets character|images] [--vram 12] [--style 水墨] [--commercial] [--format json]
 ```
 
+## 2.5 小说改编 / 短剧前期（已吸收 shuohao-skills）
+
+- **改编大纲五件套**：`skills/novel-outline/`（`node skills/novel-outline/scripts/novel-outline.mjs`，质量门脚本检查）
+- **真出角色参考图**：`skills/character-refs/`（BYO：Qwen/ComfyUI、Codex、OpenAI Images、custom；与漫剧 4 View **模板**互补——那边只给提示词）
+- **分镜仍走本仓库 Markdown → `videogen plan`**；需要 H3 / Seedance 投产包时：
+  `node tools/shuohao-export/cli.mjs export work/shots.json --protocol h3|seedance`
+- **质量门**：`node videogen/cli.mjs validate work/shots.json`（或 MCP `lint_storyboard_prompt` 的 gates 字段）
+- 纪律摘要：`catalog/methodology.md` §11（角色三档、空景无人、冷开场前 3 拍）
+
 ## 3. 选提示词、模板、画风
 
 - **提示词**：按 `medium → direction → genre` 选目录，漫剧再按 `art_style`（2D日漫、3D国漫、水墨、粘土定格、Q版、像素、美漫、绘画风、3D卡通）筛。优先中文、优先 Seedance 2.0/2.5，**跳过 `access: link-only`**，避开知名 IP 角色。router 会按题材关键词重合度排序给出 id 与路径；也可以直接查 `data/index.csv`。

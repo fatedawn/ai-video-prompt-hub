@@ -173,3 +173,15 @@ YouMind、LearnPrompt、ZeroLu 三个上游都说明：所收提示词来自社�
 
 本目录代码为原创（Apache-2.0，© 2026 天机）。矢量转换调用外部 CLI [visioncortex/vtracer](https://github.com/visioncortex/vtracer)（MIT），**不随仓库分发**其源码或二进制，请本机执行 `cargo install vtracer`。可选 `--check` 使用系统 `rsvg-convert`（librsvg）或用户安装的 `cairosvg`（MIT）渲染预览 PNG，并用 Pillow 计算灰度方差，拒绝几乎空白的结果。示例角色包见 `tools/flat2svg/examples/xiaowen-dad/`（Apache-2.0，© 2026 天机）。
 
+### eternityspring / shuohao-skills
+
+* eternityspring/shuohao-skills — Apache-2.0, Copyright 2026 烁皓
+  https://github.com/eternityspring/shuohao-skills
+  Absorbed into this repository (see ATTRIBUTION.md):
+  - tools/shuohao-export/ (H3/Seedance export + refs + gate subset; adapted)
+  - videogen/lib/gates.mjs and `videogen validate` / MCP lint_storyboard_prompt gates
+  - skills/character-refs/ (full skill, BYO image backends)
+  - skills/novel-outline/ (full skill)
+  - methodology tips in catalog/methodology.md §11
+  Licence text: LICENSES/eternityspring_shuohao-skills-Apache-2.0.txt
+  Hub-written adapters and bridges remain Apache-2.0, Copyright 2026 天机.

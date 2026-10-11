@@ -137,6 +137,18 @@
 
 未收录（许可证未能按「作者自写 + 允许全文」重新确认，或上游明确排除第三方正文）：BeatAPI 的第三方提示词、Semonxue（无 LICENSE）、lanshu 引文、nyuuzyou/klingai、CC BY-NC 数据集、ishandutta2007/veo_prompts（自述为 curated / 已并入其他目录）、hr98w 与 SoraEase（CC0 但看不出是仓库作者自写，且夹杂联盟营销）、VoidLight00 的生成模板（未在本次确认作者性）。这些若出现在 catalog，也只是链接。
 
+
+## eternityspring / shuohao-skills（烁皓）
+
+| 字段 | 值 |
+|---|---|
+| 标题 | shuohao-skills |
+| 作者 | 烁皓（eternityspring） |
+| 链接 | https://github.com/eternityspring/shuohao-skills |
+| 许可 | Apache-2.0，全文见 `LICENSES/eternityspring_shuohao-skills-Apache-2.0.txt` |
+| 取用 | **代码/文档吸收（非仅链接）**：`tools/shuohao-export/`（H3/Seedance 导出、`references/h3-prompt.md` · `seedance-prompt.md` · `shot-writing.md`、质量门子集）；`videogen/lib/gates.mjs` + `videogen validate` + MCP `lint_storyboard_prompt` 增强；`skills/character-refs/` 全量；`skills/novel-outline/` 全量；`catalog/methodology.md` §11（角色三档、空景无人、冷开场前 3 拍）。未吸收：install.sh Claude softlink、ReelBench 宣传、强制 ComfyUI、整包 novel-characters（与漫剧 4-view 模板重叠处只在方法论合并）。 |
+| 本仓库适配 | hub `shots.json` ↔ 段/切桥接、videogen/MCP 挂载为原创包装（Apache-2.0，© 2026 天机） |
+
 ## 暂缓收录：dexhunter / seedance2-skill
 
 - 仓库：https://github.com/dexhunter/seedance2-skill
@@ -309,7 +321,7 @@ ComfyUI 本体（GPL-3.0）只作为外部程序通过 HTTP API 调用。非商�
 - **活跃度与用途**：2026-10-09 重新读取全部条目的 `pushed_at` / archived；只推荐 `freshness.cutoff`（2026-01-01）之后仍有推送的项目，其余标 `status: stale` 并写明原因。`best_for`、`strengths`、`absorbed`、`how_to_use` 和 `docs/项目用途地图.md` 都是本仓库自写（Apache-2.0），由 `catalog/tools/usefor.py` 维护。
 - **简介与标签**：每个条目的中文简介、路线、画风、输入输出、成本、中文支持、成熟度和「怎么接入本仓库」都由本仓库自写，按 Apache-2.0 提供。
 - **方法论**：`catalog/methodology.md` 用本仓库自己的话归纳公开方法，每条附出处链接。主要出处有：
-  - eternityspring/shuohao-skills（Apache-2.0）
+  - eternityspring/shuohao-skills（Apache-2.0）— **已吸收**，见上文专节与 `absorbed.type=port`
   - zenstory-ai/drama-skills（MIT）
   - 0xsline/short-drama（MIT）
   - lixiaoxiao9888-create/short-drama-factory（MIT）
