@@ -104,7 +104,7 @@ export function factory() {
     z.object({ query: z.string().optional(), featured: z.boolean().optional(), id: z.string().optional(), limit: z.number().int().max(50).optional() }),
     (a) => ({ presets: hub.stylePresets(a) }));
 
-  tool('lint_storyboard_prompt', '对分镜草稿做启发式要素检查（镜头、时长、运镜、光线、声音、参考、负面）。不是版权审核。',
+  tool('lint_storyboard_prompt', '对分镜草稿做启发式要素检查（镜头、时长、运镜、光线、声音、参考、负面）+ shuohao 质量门子集（段上限/切长/禁人名/H3·Seedance 协议混用）。不是版权审核。',
     z.object({ text: z.string(), target_model: z.string().optional(), duration_s: z.number().optional() }),
     (a) => hub.lintStoryboard(a.text, a.target_model));
 

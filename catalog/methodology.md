@@ -85,3 +85,31 @@
   6. **证据**：数据页写来源；AI 出的示意图标「示意」。
   7. **收尾**：回到开头的问题，一页总结（一句话或 3 个关键词）。
 - 思路来源（只借鉴，代码自写）：Markdown 幻灯片与逐条出现（[slidevjs/slidev](https://github.com/slidevjs/slidev) MIT）、同 id 跨页变形（[hakimel/reveal.js](https://github.com/hakimel/reveal.js) Auto-Animate，MIT）、PPT 备注即旁白与聚光标记（[ai-nuts/pptx2video](https://github.com/ai-nuts/pptx2video) MIT）、版式自检（[vincentsch/explainroo](https://github.com/vincentsch/explainroo) MIT）、「每页一张 AI 图」的工作流（[Anionex/banana-slides](https://github.com/Anionex/banana-slides) AGPL，仅思路）。
+
+
+## 11. 从 shuohao-skills 吸收的制作纪律（Apache-2.0 · 烁皓）
+
+本仓库已吸收代码/技能，不只是链接。出处：[eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills)。
+
+### 角色三档（大纲人物表）
+
+| 档 | 含义 | 建议上限 |
+|---|---|---|
+| `lead` | 主角组（男女主 + 主反派） | 1–5，必写人物弧 |
+| `support` | 有名字的重要配角 | ≤ 10，必写人物弧 |
+| `functional` | 功能性角色（医生、店员） | ≤ 10；**占脸不占名**，名称用称呼标签 |
+
+无名背景人不进表。短篇（20–30 集）建议收紧阈值。落地：`skills/novel-outline/`。
+
+### 场景 / 道具空景规则
+
+- 场景设定图：**空景无人**（提示词写明 no people；生成图出现人影就重出）。
+- 道具设定图：**白底、无人、无手**（拿着道具的手是高频污染）；尺度短语（handheld / tabletop / furniture scale）必须写进英文提示词。
+- 本仓库对应模板仍可用 `templates/漫剧老李-七段式与资产图模板/`（提示词）；真出角色多视图用 `skills/character-refs/`（BYO 出图后端）。
+
+### 剧本冷开场 · 前 3 拍
+
+- 每集第 1 拍就要给钩子的**具象**，且带主体运动（跑、追、挣脱），不要用静物特写当开场。
+- `hookBeat` 认领位置必须落在全集前 3 拍内（可调窗口）。钩子说明给人读，认领给机器查。
+- 本仓库摘要仅此纪律；完整剧本 skill 未整包吸收（避免与漫剧模板重复）。分镜导出与质量门见 `tools/shuohao-export/`、`videogen validate`。
+

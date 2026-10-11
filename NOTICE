@@ -38,6 +38,17 @@ copyright lines are in LICENSES/. Details: NOTICE.md and ATTRIBUTION.md.
 * renoise-ai/awesome-seedance-prompts — CC BY 4.0 (LICENSE re-read 2026-10-09)
 * YouMind-OpenLab/awesome-grok-imagine-prompts — CC BY 4.0, Copyright (c) 2026 YouMind
 * hanshs474/seedance-prompts-mcp — MIT, Copyright (c) 2026 Emaki
+* eternityspring/shuohao-skills — Apache-2.0, Copyright 2026 烁皓
+  https://github.com/eternityspring/shuohao-skills
+  Absorbed into this repository (see ATTRIBUTION.md):
+  - tools/shuohao-export/ (H3/Seedance export + refs + gate subset; adapted)
+  - videogen/lib/gates.mjs and `videogen validate` / MCP lint_storyboard_prompt gates
+  - skills/character-refs/ (full skill, BYO image backends)
+  - skills/novel-outline/ (full skill)
+  - methodology tips in catalog/methodology.md §11
+  Licence text: LICENSES/eternityspring_shuohao-skills-Apache-2.0.txt
+  Hub-written adapters and bridges remain Apache-2.0, Copyright 2026 天机.
+
 * f/awesome-chatgpt-prompts — prompt text CC0 1.0; code MIT
 * liu-kaining/Awesome-Veo3-Prompts — MIT, Copyright (c) 2025 liu-kaining
 * animator/presets/handdrawn-styles.json — upstream entries MIT:

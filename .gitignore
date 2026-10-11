@@ -49,3 +49,11 @@ ref-i2v/
 slides2video/**/*.mp4
 slides2video/**/*.srt
 slides2video/**/out/
+
+# skill local config (character-refs etc.)
+**/config.local.json
+
+# shuohao-export demo outputs
+tools/shuohao-export/examples/*/out/
+demos/shuohao-absorb/out/
+

@@ -29,6 +29,7 @@ COST_ZH = {"free-cpu": "免费 CPU 可跑", "gpu": "需要自己的显卡", "api
 
 # what this repo took from a project (keep in step with NOTICE.md / ATTRIBUTION.md)
 ABSORBED = {
+    "eternityspring/shuohao-skills": ("port", "H3/Seedance 投产导出 + 质量门子集；character-refs / novel-outline 全量 skill；方法论：角色三档、空景无人、冷开场前 3 拍", "tools/shuohao-export/ · skills/character-refs/ · skills/novel-outline/ · videogen/lib/gates.mjs · catalog/methodology.md §11"),
     "alchaincyf/huashu-art-motion": ("port", "50 种转场、35 个风格配方、后期层与风格化渲染器（MIT 原样移植，见 animator/vendor/huashu-art-motion/VENDOR.md）；slides2video 页间转场也用它", "animator/vendor/huashu-art-motion"),
     "gnipbao/story-to-handdrawn-video": ("port", "297 条手绘画风配方文字（MIT）", "animator/presets/handdrawn-styles.json"),
     "Comfy-Org/workflow_templates": ("port", "Wan2.2 14B 图生视频 / 首尾帧工作流，改写为 API 格式（MIT）", "stills2video/workflows/"),
@@ -100,6 +101,16 @@ OVERRIDES = {
     "minimax-mcp": (["Agent 调海螺视频 / 配音"], "MiniMax 官方 MCP，语音克隆和视频一站式"),
 }
 
+# Force-refresh how_to_use for entries whose absorbed story changed
+HOW_TO = {
+    "shuohao-skills": (
+        "本仓库已吸收：skills/novel-outline（改编大纲）、skills/character-refs（真出角色参考图，BYO 后端）、"
+        "tools/shuohao-export（从 videogen shots.json 或 storyboard.json 导出 H3/Seedance 投产包）、"
+        "videogen validate / MCP lint 质量门子集；方法论见 catalog/methodology.md §11。"
+        "原仓库其余 skill 仍可作外部参考；分镜 Markdown 主路径不变。"
+    ),
+}
+
 
 def derive(e):
     tags = [t for t in e.get("use_for", []) if t != "any"] or e.get("use_for", [])
@@ -141,7 +152,10 @@ def main():
             e.setdefault("best_for", b)
             e.setdefault("strengths", s)
         e.setdefault("absorbed", {"type": "none", "what": "没有拿代码或思路；作为外部项目推荐", "where": ""})
-        e.setdefault("how_to_use", how(e))
+        if e["id"] in HOW_TO:
+            e["how_to_use"] = HOW_TO[e["id"]]
+        else:
+            e.setdefault("how_to_use", how(e))
         e["use_map"] = "hand" if hand else "derived"
         n_hand += hand
         n_der += not hand

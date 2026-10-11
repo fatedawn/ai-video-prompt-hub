@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "title": "宴会厅反转",
+  "aspect": "9:16",
+  "fps": 30,
+  "unit": "shot",
+  "characters": [
+    { "name": "沈晚", "refs": [] },
+    { "name": "林柔", "refs": [] }
+  ],
+  "voice": { "engine": "local", "narrator": "kokoro:zf_001" },
+  "bgm": null,
+  "shots": [
+    {
+      "id": "S01_shot01",
+      "segment": 1,
+      "index": 1,
+      "duration": 4,
+      "aspect": "9:16",
+      "shot_text": "中景固定。白裙女子打翻桌边花瓶，坐在地上抬手指向对面，眼眶泛红，带着哭腔说：{姐姐，你怎么能推我}。宾客转头看向右侧。",
+      "prompt_zh": "",
+      "prompt_en": "",
+      "negative": "",
+      "refs": [],
+      "first_frame": null,
+      "lines": [{ "speaker": "林柔", "text": "姐姐，你怎么能推我", "tone": "哭腔" }],
+      "sfx": [],
+      "fit": "auto",
+      "clip": null
+    },
+    {
+      "id": "S01_shot02",
+      "segment": 1,
+      "index": 2,
+      "duration": 4,
+      "aspect": "9:16",
+      "shot_text": "切到黑礼服女子近景，微仰拍。她嘴角一侧上提，冷笑，把一份文件甩到对面面前，冷声说：{戏还没演完吗}。",
+      "prompt_zh": "",
+      "prompt_en": "",
+      "negative": "",
+      "refs": [],
+      "first_frame": null,
+      "lines": [{ "speaker": "沈晚", "text": "戏还没演完吗", "tone": "冷声" }],
+      "sfx": [],
+      "fit": "auto",
+      "clip": null
+    },
+    {
+      "id": "S01_shot03",
+      "segment": 1,
+      "index": 3,
+      "duration": 3,
+      "aspect": "9:16",
+      "shot_text": "切到文件特写。纸上只有两个大字“鉴定”和一枚红色印章，不要密集小字。",
+      "prompt_zh": "",
+      "prompt_en": "",
+      "negative": "",
+      "refs": [],
+      "first_frame": null,
+      "lines": [],
+      "sfx": [],
+      "fit": "auto",
+      "clip": null
+    },
+    {
+      "id": "S01_shot04",
+      "segment": 1,
+      "index": 4,
+      "duration": 3,
+      "aspect": "9:16",
+      "shot_text": "切到白裙女子近景。哭声停住，嘴唇微张，愣住一拍，身体后缩。",
+      "prompt_zh": "",
+      "prompt_en": "",
+      "negative": "",
+      "refs": [],
+      "first_frame": null,
+      "lines": [],
+      "sfx": [],
+      "fit": "auto",
+      "clip": null
+    }
+  ]
+}

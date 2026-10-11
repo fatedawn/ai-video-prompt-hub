@@ -40,6 +40,16 @@ node videogen/cli.mjs assemble work/shots.json --bgm 我的音乐.mp3 --out work
 
 演示（不需要任何视频模型账号）：`bash videogen/examples/route-c/run_demo.sh`。它用 animator 渲染的**替身片段（画面上标着「替身片段 STAND-IN」）**模拟网页端下载，故意混入了文件名不规范（`S01_shot02 (1).mp4`、`s01-shot03_v2.mp4`）、太短、太长和方形画幅的片段，以及一个无关的 `notes.txt`，用来展示 import 的匹配/校验和 assemble 的时长、画幅处理。产物在 `examples/route-c/out/final.mp4`（16 秒，1080×1920，配音 + 卡拉OK字幕 + 自合成 BGM）。
 
+## 质量门与 H3 / Seedance 投产包（吸收自 shuohao-skills）
+
+```bash
+node videogen/cli.mjs validate work/shots.json --names 沈晚,林柔
+node tools/shuohao-export/cli.mjs export work/shots.json --protocol h3 --out work/h3-pack
+node tools/shuohao-export/cli.mjs export work/shots.json --protocol seedance --out work/sd-pack
+```
+
+详见 `tools/shuohao-export/README.md`。不替换本页的 Markdown → plan 主路径。
+
 ## 第 0 步：plan（分镜 → 镜头清单）
 
 `plan` 直接读本仓库 `prompts/`、`templates/`、`docs/skill/SKILL.md` 里的写法（会自动取 ```text 代码块）：

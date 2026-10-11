@@ -19,14 +19,51 @@
 | **只有图片**（ChatGPT 出的图 / 照片），没有视频订阅，想做成带配音字幕的短片 | [`stills2video/`](stills2video/README.md)：CPU 深度视差 / 本地 ComfyUI / 云端 key / 网页手动，按显存自动选（见下文「只有图片怎么做视频」） | `node stills2video/cli.mjs make --images stills/ --script 台词.txt --out final.mp4` |
 | **扁平定妆图转 SVG**（设定图 / 角色矢量，先扁平再描路径） | [`tools/flat2svg/`](tools/flat2svg/README.md)：VTracer 外部工具 + 可选渲染核对（几乎空白则失败）；示例见 `tools/flat2svg/examples/xiaowen-dad/` | `node tools/flat2svg/cli.mjs convert flat.png -o char.svg --preset clean --check` |
 | **科学科普 / 课件 / 公式图表讲解 / PPT 转视频**（PPT 式科普） | [`slides2video/`](slides2video/README.md)：Markdown 写幻灯片（或导入 .pptx），本地配音，要点跟着旁白出现，公式逐项点亮，图表按讲解升起（见下文「PPT 式科普」） | `node slides2video/cli.mjs make deck.md --images images/ --out final.mp4` |
+| **小说改编成短剧大纲**（五件套 + 14 道代码质量门） | [`skills/novel-outline/`](skills/novel-outline/README.md)；示例 [`渡口`](skills/novel-outline/examples/) | `node skills/novel-outline/scripts/novel-outline.mjs`（见 SKILL.md） |
+| **真出角色参考图**（多视图，BYO 出图后端） | [`skills/character-refs/`](skills/character-refs/README.md)；示例 [`阿禾`](skills/character-refs/examples/) | `node skills/character-refs/scripts/character-refs.mjs config --show` |
+| **分镜质量门**（段上限 / 切长 / H3 结构 / Seedance / 禁人名） | `videogen validate` + [`tools/shuohao-export/`](tools/shuohao-export/README.md) | `node videogen/cli.mjs validate work/shots.json --names 沈晚,林柔` |
+| **导出 MiniMax H3 / 即梦 Seedance 投产包** | [`tools/shuohao-export/`](tools/shuohao-export/README.md)；演示 [`banquet-twist`](tools/shuohao-export/examples/banquet-twist/) | `node tools/shuohao-export/cli.mjs export work/shots.json --protocol h3 --out work/h3-pack` |
 | 不知道该用哪条路线，想让 AI 按题材出方案 | [`router/`](router/README.md) + [`skills/ai-video-director/`](skills/ai-video-director/SKILL.md)（见下文「AI 导演 / Agent 使用」） | `node router/cli.mjs recommend "仙侠漫剧：……" --budget free-cpu` |
 | 找开源工具：手绘/白板/火柴人、Remotion、代码动效、视频 Agent 技能、漫剧方法论、幻灯片科普、配音字幕 | [`catalog/`](catalog/README.md)（322 个，只推荐 279 个 2026 年仍活跃的，已核验许可证，仅链接）· [`docs/项目用途地图.md`](docs/项目用途地图.md)（每个项目最适合做什么、怎么用）· [`tools/漫剧漫画代码项目.md`](tools/漫剧漫画代码项目.md) | `node router/cli.mjs search 火柴人 --cost free-cpu` |
 
-预览（随仓库提交的小文件）：[天机设定图](docs/assets/tianji_sheet.png) · [天机剪影](docs/assets/tianji_silhouette.png) · [天机电影感特效展示（带配音）](docs/assets/tianji-showcase.mp4) · [路线 C 演示成片（替身片段）](docs/assets/videogen-route-c-demo.mp4) · [静图成片示例（纯 CPU，带配音）](docs/assets/stills2video-sample.mp4) · [扁平定妆→SVG 示例](tools/flat2svg/examples/xiaowen-dad/)
+预览（随仓库提交的小文件）：[天机设定图](docs/assets/tianji_sheet.png) · [天机剪影](docs/assets/tianji_silhouette.png) · [天机电影感特效展示（带配音）](docs/assets/tianji-showcase.mp4) · [路线 C 演示成片（替身片段）](docs/assets/videogen-route-c-demo.mp4) · [静图成片示例（纯 CPU，带配音）](docs/assets/stills2video-sample.mp4) · [扁平定妆→SVG 示例](tools/flat2svg/examples/xiaowen-dad/) · [烁皓投产桥演示](tools/shuohao-export/examples/banquet-twist/) · [吸收能力索引](demos/shuohao-absorb/README.md)
 
 > 原作者 / 权利人如需删除，请用 [下架申请模板](.github/ISSUE_TEMPLATE/takedown.md) 提 issue（见下文「合规与下架」）。贡献新提示词请先读 [CONTRIBUTING.md](CONTRIBUTING.md)；**不要提交任何 API key**（见 [SECURITY.md](SECURITY.md)）。
 
 ---
+
+
+---
+
+## 烁皓短剧能力吸收（shuohao-skills）
+
+从 [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills)（Apache-2.0，Copyright 2026 **烁皓**）吸收的生产向能力。**不替换**本仓库 Markdown → `videogen plan` 主路径；在 plan 之后做质量门与 H3 / Seedance 投产桥。完整演示索引：[demos/shuohao-absorb/README.md](demos/shuohao-absorb/README.md)。中文总览也可看 [README.zh.md](README.zh.md)。
+
+### 能力目录说明表
+
+| 能力 | 路径 | 功能分支 / 来源 | 怎么用 |
+|---|---|---|---|
+| H3 投产包导出 | `tools/shuohao-export/`（`--protocol h3`） | 分支 `feat/absorb-shuohao-skills`；上游 novel-storyboard 导出 | `node tools/shuohao-export/cli.mjs export shots.json --protocol h3 --out work/h3-pack` |
+| Seedance 投产包导出 | `tools/shuohao-export/`（`--protocol seedance`） | 同上 | `… --protocol seedance --out work/sd-pack` |
+| 确定性质量门 | `tools/shuohao-export/lib/gates.mjs` · `videogen validate` · MCP `lint_storyboard_prompt` | 同上（segment-cap / cut-length / h3-structure / seedance-shot / prompt-no-names） | `node videogen/cli.mjs validate shots.json --names 沈晚,林柔` |
+| 角色参考图 skill | `skills/character-refs/` | 同上（BYO：Qwen/ComfyUI、Codex、OpenAI Images、custom） | `node skills/character-refs/scripts/character-refs.mjs`；示例 `examples/阿禾-*` |
+| 小说改编大纲 skill | `skills/novel-outline/` | 同上（五件套 + 14 道代码门） | `node skills/novel-outline/scripts/novel-outline.mjs`；示例 `examples/渡口-outline.json` |
+| 方法论 tips | `catalog/methodology.md` §11 | 角色三档 / 空景无人 / 冷开场前 3 拍 | 打开 Markdown；导演 Skill §2.5 会引用 |
+
+### 端到端：plan → validate → export
+
+```bash
+# 一键演示（宴会厅反转）
+bash tools/shuohao-export/examples/banquet-twist/run_demo.sh /tmp/shuohao-demo
+
+# 逐步
+node videogen/cli.mjs plan tools/shuohao-export/examples/banquet-twist/分镜.md --out work/shots.json
+node videogen/cli.mjs validate work/shots.json --names 沈晚,林柔
+node tools/shuohao-export/cli.mjs export work/shots.json --protocol h3 --out work/h3-pack
+node tools/shuohao-export/cli.mjs export work/shots.json --protocol seedance --out work/sd-pack
+```
+
+参考写法：`tools/shuohao-export/references/{h3-prompt,seedance-prompt,shot-writing}.md`。自测：`node --test tools/shuohao-export/test/export.test.mjs`。
 
 ## PPT 式科普（路线⑥ slides2video）
 
@@ -238,9 +275,16 @@ ai-video-prompt-hub/
 ├── templates/             # 可复用模板（LearnPrompt 分类模板 / 漫剧老李七段式 / Toonflow 分段模板）
 ├── data/                  # prompts/part-NN.{jsonl,csv} · index.csv · templates.jsonl · extraction_report.json · takedown.txt · audit_overrides.tsv
 ├── docs/                  # 分镜提示词手册.md（用户自有手册）· skill/SKILL.md · assets/（天机设定图、演示视频等小预览）
-├── tools/                 # 漫剧漫画代码项目.md（仅链接）
+├── tools/
+│   ├── flat2svg/          # 扁平定妆图 → VTracer → SVG；examples/xiaowen-dad/
+│   ├── shuohao-export/    # H3 / Seedance 投产包 + 质量门（吸收自 shuohao-skills）；examples/banquet-twist/
+│   └── 漫剧漫画代码项目.md # 仅链接
+├── demos/shuohao-absorb/  # 烁皓吸收能力的中文演示索引（每条能力一条命令）
 ├── AGENTS.md / CLAUDE.md  # 给 AI Agent 的使用说明（能力、决策流程、命令）
-├── skills/ai-video-director/ # AI 导演 Skill：需求确认 → 选路线（①–⑥）→ 选素材 → 执行 → 质检；references/ 放长表
+├── skills/
+│   ├── ai-video-director/ # AI 导演 Skill：需求确认 → 选路线（①–⑥）→ 选素材 → 执行 → 质检；references/ 放长表
+│   ├── character-refs/    # 角色参考图 skill（BYO 出图）；examples/阿禾-*
+│   └── novel-outline/     # 小说改编大纲五件套 + 14 道代码门；examples/渡口-*
 ├── router/                # AI 导演路由器 CLI（无依赖）：题材 → 方案；tests、examples/
 ├── catalog/               # 外部项目目录：registry.json（机器可读，含 freshness / best_for / absorbed）+ 分类页面 + methodology.md + tools/usefor.py
 ├── animator/              # 手绘动画渲染器（Node + 浏览器 Canvas + ffmpeg），详见 animator/README.md
@@ -494,6 +538,10 @@ Star 数为 2026-10-08 查询值。
 - 预览视频的配音由 Kokoro-82M v1.1-zh（hexgrad，Apache-2.0）本地合成。TTS 模型、视频模型均不随仓库分发；API key 由用户自己提供（`.env`，不进 git）。
 
 ## 相关文档
+
+- [CHANGELOG.md](CHANGELOG.md) — 中文变更记录（含烁皓吸收）
+- [README.zh.md](README.zh.md) — 中文能力速查（与本页同步，偏吸收与演示）
+- [demos/shuohao-absorb/README.md](demos/shuohao-absorb/README.md) — 烁皓吸收演示索引
 
 - [分镜提示词手册（AI 漫剧 / 真人剧）](docs/分镜提示词手册.md)
 - [Seedance 分镜提示词 Skill](docs/skill/SKILL.md)
