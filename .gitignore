@@ -52,3 +52,8 @@ slides2video/**/out/
 
 # skill local config (character-refs etc.)
 **/config.local.json
+
+# shuohao-export demo outputs
+tools/shuohao-export/examples/*/out/
+demos/shuohao-absorb/out/
+

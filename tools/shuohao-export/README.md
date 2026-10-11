@@ -38,3 +38,15 @@ node tools/shuohao-export/cli.mjs board work/shots.json --out work/board.json
 - 角色真出参考图：`skills/character-refs/`（同来源，BYO 出图后端）。
 - 小说改编大纲：`skills/novel-outline/`。
 - 方法论摘要（角色三档、空景无人、冷开场前 3 拍）：`catalog/methodology.md`。
+
+## 演示
+
+| 路径 | 内容 |
+|---|---|
+| [`examples/banquet-twist/`](examples/banquet-twist/) | 短 Markdown 分镜 + 预置 `shots.json` + `run_demo.sh`（plan→validate→H3/Seedance） |
+| [`../../demos/shuohao-absorb/`](../../demos/shuohao-absorb/README.md) | 全部吸收能力的中文索引 |
+
+```bash
+bash tools/shuohao-export/examples/banquet-twist/run_demo.sh /tmp/shuohao-demo
+```
+
